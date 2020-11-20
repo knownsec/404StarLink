@@ -48,25 +48,25 @@ Not only large tools which break security barriers，various small tools that op
 
 - Open-Projects
     
-    - [antSword](#antSword)
+    - [antSword](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#antSword)
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Nodejs-blue)
         - 中国蚁剑是一款开源的跨平台网站管理工具，一个所有安全从业者都不应该错过的开源项目。
-    - [kunpeng](#kunpeng)
+    - [kunpeng](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#kunpeng)
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Go-blue)
-    - Kunpeng是一个Golang编写的开源POC检测框架。
-    - [myscan](#myscan)
+    	- Kunpeng是一个Golang编写的开源POC检测框架。
+    - [myscan](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#myscan)
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Language-Python-blue)
         - myscan由python3开发而成的被动扫描工具。
     
 - Fun-tools
-    - [java-object-searcher](#java-object-searcher)
+    - [java-object-searcher](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#java-object-searcher)
         
         - ![](https://img.shields.io/badge/Positivity-TBD-yellow) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Java-blue)
         - java内存对象搜索辅助工具，配合IDEA在Java应用运行时，对内存中的对象进行搜索。比如可以可以用挖掘request对象用于回显等场景。
-    - [Juggler](#Juggler)
+    - [Juggler](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#juggler)
         - ![](https://img.shields.io/badge/Positivity-TBD-yellow) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Language-Go-blue)
         - 一个也许能骗到黑客的系统。可以作为WAF等防护体系的一环。
-    - [Redis Rogue Server](https://github.com/Dliv3/redis-rogue-server)
+    - [Redis Rogue Server](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#redis-rogue-server)
         - ![](https://img.shields.io/badge/Positivity-TBD-yellow) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Language-Python-blue)
         
         - Redis 4.x/Redis 5.x RCE利用脚本. 

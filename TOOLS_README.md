@@ -6,8 +6,8 @@
   * [myscan](#myscan)
 * [Fun-tools](#Fun-tools)
   * [java-object-searcher](#java-object-searcher)
-  * [Juggler](#Juggler)
-  * [Redis Rogue Server](#Redis Rogue Server)
+  * [Juggler](#juggler)
+  * [Redis Rogue Server](#redis-rogue-server)
 
 
 # Open-Projects
