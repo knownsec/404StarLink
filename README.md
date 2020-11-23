@@ -4,8 +4,6 @@
 
 ![](./logo.png)
 
-
-
 The 404 Starlink Project was started by Knownsec 404Team in 2020. We aim to denfend network and promote the  Instrumentalizing  of security research in different fields through open source or open methods. Just like Starlink, this project will link researchers with different security background.
 
 Not only large tools which break security barriers，various small tools that optimizing the daily experience are included. We will open all tools developed by 404 Team, and continue to collect pain points in the process of security research and penetration testing.  The security field used to have various problems, like   tools jumbled, different levels obvious, and open source be unmaintained. Through the 404 Starlink Project, we wish security field would become a better place where people like to communicate and progress together.
@@ -47,7 +45,7 @@ Not only large tools which break security barriers，various small tools that op
 # Contents
 
 - Open-Projects
-    
+  
     - [antSword](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#antSword)
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Nodejs-blue)
         - 中国蚁剑是一款开源的跨平台网站管理工具，一个所有安全从业者都不应该错过的开源项目。
@@ -60,7 +58,7 @@ Not only large tools which break security barriers，various small tools that op
     
 - Fun-tools
     - [java-object-searcher](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#java-object-searcher)
-        
+      
         - ![](https://img.shields.io/badge/Positivity-TBD-yellow) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Java-blue)
         - java内存对象搜索辅助工具，配合IDEA在Java应用运行时，对内存中的对象进行搜索。比如可以可以用挖掘request对象用于回显等场景。
     - [Juggler](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#juggler)
@@ -68,7 +66,6 @@ Not only large tools which break security barriers，various small tools that op
         - 一个也许能骗到黑客的系统。可以作为WAF等防护体系的一环。
     - [Redis Rogue Server](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#redis-rogue-server)
         - ![](https://img.shields.io/badge/Positivity-TBD-yellow) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Language-Python-blue)
-        
         - Redis 4.x/Redis 5.x RCE利用脚本. 
         
           
@@ -86,6 +83,6 @@ Not only large tools which break security barriers，various small tools that op
 (1) 联系Seebug的各位小伙伴拉你入群，如：
 ![image-20200902105354031](./init1.png)
 
-(2) <del>扫描一下二维码添加我的个人微信</del>，会把大家拉到星链计划交流群中
+​	(2) 扫描一下二维码添加我的个人微信，会把大家拉到星链计划交流群中
 
-<img src="./wechat.png" alt="image-20200902105546332" style="zoom:50%;" />
+<img src="./init2.png" alt="image-20200902105546332" style="zoom:50%;" />
