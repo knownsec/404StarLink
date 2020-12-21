@@ -2,15 +2,15 @@
 
 ---
 
-![](./logo.png)
+![](./logo.png) 
 
 The 404 Starlink Project was started by Knownsec 404Team in 2020. We aim to denfend network and promote the  Instrumentalizing  of security research in different fields through open source or open methods. Just like Starlink, this project will link researchers with different security background.
 
 Not only large tools which break security barriers，various small tools that optimizing the daily experience are included. We will open all tools developed by 404 Team, and continue to collect pain points in the process of security research and penetration testing.  The security field used to have various problems, like   tools jumbled, different levels obvious, and open source be unmaintained. Through the 404 Starlink Project, we wish security field would become a better place where people like to communicate and progress together.
 
-[“404星链计划”](https://github.com/knownsec/404StarLink-Project)是知道创宇404实验室于2020年8月开始的计划，旨在通过开源或者开放的方式，**长期维护**并推进涉及安全研究各个领域不同环节的工具化，就像星链一样，将立足于不同安全领域、不同安全环节的研究人员链接起来。
+[“404星链计划”](https://github.com/knownsec/404StarLink-Project) 是知道创宇404实验室于2020年8月开始的计划，旨在通过开源或者开放的方式，**长期维护**并推进涉及安全研究各个领域不同环节的工具化，就像星链一样，将立足于不同安全领域、不同安全环节的研究人员链接起来。
 
-[“404星链计划”](https://github.com/knownsec/404StarLink-Project)主要目的是改善安全圈内工具庞杂、水平层次不齐、开源无人维护的多种问题，营造一个更好更开放的安全工具促进与交流的技术氛围。
+[“404星链计划”](https://github.com/knownsec/404StarLink-Project) 主要目的是改善安全圈内工具庞杂、水平层次不齐、开源无人维护的多种问题，营造一个更好更开放的安全工具促进与交流的技术氛围。
 
 2020年11月，知道创宇404实验室正式推出星链计划2.0。通过星链计划核心社群成员作为核心，筛选**优质、有意义、有趣、坚持维护**的开源项目加入星链计划2.0，由404实验室核心成员及星链计划核心成员作为背书，将优质的开源项目汇聚成星河，为立足于不同安全领域的安全研究人员指明方向。代号**Galaxy**。
 
@@ -26,7 +26,7 @@ Not only large tools which break security barriers，various small tools that op
 - 坚持维护
 - 通过由404实验室以及星链计划核心成员组成的审阅组审阅
 
-入选项目将由代码质量、技术难度、新颖度等多个维度评价打分(满分5星)，是否坚持维护将作为最重要的评价标准。入选Open-Projects的项目不得超过1年未更新，且超过6个月未更新的项目只能获得上限为4星的评价。入选Fun-Tools分类的开源项目由星链计划2.0核心社群成员判定当前的维护状态，被判定为未维护的项目将会被从星链计划中去除。
+入选项目将由代码质量、技术难度、新颖度等多个维度评价打分(满分5星) ，是否坚持维护将作为最重要的评价标准。入选Open-Projects的项目不得超过1年未更新，且超过6个月未更新的项目只能获得上限为4星的评价。入选Fun-Tools分类的开源项目由星链计划2.0核心社群成员判定当前的维护状态，被判定为未维护的项目将会被从星链计划中去除。
 
 参与星链计划2.0的开源项目可以借由星链计划社群与开发者直接沟通，真正将研究人员和开发人员连在一起。
 
@@ -49,15 +49,15 @@ Not only large tools which break security barriers，various small tools that op
     - 在攻击发生之前识别，如流量分析等 
 - Mitigation measures 缓解措施
     - 在攻击发生之中缓解威胁，如hids，waf等
-    - [Juggler](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#juggler)
-        - ![](https://img.shields.io/badge/Positivity-TBD-yellow)![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow)![](https://img.shields.io/badge/Author-C4o-orange)![](https://img.shields.io/badge/Language-Go-blue)
+    - [Juggler](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#juggler) 
+        - ![](https://img.shields.io/badge/Positivity-TBD-yellow) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Author-C4o-orange) ![](https://img.shields.io/badge/Language-Go-blue) 
         - 一个也许能骗到黑客的系统。可以作为WAF等防护体系的一环。
 - Security inspection 安全检测
     - 对目标的安全检测，主要集中在对不同链路的主动安全检测
 - Security Monitor 安全监控
     - 对某个安全链路的安全监控、管理平台
-    - [gshark](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#gshark-) ![](https://img.shields.io/badge/-New-red)
-    	- ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green)![](https://img.shields.io/badge/Author-madneal-orange)![](https://img.shields.io/badge/Language-Go-blue)
+    - [gshark](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#gshark-) ![](https://img.shields.io/badge/-New-red) 
+    	- ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-madneal-orange) ![](https://img.shields.io/badge/Language-Go-blue) 
     	- 一款开源敏感信息监测系统，支持github、gitlab、searchcode
 
 ## 乙方工具向
@@ -68,39 +68,39 @@ Not only large tools which break security barriers，various small tools that op
 - Vulnerability Assessment 漏洞探测
   
     - 对目标的各类漏洞探测扫描
-    - [kunpeng](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#kunpeng)
-        - ![](https://img.shields.io/badge/Positivity-TBD-yellow) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green)![](https://img.shields.io/badge/Author-opensec_cn-orange) ![](https://img.shields.io/badge/Language-Go-blue)
+    - [kunpeng](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#kunpeng) 
+        - ![](https://img.shields.io/badge/Positivity-TBD-yellow) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-opensec_cn-orange) ![](https://img.shields.io/badge/Language-Go-blue) 
     	- Kunpeng是一个Golang编写的开源POC检测框架。
-    - [myscan](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#myscan)
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow)![](https://img.shields.io/badge/Author-amcai-orange) ![](https://img.shields.io/badge/Language-Python-blue)
+    - [myscan](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#myscan) 
+        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Author-amcai-orange) ![](https://img.shields.io/badge/Language-Python-blue) 
         - myscan由python3开发而成的被动扫描工具。
     
 - Penetration Test 攻击与利用
     - 在实际渗透测试过程中涉及到的工具
-    - [Redis Rogue Server](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#redis-rogue-server)
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%e2%98%86-yellow)![](https://img.shields.io/badge/Author-Dliv3-orange)![](https://img.shields.io/badge/Language-Python-blue)
+    - [Redis Rogue Server](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#redis-rogue-server) 
+        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Author-Dliv3-orange) ![](https://img.shields.io/badge/Language-Python-blue) 
         - Redis 4.x/Redis 5.x RCE利用脚本. 
     
 - Information analysis 信息分析
     - 对在渗透测试中获取到的各种信息做分析
-    - [java-object-searcher](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#java-object-searcher)
+    - [java-object-searcher](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#java-object-searcher) 
       
-        - ![](https://img.shields.io/badge/Positivity-In-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green)![](https://img.shields.io/badge/Author-c0ny1-orange) ![](https://img.shields.io/badge/Language-Java-blue)
+        - ![](https://img.shields.io/badge/Positivity-In-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-c0ny1-orange) ![](https://img.shields.io/badge/Language-Java-blue) 
         - java内存对象搜索辅助工具，配合IDEA在Java应用运行时，对内存中的对象进行搜索。比如可以可以用挖掘request对象用于回显等场景。
-	-  [HackBrowserData](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#hackbrowserdata-) ![](https://img.shields.io/badge/-New-red)
-		-  ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green)![](https://img.shields.io/badge/Author-moonD4rk-orange) ![](https://img.shields.io/badge/Language-Go-blue)
+	-  [HackBrowserData](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#hackbrowserdata-) ![](https://img.shields.io/badge/-New-red) 
+		-  ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-moonD4rk-orange) ![](https://img.shields.io/badge/Language-Go-blue) 
 		-  一款可全平台运行的浏览器数据导出解密工具
-	- [frida-skeleton](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#frida-skeleton-) ![](https://img.shields.io/badge/-New-red)
-		- ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green)![](https://img.shields.io/badge/Author-Margular-orange) ![](https://img.shields.io/badge/Language-Python-blue)
+	- [frida-skeleton](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#frida-skeleton-) ![](https://img.shields.io/badge/-New-red) 
+		- ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-Margular-orange) ![](https://img.shields.io/badge/Language-Python-blue) 
 		- 基于Frida完成的一个更简单易用的安卓hook框架
-	- [MySQLMonitor & FileMonitor](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#mysqlmonitor--filemonitor-) ![](https://img.shields.io/badge/-New-red)
-	- 	- ![](https://img.shields.io/badge/Positivity-IN-green) ![![](https://img.shields.io/badge/Author-madneal-orange)](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Author-TheKingofDuck-orange)![](https://img.shields.io/badge/Language-Java|Python-blue)
+	- [MySQLMonitor & FileMonitor](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#mysqlmonitor--filemonitor-) ![](https://img.shields.io/badge/-New-red) 
+	- 	- ![](https://img.shields.io/badge/Positivity-IN-green) ![![](https://img.shields.io/badge/Author-madneal-orange) ](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Author-TheKingofDuck-orange) ![](https://img.shields.io/badge/Language-Java|Python-blue) 
 		- MySQL实时监控工具 & 文件变化实时监控工具
 
 - Back-penetration, intranet tools  后渗透、内网工具
     - 在渗透测试后涉及到的权限维持，或者内网渗透涉及到的工具
-    - [antSword](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#antSword)
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-AntSwordProject-orange)![](https://img.shields.io/badge/Language-Nodejs-blue)
+    - [antSword](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#antSword) 
+        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-AntSwordProject-orange) ![](https://img.shields.io/badge/Language-Nodejs-blue) 
         - 中国蚁剑是一款开源的跨平台网站管理工具，一个所有安全从业者都不应该错过的开源项目。
     
 - Others 其他相关
@@ -112,14 +112,14 @@ Not only large tools which break security barriers，various small tools that op
 
 如果有问题可以在各项目下提交issue，如果有不错的工具推荐，可以向github提交issue, 也可以添加下方的讨论组中参与讨论。
 
-1、Github issue: [https://github.com/knownsec/404StarLink2.0-Galaxy/issues](https://github.com/knownsec/404StarLink2.0-Galaxy/issues)
+1、Github issue: [https://github.com/knownsec/404StarLink2.0-Galaxy/issues](https://github.com/knownsec/404StarLink2.0-Galaxy/issues) 
 
 2、微信群：
 
 微信群有两种添加方式：
 
 (1) 联系Seebug的各位小伙伴拉你入群，如：
-![image-20200902105354031](./init1.png)
+![image-20200902105354031](./init1.png) 
 
 (2) 扫描一下二维码添加我的个人微信，并备注**星链计划**，会把大家拉到星链计划交流群中
 
