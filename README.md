@@ -56,7 +56,7 @@ Not only large tools which break security barriers，various small tools that op
     - 对目标的安全检测，主要集中在对不同链路的主动安全检测
 - Security Monitor 安全监控
     - 对某个安全链路的安全监控、管理平台
-    - [gshark](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#gshark) ![](https://img.shields.io/badge/-New-red)
+    - [gshark](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#gshark-) ![](https://img.shields.io/badge/-New-red)
     	- ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Go-blue)
     	- 一款开源敏感信息监测系统，支持github、gitlab、searchcode
 
@@ -87,13 +87,13 @@ Not only large tools which break security barriers，various small tools that op
       
         - ![](https://img.shields.io/badge/Positivity-In-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Java-blue)
         - java内存对象搜索辅助工具，配合IDEA在Java应用运行时，对内存中的对象进行搜索。比如可以可以用挖掘request对象用于回显等场景。
-	-  [HackBrowserData](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#hackbrowserdata) ![](https://img.shields.io/badge/-New-red)
+	-  [HackBrowserData](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#hackbrowserdata-) ![](https://img.shields.io/badge/-New-red)
 		-  ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Go-blue)
 		-  一款可全平台运行的浏览器数据导出解密工具
-	- [frida-skeleton](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#frida-skeleton) ![](https://img.shields.io/badge/-New-red)
+	- [frida-skeleton](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#frida-skeleton-) ![](https://img.shields.io/badge/-New-red)
 		- ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Python-blue)
 		- 基于Frida完成的一个更简单易用的安卓hook框架
-	- [MySQLMonitor & FileMonitor](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#mysqlmonitor--filemonitor) ![](https://img.shields.io/badge/-New-red)
+	- [MySQLMonitor & FileMonitor](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#mysqlmonitor--filemonitor-) ![](https://img.shields.io/badge/-New-red)
 	- 	- ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Language-Java|Python-blue)
 		- MySQL实时监控工具 & 文件变化实时监控工具
 
