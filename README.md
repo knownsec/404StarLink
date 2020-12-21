@@ -36,7 +36,7 @@ Not only large tools which break security barriers，various small tools that op
 
 # Rules
 
-- Positivity: 积极度，3个月内存在更新的将被标记为In，3-6个月内存在更新将被标记为TBD，6个月-1年存在更新的被标记为OUT.
+- Positivity: 积极度，工具正处于积极维护期的项目将被标记为In，正出于弱维护期的项目将被标记为TBD，已经不再维护的的项目将被标记为OUT.
 
 - Score: Open-Projects的评分上限为5星，Fun-tools的评分上限为4星.
 
