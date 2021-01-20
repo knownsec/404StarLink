@@ -9,19 +9,31 @@
     * [gshark](#gshark-) 
 * [乙方工具向](#%E4%B9%99%E6%96%B9%E5%B7%A5%E5%85%B7%E5%90%91) 
   * [Reconnaissance 信息收集](#reconnaissance-%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86) 
+    * [HaE](#hae) 
+    * [zsdevX/DarkEye](#zsdevX/DarkEye) 
+    * [Glass](#Glass) 
+    * [AppInfoScanner](#AppInfoScanner) 
+  
   * [Vulnerability Assessment 漏洞探测](#vulnerability-assessment-%E6%BC%8F%E6%B4%9E%E6%8E%A2%E6%B5%8B) 
     * [Kunpeng](#kunpeng) 
     * [myscan](#myscan) 
+    
   * [Penetration Test 攻击与利用](#penetration-test-%E6%94%BB%E5%87%BB%E4%B8%8E%E5%88%A9%E7%94%A8) 
+    
     * [Redis Rogue Server](#redis-rogue-server) 
+    
   * [Information analysis 信息分析](#information-analysis-%E4%BF%A1%E6%81%AF%E5%88%86%E6%9E%90) 
     * [java\-object\-searcher](#java-object-searcher) 
     * [HackBrowserData](#hackbrowserdata-) 
     * [frida\-skeleton](#frida-skeleton-) 
     * [MySQLMonitor &amp; FileMonitor](#mysqlmonitor--filemonitor-) 
+    
   * [Back\-penetration, intranet tools  后渗透、内网工具](#back-penetration-intranet-tools--%E5%90%8E%E6%B8%97%E9%80%8F%E5%86%85%E7%BD%91%E5%B7%A5%E5%85%B7) 
+    
     * [antSword](#antsword) 
+    
   * [Others 其他相关](#others-%E5%85%B6%E4%BB%96%E7%9B%B8%E5%85%B3) 
+    * [passive-scan-client](#passive-scan-client) 
 
 # 甲方工具向
 
@@ -65,7 +77,7 @@ https://github.com/C4o/Juggler
 
 对某个安全链路的安全监控、管理平台
 
-### [gshark](https://github.com/madneal/gshark) ![](https://img.shields.io/badge/-New-red) 
+### [gshark](https://github.com/madneal/gshark) 
 
 ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-madneal-orange) ![](https://img.shields.io/badge/Language-Go-blue) 
 
@@ -87,6 +99,70 @@ https://github.com/madneal/gshark
 ## Reconnaissance 信息收集
 
 在渗透测试前置准备工作过程种涉及到的各类信息收集
+
+## [HaE](https://github.com/gh0stkey/HaE)
+
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Author-gh0stkey-orange) ![](https://img.shields.io/badge/Language-Java-blue) 
+
+##### 项目链接：
+
+https://github.com/gh0stkey/HaE
+
+##### 项目简述：
+HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件
+
+##### 推荐评语：
+
+如果说为了挖掘资产和敏感信息用专用的工具太过繁重，那选择一个burp插件不失为一个好的选择，作者整理的大量指纹也是项目的一个很大的亮点。
+
+
+## [zsdevX/DarkEye](https://github.com/zsdevX/DarkEye)
+
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-zsdevX-orange) ![](https://img.shields.io/badge/Language-Go-blue) 
+
+##### 项目链接：
+
+https://github.com/zsdevX/DarkEye
+
+##### 项目简述：
+基于go完成的渗透测试信息收集利器
+
+##### 推荐评语：
+
+信息收集作为渗透测试的前置步骤一直以来都繁琐复杂，这个工具很好的集成了多个功能以及api来完成这一步，且内置图形界面的工具会让使用者的体验大大提升。
+
+
+## [Glass](https://github.com/s7ckTeam/Glass)
+
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Author-s7ckTeam-orange)  ![](https://img.shields.io/badge/Language-Python-blue) 
+
+##### 项目链接：
+
+https://github.com/s7ckTeam/Glass
+
+##### 项目简述：
+Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/ZoomEye/Shodan/360等api接口快速查询资产信息并识别重点资产的指纹，也可针对IP/IP段或资产列表进行快速的指纹识别。
+
+##### 推荐评语：
+
+如果从大量杂乱的信息收集结果中提取有用的系统是一个亘古不变的话题，足够的指纹识别+多来源的数据不失为一个有效的手段。
+
+## [AppInfoScanner](https://github.com/kelvinBen/AppInfoScanner)
+
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Python-blue) ![](https://img.shields.io/badge/Author-kelvinBen-orange)
+
+##### 项目链接：
+
+https://github.com/kelvinBen/AppInfoScanner
+
+##### 项目简述：
+一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。
+
+##### 推荐评语：
+
+从移动端APP(Android,iOS)中收集信息是在渗透测试过程中很容易忽略的一个点，如果有一个合适的工具来完成它那么最合适不过了。
+
+
 
 ## Vulnerability Assessment 漏洞探测
 
@@ -237,3 +313,13 @@ https://github.com/AntSwordProject/antSword
 
 其他安全链路下的安全类工具
 
+## [passive-scan-client](https://github.com/c0ny1/passive-scan-client)
+
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Language-Java-blue) ![](https://img.shields.io/badge/Author-c0ny1-orange)
+
+##### 项目链接：
+
+https://github.com/c0ny1/passive-scan-client
+
+##### 项目简述：
+Passive Scan Client是一款可以将经过筛选的流量转发到指定代理的Burp被动扫描流量转发插件
