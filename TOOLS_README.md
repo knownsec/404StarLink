@@ -359,7 +359,7 @@ https://github.com/AntSwordProject/antSword
 
 ### [ServerScan](https://github.com/Adminisme/ServerScan)  ![](https://img.shields.io/badge/-New-red) 
 
-![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Go-blue) ![](https://img.shields.io/badge/Author-Adminisme-orange)
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Go-blue) ![](https://img.shields.io/badge/Author-Trim-orange)
 
 ##### 项目链接：
 
