@@ -126,7 +126,7 @@ Not only large tools which break security barriers，various small tools that op
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-AntSwordProject-orange) ![](https://img.shields.io/badge/Language-Nodejs-blue) 
         - 中国蚁剑是一款开源的跨平台网站管理工具，一个所有安全从业者都不应该错过的开源项目。
     - [ServerScan](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#serverscan--) ![](https://img.shields.io/badge/-New-red) 
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Go-blue) ![](https://img.shields.io/badge/Author-Adminisme-orange)
+        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Go-blue) ![](https://img.shields.io/badge/Author-Trim-orange)
         - 一款使用Golang开发且适用于攻防演习内网横向信息收集的高并发网络扫描、服务探测工具。
     
 - Others 其他相关
