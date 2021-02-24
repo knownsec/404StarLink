@@ -78,7 +78,7 @@ Not only large tools which break security barriers，various small tools that op
     	- 一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具。
 
 	- [ZoomEye-go](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#zoomeye-go-) ![](https://img.shields.io/badge/-New-red) 
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Go-blue) ![](https://img.shields.io/badge/Author-gyyyy-orange)
+        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green)  ![](https://img.shields.io/badge/Author-gyyyy-orange) ![](https://img.shields.io/badge/Language-Go-blue)
         - ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 命令行模式。
 
 - Vulnerability Assessment 漏洞探测
@@ -97,10 +97,10 @@ Not only large tools which break security barriers，various small tools that op
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Author-Dliv3-orange) ![](https://img.shields.io/badge/Language-Python-blue) 
         - Redis 4.x/Redis 5.x RCE利用脚本. 
     - [CDK](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#cdk-) ![](https://img.shields.io/badge/-New-red) 
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Go-blue) ![](https://img.shields.io/badge/Author-cdkteam-orange)
+        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-cdkteam-orange) ![](https://img.shields.io/badge/Language-Go-blue)
         - CDK是一款为容器环境定制的渗透测试工具。
     - [MysqlT & WhetherMysqlSham](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#mysqlt--whethermysqlsham-) ![](https://img.shields.io/badge/-New-red) 
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-C%23-blue) ![](https://img.shields.io/badge/Author-BeichenDream-orange)
+        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green)  ![](https://img.shields.io/badge/Author-BeichenDream-orange) ![](https://img.shields.io/badge/Language-C%23-blue)
         - MysqlT: 伪造Myslq服务端,并利用Mysql逻辑漏洞来获取客户端的任意文件反击攻击者。
         - WhetherMysqlSham：检测目标Mysql数据库是不是蜜罐。
     
@@ -126,7 +126,7 @@ Not only large tools which break security barriers，various small tools that op
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-AntSwordProject-orange) ![](https://img.shields.io/badge/Language-Nodejs-blue) 
         - 中国蚁剑是一款开源的跨平台网站管理工具，一个所有安全从业者都不应该错过的开源项目。
     - [ServerScan](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#serverscan--) ![](https://img.shields.io/badge/-New-red) 
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Go-blue) ![](https://img.shields.io/badge/Author-Trim-orange)
+        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-Trim-orange) ![](https://img.shields.io/badge/Language-Go-blue) 
         - 一款使用Golang开发且适用于攻防演习内网横向信息收集的高并发网络扫描、服务探测工具。
     
 - Others 其他相关
@@ -135,7 +135,7 @@ Not only large tools which break security barriers，various small tools that op
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Author-c0ny1-orange) ![](https://img.shields.io/badge/Language-Java-blue) 
         - Passive Scan Client是一款可以将经过筛选的流量转发到指定代理的Burp被动扫描流量转发插件。
     - [f8x](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#f8x--) ![](https://img.shields.io/badge/-New-red) 
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Bash-blue) ![](https://img.shields.io/badge/Author-ffffffff0x-orange)
+        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-ffffffff0x-orange) ![](https://img.shields.io/badge/Language-Bash-blue) 
         - 一款红/蓝队环境自动化部署工具,支持多种场景,渗透,开发,代理环境,服务可选项等。
 
       ​    
