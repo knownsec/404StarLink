@@ -155,4 +155,4 @@ Not only large tools which break security barriers，various small tools that op
 
 (2) 扫描一下二维码添加我的个人微信，并备注**星链计划**，会把大家拉到星链计划交流群中
 
-<img src="./init2.png" alt="image-20200902105546332" style="zoom:50%;" />
+<img src="./wechat.jpg" alt="image-20200902105546332" style="zoom:50%;" />
