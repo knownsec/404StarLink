@@ -53,12 +53,9 @@ Not only large tools which break security barriers，various small tools that op
 
 Zoomeye-python更新v2.0.4.1.
 ```
-
+<style>th{text-align:center}</style>
 <table>
 <thead>
-<tr>
-<th></th><th></th><th></th>
-</tr>
 </thead>
 <tbody>
 <tr>
