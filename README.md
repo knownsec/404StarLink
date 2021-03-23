@@ -33,14 +33,44 @@ Not only large tools which break security barriers，various small tools that op
 希望星链计划2.0能像北斗七星一样，引领安全研究人员前进的方向。
 
 
-
 # Rules
 
 - Positivity: 积极度，工具正处于积极维护期的项目将被标记为In，正出于弱维护期的项目将被标记为TBD，已经不再维护的的项目将被标记为OUT.
 
 - Score: Open-Projects的评分上限为5星，Fun-tools的评分上限为4星.
 
-  
+# Update
+
+这里会更新最近涉及更新的项目
+```
+2021.3.23
+
+星链计划2.0-Galaxy 收录 linglong、Viper、CodeReviewTools。
+```
+
+```
+2021.3.23
+
+Zoomeye-python更新v2.0.4.1.
+```
+
+<table>
+<thead>
+<tr>
+<th></th><th></th><th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2021.3.23</td><td colspan="2">Zoomeye-python</td>
+</tr>
+<tr>
+<td colspan="3">Zoomeye-python更新v2.0.4.1.</td>
+</tr>
+
+</tbody>
+<table>
+
 
 # Contents
 
@@ -144,11 +174,12 @@ Not only large tools which break security barriers，various small tools that op
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Author-c0ny1-orange) ![](https://img.shields.io/badge/Language-Java-blue) 
         - Passive Scan Client是一款可以将经过筛选的流量转发到指定代理的Burp被动扫描流量转发插件。
     - [f8x](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#f8x--)  
-        
+      
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-ffffffff0x-orange) ![](https://img.shields.io/badge/Language-Bash-blue) 
 - 一款红/蓝队环境自动化部署工具,支持多种场景,渗透,开发,代理环境,服务可选项等。
       
-      ​    
+  
+  ​        
 
 # Community
 
