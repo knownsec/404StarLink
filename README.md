@@ -54,8 +54,8 @@ Not only large tools which break security barriers，various small tools that op
         - 一个也许能骗到黑客的系统。可以作为WAF等防护体系的一环。
 - Security inspection 安全检测
     - 对目标的安全检测，主要集中在对不同链路的主动安全检测
-    - [linglong](https://github.com/awake1t/linglong) ![](https://img.shields.io/badge/-New-red)
-      - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Author-awake1t-orange) ![](https://img.shields.io/badge/Language-Golang-blue)
+    - [linglong](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#linglong-) ![](https://img.shields.io/badge/-New-red)
+      - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Author-awake1t-orange) ![](https://img.shields.io/badge/Language-Go-blue)
       - linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，进行端口爆破。帮助企业更快发现弱口令问题。主要功能包括: 资产探测、端口爆破、定时任务、管理后台识别、报表展示。
 - Security Monitor 安全监控
     - 对某个安全链路的安全监控、管理平台
@@ -106,7 +106,7 @@ Not only large tools which break security barriers，various small tools that op
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green)  ![](https://img.shields.io/badge/Author-BeichenDream-orange) ![](https://img.shields.io/badge/Language-C%23-blue)
         - MysqlT: 伪造Myslq服务端,并利用Mysql逻辑漏洞来获取客户端的任意文件反击攻击者。
         - WhetherMysqlSham：检测目标Mysql数据库是不是蜜罐。
-    - [Viper](https://github.com/FunnyWolf/Viper) ![](https://img.shields.io/badge/-New-red)
+    - [Viper](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#viper-) ![](https://img.shields.io/badge/-New-red)
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-JS/Python-blue) ![](https://img.shields.io/badge/Author-FunnyWolf-orange)
         - VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战术及技术进行模块化及武器化。
     
@@ -125,7 +125,7 @@ Not only large tools which break security barriers，various small tools that op
 	- [MySQLMonitor & FileMonitor](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#mysqlmonitor--filemonitor-)  
 	- 	- ![](https://img.shields.io/badge/Positivity-IN-green) ![![](https://img.shields.io/badge/Author-madneal-orange) ](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Author-TheKingofDuck-orange) ![](https://img.shields.io/badge/Language-Java|Python-blue) 
 		- MySQL实时监控工具 & 文件变化实时监控工具
-    - [CodeReviewTools](https://github.com/Ppsoft1991/CodeReviewTools) ![](https://img.shields.io/badge/-New-red)
+    - [CodeReviewTools](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#codereviewtools-) ![](https://img.shields.io/badge/-New-red)
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Language-Java-blue) ![](https://img.shields.io/badge/Author-Ppsoft1991-orange)
         - CodeReviewTools是一个可以快速批量反编译jar包的工具。
     
