@@ -77,6 +77,21 @@ https://github.com/C4o/Juggler
 
 对目标的安全检测，主要集中在对不同链路的主动安全检测
 
+### [linglong](https://github.com/awake1t/linglong) ![](https://img.shields.io/badge/-New-red)
+
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Language-Golang-blue) ![](https://img.shields.io/badge/Author-awake1t-orange)
+
+##### 项目链接：
+
+https://github.com/awake1t/linglong
+
+##### 项目简述：
+linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，进行端口爆破。帮助企业更快发现弱口令问题。主要功能包括: 资产探测、端口爆破、定时任务、管理后台识别、报表展示.
+
+##### 推荐评语：
+
+一个定位为甲方的扫描系统最重要的一点就是保持维护力度以及系统本身的稳定。如果你需要这样一个系统，参考linglong会是不错的选择。
+
 ## Security Monitor 安全监控
 
 对某个安全链路的安全监控、管理平台
@@ -166,7 +181,7 @@ https://github.com/kelvinBen/AppInfoScanner
 
 从移动端APP(Android,iOS)中收集信息是在渗透测试过程中很容易忽略的一个点，如果有一个合适的工具来完成它那么最合适不过了。
 
-### [ZoomEye-go](https://github.com/gyyyy/ZoomEye-go) ![](https://img.shields.io/badge/-New-red) 
+### [ZoomEye-go](https://github.com/gyyyy/ZoomEye-go) 
 
 ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Go-blue) ![](https://img.shields.io/badge/Author-gyyyy-orange)
 
@@ -237,7 +252,7 @@ Redis 4.x/Redis 5.x RCE利用脚本. 项目最初来源于[https://github.com/n0
 
 基于主从复制的Redis getshell方式出现之后，各种利用脚本也不断被开源出来，这个脚本是完善程度最高的。不但适配了5.0.8，且实现了主动连接模式和被动链接模式，非常实用。
 
-### [CDK](https://github.com/cdk-team/CDK) ![](https://img.shields.io/badge/-New-red) 
+### [CDK](https://github.com/cdk-team/CDK) 
 
 ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Go-blue) ![](https://img.shields.io/badge/Author-cdkteam-orange)
 
@@ -252,7 +267,7 @@ CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器�
 
 针对容器的渗透已经成了现代渗透中很重要的一环，而一款集成了各种场景以及漏洞的工具可以说是事半功倍了。
 
-### [MysqlT](https://github.com/BeichenDream/MysqlT) & [WhetherMysqlSham](https://github.com/BeichenDream/WhetherMysqlSham) ![](https://img.shields.io/badge/-New-red) 
+### [MysqlT](https://github.com/BeichenDream/MysqlT) & [WhetherMysqlSham](https://github.com/BeichenDream/WhetherMysqlSham) 
 
 ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-C%23-blue) ![](https://img.shields.io/badge/Author-BeichenDream-orange)
 
@@ -268,6 +283,21 @@ WhetherMysqlSham：检测目标Mysql数据库是不是蜜罐。
 ##### 推荐评语：
 
 针对Mysql客户端攻击可以说大家已经很熟悉了，Mysqlt可以在利用的过程中节省很多麻烦，相应的反制工具设计思路也非常有趣。
+
+### [Viper](https://github.com/FunnyWolf/Viper) ![](https://img.shields.io/badge/-New-red)
+
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-JS/Python-blue) ![](https://img.shields.io/badge/Author-FunnyWolf-orange)
+
+##### 项目链接：
+
+https://github.com/FunnyWolf/Viper
+
+##### 项目简述：
+VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战术及技术进行模块化及武器化。
+
+##### 推荐评语：
+
+一个好用的工具+靠谱的作者是一个开源项目成熟最关键的特点，在特殊的时期，你一定需要这样一个工具。
 
 ## Information analysis 信息分析
 对在渗透测试中获取到的各种信息做分析
@@ -337,6 +367,21 @@ MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具)
 
 这个项目可以说是很特别的一个小工具，很简单的实现方式却解决了很常见的场景，如果说开源项目最大的特点，那一定是特别的思路解决特别的痛点。
 
+### [CodeReviewTools](https://github.com/Ppsoft1991/CodeReviewTools) ![](https://img.shields.io/badge/-New-red)
+
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Language-Java-blue) ![](https://img.shields.io/badge/Author-Ppsoft1991-orange)
+
+##### 项目链接：
+
+https://github.com/Ppsoft1991/CodeReviewTools
+
+##### 项目简述：
+CodeReviewTools是一个可以快速批量反编译jar包的工具，为审计Java代码做好第一步。
+
+##### 推荐评语：
+
+如果你从事过Java的代码审计，你总会遇到代码和jar包混用、大量的jar包需要反编译、知道class名却不知道具体位置等等各种场景，为什么不选择一个好用的工具来帮你呢？
+
 ## Back-penetration, intranet tools  后渗透、内网工具
 
 在渗透测试后涉及到的权限维持，或者内网渗透涉及到的工具
@@ -357,7 +402,7 @@ https://github.com/AntSwordProject/antSword
 
 一个真正的安全从业人员，那他一定不应该错过蚁剑。一个成熟、稳定的开源项目。
 
-### [ServerScan](https://github.com/Adminisme/ServerScan)  ![](https://img.shields.io/badge/-New-red) 
+### [ServerScan](https://github.com/Adminisme/ServerScan)   
 
 ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Go-blue) ![](https://img.shields.io/badge/Author-Trim-orange)
 
@@ -387,7 +432,7 @@ https://github.com/c0ny1/passive-scan-client
 ##### 项目简述：
 Passive Scan Client是一款可以将经过筛选的流量转发到指定代理的Burp被动扫描流量转发插件
 
-### [f8x](https://github.com/ffffffff0x/f8x)  ![](https://img.shields.io/badge/-New-red) 
+### [f8x](https://github.com/ffffffff0x/f8x)   
 
 ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Bash-blue) ![](https://img.shields.io/badge/Author-ffffffff0x-orange)
 
