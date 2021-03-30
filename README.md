@@ -43,6 +43,14 @@ Not only large tools which break security barriers，various small tools that op
 
 这里会更新最近涉及更新的项目
 
+- 2021.3.28 [**f8x**](https://github.com/ffffffff0x/f8x)
+
+  ​	fax 更新1.4.8
+
+- 2021.3.28 [**antSword**](https://github.com/AntSwordProject/antSword)
+
+  ​	antSword 更新v2.1.11
+
 - 2021.3.28 [**Viper**](https://github.com/FunnyWolf/Viper)
 
   ​	Viper 更新 v1.3.0 20210328
