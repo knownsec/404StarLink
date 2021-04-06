@@ -32,6 +32,8 @@ Not only large tools which break security barriers，various small tools that op
 
 希望星链计划2.0能像北斗七星一样，引领安全研究人员前进的方向。
 
+[![Stargazers over time](https://starchart.cc/knownsec/404StarLink2.0-Galaxy.svg)](https://starchart.cc/knownsec/404StarLink2.0-Galaxy)
+
 
 # Rules
 
@@ -43,17 +45,21 @@ Not only large tools which break security barriers，various small tools that op
 
 这里会更新最近涉及更新的项目
 
-- 2021.3.28 [**f8x**](https://github.com/ffffffff0x/f8x)
+- 2021.4.6 [**f8x**](https://github.com/ffffffff0x/f8x)
 
-  ​	fax 更新1.4.8
+  ​	fax 更新1.4.9
+
+- 2021.4.4 [**Viper**](https://github.com/FunnyWolf/Viper)
+
+  ​	Viper 更新 v1.3.1 新增反溯源配置
+
+- 2021.3.31 [**ZoomEye-go**](https://github.com/gyyyy/ZoomEye-go)
+
+  ​	ZoomEye-go 更新history命令用于查询设备历史数据。
 
 - 2021.3.28 [**antSword**](https://github.com/AntSwordProject/antSword)
 
-  ​	antSword 更新v2.1.11
-
-- 2021.3.28 [**Viper**](https://github.com/FunnyWolf/Viper)
-
-  ​	Viper 更新 v1.3.0 20210328
+  ​	antSword 更新v2.1.11.1
 
 - 2021.3.23 [**星链计划2.0-Galaxy**](https://github.com/knownsec/404StarLink2.0-Galaxy)
 
