@@ -87,7 +87,7 @@ Not only large tools which break security barriers，various small tools that op
       - linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，进行端口爆破。帮助企业更快发现弱口令问题。主要功能包括: 资产探测、端口爆破、定时任务、管理后台识别、报表展示。
 - Security Monitor 安全监控
     - 对某个安全链路的安全监控、管理平台
-    - [gshark](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#gshark-)
+    - [gshark](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#gshark)
     	- ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-madneal-orange) ![](https://img.shields.io/badge/Language-Go-blue) 
     	- 一款开源敏感信息监测系统，支持github、gitlab、searchcode
 
@@ -127,10 +127,10 @@ Not only large tools which break security barriers，various small tools that op
     - [Redis Rogue Server](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#redis-rogue-server) 
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Author-Dliv3-orange) ![](https://img.shields.io/badge/Language-Python-blue) 
         - Redis 4.x/Redis 5.x RCE利用脚本. 
-    - [CDK](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#cdk-)  
+    - [CDK](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#cdk)  
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-cdkteam-orange) ![](https://img.shields.io/badge/Language-Go-blue)
         - CDK是一款为容器环境定制的渗透测试工具。
-    - [MysqlT & WhetherMysqlSham](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#mysqlt--whethermysqlsham-) ![](https://img.shields.io/badge/-New-red) 
+    - [MysqlT & WhetherMysqlSham](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#mysqlt--whethermysqlsham) ![](https://img.shields.io/badge/-New-red) 
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green)  ![](https://img.shields.io/badge/Author-BeichenDream-orange) ![](https://img.shields.io/badge/Language-C%23-blue)
         - MysqlT: 伪造Myslq服务端,并利用Mysql逻辑漏洞来获取客户端的任意文件反击攻击者。
         - WhetherMysqlSham：检测目标Mysql数据库是不是蜜罐。
@@ -144,13 +144,13 @@ Not only large tools which break security barriers，various small tools that op
       
         - ![](https://img.shields.io/badge/Positivity-In-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-c0ny1-orange) ![](https://img.shields.io/badge/Language-Java-blue) 
         - java内存对象搜索辅助工具，配合IDEA在Java应用运行时，对内存中的对象进行搜索。比如可以可以用挖掘request对象用于回显等场景。
-	-  [HackBrowserData](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#hackbrowserdata-) 
+	-  [HackBrowserData](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#hackbrowserdata) 
 		-  ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-moonD4rk-orange) ![](https://img.shields.io/badge/Language-Go-blue) 
 		-  一款可全平台运行的浏览器数据导出解密工具
-	- [frida-skeleton](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#frida-skeleton-) 
+	- [frida-skeleton](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#frida-skeleton) 
 		- ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-Margular-orange) ![](https://img.shields.io/badge/Language-Python-blue) 
 		- 基于Frida完成的一个更简单易用的安卓hook框架
-	- [MySQLMonitor & FileMonitor](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#mysqlmonitor--filemonitor-)  
+	- [MySQLMonitor & FileMonitor](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#mysqlmonitor--filemonitor)  
 	- 	- ![](https://img.shields.io/badge/Positivity-IN-green) ![![](https://img.shields.io/badge/Author-madneal-orange) ](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Author-TheKingofDuck-orange) ![](https://img.shields.io/badge/Language-Java|Python-blue) 
 		- MySQL实时监控工具 & 文件变化实时监控工具
     - [CodeReviewTools](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#codereviewtools-) ![](https://img.shields.io/badge/-New-red)
@@ -162,7 +162,7 @@ Not only large tools which break security barriers，various small tools that op
     - [antSword](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#antSword) 
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-AntSwordProject-orange) ![](https://img.shields.io/badge/Language-Nodejs-blue) 
         - 中国蚁剑是一款开源的跨平台网站管理工具，一个所有安全从业者都不应该错过的开源项目。
-    - [ServerScan](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#serverscan--)  
+    - [ServerScan](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#serverscan)  
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-Trim-orange) ![](https://img.shields.io/badge/Language-Go-blue) 
         - 一款使用Golang开发且适用于攻防演习内网横向信息收集的高并发网络扫描、服务探测工具。
     
@@ -171,9 +171,8 @@ Not only large tools which break security barriers，various small tools that op
     - [passive-scan-client](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#passive-scan-client)
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Author-c0ny1-orange) ![](https://img.shields.io/badge/Language-Java-blue) 
         - Passive Scan Client是一款可以将经过筛选的流量转发到指定代理的Burp被动扫描流量转发插件。
-    - [f8x](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#f8x--)  
-      
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-ffffffff0x-orange) ![](https://img.shields.io/badge/Language-Bash-blue) 
+    - [f8x](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#f8x)  
+      - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-ffffffff0x-orange) ![](https://img.shields.io/badge/Language-Bash-blue) 
 - 一款红/蓝队环境自动化部署工具,支持多种场景,渗透,开发,代理环境,服务可选项等。
       
   
