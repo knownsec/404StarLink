@@ -45,29 +45,22 @@ Not only large tools which break security barriers，various small tools that op
 
 这里会更新最近涉及更新的项目
 
-- 2021.4.6 [**f8x**](https://github.com/ffffffff0x/f8x)
+- 2021.4.9 [**Zoomeye-python**](https://github.com/knownsec/ZoomEye-python)
 
-  ​	fax 更新1.4.9
+  ​	ZoomEye-python 更新v2.0.4.6
 
-- 2021.4.4 [**Viper**](https://github.com/FunnyWolf/Viper)
+- 2021.4.8 [**f8x**](https://github.com/ffffffff0x/f8x)
 
-  ​	Viper 更新 v1.3.1 新增反溯源配置
+  ​	fax 更新v1.5.0
 
-- 2021.3.31 [**ZoomEye-go**](https://github.com/gyyyy/ZoomEye-go)
+- 2021.4.8 [**Viper**](https://github.com/FunnyWolf/Viper)
 
-  ​	ZoomEye-go 更新history命令用于查询设备历史数据。
-
-- 2021.3.28 [**antSword**](https://github.com/AntSwordProject/antSword)
-
-  ​	antSword 更新v2.1.11.1
+  ​	Viper 更新 v1.3.2 
 
 - 2021.3.23 [**星链计划2.0-Galaxy**](https://github.com/knownsec/404StarLink2.0-Galaxy)
 
   ​	星链计划2.0-Galaxy 收录[**linglong**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#linglong-)、[**Viper**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#viper-)、[**CodeReviewTools**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#codereviewtools-)。
 
-- 2021.3.23 [**Zoomeye-python**](https://github.com/knownsec/ZoomEye-python)
-
-  ​	Zoomeye-python更新v2.0.4.1.
 
 
 # Contents
