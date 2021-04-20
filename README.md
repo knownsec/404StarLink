@@ -45,7 +45,7 @@ Not only large tools which break security barriers，various small tools that op
 
 这里会更新最近涉及更新的项目
 
-- 2021.4.9 [**Viper**](https://github.com/FunnyWolf/Viper)
+- 2021.4.18 [**Viper**](https://github.com/FunnyWolf/Viper)
 
   ​	Viper 更新v1.3.3
 
@@ -55,7 +55,7 @@ Not only large tools which break security barriers，various small tools that op
 
 - 2021.4.17 [**gshark**](https://github.com/madneal/gshark)
 
-  ​	gshark 更新 v1.7.1
+  ​	gshark 更新 v0.7.1
 
 - 2021.4.15 [**f8x**](https://github.com/ffffffff0x/f8x)
 
