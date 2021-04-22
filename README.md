@@ -138,11 +138,11 @@ Not only large tools which break security barriers，various small tools that op
     - [CDK](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#cdk)  
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-cdkteam-orange) ![](https://img.shields.io/badge/Language-Go-blue)
         - CDK是一款为容器环境定制的渗透测试工具。
-    - [MysqlT & WhetherMysqlSham](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#mysqlt--whethermysqlsham) ![](https://img.shields.io/badge/-New-red) 
+    - [MysqlT & WhetherMysqlSham](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#mysqlt--whethermysqlsham)  
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green)  ![](https://img.shields.io/badge/Author-BeichenDream-orange) ![](https://img.shields.io/badge/Language-C%23-blue)
         - MysqlT: 伪造Myslq服务端,并利用Mysql逻辑漏洞来获取客户端的任意文件反击攻击者。
         - WhetherMysqlSham：检测目标Mysql数据库是不是蜜罐。
-    - [Viper](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#viper-) ![](https://img.shields.io/badge/-New-red)
+    - [Viper](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#viper-) 
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-JS/Python-blue) ![](https://img.shields.io/badge/Author-FunnyWolf-orange)
         - VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战术及技术进行模块化及武器化。
     

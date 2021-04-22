@@ -457,7 +457,7 @@ https://github.com/shadow1ng/fscan
 
 ##### 推荐评语：
 
-作为内网扫描工具，除了基本的漏洞探测，还提供了一些对内网扫描很有帮助的漏洞扫描功能是不错的思路~
+作为内网扫描工具，除了基本的信息搜集，还提供了一些对内网渗透很有帮助的漏洞扫描是不错的思路~
 
 ### [As-Exploits](https://github.com/yzddmr6/As-Exploits) ![](https://img.shields.io/badge/-New-red)
 
