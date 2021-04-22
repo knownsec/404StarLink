@@ -45,6 +45,10 @@ Not only large tools which break security barriers，various small tools that op
 
 这里会更新最近涉及更新的项目
 
+- 2021.3.23 [**星链计划2.0-Galaxy**](https://github.com/knownsec/404StarLink2.0-Galaxy)
+
+  ​	星链计划2.0-Galaxy 收录[**Elkeid**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#Elkeid)、[**fscan**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#fscan)、[**As-Exploits**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#As-Exploits)。
+
 - 2021.4.18 [**Viper**](https://github.com/FunnyWolf/Viper)
 
   ​	Viper 更新v1.3.3
@@ -78,12 +82,15 @@ Not only large tools which break security barriers，various small tools that op
     - 在攻击发生之前识别，如流量分析等 
 - Mitigation measures 缓解措施
     - 在攻击发生之中缓解威胁，如hids，waf等
+    - [Elkeid](https://github.com/bytedance/Elkeid) ![](https://img.shields.io/badge/-New-red)
+        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%e2%98%86-green)![](https://img.shields.io/badge/Author-bytedance-orange) ![](https://img.shields.io/badge/Language-C/Golang-blue) 
+        - Elkeid是一个云原生的基于主机的入侵检测解决方案。
     - [Juggler](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#juggler) 
         - ![](https://img.shields.io/badge/Positivity-TBD-yellow) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Author-C4o-orange) ![](https://img.shields.io/badge/Language-Go-blue) 
         - 一个也许能骗到黑客的系统。可以作为WAF等防护体系的一环。
 - Security inspection 安全检测
     - 对目标的安全检测，主要集中在对不同链路的主动安全检测
-    - [linglong](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#linglong-) ![](https://img.shields.io/badge/-New-red)
+    - [linglong](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#linglong-) 
       - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Author-awake1t-orange) ![](https://img.shields.io/badge/Language-Go-blue)
       - linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，进行端口爆破。帮助企业更快发现弱口令问题。主要功能包括: 资产探测、端口爆破、定时任务、管理后台识别、报表展示。
 - Security Monitor 安全监控
@@ -154,7 +161,7 @@ Not only large tools which break security barriers，various small tools that op
 	- [MySQLMonitor & FileMonitor](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#mysqlmonitor--filemonitor)  
 	- 	- ![](https://img.shields.io/badge/Positivity-IN-green) ![![](https://img.shields.io/badge/Author-madneal-orange) ](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Author-TheKingofDuck-orange) ![](https://img.shields.io/badge/Language-Java|Python-blue) 
 		- MySQL实时监控工具 & 文件变化实时监控工具
-    - [CodeReviewTools](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#codereviewtools-) ![](https://img.shields.io/badge/-New-red)
+    - [CodeReviewTools](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#codereviewtools-) 
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Language-Java-blue) ![](https://img.shields.io/badge/Author-Ppsoft1991-orange)
         - CodeReviewTools是一个可以快速批量反编译jar包的工具。
     
@@ -166,6 +173,13 @@ Not only large tools which break security barriers，various small tools that op
     - [ServerScan](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#serverscan)  
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-Trim-orange) ![](https://img.shields.io/badge/Language-Go-blue) 
         - 一款使用Golang开发且适用于攻防演习内网横向信息收集的高并发网络扫描、服务探测工具。
+    - [fscan](https://github.com/shadow1ng/fscan) ![](https://img.shields.io/badge/-New-red)
+        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-shadow1ng-orange) ![](https://img.shields.io/badge/Language-Golang-blue) 
+        - 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。
+    
+    - [As-Exploits](https://github.com/yzddmr6/As-Exploits) ![](https://img.shields.io/badge/-New-red)
+        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%e2%98%86-green) ![](https://img.shields.io/badge/Author-yzddmr6-orange) ![](https://img.shields.io/badge/Language-JavaScript-blue) 
+        - 中国蚁剑后渗透框架
     
 - Others 其他相关
     - 其他安全链路下的安全类工具

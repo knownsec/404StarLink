@@ -58,10 +58,29 @@
 
 在攻击发生之中缓解威胁，如hids，waf等
 
+### [Elkeid](https://github.com/bytedance/Elkeid) ![](https://img.shields.io/badge/-New-red)
+
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%e2%98%86-green) ![](https://img.shields.io/badge/Language-C/Golang-blue) ![](https://img.shields.io/badge/Author-bytedance-orange)
+
+##### 项目链接：
+
+https://github.com/bytedance/Elkeid
+
+##### 项目简述：
+Elkeid是一个云原生的基于主机的入侵检测解决方案。
+
+Elkeid 包含两大部分：
+
+Elkeid Agent与Elkeid Driver作为数据采集层，它在Linux系统的内核和用户空间上均可使用，从而提供了具有更好性能的且更丰富的数据。
+Elkeid Server可以提供百万级Agent的接入能力，采集Agent数据，支持控制与策略下发。包含实时、离线计算模块，对采集上来的数据进行分析和检测。又有自带的服务发现和管理系统，方便对整个后台管理和操作。
+
+##### 推荐评语：
+
+一个成熟的HIDS应该包含稳定、兼容好、性能优等各种优点，如果它还开源，那你还有什么理由不选择它呢~
 
 ### [Juggler](https://github.com/C4o/Juggler) 
 
-![](https://img.shields.io/badge/Positivity-TBD-yellow) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85☆-yellow) ![](https://img.shields.io/badge/Author-C4o-orange) ![](https://img.shields.io/badge/Language-Go-blue) 
+![](https://img.shields.io/badge/Positivity-TBD-yellow) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85☆-yellow) ![](https://img.shields.io/badge/Language-Go-blue) ![](https://img.shields.io/badge/Author-C4o-orange)
 
 ##### 项目链接：
 
@@ -80,7 +99,7 @@ https://github.com/C4o/Juggler
 
 对目标的安全检测，主要集中在对不同链路的主动安全检测
 
-### [linglong](https://github.com/awake1t/linglong) ![](https://img.shields.io/badge/-New-red)
+### [linglong](https://github.com/awake1t/linglong)
 
 ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Language-Golang-blue) ![](https://img.shields.io/badge/Author-awake1t-orange)
 
@@ -287,7 +306,7 @@ WhetherMysqlSham：检测目标Mysql数据库是不是蜜罐。
 
 针对Mysql客户端攻击可以说大家已经很熟悉了，Mysqlt可以在利用的过程中节省很多麻烦，相应的反制工具设计思路也非常有趣。
 
-### [Viper](https://github.com/FunnyWolf/Viper) ![](https://img.shields.io/badge/-New-red)
+### [Viper](https://github.com/FunnyWolf/Viper)
 
 ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-JS/Python-blue) ![](https://img.shields.io/badge/Author-FunnyWolf-orange)
 
@@ -370,7 +389,7 @@ MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具)
 
 这个项目可以说是很特别的一个小工具，很简单的实现方式却解决了很常见的场景，如果说开源项目最大的特点，那一定是特别的思路解决特别的痛点。
 
-### [CodeReviewTools](https://github.com/Ppsoft1991/CodeReviewTools) ![](https://img.shields.io/badge/-New-red)
+### [CodeReviewTools](https://github.com/Ppsoft1991/CodeReviewTools) 
 
 ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Language-Java-blue) ![](https://img.shields.io/badge/Author-Ppsoft1991-orange)
 
@@ -419,6 +438,39 @@ https://github.com/Adminisme/ServerScan
 ##### 推荐评语：
 
 网络扫描、服务探测工具并不稀奇。但专注于在内网环境的时候可用的工具就变少了很多，往往都需要用回nmap。这个工具依托于开发者诸多的实战经验，不但支持cs且在多种环境下都使用自如，实用体验极佳。
+
+### [fscan](https://github.com/shadow1ng/fscan) ![](https://img.shields.io/badge/-New-red)
+
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Golang-blue) ![](https://img.shields.io/badge/Author-shadow1ng-orange)
+
+##### 项目链接：
+
+https://github.com/shadow1ng/fscan
+
+##### 项目简述：
+一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。
+
+支持主机存活探测、端口扫描、常见服务的爆破、ms17010、redis批量写公钥、计划任务反弹shell、读取win网卡信息、web指纹识别、web漏洞扫描、netbios探测、域控识别等功能。
+
+##### 推荐评语：
+
+作为内网扫描工具，除了基本的漏洞探测，还提供了一些对内网扫描很有帮助的漏洞扫描功能是不错的思路~
+
+### [As-Exploits](https://github.com/yzddmr6/As-Exploits) ![](https://img.shields.io/badge/-New-red)
+
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%e2%98%86-green) ![](https://img.shields.io/badge/Language-JavaScript-blue) ![](https://img.shields.io/badge/Author-yzddmr6-orange)
+
+##### 项目链接：
+
+https://github.com/yzddmr6/As-Exploits
+
+##### 项目简述：
+中国蚁剑后渗透框架
+
+##### 推荐评语：
+
+你究竟需要一个什么样的工具来完成后渗透呢，我想一定是As-Exploits这样的~
+
 
 ## Others 其他相关
 
