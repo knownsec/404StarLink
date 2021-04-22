@@ -45,7 +45,7 @@ Not only large tools which break security barriers，various small tools that op
 
 这里会更新最近涉及更新的项目
 
-- 2021.3.23 [**星链计划2.0-Galaxy**](https://github.com/knownsec/404StarLink2.0-Galaxy)
+- 2021.4.22 [**星链计划2.0-Galaxy**](https://github.com/knownsec/404StarLink2.0-Galaxy)
 
   ​	星链计划2.0-Galaxy 收录[**Elkeid**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#Elkeid)、[**fscan**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#fscan)、[**As-Exploits**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#As-Exploits)。
 
@@ -82,9 +82,9 @@ Not only large tools which break security barriers，various small tools that op
     - 在攻击发生之前识别，如流量分析等 
 - Mitigation measures 缓解措施
     - 在攻击发生之中缓解威胁，如hids，waf等
-    - [Elkeid](https://github.com/bytedance/Elkeid) ![](https://img.shields.io/badge/-New-red)
+    - [Elkeid](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#elkeid-) ![](https://img.shields.io/badge/-New-red)
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%e2%98%86-green)![](https://img.shields.io/badge/Author-bytedance-orange) ![](https://img.shields.io/badge/Language-C/Golang-blue) 
-        - Elkeid是一个云原生的基于主机的入侵检测解决方案。
+        - Elkeid是一个云原生的基于主机的入侵检测解决方案。由Elkeid Agent与Elkeid Driver作为数据采集层，配合Elkeid Server进行管理和分析。
     - [Juggler](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#juggler) 
         - ![](https://img.shields.io/badge/Positivity-TBD-yellow) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Author-C4o-orange) ![](https://img.shields.io/badge/Language-Go-blue) 
         - 一个也许能骗到黑客的系统。可以作为WAF等防护体系的一环。
@@ -173,11 +173,11 @@ Not only large tools which break security barriers，various small tools that op
     - [ServerScan](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#serverscan)  
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-Trim-orange) ![](https://img.shields.io/badge/Language-Go-blue) 
         - 一款使用Golang开发且适用于攻防演习内网横向信息收集的高并发网络扫描、服务探测工具。
-    - [fscan](https://github.com/shadow1ng/fscan) ![](https://img.shields.io/badge/-New-red)
+    - [fscan](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#fscan-) ![](https://img.shields.io/badge/-New-red)
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-shadow1ng-orange) ![](https://img.shields.io/badge/Language-Golang-blue) 
-        - 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。
+        - 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。支持netbios探测、域控识别等多种深度探测能力。
     
-    - [As-Exploits](https://github.com/yzddmr6/As-Exploits) ![](https://img.shields.io/badge/-New-red)
+    - [As-Exploits](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#as-exploits-) ![](https://img.shields.io/badge/-New-red)
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%e2%98%86-green) ![](https://img.shields.io/badge/Author-yzddmr6-orange) ![](https://img.shields.io/badge/Language-JavaScript-blue) 
         - 中国蚁剑后渗透框架
     

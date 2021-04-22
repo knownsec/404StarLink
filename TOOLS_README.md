@@ -3,6 +3,7 @@
 * [甲方工具向](#%E7%94%B2%E6%96%B9%E5%B7%A5%E5%85%B7%E5%90%91) 
   * [Threat identification 威胁识别](#threat-identification-%E5%A8%81%E8%83%81%E8%AF%86%E5%88%AB) 
   * [Mitigation measures 缓解措施](#mitigation-measures-%E7%BC%93%E8%A7%A3%E6%8E%AA%E6%96%BD) 
+	* [Elkeid](#elkeid-) 
     * [Juggler](#juggler) 
   * [Security inspection 安全检测](#security-inspection-%E5%AE%89%E5%85%A8%E6%A3%80%E6%B5%8B) 
   	* [linglong](#linglong-) 
@@ -37,6 +38,8 @@
     
     * [antSword](#antsword) 
     * [ServerScan](#serverscan)
+    * [Fscan](#fscan-)
+    * [As-Exploits](#as-exploits-)
     
   * [Others 其他相关](#others-%E5%85%B6%E4%BB%96%E7%9B%B8%E5%85%B3) 
     * [passive-scan-client](#passive-scan-client) 
