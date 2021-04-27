@@ -63,7 +63,7 @@
 
 ### [Elkeid](https://github.com/bytedance/Elkeid) ![](https://img.shields.io/badge/-New-red)
 
-![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%e2%98%86-green) ![](https://img.shields.io/badge/Language-C/Golang-blue) ![](https://img.shields.io/badge/Author-bytedance-orange)
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%e2%98%86-green) ![](https://img.shields.io/badge/Language-C/Golang-blue) ![](https://img.shields.io/badge/Author-bytedance-orange) [![GitHub stars](https://img.shields.io/github/stars/bytedance/Elkeid.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
@@ -83,7 +83,7 @@ Elkeid Server可以提供百万级Agent的接入能力，采集Agent数据，支
 
 ### [Juggler](https://github.com/C4o/Juggler) 
 
-![](https://img.shields.io/badge/Positivity-TBD-yellow) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85☆-yellow) ![](https://img.shields.io/badge/Language-Go-blue) ![](https://img.shields.io/badge/Author-C4o-orange)
+![](https://img.shields.io/badge/Positivity-TBD-yellow) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85☆-yellow) ![](https://img.shields.io/badge/Language-Go-blue) ![](https://img.shields.io/badge/Author-C4o-orange) [![GitHub stars](https://img.shields.io/github/stars/C4o/Juggler.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
@@ -104,7 +104,7 @@ https://github.com/C4o/Juggler
 
 ### [linglong](https://github.com/awake1t/linglong)
 
-![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Language-Golang-blue) ![](https://img.shields.io/badge/Author-awake1t-orange)
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Language-Golang-blue) ![](https://img.shields.io/badge/Author-awake1t-orange) [![GitHub stars](https://img.shields.io/github/stars/awake1t/linglong.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
@@ -123,7 +123,7 @@ linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，
 
 ### [gshark](https://github.com/madneal/gshark) 
 
-![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-madneal-orange) ![](https://img.shields.io/badge/Language-Go-blue) 
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-madneal-orange) ![](https://img.shields.io/badge/Language-Go-blue) [![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
@@ -146,7 +146,7 @@ https://github.com/madneal/gshark
 
 ### [HaE](https://github.com/gh0stkey/HaE)
 
-![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Author-gh0stkey-orange) ![](https://img.shields.io/badge/Language-Java-blue) 
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Author-gh0stkey-orange) ![](https://img.shields.io/badge/Language-Java-blue) [![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
@@ -162,7 +162,7 @@ HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件
 
 ### [zsdevX/DarkEye](https://github.com/zsdevX/DarkEye)
 
-![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-zsdevX-orange) ![](https://img.shields.io/badge/Language-Go-blue) 
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-zsdevX-orange) ![](https://img.shields.io/badge/Language-Go-blue) [![GitHub stars](https://img.shields.io/github/stars/zsdevX/DarkEye.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
@@ -178,7 +178,7 @@ https://github.com/zsdevX/DarkEye
 
 ### [Glass](https://github.com/s7ckTeam/Glass)
 
-![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Author-s7ckTeam-orange)  ![](https://img.shields.io/badge/Language-Python-blue) 
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Author-s7ckTeam-orange)  ![](https://img.shields.io/badge/Language-Python-blue) [![GitHub stars](https://img.shields.io/github/stars/s7ckTeam/Glass.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
@@ -193,7 +193,7 @@ Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/Z
 
 ### [AppInfoScanner](https://github.com/kelvinBen/AppInfoScanner)
 
-![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Python-blue) ![](https://img.shields.io/badge/Author-kelvinBen-orange)
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Python-blue) ![](https://img.shields.io/badge/Author-kelvinBen-orange) [![GitHub stars](https://img.shields.io/github/stars/kelvinBen/AppInfoScanner.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
@@ -208,7 +208,7 @@ https://github.com/kelvinBen/AppInfoScanner
 
 ### [ZoomEye-go](https://github.com/gyyyy/ZoomEye-go) 
 
-![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Go-blue) ![](https://img.shields.io/badge/Author-gyyyy-orange)
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Go-blue) ![](https://img.shields.io/badge/Author-gyyyy-orange) [![GitHub stars](https://img.shields.io/github/stars/gyyyy/ZoomEye-go.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
@@ -227,7 +227,7 @@ ZoomEye-go是Golang版本的Zoomeye命令行工具，无论是直接下载releas
 
 ### [Kunpeng](https://github.com/opensec-cn/kunpeng) 
 
-![](https://img.shields.io/badge/Positivity-TBD-yellow) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-opensec_cn-orange) ![](https://img.shields.io/badge/Language-Go-blue) 
+![](https://img.shields.io/badge/Positivity-TBD-yellow) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-opensec_cn-orange) ![](https://img.shields.io/badge/Language-Go-blue) [![GitHub stars](https://img.shields.io/github/stars/opensec-cn/kunpeng.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
@@ -243,7 +243,7 @@ Kunpeng是一个Golang编写的开源POC检测框架，集成了包括数据库�
 
 ### [myscan](https://github.com/amcai/myscan) 
 
-![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Author-amcai-orange) ![](https://img.shields.io/badge/Language-Python-blue) 
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Author-amcai-orange) ![](https://img.shields.io/badge/Language-Python-blue) [![GitHub stars](https://img.shields.io/github/stars/amcai/myscan.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
@@ -263,7 +263,7 @@ myscan是参考awvs的poc目录架构，pocsuite3、sqlmap等代码框架，以�
 
 ### [Redis Rogue Server](https://github.com/Dliv3/redis-rogue-server) 
 
-![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Author-Dliv3-orange) ![](https://img.shields.io/badge/Language-Python-blue) 
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Author-Dliv3-orange) ![](https://img.shields.io/badge/Language-Python-blue) [![GitHub stars](https://img.shields.io/github/stars/Dliv3/redis-rogue-server.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
@@ -279,7 +279,7 @@ Redis 4.x/Redis 5.x RCE利用脚本. 项目最初来源于[https://github.com/n0
 
 ### [CDK](https://github.com/cdk-team/CDK) 
 
-![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Go-blue) ![](https://img.shields.io/badge/Author-cdkteam-orange)
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Go-blue) ![](https://img.shields.io/badge/Author-cdkteam-orange) [![GitHub stars](https://img.shields.io/github/stars/cdk-team/CDK.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
@@ -294,7 +294,7 @@ CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器�
 
 ### [MysqlT](https://github.com/BeichenDream/MysqlT) & [WhetherMysqlSham](https://github.com/BeichenDream/WhetherMysqlSham) 
 
-![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-C%23-blue) ![](https://img.shields.io/badge/Author-BeichenDream-orange)
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-C%23-blue) ![](https://img.shields.io/badge/Author-BeichenDream-orange) [![GitHub stars](https://img.shields.io/github/stars/BeichenDream/MysqlT.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
@@ -311,7 +311,7 @@ WhetherMysqlSham：检测目标Mysql数据库是不是蜜罐。
 
 ### [Viper](https://github.com/FunnyWolf/Viper)
 
-![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-JS/Python-blue) ![](https://img.shields.io/badge/Author-FunnyWolf-orange)
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-JS/Python-blue) ![](https://img.shields.io/badge/Author-FunnyWolf-orange) [![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
@@ -329,7 +329,7 @@ VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战�
 
 ### [java-object-searcher](https://github.com/c0ny1/java-object-searcher) 
 
-![](https://img.shields.io/badge/Positivity-In-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-c0ny1-orange) ![](https://img.shields.io/badge/Language-Java-blue) 
+![](https://img.shields.io/badge/Positivity-In-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-c0ny1-orange) ![](https://img.shields.io/badge/Language-Java-blue) [![GitHub stars](https://img.shields.io/github/stars/c0ny1/java-object-searcher.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
@@ -345,7 +345,7 @@ java内存对象搜索辅助工具，配合IDEA在Java应用运行时，对内�
 
 ### [HackBrowserData](https://github.com/moonD4rk/HackBrowserData) 
 
-![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-moonD4rk-orange) ![](https://img.shields.io/badge/Language-Go-blue) 
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-moonD4rk-orange) ![](https://img.shields.io/badge/Language-Go-blue) [![GitHub stars](https://img.shields.io/github/stars/moonD4rk/HackBrowserData.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
@@ -360,7 +360,7 @@ hack-browser-data 是一个解密浏览器数据（密码|历史记录|Cookies|�
 
 ### [frida-skeleton](https://github.com/Margular/frida-skeleton) 
 
-![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-Margular-orange) ![](https://img.shields.io/badge/Language-Python-blue) 
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-Margular-orange) ![](https://img.shields.io/badge/Language-Python-blue) [![GitHub stars](https://img.shields.io/github/stars/Margular/frida-skeleton.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
@@ -375,7 +375,7 @@ frida-skeleton是基于frida的安卓hook框架，提供了很多frida自身不�
 
 ### [MySQLMonitor & FileMonitor](https://github.com/TheKingOfDuck/MySQLMonitor) 
 
-![](https://img.shields.io/badge/Positivity-IN-green) ![![](https://img.shields.io/badge/Author-madneal-orange) ](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Author-TheKingofDuck-orange) ![](https://img.shields.io/badge/Language-Java|Python-blue) 
+![](https://img.shields.io/badge/Positivity-IN-green) ![![](https://img.shields.io/badge/Author-madneal-orange) ](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Author-TheKingofDuck-orange) ![](https://img.shields.io/badge/Language-Java|Python-blue) [![GitHub stars](https://img.shields.io/github/stars/TheKingOfDuck/MySQLMonitor.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
@@ -394,7 +394,7 @@ MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具)
 
 ### [CodeReviewTools](https://github.com/Ppsoft1991/CodeReviewTools) 
 
-![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Language-Java-blue) ![](https://img.shields.io/badge/Author-Ppsoft1991-orange)
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Language-Java-blue) ![](https://img.shields.io/badge/Author-Ppsoft1991-orange) [![GitHub stars](https://img.shields.io/github/stars/Ppsoft1991/CodeReviewTools.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
@@ -413,7 +413,7 @@ CodeReviewTools是一个可以快速批量反编译jar包的工具，为审计Ja
 
 ### [antSword](https://github.com/AntSwordProject/antSword) 
 
-![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-AntSwordProject-orange) ![](https://img.shields.io/badge/Language-Nodejs-blue) 
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-AntSwordProject-orange) ![](https://img.shields.io/badge/Language-Nodejs-blue) [![GitHub stars](https://img.shields.io/github/stars/AntSwordProject/antSword.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
@@ -429,7 +429,7 @@ https://github.com/AntSwordProject/antSword
 
 ### [ServerScan](https://github.com/Adminisme/ServerScan)   
 
-![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Go-blue) ![](https://img.shields.io/badge/Author-Trim-orange)
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Go-blue) ![](https://img.shields.io/badge/Author-Trim-orange) [![GitHub stars](https://img.shields.io/github/stars/Adminisme/ServerScan.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
@@ -444,7 +444,7 @@ https://github.com/Adminisme/ServerScan
 
 ### [fscan](https://github.com/shadow1ng/fscan) ![](https://img.shields.io/badge/-New-red)
 
-![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Golang-blue) ![](https://img.shields.io/badge/Author-shadow1ng-orange)
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Golang-blue) ![](https://img.shields.io/badge/Author-shadow1ng-orange) [![GitHub stars](https://img.shields.io/github/stars/shadow1ng/fscan.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
@@ -461,7 +461,7 @@ https://github.com/shadow1ng/fscan
 
 ### [As-Exploits](https://github.com/yzddmr6/As-Exploits) ![](https://img.shields.io/badge/-New-red)
 
-![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%e2%98%86-green) ![](https://img.shields.io/badge/Language-JavaScript-blue) ![](https://img.shields.io/badge/Author-yzddmr6-orange)
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%e2%98%86-green) ![](https://img.shields.io/badge/Language-JavaScript-blue) ![](https://img.shields.io/badge/Author-yzddmr6-orange) [![GitHub stars](https://img.shields.io/github/stars/yzddmr6/As-Exploits.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
@@ -481,7 +481,7 @@ https://github.com/yzddmr6/As-Exploits
 
 ### [passive-scan-client](https://github.com/c0ny1/passive-scan-client)
 
-![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Language-Java-blue) ![](https://img.shields.io/badge/Author-c0ny1-orange)
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Language-Java-blue) ![](https://img.shields.io/badge/Author-c0ny1-orange) [![GitHub stars](https://img.shields.io/github/stars/c0ny1/passive-scan-client.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
@@ -492,7 +492,7 @@ Passive Scan Client是一款可以将经过筛选的流量转发到指定代理�
 
 ### [f8x](https://github.com/ffffffff0x/f8x)   
 
-![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Bash-blue) ![](https://img.shields.io/badge/Author-ffffffff0x-orange)
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Bash-blue) ![](https://img.shields.io/badge/Author-ffffffff0x-orange) [![GitHub stars](https://img.shields.io/github/stars/ffffffff0x/f8x.svg?style=flat&logo=github)]()
 
 ##### 项目链接：
 
