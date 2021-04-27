@@ -45,29 +45,21 @@ Not only large tools which break security barriers，various small tools that op
 
 这里会更新最近涉及更新的项目
 
+- 2021.4.25 [**Viper**](https://github.com/FunnyWolf/Viper)
+
+  ​	Viper 更新v1.3.4
+
+- 2021.4.24 [**gshark**](https://github.com/madneal/gshark)
+
+  ​	gshark 更新 v0.7.7
+
+- 2021.4.24 [**f8x**](https://github.com/ffffffff0x/f8x)
+
+  ​	f8x 更新 v1.5.2
+
 - 2021.4.22 [**星链计划2.0-Galaxy**](https://github.com/knownsec/404StarLink2.0-Galaxy)
 
   ​	星链计划2.0-Galaxy 收录[**Elkeid**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#Elkeid)、[**fscan**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#fscan)、[**As-Exploits**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#As-Exploits)。
-
-- 2021.4.18 [**Viper**](https://github.com/FunnyWolf/Viper)
-
-  ​	Viper 更新v1.3.3
-
-- 2021.4.18 [**frida-skeleton**](https://github.com/Margular/frida-skeleton)
-
-  ​	frida-skeleton 更新v3.2.1
-
-- 2021.4.17 [**gshark**](https://github.com/madneal/gshark)
-
-  ​	gshark 更新 v0.7.1
-
-- 2021.4.15 [**f8x**](https://github.com/ffffffff0x/f8x)
-
-  ​	f8x 更新 v1.5.1
-
-- 2021.4.14 [**CDK**](https://github.com/cdk-team/CDK)
-
-  ​	CDK 更新 v1.0.1
 
 - 2021.3.23 [**星链计划2.0-Galaxy**](https://github.com/knownsec/404StarLink2.0-Galaxy)
 
