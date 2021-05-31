@@ -62,21 +62,13 @@ Not only large tools which break security barriers，various small tools that op
 
 这里会更新最近涉及更新的项目
 
-- 2021.05.16 **Viper**
+- 2021.05.30 **Viper**
 
-	[Viper](https://github.com/FunnyWolf/Viper) 更新v1.3.7
+	[Viper](https://github.com/FunnyWolf/Viper) 更新v1.3.9
 
-- 2021.05.16 **antSword**  
+- 2021.05.29 **fscan**  
 
-	[antSword](https://github.com/AntSwordProject/antSword) 更新v2.1.12
-
-- 2021.05.16 **fscan**  
-
-	[fscan](https://github.com/shadow1ng/fscan) 更新v1.6.1
-
-- 2021.05.16 **As-Exploits**  
-
-	[As-Exploits](https://github.com/yzddmr6/As-Exploits) 更新v1.3
+	[fscan](https://github.com/shadow1ng/fscan) 更新v1.6.2
 
 - 2021.4.22 [**星链计划2.0-Galaxy**](https://github.com/knownsec/404StarLink2.0-Galaxy)
 
