@@ -70,6 +70,10 @@ Not only large tools which break security barriers，various small tools that op
 
 	[frida-skeleton](https://github.com/Margular/frida-skeleton) 更新 v3.2.3
 
+- 2021.06.24 **HAE**  
+
+	[HAE](https://github.com/gh0stkey/HaE) 更新 v2.0.4
+
 - 2021.4.22 [**星链计划2.0-Galaxy**](https://github.com/knownsec/404StarLink2.0-Galaxy)
 
   ​	星链计划2.0-Galaxy 收录[**Elkeid**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#Elkeid)、[**fscan**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#fscan)、[**As-Exploits**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#As-Exploits)。
