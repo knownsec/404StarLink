@@ -76,7 +76,7 @@ Not only large tools which break security barriers，various small tools that op
 
 - 2021.7.2 [**星链计划2.0-Galaxy**](https://github.com/knownsec/404StarLink2.0-Galaxy)
 
-	星链计划2.0-Galaxy 收录[**Platypus**](https://github.com/WangYihang/Platypus)、[**Stowaway**](https://github.com/ph4ntonn/Stowaway)、[**MDUT**](https://github.com/SafeGroceryStore/MDUT)、[**OpenStar**](https://github.com/starjun/openstar)、[**Pocassist**](https://github.com/jweny/pocassist)。
+	星链计划2.0-Galaxy 收录[**Platypus**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#platypus-)、[**Stowaway**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#stowaway-)、[**MDUT**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#MDUT)、[**OpenStar**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#OpenStar)、[**Pocassist**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#pocassist)。
 
 - 2021.4.22 [**星链计划2.0-Galaxy**](https://github.com/knownsec/404StarLink2.0-Galaxy)
 
@@ -208,11 +208,11 @@ Not only large tools which break security barriers，various small tools that op
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%e2%98%86-green) ![](https://img.shields.io/badge/Author-yzddmr6-orange) ![](https://img.shields.io/badge/Language-JavaScript-blue) [![GitHub stars](https://img.shields.io/github/stars/yzddmr6/As-Exploits.svg?style=flat&logo=github)]()
         - 中国蚁剑后渗透框架
 	
-	- [Platypus](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#Platypus) ![](https://img.shields.io/badge/-New-red)
+	- [Platypus](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#platypus-) ![](https://img.shields.io/badge/-New-red)
 		- ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Golang-blue) ![](https://img.shields.io/badge/Author-WangYihang-orange) ![GitHub stars](https://img.shields.io/github/stars/WangYihang/Platypus.svg?style=flat&logo=github)
 		- Platypus 是一个基于终端与 Web UI 交互式的反弹 Shell 会话管理工具
 
-	- [Stowaway](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#Stowaway) ![](https://img.shields.io/badge/-New-red)
+	- [Stowaway](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#stowaway-) ![](https://img.shields.io/badge/-New-red)
 		- ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Golang-blue) ![](https://img.shields.io/badge/Author-ph4ntonn-orange) ![GitHub stars](https://img.shields.io/github/stars/ph4ntonn/Stowaway.svg?style=flat&logo=github)
 		- Stowaway 是一款多级代理工具，可将外部流量通过多个节点代理至内网，突破内网访问限制
     

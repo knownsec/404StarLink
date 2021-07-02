@@ -50,8 +50,8 @@
     * [ServerScan](#serverscan)
     * [Fscan](#fscan-)
     * [As-Exploits](#as-exploits-)
-    * [Platypus](#Platypus)
-    * [Stowaway](#Stowaway)
+    * [Platypus](#platypus-)
+    * [Stowaway](#stowaway-)
     
   * [Others 其他相关](#others-%E5%85%B6%E4%BB%96%E7%9B%B8%E5%85%B3) 
     * [passive-scan-client](#passive-scan-client) 
