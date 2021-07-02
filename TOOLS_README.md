@@ -1,24 +1,33 @@
 # Contents
 
 * [甲方工具向](#%E7%94%B2%E6%96%B9%E5%B7%A5%E5%85%B7%E5%90%91) 
-  * [Threat identification 威胁识别](#threat-identification-%E5%A8%81%E8%83%81%E8%AF%86%E5%88%AB) 
+
+  * [Threat identification 威胁识别](#threat-identification-%E5%A8%81%E8%83%81%E8%AF%86%E5%88%AB)
+
   * [Mitigation measures 缓解措施](#mitigation-measures-%E7%BC%93%E8%A7%A3%E6%8E%AA%E6%96%BD) 
 	* [Elkeid](#elkeid-) 
-    * [Juggler](#juggler) 
+	* [Juggler](#juggler) 
+	* [OpenStar](#OpenStar)
+
   * [Security inspection 安全检测](#security-inspection-%E5%AE%89%E5%85%A8%E6%A3%80%E6%B5%8B) 
-  	* [linglong](#linglong-) 
+	* [linglong](#linglong-) 
+
   * [Security Monitor 安全监控](#security-monitor-%E5%AE%89%E5%85%A8%E7%9B%91%E6%8E%A7) 
     * [gshark](#gshark) 
+
 * [乙方工具向](#%E4%B9%99%E6%96%B9%E5%B7%A5%E5%85%B7%E5%90%91) 
+
   * [Reconnaissance 信息收集](#reconnaissance-%E4%BF%A1%E6%81%AF%E6%94%B6%E9%9B%86) 
     * [HaE](#hae) 
     * [zsdevX/DarkEye](#zsdevxdarkeye) 
     * [Glass](#Glass) 
     * [AppInfoScanner](#AppInfoScanner) 
     * [ZoomEye-go](#zoomeye-go)
+
   * [Vulnerability Assessment 漏洞探测](#vulnerability-assessment-%E6%BC%8F%E6%B4%9E%E6%8E%A2%E6%B5%8B) 
     * [Kunpeng](#kunpeng) 
     * [myscan](#myscan) 
+    * [Pocassist](#Pocassist)
     
   * [Penetration Test 攻击与利用](#penetration-test-%E6%94%BB%E5%87%BB%E4%B8%8E%E5%88%A9%E7%94%A8) 
     
@@ -26,6 +35,7 @@
     * [CDK](#cdk)
     * [MysqlT &amp; WhetherMysqlSham](#mysqlt--whethermysqlsham-)
     * [Viper](#viper-)
+    * [MDUT](#MDUT)
     
   * [Information analysis 信息分析](#information-analysis-%E4%BF%A1%E6%81%AF%E5%88%86%E6%9E%90) 
     * [java\-object\-searcher](#java-object-searcher) 
@@ -40,6 +50,8 @@
     * [ServerScan](#serverscan)
     * [Fscan](#fscan-)
     * [As-Exploits](#as-exploits-)
+    * [Platypus](#Platypus)
+    * [Stowaway](#Stowaway)
     
   * [Others 其他相关](#others-%E5%85%B6%E4%BB%96%E7%9B%B8%E5%85%B3) 
     * [passive-scan-client](#passive-scan-client) 
@@ -61,7 +73,7 @@
 
 在攻击发生之中缓解威胁，如hids，waf等
 
-### [Elkeid](https://github.com/bytedance/Elkeid) ![](https://img.shields.io/badge/-New-red)
+### [Elkeid](https://github.com/bytedance/Elkeid)
 
 ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%e2%98%85-green)![](https://img.shields.io/badge/Author-bytedance-orange) ![](https://img.shields.io/badge/Language-C/Golang-blue) [![GitHub stars](https://img.shields.io/github/stars/bytedance/Elkeid.svg?style=flat&logo=github)]()
 
@@ -96,6 +108,17 @@ https://github.com/C4o/Juggler
 ##### 推荐评语：
 
 该项目利用了渗透测试从业者在渗透测试中的惯性思维反影响攻击者，从而大幅度的影响了攻击者的渗透思路。可惜的是，该项目本身强依赖基础WAF，单靠Juggler很难提升防护本身的能力。
+
+### [OpenStar](https://github.com/starjun/openstar)
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Lua-blue) ![](https://img.shields.io/badge/Author-starjun-orange) ![GitHub stars](https://img.shields.io/github/stars/starjun/openstar.svg?style=flat&logo=github)
+##### 项目链接：
+https://github.com/starjun/openstar
+
+##### 项目简述：
+OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复杂规则编写。提供了常规的 HTTP 字段规则配置，还提供了 IP 黑白名单、访问频次等配置，对于 CC 防护更提供的特定的规则算法，并且支持搭建集群进行防护。
+
+##### 推荐评语：
+通过 OpenStar 简洁的配置文件可定制化配置一台支持复杂规则的 Web 应用防火墙
 
 
 ## Security inspection 安全检测
@@ -257,6 +280,21 @@ myscan是参考awvs的poc目录架构，pocsuite3、sqlmap等代码框架，以�
 
 被动扫描器+不断更新收集的poc+burp插件是很不错的渗透测试使用场景，不错的代码质量也是作为开源项目的保障。只是每次都需要启动redis对于日常使用来说还是有些不方便。
 
+### [Pocassist](https://github.com/jweny/pocassist)
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%e2%98%86-green) ![](https://img.shields.io/badge/Language-Golang-blue) ![](https://img.shields.io/badge/Author-jweny-orange) ![GitHub stars](https://img.shields.io/github/stars/jweny/pocassist.svg?style=flat&logo=github)
+
+##### 项目链接：
+https://github.com/jweny/pocassist
+
+##### 项目简述：
+Pocassist 是一个 Golang 编写的全新开源漏洞测试框架，帮助安全人员专注于漏洞验证的逻辑的实现。
+
+Pocassist 提供了简洁的 Web 图形化界面，用户可以在线编辑漏洞验证程序即可进行批量的测试；规则完全兼容 xray，可以直接使用现有开源的 PoC 库，同时也支持添加自定义规则。
+
+##### 推荐评语：
+一套可视化的漏洞测试框架可以极大的提高渗透测试工作效率
+
+
 ## Penetration Test 攻击与利用
 
 在实际渗透测试过程中涉及到的工具
@@ -323,6 +361,19 @@ VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战�
 ##### 推荐评语：
 
 一个好用的工具+靠谱的作者是一个开源项目成熟最关键的特点，在特殊的时期，你一定需要这样一个工具。
+
+### [MDUT](https://github.com/SafeGroceryStore/MDUT)
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%e2%98%86-green) ![](https://img.shields.io/badge/Language-Java-blue) ![](https://img.shields.io/badge/Author-Ch1ngg-orange) ![GitHub stars](https://img.shields.io/github/stars/SafeGroceryStore/MDUT.svg?style=flat&logo=github)
+
+##### 项目链接：
+https://github.com/SafeGroceryStore/MDUT
+
+##### 项目简述：
+MDUT 全称 Multiple Database Utilization Tools，旨在将常见的数据库利用手段集合在一个程序中，打破各种数据库利用工具需要各种环境导致使用相当不便的隔阂；MDUT 使用 Java 开发，支持跨平台使用。
+
+##### 推荐评语：
+不同数据库的所需环境和利用方式不同？不用担心，MDUT 已经为你准备好了。
+
 
 ## Information analysis 信息分析
 对在渗透测试中获取到的各种信息做分析
@@ -442,7 +493,7 @@ https://github.com/Adminisme/ServerScan
 
 网络扫描、服务探测工具并不稀奇。但专注于在内网环境的时候可用的工具就变少了很多，往往都需要用回nmap。这个工具依托于开发者诸多的实战经验，不但支持cs且在多种环境下都使用自如，实用体验极佳。
 
-### [fscan](https://github.com/shadow1ng/fscan) ![](https://img.shields.io/badge/-New-red)
+### [fscan](https://github.com/shadow1ng/fscan)
 
 ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-shadow1ng-orange) ![](https://img.shields.io/badge/Language-Golang-blue) [![GitHub stars](https://img.shields.io/github/stars/shadow1ng/fscan.svg?style=flat&logo=github)]()
 
@@ -459,7 +510,7 @@ https://github.com/shadow1ng/fscan
 
 作为内网扫描工具，除了基本的信息搜集，还提供了一些对内网渗透很有帮助的漏洞扫描是不错的思路~
 
-### [As-Exploits](https://github.com/yzddmr6/As-Exploits) ![](https://img.shields.io/badge/-New-red)
+### [As-Exploits](https://github.com/yzddmr6/As-Exploits)
 
 ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%e2%98%86-green) ![](https://img.shields.io/badge/Author-yzddmr6-orange) ![](https://img.shields.io/badge/Language-JavaScript-blue) [![GitHub stars](https://img.shields.io/github/stars/yzddmr6/As-Exploits.svg?style=flat&logo=github)]()
 
@@ -474,6 +525,34 @@ https://github.com/yzddmr6/As-Exploits
 
 你究竟需要一个什么样的工具来完成后渗透呢，我想一定是As-Exploits这样的~
 
+### [Platypus](https://github.com/WangYihang/Platypus) ![](https://img.shields.io/badge/-New-red)
+
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Golang-blue) ![](https://img.shields.io/badge/Author-WangYihang-orange) ![GitHub stars](https://img.shields.io/github/stars/WangYihang/Platypus.svg?style=flat&logo=github)
+
+##### 项目链接：
+https://github.com/WangYihang/Platypus
+
+##### 项目简述：
+Platypus 是一个基于终端与 Web UI 交互式的反弹 Shell 会话管理工具
+
+在实际的渗透测试中，为了解决 Netcat/Socat 等工具在文件传输、多会话管理方面的不足。该工具在多会话管理的基础上增加了在渗透测试中更加有用的功能，可以更方便灵活地对反弹 Shell 会话进行管理。
+
+##### 推荐评语：
+在渗透测试中，使用 Platypus 来帮助你统一、便捷地管理多个会话，除此之外Platypus 还提供了 web 图形化界面。
+
+### [Stowaway](https://github.com/ph4ntonn/Stowaway) ![](https://img.shields.io/badge/-New-red)
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Golang-blue) ![](https://img.shields.io/badge/Author-ph4ntonn-orange) ![GitHub stars](https://img.shields.io/github/stars/ph4ntonn/Stowaway.svg?style=flat&logo=github)
+
+##### 项目链接：
+https://github.com/ph4ntonn/Stowaway
+
+##### 项目简述：
+Stowaway 是一款多级代理工具，可将外部流量通过多个节点代理至内网，突破内网访问限制
+
+Stowaway 可以方便渗透测试人员通过多级跳跃，从外部dmz等一系列区域逐步深入核心网络；Stowaway 除了流量转发功能，还提供了端口复用、ssh隧道，流量伪装等专为渗透测试人员所用的功能。
+
+##### 推荐评语：
+还在为复杂的内网出网而苦恼吗？Stowaway 可以帮助你创建一条顺畅稳定的通信链路。
 
 ## Others 其他相关
 
