@@ -62,17 +62,13 @@ Not only large tools which break security barriers，various small tools that op
 
 这里会更新最近涉及更新的项目
 
-- 2021.06.27 **Viper**
+- 2021.07.04 **HackBrowserData**  
 
-	[Viper](https://github.com/FunnyWolf/Viper) 更新v1.3.13
+	[HackBrowserData](https://github.com/moonD4rk/HackBrowserData) 更新 v0.3.6
 
-- 2021.06.24 **frida-skeleton**
+- 2021.07.05 **Viper**
 
-	[frida-skeleton](https://github.com/Margular/frida-skeleton) 更新 v3.2.3
-
-- 2021.06.24 **HAE**  
-
-	[HAE](https://github.com/gh0stkey/HaE) 更新 v2.0.4
+	[Viper](https://github.com/FunnyWolf/Viper) 更新 v1.3.14
 
 - 2021.7.2 [**星链计划2.0-Galaxy**](https://github.com/knownsec/404StarLink2.0-Galaxy)
 
