@@ -109,7 +109,7 @@ https://github.com/C4o/Juggler
 
 该项目利用了渗透测试从业者在渗透测试中的惯性思维反影响攻击者，从而大幅度的影响了攻击者的渗透思路。可惜的是，该项目本身强依赖基础WAF，单靠Juggler很难提升防护本身的能力。
 
-### [OpenStar](https://github.com/starjun/openstar)
+### [OpenStar](https://github.com/starjun/openstar) ![](https://img.shields.io/badge/-New-red)
 ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Lua-blue) ![](https://img.shields.io/badge/Author-starjun-orange) ![GitHub stars](https://img.shields.io/github/stars/starjun/openstar.svg?style=flat&logo=github)
 ##### 项目链接：
 https://github.com/starjun/openstar
@@ -280,7 +280,7 @@ myscan是参考awvs的poc目录架构，pocsuite3、sqlmap等代码框架，以�
 
 被动扫描器+不断更新收集的poc+burp插件是很不错的渗透测试使用场景，不错的代码质量也是作为开源项目的保障。只是每次都需要启动redis对于日常使用来说还是有些不方便。
 
-### [Pocassist](https://github.com/jweny/pocassist)
+### [Pocassist](https://github.com/jweny/pocassist) ![](https://img.shields.io/badge/-New-red)
 ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%e2%98%86-green) ![](https://img.shields.io/badge/Language-Golang-blue) ![](https://img.shields.io/badge/Author-jweny-orange) ![GitHub stars](https://img.shields.io/github/stars/jweny/pocassist.svg?style=flat&logo=github)
 
 ##### 项目链接：
@@ -362,7 +362,7 @@ VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战�
 
 一个好用的工具+靠谱的作者是一个开源项目成熟最关键的特点，在特殊的时期，你一定需要这样一个工具。
 
-### [MDUT](https://github.com/SafeGroceryStore/MDUT)
+### [MDUT](https://github.com/SafeGroceryStore/MDUT) ![](https://img.shields.io/badge/-New-red)
 ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%e2%98%86-green) ![](https://img.shields.io/badge/Language-Java-blue) ![](https://img.shields.io/badge/Author-Ch1ngg-orange) ![GitHub stars](https://img.shields.io/github/stars/SafeGroceryStore/MDUT.svg?style=flat&logo=github)
 
 ##### 项目链接：

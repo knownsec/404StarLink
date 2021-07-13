@@ -62,13 +62,26 @@ Not only large tools which break security barriers，various small tools that op
 
 这里会更新最近涉及更新的项目
 
-- 2021.07.04 **HackBrowserData**  
+- 2021.07.12 **f8x**  
 
-	[HackBrowserData](https://github.com/moonD4rk/HackBrowserData) 更新 v0.3.6
+	[f8x](https://github.com/ffffffff0x/f8x) 更新 v1.5.4
 
-- 2021.07.05 **Viper**
+- 2021.07.12 **Pocassist**  
 
-	[Viper](https://github.com/FunnyWolf/Viper) 更新 v1.3.14
+	[Pocassist](https://github.com/jweny/pocassist) 更新 v1.0.2
+
+- 2021.07.11 **Viper**
+
+	[Viper](https://github.com/FunnyWolf/Viper) 更新 v1.3.15
+
+- 2021.07.11 **Platypus**  
+
+	[Platypus](https://github.com/WangYihang/Platypus) 更新 v1.4.3
+
+- 2021.07.08 **Kunlun-M**  
+
+	[Kunlun-M](https://github.com/LoRexxar/Kunlun-M) 更新 v2.4.0
+
 
 - 2021.7.2 [**星链计划2.0-Galaxy**](https://github.com/knownsec/404StarLink2.0-Galaxy)
 
