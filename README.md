@@ -62,30 +62,22 @@ Not only large tools which break security barriers，various small tools that op
 
 这里会更新最近涉及更新的项目
 
-- 2021.07.12 **f8x**  
+- 2021.07.18 **Viper**
 
-	[f8x](https://github.com/ffffffff0x/f8x) 更新 v1.5.4
+	[Viper](https://github.com/FunnyWolf/Viper) 更新 v1.3.16
 
-- 2021.07.12 **Pocassist**  
+- 2021.07.17 **Platypus**  
 
-	[Pocassist](https://github.com/jweny/pocassist) 更新 v1.0.2
+	[Platypus](https://github.com/WangYihang/Platypus) 更新 v1.5.0
 
-- 2021.07.11 **Viper**
+- 2021.07.16 **MDUT**  
 
-	[Viper](https://github.com/FunnyWolf/Viper) 更新 v1.3.15
-
-- 2021.07.11 **Platypus**  
-
-	[Platypus](https://github.com/WangYihang/Platypus) 更新 v1.4.3
-
-- 2021.07.08 **Kunlun-M**  
-
-	[Kunlun-M](https://github.com/LoRexxar/Kunlun-M) 更新 v2.4.0
+	[MDUT](https://github.com/SafeGroceryStore/MDUT) 更新 v2.0.5
 
 
 - 2021.7.2 [**星链计划2.0-Galaxy**](https://github.com/knownsec/404StarLink2.0-Galaxy)
 
-	星链计划2.0-Galaxy 收录[**Platypus**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#platypus-)、[**Stowaway**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#stowaway-)、[**MDUT**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#MDUT)、[**OpenStar**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#OpenStar)、[**Pocassist**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#pocassist)。
+	星链计划2.0-Galaxy 收录[**Platypus**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#platypus-)、[**Stowaway**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#stowaway-)、[**MDUT**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#MDUT-)、[**OpenStar**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#OpenStar)、[**Pocassist**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#pocassist)。
 
 - 2021.4.22 [**星链计划2.0-Galaxy**](https://github.com/knownsec/404StarLink2.0-Galaxy)
 
@@ -178,7 +170,7 @@ Not only large tools which break security barriers，various small tools that op
         - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-JS/Python-blue) ![](https://img.shields.io/badge/Author-FunnyWolf-orange) [![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)]()
         - VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战术及技术进行模块化及武器化。
 
-	- [MDUT](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#MDUT) ![](https://img.shields.io/badge/-New-red)
+	- [MDUT](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#MDUT-) ![](https://img.shields.io/badge/-New-red)
 		- ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%e2%98%86-green) ![](https://img.shields.io/badge/Language-Java-blue) ![](https://img.shields.io/badge/Author-Ch1ngg-orange) ![GitHub stars](https://img.shields.io/github/stars/SafeGroceryStore/MDUT.svg?style=flat&logo=github)
 		- MDUT 全称 Multiple Database Utilization Tools，旨在将常见的数据库利用手段集合在一个程序中，打破各种数据库利用工具需要各种环境导致使用相当不便的隔阂。
     
