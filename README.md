@@ -70,6 +70,10 @@ Not only large tools which break security barriers，various small tools that op
 
 	[antSword](https://github.com/AntSwordProject/antSword) 更新 v2.1.14
 
+- 2021.07.24 **As-Exploits**  
+
+	[As-Exploits](https://github.com/yzddmr6/As-Exploits) 更新 v1.4
+
 - 2021.07.22 **Kunlun-M**  
 
 	[Kunlun-M](https://github.com/LoRexxar/Kunlun-M) 更新 v2.5.0
