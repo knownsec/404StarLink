@@ -62,14 +62,9 @@ Not only large tools which break security barriers，various small tools that op
 
 这里会更新最近涉及更新的项目
 
-- 2021.08.28 **Viper**
+- 2021.09.04 **Viper**
 
-	[Viper](https://github.com/FunnyWolf/Viper) 更新 v1.4.1
-
-- 2021.08.27 **antSword**
-
-	[antSword](https://github.com/AntSwordProject/antSword) 更新 v2.1.15
-
+	[Viper](https://github.com/FunnyWolf/Viper) 更新 v1.4.2
 
 - 2021.7.2 [**星链计划2.0-Galaxy**](https://github.com/knownsec/404StarLink2.0-Galaxy)
 
