@@ -541,7 +541,7 @@ Platypus 是一个基于终端与 Web UI 交互式的反弹 Shell 会话管理�
 在渗透测试中，使用 Platypus 来帮助你统一、便捷地管理多个会话，除此之外Platypus 还提供了 web 图形化界面。
 
 ### [Stowaway](https://github.com/ph4ntonn/Stowaway) ![](https://img.shields.io/badge/-New-red)
-![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Golang-blue) ![](https://img.shields.io/badge/Author-ph4ntonn-orange) ![GitHub stars](https://img.shields.io/github/stars/ph4ntonn/Stowaway.svg?style=flat&logo=github)
+![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Golang-blue) ![](https://img.shields.io/badge/Author-ph4ntom-orange) ![GitHub stars](https://img.shields.io/github/stars/ph4ntonn/Stowaway.svg?style=flat&logo=github)
 
 ##### 项目链接：
 https://github.com/ph4ntonn/Stowaway
