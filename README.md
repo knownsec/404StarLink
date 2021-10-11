@@ -62,13 +62,17 @@ Not only large tools which break security barriers，various small tools that op
 
 这里会更新最近涉及更新的项目
 
-- 2021.10.07 **Viper**
+- 2021.10.10 **Viper**
 
-	[Viper](https://github.com/FunnyWolf/Viper) 更新 v1.5.2
+	[Viper](https://github.com/FunnyWolf/Viper) 更新 v1.5.3
 
 - 2021.10.03 **f8x**
 
 	[f8x](https://github.com/ffffffff0x/f8x) 更新 v1.5.6
+
+- 2021.10.02 **CDK**
+
+	[CDK](https://github.com/cdk-team/CDK) 更新 v1.0.4
 
 - 2021.09.30 **KunLun-M**
 
