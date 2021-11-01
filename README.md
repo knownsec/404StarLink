@@ -66,6 +66,10 @@ Not only large tools which break security barriers，various small tools that op
 
 	[Viper](https://github.com/FunnyWolf/Viper) 更新 v1.5.6
 
+- 2021.10.22 **HaE**
+
+	[HaE](https://github.com/gh0stkey/HaE) 更新 v2.1.2
+
 - 2021.7.2 [**星链计划2.0-Galaxy**](https://github.com/knownsec/404StarLink2.0-Galaxy)
 
 	星链计划2.0-Galaxy 收录[**Platypus**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#platypus-)、[**Stowaway**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#stowaway-)、[**MDUT**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#MDUT-)、[**OpenStar**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#OpenStar)、[**Pocassist**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#pocassist)。
