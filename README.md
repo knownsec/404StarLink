@@ -1,242 +1,169 @@
-# 404 StarLink Project 2.0 - Galaxy
+## 404星链计划 / 404 StarLink Project
 
----
+<div align="center">
+<img src="Images/logo.png" width="300">
+</div>
 
-![](./logo.png) 
+「404星链计划」是知道创宇 404 实验室于 2020 年 8 月开始的计划，主要目的是改善安全圈内工具庞杂、水平层次不齐、开源无人维护的多种问题，促进安全开源社区的发展；通过这种方式将不同安全领域研究人员与开源项目链接起来。
 
-The 404 Starlink Project was started by Knownsec 404Team in 2020. We aim to denfend network and promote the  Instrumentalizing  of security research in different fields through open source or open methods. Just like Starlink, this project will link researchers with different security background.
+星链计划将不断地收集优秀的安全开源项目，对收录的项目提供技术支持，持续跟踪和展示项目的更新和动态，并建立了星链计划社区，社区用户可以通过星链展示板块探索自己感兴趣的项目，同时还可以在社区内快速为开源作者反馈问题。以此方式帮助开源项目成长，促进安全社区发展。
 
-Not only large tools which break security barriers，various small tools that optimizing the daily experience are included. We will open all tools developed by 404 Team, and continue to collect pain points in the process of security research and penetration testing.  The security field used to have various problems, like   tools jumbled, different levels obvious, and open source be unmaintained. Through the 404 Starlink Project, we wish security field would become a better place where people like to communicate and progress together.
+![Stargazers over time](https://starchart.cc/knownsec/404StarLink2.0-Galaxy.svg)
 
-[“404星链计划”](https://github.com/knownsec/404StarLink-Project) 是知道创宇404实验室于2020年8月开始的计划，旨在通过开源或者开放的方式，**长期维护**并推进涉及安全研究各个领域不同环节的工具化，就像星链一样，将立足于不同安全领域、不同安全环节的研究人员链接起来。
+## 展示/Exhibition
+<!--auto_index_exhibition_begin_5ffbdd274903479a5d958dd90847b2de-->
 
-[“404星链计划”](https://github.com/knownsec/404StarLink-Project) 主要目的是改善安全圈内工具庞杂、水平层次不齐、开源无人维护的多种问题，营造一个更好更开放的安全工具促进与交流的技术氛围。
+**1.项目动态**
 
-2020年11月，知道创宇404实验室正式推出星链计划2.0。通过星链计划核心社群成员作为核心，筛选**优质、有意义、有趣、坚持维护**的开源项目加入星链计划2.0，由404实验室核心成员及星链计划核心成员作为背书，将优质的开源项目汇聚成星河，为立足于不同安全领域的安全研究人员指明方向。代号**Galaxy**。
+| 时间 | 项目名称 | 项目动态 |
+|----|-----------|--------------------------|
+|2021-10-31|[**Viper**](detail/Viper.md)|更新 [v1.5.6](detail/Viper.md#最近更新) 版本|
+|2021-10-22|[**HaE**](detail/HaE.md)|更新 [v2.1.2](detail/HaE.md#最近更新) 版本|
+|2021-10-03|[**f8x**](detail/f8x.md)|更新 [v1.5.6](detail/f8x.md#最近更新) 版本|
+|2021-10-02|[**CDK**](detail/CDK.md)|更新 [v1.0.4](detail/CDK.md#最近更新) 版本|
+|2021-08-27|[**antSword**](detail/antSword.md)|更新 [v2.1.15](detail/antSword.md#最近更新) 版本|
+|2021-08-17|[**MDUT**](detail/MDUT.md)|更新 [v2.0.6](detail/MDUT.md#最近更新) 版本|
+|2021-07-02|[**Pocassist**](detail/Pocassist.md)|Pocassist加入星链计划|
+|2021-07-02|[**MDUT**](detail/MDUT.md)|MDUT加入星链计划|
+|2021-07-02|[**OpenStar**](detail/OpenStar.md)|OpenStar加入星链计划|
+|2021-07-02|[**Stowaway**](detail/Stowaway.md)|Stowaway加入星链计划|
 
-同时，真正优质的开源项目将会优先推荐KCON 2021兵器谱，在KCON 2021上获得专属的曝光机会。404实验室也会为优秀的个人开源维护者提供知道创宇的优先内推绿色通道，星链计划的核心成员群也会不定期送出礼品。
+**2.StarRank**
 
-星链计划2.0会将开源项目按照两个核心项作为主要指标：
-- 成熟、有意义的开源项目       Open-Projects
-- 有新意、解决痛点的开源项目   Fun-tools
+| 序号 | 项目名称 | 项目简介 | Star |
+|----|-----------|--------------------------|----|
+|1|[**HackBrowserData**](detail/HackBrowserData.md)|hack-browser-data 是一个解密浏览器数据（密码/历史记录/Cookies/书签）的导出工具，支持全平台主流浏览器的数据导出窃取。|3700|
+|2|[**fscan**](detail/fscan.md)|一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。支持主机存活探测、端口扫描、常见服务的爆破、ms17010、redis批量写公钥、计划任务反弹shell、读取win网卡信息、web指纹识别、web漏洞扫描、netbios探测、域控识别等功能。|2500|
+|3|[**CDK**](detail/CDK.md)|CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器内部提供零依赖的常用命令及PoC/EXP。集成Docker/K8s场景特有的逃逸、横向移动、持久化利用方式，插件化管理。|1800|
+|4|[**Viper**](detail/Viper.md)|VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战术及技术进行模块化及武器化。|1700|
+|5|[**Kunpeng**](detail/Kunpeng.md)|Kunpeng是一个Golang编写的开源POC检测框架，集成了包括数据库、中间件、web组件、cms等等的漏洞POC，可检测弱口令、SQL注入、XSS、RCE等漏洞类型，以动态链接库的形式提供调用，通过此项目可快速开发漏洞检测类的系统，比攻击者快一步发现风险漏洞。|1400|
+|6|[**antSword**](detail/antSword.md)|中国蚁剑是一款开源的跨平台网站管理工具。|1100|
+|7|[**OpenStar**](detail/OpenStar.md)|OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复杂规则编写。提供了常规的 HTTP 字段规则配置，还提供了 IP 黑白名单、访问频次等配置，对于 CC 防护更提供的特定的规则算法，并且支持搭建集群进行防护。|996|
+|8|[**ServerScan**](detail/ServerScan.md)|一款使用Golang开发且适用于攻防演习内网横向信息收集的高并发网络扫描、服务探测工具。|949|
+|9|[**Stowaway**](detail/Stowaway.md)|Stowaway 是一款多级代理工具，可将外部流量通过多个节点代理至内网，突破内网访问限制。Stowaway 可以方便渗透测试人员通过多级跳跃，从外部dmz等一系列区域逐步深入核心网络；Stowaway 除了流量转发功能，还提供了端口复用、ssh隧道，流量伪装等专为渗透测试人员所用的功能。|875|
+|10|[**Elkeid**](detail/Elkeid.md)|Elkeid是一个云原生的基于主机的安全(入侵检测与风险识别)解决方案。Elkeid 包含两大部分：Elkeid Agent与Elkeid Driver作为数据采集层，它在Linux系统的内核和用户空间上均可使用，从而提供了具有更好性能的且更丰富的数据。 Elkeid Server可以提供百万级Agent的接入能力，采集Agent数据，支持控制与策略下发。包含实时、离线计算模块，对采集上来的数据进行分析和检测。又有自带的服务发现和管理系统，方便对整个后台管理和操作。|860|
 
-入选星链计划2.0的项目至少需要满足以下四个要求：
-- 安全相关的各个环节以及链路
-- 开源
-- 坚持维护
-- 通过由404实验室以及星链计划核心成员组成的审阅组审阅
+**3.项目更新**
 
-入选项目将由代码质量、技术难度、新颖度等多个维度评价打分(满分5星) ，是否坚持维护将作为最重要的评价标准。入选Open-Projects的项目不得超过1年未更新，且超过6个月未更新的项目只能获得上限为4星的评价。入选Fun-Tools分类的开源项目由星链计划2.0核心社群成员判定当前的维护状态，被判定为未维护的项目将会被从星链计划中去除。
+| 时间 | 项目迭代版本 |
+|----|-----------|
+|第43周|[**Viper**](detail/Viper.md) 更新 [v1.5.6](detail/Viper.md#最近更新)|
+|第42周|[**HaE**](detail/HaE.md) 更新 [v2.1.2](detail/HaE.md#最近更新) / **[Viper](https://github.com/FunnyWolf/Viper)** 更新 [v1.5.5](detail/Viper.md#最近更新)|
+|第41周|[**Viper**](detail/Viper.md) 更新 [v1.5.4](detail/Viper.md#最近更新)|
+|第40周|[**Viper**](detail/Viper.md) 更新 [v1.5.3](detail/Viper.md#最近更新)|
+|第39周|[**CDK**](detail/CDK.md) 更新 [v1.0.4](detail/CDK.md#最近更新) / **[f8x](https://github.com/ffffffff0x/f8x)** 更新 [v1.5.6](detail/f8x.md#最近更新)|
+|第38周|[**Viper**](detail/Viper.md) 更新 [v1.5.1](detail/Viper.md#最近更新)|
+|第37周|[**Viper**](detail/Viper.md) 更新 [v1.5.0](detail/Viper.md#最近更新)|
+|第34周|[**Viper**](detail/Viper.md) 更新 [v1.4.1](detail/Viper.md#最近更新) / **[antSword](https://github.com/AntSwordProject/antSword)** 更新 [v2.1.15](detail/antSword.md#最近更新)|
+|第33周|[**Viper**](detail/Viper.md) 更新 [v1.4.0](detail/Viper.md#最近更新) / **[MDUT](https://github.com/SafeGroceryStore/MDUT)** 更新 [v2.0.6](detail/MDUT.md#最近更新)|
 
-参与星链计划2.0的开源项目可以借由星链计划社群与开发者直接沟通，真正将研究人员和开发人员连在一起。
+**4.新项目加入**
 
-希望星链计划2.0能像北斗七星一样，引领安全研究人员前进的方向。
+| 时间 | 项目名称 | 项目简介 |
+|----|-----------|--------------------------|
+|2021-07-02|[**Pocassist**](detail/Pocassist.md)|Pocassist 是一个 Golang 编写的全新开源漏洞测试框架，帮助安全人员专注于漏洞验证的逻辑的实现。Pocassist 提供了简洁的 Web 图形化界面，用户可以在线编辑漏洞验证程序即可进行批量的测试；规则完全兼容 xray，可以直接使用现有开源的 PoC 库，同时也支持添加自定义规则。|
+|2021-07-02|[**MDUT**](detail/MDUT.md)|MDUT 全称 Multiple Database Utilization Tools，旨在将常见的数据库利用手段集合在一个程序中，打破各种数据库利用工具需要各种环境导致使用相当不便的隔阂；MDUT 使用 Java 开发，支持跨平台使用。|
+|2021-07-02|[**OpenStar**](detail/OpenStar.md)|OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复杂规则编写。提供了常规的 HTTP 字段规则配置，还提供了 IP 黑白名单、访问频次等配置，对于 CC 防护更提供的特定的规则算法，并且支持搭建集群进行防护。|
+|2021-07-02|[**Stowaway**](detail/Stowaway.md)|Stowaway 是一款多级代理工具，可将外部流量通过多个节点代理至内网，突破内网访问限制。Stowaway 可以方便渗透测试人员通过多级跳跃，从外部dmz等一系列区域逐步深入核心网络；Stowaway 除了流量转发功能，还提供了端口复用、ssh隧道，流量伪装等专为渗透测试人员所用的功能。|
+|2021-07-02|[**Platypus**](detail/Platypus.md)|Platypus 是一个基于终端与 Web UI 交互式的反弹 Shell 会话管理工具。在实际的渗透测试中，为了解决 Netcat/Socat 等工具在文件传输、多会话管理方面的不足。该工具在多会话管理的基础上增加了在渗透测试中更加有用的功能，可以更方便灵活地对反弹 Shell 会话进行管理。|
+|2021-04-22|[**fscan**](detail/fscan.md)|一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。支持主机存活探测、端口扫描、常见服务的爆破、ms17010、redis批量写公钥、计划任务反弹shell、读取win网卡信息、web指纹识别、web漏洞扫描、netbios探测、域控识别等功能。|
+|2021-04-22|[**Elkeid**](detail/Elkeid.md)|Elkeid是一个云原生的基于主机的安全(入侵检测与风险识别)解决方案。Elkeid 包含两大部分：Elkeid Agent与Elkeid Driver作为数据采集层，它在Linux系统的内核和用户空间上均可使用，从而提供了具有更好性能的且更丰富的数据。 Elkeid Server可以提供百万级Agent的接入能力，采集Agent数据，支持控制与策略下发。包含实时、离线计算模块，对采集上来的数据进行分析和检测。又有自带的服务发现和管理系统，方便对整个后台管理和操作。|
+|2021-04-22|[**As-Exploits**](detail/As-Exploits.md)|中国蚁剑后渗透框架|
+|2021-03-23|[**Viper**](detail/Viper.md)|VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战术及技术进行模块化及武器化。|
+|2021-03-23|[**CodeReviewTools**](detail/CodeReviewTools.md)|CodeReviewTools是一个可以快速批量反编译jar包的工具，为审计Java代码做好第一步。|
 
-[![Stargazers over time](https://starchart.cc/knownsec/404StarLink2.0-Galaxy.svg)](https://starchart.cc/knownsec/404StarLink2.0-Galaxy)
+**5.[分类:甲方工具](party_a.md)**
 
+| 序号 | 项目名称 | 作者 | 项目简介 | Star |
+|------|----------|------|----------|------|
+|1|[**Elkeid**](detail/Elkeid.md)|bytedance|Elkeid是一个云原生的基于主机的安全(入侵检测与风险识别)解决方案。Elkeid 包含两大部分：Elkeid Agent与Elkeid Driver作为数据采集层，它在Linux系统的内核和用户空间上均可使用，从而提供了具有更好性能的且更丰富的数据。 Elkeid Server可以提供百万级Agent的接入能力，采集Agent数据，支持控制与策略下发。包含实时、离线计算模块，对采集上来的数据进行分析和检测。又有自带的服务发现和管理系统，方便对整个后台管理和操作。|860|
+|2|[**linglong**](detail/linglong.md)|awake1t|linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，进行端口爆破。帮助企业更快发现弱口令问题。主要功能包括: 资产探测、端口爆破、定时任务、管理后台识别、报表展示。|826|
+|3|[**gshark**](detail/gshark.md)|madneal|一款开源敏感信息监测系统，可以监测包括 github、gitlab(目前不太稳定，由于gitlab对于免费用户不提供代码全文检索API)、searchcode 多平台的敏感信息监测。|421|
+|4|[**Juggler**](detail/Juggler.md)|C4o|一个也许能骗到黑客的系统，可以作为WAF等防护体系的一环。|354|
 
-# Rules
+**6.[分类:信息收集](reconnaissance.md)**
 
-- Positivity: 积极度，工具正处于积极维护期的项目将被标记为In，正出于弱维护期的项目将被标记为TBD，已经不再维护的的项目将被标记为OUT.
+| 序号 | 项目名称 | 作者 | 项目简介 | Star |
+|------|----------|------|----------|------|
+|1|[**HaE**](detail/HaE.md)|gh0stkey|HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。|708|
+|2|[**DarkEye**](detail/DarkEye.md)|zsdevX|基于go完成的渗透测试信息收集利器|688|
+|3|[**Glass**](detail/Glass.md)|s7ckTeam|Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/ZoomEye/Shodan/360等api接口快速查询资产信息并识别重点资产的指纹，也可针对IP/IP段或资产列表进行快速的指纹识别。|455|
+|4|[**ZoomEye-go**](detail/ZoomEye-go.md)|gyyyy|ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 命令行模式，同时也可以作为SDK集成到其他工具中。该库可以让技术人员更便捷地搜索、筛选、导出 ZoomEye 的数据。|27|
 
-- Score: Open-Projects的评分上限为5星，Fun-tools的评分上限为4星.
+**7.全部分类**
 
-  Score == **流行度分**（上限3分）+  **价值分**（上限1分）+  **积极度分**（上限1分）
+* [甲方工具](party_a.md)
+* [信息收集](reconnaissance.md)
+* [漏洞探测](vulnerability_assessment.md)
+* [攻击与利用](penetration_test.md)
+* [信息分析](information_analysis.md)
+* [内网工具](intranet_tools.md)
+* [其他](others.md)
 
-  - **流行度分**：由Star\Fork\Watch组成的**流行度基准分**和**维护积极度权重**折算得出。
+8.[入选2021Kcon安全会议兵器谱](column/2021KCon_exhibition_with_starlink.md)  
+9.[星链计划全部项目](allprojects.md)  
+10.[正在申请加入的项目](https://github.com/knownsec/404StarLink2.0-Galaxy/issues)  
 
-    **流行度基准分** == Star + Fork\*2 + Watch\*4
-
-    **流行度基准分**每250分折算为**流行度**1分，满分3分，超出不计入。
-
-    **维护积极度权重**基础权重为5，超过90天未更新权重降为4，超过180天未更新权重降为3，超过360天未更新权重降为2。
-
-    **最终流行度分** == **流行度基准分**/250 * (**维护积极度权重**/5)
-
-  - **价值分**：由星链计划审阅组参考项目的新颖度和成熟度等多个方面构成。
-  - **积极度分**：由项目更新周期/issue修复速度/维护成员积极度等多个方面构成。
-
-
-
-# Update
-
-这里会更新最近涉及更新的项目
-
-- 2021.10.31 **Viper**
-
-	[Viper](https://github.com/FunnyWolf/Viper) 更新 v1.5.6
-
-- 2021.10.22 **HaE**
-
-	[HaE](https://github.com/gh0stkey/HaE) 更新 v2.1.2
-
-- 2021.7.2 [**星链计划2.0-Galaxy**](https://github.com/knownsec/404StarLink2.0-Galaxy)
-
-	星链计划2.0-Galaxy 收录[**Platypus**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#platypus-)、[**Stowaway**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#stowaway-)、[**MDUT**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#MDUT-)、[**OpenStar**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#OpenStar)、[**Pocassist**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#pocassist)。
-
-- 2021.4.22 [**星链计划2.0-Galaxy**](https://github.com/knownsec/404StarLink2.0-Galaxy)
-
-  ​	星链计划2.0-Galaxy 收录[**Elkeid**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#Elkeid)、[**fscan**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#fscan)、[**As-Exploits**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#As-Exploits)。
-
-- 2021.3.23 [**星链计划2.0-Galaxy**](https://github.com/knownsec/404StarLink2.0-Galaxy)
-
-  ​	星链计划2.0-Galaxy 收录[**linglong**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#linglong-)、[**Viper**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#viper-)、[**CodeReviewTools**](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#codereviewtools-)。
-
-
-
-# Contents
-
-## 甲方工具向
-- Threat identification 威胁识别
-    - 在攻击发生之前识别，如流量分析等 
-- Mitigation measures 缓解措施
-    - 在攻击发生之中缓解威胁，如hids，waf等
-    - [Elkeid](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#elkeid-)
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%e2%98%85-green)![](https://img.shields.io/badge/Author-bytedance-orange) ![](https://img.shields.io/badge/Language-C/Golang-blue) [![GitHub stars](https://img.shields.io/github/stars/bytedance/Elkeid.svg?style=flat&logo=github)]()
-        - Elkeid是一个云原生的基于主机的入侵检测解决方案。由Elkeid Agent与Elkeid Driver作为数据采集层，配合Elkeid Server进行管理和分析。
-    - [Juggler](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#juggler) 
-        - ![](https://img.shields.io/badge/Positivity-TBD-yellow) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Author-C4o-orange) ![](https://img.shields.io/badge/Language-Go-blue) [![GitHub stars](https://img.shields.io/github/stars/C4o/Juggler.svg?style=flat&logo=github)]()
-        - 一个也许能骗到黑客的系统。可以作为WAF等防护体系的一环。
-	- [OpenStar](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#OpenStar) ![](https://img.shields.io/badge/-New-red)
-		- ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Lua-blue) ![](https://img.shields.io/badge/Author-starjun-orange) ![GitHub stars](https://img.shields.io/github/stars/starjun/openstar.svg?style=flat&logo=github)
-		- OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复杂规则编写
-
-
-- Security inspection 安全检测
-    - 对目标的安全检测，主要集中在对不同链路的主动安全检测
-    - [linglong](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#linglong-) 
-      - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%e2%98%86-green) ![](https://img.shields.io/badge/Author-awake1t-orange) ![](https://img.shields.io/badge/Language-Go-blue) [![GitHub stars](https://img.shields.io/github/stars/awake1t/linglong.svg?style=flat&logo=github)]()
-      - linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，进行端口爆破。帮助企业更快发现弱口令问题。主要功能包括: 资产探测、端口爆破、定时任务、管理后台识别、报表展示。
-
-- Security Monitor 安全监控
-    - 对某个安全链路的安全监控、管理平台
-    - [gshark](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#gshark)
-    	- ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-madneal-orange) ![](https://img.shields.io/badge/Language-Go-blue) [![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)]()
-    	- 一款开源敏感信息监测系统，支持github、gitlab、searchcode
+<!--auto_index_exhibition_end_bb3ccc282a0d1924df21437a263718c3-->
 
 
-## 乙方工具向
-- Reconnaissance 信息收集
+## 加入/Join
+开源作者可以通过提交 issue 申请加入星链计划，星链计划除了提供技术支持，还准备了各种里程碑奖励。
 
-    - 在渗透测试前置准备工作过程种涉及到的各类信息收集
-    - [zsdevX/DarkEye](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#zsdevxdarkeye) 
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%e2%98%86-green) ![](https://img.shields.io/badge/Author-zsdevX-orange) ![](https://img.shields.io/badge/Language-Go-blue) [![GitHub stars](https://img.shields.io/github/stars/zsdevX/DarkEye.svg?style=flat&logo=github)]()
-    	- 基于go完成的渗透测试信息收集利器
-    - [Glass](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#Glass) 
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Author-s7ckTeam-orange) ![](https://img.shields.io/badge/Language-Python-blue) [![GitHub stars](https://img.shields.io/github/stars/s7ckTeam/Glass.svg?style=flat&logo=github)]()
-    	- Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/ZoomEye/Shodan/360等api接口快速查询资产信息并识别重点资产的指纹，也可针对IP/IP段或资产列表进行快速的指纹识别。
-    - [HaE](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#HaE) 
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Author-gh0stkey-orange) ![](https://img.shields.io/badge/Language-Java-blue) [![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)]()
-    	- HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件
-    - [AppInfoScanner](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#AppInfoScanner) 
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Author-kelvinBen-orange) ![](https://img.shields.io/badge/Language-Python-blue) [![GitHub stars](https://img.shields.io/github/stars/kelvinBen/AppInfoScanner.svg?style=flat&logo=github)]()
-    	- 一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具。
+<div align="center">
+<img src="Images/milestone_horizontal.jpg" width=100%>
+</div>
 
-	- [ZoomEye-go](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#zoomeye-go)  
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85-yellow)  ![](https://img.shields.io/badge/Author-gyyyy-orange) ![](https://img.shields.io/badge/Language-Go-blue) [![GitHub stars](https://img.shields.io/github/stars/gyyyy/ZoomEye-go.svg?style=flat&logo=github)]()
-        - ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 命令行模式。
+[奖品实物一览](Images/milestone_prizes.png)
 
-- Vulnerability Assessment 漏洞探测
-  
-    - 对目标的各类漏洞探测扫描
-    - [kunpeng](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#kunpeng) 
-        - ![](https://img.shields.io/badge/Positivity-TBD-yellow) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-opensec_cn-orange) ![](https://img.shields.io/badge/Language-Go-blue) [![GitHub stars](https://img.shields.io/github/stars/opensec-cn/kunpeng.svg?style=flat&logo=github)]()
-    	- Kunpeng是一个Golang编写的开源POC检测框架。
-    - [myscan](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#myscan) 
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Author-amcai-orange) ![](https://img.shields.io/badge/Language-Python-blue) [![GitHub stars](https://img.shields.io/github/stars/amcai/myscan.svg?style=flat&logo=github)]()
-        - myscan由python3开发而成的被动扫描工具。
-	- [Pocassist](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#pocassist) ![](https://img.shields.io/badge/-New-red)
-		- ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%e2%98%86-green) ![](https://img.shields.io/badge/Language-Golang-blue) ![](https://img.shields.io/badge/Author-jweny-orange) ![GitHub stars](https://img.shields.io/github/stars/jweny/pocassist.svg?style=flat&logo=github)
-		- Pocassist 是一个 Golang 编写的全新开源漏洞测试框架，帮助安全人员专注于漏洞验证的逻辑的实现
+**1.提交申请**  
+开源作者可以通过 <https://github.com/knownsec/404StarLink2.0-Galaxy/issues> 提交申请，申请规范如下：
 
-- Penetration Test 攻击与利用
-    - 在实际渗透测试过程中涉及到的工具
-    - [Redis Rogue Server](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#redis-rogue-server) 
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Author-Dliv3-orange) ![](https://img.shields.io/badge/Language-Python-blue) [![GitHub stars](https://img.shields.io/github/stars/Dliv3/redis-rogue-server.svg?style=flat&logo=github)]()
-        - Redis 4.x/Redis 5.x RCE利用脚本. 
-    - [CDK](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#cdk)  
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-cdkteam-orange) ![](https://img.shields.io/badge/Language-Go-blue) [![GitHub stars](https://img.shields.io/github/stars/cdk-team/CDK.svg?style=flat&logo=github)]()
-        - CDK是一款为容器环境定制的渗透测试工具。
-    - [MysqlT & WhetherMysqlSham](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#mysqlt--whethermysqlsham)  
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%e2%98%86-yellow)  ![](https://img.shields.io/badge/Author-BeichenDream-orange) ![](https://img.shields.io/badge/Language-C%23-blue) [![GitHub stars](https://img.shields.io/github/stars/BeichenDream/MysqlT.svg?style=flat&logo=github)]()
-        - MysqlT: 伪造Myslq服务端,并利用Mysql逻辑漏洞来获取客户端的任意文件反击攻击者。
-        - WhetherMysqlSham：检测目标Mysql数据库是不是蜜罐。
-    - [Viper](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#viper-) 
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-JS/Python-blue) ![](https://img.shields.io/badge/Author-FunnyWolf-orange) [![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)]()
-        - VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战术及技术进行模块化及武器化。
-
-	- [MDUT](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#MDUT-) ![](https://img.shields.io/badge/-New-red)
-		- ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%e2%98%86-green) ![](https://img.shields.io/badge/Language-Java-blue) ![](https://img.shields.io/badge/Author-Ch1ngg-orange) ![GitHub stars](https://img.shields.io/github/stars/SafeGroceryStore/MDUT.svg?style=flat&logo=github)
-		- MDUT 全称 Multiple Database Utilization Tools，旨在将常见的数据库利用手段集合在一个程序中，打破各种数据库利用工具需要各种环境导致使用相当不便的隔阂。
-    
-- Information analysis 信息分析
-    - 对在渗透测试中获取到的各种信息做分析
-    - [java-object-searcher](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#java-object-searcher) 
-      
-        - ![](https://img.shields.io/badge/Positivity-In-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Author-c0ny1-orange) ![](https://img.shields.io/badge/Language-Java-blue) [![GitHub stars](https://img.shields.io/github/stars/c0ny1/java-object-searcher.svg?style=flat&logo=github)]()
-        - java内存对象搜索辅助工具，配合IDEA在Java应用运行时，对内存中的对象进行搜索。比如可以可以用挖掘request对象用于回显等场景。
-	-  [HackBrowserData](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#hackbrowserdata) 
-		-  ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-moonD4rk-orange) ![](https://img.shields.io/badge/Language-Go-blue) [![GitHub stars](https://img.shields.io/github/stars/moonD4rk/HackBrowserData.svg?style=flat&logo=github)]()
-		-  一款可全平台运行的浏览器数据导出解密工具
-	- [frida-skeleton](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#frida-skeleton) 
-		- ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Author-Margular-orange) ![](https://img.shields.io/badge/Language-Python-blue) [![GitHub stars](https://img.shields.io/github/stars/Margular/frida-skeleton.svg?style=flat&logo=github)]()
-		- 基于Frida完成的一个更简单易用的安卓hook框架
-	- [MySQLMonitor & FileMonitor](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#mysqlmonitor--filemonitor)  
-		- ![](https://img.shields.io/badge/Positivity-IN-green) ![![](https://img.shields.io/badge/Author-madneal-orange) ](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Author-TheKingofDuck-orange) ![](https://img.shields.io/badge/Language-Java|Python-blue) [![GitHub stars](https://img.shields.io/github/stars/TheKingOfDuck/MySQLMonitor.svg?style=flat&logo=github)]()
-		- MySQL实时监控工具 & 文件变化实时监控工具
-    - [CodeReviewTools](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#codereviewtools-) 
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Author-Ppsoft1991-orange) ![](https://img.shields.io/badge/Language-Java-blue) [![GitHub stars](https://img.shields.io/github/stars/Ppsoft1991/CodeReviewTools.svg?style=flat&logo=github)]()
-        - CodeReviewTools是一个可以快速批量反编译jar包的工具。
-    
-- Back-penetration, intranet tools  后渗透、内网工具
-    - 在渗透测试后涉及到的权限维持，或者内网渗透涉及到的工具
-    - [antSword](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#antSword) 
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-AntSwordProject-orange) ![](https://img.shields.io/badge/Language-Nodejs-blue) [![GitHub stars](https://img.shields.io/github/stars/AntSwordProject/antSword.svg?style=flat&logo=github)]()
-        - 中国蚁剑是一款开源的跨平台网站管理工具，一个所有安全从业者都不应该错过的开源项目。
-    - [ServerScan](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#serverscan)  
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-Trim-orange) ![](https://img.shields.io/badge/Language-Go-blue) [![GitHub stars](https://img.shields.io/github/stars/Adminisme/ServerScan.svg?style=flat&logo=github)]()
-        - 一款使用Golang开发且适用于攻防演习内网横向信息收集的高并发网络扫描、服务探测工具。
-    - [fscan](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#fscan-)
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Author-shadow1ng-orange) ![](https://img.shields.io/badge/Language-Golang-blue) [![GitHub stars](https://img.shields.io/github/stars/shadow1ng/fscan.svg?style=flat&logo=github)]()
-        - 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。支持netbios探测、域控识别等多种深度探测能力。
-    
-    - [As-Exploits](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#as-exploits-)
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%e2%98%86-green) ![](https://img.shields.io/badge/Author-yzddmr6-orange) ![](https://img.shields.io/badge/Language-JavaScript-blue) [![GitHub stars](https://img.shields.io/github/stars/yzddmr6/As-Exploits.svg?style=flat&logo=github)]()
-        - 中国蚁剑后渗透框架
+```
+### 项目名称
 	
-	- [Platypus](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#platypus-) ![](https://img.shields.io/badge/-New-red)
-		- ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Golang-blue) ![](https://img.shields.io/badge/Author-WangYihang-orange) ![GitHub stars](https://img.shields.io/github/stars/WangYihang/Platypus.svg?style=flat&logo=github)
-		- Platypus 是一个基于终端与 Web UI 交互式的反弹 Shell 会话管理工具
+### 项目链接
 
-	- [Stowaway](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#stowaway-) ![](https://img.shields.io/badge/-New-red)
-		- ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-green) ![](https://img.shields.io/badge/Language-Golang-blue) ![](https://img.shields.io/badge/Author-ph4ntom-orange) ![GitHub stars](https://img.shields.io/github/stars/ph4ntonn/Stowaway.svg?style=flat&logo=github)
-		- Stowaway 是一款多级代理工具，可将外部流量通过多个节点代理至内网，突破内网访问限制
-    
-- Others 其他相关
-    - 其他安全链路下的安全类工具
-    - [passive-scan-client](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#passive-scan-client)
-        - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85-yellow) ![](https://img.shields.io/badge/Author-c0ny1-orange) ![](https://img.shields.io/badge/Language-Java-blue) [![GitHub stars](https://img.shields.io/github/stars/c0ny1/passive-scan-client.svg?style=flat&logo=github)]()
-        - Passive Scan Client是一款可以将经过筛选的流量转发到指定代理的Burp被动扫描流量转发插件。
-    - [f8x](https://github.com/knownsec/404StarLink2.0-Galaxy/blob/master/TOOLS_README.md#f8x)  
-      - ![](https://img.shields.io/badge/Positivity-IN-green) ![](https://img.shields.io/badge/Score-%E2%98%85%E2%98%85%E2%98%85%e2%98%86-yellow) ![](https://img.shields.io/badge/Author-ffffffff0x-orange) ![](https://img.shields.io/badge/Language-Bash-blue) [![GitHub stars](https://img.shields.io/github/stars/ffffffff0x/f8x.svg?style=flat&logo=github)]()
-- 一款红/蓝队环境自动化部署工具,支持多种场景,渗透,开发,代理环境,服务可选项等。
-      
-  
-  ​        
+### 项目简介
 
-# Community
+### 项目特点、亮点
+```
 
-如果有问题可以在各项目下提交issue，如果有不错的工具推荐，可以向github提交issue, 也可以添加下方的讨论组中参与讨论。
+提交申请后可以通过文末的联系方式添加星链运营微信账号，备注为「项目名称+星链计划」，运营小姐姐将协助你完成项目审核，以及进行后续的各类沟通。
 
-1、Github issue: [https://github.com/knownsec/404StarLink2.0-Galaxy/issues](https://github.com/knownsec/404StarLink2.0-Galaxy/issues) 
+**2.项目规范审核**  
+申请提交后，星链运营对项目的基础规范进行审核，基础规范包括：
 
-2、微信群：
+```
+1. README.md (包括但不限于：项目简介、运行环境搭建、运行示例等)
+2. CHANGELOG (记录项目更新)
+3. LICENCE (为避免开源纠纷，需要提前选择开源协议)
+4. 编译型项目需提供 RELEASE 版本
+5. 项目需要和安全相关
+6. 必须是完整的开源项目(不能是二进制文件，或部分开源)
+```
 
-微信群有两种添加方式：
+**3.技术审核**  
+项目通过基础规范审核后，将由星链评审组对项目进行技术审核，包括但不限于：
 
-(1) 联系Seebug的各位小伙伴拉你入群，如：
-![image-20200902105354031](./init1.png) 
+```
+1. 项目属于计算机安全范畴
+2. 项目完整开源
+3. 项目源码内不包含恶意代码
+4. 项目具有一定的实用价值
+5. 项目可以正常部署和使用
+6. etc
+```
 
-(2) 扫描一下二维码添加我的个人微信，并备注**星链计划**，会把大家拉到星链计划交流群中
+**4.发放邀请函**  
+项目通过基础规范审核和技术审核后，由星链计划发送官方邀请函邮件到开源作者，邀请其正式加入星链计划。随后星链计划将持续跟踪项目动态，并按里程碑为开源作者发放礼品。
 
-<img src="./init2.jpg" alt="image-20200902105546332" style="zoom:50%;" />
+>开源作者收到星链计划邀请函后，希望开源作者可以添加 [星链计划 Banner](./banner.md) 到项目 README 的末尾，这样可以极大增加星链计划的影响力。
+
+
+## 交流/Community
+加入星链计划交流群，获取星链计划资讯，与开源作者互动起来吧。微信群请先添加星链运营个人账号，并备注「星链计划」，然后会把大家拉到星链计划交流群中。
+
+<div align="center">
+<img src="Images/operation_wechat.jpg" width=300px>
+</div>
