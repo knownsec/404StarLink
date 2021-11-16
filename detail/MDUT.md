@@ -42,6 +42,7 @@ MDUT 全称 Multiple Database Utilization Tools，是一款中文的数据库跨
 ## 最近更新
 
 #### [v2.0.6] - 2021-08-17
+
 **核心**  
 - 优化内部代码  
 - 删除软件自启更新功能  

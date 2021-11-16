@@ -129,11 +129,10 @@ Stowaway 是一款多级代理工具，可将外部流量通过多个节点代�
 </div>
 
 
-### [gshark](../detail/gshark.md)
+### [GShark](../detail/gshark.md)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.8.4-red)
 
 <https://github.com/madneal/gshark>
 

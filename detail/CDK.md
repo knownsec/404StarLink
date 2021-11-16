@@ -213,11 +213,13 @@ New feature or exploits:
 ## 最近更新
 
 #### [v1.0.4] - 2021-10-02
+
 **新增**  
 - k8s-psp-dump 漏洞利用添加 force-fuzz 选项  
 - lxcfs-rw 漏洞利用添加过滤器字符串  
 - 格式化 'run --list' 输出  
 - 添加 StringContains 函数  
+
 **修复**  
 - 修复 DeployBackdoorDaemonset 在出错时返回 true 的问题  
 - 修复 CapDacReadSearch Exploit 中的构建错误  
