@@ -772,8 +772,6 @@ OpenStar测试服务器：
   [22]: https://github.com/starjun/openstar/wiki/12-post_Mod
   [23]: https://github.com/starjun/openstar/wiki/13-network_Mod
   [24]: https://github.com/starjun/openstar/wiki/14-replace_Mod
-  [25]: https://github.com/knownsec/404StarLink-Project/raw/master/logo.png "404.png"
-  [26]: https://github.com/knownsec/404StarLink2.0-Galaxy
   [27]: https://github.com/starjun/openstar/raw/master/doc/xq.jpg "xq.jpg"
 
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
