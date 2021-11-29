@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.5-red)
+![Version](https://img.shields.io/badge/Version-V1.5.8-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -78,6 +78,19 @@
 
 ## 最近更新
 
+#### [v1.5.8] - 2021-11-26
+
+**新功能**  
+- 新增Syscall的Visual Studio工程模块  
+
+**优化**  
+- 全网扫描UI更新,操作更便捷并新增手动导入功能  
+- 添加部分日志(心跳数据部分)  
+- 合并metasploit-framework 6.1.17版本  
+
+**Bugfix**  
+- 修复无法加载pem证书问题
+
 #### [v1.5.7] - 2021-11-15
 
 **优化**  
@@ -128,12 +141,5 @@
 
 **Bugfix**  
 - 修复重复添加reverse_http(s)监听时无法上线Session问题
-
-#### [v1.5.3] - 2021-10-10
-
-**优化**  
-- 登录页面多语言支持
-  - 优化 msfconsole 用户体验  
-- 合并metasploit-framework 6.1.10版本
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
