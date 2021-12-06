@@ -3,7 +3,7 @@
 1. [OpenStar](#openstar)
 2. [Elkeid](#elkeid)
 3. [linglong](#linglong)
-4. [gshark](#gshark)
+4. [GShark](#gshark)
 5. [Juggler](#juggler)
 
 ----------------------------------------
@@ -38,7 +38,7 @@ Elkeid是一个云原生的基于主机的安全(入侵检测与风险识别)解
 
 linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，进行端口爆破。帮助企业更快发现弱口令问题。主要功能包括: 资产探测、端口爆破、定时任务、管理后台识别、报表展示。
 
-### [gshark](detail/gshark.md)
+### [GShark](detail/GShark.md)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)

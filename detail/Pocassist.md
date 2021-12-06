@@ -103,6 +103,7 @@ http://127.0.0.1:1231
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
+- 2021-11-17 发布文章[《pocassist : 全新的开源在线 poc 测试框架》](https://mp.weixin.qq.com/s/y0FrNX08yULCqJXmUI6FSg)
 
 ## 最近更新
 

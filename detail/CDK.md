@@ -209,6 +209,7 @@ New feature or exploits:
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
+- 2021-11-11 发布文章[《CDK:一款针对容器场景的多功能渗透工具》](https://mp.weixin.qq.com/s/fopvHFPAbbqtCE6SV9JerQ)
 
 ## 最近更新
 

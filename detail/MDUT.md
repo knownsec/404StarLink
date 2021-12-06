@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-Ch1ngg-orange)
 ![GitHub stars](https://img.shields.io/github/stars/SafeGroceryStore/MDUT.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.7-red)
+![Version](https://img.shields.io/badge/Version-V2.0.8-red)
 ![Time](https://img.shields.io/badge/Join-20210702-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -40,6 +40,13 @@ MDUT 全称 Multiple Database Utilization Tools，是一款中文的数据库跨
 
 
 ## 最近更新
+
+#### [v2.0.8] - 2021-12-01
+
+**核心**  
+- 修复 Mssql 连接 2000 时候的语句兼容性问题  
+- 设置程序默认编码  
+- 删除敏感文件(详细说明情况请看文档里的公告一栏)
 
 #### [v2.0.6] - 2021-08-17
 

@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.8-red)
+![Version](https://img.shields.io/badge/Version-V1.5.9-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -78,6 +78,15 @@
 
 ## 最近更新
 
+#### [v1.5.9] - 2021-12-04
+
+**优化**  
+- 合并metasploit-framework 6.1.18版本  
+- 更新ruby3.0  
+
+**Bugfix**  
+- 修复执行FOFA搜索失败问题
+
 #### [v1.5.8] - 2021-11-26
 
 **新功能**  
@@ -130,16 +139,5 @@
 
 **Bugfix**  
 - 修复Socks代理关闭后端口占用问题
-
-#### [v1.5.4] - 2021-10-17
-
-**新功能**  
-- 新增MS17-010利用(CSharp)模块  
-
-**优化**  
-- 合并metasploit-framework 6.1.11版本  
-
-**Bugfix**  
-- 修复重复添加reverse_http(s)监听时无法上线Session问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

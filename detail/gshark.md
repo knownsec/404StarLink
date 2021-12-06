@@ -1,4 +1,4 @@
-## gshark <https://github.com/madneal/gshark>
+## GShark <https://github.com/madneal/gshark>
 <!--auto_detail_badge_begin_0b490ffb61b26b45de3ea5d7dd8a582e-->
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
@@ -119,6 +119,7 @@ To execute `./gshark scan`, you need to add a Github token for crawl information
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
+- 2021-11-12 发布文章[《GShark:多平台的敏感信息监测工具》](https://mp.weixin.qq.com/s/MG1lxiFg4a8KkAdhSMOu3Q)
 
 ## 最近更新
 

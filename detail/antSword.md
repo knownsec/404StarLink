@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Nodejs-blue)
 ![Author](https://img.shields.io/badge/Author-AntSwordProject-orange)
 ![GitHub stars](https://img.shields.io/github/stars/AntSwordProject/antSword.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.14-red)
+![Version](https://img.shields.io/badge/Version-V2.1.15-red)
 ![Time](https://img.shields.io/badge/Join-20201120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -73,6 +73,7 @@
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
+- 2021-11-15 发布文章[《蚁剑绕WAF进化图鉴》](https://mp.weixin.qq.com/s/EYP1ANj7pxM8_NX_7R9WjA)
 
 ## 最近更新
 

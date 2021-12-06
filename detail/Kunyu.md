@@ -283,6 +283,7 @@ HostCrash 1.1.1.1 G:\host.txt
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
+- 2021-11-23 发布文章[《Kunyu (坤舆) : 更高效的企业资产收集》](https://mp.weixin.qq.com/s/mjPDX8PhfnpjmS6LaMcD_A)
 
 ## 最近更新
 

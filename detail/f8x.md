@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Bash-blue)
 ![Author](https://img.shields.io/badge/Author-ffffffff0x-orange)
 ![GitHub stars](https://img.shields.io/github/stars/ffffffff0x/f8x.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.7-red)
+![Version](https://img.shields.io/badge/Version-V1.5.8-red)
 ![Time](https://img.shields.io/badge/Join-20210223-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 

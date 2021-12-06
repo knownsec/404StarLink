@@ -48,6 +48,7 @@ Elkeid是一个云原生的基于主机的安全(入侵检测与风险识别)解
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
+- 2021-11-10 发布文章[《抗击黑客：如何利用Elkeid构建入侵检测能力》](https://mp.weixin.qq.com/s/iwvkIdgMblVOH7Agg_wXtQ)
 
 ## 最近更新
 

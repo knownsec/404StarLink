@@ -3,9 +3,9 @@
 1. [CDK](#cdk)
 2. [Viper](#viper)
 3. [MDUT](#mdut)
-4. [MySQL-Fake-Server](#mysql-fake-server)
-5. [ysomap](#ysomap)
-6. [BurpCrypto](#burpcrypto)
+4. [ysomap](#ysomap)
+5. [BurpCrypto](#burpcrypto)
+6. [MySQL-Fake-Server](#mysql-fake-server)
 7. [Redis-Rogue-Server](#redis-rogue-server)
 8. [MysqlT](#mysqlt)
 
@@ -25,7 +25,7 @@ CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器�
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.8-red)
+![Version](https://img.shields.io/badge/Version-V1.5.9-red)
 
 <https://github.com/FunnyWolf/Viper>
 
@@ -35,21 +35,11 @@ VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战�
 ![Author](https://img.shields.io/badge/Author-Ch1ngg-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/SafeGroceryStore/MDUT.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.7-red)
+![Version](https://img.shields.io/badge/Version-V2.0.8-red)
 
 <https://github.com/SafeGroceryStore/MDUT>
 
 MDUT 全称 Multiple Database Utilization Tools，旨在将常见的数据库利用手段集合在一个程序中，打破各种数据库利用工具需要各种环境导致使用相当不便的隔阂；MDUT 使用 Java 开发，支持跨平台使用。
-
-### [MySQL-Fake-Server](detail/MySQL-Fake-Server.md)
-![Author](https://img.shields.io/badge/Author-fnmsd-orange)
-![Language](https://img.shields.io/badge/Language-Python-blue)
-![GitHub stars](https://img.shields.io/github/stars/fnmsd/MySQL_Fake_Server.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.1-red)
-
-<https://github.com/fnmsd/MySQL_Fake_Server>
-
-用于渗透测试过程中的假MySQL服务器，纯原生python3实现，不依赖其它包。
 
 ### [ysomap](detail/ysomap.md)
 ![Author](https://img.shields.io/badge/Author-wh1t3p1g-orange)
@@ -70,6 +60,16 @@ Ysomap是一款适配于各类实际复杂环境的Java反序列化利用框架�
 <https://github.com/whwlsfb/BurpCrypto>
 
 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插件。
+
+### [MySQL-Fake-Server](detail/MySQL-Fake-Server.md)
+![Author](https://img.shields.io/badge/Author-fnmsd-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/fnmsd/MySQL_Fake_Server.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+
+<https://github.com/fnmsd/MySQL_Fake_Server>
+
+用于渗透测试过程中的假MySQL服务器，纯原生python3实现，不依赖其它包。
 
 ### [Redis-Rogue-Server](detail/Redis-Rogue-Server.md)
 ![Author](https://img.shields.io/badge/Author-Dliv3-orange)

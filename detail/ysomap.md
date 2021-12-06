@@ -84,6 +84,7 @@ CommonsCollection1和3，在分析时我们可以看到实际1和3的区别在�
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
+- 2021-11-24 发布文章[《ysomap : Java反序列化利用框架》](https://mp.weixin.qq.com/s/WluThXve9hLoJQ8hnyfLgA)
 
 ## 最近更新
 
