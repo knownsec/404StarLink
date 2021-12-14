@@ -17,16 +17,16 @@
 
 | 时间 | 项目名称 | 项目动态 |
 |----|-----------|--------------------------|
+|2021-12-14|[**ZoomEye-Python**](detail/ZoomEye-Python.md)|更新 [v2.1.1](detail/ZoomEye-Python.md#最近更新) 版本|
 |2021-12-13|[**ct**](detail/ct.md)|ct加入星链计划|
 |2021-12-13|[**HackBrowserData**](detail/HackBrowserData.md)|更新 [v0.3.7](detail/HackBrowserData.md#最近更新) 版本|
 |2021-12-11|[**Kunyu**](detail/Kunyu.md)|更新 [v1.6.2](detail/Kunyu.md#最近更新) 版本|
 |2021-12-10|[**f8x**](detail/f8x.md)|更新 [v1.5.9](detail/f8x.md#最近更新) 版本|
 |2021-12-04|[**Viper**](detail/Viper.md)|更新 [v1.5.9](detail/Viper.md#最近更新) 版本|
 |2021-12-01|[**MDUT**](detail/MDUT.md)|更新 [v2.0.8](detail/MDUT.md#最近更新) 版本|
+|2021-12-01|[**Zoomeye-Tools**](detail/ZoomEye-Tools.md)|更新 [v0.3.2](detail/ZoomEye-Tools.md#最近更新) 版本|
 |2021-11-30|[**f8x**](detail/f8x.md)|发布视频[《f8x：红/蓝队环境自动化部署工具》](https://mp.weixin.qq.com/s/9MMujhu4PwmRvg0k7hPPUg)|
 |2021-11-25|[**BurpCrypto**](detail/BurpCrypto.md)|发布文章[《BurpCrypto : 万能网站密码爆破测试工具》](https://mp.weixin.qq.com/s/-paMF8IepVUue7HyVHiLmw)|
-|2021-11-24|[**ysomap**](detail/ysomap.md)|发布文章[《ysomap : Java反序列化利用框架》](https://mp.weixin.qq.com/s/WluThXve9hLoJQ8hnyfLgA)|
-|2021-11-23|[**Kunyu**](detail/Kunyu.md)|发布文章[《Kunyu (坤舆) : 更高效的企业资产收集》](https://mp.weixin.qq.com/s/mjPDX8PhfnpjmS6LaMcD_A)|
 
 **2.StarRank**
 
@@ -47,14 +47,14 @@
 
 | 时间 | 项目迭代版本 |
 |----|-----------|
-|第50周|[**HackBrowserData**](detail/HackBrowserData.md) 更新 [v0.3.7](detail/HackBrowserData.md#最近更新)|
-|第49周|[**f8x**](detail/f8x.md) 更新 [v1.5.9](detail/f8x.md#最近更新) / **[Kunyu](https://github.com/knownsec/Kunyu)** 更新 [v1.6.2](detail/Kunyu.md#最近更新)|
-|第48周|[**Viper**](detail/Viper.md) 更新 [v1.5.9](detail/Viper.md#最近更新) / **[MDUT](https://github.com/SafeGroceryStore/MDUT)** 更新 [v2.0.8](detail/MDUT.md#最近更新)|
+|第50周|[**ZoomEye-Python**](detail/ZoomEye-Python.md) 更新 [v2.1.1](detail/ZoomEye-Python.md#最近更新) / [**HackBrowserData**](detail/HackBrowserData.md) 更新 [v0.3.7](detail/HackBrowserData.md#最近更新)|
+|第49周|[**f8x**](detail/f8x.md) 更新 [v1.5.9](detail/f8x.md#最近更新) / [**Kunyu**](detail/Kunyu.md) 更新 [v1.6.2](detail/Kunyu.md#最近更新)|
+|第48周|[**Viper**](detail/Viper.md) 更新 [v1.5.9](detail/Viper.md#最近更新) / [**MDUT**](detail/MDUT.md) 更新 [v2.0.8](detail/MDUT.md#最近更新) / [**Zoomeye-Tools**](detail/ZoomEye-Tools.md) 更新 [v0.3.2](detail/ZoomEye-Tools.md#最近更新)|
 |第47周|[**Viper**](detail/Viper.md) 更新 [v1.5.8](detail/Viper.md#最近更新)|
 |第46周|[**Viper**](detail/Viper.md) 更新 [v1.5.7](detail/Viper.md#最近更新)|
 |第45周|[**f8x**](detail/f8x.md) 更新 [v1.5.8](detail/f8x.md#最近更新)|
 |第43周|[**Viper**](detail/Viper.md) 更新 [v1.5.6](detail/Viper.md#最近更新)|
-|第42周|[**HaE**](detail/HaE.md) 更新 [v2.1.2](detail/HaE.md#最近更新) / **[Viper](https://github.com/FunnyWolf/Viper)** 更新 [v1.5.5](detail/Viper.md#最近更新)|
+|第42周|[**HaE**](detail/HaE.md) 更新 [v2.1.2](detail/HaE.md#最近更新) / [**Viper**](detail/Viper.md) 更新 [v1.5.5](detail/Viper.md#最近更新)|
 |第41周|[**Viper**](detail/Viper.md) 更新 [v1.5.4](detail/Viper.md#最近更新)|
 |第40周|[**Viper**](detail/Viper.md) 更新 [v1.5.3](detail/Viper.md#最近更新)|
 

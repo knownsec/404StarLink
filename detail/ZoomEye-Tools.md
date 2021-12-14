@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS-blue)
 ![Author](https://img.shields.io/badge/Author-Knownsec404-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/Zoomeye-Tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+![Version](https://img.shields.io/badge/Version-V0.3.2-red)
 ![Time](https://img.shields.io/badge/Join-20200821-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -41,5 +41,16 @@ Chrome网上应用商店：
 
 
 ## 最近更新
+
+#### [v0.3.2] - 2021-12-01
+
+**Add**  
+- 右键查询功能，目前支持ZoomEye和VirusTotal  
+
+**Changed**  
+- ZoomEye preview  优化显示界面，取消登录限制  
+
+**Removed**  
+- ZoomEye minitools
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

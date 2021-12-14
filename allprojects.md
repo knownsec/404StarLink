@@ -162,7 +162,7 @@ Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在�
 ![Author](https://img.shields.io/badge/Author-Knownsec404-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/ZoomEye-python.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.4.6.1-red)
+![Version](https://img.shields.io/badge/Version-V2.1.1-red)
 
 <https://github.com/knownsec/ZoomEye-python>
 
@@ -172,7 +172,7 @@ ZoomEye-python 是一款基于 ZoomEye API 开发的 Python 库，提供了 Zoom
 ![Author](https://img.shields.io/badge/Author-Knownsec404-orange)
 ![Language](https://img.shields.io/badge/Language-JS-blue)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/Zoomeye-Tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+![Version](https://img.shields.io/badge/Version-V0.3.2-red)
 
 <https://github.com/knownsec/Zoomeye-Tools>
 
