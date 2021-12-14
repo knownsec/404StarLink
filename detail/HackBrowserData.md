@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-moonD4rk-orange)
 ![GitHub stars](https://img.shields.io/github/stars/moonD4rk/HackBrowserData.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.3.6-red)
+![Version](https://img.shields.io/badge/Version-V0.3.7-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -172,5 +172,17 @@ PS C:\test>  .\hack-browser-data.exe -b all -f json --dir results --cc
 
 
 ## 最近更新
+
+#### [v0.3.7] - 2021-12-13
+
+**新功能**  
+- 为macOS和Windows添加Yandex浏览器  
+- 为macOS和Windows添加CocCoc浏览器  
+
+**修复**  
+- 优化中文版README内容  
+- 为AES解密添加密文长度检查  
+- 更新依赖组件github.com/tidwall/gjson至1.9.3  
+- 升级go-sqlite3版本，移除编译警告
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

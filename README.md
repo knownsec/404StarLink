@@ -17,36 +17,38 @@
 
 | 时间 | 项目名称 | 项目动态 |
 |----|-----------|--------------------------|
+|2021-12-13|[**ct**](detail/ct.md)|ct加入星链计划|
+|2021-12-13|[**HackBrowserData**](detail/HackBrowserData.md)|更新 [v0.3.7](detail/HackBrowserData.md#最近更新) 版本|
+|2021-12-11|[**Kunyu**](detail/Kunyu.md)|更新 [v1.6.2](detail/Kunyu.md#最近更新) 版本|
+|2021-12-10|[**f8x**](detail/f8x.md)|更新 [v1.5.9](detail/f8x.md#最近更新) 版本|
 |2021-12-04|[**Viper**](detail/Viper.md)|更新 [v1.5.9](detail/Viper.md#最近更新) 版本|
 |2021-12-01|[**MDUT**](detail/MDUT.md)|更新 [v2.0.8](detail/MDUT.md#最近更新) 版本|
+|2021-11-30|[**f8x**](detail/f8x.md)|发布视频[《f8x：红/蓝队环境自动化部署工具》](https://mp.weixin.qq.com/s/9MMujhu4PwmRvg0k7hPPUg)|
 |2021-11-25|[**BurpCrypto**](detail/BurpCrypto.md)|发布文章[《BurpCrypto : 万能网站密码爆破测试工具》](https://mp.weixin.qq.com/s/-paMF8IepVUue7HyVHiLmw)|
 |2021-11-24|[**ysomap**](detail/ysomap.md)|发布文章[《ysomap : Java反序列化利用框架》](https://mp.weixin.qq.com/s/WluThXve9hLoJQ8hnyfLgA)|
 |2021-11-23|[**Kunyu**](detail/Kunyu.md)|发布文章[《Kunyu (坤舆) : 更高效的企业资产收集》](https://mp.weixin.qq.com/s/mjPDX8PhfnpjmS6LaMcD_A)|
-|2021-11-22|[**MySQL-Fake-Server**](detail/MySQL-Fake-Server.md)|MySQL-Fake-Server加入星链计划|
-|2021-11-22|[**BurpCrypto**](detail/BurpCrypto.md)|BurpCrypto加入星链计划|
-|2021-11-22|[**ysomap**](detail/ysomap.md)|ysomap加入星链计划|
-|2021-11-22|[**Kunyu**](detail/Kunyu.md)|Kunyu加入星链计划|
-|2021-11-19|[**Platypus**](detail/Platypus.md)|发布文章[《Platypus：支持多会话的交互式反向 Shell 管理器》](https://mp.weixin.qq.com/s/9UFm1XQiWMUeA7pG93FfeQ)|
 
 **2.StarRank**
 
 | 序号 | 项目名称 | 项目简介 | Star |
 |----|-----------|--------------------------|----|
-|1|[**HackBrowserData**](detail/HackBrowserData.md)|hack-browser-data 是一个解密浏览器数据（密码/历史记录/Cookies/书签）的导出工具，支持全平台主流浏览器的数据导出窃取。|3826|
-|2|[**fscan**](detail/fscan.md)|一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。支持主机存活探测、端口扫描、常见服务的爆破、ms17010、redis批量写公钥、计划任务反弹shell、读取win网卡信息、web指纹识别、web漏洞扫描、netbios探测、域控识别等功能。|2688|
-|3|[**CDK**](detail/CDK.md)|CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器内部提供零依赖的常用命令及PoC/EXP。集成Docker/K8s场景特有的逃逸、横向移动、持久化利用方式，插件化管理。|1895|
-|4|[**Viper**](detail/Viper.md)|VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战术及技术进行模块化及武器化。|1759|
-|5|[**Kunpeng**](detail/Kunpeng.md)|Kunpeng是一个Golang编写的开源POC检测框架，集成了包括数据库、中间件、web组件、cms等等的漏洞POC，可检测弱口令、SQL注入、XSS、RCE等漏洞类型，以动态链接库的形式提供调用，通过此项目可快速开发漏洞检测类的系统，比攻击者快一步发现风险漏洞。|1400|
-|6|[**antSword**](detail/antSword.md)|中国蚁剑是一款开源的跨平台网站管理工具。|1197|
+|1|[**HackBrowserData**](detail/HackBrowserData.md)|hack-browser-data 是一个解密浏览器数据（密码/历史记录/Cookies/书签）的导出工具，支持全平台主流浏览器的数据导出窃取。|3850|
+|2|[**fscan**](detail/fscan.md)|一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。支持主机存活探测、端口扫描、常见服务的爆破、ms17010、redis批量写公钥、计划任务反弹shell、读取win网卡信息、web指纹识别、web漏洞扫描、netbios探测、域控识别等功能。|2722|
+|3|[**CDK**](detail/CDK.md)|CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器内部提供零依赖的常用命令及PoC/EXP。集成Docker/K8s场景特有的逃逸、横向移动、持久化利用方式，插件化管理。|1905|
+|4|[**Viper**](detail/Viper.md)|VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战术及技术进行模块化及武器化。|1807|
+|5|[**Kunpeng**](detail/Kunpeng.md)|Kunpeng是一个Golang编写的开源POC检测框架，集成了包括数据库、中间件、web组件、cms等等的漏洞POC，可检测弱口令、SQL注入、XSS、RCE等漏洞类型，以动态链接库的形式提供调用，通过此项目可快速开发漏洞检测类的系统，比攻击者快一步发现风险漏洞。|1410|
+|6|[**antSword**](detail/antSword.md)|中国蚁剑是一款开源的跨平台网站管理工具。|1221|
 |7|[**OpenStar**](detail/OpenStar.md)|OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复杂规则编写。提供了常规的 HTTP 字段规则配置，还提供了 IP 黑白名单、访问频次等配置，对于 CC 防护更提供的特定的规则算法，并且支持搭建集群进行防护。|1019|
-|8|[**Stowaway**](detail/Stowaway.md)|Stowaway 是一款多级代理工具，可将外部流量通过多个节点代理至内网，突破内网访问限制。Stowaway 可以方便渗透测试人员通过多级跳跃，从外部dmz等一系列区域逐步深入核心网络；Stowaway 除了流量转发功能，还提供了端口复用、ssh隧道，流量伪装等专为渗透测试人员所用的功能。|968|
-|9|[**ServerScan**](detail/ServerScan.md)|一款使用Golang开发且适用于攻防演习内网横向信息收集的高并发网络扫描、服务探测工具。|967|
-|10|[**Elkeid**](detail/Elkeid.md)|Elkeid是一个云原生的基于主机的安全(入侵检测与风险识别)解决方案。Elkeid 包含两大部分：Elkeid Agent与Elkeid Driver作为数据采集层，它在Linux系统的内核和用户空间上均可使用，从而提供了具有更好性能的且更丰富的数据。 Elkeid Server可以提供百万级Agent的接入能力，采集Agent数据，支持控制与策略下发。包含实时、离线计算模块，对采集上来的数据进行分析和检测。又有自带的服务发现和管理系统，方便对整个后台管理和操作。|951|
+|8|[**Stowaway**](detail/Stowaway.md)|Stowaway 是一款多级代理工具，可将外部流量通过多个节点代理至内网，突破内网访问限制。Stowaway 可以方便渗透测试人员通过多级跳跃，从外部dmz等一系列区域逐步深入核心网络；Stowaway 除了流量转发功能，还提供了端口复用、ssh隧道，流量伪装等专为渗透测试人员所用的功能。|980|
+|9|[**Elkeid**](detail/Elkeid.md)|Elkeid是一个云原生的基于主机的安全(入侵检测与风险识别)解决方案。Elkeid 包含两大部分：Elkeid Agent与Elkeid Driver作为数据采集层，它在Linux系统的内核和用户空间上均可使用，从而提供了具有更好性能的且更丰富的数据。 Elkeid Server可以提供百万级Agent的接入能力，采集Agent数据，支持控制与策略下发。包含实时、离线计算模块，对采集上来的数据进行分析和检测。又有自带的服务发现和管理系统，方便对整个后台管理和操作。|968|
+|10|[**ServerScan**](detail/ServerScan.md)|一款使用Golang开发且适用于攻防演习内网横向信息收集的高并发网络扫描、服务探测工具。|967|
 
 **3.项目更新**
 
 | 时间 | 项目迭代版本 |
 |----|-----------|
+|第50周|[**HackBrowserData**](detail/HackBrowserData.md) 更新 [v0.3.7](detail/HackBrowserData.md#最近更新)|
+|第49周|[**f8x**](detail/f8x.md) 更新 [v1.5.9](detail/f8x.md#最近更新) / **[Kunyu](https://github.com/knownsec/Kunyu)** 更新 [v1.6.2](detail/Kunyu.md#最近更新)|
 |第48周|[**Viper**](detail/Viper.md) 更新 [v1.5.9](detail/Viper.md#最近更新) / **[MDUT](https://github.com/SafeGroceryStore/MDUT)** 更新 [v2.0.8](detail/MDUT.md#最近更新)|
 |第47周|[**Viper**](detail/Viper.md) 更新 [v1.5.8](detail/Viper.md#最近更新)|
 |第46周|[**Viper**](detail/Viper.md) 更新 [v1.5.7](detail/Viper.md#最近更新)|
@@ -55,13 +57,12 @@
 |第42周|[**HaE**](detail/HaE.md) 更新 [v2.1.2](detail/HaE.md#最近更新) / **[Viper](https://github.com/FunnyWolf/Viper)** 更新 [v1.5.5](detail/Viper.md#最近更新)|
 |第41周|[**Viper**](detail/Viper.md) 更新 [v1.5.4](detail/Viper.md#最近更新)|
 |第40周|[**Viper**](detail/Viper.md) 更新 [v1.5.3](detail/Viper.md#最近更新)|
-|第39周|[**CDK**](detail/CDK.md) 更新 [v1.0.4](detail/CDK.md#最近更新) / **[f8x](https://github.com/ffffffff0x/f8x)** 更新 [v1.5.6](detail/f8x.md#最近更新)|
-|第38周|[**Viper**](detail/Viper.md) 更新 [v1.5.1](detail/Viper.md#最近更新)|
 
 **4.新项目加入**
 
 | 时间 | 项目名称 | 项目简介 |
 |----|-----------|--------------------------|
+|2021-12-13|[**ct**](detail/ct.md)|ct 是一款使用 rust 语言进行开发，并且基于ZoomEye域名查询以及利用域名字典进行子域名爆破的工具，同时在最终爆破完成后可使用脚本，将相应的的.gv 文件转化成为相应的 .png 文件进行可视化展示|
 |2021-11-22|[**MySQL-Fake-Server**](detail/MySQL-Fake-Server.md)|用于渗透测试过程中的假MySQL服务器，纯原生python3实现，不依赖其它包。|
 |2021-11-22|[**BurpCrypto**](detail/BurpCrypto.md)|支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插件。|
 |2021-11-22|[**ysomap**](detail/ysomap.md)|Ysomap是一款适配于各类实际复杂环境的Java反序列化利用框架，可动态配置具备不同执行效果的Java反序列化利用链payload，以应对不同场景下的反序列化利用。|
@@ -71,15 +72,14 @@
 |2021-07-02|[**OpenStar**](detail/OpenStar.md)|OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复杂规则编写。提供了常规的 HTTP 字段规则配置，还提供了 IP 黑白名单、访问频次等配置，对于 CC 防护更提供的特定的规则算法，并且支持搭建集群进行防护。|
 |2021-07-02|[**Stowaway**](detail/Stowaway.md)|Stowaway 是一款多级代理工具，可将外部流量通过多个节点代理至内网，突破内网访问限制。Stowaway 可以方便渗透测试人员通过多级跳跃，从外部dmz等一系列区域逐步深入核心网络；Stowaway 除了流量转发功能，还提供了端口复用、ssh隧道，流量伪装等专为渗透测试人员所用的功能。|
 |2021-07-02|[**Platypus**](detail/Platypus.md)|Platypus 是一个基于终端与 Web UI 交互式的反弹 Shell 会话管理工具。在实际的渗透测试中，为了解决 Netcat/Socat 等工具在文件传输、多会话管理方面的不足。该工具在多会话管理的基础上增加了在渗透测试中更加有用的功能，可以更方便灵活地对反弹 Shell 会话进行管理。|
-|2021-04-22|[**fscan**](detail/fscan.md)|一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。支持主机存活探测、端口扫描、常见服务的爆破、ms17010、redis批量写公钥、计划任务反弹shell、读取win网卡信息、web指纹识别、web漏洞扫描、netbios探测、域控识别等功能。|
 
 **5.[分类:甲方工具](party_a.md)**
 
 | 序号 | 项目名称 | 作者 | 项目简介 | Star |
 |------|----------|------|----------|------|
-|1|[**Elkeid**](detail/Elkeid.md)|bytedance|Elkeid是一个云原生的基于主机的安全(入侵检测与风险识别)解决方案。Elkeid 包含两大部分：Elkeid Agent与Elkeid Driver作为数据采集层，它在Linux系统的内核和用户空间上均可使用，从而提供了具有更好性能的且更丰富的数据。 Elkeid Server可以提供百万级Agent的接入能力，采集Agent数据，支持控制与策略下发。包含实时、离线计算模块，对采集上来的数据进行分析和检测。又有自带的服务发现和管理系统，方便对整个后台管理和操作。|951|
+|1|[**Elkeid**](detail/Elkeid.md)|bytedance|Elkeid是一个云原生的基于主机的安全(入侵检测与风险识别)解决方案。Elkeid 包含两大部分：Elkeid Agent与Elkeid Driver作为数据采集层，它在Linux系统的内核和用户空间上均可使用，从而提供了具有更好性能的且更丰富的数据。 Elkeid Server可以提供百万级Agent的接入能力，采集Agent数据，支持控制与策略下发。包含实时、离线计算模块，对采集上来的数据进行分析和检测。又有自带的服务发现和管理系统，方便对整个后台管理和操作。|968|
 |2|[**linglong**](detail/linglong.md)|awake1t|linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，进行端口爆破。帮助企业更快发现弱口令问题。主要功能包括: 资产探测、端口爆破、定时任务、管理后台识别、报表展示。|867|
-|3|[**GShark**](detail/GShark.md)|madneal|一款开源敏感信息监测系统，可以监测包括 github、gitlab(目前不太稳定，由于gitlab对于免费用户不提供代码全文检索API)、searchcode 多平台的敏感信息监测。|433|
+|3|[**GShark**](detail/gshark.md)|madneal|一款开源敏感信息监测系统，可以监测包括 github、gitlab(目前不太稳定，由于gitlab对于免费用户不提供代码全文检索API)、searchcode 多平台的敏感信息监测。|433|
 |4|[**Juggler**](detail/Juggler.md)|C4o|一个也许能骗到黑客的系统，可以作为WAF等防护体系的一环。|390|
 
 **6.[分类:信息收集](reconnaissance.md)**
@@ -89,8 +89,11 @@
 |1|[**HaE**](detail/HaE.md)|gh0stkey|HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。|746|
 |2|[**DarkEye**](detail/DarkEye.md)|zsdevX|基于go完成的渗透测试信息收集利器|702|
 |3|[**Glass**](detail/Glass.md)|s7ckTeam|Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/ZoomEye/Shodan/360等api接口快速查询资产信息并识别重点资产的指纹，也可针对IP/IP段或资产列表进行快速的指纹识别。|520|
-|4|[**Kunyu**](detail/Kunyu.md)|风起|Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在让企业资产收集更高效，使更多安全相关从业者了解、使用网络空间测绘技术。|472|
-|5|[**ZoomEye-go**](detail/ZoomEye-go.md)|gyyyy|ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 命令行模式，同时也可以作为SDK集成到其他工具中。该库可以让技术人员更便捷地搜索、筛选、导出 ZoomEye 的数据。|27|
+|4|[**Kunyu**](detail/Kunyu.md)|风起|Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在让企业资产收集更高效，使更多安全相关从业者了解、使用网络空间测绘技术。|490|
+|5|[**ZoomEye-Python**](detail/ZoomEye-Python.md)|Knownsec404|ZoomEye-python 是一款基于 ZoomEye API 开发的 Python 库，提供了 ZoomEye 命令行模式，同时也可以作为 SDK 集成到其他工具中。该库可以让技术人员更便捷地搜索、筛选、导出 ZoomEye 的数据|307|
+|6|[**Zoomeye-Tools**](detail/ZoomEye-Tools.md)|Knownsec404|一个配合ZoomEye使用的Chrome插件，可以查看当前网页所在ip信息或跳转查看详细信息，还可以根据关键词一键跳转至ZoomEye进行搜索|31|
+|7|[**ZoomEye-go**](detail/ZoomEye-go.md)|gyyyy|ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 命令行模式，同时也可以作为SDK集成到其他工具中。该库可以让技术人员更便捷地搜索、筛选、导出 ZoomEye 的数据。|27|
+|8|[**ct**](detail/ct.md)|rungobier@Knownsec404|ct 是一款使用 rust 语言进行开发，并且基于ZoomEye域名查询以及利用域名字典进行子域名爆破的工具，同时在最终爆破完成后可使用脚本，将相应的的.gv 文件转化成为相应的 .png 文件进行可视化展示|25|
 
 **7.全部分类**
 

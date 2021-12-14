@@ -12,7 +12,7 @@
 ![Author](https://img.shields.io/badge/Author-moonD4rk-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/moonD4rk/HackBrowserData.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.3.6-red)
+![Version](https://img.shields.io/badge/Version-V0.3.7-red)
 
 <https://github.com/moonD4rk/HackBrowserData>
 

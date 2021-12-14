@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Bash-blue)
 ![Author](https://img.shields.io/badge/Author-ffffffff0x-orange)
 ![GitHub stars](https://img.shields.io/github/stars/ffffffff0x/f8x.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.8-red)
+![Version](https://img.shields.io/badge/Version-V1.5.9-red)
 ![Time](https://img.shields.io/badge/Join-20210223-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -149,8 +149,17 @@ f8x 基本上不需要任何依赖,或者说它就是为了帮助你安装各种
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
+- 2021-11-30 发布视频[《f8x：红/蓝队环境自动化部署工具》](https://mp.weixin.qq.com/s/9MMujhu4PwmRvg0k7hPPUg)
 
 ## 最近更新
+
+#### [v1.5.9] - 2021-12-10
+
+**功能添加**  
+- k 选项添加 htpwdScan,WebCrack,ysomap,sttr  
+
+**功能修改与优化**  
+- git clone 加入 --depth 1
 
 #### [v1.5.8] - 2021-11-12
 

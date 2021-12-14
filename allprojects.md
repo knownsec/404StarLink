@@ -4,7 +4,7 @@
     * [OpenStar](#openstar)
     * [Elkeid](#elkeid)
     * [linglong](#linglong)
-    * [GShark](#gshark)
+    * [gshark](#gshark)
     * [Juggler](#juggler)
 
 * [信息收集/reconnaissance](#信息收集reconnaissance)
@@ -13,7 +13,10 @@
     * [DarkEye](#darkeye)
     * [Glass](#glass)
     * [Kunyu](#kunyu)
+    * [ZoomEye-Python](#zoomeye-python)
+    * [ZoomEye-Tools](#zoomeye-tools)
     * [ZoomEye-go](#zoomeye-go)
+    * [ct](#ct)
 
 * [漏洞探测/vulnerability_assessment](#漏洞探测vulnerability_assessment)
     * [Kunpeng](#kunpeng)
@@ -82,7 +85,7 @@ Elkeid是一个云原生的基于主机的安全(入侵检测与风险识别)解
 
 linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，进行端口爆破。帮助企业更快发现弱口令问题。主要功能包括: 资产探测、端口爆破、定时任务、管理后台识别、报表展示。
 
-### [GShark](detail/GShark.md)
+### [GShark](detail/gshark.md)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
@@ -149,11 +152,31 @@ Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/Z
 ![Author](https://img.shields.io/badge/Author-风起-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/Kunyu.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.1-red)
+![Version](https://img.shields.io/badge/Version-V1.6.2-red)
 
 <https://github.com/knownsec/Kunyu>
 
 Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在让企业资产收集更高效，使更多安全相关从业者了解、使用网络空间测绘技术。
+
+### [ZoomEye-Python](detail/ZoomEye-Python.md)
+![Author](https://img.shields.io/badge/Author-Knownsec404-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/knownsec/ZoomEye-python.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V2.0.4.6.1-red)
+
+<https://github.com/knownsec/ZoomEye-python>
+
+ZoomEye-python 是一款基于 ZoomEye API 开发的 Python 库，提供了 ZoomEye 命令行模式，同时也可以作为 SDK 集成到其他工具中。该库可以让技术人员更便捷地搜索、筛选、导出 ZoomEye 的数据
+
+### [Zoomeye-Tools](detail/ZoomEye-Tools.md)
+![Author](https://img.shields.io/badge/Author-Knownsec404-orange)
+![Language](https://img.shields.io/badge/Language-JS-blue)
+![GitHub stars](https://img.shields.io/github/stars/knownsec/Zoomeye-Tools.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+
+<https://github.com/knownsec/Zoomeye-Tools>
+
+一个配合ZoomEye使用的Chrome插件，可以查看当前网页所在ip信息或跳转查看详细信息，还可以根据关键词一键跳转至ZoomEye进行搜索
 
 ### [ZoomEye-go](detail/ZoomEye-go.md)
 ![Author](https://img.shields.io/badge/Author-gyyyy-orange)
@@ -164,6 +187,16 @@ Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在�
 <https://github.com/gyyyy/ZoomEye-go>
 
 ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 命令行模式，同时也可以作为SDK集成到其他工具中。该库可以让技术人员更便捷地搜索、筛选、导出 ZoomEye 的数据。
+
+### [ct](detail/ct.md)
+![Author](https://img.shields.io/badge/Author-rungobier@Knownsec404-orange)
+![Language](https://img.shields.io/badge/Language-Rust-blue)
+![GitHub stars](https://img.shields.io/github/stars/knownsec/ct.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.0.0-red)
+
+<https://github.com/knownsec/ct>
+
+ct 是一款使用 rust 语言进行开发，并且基于ZoomEye域名查询以及利用域名字典进行子域名爆破的工具，同时在最终爆破完成后可使用脚本，将相应的的.gv 文件转化成为相应的 .png 文件进行可视化展示
 
 
 
@@ -288,7 +321,7 @@ Redis 4.x/Redis 5.x RCE利用脚本. 项目最初来源于 <https://github.com/n
 ![Author](https://img.shields.io/badge/Author-moonD4rk-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/moonD4rk/HackBrowserData.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.3.6-red)
+![Version](https://img.shields.io/badge/Version-V0.3.7-red)
 
 <https://github.com/moonD4rk/HackBrowserData>
 
@@ -414,7 +447,7 @@ Passive Scan Client是一款可以将经过筛选的流量转发到指定代理�
 ![Author](https://img.shields.io/badge/Author-ffffffff0x-orange)
 ![Language](https://img.shields.io/badge/Language-Bash-blue)
 ![GitHub stars](https://img.shields.io/github/stars/ffffffff0x/f8x.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.8-red)
+![Version](https://img.shields.io/badge/Version-V1.5.9-red)
 
 <https://github.com/ffffffff0x/f8x>
 

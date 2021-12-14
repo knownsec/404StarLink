@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-风起-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/Kunyu.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.1-red)
+![Version](https://img.shields.io/badge/Version-V1.6.2-red)
 ![Time](https://img.shields.io/badge/Join-20211122-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -286,5 +286,12 @@ HostCrash 1.1.1.1 G:\host.txt
 - 2021-11-23 发布文章[《Kunyu (坤舆) : 更高效的企业资产收集》](https://mp.weixin.qq.com/s/mjPDX8PhfnpjmS6LaMcD_A)
 
 ## 最近更新
+
+#### [v1.6.2] - 2021-12-11
+
+**新功能**  
+- 增加创建资产分布图功能  
+- 优化依赖包版本  
+- 增加了hosts crash Serverless 扫描的配置
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
