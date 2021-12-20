@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.9-red)
+![Version](https://img.shields.io/badge/Version-V1.5.10-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -78,6 +78,24 @@
 
 ## 最近更新
 
+#### [v1.5.10] - 2021-12-16
+
+**新功能**  
+- 新增Log4j被动扫描功能  
+- VIPER+crawlergo组合使用可实现全自动主动扫描Log4j漏洞  
+
+**Log4j被动扫描**  
+- 自动替换GET请求参数为Payload  
+- 自动替换POST请求参数为Payload  
+- 自动替换POST请求JSON中值为Payload  
+- 自动替换跳过密码字段  
+- 自动在headers中添加Payload(依据字典轮询)  
+- Payload包含原始Payload与绕过WAF的Payload  
+- Payload中包含UUID,可根据DNSLOG记录查找具体触发漏洞的请求内容  
+
+**Log4j自动化主动扫描**  
+- 通过chrome headless + 爬虫的方式获取自动获取页面所有请求,将请求导入到被动proxy中,实现自动化扫描
+
 #### [v1.5.9] - 2021-12-04
 
 **优化**  
@@ -127,17 +145,5 @@
 **Bugfix**  
 - 修复sessionExpirationTimeout为0时reverse_tcp无法连接问题  
 - 修复UI界面无法获取默认lhost参数问题
-
-#### [v1.5.5] - 2021-10-24
-
-**新功能**  
-- 新增`CVE-2021-40449提权`模块  
-- 新增WebUI一键下载Viper所有日志  
-
-**优化**  
-- 合并metasploit-framework 6.1.12版本  
-
-**Bugfix**  
-- 修复Socks代理关闭后端口占用问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

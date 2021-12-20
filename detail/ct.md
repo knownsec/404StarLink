@@ -11,6 +11,16 @@ ct 是一款使用 rust 语言进行开发，并且基于 ZoomEye 域名查询�
 .png 文件，graphviz 下载安装请参见 [graphviz](https://graphviz.org/download/)
 支持在Windows/Linux/Mac上使用。
 
+## 编译环境构建
+
+*nix 编译环境执行如下指令即可安装：
+
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+Windows 编译环境安装请下载[rustup-init.exe](https://static.rust-lang.org/rustup/dist/i686-pc-windows-gnu/rustup-init.exe)并执行。
+
+
 ## 使用
 
 从[releases](https://github.com/knownsec/ct/releases "releases")下载二进制文件。
@@ -102,10 +112,9 @@ dir *.png
 ```bash
 git clone https://github.com/knownsec/ct
 cd ct
-cargo build --relase
+cargo build --release
 ./target/release/ct 
 ```
-
 
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
