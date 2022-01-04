@@ -22,6 +22,7 @@
     * [Kunpeng](#kunpeng)
     * [Pocassist](#pocassist)
     * [myscan](#myscan)
+    * [LSpider](#lspider)
 
 * [攻击与利用/penetration_test](#攻击与利用penetration_test)
     * [CDK](#cdk)
@@ -35,6 +36,7 @@
 
 * [信息分析/information_analysis](#信息分析information_analysis)
     * [HackBrowserData](#hackbrowserdata)
+    * [KunLun-M](#kunlun-m)
     * [frida-skeleton](#frida-skeleton)
     * [java-object-searcher](#java-object-searcher)
     * [MySQLMonitor](#mysqlmonitor)
@@ -152,7 +154,7 @@ Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/Z
 ![Author](https://img.shields.io/badge/Author-风起-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/Kunyu.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.2-red)
+![Version](https://img.shields.io/badge/Version-V1.6.4-red)
 
 <https://github.com/knownsec/Kunyu>
 
@@ -230,6 +232,16 @@ Pocassist 是一个 Golang 编写的全新开源漏洞测试框架，帮助安�
 <https://github.com/amcai/myscan>
 
 myscan是参考awvs的poc目录架构，pocsuite3、sqlmap等代码框架，以及搜集互联网上大量的poc，由python3开发而成的被动扫描工具。
+
+### [LSpider](detail/LSpider.md)
+![Author](https://img.shields.io/badge/Author-LoRexxar-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/knownsec/LSpider.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.0.2-red)
+
+<https://github.com/knownsec/LSpider>
+
+LSpider 一个为被动扫描器定制的前端爬虫
 
 
 
@@ -326,6 +338,16 @@ Redis 4.x/Redis 5.x RCE利用脚本. 项目最初来源于 <https://github.com/n
 <https://github.com/moonD4rk/HackBrowserData>
 
 hack-browser-data 是一个解密浏览器数据（密码/历史记录/Cookies/书签）的导出工具，支持全平台主流浏览器的数据导出窃取。
+
+### [KunLun-M](detail/KunLun-M.md)
+![Author](https://img.shields.io/badge/Author-LoRexxar-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/LoRexxar/Kunlun-M.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V2.6.4.1-red)
+
+<https://github.com/LoRexxar/Kunlun-M>
+
+KunLun-M是一个完全开源的静态白盒扫描工具，支持PHP、JavaScript的语义扫描，基础安全、组件安全扫描，Chrome Ext\Solidity的基础扫描。
 
 ### [frida-skeleton](detail/frida-skeleton.md)
 ![Author](https://img.shields.io/badge/Author-Margular-orange)

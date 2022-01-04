@@ -56,7 +56,7 @@ Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/Z
 ![Author](https://img.shields.io/badge/Author-风起-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/Kunyu.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.2-red)
+![Version](https://img.shields.io/badge/Version-V1.6.4-red)
 
 <https://github.com/knownsec/Kunyu>
 

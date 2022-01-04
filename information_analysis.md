@@ -1,10 +1,11 @@
 ## 信息分析 / information_analysis
 
 1. [HackBrowserData](#hackbrowserdata)
-2. [frida-skeleton](#frida-skeleton)
-3. [java-object-searcher](#java-object-searcher)
-4. [MySQLMonitor](#mysqlmonitor)
-5. [CodeReviewTools](#codereviewtools)
+2. [KunLun-M](#kunlun-m)
+3. [frida-skeleton](#frida-skeleton)
+4. [java-object-searcher](#java-object-searcher)
+5. [MySQLMonitor](#mysqlmonitor)
+6. [CodeReviewTools](#codereviewtools)
 
 ----------------------------------------
 
@@ -17,6 +18,16 @@
 <https://github.com/moonD4rk/HackBrowserData>
 
 hack-browser-data 是一个解密浏览器数据（密码/历史记录/Cookies/书签）的导出工具，支持全平台主流浏览器的数据导出窃取。
+
+### [KunLun-M](detail/KunLun-M.md)
+![Author](https://img.shields.io/badge/Author-LoRexxar-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/LoRexxar/Kunlun-M.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V2.6.4.1-red)
+
+<https://github.com/LoRexxar/Kunlun-M>
+
+KunLun-M是一个完全开源的静态白盒扫描工具，支持PHP、JavaScript的语义扫描，基础安全、组件安全扫描，Chrome Ext\Solidity的基础扫描。
 
 ### [frida-skeleton](detail/frida-skeleton.md)
 ![Author](https://img.shields.io/badge/Author-Margular-orange)
