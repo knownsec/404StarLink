@@ -1,16 +1,27 @@
 ## 信息收集 / reconnaissance
 
-1. [AppInfoScanner](#appinfoscanner)
-2. [HaE](#hae)
-3. [DarkEye](#darkeye)
-4. [Glass](#glass)
-5. [Kunyu](#kunyu)
-6. [ZoomEye-Python](#zoomeye-python)
-7. [ct](#ct)
-8. [Zoomeye-Tools](#zoomeye-tools)
-9. [ZoomEye-go](#zoomeye-go)
+1. [ksubdomain](#ksubdomain)
+2. [AppInfoScanner](#appinfoscanner)
+3. [HaE](#hae)
+4. [DarkEye](#darkeye)
+5. [Glass](#glass)
+6. [Kunyu](#kunyu)
+7. [ZoomEye-Python](#zoomeye-python)
+8. [ct](#ct)
+9. [Zoomeye-Tools](#zoomeye-tools)
+10. [ZoomEye-go](#zoomeye-go)
 
 ----------------------------------------
+
+### [ksubdomain](detail/ksubdomain.md)
+![Author](https://img.shields.io/badge/Author-w7ay-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/knownsec/ksubdomain.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.7-red)
+
+<https://github.com/knownsec/ksubdomain>
+
+ksubdomain是一款基于无状态子域名爆破工具，支持在Windows/Linux/Mac上使用，它会很快的进行DNS爆破，在Mac和Windows上理论最大发包速度在30w/s,linux上为160w/s的速度。
 
 ### [AppInfoScanner](detail/AppInfoScanner.md)
 ![Author](https://img.shields.io/badge/Author-kelvinBen-orange)

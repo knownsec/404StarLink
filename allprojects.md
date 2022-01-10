@@ -8,6 +8,7 @@
     * [Juggler](#juggler)
 
 * [信息收集/reconnaissance](#信息收集reconnaissance)
+    * [ksubdomain](#ksubdomain)
     * [AppInfoScanner](#appinfoscanner)
     * [HaE](#hae)
     * [DarkEye](#darkeye)
@@ -25,11 +26,12 @@
     * [LSpider](#lspider)
 
 * [攻击与利用/penetration_test](#攻击与利用penetration_test)
+    * [pocsuite3](#pocsuite3)
     * [CDK](#cdk)
     * [Viper](#viper)
     * [MDUT](#mdut)
-    * [ysomap](#ysomap)
     * [BurpCrypto](#burpcrypto)
+    * [ysomap](#ysomap)
     * [MySQL-Fake-Server](#mysql-fake-server)
     * [Redis-Rogue-Server](#redis-rogue-server)
     * [MysqlT](#mysqlt)
@@ -110,6 +112,16 @@ linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，
 
 
 ## 信息收集/reconnaissance
+### [ksubdomain](detail/ksubdomain.md)
+![Author](https://img.shields.io/badge/Author-w7ay-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/knownsec/ksubdomain.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.7-red)
+
+<https://github.com/knownsec/ksubdomain>
+
+ksubdomain是一款基于无状态子域名爆破工具，支持在Windows/Linux/Mac上使用，它会很快的进行DNS爆破，在Mac和Windows上理论最大发包速度在30w/s,linux上为160w/s的速度。
+
 ### [AppInfoScanner](detail/AppInfoScanner.md)
 ![Author](https://img.shields.io/badge/Author-kelvinBen-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
@@ -246,6 +258,16 @@ LSpider 一个为被动扫描器定制的前端爬虫
 
 
 ## 攻击与利用/penetration_test
+### [pocsuite3](detail/pocsuite3.md)
+![Author](https://img.shields.io/badge/Author-knownsec404-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/knownsec/pocsuite3.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.8.9-red)
+
+<https://github.com/knownsec/pocsuite3>
+
+pocsuite3是由Knownsec 404团队开发的开源远程漏洞测试和概念验证开发框架。它带有强大的概念验证引擎，以及针对最终渗透测试人员和安全研究人员的许多强大功能。
+
 ### [CDK](detail/CDK.md)
 ![Author](https://img.shields.io/badge/Author-cdkteam-orange)
 ![Language](https://img.shields.io/badge/Language-CDK-blue)
@@ -276,16 +298,6 @@ VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战�
 
 MDUT 全称 Multiple Database Utilization Tools，旨在将常见的数据库利用手段集合在一个程序中，打破各种数据库利用工具需要各种环境导致使用相当不便的隔阂；MDUT 使用 Java 开发，支持跨平台使用。
 
-### [ysomap](detail/ysomap.md)
-![Author](https://img.shields.io/badge/Author-wh1t3p1g-orange)
-![Language](https://img.shields.io/badge/Language-Java-blue)
-![GitHub stars](https://img.shields.io/github/stars/wh1t3p1g/ysomap.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.1.1-red)
-
-<https://github.com/wh1t3p1g/ysomap>
-
-Ysomap是一款适配于各类实际复杂环境的Java反序列化利用框架，可动态配置具备不同执行效果的Java反序列化利用链payload，以应对不同场景下的反序列化利用。
-
 ### [BurpCrypto](detail/BurpCrypto.md)
 ![Author](https://img.shields.io/badge/Author-whwlsfb-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
@@ -295,6 +307,16 @@ Ysomap是一款适配于各类实际复杂环境的Java反序列化利用框架�
 <https://github.com/whwlsfb/BurpCrypto>
 
 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插件。
+
+### [ysomap](detail/ysomap.md)
+![Author](https://img.shields.io/badge/Author-wh1t3p1g-orange)
+![Language](https://img.shields.io/badge/Language-Java-blue)
+![GitHub stars](https://img.shields.io/github/stars/wh1t3p1g/ysomap.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.1.1-red)
+
+<https://github.com/wh1t3p1g/ysomap>
+
+Ysomap是一款适配于各类实际复杂环境的Java反序列化利用框架，可动态配置具备不同执行效果的Java反序列化利用链payload，以应对不同场景下的反序列化利用。
 
 ### [MySQL-Fake-Server](detail/MySQL-Fake-Server.md)
 ![Author](https://img.shields.io/badge/Author-fnmsd-orange)
