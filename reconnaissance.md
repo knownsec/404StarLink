@@ -4,8 +4,8 @@
 2. [AppInfoScanner](#appinfoscanner)
 3. [HaE](#hae)
 4. [DarkEye](#darkeye)
-5. [Glass](#glass)
-6. [Kunyu](#kunyu)
+5. [Kunyu](#kunyu)
+6. [Glass](#glass)
 7. [ZoomEye-Python](#zoomeye-python)
 8. [ct](#ct)
 9. [Zoomeye-Tools](#zoomeye-tools)
@@ -37,7 +37,7 @@ ksubdomain是一款基于无状态子域名爆破工具，支持在Windows/Linux
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.2-red)
+![Version](https://img.shields.io/badge/Version-V2.1.3-red)
 
 <https://github.com/gh0stkey/HaE>
 
@@ -53,16 +53,6 @@ HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。
 
 基于go完成的渗透测试信息收集利器
 
-### [Glass](detail/Glass.md)
-![Author](https://img.shields.io/badge/Author-s7ckTeam-orange)
-![Language](https://img.shields.io/badge/Language-Python-blue)
-![GitHub stars](https://img.shields.io/github/stars/s7ckTeam/Glass.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.6-red)
-
-<https://github.com/s7ckTeam/Glass>
-
-Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/ZoomEye/Shodan/360等api接口快速查询资产信息并识别重点资产的指纹，也可针对IP/IP段或资产列表进行快速的指纹识别。
-
 ### [Kunyu](detail/Kunyu.md)
 ![Author](https://img.shields.io/badge/Author-风起-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
@@ -72,6 +62,16 @@ Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/Z
 <https://github.com/knownsec/Kunyu>
 
 Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在让企业资产收集更高效，使更多安全相关从业者了解、使用网络空间测绘技术。
+
+### [Glass](detail/Glass.md)
+![Author](https://img.shields.io/badge/Author-s7ckTeam-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/s7ckTeam/Glass.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V2.0.6-red)
+
+<https://github.com/s7ckTeam/Glass>
+
+Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/ZoomEye/Shodan/360等api接口快速查询资产信息并识别重点资产的指纹，也可针对IP/IP段或资产列表进行快速的指纹识别。
 
 ### [ZoomEye-Python](detail/ZoomEye-Python.md)
 ![Author](https://img.shields.io/badge/Author-Knownsec404-orange)
@@ -87,7 +87,7 @@ ZoomEye-python 是一款基于 ZoomEye API 开发的 Python 库，提供了 Zoom
 ![Author](https://img.shields.io/badge/Author-rungobier@Knownsec404-orange)
 ![Language](https://img.shields.io/badge/Language-Rust-blue)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/ct.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.0-red)
+![Version](https://img.shields.io/badge/Version-V1.0.5-red)
 
 <https://github.com/knownsec/ct>
 

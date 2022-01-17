@@ -3,9 +3,11 @@
 1. [fscan](#fscan)
 2. [antSword](#antsword)
 3. [Stowaway](#stowaway)
-4. [ServerScan](#serverscan)
-5. [Platypus](#platypus)
-6. [As-Exploits](#as-exploits)
+4. [shellcodeloader](#shellcodeloader)
+5. [ServerScan](#serverscan)
+6. [Platypus](#platypus)
+7. [As-Exploits](#as-exploits)
+8. [PortForward](#portforward)
 
 ----------------------------------------
 
@@ -39,6 +41,16 @@
 
 Stowaway 是一款多级代理工具，可将外部流量通过多个节点代理至内网，突破内网访问限制。Stowaway 可以方便渗透测试人员通过多级跳跃，从外部dmz等一系列区域逐步深入核心网络；Stowaway 除了流量转发功能，还提供了端口复用、ssh隧道，流量伪装等专为渗透测试人员所用的功能。
 
+### [shellcodeloader](detail/shellcodeloader.md)
+![Author](https://img.shields.io/badge/Author-m0ngo0se@knownsec404-orange)
+![Language](https://img.shields.io/badge/Language-C++-blue)
+![GitHub stars](https://img.shields.io/github/stars/knownsec/shellcodeloader.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.1-red)
+
+<https://github.com/knownsec/shellcodeloader>
+
+Windows平台的shellcode免杀加载器，自带多种加载方式：32位自带13种加载方式，64位自带12种加载方式。
+
 ### [ServerScan](detail/ServerScan.md)
 ![Author](https://img.shields.io/badge/Author-Adminisme-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
@@ -68,4 +80,14 @@ Platypus 是一个基于终端与 Web UI 交互式的反弹 Shell 会话管理�
 <https://github.com/yzddmr6/As-Exploits>
 
 中国蚁剑后渗透框架
+
+### [PortForward](detail/PortForward.md)
+![Author](https://img.shields.io/badge/Author-knownsec404-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/knownsec/PortForward.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.5.0-red)
+
+<https://github.com/knownsec/PortForward>
+
+PortForward 是使用 Golang 进行开发的端口转发工具，解决在某些场景下内外网无法互通的问题
 

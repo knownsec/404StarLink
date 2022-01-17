@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Rust-blue)
 ![Author](https://img.shields.io/badge/Author-rungobier@Knownsec404-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/ct.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.0-red)
+![Version](https://img.shields.io/badge/Version-V1.0.5-red)
 ![Time](https://img.shields.io/badge/Join-20211213-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -121,5 +121,13 @@ cargo build --release
 
 
 ## 最近更新
+
+#### [v1.0.5] - 2022-01-13
+
+**新增**  
+- 加入查询IP开关参数
+
+**优化**  
+- 调整网速测试的代码
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

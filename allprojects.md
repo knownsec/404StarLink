@@ -12,8 +12,8 @@
     * [AppInfoScanner](#appinfoscanner)
     * [HaE](#hae)
     * [DarkEye](#darkeye)
-    * [Glass](#glass)
     * [Kunyu](#kunyu)
+    * [Glass](#glass)
     * [ZoomEye-Python](#zoomeye-python)
     * [ct](#ct)
     * [ZoomEye-Tools](#zoomeye-tools)
@@ -30,8 +30,8 @@
     * [CDK](#cdk)
     * [Viper](#viper)
     * [MDUT](#mdut)
-    * [BurpCrypto](#burpcrypto)
     * [ysomap](#ysomap)
+    * [BurpCrypto](#burpcrypto)
     * [MySQL-Fake-Server](#mysql-fake-server)
     * [Redis-Rogue-Server](#redis-rogue-server)
     * [MysqlT](#mysqlt)
@@ -48,13 +48,17 @@
     * [fscan](#fscan)
     * [antSword](#antsword)
     * [Stowaway](#stowaway)
+    * [shellcodeloader](#shellcodeloader)
     * [ServerScan](#serverscan)
     * [Platypus](#platypus)
     * [As-Exploits](#as-exploits)
+    * [PortForward](#portforward)
 
 * [其他/others](#其他others)
     * [passive-scan-client](#passive-scan-client)
     * [f8x](#f8x)
+    * [wam](#wam)
+    * [LBot](#lbot)
 
 ----------------------------------------
 
@@ -136,7 +140,7 @@ ksubdomain是一款基于无状态子域名爆破工具，支持在Windows/Linux
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.2-red)
+![Version](https://img.shields.io/badge/Version-V2.1.3-red)
 
 <https://github.com/gh0stkey/HaE>
 
@@ -152,16 +156,6 @@ HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。
 
 基于go完成的渗透测试信息收集利器
 
-### [Glass](detail/Glass.md)
-![Author](https://img.shields.io/badge/Author-s7ckTeam-orange)
-![Language](https://img.shields.io/badge/Language-Python-blue)
-![GitHub stars](https://img.shields.io/github/stars/s7ckTeam/Glass.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.6-red)
-
-<https://github.com/s7ckTeam/Glass>
-
-Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/ZoomEye/Shodan/360等api接口快速查询资产信息并识别重点资产的指纹，也可针对IP/IP段或资产列表进行快速的指纹识别。
-
 ### [Kunyu](detail/Kunyu.md)
 ![Author](https://img.shields.io/badge/Author-风起-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
@@ -171,6 +165,16 @@ Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/Z
 <https://github.com/knownsec/Kunyu>
 
 Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在让企业资产收集更高效，使更多安全相关从业者了解、使用网络空间测绘技术。
+
+### [Glass](detail/Glass.md)
+![Author](https://img.shields.io/badge/Author-s7ckTeam-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/s7ckTeam/Glass.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V2.0.6-red)
+
+<https://github.com/s7ckTeam/Glass>
+
+Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/ZoomEye/Shodan/360等api接口快速查询资产信息并识别重点资产的指纹，也可针对IP/IP段或资产列表进行快速的指纹识别。
 
 ### [ZoomEye-Python](detail/ZoomEye-Python.md)
 ![Author](https://img.shields.io/badge/Author-Knownsec404-orange)
@@ -186,7 +190,7 @@ ZoomEye-python 是一款基于 ZoomEye API 开发的 Python 库，提供了 Zoom
 ![Author](https://img.shields.io/badge/Author-rungobier@Knownsec404-orange)
 ![Language](https://img.shields.io/badge/Language-Rust-blue)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/ct.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.0-red)
+![Version](https://img.shields.io/badge/Version-V1.0.5-red)
 
 <https://github.com/knownsec/ct>
 
@@ -282,7 +286,7 @@ CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器�
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.10-red)
+![Version](https://img.shields.io/badge/Version-V1.5.13-red)
 
 <https://github.com/FunnyWolf/Viper>
 
@@ -298,16 +302,6 @@ VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战�
 
 MDUT 全称 Multiple Database Utilization Tools，旨在将常见的数据库利用手段集合在一个程序中，打破各种数据库利用工具需要各种环境导致使用相当不便的隔阂；MDUT 使用 Java 开发，支持跨平台使用。
 
-### [BurpCrypto](detail/BurpCrypto.md)
-![Author](https://img.shields.io/badge/Author-whwlsfb-orange)
-![Language](https://img.shields.io/badge/Language-Java-blue)
-![GitHub stars](https://img.shields.io/github/stars/whwlsfb/BurpCrypto.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.1-red)
-
-<https://github.com/whwlsfb/BurpCrypto>
-
-支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插件。
-
 ### [ysomap](detail/ysomap.md)
 ![Author](https://img.shields.io/badge/Author-wh1t3p1g-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
@@ -317,6 +311,16 @@ MDUT 全称 Multiple Database Utilization Tools，旨在将常见的数据库利
 <https://github.com/wh1t3p1g/ysomap>
 
 Ysomap是一款适配于各类实际复杂环境的Java反序列化利用框架，可动态配置具备不同执行效果的Java反序列化利用链payload，以应对不同场景下的反序列化利用。
+
+### [BurpCrypto](detail/BurpCrypto.md)
+![Author](https://img.shields.io/badge/Author-whwlsfb-orange)
+![Language](https://img.shields.io/badge/Language-Java-blue)
+![GitHub stars](https://img.shields.io/github/stars/whwlsfb/BurpCrypto.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+
+<https://github.com/whwlsfb/BurpCrypto>
+
+支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插件。
 
 ### [MySQL-Fake-Server](detail/MySQL-Fake-Server.md)
 ![Author](https://img.shields.io/badge/Author-fnmsd-orange)
@@ -444,6 +448,16 @@ CodeReviewTools是一个可以快速批量反编译jar包的工具，为审计Ja
 
 Stowaway 是一款多级代理工具，可将外部流量通过多个节点代理至内网，突破内网访问限制。Stowaway 可以方便渗透测试人员通过多级跳跃，从外部dmz等一系列区域逐步深入核心网络；Stowaway 除了流量转发功能，还提供了端口复用、ssh隧道，流量伪装等专为渗透测试人员所用的功能。
 
+### [shellcodeloader](detail/shellcodeloader.md)
+![Author](https://img.shields.io/badge/Author-m0ngo0se@knownsec404-orange)
+![Language](https://img.shields.io/badge/Language-C++-blue)
+![GitHub stars](https://img.shields.io/github/stars/knownsec/shellcodeloader.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.1-red)
+
+<https://github.com/knownsec/shellcodeloader>
+
+Windows平台的shellcode免杀加载器，自带多种加载方式：32位自带13种加载方式，64位自带12种加载方式。
+
 ### [ServerScan](detail/ServerScan.md)
 ![Author](https://img.shields.io/badge/Author-Adminisme-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
@@ -474,6 +488,16 @@ Platypus 是一个基于终端与 Web UI 交互式的反弹 Shell 会话管理�
 
 中国蚁剑后渗透框架
 
+### [PortForward](detail/PortForward.md)
+![Author](https://img.shields.io/badge/Author-knownsec404-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/knownsec/PortForward.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.5.0-red)
+
+<https://github.com/knownsec/PortForward>
+
+PortForward 是使用 Golang 进行开发的端口转发工具，解决在某些场景下内外网无法互通的问题
+
 
 
 ## 其他/others
@@ -496,6 +520,26 @@ Passive Scan Client是一款可以将经过筛选的流量转发到指定代理�
 <https://github.com/ffffffff0x/f8x>
 
 一款红/蓝队环境自动化部署工具,支持多种场景,渗透,开发,代理环境,服务可选项等。
+
+### [wam](detail/wam.md)
+![Author](https://img.shields.io/badge/Author-knownsec404-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/knownsec/wam.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.0-red)
+
+<https://github.com/knownsec/wam>
+
+WAM是一个由Python开发的用于监控'Web App'、'动态网络信息'的平台。在一定程度上，它极大地帮助安全研究人员节省了跟踪代码补丁的时间。
+
+### [LBot](detail/LBot.md)
+![Author](https://img.shields.io/badge/Author-LoRexxar@knownsec404-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/knownsec/LBot.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+
+<https://github.com/knownsec/LBot>
+
+LBot主要用于方便的编写一个xss的bot程序。使用者可以简单的修改其逻辑以及配置环境，即可获得一个简单的xss的bot程序。由于原型来自于爬虫程序，所以只要前端有一定的频率限制，后端很难出现问题，比较稳定。
 
 
 
