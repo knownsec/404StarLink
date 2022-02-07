@@ -1,22 +1,12 @@
 ## 甲方工具 / party_a
 
-1. [OpenStar](#openstar)
-2. [Elkeid](#elkeid)
+1. [Elkeid](#elkeid)
+2. [OpenStar](#openstar)
 3. [linglong](#linglong)
 4. [GShark](#gshark)
 5. [Juggler](#juggler)
 
 ----------------------------------------
-
-### [OpenStar](detail/OpenStar.md)
-![Author](https://img.shields.io/badge/Author-starjun-orange)
-![Language](https://img.shields.io/badge/Language-JS/Python-blue)
-![GitHub stars](https://img.shields.io/github/stars/starjun/openstar.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.0-red)
-
-<https://github.com/starjun/openstar>
-
-OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复杂规则编写。提供了常规的 HTTP 字段规则配置，还提供了 IP 黑白名单、访问频次等配置，对于 CC 防护更提供的特定的规则算法，并且支持搭建集群进行防护。
 
 ### [Elkeid](detail/Elkeid.md)
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
@@ -27,6 +17,16 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 <https://github.com/bytedance/Elkeid>
 
 Elkeid是一个云原生的基于主机的安全(入侵检测与风险识别)解决方案。Elkeid 包含两大部分：Elkeid Agent与Elkeid Driver作为数据采集层，它在Linux系统的内核和用户空间上均可使用，从而提供了具有更好性能的且更丰富的数据。 Elkeid Server可以提供百万级Agent的接入能力，采集Agent数据，支持控制与策略下发。包含实时、离线计算模块，对采集上来的数据进行分析和检测。又有自带的服务发现和管理系统，方便对整个后台管理和操作。
+
+### [OpenStar](detail/OpenStar.md)
+![Author](https://img.shields.io/badge/Author-starjun-orange)
+![Language](https://img.shields.io/badge/Language-JS/Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/starjun/openstar.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.0.0-red)
+
+<https://github.com/starjun/openstar>
+
+OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复杂规则编写。提供了常规的 HTTP 字段规则配置，还提供了 IP 黑白名单、访问频次等配置，对于 CC 防护更提供的特定的规则算法，并且支持搭建集群进行防护。
 
 ### [linglong](detail/linglong.md)
 ![Author](https://img.shields.io/badge/Author-awake1t-orange)

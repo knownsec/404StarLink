@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.13-red)
+![Version](https://img.shields.io/badge/Version-V1.5.14-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -78,6 +78,15 @@
 
 ## 最近更新
 
+#### [v1.5.14] - 2022-02-06
+
+**新功能**  
+- 新增三个Android教学演示模块(获取目标手机短信/通话记录/通讯录)(手机摄像头拍照)(手机录制音频)  
+- 新增通信通道功能,多级内网渗透更加便捷 readme  
+
+**优化**  
+- 合并metasploit-framework 6.1.29版本
+
 #### [v1.5.13] - 2022-01-11
 
 **新功能**  
@@ -132,18 +141,5 @@
 
 **Bugfix**  
 - 修复无法加载pem证书问题
-
-#### [v1.5.7] - 2021-11-15
-
-**优化**  
-- 全网扫描添加Debug接口  
-- webdelivery当前不再强制绑定target与payload  
-- puma及ipgeo功能优化  
-- 部分前端交互优化  
-- 合并metasploit-framework 6.1.15版本  
-
-**Bugfix**  
-- 修复ipgeo异常处理导致监听异常问题  
-- 修复重启viper后udp类型监听重复添加问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
