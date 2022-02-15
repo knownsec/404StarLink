@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-w8ay-orange)
 ![GitHub stars](https://img.shields.io/github/stars/boy-hack/ksubdomain.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.2-red)
+![Version](https://img.shields.io/badge/Version-V1.8.1-red)
 ![Time](https://img.shields.io/badge/Join-20200821-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -63,5 +63,13 @@ echo "baidu.com"|./ksubdomain e --stdin
 - 2019-10-12 发布文章[《从 Masscan, Zmap 源码分析到开发实践》](https://paper.seebug.org/1052/)
 
 ## 最近更新
+
+#### [v1.8.1] - 2022-02-13
+
+**重构**  
+- 优化了代码结构，优化了go协程组织方式，代码易懂，解决了一些冲突问题  
+- 设计了一种新的算法，用来快速发包并且大大减少失败率  
+- 获取网卡改为了全自动并可以根据配置文件读取  
+- 增加有一个实时的进度条，依次显示成功/发送/队列/接收/失败/耗时信息
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

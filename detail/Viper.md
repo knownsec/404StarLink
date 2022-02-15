@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.14-red)
+![Version](https://img.shields.io/badge/Version-V1.5.15-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -78,6 +78,17 @@
 
 ## 最近更新
 
+#### [v1.5.15] - 2022-02-13
+
+**优化**  
+- 优化部分UI布局  
+- 删除Session增加二次确认  
+- 通信通道适配大部分Payload  
+- 合并metasploit-framework 6.1.30版本  
+
+**Bugfix**  
+- 修复手机摄像头拍照MIUI崩溃问题
+
 #### [v1.5.14] - 2022-02-06
 
 **新功能**  
@@ -128,18 +139,5 @@
 
 **Bugfix**  
 - 修复执行FOFA搜索失败问题
-
-#### [v1.5.8] - 2021-11-26
-
-**新功能**  
-- 新增Syscall的Visual Studio工程模块  
-
-**优化**  
-- 全网扫描UI更新,操作更便捷并新增手动导入功能  
-- 添加部分日志(心跳数据部分)  
-- 合并metasploit-framework 6.1.17版本  
-
-**Bugfix**  
-- 修复无法加载pem证书问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
