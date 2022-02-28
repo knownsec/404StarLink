@@ -42,7 +42,7 @@ linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.8.4-red)
+![Version](https://img.shields.io/badge/Version-V0.9.1-red)
 
 <https://github.com/madneal/gshark>
 

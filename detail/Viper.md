@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.15-red)
+![Version](https://img.shields.io/badge/Version-V1.5.16-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -78,6 +78,16 @@
 
 ## 最近更新
 
+#### [v1.5.16] - 2022-02-26
+
+**优化**  
+- 优化部分UI,适配Macox  
+- 合并metasploit-framework 6.1.32版本  
+
+**Bugfix**  
+- 修复伪造成Word文档的exe文件某些情境下无法清理exe问题  
+- 修复Python,Java,Android类型Payload无法上线问题
+
 #### [v1.5.15] - 2022-02-13
 
 **优化**  
@@ -130,14 +140,5 @@
 
 **Log4j自动化主动扫描**  
 - 通过chrome headless + 爬虫的方式获取自动获取页面所有请求,将请求导入到被动proxy中,实现自动化扫描
-
-#### [v1.5.9] - 2021-12-04
-
-**优化**  
-- 合并metasploit-framework 6.1.18版本  
-- 更新ruby3.0  
-
-**Bugfix**  
-- 修复执行FOFA搜索失败问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

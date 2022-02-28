@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-风起-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/Kunyu.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.4-red)
+![Version](https://img.shields.io/badge/Version-V1.6.5-red)
 ![Time](https://img.shields.io/badge/Join-20211122-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -286,6 +286,12 @@ HostCrash 1.1.1.1 G:\host.txt
 - 2021-11-23 发布文章[《Kunyu (坤舆) : 更高效的企业资产收集》](https://mp.weixin.qq.com/s/mjPDX8PhfnpjmS6LaMcD_A)
 
 ## 最近更新
+
+#### [v1.6.5] - 2022-02-25
+
+**新增**  
+- 增加了对查询结果存活检测的功能  
+- 修复了一些模块不兼容问题
 
 #### [v1.6.4] - 2022-01-04
 
