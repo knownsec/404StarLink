@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-LoRexxar-orange)
 ![GitHub stars](https://img.shields.io/github/stars/LoRexxar/Kunlun-M.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.6.4.1-red)
+![Version](https://img.shields.io/badge/Version-V2.6.4.2-red)
 ![Time](https://img.shields.io/badge/Join-20200821-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -307,5 +307,12 @@ rules/{语言类型}/CVI_xxxx.py
 
 
 ## 最近更新
+
+#### [v2.6.4.2] - 2022-03-02
+
+**修复**  
+- 修复了几个PHP的语法支持问题  
+- 修复了组件扫描中关于pom.xml静态扫描的几个语法解析错误  
+- 修改了组件数据储存格式
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

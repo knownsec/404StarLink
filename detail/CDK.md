@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-CDK-blue)
 ![Author](https://img.shields.io/badge/Author-cdkteam-orange)
 ![GitHub stars](https://img.shields.io/github/stars/cdk-team/CDK.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.4-red)
+![Version](https://img.shields.io/badge/Version-V1.0.5-red)
 ![Time](https://img.shields.io/badge/Join-20210223-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -212,6 +212,15 @@ New feature or exploits:
 - 2021-11-11 发布文章[《CDK:一款针对容器场景的多功能渗透工具》](https://mp.weixin.qq.com/s/fopvHFPAbbqtCE6SV9JerQ)
 
 ## 最近更新
+
+#### [v1.0.5] - 2022-03-06
+
+**更新**  
+- 修复运行 exp 时 shim-pwn 异常退出的问题  
+- 在 docopt 添加 eva 参数  
+- 支持 cdk eval  
+- 同步 github.com/containerd/containerd 到 1.4.12  
+- 同步 github.com/tidwall/gjson 到 1.9.3
 
 #### [v1.0.4] - 2021-10-02
 

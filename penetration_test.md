@@ -16,7 +16,7 @@
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/pocsuite3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.8.9-red)
+![Version](https://img.shields.io/badge/Version-V1.9.0-red)
 
 <https://github.com/knownsec/pocsuite3>
 
@@ -26,7 +26,7 @@ pocsuite3是由Knownsec 404团队开发的开源远程漏洞测试和概念验�
 ![Author](https://img.shields.io/badge/Author-cdkteam-orange)
 ![Language](https://img.shields.io/badge/Language-CDK-blue)
 ![GitHub stars](https://img.shields.io/github/stars/cdk-team/CDK.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.4-red)
+![Version](https://img.shields.io/badge/Version-V1.0.5-red)
 
 <https://github.com/cdk-team/CDK>
 

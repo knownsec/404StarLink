@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/pocsuite3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.8.9-red)
+![Version](https://img.shields.io/badge/Version-V1.9.0-red)
 ![Time](https://img.shields.io/badge/Join-20200821-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -152,5 +152,11 @@ console mode
 
 
 ## 最近更新
+
+#### [v1.9.0] - 2022-03-05
+
+**修复**  
+- 修复 urllib3 解析 URI 的问题  
+- 禁用了 URL 编码
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
