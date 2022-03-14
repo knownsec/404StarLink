@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Bash-blue)
 ![Author](https://img.shields.io/badge/Author-ffffffff0x-orange)
 ![GitHub stars](https://img.shields.io/github/stars/ffffffff0x/f8x.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.9-red)
+![Version](https://img.shields.io/badge/Version-V1.6.0-red)
 ![Time](https://img.shields.io/badge/Join-20210223-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -152,6 +152,19 @@ f8x 基本上不需要任何依赖,或者说它就是为了帮助你安装各种
 - 2021-11-30 发布视频[《f8x：红/蓝队环境自动化部署工具》](https://mp.weixin.qq.com/s/9MMujhu4PwmRvg0k7hPPUg)
 
 ## 最近更新
+
+#### [v1.6.0] - 2022-03-11
+
+**兼容性**  
+- 支持 linux arm 架构  
+- 支持 kali 2022.1  
+
+**功能添加**  
+- -k 选项添加 netspy  
+- -f 选项添加 duf/procs/ncdu/exa/htop/bat/fd  
+
+**错误修复**  
+- 修复更改py版本时没有更改环境变量的问题
 
 #### [v1.5.9] - 2021-12-10
 
