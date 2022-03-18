@@ -17,6 +17,9 @@
 
 | 时间 | 项目名称 | 项目动态 |
 |----|-----------|--------------------------|
+|2022-03-16|[**veinmind-tools**](detail/veinmind-tools.md)|veinmind-tools加入星链计划|
+|2022-03-16|[**DNSlog-GO**](detail/DNSlog-GO.md)|DNSlog-GO加入星链计划|
+|2022-03-16|[**scaninfo**](detail/scaninfo.md)|scaninfo加入星链计划|
 |2022-03-11|[**Viper**](detail/Viper.md)|更新 [v1.5.18](detail/Viper.md#最近更新) 版本|
 |2022-03-11|[**f8x**](detail/f8x.md)|更新 [v1.6.0](detail/f8x.md#最近更新) 版本|
 |2022-03-10|[**CDK**](detail/CDK.md)|更新 [v1.0.6](detail/CDK.md#最近更新) 版本|
@@ -24,9 +27,6 @@
 |2022-03-05|[**pocsuite3**](detail/pocsuite3.md)|更新 [v1.9.0](detail/pocsuite3.md#最近更新) 版本|
 |2022-03-02|[**KunLun-M**](detail/KunLun-M.md)|更新 [v2.6.4.2](detail/KunLun-M.md#最近更新) 版本|
 |2022-02-25|[**GShark**](detail/gshark.md)|更新 [v0.9.1](detail/gshark.md#最近更新) 版本|
-|2022-02-25|[**Kunyu**](detail/Kunyu.md)|更新 [v1.6.5](detail/Kunyu.md#最近更新) 版本|
-|2022-01-13|[**ct**](detail/ct.md)|更新 [v1.0.5](detail/ct.md#最近更新) 版本|
-|2022-01-11|[**HaE**](detail/HaE.md)|更新 [v2.1.3](detail/HaE.md#最近更新) 版本|
 
 **2.StarRank**
 
@@ -62,6 +62,9 @@
 
 | 时间 | 项目名称 | 项目简介 |
 |----|-----------|--------------------------|
+|2022-03-16|[**veinmind-tools**](detail/veinmind-tools.md)|`veinmind-tools` 是基于 `veinmind-sdk` 打造的一个容器安全工具集，目前已支持镜像 恶意文件/后门/敏感信息/弱口令 的扫描，更多功能正在逐步开发中。|
+|2022-03-16|[**DNSlog-GO**](detail/DNSlog-GO.md)|DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面。单文件运行，无依赖。部署方便快捷。|
+|2022-03-16|[**scaninfo**](detail/scaninfo.md)|scaninfo 是一款开源、轻量、快速、跨平台的红队内外网打点扫描器。比较同类工具，其能够在 nmap 的扫描速度和 masscan 的准确度之间寻找一个较好的平衡点，能够快速进行端口扫描和服务识别，内置指纹识别用于 web 探测，可以用报告的方式整理扫描结果。|
 |2021-12-13|[**ct**](detail/ct.md)|ct 是一款使用 rust 语言进行开发，并且基于ZoomEye域名查询以及利用域名字典进行子域名爆破的工具，同时在最终爆破完成后可使用脚本，将相应的的.gv 文件转化成为相应的 .png 文件进行可视化展示|
 |2021-11-22|[**MySQL-Fake-Server**](detail/MySQL-Fake-Server.md)|用于渗透测试过程中的假MySQL服务器，纯原生python3实现，不依赖其它包。|
 |2021-11-22|[**BurpCrypto**](detail/BurpCrypto.md)|支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插件。|
@@ -69,9 +72,6 @@
 |2021-11-22|[**Kunyu**](detail/Kunyu.md)|Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在让企业资产收集更高效，使更多安全相关从业者了解、使用网络空间测绘技术。|
 |2021-07-02|[**Pocassist**](detail/Pocassist.md)|Pocassist 是一个 Golang 编写的全新开源漏洞测试框架，帮助安全人员专注于漏洞验证的逻辑的实现。Pocassist 提供了简洁的 Web 图形化界面，用户可以在线编辑漏洞验证程序即可进行批量的测试；规则完全兼容 xray，可以直接使用现有开源的 PoC 库，同时也支持添加自定义规则。|
 |2021-07-02|[**MDUT**](detail/MDUT.md)|MDUT 全称 Multiple Database Utilization Tools，旨在将常见的数据库利用手段集合在一个程序中，打破各种数据库利用工具需要各种环境导致使用相当不便的隔阂；MDUT 使用 Java 开发，支持跨平台使用。|
-|2021-07-02|[**OpenStar**](detail/OpenStar.md)|OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复杂规则编写。提供了常规的 HTTP 字段规则配置，还提供了 IP 黑白名单、访问频次等配置，对于 CC 防护更提供的特定的规则算法，并且支持搭建集群进行防护。|
-|2021-07-02|[**Stowaway**](detail/Stowaway.md)|Stowaway 是一款多级代理工具，可将外部流量通过多个节点代理至内网，突破内网访问限制。Stowaway 可以方便渗透测试人员通过多级跳跃，从外部dmz等一系列区域逐步深入核心网络；Stowaway 除了流量转发功能，还提供了端口复用、ssh隧道，流量伪装等专为渗透测试人员所用的功能。|
-|2021-07-02|[**Platypus**](detail/Platypus.md)|Platypus 是一个基于终端与 Web UI 交互式的反弹 Shell 会话管理工具。在实际的渗透测试中，为了解决 Netcat/Socat 等工具在文件传输、多会话管理方面的不足。该工具在多会话管理的基础上增加了在渗透测试中更加有用的功能，可以更方便灵活地对反弹 Shell 会话进行管理。|
 
 **5.[分类:甲方工具](party_a.md)**
 
@@ -81,6 +81,7 @@
 |2|[**linglong**](detail/linglong.md)|awake1t|linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，进行端口爆破。帮助企业更快发现弱口令问题。主要功能包括: 资产探测、端口爆破、定时任务、管理后台识别、报表展示。|977|
 |3|[**GShark**](detail/gshark.md)|madneal|一款开源敏感信息监测系统，可以监测包括 github、gitlab(目前不太稳定，由于gitlab对于免费用户不提供代码全文检索API)、searchcode 多平台的敏感信息监测。|455|
 |4|[**Juggler**](detail/Juggler.md)|C4o|一个也许能骗到黑客的系统，可以作为WAF等防护体系的一环。|390|
+|5|[**veinmind-tools**](detail/veinmind-tools.md)|长亭科技|`veinmind-tools` 是基于 `veinmind-sdk` 打造的一个容器安全工具集，目前已支持镜像 恶意文件/后门/敏感信息/弱口令 的扫描，更多功能正在逐步开发中。|336|
 
 **6.[分类:信息收集](reconnaissance.md)**
 
@@ -91,10 +92,11 @@
 |3|[**Glass**](detail/Glass.md)|s7ckTeam|Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/ZoomEye/Shodan/360等api接口快速查询资产信息并识别重点资产的指纹，也可针对IP/IP段或资产列表进行快速的指纹识别。|569|
 |4|[**Kunyu**](detail/Kunyu.md)|风起|Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在让企业资产收集更高效，使更多安全相关从业者了解、使用网络空间测绘技术。|565|
 |5|[**ZoomEye-Python**](detail/ZoomEye-Python.md)|Knownsec404|ZoomEye-python 是一款基于 ZoomEye API 开发的 Python 库，提供了 ZoomEye 命令行模式，同时也可以作为 SDK 集成到其他工具中。该库可以让技术人员更便捷地搜索、筛选、导出 ZoomEye 的数据|331|
-|6|[**ksubdomain**](detail/ksubdomain.md)|w8ay|ksubdomain是一款基于无状态子域名爆破工具，支持在Windows/Linux/Mac上使用，它会很快的进行DNS爆破，在Mac和Windows上理论最大发包速度在30w/s,linux上为160w/s的速度。|188|
-|7|[**ct**](detail/ct.md)|rungobier@Knownsec404|ct 是一款使用 rust 语言进行开发，并且基于ZoomEye域名查询以及利用域名字典进行子域名爆破的工具，同时在最终爆破完成后可使用脚本，将相应的的.gv 文件转化成为相应的 .png 文件进行可视化展示|61|
-|8|[**Zoomeye-Tools**](detail/ZoomEye-Tools.md)|Knownsec404|一个配合ZoomEye使用的Chrome插件，可以查看当前网页所在ip信息或跳转查看详细信息，还可以根据关键词一键跳转至ZoomEye进行搜索|31|
-|9|[**ZoomEye-go**](detail/ZoomEye-go.md)|gyyyy|ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 命令行模式，同时也可以作为SDK集成到其他工具中。该库可以让技术人员更便捷地搜索、筛选、导出 ZoomEye 的数据。|27|
+|6|[**scaninfo**](detail/scaninfo.md)|华东360安服团队|scaninfo 是一款开源、轻量、快速、跨平台的红队内外网打点扫描器。比较同类工具，其能够在 nmap 的扫描速度和 masscan 的准确度之间寻找一个较好的平衡点，能够快速进行端口扫描和服务识别，内置指纹识别用于 web 探测，可以用报告的方式整理扫描结果。|286|
+|7|[**ksubdomain**](detail/ksubdomain.md)|w8ay|ksubdomain是一款基于无状态子域名爆破工具，支持在Windows/Linux/Mac上使用，它会很快的进行DNS爆破，在Mac和Windows上理论最大发包速度在30w/s,linux上为160w/s的速度。|188|
+|8|[**ct**](detail/ct.md)|rungobier@Knownsec404|ct 是一款使用 rust 语言进行开发，并且基于ZoomEye域名查询以及利用域名字典进行子域名爆破的工具，同时在最终爆破完成后可使用脚本，将相应的的.gv 文件转化成为相应的 .png 文件进行可视化展示|61|
+|9|[**Zoomeye-Tools**](detail/ZoomEye-Tools.md)|Knownsec404|一个配合ZoomEye使用的Chrome插件，可以查看当前网页所在ip信息或跳转查看详细信息，还可以根据关键词一键跳转至ZoomEye进行搜索|31|
+|10|[**ZoomEye-go**](detail/ZoomEye-go.md)|gyyyy|ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 命令行模式，同时也可以作为SDK集成到其他工具中。该库可以让技术人员更便捷地搜索、筛选、导出 ZoomEye 的数据。|27|
 
 **7.全部分类**
 

@@ -6,10 +6,11 @@
 4. [Glass](#glass)
 5. [Kunyu](#kunyu)
 6. [ZoomEye-Python](#zoomeye-python)
-7. [ksubdomain](#ksubdomain)
-8. [ct](#ct)
-9. [Zoomeye-Tools](#zoomeye-tools)
-10. [ZoomEye-go](#zoomeye-go)
+7. [scaninfo](#scaninfo)
+8. [ksubdomain](#ksubdomain)
+9. [ct](#ct)
+10. [Zoomeye-Tools](#zoomeye-tools)
+11. [ZoomEye-go](#zoomeye-go)
 
 ----------------------------------------
 
@@ -72,6 +73,16 @@ Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在�
 <https://github.com/knownsec/ZoomEye-python>
 
 ZoomEye-python 是一款基于 ZoomEye API 开发的 Python 库，提供了 ZoomEye 命令行模式，同时也可以作为 SDK 集成到其他工具中。该库可以让技术人员更便捷地搜索、筛选、导出 ZoomEye 的数据
+
+### [scaninfo](detail/scaninfo.md)
+![Author](https://img.shields.io/badge/Author-华东360安服团队-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/redtoolskobe/scaninfo.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.1.0-red)
+
+<https://github.com/redtoolskobe/scaninfo>
+
+scaninfo 是一款开源、轻量、快速、跨平台的红队内外网打点扫描器。比较同类工具，其能够在 nmap 的扫描速度和 masscan 的准确度之间寻找一个较好的平衡点，能够快速进行端口扫描和服务识别，内置指纹识别用于 web 探测，可以用报告的方式整理扫描结果。
 
 ### [ksubdomain](detail/ksubdomain.md)
 ![Author](https://img.shields.io/badge/Author-w8ay-orange)

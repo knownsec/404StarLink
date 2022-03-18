@@ -6,6 +6,7 @@
     * [linglong](#linglong)
     * [gshark](#gshark)
     * [Juggler](#juggler)
+    * [veinmind-tools](#veinmind-tools)
 
 * [信息收集/reconnaissance](#信息收集reconnaissance)
     * [AppInfoScanner](#appinfoscanner)
@@ -14,6 +15,7 @@
     * [Glass](#glass)
     * [Kunyu](#kunyu)
     * [ZoomEye-Python](#zoomeye-python)
+    * [scaninfo](#scaninfo)
     * [ksubdomain](#ksubdomain)
     * [ct](#ct)
     * [ZoomEye-Tools](#zoomeye-tools)
@@ -33,6 +35,7 @@
     * [BurpCrypto](#burpcrypto)
     * [MySQL-Fake-Server](#mysql-fake-server)
     * [ysomap](#ysomap)
+    * [DNSlog-GO](#dnslog-go)
     * [Redis-Rogue-Server](#redis-rogue-server)
     * [MysqlT](#mysqlt)
 
@@ -113,6 +116,16 @@ linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，
 
 一个也许能骗到黑客的系统，可以作为WAF等防护体系的一环。
 
+### [veinmind-tools](detail/veinmind-tools.md)
+![Author](https://img.shields.io/badge/Author-长亭科技-orange)
+![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/chaitin/veinmind-tools.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.0.4-red)
+
+<https://github.com/chaitin/veinmind-tools>
+
+`veinmind-tools` 是基于 `veinmind-sdk` 打造的一个容器安全工具集，目前已支持镜像 恶意文件/后门/敏感信息/弱口令 的扫描，更多功能正在逐步开发中。
+
 
 
 ## 信息收集/reconnaissance
@@ -175,6 +188,16 @@ Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在�
 <https://github.com/knownsec/ZoomEye-python>
 
 ZoomEye-python 是一款基于 ZoomEye API 开发的 Python 库，提供了 ZoomEye 命令行模式，同时也可以作为 SDK 集成到其他工具中。该库可以让技术人员更便捷地搜索、筛选、导出 ZoomEye 的数据
+
+### [scaninfo](detail/scaninfo.md)
+![Author](https://img.shields.io/badge/Author-华东360安服团队-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/redtoolskobe/scaninfo.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.1.0-red)
+
+<https://github.com/redtoolskobe/scaninfo>
+
+scaninfo 是一款开源、轻量、快速、跨平台的红队内外网打点扫描器。比较同类工具，其能够在 nmap 的扫描速度和 masscan 的准确度之间寻找一个较好的平衡点，能够快速进行端口扫描和服务识别，内置指纹识别用于 web 探测，可以用报告的方式整理扫描结果。
 
 ### [ksubdomain](detail/ksubdomain.md)
 ![Author](https://img.shields.io/badge/Author-w8ay-orange)
@@ -331,6 +354,16 @@ MDUT 全称 Multiple Database Utilization Tools，旨在将常见的数据库利
 <https://github.com/wh1t3p1g/ysomap>
 
 Ysomap是一款适配于各类实际复杂环境的Java反序列化利用框架，可动态配置具备不同执行效果的Java反序列化利用链payload，以应对不同场景下的反序列化利用。
+
+### [DNSlog-GO](detail/DNSlog-GO.md)
+![Author](https://img.shields.io/badge/Author-lanyi-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/lanyi1998/DNSlog-GO.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.5.1-red)
+
+<https://github.com/lanyi1998/DNSlog-GO>
+
+DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面。单文件运行，无依赖。部署方便快捷。
 
 ### [Redis-Rogue-Server](detail/Redis-Rogue-Server.md)
 ![Author](https://img.shields.io/badge/Author-Dliv3-orange)

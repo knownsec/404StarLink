@@ -5,6 +5,7 @@
 3. [linglong](#linglong)
 4. [GShark](#gshark)
 5. [Juggler](#juggler)
+6. [veinmind-tools](#veinmind-tools)
 
 ----------------------------------------
 
@@ -57,4 +58,14 @@ linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，
 <https://github.com/C4o/Juggler>
 
 一个也许能骗到黑客的系统，可以作为WAF等防护体系的一环。
+
+### [veinmind-tools](detail/veinmind-tools.md)
+![Author](https://img.shields.io/badge/Author-长亭科技-orange)
+![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/chaitin/veinmind-tools.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.0.4-red)
+
+<https://github.com/chaitin/veinmind-tools>
+
+`veinmind-tools` 是基于 `veinmind-sdk` 打造的一个容器安全工具集，目前已支持镜像 恶意文件/后门/敏感信息/弱口令 的扫描，更多功能正在逐步开发中。
 
