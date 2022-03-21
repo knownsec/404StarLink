@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.9.1-red)
+![Version](https://img.shields.io/badge/Version-V0.9.2-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -122,6 +122,13 @@ To execute `./gshark scan`, you need to add a Github token for crawl information
 - 2021-11-12 发布文章[《GShark:多平台的敏感信息监测工具》](https://mp.weixin.qq.com/s/MG1lxiFg4a8KkAdhSMOu3Q)
 
 ## 最近更新
+
+#### [v0.9.2] - 2022-03-19
+
+**更新**  
+- 修复 axios 版本导致的验证码不展示的问题  
+- 移除测试模块，减少代码冗余  
+- 修复 webpack 的编译问题
 
 #### [v0.9.1] - 2022-02-25
 

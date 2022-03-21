@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
 ![Author](https://img.shields.io/badge/Author-长亭科技-orange)
 ![GitHub stars](https://img.shields.io/github/stars/chaitin/veinmind-tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.4-red)
+![Version](https://img.shields.io/badge/Version-V1.1.0-red)
 ![Time](https://img.shields.io/badge/Join-20220316-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -28,5 +28,10 @@ veinmind-tools 是由长亭科技自研，基于<a href="https://github.com/chai
 
 
 ## 最近更新
+
+#### [v1.1.0] - 2022-03-18
+
+**更新**  
+- 所有工具支持以平行容器模式运行
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

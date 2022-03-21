@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/pocsuite3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.9.0-red)
+![Version](https://img.shields.io/badge/Version-V1.9.1-red)
 ![Time](https://img.shields.io/badge/Join-20200821-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -152,6 +152,13 @@ console mode
 
 
 ## 最近更新
+
+#### [v1.9.1] - 2022-03-17
+
+**更新**  
+- 提供hook版的requests库，poc中可以自行加载  
+- 重构shell模式，添加键盘中断句柄  
+- 修复部分bug
 
 #### [v1.9.0] - 2022-03-05
 

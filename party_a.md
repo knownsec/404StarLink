@@ -43,7 +43,7 @@ linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.9.1-red)
+![Version](https://img.shields.io/badge/Version-V0.9.2-red)
 
 <https://github.com/madneal/gshark>
 
@@ -63,9 +63,9 @@ linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，
 ![Author](https://img.shields.io/badge/Author-长亭科技-orange)
 ![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/chaitin/veinmind-tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.4-red)
+![Version](https://img.shields.io/badge/Version-V1.1.0-red)
 
 <https://github.com/chaitin/veinmind-tools>
 
-`veinmind-tools` 是基于 `veinmind-sdk` 打造的一个容器安全工具集，目前已支持镜像 恶意文件/后门/敏感信息/弱口令 的扫描，更多功能正在逐步开发中。
+veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目前已支持镜像 恶意文件/后门/敏感信息/弱口令 的扫描，更多功能正在逐步开发中。
 
