@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-风起-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/Kunyu.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.7.0-red)
+![Version](https://img.shields.io/badge/Version-V1.7.1-red)
 ![Time](https://img.shields.io/badge/Join-20211122-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -286,6 +286,13 @@ HostCrash 1.1.1.1 G:\host.txt
 - 2021-11-23 发布文章[《Kunyu (坤舆) : 更高效的企业资产收集》](https://mp.weixin.qq.com/s/mjPDX8PhfnpjmS6LaMcD_A)
 
 ## 最近更新
+
+#### [v1.7.1] - 2022-03-22
+
+**更新**  
+- 优化'敏感信息搜索'功能的正则规则  
+- 修复 HTTP 域名识别错误的问题  
+
 
 #### [v1.7.0] - 2022-03-18
 
