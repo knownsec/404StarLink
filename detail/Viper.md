@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.18-red)
+![Version](https://img.shields.io/badge/Version-V1.5.19-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -78,6 +78,17 @@
 
 ## 最近更新
 
+#### [v1.5.19] - 2022-03-28
+
+**优化**  
+- Session文件管理增加缓存,优化首次打开速度  
+- 合并metasploit-framework 6.1.36版本  
+
+**Bugfix**  
+- 修复无法使用migrate命令问题  
+- 修复无法创建虚拟监听问题  
+- 修复Windows UAC绕过运行报错问题
+
 #### [v1.5.18] - 2022-03-11
 
 **优化**  
@@ -118,20 +129,5 @@
 
 **优化**  
 - 合并metasploit-framework 6.1.29版本
-
-#### [v1.5.13] - 2022-01-11
-
-**新功能**  
-- 新增Zoomeye API接口
-- 新增DNSLog服务器模块
-
-**优化**  
-- 删除全网扫描debug接口(手工导入功能可完全代替此接口)
-- Log4j Payload回显Java version,OS arch,OS version
-- 优化全网扫描流水线逻辑,当前不会影响心跳数据传输
-- 合并metasploit-framework 6.1.25版本
-
-**Bugfix**  
-- 修复VMware Horizon Log4j Rce超时参数不生效问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

@@ -88,7 +88,7 @@ scaninfo 是一款开源、轻量、快速、跨平台的红队内外网打点�
 ![Author](https://img.shields.io/badge/Author-w8ay-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/boy-hack/ksubdomain.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.9.3-red)
+![Version](https://img.shields.io/badge/Version-V1.9.5-red)
 
 <https://github.com/boy-hack/ksubdomain>
 
