@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-ph4ntonn-orange)
 ![GitHub stars](https://img.shields.io/github/stars/ph4ntonn/Stowaway.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.0-red)
+![Version](https://img.shields.io/badge/Version-V2.1-red)
 ![Time](https://img.shields.io/badge/Join-20210702-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -259,5 +259,13 @@ agent之间也与上面情况一致
 - 2021-11-16 发布文章[《Stowaway : 专为渗透测试工作者制作的多级代理工具》](https://mp.weixin.qq.com/s/L7Ikxd_Nql8SkezY4l0blQ)
 
 ## 最近更新
+
+#### [v2.1] - 2022-04-08
+
+**更新**  
+- 修复关闭短连接时的数据丢失错误  
+- 添加 gzip 功能  
+- 优化关键代码  
+- 修复一些 bugs
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

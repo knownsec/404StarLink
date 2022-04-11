@@ -14,8 +14,8 @@
     * [DarkEye](#darkeye)
     * [Kunyu](#kunyu)
     * [Glass](#glass)
-    * [ZoomEye-Python](#zoomeye-python)
     * [scaninfo](#scaninfo)
+    * [ZoomEye-Python](#zoomeye-python)
     * [ksubdomain](#ksubdomain)
     * [ct](#ct)
     * [ZoomEye-Tools](#zoomeye-tools)
@@ -110,7 +110,7 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 ![Author](https://img.shields.io/badge/Author-长亭科技-orange)
 ![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/chaitin/veinmind-tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.1.2-red)
+![Version](https://img.shields.io/badge/Version-V1.2.0-red)
 
 <https://github.com/chaitin/veinmind-tools>
 
@@ -179,16 +179,6 @@ Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在�
 
 Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/ZoomEye/Shodan/360等api接口快速查询资产信息并识别重点资产的指纹，也可针对IP/IP段或资产列表进行快速的指纹识别。
 
-### [ZoomEye-Python](detail/ZoomEye-Python.md)
-![Author](https://img.shields.io/badge/Author-Knownsec404-orange)
-![Language](https://img.shields.io/badge/Language-Python-blue)
-![GitHub stars](https://img.shields.io/github/stars/knownsec/ZoomEye-python.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.1-red)
-
-<https://github.com/knownsec/ZoomEye-python>
-
-ZoomEye-python 是一款基于 ZoomEye API 开发的 Python 库，提供了 ZoomEye 命令行模式，同时也可以作为 SDK 集成到其他工具中。该库可以让技术人员更便捷地搜索、筛选、导出 ZoomEye 的数据
-
 ### [scaninfo](detail/scaninfo.md)
 ![Author](https://img.shields.io/badge/Author-华东360安服团队-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
@@ -198,6 +188,16 @@ ZoomEye-python 是一款基于 ZoomEye API 开发的 Python 库，提供了 Zoom
 <https://github.com/redtoolskobe/scaninfo>
 
 scaninfo 是一款开源、轻量、快速、跨平台的红队内外网打点扫描器。比较同类工具，其能够在 nmap 的扫描速度和 masscan 的准确度之间寻找一个较好的平衡点，能够快速进行端口扫描和服务识别，内置指纹识别用于 web 探测，可以用报告的方式整理扫描结果。
+
+### [ZoomEye-Python](detail/ZoomEye-Python.md)
+![Author](https://img.shields.io/badge/Author-Knownsec404-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/knownsec/ZoomEye-python.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V2.1.1-red)
+
+<https://github.com/knownsec/ZoomEye-python>
+
+ZoomEye-python 是一款基于 ZoomEye API 开发的 Python 库，提供了 ZoomEye 命令行模式，同时也可以作为 SDK 集成到其他工具中。该库可以让技术人员更便捷地搜索、筛选、导出 ZoomEye 的数据
 
 ### [ksubdomain](detail/ksubdomain.md)
 ![Author](https://img.shields.io/badge/Author-w8ay-orange)
@@ -475,7 +475,7 @@ CodeReviewTools是一个可以快速批量反编译jar包的工具，为审计Ja
 ![Author](https://img.shields.io/badge/Author-ph4ntonn-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/ph4ntonn/Stowaway.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.0-red)
+![Version](https://img.shields.io/badge/Version-V2.1-red)
 
 <https://github.com/ph4ntonn/Stowaway>
 
