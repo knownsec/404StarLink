@@ -28,7 +28,7 @@
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.3-red)
+![Version](https://img.shields.io/badge/Version-V2.2-red)
 
 <https://github.com/gh0stkey/HaE>
 

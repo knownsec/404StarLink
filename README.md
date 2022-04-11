@@ -17,6 +17,7 @@
 
 | 时间 | 项目名称 | 项目动态 |
 |----|-----------|--------------------------|
+|2022-04-08|[**HaE**](detail/HaE.md)|更新 [v2.2](detail/HaE.md#最近更新) 版本|
 |2022-04-08|[**veinmind-tools**](detail/veinmind-tools.md)|更新 [v1.2.0](detail/veinmind-tools.md#最近更新) 版本|
 |2022-04-08|[**Stowaway**](detail/Stowaway.md)|更新 [v2.1](detail/Stowaway.md#最近更新) 版本|
 |2022-03-31|[**ksubdomain**](detail/ksubdomain.md)|更新 [v1.9.5](detail/ksubdomain.md#最近更新) 版本|
@@ -26,7 +27,6 @@
 |2022-03-17|[**pocsuite3**](detail/pocsuite3.md)|更新 [v1.9.1](detail/pocsuite3.md#最近更新) 版本|
 |2022-03-16|[**veinmind-tools**](detail/veinmind-tools.md)|veinmind-tools加入星链计划|
 |2022-03-16|[**DNSlog-GO**](detail/DNSlog-GO.md)|DNSlog-GO加入星链计划|
-|2022-03-16|[**scaninfo**](detail/scaninfo.md)|scaninfo加入星链计划|
 
 **2.StarRank**
 
@@ -47,7 +47,7 @@
 
 | 时间 | 项目迭代版本 |
 |----|-----------|
-|第14周|[**veinmind-tools**](detail/veinmind-tools.md) 更新 [v1.2.0](detail/veinmind-tools.md#最近更新) / [**Stowaway**](detail/Stowaway.md) 更新 [v2.1](detail/Stowaway.md#最近更新)|
+|第14周|[**HaE**](detail/HaE.md) 更新 [v2.2](detail/HaE.md#最近更新) / [**veinmind-tools**](detail/veinmind-tools.md) 更新 [v1.2.0](detail/veinmind-tools.md#最近更新) / [**Stowaway**](detail/Stowaway.md) 更新 [v2.1](detail/Stowaway.md#最近更新)|
 |第13周|[**ksubdomain**](detail/ksubdomain.md) 更新 [v1.9.5](detail/ksubdomain.md#最近更新) / [**Viper**](detail/Viper.md) 更新 [v1.5.19](detail/Viper.md#最近更新)|
 |第12周|[**veinmind-tools**](detail/veinmind-tools.md) 更新 [v1.1.2](detail/veinmind-tools.md#最近更新) / [**ksubdomain**](detail/ksubdomain.md) 更新 [v1.9.3](detail/ksubdomain.md#最近更新) / [**Kunyu**](detail/Kunyu.md) 更新 [v1.7.1](detail/Kunyu.md#最近更新)|
 |第11周|[**GShark**](detail/gshark.md) 更新 [v0.9.2](detail/gshark.md#最近更新) / [**veinmind-tools**](detail/veinmind-tools.md) 更新 [v1.1.0](detail/veinmind-tools.md#最近更新) / [**Kunyu**](detail/Kunyu.md) 更新 [v1.7.0](detail/Kunyu.md#最近更新) / [**pocsuite3**](detail/pocsuite3.md) 更新 [v1.9.1](detail/pocsuite3.md#最近更新)|

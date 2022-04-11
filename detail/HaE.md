@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.3-red)
+![Version](https://img.shields.io/badge/Version-V2.2-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -95,6 +95,11 @@ https://gh0st.cn/HaE/
 
 
 ## 最近更新
+
+#### [v2.2] - 2022-04-08
+
+**UI更新**  
+- 在MarkInfo标签中不再展示纯字符串内容，而是采用多表格的形式展示数据，使用户体验更佳，数据更直观
 
 #### [v2.1.3] - 2022-01-11
 
