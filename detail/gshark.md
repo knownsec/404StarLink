@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.9.2-red)
+![Version](https://img.shields.io/badge/Version-V0.9.3-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -122,6 +122,15 @@ To execute `./gshark scan`, you need to add a Github token for crawl information
 - 2021-11-12 发布文章[《GShark:多平台的敏感信息监测工具》](https://mp.weixin.qq.com/s/MG1lxiFg4a8KkAdhSMOu3Q)
 
 ## 最近更新
+
+#### [v0.9.3] - 2022-04-14
+
+**更新**  
+- Github 速率限制更加严格，避免反复达到速率限制频率  
+- 修复过滤规则不存在导致的搜索退出的问题  
+- 移除 redis 服务  
+- 升级前端组件修复潜在的安全问题  
+- 增加企业微信通知
 
 #### [v0.9.2] - 2022-03-19
 

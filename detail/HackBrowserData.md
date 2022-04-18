@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-moonD4rk-orange)
 ![GitHub stars](https://img.shields.io/github/stars/moonD4rk/HackBrowserData.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.3.7-red)
+![Version](https://img.shields.io/badge/Version-V0.4.0-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -172,6 +172,17 @@ PS C:\test>  .\hack-browser-data.exe -b all -f json --dir results --cc
 
 
 ## 最近更新
+
+#### [v0.4.0] - 2022-04-18
+
+**更新**  
+- 支持 Go 1.18 泛型，重构项目布局  
+- 添加对所有已发布的 Firefox 的支持  
+- 为命令行日志添加颜色输出  
+- 某些 Linux 发行版的 chromium 现可不使用 D-Bus 获取主密钥  
+- 修复 Chromium cookie 文件路径错误  
+- Windows 下解密 Chromium 密码时增加 AES 块大小检查  
+- 修复 Windows 导出信用卡失败
 
 #### [v0.3.7] - 2021-12-13
 

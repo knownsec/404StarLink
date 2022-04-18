@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-wh1t3p1g-orange)
 ![GitHub stars](https://img.shields.io/github/stars/wh1t3p1g/ysomap.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.1.1-red)
+![Version](https://img.shields.io/badge/Version-V0.1.3-red)
 ![Time](https://img.shields.io/badge/Join-20211122-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -87,5 +87,11 @@ CommonsCollection1和3，在分析时我们可以看到实际1和3的区别在�
 - 2021-11-24 发布文章[《ysomap : Java反序列化利用框架》](https://mp.weixin.qq.com/s/WluThXve9hLoJQ8hnyfLgA)
 
 ## 最近更新
+
+#### [v0.1.3] - 2022-04-15
+
+**更新**  
+- 新增若干payloads、bullets，目前共计 [+] exploits(12) payloads(31) bullets(36)  
+- 支持设置编码器、输出方式、serialVersionUid、序列器类型，具体方法见wiki
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

@@ -77,7 +77,7 @@ MDUT 全称 Multiple Database Utilization Tools，旨在将常见的数据库利
 ![Author](https://img.shields.io/badge/Author-wh1t3p1g-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/wh1t3p1g/ysomap.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.1.1-red)
+![Version](https://img.shields.io/badge/Version-V0.1.3-red)
 
 <https://github.com/wh1t3p1g/ysomap>
 

@@ -100,7 +100,7 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.9.2-red)
+![Version](https://img.shields.io/badge/Version-V0.9.3-red)
 
 <https://github.com/madneal/gshark>
 
@@ -349,7 +349,7 @@ MDUT 全称 Multiple Database Utilization Tools，旨在将常见的数据库利
 ![Author](https://img.shields.io/badge/Author-wh1t3p1g-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/wh1t3p1g/ysomap.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.1.1-red)
+![Version](https://img.shields.io/badge/Version-V0.1.3-red)
 
 <https://github.com/wh1t3p1g/ysomap>
 
@@ -392,7 +392,7 @@ Redis 4.x/Redis 5.x RCE利用脚本. 项目最初来源于 <https://github.com/n
 ![Author](https://img.shields.io/badge/Author-moonD4rk-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/moonD4rk/HackBrowserData.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.3.7-red)
+![Version](https://img.shields.io/badge/Version-V0.4.0-red)
 
 <https://github.com/moonD4rk/HackBrowserData>
 
