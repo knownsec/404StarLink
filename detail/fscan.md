@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-shadow1ng-orange)
 ![GitHub stars](https://img.shields.io/github/stars/shadow1ng/fscan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.3-red)
+![Version](https://img.shields.io/badge/Version-V1.7.1-red)
 ![Time](https://img.shields.io/badge/Join-20210422-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -150,5 +150,12 @@ go build -ldflags="-s -w " -trimpath
 
 
 ## 最近更新
+
+#### [v1.7.1] - 2022-04-20
+
+**更新**  
+- poc模块现加入指定目录或文件  
+- 端口可指定文件  
+- rdp加入多线程爆破(demo)
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

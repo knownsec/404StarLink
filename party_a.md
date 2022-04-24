@@ -3,8 +3,8 @@
 1. [Elkeid](#elkeid)
 2. [linglong](#linglong)
 3. [OpenStar](#openstar)
-4. [GShark](#gshark)
-5. [veinmind-tools](#veinmind-tools)
+4. [veinmind-tools](#veinmind-tools)
+5. [GShark](#gshark)
 6. [Juggler](#juggler)
 
 ----------------------------------------
@@ -39,16 +39,6 @@ linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，
 
 OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复杂规则编写。提供了常规的 HTTP 字段规则配置，还提供了 IP 黑白名单、访问频次等配置，对于 CC 防护更提供的特定的规则算法，并且支持搭建集群进行防护。
 
-### [GShark](detail/gshark.md)
-![Author](https://img.shields.io/badge/Author-madneal-orange)
-![Language](https://img.shields.io/badge/Language-Golang-blue)
-![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.9.3-red)
-
-<https://github.com/madneal/gshark>
-
-一款开源敏感信息监测系统，可以监测包括 github、gitlab(目前不太稳定，由于gitlab对于免费用户不提供代码全文检索API)、searchcode 多平台的敏感信息监测。
-
 ### [veinmind-tools](detail/veinmind-tools.md)
 ![Author](https://img.shields.io/badge/Author-长亭科技-orange)
 ![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
@@ -58,6 +48,16 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 <https://github.com/chaitin/veinmind-tools>
 
 veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目前已支持镜像 恶意文件/后门/敏感信息/弱口令 的扫描，更多功能正在逐步开发中。
+
+### [GShark](detail/gshark.md)
+![Author](https://img.shields.io/badge/Author-madneal-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.9.3-red)
+
+<https://github.com/madneal/gshark>
+
+一款开源敏感信息监测系统，可以监测包括 github、gitlab(目前不太稳定，由于gitlab对于免费用户不提供代码全文检索API)、searchcode 多平台的敏感信息监测。
 
 ### [Juggler](detail/Juggler.md)
 ![Author](https://img.shields.io/badge/Author-C4o-orange)

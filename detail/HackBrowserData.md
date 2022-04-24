@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-moonD4rk-orange)
 ![GitHub stars](https://img.shields.io/github/stars/moonD4rk/HackBrowserData.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.4.0-red)
+![Version](https://img.shields.io/badge/Version-V0.4.1-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -172,6 +172,13 @@ PS C:\test>  .\hack-browser-data.exe -b all -f json --dir results --cc
 
 
 ## 最近更新
+
+#### [v0.4.1] - 2022-04-20
+
+**更新**  
+- 支持所有浏览器的导出本地存储  
+- 修复 firefox ans1 数据结构  
+- 修复 windows 平台上 chromium 密钥查找失败的问题
 
 #### [v0.4.0] - 2022-04-18
 
