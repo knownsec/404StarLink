@@ -3,17 +3,18 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-moonD4rk-orange)
 ![GitHub stars](https://img.shields.io/github/stars/moonD4rk/HackBrowserData.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.4.1-red)
+![Version](https://img.shields.io/badge/Version-V0.4.2-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
+<div align="center">
+<img src="https://github.com/moonD4rk/HackBrowserData/raw/master/LOGO.svg" alt="hack-browser-data logo" />
+</div>
 
-# HackBrowserData
-
-hack-browser-data 是一个浏览器数据（密码 | 历史记录 | Cookie | 书签 | 信用卡 | 下载记录）的导出工具，支持全平台主流浏览器。
+`HackBrowserData` 是一个浏览器数据（密码|历史记录|Cookie|书签|信用卡|下载记录|localStorage|浏览器插件）的导出工具，支持全平台主流浏览器。
 
 
-> 特别声明：此工具仅限于安全研究，用户承担因使用此工具而导致的所有法律和相关责任！作者不承担任何法律责任！
+> 免责声明：此工具仅限于安全研究，用户承担因使用此工具而导致的所有法律和相关责任！作者不承担任何法律责任！
 
 ## 各平台浏览器支持情况
 
@@ -26,11 +27,13 @@ hack-browser-data 是一个浏览器数据（密码 | 历史记录 | Cookie | �
 | Chromium |    ✅    |    ✅    |    ✅    |    ✅    |
 | Microsoft Edge|    ✅     |   ✅    |    ✅     |    ✅    |
 | 360 极速浏览器    |    ✅     |   ✅    |    ✅     |    ✅    |
-| QQ 浏览器|    ✅     |   ✅    |    ✅     |    ✅    |
-| Brave 浏览器 |    ✅    |   ✅   |    ✅    |    ✅    |
-| Opera 浏览器 |    ✅    |    ✅    |    ✅    |    ✅    |
-| OperaGX 浏览器 |    ✅    |    ✅    |    ✅    |    ✅    |
-| Vivaldi 浏览器 |    ✅    |    ✅    |    ✅    |    ✅    |
+| QQ |    ✅     |   ✅    |    ✅     |    ✅    |
+| Brave  |    ✅    |   ✅   |    ✅    |    ✅    |
+| Opera  |    ✅    |    ✅    |    ✅    |    ✅    |
+| OperaGX  |    ✅    |    ✅    |    ✅    |    ✅    |
+| Vivaldi  |    ✅    |    ✅    |    ✅    |    ✅    |
+| Yandex |    ✅    |    ✅    |    ✅    |    ✅    |
+| CocCoc |    ✅    |    ✅    |    ✅    |    ✅    |
 | Firefox |    ✅    |   ✅   |    ✅    |    ✅    |
 | Firefox Beta |    ✅    |   ✅   |    ✅    |    ✅    |
 | Firefox Dev |    ✅    |   ✅   |    ✅    |    ✅    |
@@ -42,8 +45,8 @@ hack-browser-data 是一个浏览器数据（密码 | 历史记录 | Cookie | �
 
 由于 MacOS 的安全性设置，基于 `Chromium` 内核浏览器解密时**需要当前用户密码**
 
-| 浏览器                   | 密码 | Cookie | 书签 | 历史记录 |
-| :--------------------------- | :------: | :----: | :------: | :-----: |
+| 浏览器    | 密码 | Cookie | 书签 | 历史记录 |
+| :--- | :------: | :----: | :------: | :-----: |
 | Google Chrome  |    ✅     |   ✅    |    ✅     |    ✅    |
 | Google Chrome Beta |    ✅    |   ✅   |    ✅    |    ✅    |
 | Chromium |    ✅    |    ✅    |    ✅    |    ✅    |
@@ -52,6 +55,8 @@ hack-browser-data 是一个浏览器数据（密码 | 历史记录 | Cookie | �
 | Opera |    ✅    |    ✅    |    ✅    |    ✅    |
 | OperaGX |    ✅    |    ✅    |    ✅    |    ✅    |
 | Vivaldi |    ✅    |    ✅    |    ✅    |    ✅    |
+| Yandex |    ✅    |    ✅    |    ✅    |    ✅    |
+| CocCoc |    ✅    |    ✅    |    ✅    |    ✅    |
 | Firefox |    ✅    |   ✅   |    ✅    |    ✅    |
 | Firefox Beta |    ✅    |   ✅   |    ✅    |    ✅    |
 | Firefox Dev |    ✅    |   ✅   |    ✅    |    ✅    |
@@ -62,7 +67,7 @@ hack-browser-data 是一个浏览器数据（密码 | 历史记录 | Cookie | �
 ### Linux
 
 | 浏览器    | 密码 | Cookie | 书签 | 历史记录 |
-| :------------ | :------: | :----: | :------: | :-----: |
+| :----- | :------: | :----: | :------: | :-----: |
 | Google Chrome |    ✅     |   ✅    |    ✅     |    ✅    |
 | Google Chrome Beta |    ✅    |   ✅   |    ✅    |    ✅    |
 | Chromium |    ✅    |    ✅    |    ✅    |    ✅    |
@@ -86,16 +91,14 @@ hack-browser-data 是一个浏览器数据（密码 | 历史记录 | Cookie | �
 
 ### 从源码编译
 
-支持版本 `go 1.14+`
+仅支持 `go 1.18+` 以后版本，一些函数使用到了泛型
 
 ``` bash
-git clone https://github.com/moonD4rk/HackBrowserData
+$ git clone https://github.com/moonD4rk/HackBrowserData
 
-cd HackBrowserData
+$ cd HackBrowserData/cmd/hack-browser-data
 
-go get -v -t -d ./...
-
-go build
+$ CGO_ENABLED=1 go build
 ```
 
 ### 跨平台编译
@@ -107,7 +110,7 @@ go build
 ``` shell
 brew install mingw-w64
 
-CGO_ENABLED=1 GOOS=windows GOARCH=amd64 CC="x86_64-w64-mingw32-gcc" go build
+CGO_ENABLED=1 GOOS=windows GOARCH=amd64 CC=x86_64-w64-mingw32-gcc go build
 ```
 
 #### Linux
@@ -128,44 +131,46 @@ NAME:
 
 USAGE:
    [hack-browser-data -b chrome -f json -dir results -cc]
-   Get all data(password/cookie/history/bookmark) from chrome
+   Export all browingdata(password/cookie/history/bookmark) from browser
+   Github Link: https://github.com/moonD4rk/HackBrowserData
 
 VERSION:
-   0.3.6
-GLOBAL OPTIONS:
-   --verbose, --vv                     verbose (default: false)
-   --compress, --cc                    compress result to zip (default: false)
-   --browser value, -b value           available browsers: all|opera|firefox|chrome|edge (default: "all")
-   --results-dir value, --dir value    export dir (default: "results")
-   --format value, -f value            format, csv|json|console (default: "csv")
-   --profile-dir-path value, -p value  custom profile dir path, get with chrome://version
-   --key-file-path value, -k value     custom key file path
-   --help, -h                          show help (default: false)
-   --version, -v                       print the version (default: false)
+   0.4.2
 
-PS C:\test>  .\hack-browser-data.exe -b all -f json --dir results --cc
-[x]:  Get 44 cookies, filename is results/microsoft_edge_cookie.json
-[x]:  Get 54 history, filename is results/microsoft_edge_history.json
-[x]:  Get 1 passwords, filename is results/microsoft_edge_password.json
-[x]:  Get 4 bookmarks, filename is results/microsoft_edge_bookmark.json
-[x]:  Get 6 bookmarks, filename is results/360speed_bookmark.json
-[x]:  Get 19 cookies, filename is results/360speed_cookie.json
-[x]:  Get 18 history, filename is results/360speed_history.json
-[x]:  Get 1 passwords, filename is results/360speed_password.json
-[x]:  Get 12 history, filename is results/qq_history.json
-[x]:  Get 1 passwords, filename is results/qq_password.json
-[x]:  Get 12 bookmarks, filename is results/qq_bookmark.json
-[x]:  Get 14 cookies, filename is results/qq_cookie.json
-[x]:  Get 28 bookmarks, filename is results/firefox_bookmark.json
-[x]:  Get 10 cookies, filename is results/firefox_cookie.json
-[x]:  Get 33 history, filename is results/firefox_history.json
-[x]:  Get 1 passwords, filename is results/firefox_password.json
-[x]:  Get 1 passwords, filename is results/chrome_password.json
-[x]:  Get 4 bookmarks, filename is results/chrome_bookmark.json
-[x]:  Get 6 cookies, filename is results/chrome_cookie.json
-[x]:  Get 6 history, filename is results/chrome_history.json
-[x]:  Compress success, zip filename is results/archive.zip
+GLOBAL OPTIONS:
+   --verbose, --vv                   verbose (default: false)
+   --compress, --zip                 compress result to zip (default: false)
+   --browser value, -b value         available browsers: all|chrome|opera-gx|vivaldi|coccoc|brave|edge|chromium|chrome-beta|opera|yandex|firefox (default: "all")
+   --results-dir value, --dir value  export dir (default: "results")
+   --format value, -f value          file name csv|json (default: "csv")
+   --profile-path value, -p value    custom profile dir path, get with chrome://version
+   --help, -h                        show help (default: false)
+   --version, -v                     print the version (default: false)
+
+
+PS C:\test>  .\hack-browser-data.exe -b all -f json --dir results -zip
+[NOTICE] [browser.go:46,pickChromium] find browser Chrome success  
+[NOTICE] [browser.go:46,pickChromium] find browser Microsoft Edge success  
+[NOTICE] [browsingdata.go:59,Output] output to file results/microsoft_edge_download.json success  
+[NOTICE] [browsingdata.go:59,Output] output to file results/microsoft_edge_password.json success  
+[NOTICE] [browsingdata.go:59,Output] output to file results/microsoft_edge_creditcard.json success  
+[NOTICE] [browsingdata.go:59,Output] output to file results/microsoft_edge_bookmark.json success  
+[NOTICE] [browsingdata.go:59,Output] output to file results/microsoft_edge_cookie.json success  
+[NOTICE] [browsingdata.go:59,Output] output to file results/microsoft_edge_history.json success  
+[NOTICE] [browsingdata.go:59,Output] output to file results/chrome_history.json success  
+[NOTICE] [browsingdata.go:59,Output] output to file results/chrome_download.json success  
+[NOTICE] [browsingdata.go:59,Output] output to file results/chrome_password.json success  
+[NOTICE] [browsingdata.go:59,Output] output to file results/chrome_creditcard.json success  
+[NOTICE] [browsingdata.go:59,Output] output to file results/chrome_bookmark.json success  
+[NOTICE] [browsingdata.go:59,Output] output to file results/chrome_cookie.json success  
+
 ```
+
+### 基于此工具的一些其他项目
+[Sharp-HackBrowserData](https://github.com/S3cur3Th1sSh1t/Sharp-HackBrowserData)
+
+[Reflective-HackBrowserData](https://github.com/idiotc4t/Reflective-HackBrowserData)
+
 
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
@@ -173,10 +178,17 @@ PS C:\test>  .\hack-browser-data.exe -b all -f json --dir results --cc
 
 ## 最近更新
 
+#### [v0.4.2] - 2022-05-01
+
+**更新**  
+- 新增导出扩展
+- 新增设置控制台 log 日志的色彩  
+- 文档添加 HackBrowserData 的 logo
+
 #### [v0.4.1] - 2022-04-20
 
 **更新**  
-- 支持所有浏览器的导出本地存储  
+- 支持所有浏览器导出 local storage
 - 修复 firefox ans1 数据结构  
 - 修复 windows 平台上 chromium 密钥查找失败的问题
 
