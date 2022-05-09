@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
 ![Author](https://img.shields.io/badge/Author-长亭科技-orange)
 ![GitHub stars](https://img.shields.io/github/stars/chaitin/veinmind-tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.2.2-red)
+![Version](https://img.shields.io/badge/Version-V1.3.0-red)
 ![Time](https://img.shields.io/badge/Join-20220316-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -51,6 +51,13 @@ PS: 目前所有工具均已支持平行容器的方式运行
 
 
 ## 最近更新
+
+#### [v1.3.0] - 2022-05-06
+
+**更新**  
+- 增加 veinmind-asset 插件，支持扫描镜像资产信息  
+- 修改 veinmind-common 处理逻辑  
+- 优化 veinmind-sensitive 中部分规则
 
 #### [v1.2.2] - 2022-04-26
 

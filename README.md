@@ -17,9 +17,9 @@
 
 | 时间 | 项目名称 | 项目动态 |
 |----|-----------|--------------------------|
+|2022-05-06|[**veinmind-tools**](detail/veinmind-tools.md)|更新 [v1.3.0](detail/veinmind-tools.md#最近更新) 版本|
 |2022-05-04|[**GShark**](detail/gshark.md)|更新 [v0.9.6](detail/gshark.md#最近更新) 版本|
 |2022-05-01|[**HackBrowserData**](detail/HackBrowserData.md)|更新 [v0.4.2](detail/HackBrowserData.md#最近更新) 版本|
-|2022-04-26|[**veinmind-tools**](detail/veinmind-tools.md)|更新 [v1.2.2](detail/veinmind-tools.md#最近更新) 版本|
 |2022-04-21|[**HaE**](detail/HaE.md)|更新 [v2.2.1](detail/HaE.md#最近更新) 版本|
 |2022-04-20|[**fscan**](detail/fscan.md)|更新 [v1.7.1](detail/fscan.md#最近更新) 版本|
 |2022-04-20|[**Kunyu**](detail/Kunyu.md)|更新 [v1.7.2](detail/Kunyu.md#最近更新) 版本|
@@ -32,12 +32,12 @@
 
 | 序号 | 项目名称 | 项目简介 | Star |
 |----|-----------|--------------------------|----|
-|1|[**HackBrowserData**](detail/HackBrowserData.md)|hack-browser-data 是一个解密浏览器数据（密码/历史记录/Cookies/书签）的导出工具，支持全平台主流浏览器的数据导出窃取。|4578|
-|2|[**fscan**](detail/fscan.md)|一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。支持主机存活探测、端口扫描、常见服务的爆破、ms17010、redis批量写公钥、计划任务反弹shell、读取win网卡信息、web指纹识别、web漏洞扫描、netbios探测、域控识别等功能。|3431|
-|3|[**pocsuite3**](detail/pocsuite3.md)|pocsuite3是由Knownsec 404团队开发的开源远程漏洞测试和概念验证开发框架。它带有强大的概念验证引擎，以及针对最终渗透测试人员和安全研究人员的许多强大功能。|2428|
-|4|[**CDK**](detail/CDK.md)|CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器内部提供零依赖的常用命令及PoC/EXP。集成Docker/K8s场景特有的逃逸、横向移动、持久化利用方式，插件化管理。|2242|
+|1|[**HackBrowserData**](detail/HackBrowserData.md)|hack-browser-data 是一个解密浏览器数据（密码/历史记录/Cookies/书签）的导出工具，支持全平台主流浏览器的数据导出窃取。|4600|
+|2|[**fscan**](detail/fscan.md)|一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。支持主机存活探测、端口扫描、常见服务的爆破、ms17010、redis批量写公钥、计划任务反弹shell、读取win网卡信息、web指纹识别、web漏洞扫描、netbios探测、域控识别等功能。|3451|
+|3|[**pocsuite3**](detail/pocsuite3.md)|pocsuite3是由Knownsec 404团队开发的开源远程漏洞测试和概念验证开发框架。它带有强大的概念验证引擎，以及针对最终渗透测试人员和安全研究人员的许多强大功能。|2441|
+|4|[**CDK**](detail/CDK.md)|CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器内部提供零依赖的常用命令及PoC/EXP。集成Docker/K8s场景特有的逃逸、横向移动、持久化利用方式，插件化管理。|2252|
 |5|[**Viper**](detail/Viper.md)|VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战术及技术进行模块化及武器化。|2171|
-|6|[**antSword**](detail/antSword.md)|中国蚁剑是一款开源的跨平台网站管理工具。|1564|
+|6|[**antSword**](detail/antSword.md)|中国蚁剑是一款开源的跨平台网站管理工具。|1578|
 |7|[**Kunpeng**](detail/Kunpeng.md)|Kunpeng是一个Golang编写的开源POC检测框架，集成了包括数据库、中间件、web组件、cms等等的漏洞POC，可检测弱口令、SQL注入、XSS、RCE等漏洞类型，以动态链接库的形式提供调用，通过此项目可快速开发漏洞检测类的系统，比攻击者快一步发现风险漏洞。|1466|
 |8|[**KunLun-M**](detail/KunLun-M.md)|KunLun-M是一个完全开源的静态白盒扫描工具，支持PHP、JavaScript的语义扫描，基础安全、组件安全扫描，Chrome Ext\Solidity的基础扫描。|1448|
 |9|[**Stowaway**](detail/Stowaway.md)|Stowaway 是一款多级代理工具，可将外部流量通过多个节点代理至内网，突破内网访问限制。Stowaway 可以方便渗透测试人员通过多级跳跃，从外部dmz等一系列区域逐步深入核心网络；Stowaway 除了流量转发功能，还提供了端口复用、ssh隧道，流量伪装等专为渗透测试人员所用的功能。|1330|
@@ -47,7 +47,7 @@
 
 | 时间 | 项目迭代版本 |
 |----|-----------|
-|第18周|[**GShark**](detail/gshark.md) 更新 [v0.9.6](detail/gshark.md#最近更新)|
+|第18周|[**veinmind-tools**](detail/veinmind-tools.md) 更新 [v1.3.0](detail/veinmind-tools.md#最近更新) / [**GShark**](detail/gshark.md) 更新 [v0.9.6](detail/gshark.md#最近更新)|
 |第17周|[**HackBrowserData**](detail/HackBrowserData.md) 更新 [v0.4.2](detail/HackBrowserData.md#最近更新) / [**veinmind-tools**](detail/veinmind-tools.md) 更新 [v1.2.2](detail/veinmind-tools.md#最近更新)|
 |第16周|[**HaE**](detail/HaE.md) 更新 [v2.2.1](detail/HaE.md#最近更新) / [**fscan**](detail/fscan.md) 更新 [v1.7.1](detail/fscan.md#最近更新) / [**HackBrowserData**](detail/HackBrowserData.md) 更新 [v0.4.1](detail/HackBrowserData.md#最近更新) / [**Kunyu**](detail/Kunyu.md) 更新 [v1.7.2](detail/Kunyu.md#最近更新) / [**HackBrowserData**](detail/HackBrowserData.md) 更新 [v0.4.0](detail/HackBrowserData.md#最近更新)|
 |第15周|[**ysomap**](detail/ysomap.md) 更新 [v0.1.3](detail/ysomap.md#最近更新) / [**GShark**](detail/gshark.md) 更新 [v0.9.3](detail/gshark.md#最近更新)|
@@ -80,7 +80,7 @@
 |1|[**linglong**](detail/linglong.md)|awake1t|linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，进行端口爆破。帮助企业更快发现弱口令问题。主要功能包括: 资产探测、端口爆破、定时任务、管理后台识别、报表展示。|1112|
 |2|[**OpenStar**](detail/OpenStar.md)|starjun|OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复杂规则编写。提供了常规的 HTTP 字段规则配置，还提供了 IP 黑白名单、访问频次等配置，对于 CC 防护更提供的特定的规则算法，并且支持搭建集群进行防护。|1063|
 |3|[**veinmind-tools**](detail/veinmind-tools.md)|长亭科技|veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目前已支持镜像 恶意文件/后门/敏感信息/弱口令 的扫描，更多功能正在逐步开发中。|499|
-|4|[**GShark**](detail/gshark.md)|madneal|一款开源敏感信息监测系统，可以监测包括 github、gitlab(目前不太稳定，由于gitlab对于免费用户不提供代码全文检索API)、searchcode 多平台的敏感信息监测。|482|
+|4|[**GShark**](detail/gshark.md)|madneal|一款开源敏感信息监测系统，可以监测包括 github、gitlab(目前不太稳定，由于gitlab对于免费用户不提供代码全文检索API)、searchcode 多平台的敏感信息监测。|492|
 |5|[**Juggler**](detail/Juggler.md)|C4o|一个也许能骗到黑客的系统，可以作为WAF等防护体系的一环。|390|
 
 **6.[分类:信息收集](reconnaissance.md)**
