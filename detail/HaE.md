@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.2.1-red)
+![Version](https://img.shields.io/badge/Version-V2.2.3-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -95,6 +95,12 @@ https://gh0st.cn/HaE/
 
 
 ## 最近更新
+
+#### [v2.2.3] - 2022-05-12
+
+**更新**  
+- 优化体验：在MarkInfo标签快捷键复制时，去除最后的换行符  
+- 美化代码：将UI部分代码变量名按小驼峰方式命名，增加代码可读性
 
 #### [v2.2.1] - 2022-04-21
 
