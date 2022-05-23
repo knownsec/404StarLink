@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.9.6-red)
+![Version](https://img.shields.io/badge/Version-V0.9.7-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -150,6 +150,15 @@ go env -w GO111MODULE=on
 - 2021-11-12 发布文章[《GShark:多平台的敏感信息监测工具》](https://mp.weixin.qq.com/s/MG1lxiFg4a8KkAdhSMOu3Q)
 
 ## 最近更新
+
+#### [v0.9.7] - 2022-05-21
+
+**Added**  
+- Gitlab 提供更好的搜索能力  
+
+**Removed**  
+- 移除无用的图片资源  
+- 优化 Config 数据结构，进行配置项合并
 
 #### [v0.9.6] - 2022-05-04
 

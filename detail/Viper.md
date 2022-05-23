@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.19-red)
+![Version](https://img.shields.io/badge/Version-V1.5.21-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -78,6 +78,16 @@
 
 ## 最近更新
 
+#### [v1.5.21] - 2022-05-21
+
+**优化**  
+- 更新内网代理提示  
+- 优化被动扫描模块加载逻辑,提高性能  
+- 合并metasploit-framework 6.1.44版本  
+
+**Bugfix**  
+- FOFA报错问题issues#87
+
 #### [v1.5.19] - 2022-03-28
 
 **优化**  
@@ -120,14 +130,5 @@
 
 **Bugfix**  
 - 修复手机摄像头拍照MIUI崩溃问题
-
-#### [v1.5.14] - 2022-02-06
-
-**新功能**  
-- 新增三个Android教学演示模块(获取目标手机短信/通话记录/通讯录)(手机摄像头拍照)(手机录制音频)  
-- 新增通信通道功能,多级内网渗透更加便捷 readme  
-
-**优化**  
-- 合并metasploit-framework 6.1.29版本
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
