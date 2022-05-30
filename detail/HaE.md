@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.2.3-red)
+![Version](https://img.shields.io/badge/Version-V2.3-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -96,6 +96,13 @@ https://gh0st.cn/HaE/
 
 ## 最近更新
 
+#### [v2.3] - 2022-05-27
+
+**更新**  
+- HaE规则增加sensitive字段，用于NFA引擎正则大小写敏感(更新后建议从HaE规则库中拉取最新规则)  
+- 公共规则库增加Dos Paramters、Create Script、Password Field、Username Field规则  
+- 兼容性：HaE将同时发布JDK8、9打包的Release版本
+
 #### [v2.2.3] - 2022-05-12
 
 **更新**  
@@ -116,12 +123,5 @@ https://gh0st.cn/HaE/
 
 **优化**  
 - 解决与其他插件冲突所导致的问题，将`getHttpService`所使用到的所有地方等价替换为其他代码
-
-#### [v2.1.2] - 2021-10-22
-
-**优化**  
-- 修复/规避一些微不足道的BUG  
-- 优化/合并冗余代码  
-- 补2.1.1未说明的功能：排除后缀不再仅仅作用于请求报文，也会与Burp的MIME进行匹配作用响应报文
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

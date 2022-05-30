@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/pocsuite3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.9.1-red)
+![Version](https://img.shields.io/badge/Version-V1.9.3-red)
 ![Time](https://img.shields.io/badge/Join-20200821-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -152,6 +152,12 @@ console mode
 
 
 ## 最近更新
+
+#### [v1.9.3] - 2022-05-25
+
+**更新**  
+- 增加齐安信网络空间搜索引擎数据支持  
+- 在 POCBase 类中新增 self.rhost & self.rport 字段
 
 #### [v1.9.1] - 2022-03-17
 
