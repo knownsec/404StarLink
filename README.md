@@ -19,6 +19,7 @@
 |----|-----------|--------------------------|
 |2022-06-06|[**f8x**](detail/f8x.md)|更新 [v1.6.1](detail/f8x.md#最近更新) 版本|
 |2022-06-05|[**HackBrowserData**](detail/HackBrowserData.md)|更新 [v0.4.3](detail/HackBrowserData.md#最近更新) 版本|
+|2022-05-30|[**CDK**](detail/CDK.md)|更新 [v1.1.0](detail/CDK.md#最近更新) 版本|
 |2022-05-27|[**HaE**](detail/HaE.md)|更新 [v2.3](detail/HaE.md#最近更新) 版本|
 |2022-05-25|[**pocsuite3**](detail/pocsuite3.md)|更新 [v1.9.3](detail/pocsuite3.md#最近更新) 版本|
 |2022-05-24|[**MDUT**](detail/MDUT.md)|更新 [v2.1.0](detail/MDUT.md#最近更新) 版本|
@@ -26,7 +27,6 @@
 |2022-05-21|[**Viper**](detail/Viper.md)|更新 [v1.5.21](detail/Viper.md#最近更新) 版本|
 |2022-05-06|[**veinmind-tools**](detail/veinmind-tools.md)|更新 [v1.3.0](detail/veinmind-tools.md#最近更新) 版本|
 |2022-04-20|[**fscan**](detail/fscan.md)|更新 [v1.7.1](detail/fscan.md#最近更新) 版本|
-|2022-04-20|[**Kunyu**](detail/Kunyu.md)|更新 [v1.7.2](detail/Kunyu.md#最近更新) 版本|
 
 **2.StarRank**
 
@@ -48,7 +48,7 @@
 | 时间 | 项目迭代版本 |
 |----|-----------|
 |第23周|[**f8x**](detail/f8x.md) 更新 [v1.6.1](detail/f8x.md#最近更新)|
-|第22周|[**HackBrowserData**](detail/HackBrowserData.md) 更新 [v0.4.3](detail/HackBrowserData.md#最近更新)|
+|第22周|[**HackBrowserData**](detail/HackBrowserData.md) 更新 [v0.4.3](detail/HackBrowserData.md#最近更新) / [**CDK**](detail/CDK.md) 更新 [v1.1.0](detail/CDK.md#最近更新)|
 |第21周|[**HaE**](detail/HaE.md) 更新 [v2.3](detail/HaE.md#最近更新) / [**pocsuite3**](detail/pocsuite3.md) 更新 [v1.9.3](detail/pocsuite3.md#最近更新) / [**MDUT**](detail/MDUT.md) 更新 [v2.1.0](detail/MDUT.md#最近更新)|
 |第20周|[**GShark**](detail/gshark.md) 更新 [v0.9.7](detail/gshark.md#最近更新) / [**Viper**](detail/Viper.md) 更新 [v1.5.21](detail/Viper.md#最近更新)|
 |第19周|[**HaE**](detail/HaE.md) 更新 [v2.2.3](detail/HaE.md#最近更新)|

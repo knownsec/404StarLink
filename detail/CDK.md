@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-CDK-blue)
 ![Author](https://img.shields.io/badge/Author-cdkteam-orange)
 ![GitHub stars](https://img.shields.io/github/stars/cdk-team/CDK.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.6-red)
+![Version](https://img.shields.io/badge/Version-V1.1.0-red)
 ![Time](https://img.shields.io/badge/Join-20210223-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -219,6 +219,25 @@ New feature or exploits:
 - 2021-11-11 发布文章[《CDK:一款针对容器场景的多功能渗透工具》](https://mp.weixin.qq.com/s/fopvHFPAbbqtCE6SV9JerQ)
 
 ## 最近更新
+
+#### [v1.1.0] - 2022-05-30
+
+**Exploits**  
+- 在使用说明 banner 中添加 ocd 和 CDK  
+- 修复 exp 添加 run 描述文档  
+- 修复 exp 在 /proc/pid 路径出现的错误  
+- 修复 exp 中 k8s-psp-dump 参数检测错误  
+- 修复 exp 检查命令行中 cdk 进程的错误  
+- 移除 StringContains 相关重复函数  
+- 仅在 linux 上构建 mount cgroup  
+
+**About Evaluate**  
+- 添加 DNS-Based 服务发现  
+- 添加色彩标注的 perf  
+- 新增获取当前 pid cgroup 信息  
+
+**Others**  
+- github action 中添加 Evaluate/Exploit/Tool 等测试，修复部分问题
 
 #### [v1.0.6] - 2022-03-10
 
