@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-moonD4rk-orange)
 ![GitHub stars](https://img.shields.io/github/stars/moonD4rk/HackBrowserData.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.4.2-red)
+![Version](https://img.shields.io/badge/Version-V0.4.3-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -177,6 +177,14 @@ PS C:\test>  .\hack-browser-data.exe -b all -f json --dir results -zip
 
 
 ## 最近更新
+
+#### [v0.4.3] - 2022-06-05
+
+**更新**  
+- 新增支持从浏览器导出多个用户  
+- 修复当过滤结果为空并导出到 csv 时，对其进行 utf8 编码  
+- 修复 Windows 下 Chrome 和 OperaGx 的配置文件夹  
+- 修复拼写错误
 
 #### [v0.4.2] - 2022-05-01
 

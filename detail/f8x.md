@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Bash-blue)
 ![Author](https://img.shields.io/badge/Author-ffffffff0x-orange)
 ![GitHub stars](https://img.shields.io/github/stars/ffffffff0x/f8x.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.0-red)
+![Version](https://img.shields.io/badge/Version-V1.6.1-red)
 ![Time](https://img.shields.io/badge/Join-20210223-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -152,6 +152,20 @@ f8x 基本上不需要任何依赖,或者说它就是为了帮助你安装各种
 - 2021-11-30 发布视频[《f8x：红/蓝队环境自动化部署工具》](https://mp.weixin.qq.com/s/9MMujhu4PwmRvg0k7hPPUg)
 
 ## 最近更新
+
+#### [v1.6.1] - 2022-06-06
+
+**兼容性**  
+- 支持 ubuntu 22.04  
+
+**功能添加**  
+- -k 选项添加 CDK- 添加 -yakit 选项- 添加 -py310 选项- 添加 -oraclejdk11 选项- 添加 -docker 选项 (安装docker)- 添加 -code 选项 (安装 code-server)  
+
+**功能修改与优化**  
+- bat 换成兼容更强的安装包- 目前 -py3(7/8/9/10) 选项调用 pyenv 进行 python3 版本的切换,无需重复安装- 目前 -oraclejdk(8/11) 选项调用 jenv 进行 java 版本的切换,无需重复安装  
+
+**错误修复**  
+- 修改一些拼写错误
 
 #### [v1.6.0] - 2022-03-11
 

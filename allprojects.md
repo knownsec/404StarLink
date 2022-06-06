@@ -58,8 +58,8 @@
     * [PortForward](#portforward)
 
 * [其他/others](#其他others)
-    * [passive-scan-client](#passive-scan-client)
     * [f8x](#f8x)
+    * [passive-scan-client](#passive-scan-client)
     * [wam](#wam)
     * [LBot](#lbot)
 
@@ -392,7 +392,7 @@ Redis 4.x/Redis 5.x RCE利用脚本. 项目最初来源于 <https://github.com/n
 ![Author](https://img.shields.io/badge/Author-moonD4rk-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/moonD4rk/HackBrowserData.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.4.2-red)
+![Version](https://img.shields.io/badge/Version-V0.4.3-red)
 
 <https://github.com/moonD4rk/HackBrowserData>
 
@@ -534,6 +534,16 @@ PortForward 是使用 Golang 进行开发的端口转发工具，解决在某些
 
 
 ## 其他/others
+### [f8x](detail/f8x.md)
+![Author](https://img.shields.io/badge/Author-ffffffff0x-orange)
+![Language](https://img.shields.io/badge/Language-Bash-blue)
+![GitHub stars](https://img.shields.io/github/stars/ffffffff0x/f8x.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.6.1-red)
+
+<https://github.com/ffffffff0x/f8x>
+
+一款红/蓝队环境自动化部署工具,支持多种场景,渗透,开发,代理环境,服务可选项等。
+
 ### [passive-scan-client](detail/passive-scan-client.md)
 ![Author](https://img.shields.io/badge/Author-c0ny1-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
@@ -543,16 +553,6 @@ PortForward 是使用 Golang 进行开发的端口转发工具，解决在某些
 <https://github.com/c0ny1/passive-scan-client>
 
 Passive Scan Client是一款可以将经过筛选的流量转发到指定代理的Burp被动扫描流量转发插件
-
-### [f8x](detail/f8x.md)
-![Author](https://img.shields.io/badge/Author-ffffffff0x-orange)
-![Language](https://img.shields.io/badge/Language-Bash-blue)
-![GitHub stars](https://img.shields.io/github/stars/ffffffff0x/f8x.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.0-red)
-
-<https://github.com/ffffffff0x/f8x>
-
-一款红/蓝队环境自动化部署工具,支持多种场景,渗透,开发,代理环境,服务可选项等。
 
 ### [wam](detail/wam.md)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
