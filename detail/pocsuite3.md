@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/pocsuite3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.9.3-red)
+![Version](https://img.shields.io/badge/Version-V1.9.4-red)
 ![Time](https://img.shields.io/badge/Join-20200821-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -152,6 +152,15 @@ console mode
 
 
 ## 最近更新
+
+#### [v1.9.4] - 2022-06-07
+
+**更新**  
+- 支持 poc 模板生成(--new)  
+- 支持自定义 interactsh 服务器设置  
+- 修改 ZoomEye/Seebug/CEYE 认证方式为 APIKEY  
+- poc 基类添加 check 方法，支持蜜罐识别和 http/https 协议自动纠正- 重构 --update 参数，优化框架更新流程  
+- 支持对框架版本进行检测，提高 poc 兼容性
 
 #### [v1.9.3] - 2022-05-25
 
