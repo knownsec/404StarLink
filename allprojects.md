@@ -25,6 +25,7 @@
     * [Kunpeng](#kunpeng)
     * [Pocassist](#pocassist)
     * [myscan](#myscan)
+    * [afrog](#afrog)
     * [LSpider](#lspider)
 
 * [攻击与利用/penetration_test](#攻击与利用penetration_test)
@@ -58,6 +59,7 @@
     * [PortForward](#portforward)
 
 * [其他/others](#其他others)
+    * [BinAbsInspector](#binabsinspector)
     * [f8x](#f8x)
     * [passive-scan-client](#passive-scan-client)
     * [wam](#wam)
@@ -271,6 +273,16 @@ Pocassist 是一个 Golang 编写的全新开源漏洞测试框架，帮助安�
 <https://github.com/amcai/myscan>
 
 myscan是参考awvs的poc目录架构，pocsuite3、sqlmap等代码框架，以及搜集互联网上大量的poc，由python3开发而成的被动扫描工具。
+
+### [afrog](detail/afrog.md)
+![Author](https://img.shields.io/badge/Author-zan8in-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.3.4-red)
+
+<https://github.com/zan8in/afrog>
+
+afrog 是一款性能卓越、快速稳定、PoC 可定制的漏洞扫描工具，PoC 包含 CVE、CNVD、默认口令、信息泄露、指纹识别、未授权访问、任意文件读取、命令执行等多种漏洞类型，帮助网络安全从业者快速验证并及时修复漏洞。
 
 ### [LSpider](detail/LSpider.md)
 ![Author](https://img.shields.io/badge/Author-LoRexxar-orange)
@@ -534,6 +546,16 @@ PortForward 是使用 Golang 进行开发的端口转发工具，解决在某些
 
 
 ## 其他/others
+### [BinAbsInspector](detail/BinAbsInspector.md)
+![Author](https://img.shields.io/badge/Author-KeenSecurityLab-orange)
+![Language](https://img.shields.io/badge/Language-Java-blue)
+![GitHub stars](https://img.shields.io/github/stars/KeenSecurityLab/BinAbsInspector.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.1-red)
+
+<https://github.com/KeenSecurityLab/BinAbsInspector>
+
+BinAbsInspector(Binary Abstract Inspector)是一款用于自动化逆向工程和扫描二进制文件漏洞的静态分析器，是 Keenlab 孵化的长期研究项目。基于 Ghidra 的支持下的抽象解释，适用于 Ghidra 的 Pcode 而非汇编。目前支持 x86、x64、armv7 和 aarch64 的二进制文件。
+
 ### [f8x](detail/f8x.md)
 ![Author](https://img.shields.io/badge/Author-ffffffff0x-orange)
 ![Language](https://img.shields.io/badge/Language-Bash-blue)
