@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
 ![Author](https://img.shields.io/badge/Author-长亭科技-orange)
 ![GitHub stars](https://img.shields.io/github/stars/chaitin/veinmind-tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.0-red)
+![Version](https://img.shields.io/badge/Version-V1.3.2-red)
 ![Time](https://img.shields.io/badge/Join-20220316-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -52,6 +52,21 @@ PS: 目前所有工具均已支持平行容器的方式运行
 
 ## 最近更新
 
+#### [v1.3.2] - 2022-06-15
+
+**Feature**  
+- veinmind-runner 支持配置文件写入认证信息  
+- 重构 veinmind-weakpass， 并新增多种服务弱口令扫描  
+- 增加 veinmind-basic 插件用于扫描镜像元信息  
+- 增加 veinmind-asset 插件用于扫描镜像资产信息  
+- 调整项目结构，插件均放置在 plugins 目录下  
+- veinmind-common 增加 confService，允许插件从宿主拉取对应的配置文件  
+- 支持指定容器运行时具体路径  
+- 支持指定插件自定义参数  
+
+**Bug**  
+- 修复 veinmind-runner 远程仓库镜像扫描的逻辑问题
+
 #### [v1.3.0] - 2022-05-06
 
 **更新**  
@@ -80,10 +95,5 @@ PS: 目前所有工具均已支持平行容器的方式运行
 - veinmind-sensitive 增加部分规则  
 - 所有工具增加平行容器脚本，支持一键运行  
 
-
-#### [v1.1.0] - 2022-03-18
-
-**更新**  
-- 所有工具支持以平行容器模式运行
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
