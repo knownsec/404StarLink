@@ -118,6 +118,7 @@ Here we would like to thank them for their great help!
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
+- 2022-06-22 发布文章[《BinAbsInspector：二进制文件自动化静态漏洞检测工具》](https://mp.weixin.qq.com/s/KBpkRvkq91mjkS_4QD3yjQ)
 
 ## 最近更新
 

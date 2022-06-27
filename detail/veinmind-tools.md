@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
 ![Author](https://img.shields.io/badge/Author-长亭科技-orange)
 ![GitHub stars](https://img.shields.io/github/stars/chaitin/veinmind-tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.2-red)
+![Version](https://img.shields.io/badge/Version-V1.3.3-red)
 ![Time](https://img.shields.io/badge/Join-20220316-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -52,6 +52,16 @@ PS: 目前所有工具均已支持平行容器的方式运行
 
 ## 最近更新
 
+#### [v1.3.3] - 2022-06-21
+
+**Feature**  
+- 适配 harbor 镜像扫描  
+- 弱口令扫描增加单元测试  
+
+**Bug**  
+- 修复弱口令扫描无镜像 ID 问题  
+- 修复敏感信息扫描文件读取问题
+
 #### [v1.3.2] - 2022-06-15
 
 **Feature**  
@@ -87,13 +97,6 @@ PS: 目前所有工具均已支持平行容器的方式运行
 - 基于问脉 SDK 编写了事件上报机制，所有插件使用同一 Service 进行事件上报  
 - 宿主程序 veinmind-runner 支持扫描远程仓库镜像  
 - 宿主程序 veinmind-runner 支持以平行容器模式启动，平行容器内置除 veinmind-malicious 之外的工具  
-
-
-#### [v1.1.2] - 2022-03-25
-
-**更新**  
-- veinmind-sensitive 增加部分规则  
-- 所有工具增加平行容器脚本，支持一键运行  
 
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

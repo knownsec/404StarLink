@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-Ch1ngg-orange)
 ![GitHub stars](https://img.shields.io/github/stars/SafeGroceryStore/MDUT.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.0-red)
+![Version](https://img.shields.io/badge/Version-V2.1.1-red)
 ![Time](https://img.shields.io/badge/Join-20210702-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -40,6 +40,29 @@ MDUT 全称 Multiple Database Utilization Tools，是一款中文的数据库跨
 
 
 ## 最近更新
+
+#### [v2.1.1] - 2022-06-22
+
+**核心**  
+- 优化逻辑代码  
+- 更改用户协议窗口  
+- 重构 Http Tunnel 生成界面  
+
+**Mysql**  
+- 修正 Mysql 某些时候错误不弹窗  
+
+**Mssql**  
+- 将依赖包重新替换为 jTDS (Microsoft 官方驱动太多问题)  
+
+**Oracle**  
+- 增加oracle 单独上传功能  
+
+**Redis**  
+- 优化内部代码  
+- 再次修复 Redis 测试连接错误信息返回连接成功 Bug  
+- 增加反弹shell功能 (不推荐使用影响生产环境)  
+- 修复 Redis 某些时候错误不弹窗  
+- 增强 替换 SSH 公钥 功能
 
 #### [v2.1.0] - 2022-05-24
 

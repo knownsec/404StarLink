@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/pocsuite3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.9.4-red)
+![Version](https://img.shields.io/badge/Version-V1.9.5-red)
 ![Time](https://img.shields.io/badge/Join-20200821-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -152,6 +152,18 @@ console mode
 
 
 ## 最近更新
+
+#### [v1.9.5] - 2022-06-22
+
+**更新**  
+- 重构 --ppt 参数，优化 url 马赛克功能  
+- 优化 poc 模板  
+- 优化命令行默认提示信息  
+- 调整默认超时为 10 秒  
+- 调整默认线程数为 150  
+- 目标 url 目前支持 CIDR，用户可使用 -p 指定端口  
+- 支持本地模式，该模式化下 poc 不需要指定目标，比如本地提权漏洞  
+- 修复部分 bugs
 
 #### [v1.9.4] - 2022-06-07
 

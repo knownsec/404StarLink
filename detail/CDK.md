@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-CDK-blue)
 ![Author](https://img.shields.io/badge/Author-cdkteam-orange)
 ![GitHub stars](https://img.shields.io/github/stars/cdk-team/CDK.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.1.0-red)
+![Version](https://img.shields.io/badge/Version-V1.2.0-red)
 ![Time](https://img.shields.io/badge/Join-20210223-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -219,6 +219,13 @@ New feature or exploits:
 - 2021-11-11 发布文章[《CDK:一款针对容器场景的多功能渗透工具》](https://mp.weixin.qq.com/s/fopvHFPAbbqtCE6SV9JerQ)
 
 ## 最近更新
+
+#### [v1.2.0] - 2022-06-25
+
+**更新**  
+- 新增 Exploit：从 etcd 获取 k8s 的 token  
+- 添加输出结束消息  
+- 移除 --insecure-port 参数
 
 #### [v1.1.0] - 2022-05-30
 

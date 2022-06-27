@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-LoRexxar-orange)
 ![GitHub stars](https://img.shields.io/github/stars/LoRexxar/Kunlun-M.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.6.4.2-red)
+![Version](https://img.shields.io/badge/Version-V2.6.5-red)
 ![Time](https://img.shields.io/badge/Join-20200821-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -307,6 +307,12 @@ rules/{语言类型}/CVI_xxxx.py
 
 
 ## 最近更新
+
+#### [v2.6.5] - 2022-06-23
+
+**更新**  
+- 更新了社区化的部署方案，支持使用公开的Server端查看扫描结果，为后续延展提供基础  
+- 更新了潮汐平台链接，可以使用潮汐平台快速部署体验
 
 #### [v2.6.4.2] - 2022-03-02
 
