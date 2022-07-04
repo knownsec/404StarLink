@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.9.7-red)
+![Version](https://img.shields.io/badge/Version-V0.9.8-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -151,6 +151,15 @@ go env -w GO111MODULE=on
 
 ## 最近更新
 
+#### [v0.9.8] - 2022-07-02
+
+**Added**  
+- 批量导入规则功能  
+
+**Fixed**  
+- 登录背景图案调整  
+- 企业微信通知提醒启用配置问题
+
 #### [v0.9.7] - 2022-05-21
 
 **Added**  
@@ -192,11 +201,5 @@ go env -w GO111MODULE=on
 - 修复 axios 版本导致的验证码不展示的问题  
 - 移除测试模块，减少代码冗余  
 - 修复 webpack 的编译问题
-
-#### [v0.9.1] - 2022-02-25
-
-**更新**  
-- 升级前端组件依赖版本  
-- 规则使用 switch 组件切换状态
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

@@ -2,15 +2,14 @@
 
 1. [AppInfoScanner](#appinfoscanner)
 2. [HaE](#hae)
-3. [DarkEye](#darkeye)
-4. [Kunyu](#kunyu)
-5. [Glass](#glass)
-6. [scaninfo](#scaninfo)
-7. [ksubdomain](#ksubdomain)
-8. [ZoomEye-Python](#zoomeye-python)
-9. [ct](#ct)
-10. [Zoomeye-Tools](#zoomeye-tools)
-11. [ZoomEye-go](#zoomeye-go)
+3. [Kunyu](#kunyu)
+4. [Glass](#glass)
+5. [scaninfo](#scaninfo)
+6. [ksubdomain](#ksubdomain)
+7. [ZoomEye-Python](#zoomeye-python)
+8. [ct](#ct)
+9. [Zoomeye-Tools](#zoomeye-tools)
+10. [ZoomEye-go](#zoomeye-go)
 
 ----------------------------------------
 
@@ -28,21 +27,11 @@
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.4-red)
+![Version](https://img.shields.io/badge/Version-V2.4.1-red)
 
 <https://github.com/gh0stkey/HaE>
 
 HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。
-
-### [DarkEye](detail/DarkEye.md)
-![Author](https://img.shields.io/badge/Author-zsdevX-orange)
-![Language](https://img.shields.io/badge/Language-Golang-blue)
-![GitHub stars](https://img.shields.io/github/stars/zsdevX/DarkEye.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V4.3.0-red)
-
-<https://github.com/zsdevX/DarkEye>
-
-基于go完成的渗透测试信息收集利器
 
 ### [Kunyu](detail/Kunyu.md)
 ![Author](https://img.shields.io/badge/Author-风起-orange)

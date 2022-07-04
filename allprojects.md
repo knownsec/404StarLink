@@ -11,7 +11,6 @@
 * [信息收集/reconnaissance](#信息收集reconnaissance)
     * [AppInfoScanner](#appinfoscanner)
     * [HaE](#hae)
-    * [DarkEye](#darkeye)
     * [Kunyu](#kunyu)
     * [Glass](#glass)
     * [scaninfo](#scaninfo)
@@ -34,8 +33,8 @@
     * [Viper](#viper)
     * [MDUT](#mdut)
     * [BurpCrypto](#burpcrypto)
-    * [MySQL-Fake-Server](#mysql-fake-server)
     * [ysomap](#ysomap)
+    * [MySQL-Fake-Server](#mysql-fake-server)
     * [DNSlog-GO](#dnslog-go)
     * [Redis-Rogue-Server](#redis-rogue-server)
     * [MysqlT](#mysqlt)
@@ -112,7 +111,7 @@ veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.9.7-red)
+![Version](https://img.shields.io/badge/Version-V0.9.8-red)
 
 <https://github.com/madneal/gshark>
 
@@ -145,21 +144,11 @@ veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.4-red)
+![Version](https://img.shields.io/badge/Version-V2.4.1-red)
 
 <https://github.com/gh0stkey/HaE>
 
 HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。
-
-### [DarkEye](detail/DarkEye.md)
-![Author](https://img.shields.io/badge/Author-zsdevX-orange)
-![Language](https://img.shields.io/badge/Language-Golang-blue)
-![GitHub stars](https://img.shields.io/github/stars/zsdevX/DarkEye.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V4.3.0-red)
-
-<https://github.com/zsdevX/DarkEye>
-
-基于go完成的渗透测试信息收集利器
 
 ### [Kunyu](detail/Kunyu.md)
 ![Author](https://img.shields.io/badge/Author-风起-orange)
@@ -347,16 +336,6 @@ MDUT 全称 Multiple Database Utilization Tools，旨在将常见的数据库利
 
 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插件。
 
-### [MySQL-Fake-Server](detail/MySQL-Fake-Server.md)
-![Author](https://img.shields.io/badge/Author-fnmsd-orange)
-![Language](https://img.shields.io/badge/Language-Python-blue)
-![GitHub stars](https://img.shields.io/github/stars/fnmsd/MySQL_Fake_Server.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.1-red)
-
-<https://github.com/fnmsd/MySQL_Fake_Server>
-
-用于渗透测试过程中的假MySQL服务器，纯原生python3实现，不依赖其它包。
-
 ### [ysomap](detail/ysomap.md)
 ![Author](https://img.shields.io/badge/Author-wh1t3p1g-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
@@ -366,6 +345,16 @@ MDUT 全称 Multiple Database Utilization Tools，旨在将常见的数据库利
 <https://github.com/wh1t3p1g/ysomap>
 
 Ysomap是一款适配于各类实际复杂环境的Java反序列化利用框架，可动态配置具备不同执行效果的Java反序列化利用链payload，以应对不同场景下的反序列化利用。
+
+### [MySQL-Fake-Server](detail/MySQL-Fake-Server.md)
+![Author](https://img.shields.io/badge/Author-fnmsd-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/fnmsd/MySQL_Fake_Server.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+
+<https://github.com/fnmsd/MySQL_Fake_Server>
+
+用于渗透测试过程中的假MySQL服务器，纯原生python3实现，不依赖其它包。
 
 ### [DNSlog-GO](detail/DNSlog-GO.md)
 ![Author](https://img.shields.io/badge/Author-lanyi-orange)
@@ -467,7 +456,7 @@ CodeReviewTools是一个可以快速批量反编译jar包的工具，为审计Ja
 ![Author](https://img.shields.io/badge/Author-shadow1ng-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/shadow1ng/fscan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.7.1-red)
+![Version](https://img.shields.io/badge/Version-V1.8.0-red)
 
 <https://github.com/shadow1ng/fscan>
 
