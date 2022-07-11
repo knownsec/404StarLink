@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-CDK-blue)
 ![Author](https://img.shields.io/badge/Author-cdkteam-orange)
 ![GitHub stars](https://img.shields.io/github/stars/cdk-team/CDK.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.2.0-red)
+![Version](https://img.shields.io/badge/Version-V1.3.0-red)
 ![Time](https://img.shields.io/badge/Join-20210223-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -220,6 +220,19 @@ New feature or exploits:
 
 ## 最近更新
 
+#### [v1.3.0] - 2022-07-10
+
+**Exploits**  
+- 为 ParseCDKMain 添加单元测试  
+- 新增'Exploit container escape with kubelet log access & /var/log mount'  
+- 新增 kubelet 默认未授权访问利用(端口10250)  
+
+**Others**  
+- 在 github action 中新增了 go test  
+- 支持 linux 容器获取网关  
+- 更新文档，新增了 快速开始 章节  
+- 新增在 pods 中获取网关
+
 #### [v1.2.0] - 2022-06-25
 
 **更新**  
@@ -263,19 +276,5 @@ New feature or exploits:
 - 支持 cdk eval  
 - 同步 github.com/containerd/containerd 到 1.4.12  
 - 同步 github.com/tidwall/gjson 到 1.9.3
-
-#### [v1.0.4] - 2021-10-02
-
-**新增**  
-- k8s-psp-dump 漏洞利用添加 force-fuzz 选项  
-- lxcfs-rw 漏洞利用添加过滤器字符串  
-- 格式化 'run --list' 输出  
-- 添加 StringContains 函数  
-
-**修复**  
-- 修复 DeployBackdoorDaemonset 在出错时返回 true 的问题  
-- 修复 CapDacReadSearch Exploit 中的构建错误  
-- 修复 http 授权令牌在前缀或后缀中有空字符串  
-
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

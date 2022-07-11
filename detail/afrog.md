@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.4-red)
+![Version](https://img.shields.io/badge/Version-V1.3.5-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -83,5 +83,17 @@ afrog -t http://127.0.0.1 -P ./testing/ -o result.html
 
 
 ## 最近更新
+
+#### [v1.3.5] - 2022-07-10
+
+**新增**  
+- 支持 go 语言 PoC 开发  
+- 新增 夏日清爽皮肤 漏洞报告模板  
+- console print 漏洞会显示完整 URL  
+- 新增 72 个 PoC，共 626 个 PoC  
+
+**BUG**  
+- 修复 tongda-insert-sql-inject.yaml 误报 BUG  
+- 修复 landray-oa-syssearchmain-rce.yaml 误报 BUG
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-shadow1ng-orange)
 ![GitHub stars](https://img.shields.io/github/stars/shadow1ng/fscan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.8.0-red)
+![Version](https://img.shields.io/badge/Version-V1.8.1-red)
 ![Time](https://img.shields.io/badge/Join-20210422-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -182,6 +182,13 @@ go build -ldflags="-s -w " -trimpath
 
 
 ## 最近更新
+
+#### [v1.8.1] - 2022-07-06
+
+**更新**  
+- 加入手工gc回收,尝试节省无用内存  
+- -url 支持逗号隔开  
+- 修复一个poc模块bug
 
 #### [v1.8.0] - 2022-07-02
 

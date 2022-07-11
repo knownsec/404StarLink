@@ -15,7 +15,7 @@
 ![Author](https://img.shields.io/badge/Author-shadow1ng-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/shadow1ng/fscan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.8.0-red)
+![Version](https://img.shields.io/badge/Version-V1.8.1-red)
 
 <https://github.com/shadow1ng/fscan>
 
