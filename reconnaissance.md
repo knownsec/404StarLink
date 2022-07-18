@@ -87,7 +87,7 @@ ZoomEye-python 是一款基于 ZoomEye API 开发的 Python 库，提供了 Zoom
 ![Author](https://img.shields.io/badge/Author-rungobier@Knownsec404-orange)
 ![Language](https://img.shields.io/badge/Language-Rust-blue)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/ct.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.5-red)
+![Version](https://img.shields.io/badge/Version-V1.0.9-red)
 
 <https://github.com/knownsec/ct>
 

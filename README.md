@@ -17,6 +17,7 @@
 
 | 时间 | 项目名称 | 项目动态 |
 |----|-----------|--------------------------|
+|2022-07-18|[**ct**](detail/ct.md)|更新 [v1.0.9](detail/ct.md#最近更新) 版本|
 |2022-07-18|[**antSword**](detail/antSword.md)|发布文章[《AntSword v2.1.15 更新汇总》](https://mp.weixin.qq.com/s/QzbREMp8JaQiP9qo48OyHg)|
 |2022-07-17|[**antSword**](detail/antSword.md)|更新 [v2.1.15](detail/antSword.md#最近更新) 版本|
 |2022-07-15|[**HaE**](detail/HaE.md)|更新 [v2.4.2](detail/HaE.md#最近更新) 版本|
@@ -26,7 +27,6 @@
 |2022-07-10|[**afrog**](detail/afrog.md)|更新 [v1.3.5](detail/afrog.md#最近更新) 版本|
 |2022-07-09|[**GShark**](detail/gshark.md)|更新 [v0.9.9](detail/gshark.md#最近更新) 版本|
 |2022-07-07|[**pocsuite3**](detail/pocsuite3.md)|更新 [v1.9.6](detail/pocsuite3.md#最近更新) 版本|
-|2022-07-06|[**fscan**](detail/fscan.md)|更新 [v1.8.1](detail/fscan.md#最近更新) 版本|
 
 **2.StarRank**
 
@@ -47,6 +47,7 @@
 
 | 时间 | 项目迭代版本 |
 |----|-----------|
+|第29周|[**ct**](detail/ct.md) 更新 [v1.0.9](detail/ct.md#最近更新)|
 |第28周|[**antSword**](detail/antSword.md) 更新 [v2.1.15](detail/antSword.md#最近更新) / [**HaE**](detail/HaE.md) 更新 [v2.4.2](detail/HaE.md#最近更新) / [**veinmind-tools**](detail/veinmind-tools.md) 更新 [v1.4.0](detail/veinmind-tools.md#最近更新)|
 |第27周|[**CDK**](detail/CDK.md) 更新 [v1.3.0](detail/CDK.md#最近更新) / [**afrog**](detail/afrog.md) 更新 [v1.3.5](detail/afrog.md#最近更新) / [**GShark**](detail/gshark.md) 更新 [v0.9.9](detail/gshark.md#最近更新) / [**pocsuite3**](detail/pocsuite3.md) 更新 [v1.9.6](detail/pocsuite3.md#最近更新) / [**veinmind-tools**](detail/veinmind-tools.md) 更新 [v1.3.5](detail/veinmind-tools.md#最近更新) / [**fscan**](detail/fscan.md) 更新 [v1.8.1](detail/fscan.md#最近更新)|
 |第26周|[**GShark**](detail/gshark.md) 更新 [v0.9.8](detail/gshark.md#最近更新) / [**fscan**](detail/fscan.md) 更新 [v1.8.0](detail/fscan.md#最近更新) / [**HaE**](detail/HaE.md) 更新 [v2.4.1](detail/HaE.md#最近更新)|
@@ -56,7 +57,6 @@
 |第22周|[**HackBrowserData**](detail/HackBrowserData.md) 更新 [v0.4.3](detail/HackBrowserData.md#最近更新) / [**CDK**](detail/CDK.md) 更新 [v1.1.0](detail/CDK.md#最近更新)|
 |第21周|[**HaE**](detail/HaE.md) 更新 [v2.3](detail/HaE.md#最近更新) / [**pocsuite3**](detail/pocsuite3.md) 更新 [v1.9.3](detail/pocsuite3.md#最近更新) / [**MDUT**](detail/MDUT.md) 更新 [v2.1.0](detail/MDUT.md#最近更新)|
 |第20周|[**GShark**](detail/gshark.md) 更新 [v0.9.7](detail/gshark.md#最近更新) / [**Viper**](detail/Viper.md) 更新 [v1.5.21](detail/Viper.md#最近更新)|
-|第19周|[**HaE**](detail/HaE.md) 更新 [v2.2.3](detail/HaE.md#最近更新)|
 
 **4.新项目加入**
 

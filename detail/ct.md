@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Rust-blue)
 ![Author](https://img.shields.io/badge/Author-rungobier@Knownsec404-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/ct.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.5-red)
+![Version](https://img.shields.io/badge/Version-V1.0.9-red)
 ![Time](https://img.shields.io/badge/Join-20211213-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -121,6 +121,14 @@ cargo build --release
 
 
 ## 最近更新
+
+#### [v1.0.9] - 2022-07-18
+
+**更新**  
+- 加入域名自动扩展搜索参数 -E- 加入无效域名过滤参数 -F， 同时自带过滤清单- 修改部分bug
+
+**Example**  
+- `ct -E -F 365cyd.cn,jiashule.com,365cyd.com,knownsec.com baidu.com`
 
 #### [v1.0.5] - 2022-01-13
 
