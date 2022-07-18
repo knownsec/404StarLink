@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.4.1-red)
+![Version](https://img.shields.io/badge/Version-V2.4.2-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -62,6 +62,13 @@
 
 ## 最近更新
 
+#### [v2.4.2] - 2022-07-15
+
+**更新**  
+- 由于原按钮的鼠标点击监听不灵敏，所以将该监听修改为动作监听  
+- 在 issue 发布「HaE公共规则」征集活动  
+- 公共规则库新增7条规则
+
 #### [v2.4.1] - 2022-06-29
 
 **更新**  
@@ -90,10 +97,5 @@
 **更新**  
 - 优化体验：在MarkInfo标签快捷键复制时，去除最后的换行符  
 - 美化代码：将UI部分代码变量名按小驼峰方式命名，增加代码可读性
-
-#### [v2.2.1] - 2022-04-21
-
-**更新**  
-- 解决MarkInfo标签JTable控件与BurpSuite快捷键复制的冲突问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

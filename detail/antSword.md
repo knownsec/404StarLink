@@ -73,13 +73,33 @@
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
+- 2022-07-18 发布文章[《AntSword v2.1.15 更新汇总》](https://mp.weixin.qq.com/s/QzbREMp8JaQiP9qo48OyHg)
 - 2021-11-15 发布文章[《蚁剑绕WAF进化图鉴》](https://mp.weixin.qq.com/s/EYP1ANj7pxM8_NX_7R9WjA)
 
 ## 最近更新
 
-#### [v2.1.15] - 2021-08-27
+#### [v2.1.15] - 2022-07-17
 
 **核心**  
-- 修复 PHP/PHP4 当前目录不可写时 bypass open_basedir 失败的 Bug
+- 修复 PHP/PHP4 当前目录不可写时 bypass open_basedir 失败的 Bug  
+- 新增 PHPRAW/ASPXCSharp/PSWindows 类型  
+
+**数据管理**  
+- 修复 JSP/MySQL类型在表名中有特殊字符时执行异常的 Bug  
+- 新增配置选项「Body 设置为 RAW 模式」  
+
+**文件管理**  
+- 新增 FileHash 计算目标文件 hash 功能  
+
+**后端模块**  
+- 支持自定义 Content-Type, 默认是 form  
+- 支持 WebSocket 连接  
+
+**设置模块**  
+- 优化全局代理设置  
+
+**其他**  
+- 更多详细更新内容，见 release v2.1.15  
+
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
