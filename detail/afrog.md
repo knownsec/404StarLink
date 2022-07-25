@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.5-red)
+![Version](https://img.shields.io/badge/Version-V1.3.6-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -13,76 +13,71 @@ afrog 是一款性能卓越、快速稳定、PoC 可定制的漏洞扫描工具�
 
 ## 特点
 
-* [x] 基于 xray 内核，又不像 xray（[**afrog 模板语法**](https://github.com/zan8in/afrog/blob/main/pocs/afrog-pocs/README.md)）
-* [x] 性能卓越，快速稳定
-* [x] 实时显示，扫描进度
-* [x] 输出 html 报告，方便查看 `request` 和 `response`
-* [x] 启动程序，自动更新本地 PoC 库
-* [x] 长期维护、更新 PoC（[**afrog-pocs**](https://github.com/zan8in/afrog/tree/main/pocs/afrog-pocs)）
-* [x] 二次开发，参考 `cmd/afrog/main.go` 或加入 **[交流群](https://github.com/zan8in/afrog#%E4%BA%A4%E6%B5%81%E7%BE%A4)**
+* [x] 开源
+* [x] 快速、稳定、误报低
+* [x] 详细的 html 漏洞报告
+* [x] PoC 可定制化、稳定更新
+* [x] 活跃的社区 [交流群](https://github.com/zan8in/afrog#%E4%BA%A4%E6%B5%81%E7%BE%A4)
+* [x] 长期维护
 
-## 下载
+## 示例
 
-### [下载地址](https://github.com/zan8in/afrog/releases)
-
-## 使用指南
-
-### [查看指南](https://github.com/zan8in/afrog/blob/main/GUIDE.md)
-
-## 例子
-
-扫描单个目标
+基本用法
 ```
-afrog -t http://127.0.0.1 -o result.html
-```
-![](https://github.com/zan8in/afrog/raw/main/images/onescan.png)
+# 扫描一个目标
+afrog -t http://127.0.0.1
 
-扫描多个目标
+# 扫描多个目标
+afrog -T urls.txt
+
+# 指定漏扫报告文件
+afrog -t http://127.0.0.1-o result.html
+```
+
+高级用法
 
 ```
-afrog -T urls.txt -o result.html
+# 测试 PoC 
+afrog -t http://127.0.0.1 -P ./test/ 
+afrog -t http://127.0.0.1 -P ./test/demo.yaml 
+
+# 按 PoC 关键字扫描 
+afrog -t http://127.0.0.1 -s tomcat,springboot,shiro 
+
+# 按 Poc 漏洞等级扫描 
+afrog -t http://127.0.0.1 -S high,critical 
+
+# 在线更新 afrog-pocs 
+afrog --up 
+
+# 禁用指纹识别，直接漏扫 
+afrog -t http://127.0.0.1 --nf
 ```
-例如：`urls.txt`
-```
-http://192.168.139.129:8080
-http://127.0.0.1
-```
-![](https://github.com/zan8in/afrog/raw/main/images/twoscan.png)
 
-测试单个 PoC 文件
-
-```
-afrog -t http://127.0.0.1 -P ./testing/poc-test.yaml -o result.html
-```
-![](https://github.com/zan8in/afrog/raw/main/images/threescan.png)
-
-测试多个 PoC 文件
-
-```
-afrog -t http://127.0.0.1 -P ./testing/ -o result.html
-```
-![](https://github.com/zan8in/afrog/raw/main/images/fourscan.png)
-
-输出 html 报告
-
-![](https://github.com/zan8in/afrog/raw/main/images/2.png)
-
-![](https://github.com/zan8in/afrog/raw/main/images/3.png)
-
-## 如何贡献 PoC？
-
-### [查看教程](https://github.com/zan8in/afrog/blob/main/CONTRIBUTION.md)
-
-## PoC 列表
-### [查看 PoC 列表](https://github.com/zan8in/afrog/blob/main/POCLIST.md)
-
-
+## 截图
+控制台
+![](https://github.com/zan8in/afrog/blob/main/images/scan-new.png)
+html 报告
+![](https://github.com/zan8in/afrog/blob/main/images/report-new.png)
 
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
 
 ## 最近更新
+
+#### [v1.3.6] - 2022-07-24
+
+**更新**  
+- add Gitee 更新 afrog-pocs  
+- add 自动识别 http(s)  
+- add target 存活验证  
+- add Console Print 实时显示指纹识别结果  
+- update 更新 fingerprint 指纹库  
+- fixed 解决 gbk 编码导致 PoC 漏报问题  
+- bug 修复 GoPoC Console Print 不显示 target  
+- delete tongda-insert-sql-inject poc  
+- poc 新增 PoC 33 个，共 656 个
 
 #### [v1.3.5] - 2022-07-10
 

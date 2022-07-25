@@ -7,7 +7,6 @@
 ![Time](https://img.shields.io/badge/Join-20200821-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
-
 ## Legal Disclaimer
 Usage of pocsuite3 for attacking targets without prior mutual consent is illegal.
 pocsuite3 is for security testing purposes only
@@ -29,15 +28,12 @@ It comes with a powerful proof-of-concept engine, many nice features for the ult
 * Results can be easily exported
 * Dynamic patch and hook requests 
 * Both command line tool and python package import to use
-* IPV6 support
+* IPv6 support
 * Global HTTP/HTTPS/SOCKS proxy support
 * Simple spider API for PoC script to use
 * Integrate with [Seebug](https://www.seebug.org) (for load PoC from Seebug website)
-* Integrate with [ZoomEye](https://www.zoomeye.org) (for load target from ZoomEye `Dork`)
-* Integrate with [Shodan](https://www.shodan.io) (for load target from Shodan `Dork`)
-* Integrate with [Ceye](http://ceye.io/) (for verify blind DNS and HTTP request)
-* Integrate with [Interactsh](https://github.com/projectdiscovery/interactsh) (for verify blind DNS and HTTP request)
-* Integrate with Fofa (for load target from Fofa `Dork`)
+* Integrate with [ZoomEye](https://www.zoomeye.org), [Shodan](https://www.shodan.io), etc.  (for load target use `Dork`)
+* Integrate with [Ceye](http://ceye.io/), [Interactsh](https://github.com/projectdiscovery/interactsh) (for verify blind DNS and HTTP request)
 * Friendly debug PoC scripts with IDEs
 * More ...
 
@@ -60,7 +56,7 @@ It comes with a powerful proof-of-concept engine, many nice features for the ult
 
 ## Requirements
 
-- Python 3.6+
+- Python 3.7+
 - Works on Linux, Windows, Mac OSX, BSD, etc.
 
 ## Installation
@@ -91,6 +87,12 @@ sudo apt update
 sudo apt install pocsuite3
 ```
 
+### Docker
+
+```
+docker run -it pocsuite3/pocsuite3
+```
+
 ### ArchLinux
 
 ``` bash
@@ -102,11 +104,11 @@ yay pocsuite3
 Or click [here](https://github.com/knownsec/pocsuite3/archive/master.zip) to download the latest source zip package and extract
 
 ``` bash
-$ wget https://github.com/knownsec/pocsuite3/archive/master.zip
-$ unzip master.zip
-$ cd pocsuite3-master
-$ pip3 install -r requirements.txt
-$ python3 setup.py install
+wget https://github.com/knownsec/pocsuite3/archive/master.zip
+unzip master.zip
+cd pocsuite3-master
+pip3 install -r requirements.txt
+python3 setup.py install
 ```
 
 
@@ -114,7 +116,7 @@ The latest version of this software is available at: https://pocsuite.org
 
 ## Documentation
 
-Documentation is available in the [```docs```](https://github.com/knownsec/pocsuite3/blob/master/docs) directory.
+Documentation is available at: https://pocsuite.org
 
 ## Usage
 
@@ -127,7 +129,7 @@ cli mode
 	# run poc with shell mode
 	pocsuite -u http://example.com -r example.py -v 2 --shell
 
-	# search for the target of redis service from ZoomEye and perform batch detection of vulnerabilities. The thread is set to 20
+	# search for the target of redis service from ZoomEye and perform batch detection of vulnerabilities. The threads is set to 20
 	pocsuite -r redis.py --dork service:redis --threads 20
 
 	# load all poc in the poc directory and save the result as html
@@ -137,7 +139,7 @@ cli mode
 	pocsuite -f batch.txt --plugins poc_from_pocs,html_report
 
 	# load CIDR target
-	pocsuite -u 10.0.0.0/24 -r example.py --plugins target_from_cidr
+	pocsuite -u 10.0.0.0/24 -r example.py
 
 	# the custom parameters `command` is implemented in ecshop poc, which can be set from command line options
 	pocsuite -u http://example.com -r ecshop_rce.py --attack --command "whoami"
@@ -145,7 +147,6 @@ cli mode
 console mode
     poc-console
 ```
-
 
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关

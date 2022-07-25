@@ -11,7 +11,7 @@
 
 English | [简体中文](https://github.com/cdk-team/CDK/wiki/CDK-Home-CN)
 
-![png](https://static.cdxy.me/20201203170308_NwzGiT_Screenshot.jpeg)
+![png](https://user-images.githubusercontent.com/7868679/177925206-8d83dc95-0f2f-4d61-9a45-0d43b1b0468f.png)
 
 ## Legal Disclaimer
 
@@ -21,6 +21,28 @@ CDK is for security testing purposes only.
 ## Overview
 
 CDK is an open-sourced container penetration toolkit, designed for offering stable exploitation in different slimmed containers without any OS dependency. It comes with useful net-tools and many powerful PoCs/EXPs and helps you to escape container and take over K8s cluster easily.
+
+## Quick Start
+
+Run **`cdk eva`** to get evaluate info and a recommend exploit, then run **`cdk run`** to start the attack.
+
+```
+> ./cdk eva --full
+
+[*] Maybe you can exploit the *Capabilities* below:
+[!] CAP_DAC_READ_SEARCH enabled. You can read files from host. Use 'cdk run cap-dac-read-search' ... for exploitation.
+[!] CAP_SYS_MODULE enabled. You can escape the container via loading kernel module. More info at https://xcellerator.github.io/posts/docker_escape/.
+Critical - SYS_ADMIN Capability Found. Try 'cdk run rewrite-cgroup-devices/mount-cgroup/...'.
+Critical - Possible Privileged Container Found.
+
+> ./cdk run cap-dac-read-search
+
+Running with target: /etc/shadow, ref: /etc/hostname
+ubuntu:$6$*******:19173:0:99999:7:::
+root:*:18659:0:99999:7:::
+daemon:*:18659:0:99999:7:::
+bin:*:18659:0:99999:7:::
+```
 
 ## Installation/Delivery
 
@@ -51,7 +73,6 @@ chmod a+x cdk
 Usage:
   cdk evaluate [--full]
   cdk run (--list | <exploit> [<args>...])
-  cdk auto-escape <cmd>
   cdk <tool> [<args>...]
 
 Evaluate:
@@ -71,6 +92,7 @@ Tool:
   nc [options]                              Create TCP tunnel.
   ifconfig                                  Show network information.
   kcurl <path> (get|post) <uri> <data>      Make request to K8s api-server.
+  ectl <endpoint> get <key>                 Unauthorized enumeration of ectd keys.
   ucurl (get|post) <socket> <uri> <data>    Make request to docker unix socket.
   probe <ip> <port> <parallel> <timeout-ms> TCP port scan, example: cdk probe 10.0.1.0-255 80,8080-9443 50 1000
 
@@ -106,6 +128,7 @@ This command will run the scripts below without local file scanning, using `--fu
 |Information Gathering|Sensitive Process|✔|[link](https://github.com/cdk-team/CDK/wiki/Evaluate:-Services)|
 |Information Gathering|Sensitive Local Files|✔|[link](https://github.com/cdk-team/CDK/wiki/Evaluate:-Sensitive-Files)|
 |Information Gathering|Kube-proxy Route Localnet(CVE-2020-8558)|✔|[link](https://github.com/cdk-team/CDK/wiki/Evaluate:-check-net.ipv4.conf.all.route_localnet)|
+|Information Gathering|DNS-Based Service Discovery|✔|[link](https://github.com/kubernetes/dns/blob/master/docs/specification.md)|
 |Discovery|K8s Api-server Info|✔|[link](https://github.com/cdk-team/CDK/wiki/Evaluate:-K8s-API-Server)|
 |Discovery|K8s Service-account Info|✔|[link](https://github.com/cdk-team/CDK/wiki/Evaluate:-K8s-Service-Account)|
 |Discovery|Cloud Provider Metadata API|✔|[link](https://github.com/cdk-team/CDK/wiki/Evaluate:-Cloud-Provider-Metadata-API)|
@@ -141,8 +164,10 @@ cdk run <script-name> [options]
 | Discovery            | Dump Istio Sidecar Meta                                    | istio-check            | ✔         | ✔                                                                          | [link](https://github.com/cdk-team/CDK/wiki/Exploit:-check-istio)                    |
 | Discovery            | Dump K8s Pod Security Policies                             | k8s-psp-dump           | ✔         || [link](https://github.com/cdk-team/CDK/wiki/Exploit:-k8s-psp-dump)         |
 | Remote Control       | Reverse Shell                                              | reverse-shell          | ✔         | ✔                                                                          | [link](https://github.com/cdk-team/CDK/wiki/Exploit:-reverse-shell)                  |
+| Remote Control       | Kubelet Exec                                               | kubelet-exec           | ✔         | ✔                                                                          |                  |
 | Credential Access    | Registry BruteForce                                        | registry-brute         | ✔         | ✔                                                                          | [link](https://github.com/cdk-team/CDK/wiki/Exploit:-Container-Image-Registry-Brute) |
 | Credential Access    | Access Key Scanning                                        | ak-leakage             | ✔         | ✔                                                                          | [link](https://github.com/cdk-team/CDK/wiki/Exploit:-ak-leakage)                     |
+| Credential Access    | Etcd Get K8s Token                                         | etcd-get-k8s-token     | ✔         | ✔                                                                          |                |
 | Credential Access    | Dump K8s Secrets                                           | k8s-secret-dump        | ✔         | ✔                                                                          | [link](https://github.com/cdk-team/CDK/wiki/Exploit:-k8s-secret-dump)                |
 | Credential Access    | Dump K8s Config                                            | k8s-configmap-dump     | ✔         | ✔                                                                          | [link](https://github.com/cdk-team/CDK/wiki/Exploit:-k8s-configmap-dump)             |
 | Privilege Escalation | K8s RBAC Bypass                                            | k8s-get-sa-token       | ✔         | ✔                                                                          | [link](https://github.com/cdk-team/CDK/wiki/Exploit:-k8s-get-sa-token)               |
@@ -168,50 +193,12 @@ cdk ps
 |ps|Process Information|✔|[link](https://github.com/cdk-team/CDK/wiki/Tool:-ps)|
 |ifconfig|Network Information|✔|[link](https://github.com/cdk-team/CDK/wiki/Tool:-ifconfig)|
 |vi|Edit Files|✔|[link](https://github.com/cdk-team/CDK/wiki/Tool:-vi)|
+|ectl|Unauthorized enumeration of ectd keys|✔||
 |kcurl|Request to K8s api-server|✔|[link](https://github.com/cdk-team/CDK/wiki/Tool:-kcurl)|
 |dcurl|Request to Docker HTTP API|✔|[link](https://github.com/cdk-team/CDK/wiki/Tool:-dcurl)|
 |ucurl|Request to Docker Unix Socket|✔|[link](https://github.com/cdk-team/CDK/wiki/Tool:-ucurl)|
 |rcurl|Request to Docker Registry API|||
 |probe|IP/Port Scanning|✔|[link](https://github.com/cdk-team/CDK/wiki/Tool:-probe)|
-
-### Release Document
-
-If you want to know how we released a new version, how thin is produced, why we provide upx versions, what the differences between different versions about all, normal, thin, upx are, and how to choose specific CDK exploits and tools to compile an own release for yourself, please check the [Release Document](https://github.com/cdk-team/CDK/wiki/Release).
-
-## Developer Docs
-
-* [run test in container.](https://github.com/cdk-team/CDK/wiki/Run-Test)
-
-## Contributing to CDK
-
-First off, thanks for taking the time to contribute!
-
-By reporting any issue, ideas or PRs, your GitHub ID will be listed here.
-
-* https://github.com/cdk-team/CDK/blob/main/thanks.md
-
-#### Bug Reporting
-
-Bugs are tracked as [GitHub Issues](https://github.com/cdk-team/CDK/issues). Create an issue with the current CDK version, error msg and the environment. Describe the exact steps which reproduce the problem.
-
-#### Suggesting Enhancements
-
-Enhancement suggestions are tracked as [GitHub Discussions](https://github.com/cdk-team/CDK/discussions). You can publish any thoughts here to discuss with developers directly.
-
-#### Pull Requests
-
-Fix problems or maintain CDK's quality:
-
-* Describe the current CDK version, environment, problem and exact steps that reproduce the problem.
-* Running screenshots or logs before and after you fix the problem.
-
-New feature or exploits:
-
-* Explain why this enhancement would be useful to other users.
-* Please enable a sustainable environment for us to review contributions.
-* Screenshots about how this new feature works.
-* If you are committing a new evaluate/exploit scripts, please add a simple doc to your PR message, here is an [example](https://github.com/cdk-team/CDK/wiki/Exploit:-docker-sock-deploy).
-
 
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关

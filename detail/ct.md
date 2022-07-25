@@ -26,22 +26,25 @@ Windows 编译环境安装请下载[rustup-init.exe](https://static.rust-lang.or
 从[releases](https://github.com/knownsec/ct/releases "releases")下载二进制文件。
 
 ```
-ct 1.0.0
+ct 1.0.9
 Autor: rungobier@knownsec 404 team <rungobier@gmail.com>
 Collect information tools about the target domain.
 
 USAGE:
-    ct [FLAGS] [OPTIONS] [domain]
+    ct_win64.exe [FLAGS] [OPTIONS] [domain]
 
 FLAGS:
-    -T               Network upload speed test.
-    -Z               Do not use zoomeye data
-    -h, --help       Prints help information
-    -i, --info       Get ZoomEye account base info
-    -V, --version    Prints version information
+    -E                Extended analysis domain
+    -T                Network upload speed test.
+    -Z                Do not use zoomeye data
+    -C, --cidr        Convert the IP related to the target domain name to cidr for extended search. Default is false.
+    -h, --help        Prints help information
+    -i, --info        Get ZoomEye account base info
+    -q, --query-ip    Use zoomeye to query ip information
+    -V, --version     Prints version information
 
 OPTIONS:
-        --init <apikey>                Initialize the ZoomEye api key 
+        --init <apikey>                Initialize the ZoomEye api key
     -s, --dns-dict <dns-file>          DNS Server list in a textual file.
                                        file example...
                                        8.8.8.8
@@ -53,6 +56,10 @@ OPTIONS:
                                        mail
                                        dev
                                        ...
+    -F <filter-domains>                Extended filter domain list.
+                                       Example of extended filtering domain name list:
+                                       knownsec.com,jiasule.com,365cyd.com...
+        --query-num <query-num>        Maximum number of zoomeye query. Default query number 100
     -t, --threads <thread-num>         Maximum number of threads. Default number $CPU_NUM
     -w, --work-dir <work-dir>          Directory to save the results of tasks. Default
                                        [/tmp|$DESKTOP]/YYYYmmddHHMM_$DOMAIN
@@ -67,6 +74,12 @@ ARGS:
 ```
 ZoomEye apikey 初始化
 ct --init 62EC1239-xxxx-xxxxx-xxxx-e45291301ee
+
+开启扩展搜索
+ct -E 
+
+过滤域名，域名之间以,分隔
+ct -F
 
 查看ZoomEye账号信息
 ct -i
