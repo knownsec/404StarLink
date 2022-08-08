@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/pocsuite3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.9.7-red)
+![Version](https://img.shields.io/badge/Version-V1.9.8-red)
 ![Time](https://img.shields.io/badge/Join-20200821-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -155,6 +155,14 @@ console mode
 
 ## 最近更新
 
+#### [v1.9.8] - 2022-08-06
+
+**更新**  
+- 支持对 PoC 全文进行正则搜索  
+- 在基类 POCBase 中为 PoC 的所有属性设置了默认值  
+- 添加监听/反连 shell  
+- 修复 fofa 插件分页查询的 bug
+
 #### [v1.9.7] - 2022-07-26
 
 **更新**  
@@ -190,11 +198,5 @@ console mode
 - 修改 ZoomEye/Seebug/CEYE 认证方式为 APIKEY  
 - poc 基类添加 check 方法，支持蜜罐识别和 http/https 协议自动纠正- 重构 --update 参数，优化框架更新流程  
 - 支持对框架版本进行检测，提高 poc 兼容性
-
-#### [v1.9.3] - 2022-05-25
-
-**更新**  
-- 增加奇安信网络空间搜索引擎数据支持  
-- 在 POCBase 类中新增 self.rhost & self.rport 字段
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

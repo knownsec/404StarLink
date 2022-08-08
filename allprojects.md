@@ -290,7 +290,7 @@ LSpider 一个为被动扫描器定制的前端爬虫
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/pocsuite3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.9.7-red)
+![Version](https://img.shields.io/badge/Version-V1.9.8-red)
 
 <https://github.com/knownsec/pocsuite3>
 
@@ -310,7 +310,7 @@ CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器�
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.21-red)
+![Version](https://img.shields.io/badge/Version-V1.5.23-red)
 
 <https://github.com/FunnyWolf/Viper>
 

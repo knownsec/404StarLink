@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.21-red)
+![Version](https://img.shields.io/badge/Version-V1.5.23-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -78,6 +78,16 @@
 
 ## 最近更新
 
+#### [v1.5.23] - 2022-08-07
+
+**优化**  
+- 合并 metasploit-framework 6.2.12版本  
+
+**Bugfix**  
+- 修复yajl-ruby bug导致的渗透服务无响应问题  
+- 修复msf cpu占用100%问题  
+- 修复内存占用过高问题
+
 #### [v1.5.21] - 2022-05-21
 
 **优化**  
@@ -119,16 +129,5 @@
 **Bugfix**  
 - 修复伪造成Word文档的exe文件某些情境下无法清理exe问题  
 - 修复Python,Java,Android类型Payload无法上线问题
-
-#### [v1.5.15] - 2022-02-13
-
-**优化**  
-- 优化部分UI布局  
-- 删除Session增加二次确认  
-- 通信通道适配大部分Payload  
-- 合并metasploit-framework 6.1.30版本  
-
-**Bugfix**  
-- 修复手机摄像头拍照MIUI崩溃问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
