@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
 ![Author](https://img.shields.io/badge/Author-长亭科技-orange)
 ![GitHub stars](https://img.shields.io/github/stars/chaitin/veinmind-tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.4.0-red)
+![Version](https://img.shields.io/badge/Version-V1.4.2-red)
 ![Time](https://img.shields.io/badge/Join-20220316-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -55,6 +55,12 @@ PS: 目前所有工具均已支持平行容器的方式运行
 
 ## 最近更新
 
+#### [v1.4.2] - 2022-08-12
+
+**更新**  
+- 支持插件依赖服务管理机制  
+- veinmind-runner 镜像支持使用 veinmind-malicious 扫描恶意文件
+
 #### [v1.4.0] - 2022-07-15
 
 **更新**  
@@ -89,20 +95,5 @@ PS: 目前所有工具均已支持平行容器的方式运行
 **Bug**  
 - 修复弱口令扫描无镜像 ID 问题  
 - 修复敏感信息扫描文件读取问题
-
-#### [v1.3.2] - 2022-06-15
-
-**Feature**  
-- veinmind-runner 支持配置文件写入认证信息  
-- 重构 veinmind-weakpass， 并新增多种服务弱口令扫描  
-- 增加 veinmind-basic 插件用于扫描镜像元信息  
-- 增加 veinmind-asset 插件用于扫描镜像资产信息  
-- 调整项目结构，插件均放置在 plugins 目录下  
-- veinmind-common 增加 confService，允许插件从宿主拉取对应的配置文件  
-- 支持指定容器运行时具体路径  
-- 支持指定插件自定义参数  
-
-**Bug**  
-- 修复 veinmind-runner 远程仓库镜像扫描的逻辑问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.9.9-red)
+![Version](https://img.shields.io/badge/Version-V1.0.0-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -151,6 +151,11 @@ go env -w GO111MODULE=on
 
 ## 最近更新
 
+#### [v1.0.0] - 2022-08-13
+
+**Added**  
+- 增加 Postman 监控功能
+
 #### [v0.9.9] - 2022-07-09
 
 **Added**  
@@ -195,14 +200,5 @@ go env -w GO111MODULE=on
 
 **优化**  
 - 简化 token 的数据结构
-
-#### [v0.9.3] - 2022-04-14
-
-**更新**  
-- Github 速率限制更加严格，避免反复达到速率限制频率  
-- 修复过滤规则不存在导致的搜索退出的问题  
-- 移除 redis 服务  
-- 升级前端组件修复潜在的安全问题  
-- 增加企业微信通知
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
