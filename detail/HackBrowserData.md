@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-moonD4rk-orange)
 ![GitHub stars](https://img.shields.io/github/stars/moonD4rk/HackBrowserData.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.4.3-red)
+![Version](https://img.shields.io/badge/Version-V0.4.4-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -178,6 +178,14 @@ PS C:\test>  .\hack-browser-data.exe -b all -f json --dir results -zip
 
 ## 最近更新
 
+#### [v0.4.4] - 2022-08-16
+
+**更新**  
+- 修复 chrome 在 windows 上获取 cookie 内容失败的问题  
+- 在 CI 中添加了更多检查  
+- 优化  golangci-lint 代码  
+- 修复压缩结果时无法访问文件的问题
+
 #### [v0.4.3] - 2022-06-05
 
 **更新**  
@@ -210,17 +218,5 @@ PS C:\test>  .\hack-browser-data.exe -b all -f json --dir results -zip
 - 修复 Chromium cookie 文件路径错误  
 - Windows 下解密 Chromium 密码时增加 AES 块大小检查  
 - 修复 Windows 导出信用卡失败
-
-#### [v0.3.7] - 2021-12-13
-
-**新功能**  
-- 为macOS和Windows添加Yandex浏览器  
-- 为macOS和Windows添加CocCoc浏览器  
-
-**修复**  
-- 优化中文版README内容  
-- 为AES解密添加密文长度检查  
-- 更新依赖组件github.com/tidwall/gjson至1.9.3  
-- 升级go-sqlite3版本，移除编译警告
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

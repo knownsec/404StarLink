@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
 ![Author](https://img.shields.io/badge/Author-长亭科技-orange)
 ![GitHub stars](https://img.shields.io/github/stars/chaitin/veinmind-tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.4.2-red)
+![Version](https://img.shields.io/badge/Version-V1.5.0-red)
 ![Time](https://img.shields.io/badge/Join-20220316-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -55,6 +55,11 @@ PS: 目前所有工具均已支持平行容器的方式运行
 
 ## 最近更新
 
+#### [v1.5.0] - 2022-08-19
+
+**更新**  
+- 新增 veinmind-webshell 检测插件
+
 #### [v1.4.2] - 2022-08-12
 
 **更新**  
@@ -75,16 +80,6 @@ PS: 目前所有工具均已支持平行容器的方式运行
 **更新**  
 - 修复远程仓库扫描未解析 tag 的问题  
 - 支持英文文档
-
-#### [v1.3.3] - 2022-06-21
-
-**Feature**  
-- 适配 harbor 镜像扫描  
-- 弱口令扫描增加单元测试  
-
-**Bug**  
-- 修复弱口令扫描无镜像 ID 问题  
-- 修复敏感信息扫描文件读取问题
 
 #### [v1.3.3] - 2022-06-21
 
