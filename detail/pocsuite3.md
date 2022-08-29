@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/pocsuite3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.9.8-red)
+![Version](https://img.shields.io/badge/Version-V1.9.9-red)
 ![Time](https://img.shields.io/badge/Join-20200821-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -155,6 +155,13 @@ console mode
 
 ## 最近更新
 
+#### [v1.9.9] - 2022-08-24
+
+**更新**  
+- 新增根据 poc 协议字段自动修正 target 路径  
+- 修复 windows 平台 poc-console 高亮显示的问题  
+- 默认去除 target 路径末尾的 '/' 字符
+
 #### [v1.9.8] - 2022-08-06
 
 **更新**  
@@ -189,14 +196,5 @@ console mode
 - 目标 url 目前支持 CIDR，用户可使用 -p 指定端口  
 - 支持本地模式，该模式化下 poc 不需要指定目标，比如本地提权漏洞  
 - 修复部分 bugs
-
-#### [v1.9.4] - 2022-06-07
-
-**更新**  
-- 支持 poc 模板生成(--new)  
-- 支持自定义 interactsh 服务器设置  
-- 修改 ZoomEye/Seebug/CEYE 认证方式为 APIKEY  
-- poc 基类添加 check 方法，支持蜜罐识别和 http/https 协议自动纠正- 重构 --update 参数，优化框架更新流程  
-- 支持对框架版本进行检测，提高 poc 兼容性
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

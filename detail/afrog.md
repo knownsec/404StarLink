@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.6-red)
+![Version](https://img.shields.io/badge/Version-V1.3.7-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -65,6 +65,15 @@ html 报告
 
 
 ## 最近更新
+
+#### [v1.3.7] - 2022-08-24
+
+**更新**  
+- 新增 socks/http(s) 代理  
+- 优化并发机制，牺牲扫描速度，减少漏报  
+- 修复自定义UA 失效问题  
+- 优化部分 PoC 调低漏洞等级  
+- 删除 PoC rsync-unauth
 
 #### [v1.3.6] - 2022-07-24
 
