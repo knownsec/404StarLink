@@ -17,16 +17,16 @@
 
 | 时间 | 项目名称 | 项目动态 |
 |----|-----------|--------------------------|
+|2022-08-29|[**Hades**](detail/Hades.md)|Hades加入星链计划|
+|2022-08-29|[**Cloud-Bucket-Leak-Detection-Tools**](detail/Cloud-Bucket-Leak-Detection-Tools.md)|Cloud-Bucket-Leak-Detection-Tools加入星链计划|
+|2022-08-29|[**Cola-Dnslog**](detail/Cola-Dnslog.md)|Cola-Dnslog加入星链计划|
+|2022-08-29|[**cf**](detail/cf.md)|cf加入星链计划|
 |2022-08-24|[**pocsuite3**](detail/pocsuite3.md)|更新 [v1.9.9](detail/pocsuite3.md#最近更新) 版本|
 |2022-08-24|[**afrog**](detail/afrog.md)|更新 [v1.3.7](detail/afrog.md#最近更新) 版本|
+|2022-08-23|[**KunLun-M**](detail/KunLun-M.md)|发布演示视频[404星链计划开源安全工具演示——KunLun-M](https://www.bilibili.com/video/BV15a411G7CT)|
 |2022-08-19|[**veinmind-tools**](detail/veinmind-tools.md)|更新 [v1.5.0](detail/veinmind-tools.md#最近更新) 版本|
 |2022-08-16|[**HackBrowserData**](detail/HackBrowserData.md)|更新 [v0.4.4](detail/HackBrowserData.md#最近更新) 版本|
 |2022-08-13|[**GShark**](detail/gshark.md)|更新 [v1.0.0](detail/gshark.md#最近更新) 版本|
-|2022-08-07|[**Viper**](detail/Viper.md)|更新 [v1.5.23](detail/Viper.md#最近更新) 版本|
-|2022-07-18|[**ct**](detail/ct.md)|更新 [v1.0.9](detail/ct.md#最近更新) 版本|
-|2022-07-18|[**antSword**](detail/antSword.md)|发布文章[《AntSword v2.1.15 更新汇总》](https://mp.weixin.qq.com/s/QzbREMp8JaQiP9qo48OyHg)|
-|2022-07-17|[**antSword**](detail/antSword.md)|更新 [v2.1.15](detail/antSword.md#最近更新) 版本|
-|2022-07-15|[**HaE**](detail/HaE.md)|更新 [v2.4.2](detail/HaE.md#最近更新) 版本|
 
 **2.StarRank**
 
@@ -62,16 +62,16 @@
 
 | 时间 | 项目名称 | 项目简介 |
 |----|-----------|--------------------------|
+|2022-08-29|[**Hades**](detail/Hades.md)|Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检测系统，其中每个插件均可独立分开运行。|
+|2022-08-29|[**Cloud-Bucket-Leak-Detection-Tools**](detail/Cloud-Bucket-Leak-Detection-Tools.md)|Cloud-Bucket-Leak-Detection-Tools是一款针对云厂商存储桶扫描检测与利用的工具|
+|2022-08-29|[**Cola-Dnslog**](detail/Cola-Dnslog.md)|Cola Dnslog 是一款更加强大的dnslog平台(无回显漏洞探测辅助平台)，支持dns http ldap rmi等协议，提供API调用方式便于与其他工具结合，支持钉钉机器人、Bark等提醒，并支持docker一键部署。|
+|2022-08-29|[**cf**](detail/cf.md)|CF 是一个云环境利用框架，主要用来方便红队人员在获得云服务 Access Key 的后续工作。|
 |2022-06-15|[**afrog**](detail/afrog.md)|afrog 是一款性能卓越、快速稳定、PoC 可定制的漏洞扫描工具，PoC 包含 CVE、CNVD、默认口令、信息泄露、指纹识别、未授权访问、任意文件读取、命令执行等多种漏洞类型，帮助网络安全从业者快速验证并及时修复漏洞。|
 |2022-06-15|[**BinAbsInspector**](detail/BinAbsInspector.md)|BinAbsInspector(Binary Abstract Inspector)是一款用于自动化逆向工程和扫描二进制文件漏洞的静态分析器，是 Keenlab 孵化的长期研究项目。基于 Ghidra 的支持下的抽象解释，适用于 Ghidra 的 Pcode 而非汇编。目前支持 x86、x64、armv7 和 aarch64 的二进制文件。|
 |2022-03-16|[**veinmind-tools**](detail/veinmind-tools.md)|veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目前已支持镜像 恶意文件/后门/敏感信息/弱口令 的扫描，更多功能正在逐步开发中。|
 |2022-03-16|[**DNSlog-GO**](detail/DNSlog-GO.md)|DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面。单文件运行，无依赖。部署方便快捷。|
 |2022-03-16|[**scaninfo**](detail/scaninfo.md)|scaninfo 是一款开源、轻量、快速、跨平台的红队内外网打点扫描器。比较同类工具，其能够在 nmap 的扫描速度和 masscan 的准确度之间寻找一个较好的平衡点，能够快速进行端口扫描和服务识别，内置指纹识别用于 web 探测，可以用报告的方式整理扫描结果。|
 |2021-12-13|[**ct**](detail/ct.md)|ct 是一款使用 rust 语言进行开发，并且基于ZoomEye域名查询以及利用域名字典进行子域名爆破的工具，同时在最终爆破完成后可使用脚本，将相应的的.gv 文件转化成为相应的 .png 文件进行可视化展示|
-|2021-11-22|[**MySQL-Fake-Server**](detail/MySQL-Fake-Server.md)|用于渗透测试过程中的假MySQL服务器，纯原生python3实现，不依赖其它包。|
-|2021-11-22|[**BurpCrypto**](detail/BurpCrypto.md)|支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插件。|
-|2021-11-22|[**ysomap**](detail/ysomap.md)|Ysomap是一款适配于各类实际复杂环境的Java反序列化利用框架，可动态配置具备不同执行效果的Java反序列化利用链payload，以应对不同场景下的反序列化利用。|
-|2021-11-22|[**Kunyu**](detail/Kunyu.md)|Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在让企业资产收集更高效，使更多安全相关从业者了解、使用网络空间测绘技术。|
 
 **5.[分类:甲方工具](party_a.md)**
 
@@ -82,6 +82,7 @@
 |3|[**veinmind-tools**](detail/veinmind-tools.md)|长亭科技|veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目前已支持镜像 恶意文件/后门/敏感信息/弱口令 的扫描，更多功能正在逐步开发中。|834|
 |4|[**GShark**](detail/gshark.md)|madneal|一款开源敏感信息监测系统，可以监测包括 github、gitlab(目前不太稳定，由于gitlab对于免费用户不提供代码全文检索API)、searchcode 多平台的敏感信息监测。|570|
 |5|[**Juggler**](detail/Juggler.md)|C4o|一个也许能骗到黑客的系统，可以作为WAF等防护体系的一环。|412|
+|6|[**Hades**](detail/Hades.md)|theSecHunter|Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检测系统，其中每个插件均可独立分开运行。|10|
 
 **6.[分类:信息收集](reconnaissance.md)**
 
@@ -107,9 +108,10 @@
 * [内网工具](intranet_tools.md)
 * [其他](others.md)
 
-8.[入选2021Kcon安全会议兵器谱](column/2021KCon_exhibition_with_starlink.md)  
-9.[星链计划全部项目](allprojects.md)  
-10.[正在申请加入的项目](https://github.com/knownsec/404StarLink/issues)  
+8.[入选2021Kcon黑客大会兵器谱](column/2021KCon_exhibition_with_starlink.md)  
+9.[入选2022Kcon黑客大会兵器谱](column/2022KCon_exhibition_with_starlink.md)  
+10.[星链计划全部项目](allprojects.md)  
+11.[正在申请加入的项目](https://github.com/knownsec/404StarLink/issues)  
 
 <!--auto_index_exhibition_end_bb3ccc282a0d1924df21437a263718c3-->
 

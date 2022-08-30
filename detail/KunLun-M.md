@@ -305,6 +305,7 @@ rules/{语言类型}/CVI_xxxx.py
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
+- 2022-08-23 发布演示视频[404星链计划开源安全工具演示——KunLun-M](https://www.bilibili.com/video/BV15a411G7CT)
 
 ## 最近更新
 

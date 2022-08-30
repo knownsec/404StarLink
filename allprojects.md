@@ -7,6 +7,7 @@
     * [veinmind-tools](#veinmind-tools)
     * [gshark](#gshark)
     * [Juggler](#juggler)
+    * [Hades](#hades)
 
 * [信息收集/reconnaissance](#信息收集reconnaissance)
     * [AppInfoScanner](#appinfoscanner)
@@ -33,11 +34,14 @@
     * [Viper](#viper)
     * [MDUT](#mdut)
     * [BurpCrypto](#burpcrypto)
+    * [cf](#cf)
     * [ysomap](#ysomap)
     * [MySQL-Fake-Server](#mysql-fake-server)
     * [DNSlog-GO](#dnslog-go)
+    * [Cloud-Bucket-Leak-Detection-Tools](#cloud-bucket-leak-detection-tools)
     * [Redis-Rogue-Server](#redis-rogue-server)
     * [MysqlT](#mysqlt)
+    * [Cola-Dnslog](#cola-dnslog)
 
 * [信息分析/information_analysis](#信息分析information_analysis)
     * [HackBrowserData](#hackbrowserdata)
@@ -126,6 +130,16 @@ veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目
 <https://github.com/C4o/Juggler>
 
 一个也许能骗到黑客的系统，可以作为WAF等防护体系的一环。
+
+### [Hades](detail/Hades.md)
+![Author](https://img.shields.io/badge/Author-theSecHunter-orange)
+![Language](https://img.shields.io/badge/Language-Golang&C++&C-blue)
+![GitHub stars](https://img.shields.io/github/stars/theSecHunter/Hades.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+
+<https://github.com/theSecHunter/Hades>
+
+Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检测系统，其中每个插件均可独立分开运行。
 
 
 
@@ -336,6 +350,16 @@ MDUT 全称 Multiple Database Utilization Tools，旨在将常见的数据库利
 
 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插件。
 
+### [cf](detail/cf.md)
+![Author](https://img.shields.io/badge/Author-teamssix-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/teamssix/cf.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.3.5-red)
+
+<https://github.com/teamssix/cf>
+
+CF 是一个云环境利用框架，主要用来方便红队人员在获得云服务 Access Key 的后续工作。
+
 ### [ysomap](detail/ysomap.md)
 ![Author](https://img.shields.io/badge/Author-wh1t3p1g-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
@@ -366,6 +390,16 @@ Ysomap是一款适配于各类实际复杂环境的Java反序列化利用框架�
 
 DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面。单文件运行，无依赖。部署方便快捷。
 
+### [Cloud-Bucket-Leak-Detection-Tools](detail/Cloud-Bucket-Leak-Detection-Tools.md)
+![Author](https://img.shields.io/badge/Author-UzJu-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/UzJu/Cloud-Bucket-Leak-Detection-Tools.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.4.0-red)
+
+<https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools>
+
+Cloud-Bucket-Leak-Detection-Tools是一款针对云厂商存储桶扫描检测与利用的工具
+
 ### [Redis-Rogue-Server](detail/Redis-Rogue-Server.md)
 ![Author](https://img.shields.io/badge/Author-Dliv3-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
@@ -385,6 +419,16 @@ Redis 4.x/Redis 5.x RCE利用脚本. 项目最初来源于 <https://github.com/n
 <https://github.com/BeichenDream/MysqlT>
 
 伪造Myslq服务端,并利用Mysql逻辑漏洞来获取客户端的任意文件反击攻击。
+
+### [Cola-Dnslog](detail/Cola-Dnslog.md)
+![Author](https://img.shields.io/badge/Author-AbelChe-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/AbelChe/cola_dnslog.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+
+<https://github.com/AbelChe/cola_dnslog>
+
+Cola Dnslog 是一款更加强大的dnslog平台(无回显漏洞探测辅助平台)，支持dns http ldap rmi等协议，提供API调用方式便于与其他工具结合，支持钉钉机器人、Bark等提醒，并支持docker一键部署。
 
 
 

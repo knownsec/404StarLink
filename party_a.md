@@ -6,6 +6,7 @@
 4. [veinmind-tools](#veinmind-tools)
 5. [GShark](#gshark)
 6. [Juggler](#juggler)
+7. [Hades](#hades)
 
 ----------------------------------------
 
@@ -68,4 +69,14 @@ veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目
 <https://github.com/C4o/Juggler>
 
 一个也许能骗到黑客的系统，可以作为WAF等防护体系的一环。
+
+### [Hades](detail/Hades.md)
+![Author](https://img.shields.io/badge/Author-theSecHunter-orange)
+![Language](https://img.shields.io/badge/Language-Golang&C++&C-blue)
+![GitHub stars](https://img.shields.io/github/stars/theSecHunter/Hades.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+
+<https://github.com/theSecHunter/Hades>
+
+Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检测系统，其中每个插件均可独立分开运行。
 
