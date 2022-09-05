@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Bash-blue)
 ![Author](https://img.shields.io/badge/Author-ffffffff0x-orange)
 ![GitHub stars](https://img.shields.io/github/stars/ffffffff0x/f8x.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.1-red)
+![Version](https://img.shields.io/badge/Version-V1.6.2-red)
 ![Time](https://img.shields.io/badge/Join-20210223-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -169,6 +169,21 @@ f8x 基本上不需要任何依赖,或者说它就是为了帮助你安装各种
 
 ## 最近更新
 
+#### [v1.6.2] - 2022-09-04
+
+**兼容性**  
+- 支持 CentOS 9 Stream  
+- 支持 Fedora 36  
+
+**功能添加**  
+- -k 选项添加 iprange/dnsx/MoreFind  
+- 添加 -wpscan/-cs45-interactsh/等 选项  
+
+**功能修改与优化**  
+- 优化对docker环境的判断  
+- 添加了对ruby的检测  
+- 优化了对keytool工具的判断
+
 #### [v1.6.1] - 2022-06-06
 
 **兼容性**  
@@ -215,16 +230,5 @@ f8x 基本上不需要任何依赖,或者说它就是为了帮助你安装各种
 - 兼容 Rocky  
 - python3 选项改为 -py3(7/8/9)  
 - python2 选项改为 -py2
-
-#### [v1.5.6] - 2021-10-03
-
-**功能修改**  
-- 更新 crawlergo 的下载链接  
-- 更改显示语言 #10 #11  
-- 在安装 volatility3 时默认不会下载 Symbol Tables  
-- 优化对已安装软件的检测,尽量避免重复安装  
-- 修改一个重命名的bug  
-- 移除 sharry 的安装选项  
-
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

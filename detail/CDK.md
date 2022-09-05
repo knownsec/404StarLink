@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-CDK-blue)
 ![Author](https://img.shields.io/badge/Author-cdkteam-orange)
 ![GitHub stars](https://img.shields.io/github/stars/cdk-team/CDK.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.0-red)
+![Version](https://img.shields.io/badge/Version-V1.4.0-red)
 ![Time](https://img.shields.io/badge/Join-20210223-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -207,6 +207,13 @@ cdk ps
 
 ## 最近更新
 
+#### [v1.4.0] - 2022-09-04
+
+**更新**  
+- 新增通过 cgroup release_agent 实现的 lxcfs-rw Exploit  
+- 为 lxcfs-rw/lxcfs-rw-cgroup 添加推荐信息  
+- 新增高亮显示所有的挂载信息
+
 #### [v1.3.0] - 2022-07-10
 
 **Exploits**  
@@ -254,14 +261,5 @@ cdk ps
 - 添加 CVE-2022-0492 的 EXP  
 - 修复运行 exp 时 shim-pwn 异常退出的问题  
 - 将 shell 实现的 mount-cgroup 功能改为 Golang 实现
-
-#### [v1.0.5] - 2022-03-06
-
-**更新**  
-- 修复运行 exp 时 shim-pwn 异常退出的问题  
-- 在 docopt 添加 eva 参数  
-- 支持 cdk eval  
-- 同步 github.com/containerd/containerd 到 1.4.12  
-- 同步 github.com/tidwall/gjson 到 1.9.3
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
