@@ -33,8 +33,8 @@
     * [CDK](#cdk)
     * [Viper](#viper)
     * [MDUT](#mdut)
-    * [BurpCrypto](#burpcrypto)
     * [cf](#cf)
+    * [BurpCrypto](#burpcrypto)
     * [ysomap](#ysomap)
     * [MySQL-Fake-Server](#mysql-fake-server)
     * [DNSlog-GO](#dnslog-go)
@@ -304,7 +304,7 @@ LSpider 一个为被动扫描器定制的前端爬虫
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/pocsuite3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.9.9-red)
+![Version](https://img.shields.io/badge/Version-V1.9.11-red)
 
 <https://github.com/knownsec/pocsuite3>
 
@@ -324,7 +324,7 @@ CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器�
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.23-red)
+![Version](https://img.shields.io/badge/Version-V1.5.24-red)
 
 <https://github.com/FunnyWolf/Viper>
 
@@ -340,6 +340,16 @@ VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战�
 
 MDUT 全称 Multiple Database Utilization Tools，旨在将常见的数据库利用手段集合在一个程序中，打破各种数据库利用工具需要各种环境导致使用相当不便的隔阂；MDUT 使用 Java 开发，支持跨平台使用。
 
+### [cf](detail/cf.md)
+![Author](https://img.shields.io/badge/Author-teamssix-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/teamssix/cf.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.4.0-red)
+
+<https://github.com/teamssix/cf>
+
+CF 是一个云环境利用框架，主要用来方便红队人员在获得云服务 Access Key 的后续工作。
+
 ### [BurpCrypto](detail/BurpCrypto.md)
 ![Author](https://img.shields.io/badge/Author-whwlsfb-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
@@ -349,16 +359,6 @@ MDUT 全称 Multiple Database Utilization Tools，旨在将常见的数据库利
 <https://github.com/whwlsfb/BurpCrypto>
 
 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插件。
-
-### [cf](detail/cf.md)
-![Author](https://img.shields.io/badge/Author-teamssix-orange)
-![Language](https://img.shields.io/badge/Language-Golang-blue)
-![GitHub stars](https://img.shields.io/github/stars/teamssix/cf.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.3.5-red)
-
-<https://github.com/teamssix/cf>
-
-CF 是一个云环境利用框架，主要用来方便红队人员在获得云服务 Access Key 的后续工作。
 
 ### [ysomap](detail/ysomap.md)
 ![Author](https://img.shields.io/badge/Author-wh1t3p1g-orange)

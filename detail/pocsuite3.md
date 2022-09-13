@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/pocsuite3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.9.9-red)
+![Version](https://img.shields.io/badge/Version-V1.9.11-red)
 ![Time](https://img.shields.io/badge/Join-20200821-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -155,6 +155,15 @@ console mode
 
 ## 最近更新
 
+#### [v1.9.11] - 2022-09-08
+
+**更新**  
+- 用户可以在 PoC 中自定义协议和默认端口，方便对 url 格式化  
+- 使用 -p 参数给目标添加额外端口，可同时提供协议  
+- 使用 -s 参数可以 skip target 本身的端口，只使用 -p 提供的端口  
+- poc-console 优化  
+- 一些改进和 bug 修复
+
 #### [v1.9.9] - 2022-08-24
 
 **更新**  
@@ -184,17 +193,5 @@ console mode
 - 优化网络空间搜索引擎插件的超时  
 - 优化url协议的处理  
 - 文档更新
-
-#### [v1.9.5] - 2022-06-22
-
-**更新**  
-- 重构 --ppt 参数，优化 url 马赛克功能  
-- 优化 poc 模板  
-- 优化命令行默认提示信息  
-- 调整默认超时为 10 秒  
-- 调整默认线程数为 150  
-- 目标 url 目前支持 CIDR，用户可使用 -p 指定端口  
-- 支持本地模式，该模式化下 poc 不需要指定目标，比如本地提权漏洞  
-- 修复部分 bugs
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

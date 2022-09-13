@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.23-red)
+![Version](https://img.shields.io/badge/Version-V1.5.24-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -78,6 +78,19 @@
 
 ## 最近更新
 
+#### [v1.5.24] - 2022-09-11
+
+**新功能**  
+- 新增UI提示框获取用户输入的密码模块  
+
+**优化**  
+- mitmproxy开放公网访问,添加http代理认证  
+- msfrpc web组件由puma替换为thin,减少cpu占用  
+- msfrpc默认开启cpulimit 50%  
+- msfrpc使用OJ为默认json组件,替换yajl  
+- 更新Django 4.0  
+- 合并metasploit-framework 6.2.18版本
+
 #### [v1.5.23] - 2022-08-07
 
 **优化**  
@@ -119,15 +132,5 @@
 **Bugfix**  
 - 修复reverse_https监听关闭后端口占用问题  
 - to_handler生成的监听当前在WEBUI正确显示
-
-#### [v1.5.16] - 2022-02-26
-
-**优化**  
-- 优化部分UI,适配Macox  
-- 合并metasploit-framework 6.1.32版本  
-
-**Bugfix**  
-- 修复伪造成Word文档的exe文件某些情境下无法清理exe问题  
-- 修复Python,Java,Android类型Payload无法上线问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
