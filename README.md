@@ -17,36 +17,37 @@
 
 | 时间 | 项目名称 | 项目动态 |
 |----|-----------|--------------------------|
+|2022-09-16|[**appshark**](detail/appshark.md)|更新 [v0.1.1](detail/appshark.md#最近更新) 版本|
+|2022-09-16|[**Antenna**](detail/Antenna.md)|更新 [v1.1](detail/Antenna.md#最近更新) 版本|
+|2022-09-15|[**afrog**](detail/afrog.md)|更新 [v1.3.8](detail/afrog.md#最近更新) 版本|
+|2022-09-14|[**veinmind-tools**](detail/veinmind-tools.md)|更新 [v1.5.1](detail/veinmind-tools.md#最近更新) 版本|
+|2022-09-14|[**murphysec**](detail/murphysec.md)|murphysec加入星链计划|
+|2022-09-14|[**appshark**](detail/appshark.md)|appshark加入星链计划|
+|2022-09-14|[**Antenna**](detail/Antenna.md)|Antenna加入星链计划|
 |2022-09-11|[**Viper**](detail/Viper.md)|更新 [v1.5.24](detail/Viper.md#最近更新) 版本|
 |2022-09-08|[**pocsuite3**](detail/pocsuite3.md)|更新 [v1.9.11](detail/pocsuite3.md#最近更新) 版本|
 |2022-09-08|[**HackBrowserData**](detail/HackBrowserData.md)|发布演示视频[404星链计划开源安全工具演示——HackBrowserData](https://www.bilibili.com/video/BV1eU4y1z7si)|
-|2022-09-07|[**cf**](detail/cf.md)|更新 [v0.4.0](detail/cf.md#最近更新) 版本|
-|2022-09-04|[**CDK**](detail/CDK.md)|更新 [v1.4.0](detail/CDK.md#最近更新) 版本|
-|2022-09-04|[**f8x**](detail/f8x.md)|更新 [v1.6.2](detail/f8x.md#最近更新) 版本|
-|2022-08-29|[**Hades**](detail/Hades.md)|Hades加入星链计划|
-|2022-08-29|[**Cloud-Bucket-Leak-Detection-Tools**](detail/Cloud-Bucket-Leak-Detection-Tools.md)|Cloud-Bucket-Leak-Detection-Tools加入星链计划|
-|2022-08-29|[**Cola-Dnslog**](detail/Cola-Dnslog.md)|Cola-Dnslog加入星链计划|
-|2022-08-29|[**cf**](detail/cf.md)|cf加入星链计划|
 
 **2.StarRank**
 
 | 序号 | 项目名称 | 项目简介 | Star |
 |----|-----------|--------------------------|----|
-|1|[**HackBrowserData**](detail/HackBrowserData.md)|hack-browser-data 是一个解密浏览器数据（密码/历史记录/Cookies/书签）的导出工具，支持全平台主流浏览器的数据导出窃取。|5754|
-|2|[**fscan**](detail/fscan.md)|一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。支持主机存活探测、端口扫描、常见服务的爆破、ms17010、redis批量写公钥、计划任务反弹shell、读取win网卡信息、web指纹识别、web漏洞扫描、netbios探测、域控识别等功能。|4525|
-|3|[**pocsuite3**](detail/pocsuite3.md)|pocsuite3是由Knownsec 404团队开发的开源远程漏洞测试和概念验证开发框架。它带有强大的概念验证引擎，以及针对最终渗透测试人员和安全研究人员的许多强大功能。|2759|
-|4|[**CDK**](detail/CDK.md)|CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器内部提供零依赖的常用命令及PoC/EXP。集成Docker/K8s场景特有的逃逸、横向移动、持久化利用方式，插件化管理。|2534|
+|1|[**HackBrowserData**](detail/HackBrowserData.md)|hack-browser-data 是一个解密浏览器数据（密码/历史记录/Cookies/书签）的导出工具，支持全平台主流浏览器的数据导出窃取。|5791|
+|2|[**fscan**](detail/fscan.md)|一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。支持主机存活探测、端口扫描、常见服务的爆破、ms17010、redis批量写公钥、计划任务反弹shell、读取win网卡信息、web指纹识别、web漏洞扫描、netbios探测、域控识别等功能。|4553|
+|3|[**pocsuite3**](detail/pocsuite3.md)|pocsuite3是由Knownsec 404团队开发的开源远程漏洞测试和概念验证开发框架。它带有强大的概念验证引擎，以及针对最终渗透测试人员和安全研究人员的许多强大功能。|2774|
+|4|[**CDK**](detail/CDK.md)|CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器内部提供零依赖的常用命令及PoC/EXP。集成Docker/K8s场景特有的逃逸、横向移动、持久化利用方式，插件化管理。|2545|
 |5|[**Viper**](detail/Viper.md)|VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战术及技术进行模块化及武器化。|2512|
-|6|[**antSword**](detail/antSword.md)|中国蚁剑是一款开源的跨平台网站管理工具。|2008|
-|7|[**KunLun-M**](detail/KunLun-M.md)|KunLun-M是一个完全开源的静态白盒扫描工具，支持PHP、JavaScript的语义扫描，基础安全、组件安全扫描，Chrome Ext\Solidity的基础扫描。|1591|
-|8|[**Stowaway**](detail/Stowaway.md)|Stowaway 是一款多级代理工具，可将外部流量通过多个节点代理至内网，突破内网访问限制。Stowaway 可以方便渗透测试人员通过多级跳跃，从外部dmz等一系列区域逐步深入核心网络；Stowaway 除了流量转发功能，还提供了端口复用、ssh隧道，流量伪装等专为渗透测试人员所用的功能。|1581|
+|6|[**antSword**](detail/antSword.md)|中国蚁剑是一款开源的跨平台网站管理工具。|2029|
+|7|[**KunLun-M**](detail/KunLun-M.md)|KunLun-M是一个完全开源的静态白盒扫描工具，支持PHP、JavaScript的语义扫描，基础安全、组件安全扫描，Chrome Ext\Solidity的基础扫描。|1601|
+|8|[**Stowaway**](detail/Stowaway.md)|Stowaway 是一款多级代理工具，可将外部流量通过多个节点代理至内网，突破内网访问限制。Stowaway 可以方便渗透测试人员通过多级跳跃，从外部dmz等一系列区域逐步深入核心网络；Stowaway 除了流量转发功能，还提供了端口复用、ssh隧道，流量伪装等专为渗透测试人员所用的功能。|1594|
 |9|[**Kunpeng**](detail/Kunpeng.md)|Kunpeng是一个Golang编写的开源POC检测框架，集成了包括数据库、中间件、web组件、cms等等的漏洞POC，可检测弱口令、SQL注入、XSS、RCE等漏洞类型，以动态链接库的形式提供调用，通过此项目可快速开发漏洞检测类的系统，比攻击者快一步发现风险漏洞。|1510|
-|10|[**AppInfoScanner**](detail/AppInfoScanner.md)|一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。|1460|
+|10|[**AppInfoScanner**](detail/AppInfoScanner.md)|一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。|1475|
 
 **3.项目更新**
 
 | 时间 | 项目迭代版本 |
 |----|-----------|
+|第37周|[**appshark**](detail/appshark.md) 更新 [v0.1.1](detail/appshark.md#最近更新) / [**Antenna**](detail/Antenna.md) 更新 [v1.1](detail/Antenna.md#最近更新) / [**afrog**](detail/afrog.md) 更新 [v1.3.8](detail/afrog.md#最近更新) / [**veinmind-tools**](detail/veinmind-tools.md) 更新 [v1.5.1](detail/veinmind-tools.md#最近更新)|
 |第36周|[**Viper**](detail/Viper.md) 更新 [v1.5.24](detail/Viper.md#最近更新) / [**pocsuite3**](detail/pocsuite3.md) 更新 [v1.9.11](detail/pocsuite3.md#最近更新) / [**cf**](detail/cf.md) 更新 [v0.4.0](detail/cf.md#最近更新)|
 |第35周|[**CDK**](detail/CDK.md) 更新 [v1.4.0](detail/CDK.md#最近更新) / [**f8x**](detail/f8x.md) 更新 [v1.6.2](detail/f8x.md#最近更新)|
 |第34周|[**pocsuite3**](detail/pocsuite3.md) 更新 [v1.9.9](detail/pocsuite3.md#最近更新) / [**afrog**](detail/afrog.md) 更新 [v1.3.7](detail/afrog.md#最近更新)|
@@ -56,12 +57,14 @@
 |第30周|[**pocsuite3**](detail/pocsuite3.md) 更新 [v1.9.7](detail/pocsuite3.md#最近更新)|
 |第29周|[**afrog**](detail/afrog.md) 更新 [v1.3.6](detail/afrog.md#最近更新) / [**ct**](detail/ct.md) 更新 [v1.0.9](detail/ct.md#最近更新)|
 |第28周|[**antSword**](detail/antSword.md) 更新 [v2.1.15](detail/antSword.md#最近更新) / [**HaE**](detail/HaE.md) 更新 [v2.4.2](detail/HaE.md#最近更新) / [**veinmind-tools**](detail/veinmind-tools.md) 更新 [v1.4.0](detail/veinmind-tools.md#最近更新)|
-|第27周|[**CDK**](detail/CDK.md) 更新 [v1.3.0](detail/CDK.md#最近更新) / [**afrog**](detail/afrog.md) 更新 [v1.3.5](detail/afrog.md#最近更新) / [**GShark**](detail/gshark.md) 更新 [v0.9.9](detail/gshark.md#最近更新) / [**pocsuite3**](detail/pocsuite3.md) 更新 [v1.9.6](detail/pocsuite3.md#最近更新) / [**veinmind-tools**](detail/veinmind-tools.md) 更新 [v1.3.5](detail/veinmind-tools.md#最近更新) / [**fscan**](detail/fscan.md) 更新 [v1.8.1](detail/fscan.md#最近更新)|
 
 **4.新项目加入**
 
 | 时间 | 项目名称 | 项目简介 |
 |----|-----------|--------------------------|
+|2022-09-14|[**murphysec**](detail/murphysec.md)|墨菲安全专注于软件供应链安全，murphysec 是墨菲安全的 CLI 工具，用于在命令行检测指定目录代码的依赖安全问题，也可以基于 CLI 工具实现在 CI 流程的检测。|
+|2022-09-14|[**appshark**](detail/appshark.md)|Appshark 是一个针对安卓的静态分析工具，它的设计目标是针对超大型App的分析，Appshark支持基于json的自定义扫描规则,发现自己关心的安全漏洞以及隐私合规问题，支持灵活配置，可以在准确率以及扫描时间空间之间寻求平衡，支持自定义扩展规则，根据自己的业务需要，进行定制分析|
+|2022-09-14|[**Antenna**](detail/Antenna.md)|Antenna是58同城安全团队打造的一款辅助安全从业人员辅助验证网络中多种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试( OAST)通过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标进行Out-of-bind的数据通信方式进行辅助检测。|
 |2022-08-29|[**Hades**](detail/Hades.md)|Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检测系统，其中每个插件均可独立分开运行。|
 |2022-08-29|[**Cloud-Bucket-Leak-Detection-Tools**](detail/Cloud-Bucket-Leak-Detection-Tools.md)|Cloud-Bucket-Leak-Detection-Tools是一款针对云厂商存储桶扫描检测与利用的工具|
 |2022-08-29|[**Cola-Dnslog**](detail/Cola-Dnslog.md)|Cola Dnslog 是一款更加强大的dnslog平台(无回显漏洞探测辅助平台)，支持dns http ldap rmi等协议，提供API调用方式便于与其他工具结合，支持钉钉机器人、Bark等提醒，并支持docker一键部署。|
@@ -69,9 +72,6 @@
 |2022-06-15|[**afrog**](detail/afrog.md)|afrog 是一款性能卓越、快速稳定、PoC 可定制的漏洞扫描工具，PoC 包含 CVE、CNVD、默认口令、信息泄露、指纹识别、未授权访问、任意文件读取、命令执行等多种漏洞类型，帮助网络安全从业者快速验证并及时修复漏洞。|
 |2022-06-15|[**BinAbsInspector**](detail/BinAbsInspector.md)|BinAbsInspector(Binary Abstract Inspector)是一款用于自动化逆向工程和扫描二进制文件漏洞的静态分析器，是 Keenlab 孵化的长期研究项目。基于 Ghidra 的支持下的抽象解释，适用于 Ghidra 的 Pcode 而非汇编。目前支持 x86、x64、armv7 和 aarch64 的二进制文件。|
 |2022-03-16|[**veinmind-tools**](detail/veinmind-tools.md)|veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目前已支持镜像 恶意文件/后门/敏感信息/弱口令 的扫描，更多功能正在逐步开发中。|
-|2022-03-16|[**DNSlog-GO**](detail/DNSlog-GO.md)|DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面。单文件运行，无依赖。部署方便快捷。|
-|2022-03-16|[**scaninfo**](detail/scaninfo.md)|scaninfo 是一款开源、轻量、快速、跨平台的红队内外网打点扫描器。比较同类工具，其能够在 nmap 的扫描速度和 masscan 的准确度之间寻找一个较好的平衡点，能够快速进行端口扫描和服务识别，内置指纹识别用于 web 探测，可以用报告的方式整理扫描结果。|
-|2021-12-13|[**ct**](detail/ct.md)|ct 是一款使用 rust 语言进行开发，并且基于ZoomEye域名查询以及利用域名字典进行子域名爆破的工具，同时在最终爆破完成后可使用脚本，将相应的的.gv 文件转化成为相应的 .png 文件进行可视化展示|
 
 **5.[分类:甲方工具](party_a.md)**
 
@@ -80,18 +80,20 @@
 |1|[**linglong**](detail/linglong.md)|awake1t|linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，进行端口爆破。帮助企业更快发现弱口令问题。主要功能包括: 资产探测、端口爆破、定时任务、管理后台识别、报表展示。|1251|
 |2|[**OpenStar**](detail/OpenStar.md)|starjun|OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复杂规则编写。提供了常规的 HTTP 字段规则配置，还提供了 IP 黑白名单、访问频次等配置，对于 CC 防护更提供的特定的规则算法，并且支持搭建集群进行防护。|1123|
 |3|[**veinmind-tools**](detail/veinmind-tools.md)|长亭科技|veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目前已支持镜像 恶意文件/后门/敏感信息/弱口令 的扫描，更多功能正在逐步开发中。|862|
-|4|[**GShark**](detail/gshark.md)|madneal|一款开源敏感信息监测系统，可以监测包括 github、gitlab(目前不太稳定，由于gitlab对于免费用户不提供代码全文检索API)、searchcode 多平台的敏感信息监测。|570|
-|5|[**Juggler**](detail/Juggler.md)|C4o|一个也许能骗到黑客的系统，可以作为WAF等防护体系的一环。|412|
-|6|[**Hades**](detail/Hades.md)|theSecHunter|Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检测系统，其中每个插件均可独立分开运行。|10|
+|4|[**murphysec**](detail/murphysec.md)|murphysecurity|墨菲安全专注于软件供应链安全，murphysec 是墨菲安全的 CLI 工具，用于在命令行检测指定目录代码的依赖安全问题，也可以基于 CLI 工具实现在 CI 流程的检测。|581|
+|5|[**appshark**](detail/appshark.md)|bytedance|Appshark 是一个针对安卓的静态分析工具，它的设计目标是针对超大型App的分析，Appshark支持基于json的自定义扫描规则,发现自己关心的安全漏洞以及隐私合规问题，支持灵活配置，可以在准确率以及扫描时间空间之间寻求平衡，支持自定义扩展规则，根据自己的业务需要，进行定制分析|579|
+|6|[**GShark**](detail/gshark.md)|madneal|一款开源敏感信息监测系统，可以监测包括 github、gitlab(目前不太稳定，由于gitlab对于免费用户不提供代码全文检索API)、searchcode 多平台的敏感信息监测。|570|
+|7|[**Juggler**](detail/Juggler.md)|C4o|一个也许能骗到黑客的系统，可以作为WAF等防护体系的一环。|412|
+|8|[**Hades**](detail/Hades.md)|theSecHunter|Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检测系统，其中每个插件均可独立分开运行。|10|
 
 **6.[分类:信息收集](reconnaissance.md)**
 
 | 序号 | 项目名称 | 作者 | 项目简介 | Star |
 |------|----------|------|----------|------|
-|1|[**HaE**](detail/HaE.md)|gh0stkey|HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。|1346|
+|1|[**HaE**](detail/HaE.md)|gh0stkey|HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。|1356|
 |2|[**Kunyu**](detail/Kunyu.md)|风起|Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在让企业资产收集更高效，使更多安全相关从业者了解、使用网络空间测绘技术。|708|
 |3|[**Glass**](detail/Glass.md)|s7ckTeam|Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/ZoomEye/Shodan/360等api接口快速查询资产信息并识别重点资产的指纹，也可针对IP/IP段或资产列表进行快速的指纹识别。|699|
-|4|[**scaninfo**](detail/scaninfo.md)|华东360安服团队|scaninfo 是一款开源、轻量、快速、跨平台的红队内外网打点扫描器。比较同类工具，其能够在 nmap 的扫描速度和 masscan 的准确度之间寻找一个较好的平衡点，能够快速进行端口扫描和服务识别，内置指纹识别用于 web 探测，可以用报告的方式整理扫描结果。|543|
+|4|[**scaninfo**](detail/scaninfo.md)|华东360安服团队|scaninfo 是一款开源、轻量、快速、跨平台的红队内外网打点扫描器。比较同类工具，其能够在 nmap 的扫描速度和 masscan 的准确度之间寻找一个较好的平衡点，能够快速进行端口扫描和服务识别，内置指纹识别用于 web 探测，可以用报告的方式整理扫描结果。|553|
 |5|[**ksubdomain**](detail/ksubdomain.md)|w8ay|ksubdomain是一款基于无状态子域名爆破工具，支持在Windows/Linux/Mac上使用，它会很快的进行DNS爆破，在Mac和Windows上理论最大发包速度在30w/s,linux上为160w/s的速度。|481|
 |6|[**ZoomEye-Python**](detail/ZoomEye-Python.md)|Knownsec404|ZoomEye-python 是一款基于 ZoomEye API 开发的 Python 库，提供了 ZoomEye 命令行模式，同时也可以作为 SDK 集成到其他工具中。该库可以让技术人员更便捷地搜索、筛选、导出 ZoomEye 的数据|377|
 |7|[**ct**](detail/ct.md)|rungobier@Knownsec404|ct 是一款使用 rust 语言进行开发，并且基于ZoomEye域名查询以及利用域名字典进行子域名爆破的工具，同时在最终爆破完成后可使用脚本，将相应的的.gv 文件转化成为相应的 .png 文件进行可视化展示|71|

@@ -5,6 +5,8 @@
     * [linglong](#linglong)
     * [OpenStar](#openstar)
     * [veinmind-tools](#veinmind-tools)
+    * [murphysec](#murphysec)
+    * [appshark](#appshark)
     * [gshark](#gshark)
     * [Juggler](#juggler)
     * [Hades](#hades)
@@ -39,6 +41,7 @@
     * [MySQL-Fake-Server](#mysql-fake-server)
     * [DNSlog-GO](#dnslog-go)
     * [Cloud-Bucket-Leak-Detection-Tools](#cloud-bucket-leak-detection-tools)
+    * [Antenna](#antenna)
     * [Redis-Rogue-Server](#redis-rogue-server)
     * [MysqlT](#mysqlt)
     * [Cola-Dnslog](#cola-dnslog)
@@ -105,11 +108,31 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 ![Author](https://img.shields.io/badge/Author-长亭科技-orange)
 ![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/chaitin/veinmind-tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.0-red)
+![Version](https://img.shields.io/badge/Version-V1.5.1-red)
 
 <https://github.com/chaitin/veinmind-tools>
 
 veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目前已支持镜像 恶意文件/后门/敏感信息/弱口令 的扫描，更多功能正在逐步开发中。
+
+### [murphysec](detail/murphysec.md)
+![Author](https://img.shields.io/badge/Author-murphysecurity-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/murphysecurity/murphysec.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.10.0-red)
+
+<https://github.com/murphysecurity/murphysec>
+
+墨菲安全专注于软件供应链安全，murphysec 是墨菲安全的 CLI 工具，用于在命令行检测指定目录代码的依赖安全问题，也可以基于 CLI 工具实现在 CI 流程的检测。
+
+### [appshark](detail/appshark.md)
+![Author](https://img.shields.io/badge/Author-bytedance-orange)
+![Language](https://img.shields.io/badge/Language-Kotlin-blue)
+![GitHub stars](https://img.shields.io/github/stars/bytedance/appshark.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.1.1-red)
+
+<https://github.com/bytedance/appshark>
+
+Appshark 是一个针对安卓的静态分析工具，它的设计目标是针对超大型App的分析，Appshark支持基于json的自定义扫描规则,发现自己关心的安全漏洞以及隐私合规问题，支持灵活配置，可以在准确率以及扫描时间空间之间寻求平衡，支持自定义扩展规则，根据自己的业务需要，进行定制分析
 
 ### [GShark](detail/gshark.md)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
@@ -271,7 +294,7 @@ Pocassist 是一个 Golang 编写的全新开源漏洞测试框架，帮助安�
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.7-red)
+![Version](https://img.shields.io/badge/Version-V1.3.8-red)
 
 <https://github.com/zan8in/afrog>
 
@@ -399,6 +422,16 @@ DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB�
 <https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools>
 
 Cloud-Bucket-Leak-Detection-Tools是一款针对云厂商存储桶扫描检测与利用的工具
+
+### [Antenna](detail/Antenna.md)
+![Author](https://img.shields.io/badge/Author-wuba-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/wuba/Antenna.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.1-red)
+
+<https://github.com/wuba/Antenna>
+
+Antenna是58同城安全团队打造的一款辅助安全从业人员辅助验证网络中多种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试( OAST)通过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标进行Out-of-bind的数据通信方式进行辅助检测。
 
 ### [Redis-Rogue-Server](detail/Redis-Rogue-Server.md)
 ![Author](https://img.shields.io/badge/Author-Dliv3-orange)

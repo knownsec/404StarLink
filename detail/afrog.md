@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.7-red)
+![Version](https://img.shields.io/badge/Version-V1.3.8-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -65,6 +65,18 @@ html 报告
 
 
 ## 最近更新
+
+#### [v1.3.8] - 2022-09-15
+
+**更新**  
+- 升级到 Golang 1.19  
+- 升级到最新 Fingerprint 指纹库  
+- 修复程序卡进度 99% 问题  
+- 修改 pocsizewaitgroup 默认值为 25  
+- afrog-config.yaml 一经生成不会被覆盖  
+- 修改 dial_timeout/read_timeout/write_timeout 等参数的默认值  
+- 优化 PoC nacos-v1-auth-bypass/solr-log4j-rce.yaml/CVE-2021-26084  
+- 累计 PoC 总数 684
 
 #### [v1.3.7] - 2022-08-24
 
