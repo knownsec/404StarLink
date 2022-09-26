@@ -31,7 +31,7 @@ pocsuite3是由Knownsec 404团队开发的开源远程漏洞测试和概念验�
 ![Author](https://img.shields.io/badge/Author-cdkteam-orange)
 ![Language](https://img.shields.io/badge/Language-CDK-blue)
 ![GitHub stars](https://img.shields.io/github/stars/cdk-team/CDK.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.4.0-red)
+![Version](https://img.shields.io/badge/Version-V1.5.0-red)
 
 <https://github.com/cdk-team/CDK>
 
@@ -61,7 +61,7 @@ MDUT 全称 Multiple Database Utilization Tools，旨在将常见的数据库利
 ![Author](https://img.shields.io/badge/Author-teamssix-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/teamssix/cf.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.4.0-red)
+![Version](https://img.shields.io/badge/Version-V0.4.1-red)
 
 <https://github.com/teamssix/cf>
 

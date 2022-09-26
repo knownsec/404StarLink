@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-CDK-blue)
 ![Author](https://img.shields.io/badge/Author-cdkteam-orange)
 ![GitHub stars](https://img.shields.io/github/stars/cdk-team/CDK.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.4.0-red)
+![Version](https://img.shields.io/badge/Version-V1.5.0-red)
 ![Time](https://img.shields.io/badge/Join-20210223-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -207,6 +207,15 @@ cdk ps
 
 ## 最近更新
 
+#### [v1.5.0] - 2022-09-25
+
+**更新**  
+- 检查内核漏洞利用，使用 mzet-/linux-exploit-suggester  
+- 支持检查路径中的 setuid 文件  
+- 为功能列表添加增加红色高亮输出  
+- 支持两种新的格式化打印函数  
+- 优化 CDK banner 高亮输出
+
 #### [v1.4.0] - 2022-09-04
 
 **更新**  
@@ -252,14 +261,5 @@ cdk ps
 
 **Others**  
 - github action 中添加 Evaluate/Exploit/Tool 等测试，修复部分问题
-
-#### [v1.0.6] - 2022-03-10
-
-**更新**  
-- 仅在 linux 下构建 mount-cgroup  
-- 修复 CentOS unprivileged_userns_clone 文件不存在的问题  
-- 添加 CVE-2022-0492 的 EXP  
-- 修复运行 exp 时 shim-pwn 异常退出的问题  
-- 将 shell 实现的 mount-cgroup 功能改为 Golang 实现
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-teamssix-orange)
 ![GitHub stars](https://img.shields.io/github/stars/teamssix/cf.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.4.0-red)
+![Version](https://img.shields.io/badge/Version-V0.4.1-red)
 ![Time](https://img.shields.io/badge/Join-20220829-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -80,6 +80,15 @@ cf tencent vpc ls
 
 
 ## 最近更新
+
+#### [v0.4.1] - 2022-09-20
+
+**新增功能**  
+- 增加对象列表导出功能  
+- 增加指定查询对象列表数量功能  
+
+**功能优化**  
+- 优化接管控制台输出信息
 
 #### [v0.4.0] - 2022-09-07
 

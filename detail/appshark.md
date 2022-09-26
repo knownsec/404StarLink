@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Kotlin-blue)
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/appshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.1.1-red)
+![Version](https://img.shields.io/badge/Version-V0.1.2-red)
 ![Time](https://img.shields.io/badge/Join-20220914-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -162,6 +162,11 @@ AppShark is licensed under the [APACHE LICENSE, VERSION 2.0](http://www.apache.o
 
 
 ## 最近更新
+
+#### [v0.1.2] - 2022-09-22
+
+**更新**  
+- 修复在 windows 平台运行的一些问题
 
 #### [v0.1.1] - 2022-09-16
 

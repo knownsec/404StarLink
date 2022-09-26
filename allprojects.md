@@ -5,8 +5,8 @@
     * [linglong](#linglong)
     * [OpenStar](#openstar)
     * [veinmind-tools](#veinmind-tools)
-    * [murphysec](#murphysec)
     * [appshark](#appshark)
+    * [murphysec](#murphysec)
     * [gshark](#gshark)
     * [Juggler](#juggler)
     * [Hades](#hades)
@@ -114,6 +114,16 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 
 veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目前已支持镜像 恶意文件/后门/敏感信息/弱口令 的扫描，更多功能正在逐步开发中。
 
+### [appshark](detail/appshark.md)
+![Author](https://img.shields.io/badge/Author-bytedance-orange)
+![Language](https://img.shields.io/badge/Language-Kotlin-blue)
+![GitHub stars](https://img.shields.io/github/stars/bytedance/appshark.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.1.2-red)
+
+<https://github.com/bytedance/appshark>
+
+Appshark 是一个针对安卓的静态分析工具，它的设计目标是针对超大型App的分析，Appshark支持基于json的自定义扫描规则,发现自己关心的安全漏洞以及隐私合规问题，支持灵活配置，可以在准确率以及扫描时间空间之间寻求平衡，支持自定义扩展规则，根据自己的业务需要，进行定制分析
+
 ### [murphysec](detail/murphysec.md)
 ![Author](https://img.shields.io/badge/Author-murphysecurity-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
@@ -123,16 +133,6 @@ veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目
 <https://github.com/murphysecurity/murphysec>
 
 墨菲安全专注于软件供应链安全，murphysec 是墨菲安全的 CLI 工具，用于在命令行检测指定目录代码的依赖安全问题，也可以基于 CLI 工具实现在 CI 流程的检测。
-
-### [appshark](detail/appshark.md)
-![Author](https://img.shields.io/badge/Author-bytedance-orange)
-![Language](https://img.shields.io/badge/Language-Kotlin-blue)
-![GitHub stars](https://img.shields.io/github/stars/bytedance/appshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.1.1-red)
-
-<https://github.com/bytedance/appshark>
-
-Appshark 是一个针对安卓的静态分析工具，它的设计目标是针对超大型App的分析，Appshark支持基于json的自定义扫描规则,发现自己关心的安全漏洞以及隐私合规问题，支持灵活配置，可以在准确率以及扫描时间空间之间寻求平衡，支持自定义扩展规则，根据自己的业务需要，进行定制分析
 
 ### [GShark](detail/gshark.md)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
@@ -337,7 +337,7 @@ pocsuite3是由Knownsec 404团队开发的开源远程漏洞测试和概念验�
 ![Author](https://img.shields.io/badge/Author-cdkteam-orange)
 ![Language](https://img.shields.io/badge/Language-CDK-blue)
 ![GitHub stars](https://img.shields.io/github/stars/cdk-team/CDK.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.4.0-red)
+![Version](https://img.shields.io/badge/Version-V1.5.0-red)
 
 <https://github.com/cdk-team/CDK>
 
@@ -367,7 +367,7 @@ MDUT 全称 Multiple Database Utilization Tools，旨在将常见的数据库利
 ![Author](https://img.shields.io/badge/Author-teamssix-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/teamssix/cf.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.4.0-red)
+![Version](https://img.shields.io/badge/Version-V0.4.1-red)
 
 <https://github.com/teamssix/cf>
 
