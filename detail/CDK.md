@@ -1,6 +1,6 @@
 ## CDK <https://github.com/cdk-team/CDK>
 <!--auto_detail_badge_begin_0b490ffb61b26b45de3ea5d7dd8a582e-->
-![Language](https://img.shields.io/badge/Language-CDK-blue)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-cdkteam-orange)
 ![GitHub stars](https://img.shields.io/github/stars/cdk-team/CDK.svg?style=flat&logo=github)
 ![Version](https://img.shields.io/badge/Version-V1.5.0-red)

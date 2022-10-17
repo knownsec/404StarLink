@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-teamssix-orange)
 ![GitHub stars](https://img.shields.io/github/stars/teamssix/cf.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.4.1-red)
+![Version](https://img.shields.io/badge/Version-V0.4.2-red)
 ![Time](https://img.shields.io/badge/Join-20220829-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -80,6 +80,23 @@ cf tencent vpc ls
 
 
 ## 最近更新
+
+#### [v0.4.2] - 2022-10-11
+
+**新增功能**  
+- 增加 aws s3 列出功能  
+- 增加阿里云 oss 指定 Bucket 的功能  
+- 增加阿里云 ecs exec 指定区域的功能  
+
+**功能优化**  
+- 优化权限获取功能  
+- 优化程序提示信息  
+- 优化配置 AK 的逻辑  
+- 增强阿里云 ecs 列出功能  
+
+**Bug 修复**  
+- 修复一处由于历史代码造成的 Bug  
+- 修复一处配置 AK 时的 Bug
 
 #### [v0.4.1] - 2022-09-20
 

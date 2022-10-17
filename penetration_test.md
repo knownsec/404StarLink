@@ -3,8 +3,8 @@
 1. [pocsuite3](#pocsuite3)
 2. [CDK](#cdk)
 3. [Viper](#viper)
-4. [MDUT](#mdut)
-5. [cf](#cf)
+4. [cf](#cf)
+5. [MDUT](#mdut)
 6. [BurpCrypto](#burpcrypto)
 7. [ysomap](#ysomap)
 8. [MySQL-Fake-Server](#mysql-fake-server)
@@ -29,7 +29,7 @@ pocsuite3是由Knownsec 404团队开发的开源远程漏洞测试和概念验�
 
 ### [CDK](detail/CDK.md)
 ![Author](https://img.shields.io/badge/Author-cdkteam-orange)
-![Language](https://img.shields.io/badge/Language-CDK-blue)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/cdk-team/CDK.svg?style=flat&logo=github)
 ![Version](https://img.shields.io/badge/Version-V1.5.0-red)
 
@@ -47,6 +47,16 @@ CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器�
 
 VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战术及技术进行模块化及武器化。
 
+### [cf](detail/cf.md)
+![Author](https://img.shields.io/badge/Author-teamssix-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/teamssix/cf.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.4.2-red)
+
+<https://github.com/teamssix/cf>
+
+CF 是一个云环境利用框架，主要用来方便红队人员在获得云服务 Access Key 的后续工作。
+
 ### [MDUT](detail/MDUT.md)
 ![Author](https://img.shields.io/badge/Author-Ch1ngg-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
@@ -56,16 +66,6 @@ VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战�
 <https://github.com/SafeGroceryStore/MDUT>
 
 MDUT 全称 Multiple Database Utilization Tools，旨在将常见的数据库利用手段集合在一个程序中，打破各种数据库利用工具需要各种环境导致使用相当不便的隔阂；MDUT 使用 Java 开发，支持跨平台使用。
-
-### [cf](detail/cf.md)
-![Author](https://img.shields.io/badge/Author-teamssix-orange)
-![Language](https://img.shields.io/badge/Language-Golang-blue)
-![GitHub stars](https://img.shields.io/github/stars/teamssix/cf.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.4.1-red)
-
-<https://github.com/teamssix/cf>
-
-CF 是一个云环境利用框架，主要用来方便红队人员在获得云服务 Access Key 的后续工作。
 
 ### [BurpCrypto](detail/BurpCrypto.md)
 ![Author](https://img.shields.io/badge/Author-whwlsfb-orange)
@@ -121,7 +121,7 @@ Cloud-Bucket-Leak-Detection-Tools是一款针对云厂商存储桶扫描检测�
 ![Author](https://img.shields.io/badge/Author-wuba-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/wuba/Antenna.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.1-red)
+![Version](https://img.shields.io/badge/Version-V1.2.0-red)
 
 <https://github.com/wuba/Antenna>
 
