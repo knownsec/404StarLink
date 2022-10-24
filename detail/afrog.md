@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.8-red)
+![Version](https://img.shields.io/badge/Version-V1.3.9-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -65,6 +65,15 @@ html 报告
 
 
 ## 最近更新
+
+#### [v1.3.9] - 2022-10-18
+
+**更新**  
+- 新增 参数 --ss / --scan-stable(值越大扫描越稳定)  
+- 新增 参数 --pp / --printpocs 打印 PoC 列表  
+- 更新 指纹库 web_fingerprint_v3  
+- 解决 控制台 URL 打印不完整 BUG  
+- 解决 部分 PoC BUG
 
 #### [v1.3.8] - 2022-09-15
 

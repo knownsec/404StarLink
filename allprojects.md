@@ -14,8 +14,8 @@
 * [信息收集/reconnaissance](#信息收集reconnaissance)
     * [AppInfoScanner](#appinfoscanner)
     * [HaE](#hae)
-    * [Glass](#glass)
     * [Kunyu](#kunyu)
+    * [Glass](#glass)
     * [scaninfo](#scaninfo)
     * [ksubdomain](#ksubdomain)
     * [ZoomEye-Python](#zoomeye-python)
@@ -171,7 +171,7 @@ Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检�
 ![Author](https://img.shields.io/badge/Author-kelvinBen-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/kelvinBen/AppInfoScanner.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.8-red)
+![Version](https://img.shields.io/badge/Version-V1.0.9-red)
 
 <https://github.com/kelvinBen/AppInfoScanner>
 
@@ -187,16 +187,6 @@ Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检�
 
 HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。
 
-### [Glass](detail/Glass.md)
-![Author](https://img.shields.io/badge/Author-s7ckTeam-orange)
-![Language](https://img.shields.io/badge/Language-Python-blue)
-![GitHub stars](https://img.shields.io/github/stars/s7ckTeam/Glass.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.6-red)
-
-<https://github.com/s7ckTeam/Glass>
-
-Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/ZoomEye/Shodan/360等api接口快速查询资产信息并识别重点资产的指纹，也可针对IP/IP段或资产列表进行快速的指纹识别。
-
 ### [Kunyu](detail/Kunyu.md)
 ![Author](https://img.shields.io/badge/Author-风起-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
@@ -206,6 +196,16 @@ Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/Z
 <https://github.com/knownsec/Kunyu>
 
 Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在让企业资产收集更高效，使更多安全相关从业者了解、使用网络空间测绘技术。
+
+### [Glass](detail/Glass.md)
+![Author](https://img.shields.io/badge/Author-s7ckTeam-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/s7ckTeam/Glass.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V2.0.6-red)
+
+<https://github.com/s7ckTeam/Glass>
+
+Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/ZoomEye/Shodan/360等api接口快速查询资产信息并识别重点资产的指纹，也可针对IP/IP段或资产列表进行快速的指纹识别。
 
 ### [scaninfo](detail/scaninfo.md)
 ![Author](https://img.shields.io/badge/Author-华东360安服团队-orange)
@@ -294,7 +294,7 @@ Pocassist 是一个 Golang 编写的全新开源漏洞测试框架，帮助安�
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.8-red)
+![Version](https://img.shields.io/badge/Version-V1.3.9-red)
 
 <https://github.com/zan8in/afrog>
 
@@ -427,7 +427,7 @@ Cloud-Bucket-Leak-Detection-Tools是一款针对云厂商存储桶扫描检测�
 ![Author](https://img.shields.io/badge/Author-wuba-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/wuba/Antenna.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.2.0-red)
+![Version](https://img.shields.io/badge/Version-V1.2.1-red)
 
 <https://github.com/wuba/Antenna>
 

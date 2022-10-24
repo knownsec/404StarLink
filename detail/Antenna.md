@@ -3,10 +3,9 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-wuba-orange)
 ![GitHub stars](https://img.shields.io/github/stars/wuba/Antenna.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.2.0-red)
+![Version](https://img.shields.io/badge/Version-V1.2.1-red)
 ![Time](https://img.shields.io/badge/Join-20220914-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
-
 
 Antenna是58同城安全团队打造的一款辅助安全从业人员辅助验证网络中多种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试(
 OAST)通过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标进行Out-of-bind的数据通信方式进行辅助检测。
@@ -17,9 +16,9 @@ OAST)通过任务的形式，将不同漏洞场景检测能力通过插件的形
 
 ## 相关网站
 
-博客(已开放)：[Antenna 博客](http://blog.antenna.cool/docs/intro)
+博客：[Antenna 博客](http://blog.antenna.cool/docs/intro)
 
-演示平台(暂时关闭)：[演示平台](http://jiemuzu.cn)
+演示平台：[演示平台](http://jiemuzu.cn)
 
 漏洞靶场(已支持docker部署,docker-compose文件在项目docker目录中)：[lcttty/antenna-range:0.0.1](https://github.com/wuba/Antenna/blob/main/docker/docker-compose-range.yaml)
 
@@ -30,29 +29,25 @@ OAST)通过任务的形式，将不同漏洞场景检测能力通过插件的形
 Antenna_Inside计划，如果您是使用扫描工具的用户或者作者请联系我们，我们会无条件支持您的项目与
 需求，帮助Antenna更方便的与漏洞扫描流程打通。如果您有推荐打通的项目，也可以在issue中提出来
 
-已加入Antenna_Inside项目与进度
+已加入Antenna_Inside项目
 
-| 项目名称       | 项目地址                                                                       | 项目进度 |
-|------------|----------------------------------------------------------------------------|------|
-| EasyPen    | [https://github.com/lijiejie/EasyPen](https://github.com/lijiejie/EasyPen) | 正在对接 |
+| 项目名称       | 项目地址                                                                       |
+|------------|----------------------------------------------------------------------------|
+| EasyPen    | [https://github.com/lijiejie/EasyPen](https://github.com/lijiejie/EasyPen) |
 
 
 ## 近期使用疑问解答
 
-#### 1、关于docker部署发现平台配置保存后不能及时更新的问题
 
-回答：更新完配置需在宿主机重新运行命令 **docker-compose restart** 后配置才能更新
-不需要重启mysql容器
-
-#### 2、关于各类组件的使用说明以及能否再详细的进行说明自定义组件开发教程
+#### 1、关于各类组件的使用说明以及能否再详细的进行说明自定义组件开发教程
 
 回答：文章将在Antenna博客不定时更新，基础文章已有，后续详细的也会有的，作者在加班加点的写，绝不会让各位师傅等太久
 
-#### 3、运行docker-compose命令后镜像构建时间过长
+#### 2、运行docker-compose命令后镜像构建时间过长
 
-回答：可能是您的服务器在境外，可将Dockerfile中替换镜像源的命令注释掉
+回答：可修改docker-compose文件中镜像,系统镜像已打包至dockerhub https://hub.docker.com/r/jihongjun/antenna/tags
 
-#### 4、镜像部署总是遇到各种权限不允许的错误
+#### 3、镜像部署总是遇到各种权限不允许的错误
 
 回答：可将docker下列内容删除
 
@@ -72,9 +67,8 @@ USER antenna
 ## 相关教程链接
 ### 最新公告
 
-Antenna 最新chrome扩展 chrome-tools(试用版)发布[Antenna-tools 使用教程](http://blog.antenna.cool/blog/antenna_plugin)
+Antenna chrome扩展 antenna-tools(试用版)发布[Antenna-tools 使用教程](http://blog.antenna.cool/blog/antenna_plugin)
 
-v1.0版本发布公告及使用要点:[Antenna V1.0 发布公告](http://blog.antenna.cool/blog/v1.0)
 
 ### 关于部署
 基础部署教程:[安装部署](http://blog.antenna.cool/docs/intro)
@@ -103,6 +97,7 @@ xss 组件使用教程:[xss组件使用教程](http://blog.antenna.cool/docs/%E5
 
 组件开发教程:[如何编写Antenna组件](http://blog.antenna.cool/docs/%E5%85%B3%E4%BA%8E%E7%BB%84%E4%BB%B6/template_demo)
 
+自定义HTTP组件使用教程[自定义HTTP组件使用教程](http://blog.antenna.cool/docs/%E5%85%B3%E4%BA%8E%E7%BB%84%E4%BB%B6/custom_http)
 ### 关于OPEN_API与CallBack
 
 OPEN_API与CallBack使用教程:[关于OPEN_API与CallBack](http://blog.antenna.cool/docs/api_back)
@@ -112,6 +107,15 @@ OPEN_API与CallBack使用教程:[关于OPEN_API与CallBack](http://blog.antenna.
 
 
 ## 最近更新
+
+#### [v1.2.1] - 2022-10-19
+
+**更新**  
+- 优化HTTP/HTTPS请求处理模块，消息结果展示数据请求报文  
+- 修复组件模块bug，添加组件代码展示&编辑功能  
+- OPEN_API新增domain_contains、content_contains查询关键字  
+- 优化用户使用体验、更新配置无需再重启docker及系统  
+- 日常修复了一些bug
 
 #### [v1.2.0] - 2022-10-14
 
