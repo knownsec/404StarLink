@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
 ![Author](https://img.shields.io/badge/Author-长亭科技-orange)
 ![GitHub stars](https://img.shields.io/github/stars/chaitin/veinmind-tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.3-red)
+![Version](https://img.shields.io/badge/Version-V1.5.4-red)
 ![Time](https://img.shields.io/badge/Join-20220316-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -66,6 +66,12 @@ PS: 目前所有工具均已支持平行容器的方式运行
 
 ## 最近更新
 
+#### [v1.5.4] - 2022-11-02
+
+**更新**  
+- 新增 veinmind-unsafe-mount 插件  
+- 移除项目内 python 依赖
+
 #### [v1.5.3] - 2022-10-26
 
 **更新**  
@@ -88,14 +94,5 @@ PS: 目前所有工具均已支持平行容器的方式运行
 **更新**  
 - 支持插件依赖服务管理机制  
 - veinmind-runner 镜像支持使用 veinmind-malicious 扫描恶意文件
-
-#### [v1.4.0] - 2022-07-15
-
-**更新**  
-- 更新 veinmind-asset 依赖  
-- 修复 veinmind-asset 文件处理 bug  
-- 提高 veimind-asset 运行速度  
-- 支持使用 helm 安装并部署 veinmind-runner  
-- veinmind-runner 支持镜像阻断功能
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

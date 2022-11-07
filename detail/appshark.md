@@ -160,6 +160,7 @@ AppShark is licensed under the [APACHE LICENSE, VERSION 2.0](http://www.apache.o
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
+- 2022-11-03 发布文章[《AOSP Bug Hunting with appshark (1): Intent Redirection》](https://paper.seebug.org/2002/)
 
 ## 最近更新
 

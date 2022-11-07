@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/pocsuite3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.9.11-red)
+![Version](https://img.shields.io/badge/Version-V1.2.0-red)
 ![Time](https://img.shields.io/badge/Join-20200821-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -155,6 +155,13 @@ console mode
 
 ## 最近更新
 
+#### [v1.2.0] - 2022-11-03
+
+**更新**  
+- 支持 yaml 格式 poc，与 nuclei 的 poc 模版兼容  
+- 修复 httpserver 模块在 macos 平台卡住的问题  
+- 结合 http 状态码对 http/https 协议自动纠正
+
 #### [v1.9.11] - 2022-09-08
 
 **更新**  
@@ -185,13 +192,5 @@ console mode
 - 优化 poc 文件编码兼容问题  
 - 混淆 REVERSE_PAYLOAD 以避免源码文件触发 windows defender  
 - 优化 --ppt 敏感信息打码显示功能
-
-#### [v1.9.6] - 2022-07-07
-
-**更新**  
-- 支持-o参数，将结果保存为json行格式  
-- 优化网络空间搜索引擎插件的超时  
-- 优化url协议的处理  
-- 文档更新
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
