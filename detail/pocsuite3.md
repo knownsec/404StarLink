@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/pocsuite3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.2.0-red)
+![Version](https://img.shields.io/badge/Version-V2.0.0-red)
 ![Time](https://img.shields.io/badge/Join-20200821-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -155,7 +155,7 @@ console mode
 
 ## 最近更新
 
-#### [v1.2.0] - 2022-11-03
+#### [v2.0.0] - 2022-11-03
 
 **更新**  
 - 支持 yaml 格式 poc，与 nuclei 的 poc 模版兼容  

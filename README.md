@@ -17,7 +17,7 @@
 
 | 时间 | 项目名称 | 项目动态 |
 |----|-----------|--------------------------|
-|2022-11-03|[**pocsuite3**](detail/pocsuite3.md)|更新 [v1.2.0](detail/pocsuite3.md#最近更新) 版本|
+|2022-11-03|[**pocsuite3**](detail/pocsuite3.md)|更新 [v2.0.0](detail/pocsuite3.md#最近更新) 版本|
 |2022-11-03|[**appshark**](detail/appshark.md)|发布文章[《AOSP Bug Hunting with appshark (1): Intent Redirection》](https://paper.seebug.org/2002/)|
 |2022-11-02|[**veinmind-tools**](detail/veinmind-tools.md)|更新 [v1.5.4](detail/veinmind-tools.md#最近更新) 版本|
 |2022-10-23|[**AppInfoScanner**](detail/AppInfoScanner.md)|更新 [v1.0.9](detail/AppInfoScanner.md#最近更新) 版本|
@@ -47,7 +47,7 @@
 
 | 时间 | 项目迭代版本 |
 |----|-----------|
-|第44周|[**pocsuite3**](detail/pocsuite3.md) 更新 [v1.2.0](detail/pocsuite3.md#最近更新) / [**veinmind-tools**](detail/veinmind-tools.md) 更新 [v1.5.4](detail/veinmind-tools.md#最近更新)|
+|第44周|[**pocsuite3**](detail/pocsuite3.md) 更新 [v2.0.0](detail/pocsuite3.md#最近更新) / [**veinmind-tools**](detail/veinmind-tools.md) 更新 [v1.5.4](detail/veinmind-tools.md#最近更新)|
 |第43周|[**veinmind-tools**](detail/veinmind-tools.md) 更新 [v1.5.3](detail/veinmind-tools.md#最近更新)|
 |第42周|[**AppInfoScanner**](detail/AppInfoScanner.md) 更新 [v1.0.9](detail/AppInfoScanner.md#最近更新) / [**Antenna**](detail/Antenna.md) 更新 [v1.2.1](detail/Antenna.md#最近更新) / [**afrog**](detail/afrog.md) 更新 [v1.3.9](detail/afrog.md#最近更新)|
 |第41周|[**Antenna**](detail/Antenna.md) 更新 [v1.2.0](detail/Antenna.md#最近更新) / [**cf**](detail/cf.md) 更新 [v0.4.2](detail/cf.md#最近更新)|
