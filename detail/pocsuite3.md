@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/pocsuite3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.0-red)
+![Version](https://img.shields.io/badge/Version-V2.0.1-red)
 ![Time](https://img.shields.io/badge/Join-20200821-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -155,6 +155,15 @@ console mode
 
 ## 最近更新
 
+#### [v2.0.1] - 2022-11-09
+
+**更新**
+  - 修复 words 匹配器表达式执行的问题  
+- 修复模版中包含中文异常捕获的问题  
+- 提高模版的鲁棒性  
+- 支持 digest_username 和 digest_password，用于 http 认证  
+- 支持 negative 反向匹配器
+
 #### [v2.0.0] - 2022-11-03
 
 **更新**  
@@ -185,12 +194,5 @@ console mode
 - 在基类 POCBase 中为 PoC 的所有属性设置了默认值  
 - 添加监听/反连 shell  
 - 修复 fofa 插件分页查询的 bug
-
-#### [v1.9.7] - 2022-07-26
-
-**更新**  
-- 优化 poc 文件编码兼容问题  
-- 混淆 REVERSE_PAYLOAD 以避免源码文件触发 windows defender  
-- 优化 --ppt 敏感信息打码显示功能
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

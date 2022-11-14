@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
 ![Author](https://img.shields.io/badge/Author-长亭科技-orange)
 ![GitHub stars](https://img.shields.io/github/stars/chaitin/veinmind-tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.4-red)
+![Version](https://img.shields.io/badge/Version-V1.6.0-red)
 ![Time](https://img.shields.io/badge/Join-20220316-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -66,6 +66,11 @@ PS: 目前所有工具均已支持平行容器的方式运行
 
 ## 最近更新
 
+#### [v1.6.0] - 2022-11-12
+
+**更新**  
+- 新增 veinmind-iac 插件，支持扫描 IaC 文件风险
+
 #### [v1.5.4] - 2022-11-02
 
 **更新**  
@@ -88,11 +93,5 @@ PS: 目前所有工具均已支持平行容器的方式运行
 
 **更新**  
 - 新增 veinmind-webshell 检测插件
-
-#### [v1.4.2] - 2022-08-12
-
-**更新**  
-- 支持插件依赖服务管理机制  
-- veinmind-runner 镜像支持使用 veinmind-malicious 扫描恶意文件
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

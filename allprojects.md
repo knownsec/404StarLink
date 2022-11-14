@@ -108,7 +108,7 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 ![Author](https://img.shields.io/badge/Author-长亭科技-orange)
 ![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/chaitin/veinmind-tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.4-red)
+![Version](https://img.shields.io/badge/Version-V1.6.0-red)
 
 <https://github.com/chaitin/veinmind-tools>
 
@@ -294,7 +294,7 @@ Pocassist 是一个 Golang 编写的全新开源漏洞测试框架，帮助安�
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.9-red)
+![Version](https://img.shields.io/badge/Version-V2.0.0-red)
 
 <https://github.com/zan8in/afrog>
 
@@ -327,7 +327,7 @@ LSpider 一个为被动扫描器定制的前端爬虫
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/pocsuite3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.0-red)
+![Version](https://img.shields.io/badge/Version-V2.0.1-red)
 
 <https://github.com/knownsec/pocsuite3>
 

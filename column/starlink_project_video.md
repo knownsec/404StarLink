@@ -19,4 +19,8 @@ https://www.bilibili.com/video/BV1eU4y1z7si
 搞安全绝不能错过的跨平台网站管理工具——404星链计划antSword
 https://www.bilibili.com/video/BV1Jg411h7Pj
 
+**第四期演示项目：[CDK]()**  
+xxxx
+https://www.bilibili.com/video/BV1DG4y1Z784/
+
 **持续更新中……**
