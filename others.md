@@ -3,8 +3,9 @@
 1. [BinAbsInspector](#binabsinspector)
 2. [f8x](#f8x)
 3. [passive-scan-client](#passive-scan-client)
-4. [wam](#wam)
-5. [LBot](#lbot)
+4. [Heimdallr](#heimdallr)
+5. [wam](#wam)
+6. [LBot](#lbot)
 
 ----------------------------------------
 
@@ -37,6 +38,16 @@ BinAbsInspector(Binary Abstract Inspector)是一款用于自动化逆向工程�
 <https://github.com/c0ny1/passive-scan-client>
 
 Passive Scan Client是一款可以将经过筛选的流量转发到指定代理的Burp被动扫描流量转发插件
+
+### [Heimdallr](detail/Heimdallr.md)
+![Author](https://img.shields.io/badge/Author-graynjo-orange)
+![Language](https://img.shields.io/badge/Language-JavaScript-blue)
+![GitHub stars](https://img.shields.io/github/stars/graynjo/Heimdallr.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.1.3-red)
+
+<https://github.com/graynjo/Heimdallr>
+
+一款完全被动监听的谷歌插件，用于高危指纹识别、蜜罐特征告警和拦截、机器特征对抗。
 
 ### [wam](detail/wam.md)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)

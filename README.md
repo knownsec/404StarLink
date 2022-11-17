@@ -17,16 +17,16 @@
 
 | 时间 | 项目名称 | 项目动态 |
 |----|-----------|--------------------------|
+|2022-11-17|[**WMIHACKER**](detail/WMIHACKER.md)|WMIHACKER加入星链计划|
+|2022-11-17|[**geacon_pro**](detail/geacon_pro.md)|geacon_pro加入星链计划|
+|2022-11-17|[**ENScanGo**](detail/ENScanGo.md)|ENScanGo加入星链计划|
+|2022-11-17|[**Heimdallr**](detail/Heimdallr.md)|Heimdallr加入星链计划|
 |2022-11-12|[**veinmind-tools**](detail/veinmind-tools.md)|更新 [v1.6.0](detail/veinmind-tools.md#最近更新) 版本|
 |2022-11-10|[**afrog**](detail/afrog.md)|更新 [v2.0.0](detail/afrog.md#最近更新) 版本|
 |2022-11-09|[**pocsuite3**](detail/pocsuite3.md)|更新 [v2.0.1](detail/pocsuite3.md#最近更新) 版本|
 |2022-11-03|[**appshark**](detail/appshark.md)|发布文章[《AOSP Bug Hunting with appshark (1): Intent Redirection》](https://paper.seebug.org/2002/)|
 |2022-10-23|[**AppInfoScanner**](detail/AppInfoScanner.md)|更新 [v1.0.9](detail/AppInfoScanner.md#最近更新) 版本|
 |2022-10-19|[**Antenna**](detail/Antenna.md)|更新 [v1.2.1](detail/Antenna.md#最近更新) 版本|
-|2022-10-11|[**cf**](detail/cf.md)|更新 [v0.4.2](detail/cf.md#最近更新) 版本|
-|2022-09-25|[**CDK**](detail/CDK.md)|更新 [v1.5.0](detail/CDK.md#最近更新) 版本|
-|2022-09-22|[**appshark**](detail/appshark.md)|更新 [v0.1.2](detail/appshark.md#最近更新) 版本|
-|2022-09-14|[**murphysec**](detail/murphysec.md)|murphysec加入星链计划|
 
 **2.StarRank**
 
@@ -62,16 +62,16 @@
 
 | 时间 | 项目名称 | 项目简介 |
 |----|-----------|--------------------------|
+|2022-11-17|[**WMIHACKER**](detail/WMIHACKER.md)|WMIHACKER是一款免杀横向渗透远程命令执行工具，常见的WMIEXEC、PSEXEC执行命令是创建服务或调用Win32_Process.create执行命令，这些方式都已经被杀软100%拦截，通过改造出的WMIHACKER可免杀横向移动。并且在企业网络目前阻断445端口严重的情况下可以无需445端口进行横向移动，效率高且不易被检测。|
+|2022-11-17|[**geacon_pro**](detail/geacon_pro.md)|跨平台重构了Cobaltstrike Beacon，适配了大部分Beacon的功能，行为对国内主流杀软免杀，支持4.1以上的版本。 A cross-platform CobaltStrike Beacon bypass anti-virus, supports 4.1+ version。|
+|2022-11-17|[**ENScanGo**](detail/ENScanGo.md)|一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。|
+|2022-11-17|[**Heimdallr**](detail/Heimdallr.md)|一款完全被动监听的谷歌插件，用于高危指纹识别、蜜罐特征告警和拦截、机器特征对抗。|
 |2022-09-14|[**murphysec**](detail/murphysec.md)|墨菲安全专注于软件供应链安全，murphysec 是墨菲安全的 CLI 工具，用于在命令行检测指定目录代码的依赖安全问题，也可以基于 CLI 工具实现在 CI 流程的检测。|
 |2022-09-14|[**appshark**](detail/appshark.md)|Appshark 是一个针对安卓的静态分析工具，它的设计目标是针对超大型App的分析，Appshark支持基于json的自定义扫描规则,发现自己关心的安全漏洞以及隐私合规问题，支持灵活配置，可以在准确率以及扫描时间空间之间寻求平衡，支持自定义扩展规则，根据自己的业务需要，进行定制分析|
 |2022-09-14|[**Antenna**](detail/Antenna.md)|Antenna是58同城安全团队打造的一款辅助安全从业人员辅助验证网络中多种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试( OAST)通过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标进行Out-of-bind的数据通信方式进行辅助检测。|
 |2022-08-29|[**Hades**](detail/Hades.md)|Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检测系统，其中每个插件均可独立分开运行。|
 |2022-08-29|[**Cloud-Bucket-Leak-Detection-Tools**](detail/Cloud-Bucket-Leak-Detection-Tools.md)|Cloud-Bucket-Leak-Detection-Tools是一款针对云厂商存储桶扫描检测与利用的工具|
 |2022-08-29|[**Cola-Dnslog**](detail/Cola-Dnslog.md)|Cola Dnslog 是一款更加强大的dnslog平台(无回显漏洞探测辅助平台)，支持dns http ldap rmi等协议，提供API调用方式便于与其他工具结合，支持钉钉机器人、Bark等提醒，并支持docker一键部署。|
-|2022-08-29|[**cf**](detail/cf.md)|CF 是一个云环境利用框架，主要用来方便红队人员在获得云服务 Access Key 的后续工作。|
-|2022-06-15|[**afrog**](detail/afrog.md)|afrog 是一款性能卓越、快速稳定、PoC 可定制的漏洞扫描工具，PoC 包含 CVE、CNVD、默认口令、信息泄露、指纹识别、未授权访问、任意文件读取、命令执行等多种漏洞类型，帮助网络安全从业者快速验证并及时修复漏洞。|
-|2022-06-15|[**BinAbsInspector**](detail/BinAbsInspector.md)|BinAbsInspector(Binary Abstract Inspector)是一款用于自动化逆向工程和扫描二进制文件漏洞的静态分析器，是 Keenlab 孵化的长期研究项目。基于 Ghidra 的支持下的抽象解释，适用于 Ghidra 的 Pcode 而非汇编。目前支持 x86、x64、armv7 和 aarch64 的二进制文件。|
-|2022-03-16|[**veinmind-tools**](detail/veinmind-tools.md)|veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目前已支持镜像 恶意文件/后门/敏感信息/弱口令 的扫描，更多功能正在逐步开发中。|
 
 **5.[分类:甲方工具](party_a.md)**
 
@@ -91,14 +91,15 @@
 | 序号 | 项目名称 | 作者 | 项目简介 | Star |
 |------|----------|------|----------|------|
 |1|[**HaE**](detail/HaE.md)|gh0stkey|HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。|1422|
-|2|[**Kunyu**](detail/Kunyu.md)|风起|Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在让企业资产收集更高效，使更多安全相关从业者了解、使用网络空间测绘技术。|746|
-|3|[**Glass**](detail/Glass.md)|s7ckTeam|Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/ZoomEye/Shodan/360等api接口快速查询资产信息并识别重点资产的指纹，也可针对IP/IP段或资产列表进行快速的指纹识别。|736|
-|4|[**scaninfo**](detail/scaninfo.md)|华东360安服团队|scaninfo 是一款开源、轻量、快速、跨平台的红队内外网打点扫描器。比较同类工具，其能够在 nmap 的扫描速度和 masscan 的准确度之间寻找一个较好的平衡点，能够快速进行端口扫描和服务识别，内置指纹识别用于 web 探测，可以用报告的方式整理扫描结果。|577|
-|5|[**ksubdomain**](detail/ksubdomain.md)|w8ay|ksubdomain是一款基于无状态子域名爆破工具，支持在Windows/Linux/Mac上使用，它会很快的进行DNS爆破，在Mac和Windows上理论最大发包速度在30w/s,linux上为160w/s的速度。|530|
-|6|[**ZoomEye-Python**](detail/ZoomEye-Python.md)|Knownsec404|ZoomEye-python 是一款基于 ZoomEye API 开发的 Python 库，提供了 ZoomEye 命令行模式，同时也可以作为 SDK 集成到其他工具中。该库可以让技术人员更便捷地搜索、筛选、导出 ZoomEye 的数据|388|
-|7|[**ct**](detail/ct.md)|rungobier@Knownsec404|ct 是一款使用 rust 语言进行开发，并且基于ZoomEye域名查询以及利用域名字典进行子域名爆破的工具，同时在最终爆破完成后可使用脚本，将相应的的.gv 文件转化成为相应的 .png 文件进行可视化展示|71|
-|8|[**Zoomeye-Tools**](detail/ZoomEye-Tools.md)|Knownsec404|一个配合ZoomEye使用的Chrome插件，可以查看当前网页所在ip信息或跳转查看详细信息，还可以根据关键词一键跳转至ZoomEye进行搜索|31|
-|9|[**ZoomEye-go**](detail/ZoomEye-go.md)|gyyyy|ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 命令行模式，同时也可以作为SDK集成到其他工具中。该库可以让技术人员更便捷地搜索、筛选、导出 ZoomEye 的数据。|27|
+|2|[**ENScanGo**](detail/ENScanGo.md)|wgpsec|一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。|928|
+|3|[**Kunyu**](detail/Kunyu.md)|风起|Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在让企业资产收集更高效，使更多安全相关从业者了解、使用网络空间测绘技术。|746|
+|4|[**Glass**](detail/Glass.md)|s7ckTeam|Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/ZoomEye/Shodan/360等api接口快速查询资产信息并识别重点资产的指纹，也可针对IP/IP段或资产列表进行快速的指纹识别。|736|
+|5|[**scaninfo**](detail/scaninfo.md)|华东360安服团队|scaninfo 是一款开源、轻量、快速、跨平台的红队内外网打点扫描器。比较同类工具，其能够在 nmap 的扫描速度和 masscan 的准确度之间寻找一个较好的平衡点，能够快速进行端口扫描和服务识别，内置指纹识别用于 web 探测，可以用报告的方式整理扫描结果。|577|
+|6|[**ksubdomain**](detail/ksubdomain.md)|w8ay|ksubdomain是一款基于无状态子域名爆破工具，支持在Windows/Linux/Mac上使用，它会很快的进行DNS爆破，在Mac和Windows上理论最大发包速度在30w/s,linux上为160w/s的速度。|530|
+|7|[**ZoomEye-Python**](detail/ZoomEye-Python.md)|Knownsec404|ZoomEye-python 是一款基于 ZoomEye API 开发的 Python 库，提供了 ZoomEye 命令行模式，同时也可以作为 SDK 集成到其他工具中。该库可以让技术人员更便捷地搜索、筛选、导出 ZoomEye 的数据|388|
+|8|[**ct**](detail/ct.md)|rungobier@Knownsec404|ct 是一款使用 rust 语言进行开发，并且基于ZoomEye域名查询以及利用域名字典进行子域名爆破的工具，同时在最终爆破完成后可使用脚本，将相应的的.gv 文件转化成为相应的 .png 文件进行可视化展示|71|
+|9|[**Zoomeye-Tools**](detail/ZoomEye-Tools.md)|Knownsec404|一个配合ZoomEye使用的Chrome插件，可以查看当前网页所在ip信息或跳转查看详细信息，还可以根据关键词一键跳转至ZoomEye进行搜索|31|
+|10|[**ZoomEye-go**](detail/ZoomEye-go.md)|gyyyy|ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 命令行模式，同时也可以作为SDK集成到其他工具中。该库可以让技术人员更便捷地搜索、筛选、导出 ZoomEye 的数据。|27|
 
 **7.全部分类**
 

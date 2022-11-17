@@ -14,6 +14,7 @@
 * [信息收集/reconnaissance](#信息收集reconnaissance)
     * [AppInfoScanner](#appinfoscanner)
     * [HaE](#hae)
+    * [ENScanGo](#enscango)
     * [Kunyu](#kunyu)
     * [Glass](#glass)
     * [scaninfo](#scaninfo)
@@ -36,12 +37,14 @@
     * [Viper](#viper)
     * [cf](#cf)
     * [MDUT](#mdut)
+    * [WMIHACKER](#wmihacker)
     * [BurpCrypto](#burpcrypto)
     * [ysomap](#ysomap)
     * [MySQL-Fake-Server](#mysql-fake-server)
     * [DNSlog-GO](#dnslog-go)
     * [Cloud-Bucket-Leak-Detection-Tools](#cloud-bucket-leak-detection-tools)
     * [Antenna](#antenna)
+    * [geacon_pro](#geacon_pro)
     * [Redis-Rogue-Server](#redis-rogue-server)
     * [MysqlT](#mysqlt)
     * [Cola-Dnslog](#cola-dnslog)
@@ -61,13 +64,16 @@
     * [shellcodeloader](#shellcodeloader)
     * [ServerScan](#serverscan)
     * [Platypus](#platypus)
+    * [WMIHACKER](#wmihacker)
     * [As-Exploits](#as-exploits)
+    * [geacon_pro](#geacon_pro)
     * [PortForward](#portforward)
 
 * [其他/others](#其他others)
     * [BinAbsInspector](#binabsinspector)
     * [f8x](#f8x)
     * [passive-scan-client](#passive-scan-client)
+    * [Heimdallr](#heimdallr)
     * [wam](#wam)
     * [LBot](#lbot)
 
@@ -186,6 +192,16 @@ Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检�
 <https://github.com/gh0stkey/HaE>
 
 HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。
+
+### [ENScanGo](detail/ENScanGo.md)
+![Author](https://img.shields.io/badge/Author-wgpsec-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.6-red)
+
+<https://github.com/wgpsec/ENScan_GO>
+
+一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。
 
 ### [Kunyu](detail/Kunyu.md)
 ![Author](https://img.shields.io/badge/Author-风起-orange)
@@ -373,6 +389,16 @@ CF 是一个云环境利用框架，主要用来方便红队人员在获得云�
 
 MDUT 全称 Multiple Database Utilization Tools，旨在将常见的数据库利用手段集合在一个程序中，打破各种数据库利用工具需要各种环境导致使用相当不便的隔阂；MDUT 使用 Java 开发，支持跨平台使用。
 
+### [WMIHACKER](detail/WMIHACKER.md)
+![Author](https://img.shields.io/badge/Author-rootclay-orange)
+![Language](https://img.shields.io/badge/Language-VBScript-blue)
+![GitHub stars](https://img.shields.io/github/stars/rootclay/WMIHACKER.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+
+<https://github.com/rootclay/WMIHACKER>
+
+WMIHACKER是一款免杀横向渗透远程命令执行工具，常见的WMIEXEC、PSEXEC执行命令是创建服务或调用Win32_Process.create执行命令，这些方式都已经被杀软100%拦截，通过改造出的WMIHACKER可免杀横向移动。并且在企业网络目前阻断445端口严重的情况下可以无需445端口进行横向移动，效率高且不易被检测。
+
 ### [BurpCrypto](detail/BurpCrypto.md)
 ![Author](https://img.shields.io/badge/Author-whwlsfb-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
@@ -432,6 +458,16 @@ Cloud-Bucket-Leak-Detection-Tools是一款针对云厂商存储桶扫描检测�
 <https://github.com/wuba/Antenna>
 
 Antenna是58同城安全团队打造的一款辅助安全从业人员辅助验证网络中多种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试( OAST)通过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标进行Out-of-bind的数据通信方式进行辅助检测。
+
+### [geacon_pro](detail/geacon_pro.md)
+![Author](https://img.shields.io/badge/Author-H4de5-7-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/H4de5-7/geacon_pro.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+
+<https://github.com/H4de5-7/geacon_pro>
+
+跨平台重构了Cobaltstrike Beacon，适配了大部分Beacon的功能，行为对国内主流杀软免杀，支持4.1以上的版本。 A cross-platform CobaltStrike Beacon bypass anti-virus, supports 4.1+ version。
 
 ### [Redis-Rogue-Server](detail/Redis-Rogue-Server.md)
 ![Author](https://img.shields.io/badge/Author-Dliv3-orange)
@@ -589,6 +625,16 @@ Windows平台的shellcode免杀加载器，自带多种加载方式：32位自�
 
 Platypus 是一个基于终端与 Web UI 交互式的反弹 Shell 会话管理工具。在实际的渗透测试中，为了解决 Netcat/Socat 等工具在文件传输、多会话管理方面的不足。该工具在多会话管理的基础上增加了在渗透测试中更加有用的功能，可以更方便灵活地对反弹 Shell 会话进行管理。
 
+### [WMIHACKER](detail/WMIHACKER.md)
+![Author](https://img.shields.io/badge/Author-rootclay-orange)
+![Language](https://img.shields.io/badge/Language-VBScript-blue)
+![GitHub stars](https://img.shields.io/github/stars/rootclay/WMIHACKER.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+
+<https://github.com/rootclay/WMIHACKER>
+
+WMIHACKER是一款免杀横向渗透远程命令执行工具，常见的WMIEXEC、PSEXEC执行命令是创建服务或调用Win32_Process.create执行命令，这些方式都已经被杀软100%拦截，通过改造出的WMIHACKER可免杀横向移动。并且在企业网络目前阻断445端口严重的情况下可以无需445端口进行横向移动，效率高且不易被检测。
+
 ### [As-Exploits](detail/As-Exploits.md)
 ![Author](https://img.shields.io/badge/Author-yzddmr6-orange)
 ![Language](https://img.shields.io/badge/Language-JavaScript-blue)
@@ -598,6 +644,16 @@ Platypus 是一个基于终端与 Web UI 交互式的反弹 Shell 会话管理�
 <https://github.com/yzddmr6/As-Exploits>
 
 中国蚁剑后渗透框架
+
+### [geacon_pro](detail/geacon_pro.md)
+![Author](https://img.shields.io/badge/Author-H4de5-7-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/H4de5-7/geacon_pro.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+
+<https://github.com/H4de5-7/geacon_pro>
+
+跨平台重构了Cobaltstrike Beacon，适配了大部分Beacon的功能，行为对国内主流杀软免杀，支持4.1以上的版本。 A cross-platform CobaltStrike Beacon bypass anti-virus, supports 4.1+ version。
 
 ### [PortForward](detail/PortForward.md)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
@@ -641,6 +697,16 @@ BinAbsInspector(Binary Abstract Inspector)是一款用于自动化逆向工程�
 <https://github.com/c0ny1/passive-scan-client>
 
 Passive Scan Client是一款可以将经过筛选的流量转发到指定代理的Burp被动扫描流量转发插件
+
+### [Heimdallr](detail/Heimdallr.md)
+![Author](https://img.shields.io/badge/Author-graynjo-orange)
+![Language](https://img.shields.io/badge/Language-JavaScript-blue)
+![GitHub stars](https://img.shields.io/github/stars/graynjo/Heimdallr.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.1.3-red)
+
+<https://github.com/graynjo/Heimdallr>
+
+一款完全被动监听的谷歌插件，用于高危指纹识别、蜜罐特征告警和拦截、机器特征对抗。
 
 ### [wam](detail/wam.md)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)

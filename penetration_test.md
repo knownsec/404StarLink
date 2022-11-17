@@ -5,15 +5,17 @@
 3. [Viper](#viper)
 4. [cf](#cf)
 5. [MDUT](#mdut)
-6. [BurpCrypto](#burpcrypto)
-7. [ysomap](#ysomap)
-8. [MySQL-Fake-Server](#mysql-fake-server)
-9. [DNSlog-GO](#dnslog-go)
-10. [Cloud-Bucket-Leak-Detection-Tools](#cloud-bucket-leak-detection-tools)
-11. [Antenna](#antenna)
-12. [Redis-Rogue-Server](#redis-rogue-server)
-13. [MysqlT](#mysqlt)
-14. [Cola-Dnslog](#cola-dnslog)
+6. [WMIHACKER](#wmihacker)
+7. [BurpCrypto](#burpcrypto)
+8. [ysomap](#ysomap)
+9. [MySQL-Fake-Server](#mysql-fake-server)
+10. [DNSlog-GO](#dnslog-go)
+11. [Cloud-Bucket-Leak-Detection-Tools](#cloud-bucket-leak-detection-tools)
+12. [Antenna](#antenna)
+13. [geacon_pro](#geacon_pro)
+14. [Redis-Rogue-Server](#redis-rogue-server)
+15. [MysqlT](#mysqlt)
+16. [Cola-Dnslog](#cola-dnslog)
 
 ----------------------------------------
 
@@ -66,6 +68,16 @@ CF 是一个云环境利用框架，主要用来方便红队人员在获得云�
 <https://github.com/SafeGroceryStore/MDUT>
 
 MDUT 全称 Multiple Database Utilization Tools，旨在将常见的数据库利用手段集合在一个程序中，打破各种数据库利用工具需要各种环境导致使用相当不便的隔阂；MDUT 使用 Java 开发，支持跨平台使用。
+
+### [WMIHACKER](detail/WMIHACKER.md)
+![Author](https://img.shields.io/badge/Author-rootclay-orange)
+![Language](https://img.shields.io/badge/Language-VBScript-blue)
+![GitHub stars](https://img.shields.io/github/stars/rootclay/WMIHACKER.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+
+<https://github.com/rootclay/WMIHACKER>
+
+WMIHACKER是一款免杀横向渗透远程命令执行工具，常见的WMIEXEC、PSEXEC执行命令是创建服务或调用Win32_Process.create执行命令，这些方式都已经被杀软100%拦截，通过改造出的WMIHACKER可免杀横向移动。并且在企业网络目前阻断445端口严重的情况下可以无需445端口进行横向移动，效率高且不易被检测。
 
 ### [BurpCrypto](detail/BurpCrypto.md)
 ![Author](https://img.shields.io/badge/Author-whwlsfb-orange)
@@ -126,6 +138,16 @@ Cloud-Bucket-Leak-Detection-Tools是一款针对云厂商存储桶扫描检测�
 <https://github.com/wuba/Antenna>
 
 Antenna是58同城安全团队打造的一款辅助安全从业人员辅助验证网络中多种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试( OAST)通过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标进行Out-of-bind的数据通信方式进行辅助检测。
+
+### [geacon_pro](detail/geacon_pro.md)
+![Author](https://img.shields.io/badge/Author-H4de5-7-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/H4de5-7/geacon_pro.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+
+<https://github.com/H4de5-7/geacon_pro>
+
+跨平台重构了Cobaltstrike Beacon，适配了大部分Beacon的功能，行为对国内主流杀软免杀，支持4.1以上的版本。 A cross-platform CobaltStrike Beacon bypass anti-virus, supports 4.1+ version。
 
 ### [Redis-Rogue-Server](detail/Redis-Rogue-Server.md)
 ![Author](https://img.shields.io/badge/Author-Dliv3-orange)

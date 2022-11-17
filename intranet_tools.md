@@ -6,8 +6,10 @@
 4. [shellcodeloader](#shellcodeloader)
 5. [ServerScan](#serverscan)
 6. [Platypus](#platypus)
-7. [As-Exploits](#as-exploits)
-8. [PortForward](#portforward)
+7. [WMIHACKER](#wmihacker)
+8. [As-Exploits](#as-exploits)
+9. [geacon_pro](#geacon_pro)
+10. [PortForward](#portforward)
 
 ----------------------------------------
 
@@ -71,6 +73,16 @@ Windows平台的shellcode免杀加载器，自带多种加载方式：32位自�
 
 Platypus 是一个基于终端与 Web UI 交互式的反弹 Shell 会话管理工具。在实际的渗透测试中，为了解决 Netcat/Socat 等工具在文件传输、多会话管理方面的不足。该工具在多会话管理的基础上增加了在渗透测试中更加有用的功能，可以更方便灵活地对反弹 Shell 会话进行管理。
 
+### [WMIHACKER](detail/WMIHACKER.md)
+![Author](https://img.shields.io/badge/Author-rootclay-orange)
+![Language](https://img.shields.io/badge/Language-VBScript-blue)
+![GitHub stars](https://img.shields.io/github/stars/rootclay/WMIHACKER.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+
+<https://github.com/rootclay/WMIHACKER>
+
+WMIHACKER是一款免杀横向渗透远程命令执行工具，常见的WMIEXEC、PSEXEC执行命令是创建服务或调用Win32_Process.create执行命令，这些方式都已经被杀软100%拦截，通过改造出的WMIHACKER可免杀横向移动。并且在企业网络目前阻断445端口严重的情况下可以无需445端口进行横向移动，效率高且不易被检测。
+
 ### [As-Exploits](detail/As-Exploits.md)
 ![Author](https://img.shields.io/badge/Author-yzddmr6-orange)
 ![Language](https://img.shields.io/badge/Language-JavaScript-blue)
@@ -80,6 +92,16 @@ Platypus 是一个基于终端与 Web UI 交互式的反弹 Shell 会话管理�
 <https://github.com/yzddmr6/As-Exploits>
 
 中国蚁剑后渗透框架
+
+### [geacon_pro](detail/geacon_pro.md)
+![Author](https://img.shields.io/badge/Author-H4de5-7-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/H4de5-7/geacon_pro.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+
+<https://github.com/H4de5-7/geacon_pro>
+
+跨平台重构了Cobaltstrike Beacon，适配了大部分Beacon的功能，行为对国内主流杀软免杀，支持4.1以上的版本。 A cross-platform CobaltStrike Beacon bypass anti-virus, supports 4.1+ version。
 
 ### [PortForward](detail/PortForward.md)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)

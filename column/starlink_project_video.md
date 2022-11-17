@@ -21,6 +21,6 @@ https://www.bilibili.com/video/BV1Jg411h7Pj
 
 **第四期演示项目：[CDK](https://github.com/cdk-team/CDK)**  
 Github高赞工具，渗透测试er看过来——404星链计划CDK  
-https://www.bilibili.com/video/BV1DG4y1Z784
+https://www.bilibili.com/video/BV1DG4y1Z784/
 
 **持续更新中……**

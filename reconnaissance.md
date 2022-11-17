@@ -2,14 +2,15 @@
 
 1. [AppInfoScanner](#appinfoscanner)
 2. [HaE](#hae)
-3. [Kunyu](#kunyu)
-4. [Glass](#glass)
-5. [scaninfo](#scaninfo)
-6. [ksubdomain](#ksubdomain)
-7. [ZoomEye-Python](#zoomeye-python)
-8. [ct](#ct)
-9. [Zoomeye-Tools](#zoomeye-tools)
-10. [ZoomEye-go](#zoomeye-go)
+3. [ENScanGo](#enscango)
+4. [Kunyu](#kunyu)
+5. [Glass](#glass)
+6. [scaninfo](#scaninfo)
+7. [ksubdomain](#ksubdomain)
+8. [ZoomEye-Python](#zoomeye-python)
+9. [ct](#ct)
+10. [Zoomeye-Tools](#zoomeye-tools)
+11. [ZoomEye-go](#zoomeye-go)
 
 ----------------------------------------
 
@@ -32,6 +33,16 @@
 <https://github.com/gh0stkey/HaE>
 
 HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。
+
+### [ENScanGo](detail/ENScanGo.md)
+![Author](https://img.shields.io/badge/Author-wgpsec-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.6-red)
+
+<https://github.com/wgpsec/ENScan_GO>
+
+一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。
 
 ### [Kunyu](detail/Kunyu.md)
 ![Author](https://img.shields.io/badge/Author-风起-orange)
