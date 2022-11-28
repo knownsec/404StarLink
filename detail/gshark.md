@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.0-red)
+![Version](https://img.shields.io/badge/Version-V1.0.1-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -151,6 +151,11 @@ go env -w GO111MODULE=on
 
 ## 最近更新
 
+#### [v1.0.1] - 2022-11-25
+
+**Added**  
+- 支持 Gitlab 本地部署扫描，通过配置项 gitlab-base 自定义 baseUrl
+
 #### [v1.0.0] - 2022-08-13
 
 **Added**  
@@ -183,22 +188,5 @@ go env -w GO111MODULE=on
 **Removed**  
 - 移除无用的图片资源  
 - 优化 Config 数据结构，进行配置项合并
-
-#### [v0.9.6] - 2022-05-04
-
-**新增**  
-- 增加 DNS 内置模块进行子域名爆破  
-- 前端增加 domian 类型  
-- 调整登录页样式  
-- 增加中文 README  
-- 增加 sql.md，用于增量部署  
-
-**修复**  
-- 修复保存时的数据库报错  
-- 修复未发送消息提醒的问题  
-- 修复未处理结果重复保存的问题  
-
-**优化**  
-- 简化 token 的数据结构
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
