@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-teamssix-orange)
 ![GitHub stars](https://img.shields.io/github/stars/teamssix/cf.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.4.2-red)
+![Version](https://img.shields.io/badge/Version-V0.4.3-red)
 ![Time](https://img.shields.io/badge/Join-20220829-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -146,6 +146,19 @@ cf upgrade
 
 
 ## 最近更新
+
+#### [v0.4.3] - 2022-12-04
+
+**新增功能**  
+- 在配置访问密钥时，会自动识别并提示导入本地的访问密钥  
+- 增加 aws ec2 实例的列出功能  
+
+**功能优化**  
+- 优化输出信息的展示  
+- 优化 config 命令功能  
+
+**Bug 修复**  
+- 修复一处删除配置时的 Bug
 
 #### [v0.4.2] - 2022-10-11
 

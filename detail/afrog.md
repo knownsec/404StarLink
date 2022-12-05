@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.0-red)
+![Version](https://img.shields.io/badge/Version-V2.0.1-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -31,7 +31,7 @@ afrog -t http://127.0.0.1
 afrog -T urls.txt
 
 # 指定漏扫报告文件
-afrog -t http://127.0.0.1-o result.html
+afrog -t http://127.0.0.1 -o result.html
 ```
 
 高级用法
@@ -65,6 +65,12 @@ html 报告
 
 
 ## 最近更新
+
+#### [v2.0.1] - 2022-11-30
+
+**更新**  
+- 紧急发布修复 BUG 的小版本  
+- 解决 afrog 线程池经常卡死 BUG
 
 #### [v2.0.0] - 2022-11-10
 
@@ -103,18 +109,5 @@ html 报告
 - 修复自定义UA 失效问题  
 - 优化部分 PoC 调低漏洞等级  
 - 删除 PoC rsync-unauth
-
-#### [v1.3.6] - 2022-07-24
-
-**更新**  
-- add Gitee 更新 afrog-pocs  
-- add 自动识别 http(s)  
-- add target 存活验证  
-- add Console Print 实时显示指纹识别结果  
-- update 更新 fingerprint 指纹库  
-- fixed 解决 gbk 编码导致 PoC 漏报问题  
-- bug 修复 GoPoC Console Print 不显示 target  
-- delete tongda-insert-sql-inject poc  
-- poc 新增 PoC 33 个，共 656 个
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

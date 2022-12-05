@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-H4de5-7-orange)
 ![GitHub stars](https://img.shields.io/github/stars/H4de5-7/geacon_pro.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+![Version](https://img.shields.io/badge/Version-V1.0-red)
 ![Time](https://img.shields.io/badge/Join-20221117-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -321,5 +321,14 @@ dll通过管道将结果异步地回传给服务端。目前的dll反射注入�
 
 
 ## 最近更新
+
+#### [v1.0] - 2022-12-03
+
+**更新**  
+- 新增了将geacon_pro转成反射型dll/shellcode的方法  
+- 新增了异步执行命令、内置消除黑框、适配cna、自删除、getpriv、timestomp功能  
+- 新增了自定义设置使用说明、Remark备注设置、ExecuteKey反沙箱设置、jitter设置  
+- 修复了dllinject、inject、drives、内网地址获取等BUG  
+
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
