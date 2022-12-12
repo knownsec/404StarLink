@@ -19,6 +19,7 @@
 |----|-----------|--------------------------|
 |2022-12-12|[**afrog**](detail/afrog.md)|更新 [v2.1.0](detail/afrog.md#最近更新) 版本|
 |2022-12-11|[**geacon_pro**](detail/geacon_pro.md)|更新 [v1.0.1](detail/geacon_pro.md#最近更新) 版本|
+|2022-12-10|[**frida-skeleton**](detail/frida-skeleton.md)|更新 [v3.3](detail/frida-skeleton.md#最近更新) 版本|
 |2022-12-09|[**fscan**](detail/fscan.md)|发布演示视频[404星链计划开源安全工具演示——fscan](https://www.bilibili.com/video/BV1Cv4y1R72M/)|
 |2022-12-04|[**cf**](detail/cf.md)|更新 [v0.4.3](detail/cf.md#最近更新) 版本|
 |2022-12-02|[**veinmind-tools**](detail/veinmind-tools.md)|更新 [v1.6.4](detail/veinmind-tools.md#最近更新) 版本|
@@ -26,7 +27,6 @@
 |2022-11-19|[**fscan**](detail/fscan.md)|更新 [v1.8.2](detail/fscan.md#最近更新) 版本|
 |2022-11-17|[**WMIHACKER**](detail/WMIHACKER.md)|WMIHACKER加入星链计划|
 |2022-11-17|[**geacon_pro**](detail/geacon_pro.md)|geacon_pro加入星链计划|
-|2022-11-17|[**ENScanGo**](detail/ENScanGo.md)|ENScanGo加入星链计划|
 
 **2.StarRank**
 
@@ -48,7 +48,7 @@
 | 时间 | 项目迭代版本 |
 |----|-----------|
 |第50周|[**afrog**](detail/afrog.md) 更新 [v2.1.0](detail/afrog.md#最近更新)|
-|第49周|[**geacon_pro**](detail/geacon_pro.md) 更新 [v1.0.1](detail/geacon_pro.md#最近更新)|
+|第49周|[**geacon_pro**](detail/geacon_pro.md) 更新 [v1.0.1](detail/geacon_pro.md#最近更新) / [**frida-skeleton**](detail/frida-skeleton.md) 更新 [v3.3](detail/frida-skeleton.md#最近更新)|
 |第48周|[**cf**](detail/cf.md) 更新 [v0.4.3](detail/cf.md#最近更新) / [**geacon_pro**](detail/geacon_pro.md) 更新 [v1.0](detail/geacon_pro.md#最近更新) / [**veinmind-tools**](detail/veinmind-tools.md) 更新 [v1.6.4](detail/veinmind-tools.md#最近更新) / [**afrog**](detail/afrog.md) 更新 [v2.0.1](detail/afrog.md#最近更新)|
 |第47周|[**GShark**](detail/gshark.md) 更新 [v1.0.1](detail/gshark.md#最近更新) / [**veinmind-tools**](detail/veinmind-tools.md) 更新 [v1.6.3](detail/veinmind-tools.md#最近更新)|
 |第46周|[**fscan**](detail/fscan.md) 更新 [v1.8.2](detail/fscan.md#最近更新)|

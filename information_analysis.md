@@ -33,7 +33,7 @@ KunLun-M是一个完全开源的静态白盒扫描工具，支持PHP、JavaScrip
 ![Author](https://img.shields.io/badge/Author-Margular-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/Margular/frida-skeleton.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.0-red)
+![Version](https://img.shields.io/badge/Version-V3.3-red)
 
 <https://github.com/Margular/frida-skeleton>
 
