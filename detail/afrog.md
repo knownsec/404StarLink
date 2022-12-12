@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.1-red)
+![Version](https://img.shields.io/badge/Version-V2.1.0-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -66,6 +66,16 @@ html 报告
 
 ## 最近更新
 
+#### [v2.1.0] - 2022-12-12
+
+**更新**  
+- 新增 -update 将 afrog 引擎更新到最新发布的版本  
+- 新增 -proxy 使用 http/socks5 代理列表(逗号分隔或文件输入)  
+- 新增 -rate-limit、concurrency、fingerprint-concurrency、max-host-error、retries、timeout 等参数  
+- 修复 html 报告(返回多个请求记录)URL 不准确的 BUG  
+- 优化 banner 展示界面(模仿 nuclei)  
+- 屏蔽 GoPoc 功能(暂时)
+
 #### [v2.0.1] - 2022-11-30
 
 **更新**  
@@ -100,14 +110,5 @@ html 报告
 - 修改 dial_timeout/read_timeout/write_timeout 等参数的默认值  
 - 优化 PoC nacos-v1-auth-bypass/solr-log4j-rce.yaml/CVE-2021-26084  
 - 累计 PoC 总数 684
-
-#### [v1.3.7] - 2022-08-24
-
-**更新**  
-- 新增 socks/http(s) 代理  
-- 优化并发机制，牺牲扫描速度，减少漏报  
-- 修复自定义UA 失效问题  
-- 优化部分 PoC 调低漏洞等级  
-- 删除 PoC rsync-unauth
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

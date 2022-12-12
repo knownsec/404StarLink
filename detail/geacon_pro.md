@@ -1,9 +1,9 @@
 ## geacon_pro <https://github.com/H4de5-7/geacon_pro>
 <!--auto_detail_badge_begin_0b490ffb61b26b45de3ea5d7dd8a582e-->
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
-![Author](https://img.shields.io/badge/Author-H4de5-7-orange)
+![Author](https://img.shields.io/badge/Author-H4de5-orange)
 ![GitHub stars](https://img.shields.io/github/stars/H4de5-7/geacon_pro.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0-red)
+![Version](https://img.shields.io/badge/Version-V1.0.1-red)
 ![Time](https://img.shields.io/badge/Join-20221117-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -321,6 +321,14 @@ dll通过管道将结果异步地回传给服务端。目前的dll反射注入�
 
 
 ## 最近更新
+
+#### [v1.0.1] - 2022-12-11
+
+**更新**  
+- 新增了时间反沙箱的设置  
+- 优化了部分job的输出  
+- 修正了部分情况下分辨率导致的screenshot不完整的BUG  
+- 修正了部分情况下linux和mac权限获取错误的BUG
 
 #### [v1.0] - 2022-12-03
 

@@ -130,10 +130,10 @@ DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB�
 Cloud-Bucket-Leak-Detection-Tools是一款针对云厂商存储桶扫描检测与利用的工具
 
 ### [geacon_pro](detail/geacon_pro.md)
-![Author](https://img.shields.io/badge/Author-H4de5-7-orange)
+![Author](https://img.shields.io/badge/Author-H4de5-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/H4de5-7/geacon_pro.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0-red)
+![Version](https://img.shields.io/badge/Version-V1.0.1-red)
 
 <https://github.com/H4de5-7/geacon_pro>
 

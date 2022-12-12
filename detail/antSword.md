@@ -73,6 +73,7 @@
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
+- 2022-10-12 发布演示视频[404星链计划开源安全工具演示——antSword](https://www.bilibili.com/video/BV1Jg411h7Pj/)
 - 2022-07-18 发布文章[《AntSword v2.1.15 更新汇总》](https://mp.weixin.qq.com/s/QzbREMp8JaQiP9qo48OyHg)
 - 2021-11-15 发布文章[《蚁剑绕WAF进化图鉴》](https://mp.weixin.qq.com/s/EYP1ANj7pxM8_NX_7R9WjA)
 
