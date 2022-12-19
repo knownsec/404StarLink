@@ -124,7 +124,7 @@ Appshark 是一个针对安卓的静态分析工具，它的设计目标是针�
 ![Author](https://img.shields.io/badge/Author-长亭科技-orange)
 ![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/chaitin/veinmind-tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.4-red)
+![Version](https://img.shields.io/badge/Version-V1.6.5-red)
 
 <https://github.com/chaitin/veinmind-tools>
 
@@ -187,7 +187,7 @@ Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检�
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.4.2-red)
+![Version](https://img.shields.io/badge/Version-V2.4.5-red)
 
 <https://github.com/gh0stkey/HaE>
 
@@ -343,7 +343,7 @@ LSpider 一个为被动扫描器定制的前端爬虫
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/pocsuite3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.1-red)
+![Version](https://img.shields.io/badge/Version-V2.0.2-red)
 
 <https://github.com/knownsec/pocsuite3>
 
@@ -373,7 +373,7 @@ VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战�
 ![Author](https://img.shields.io/badge/Author-teamssix-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/teamssix/cf.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.4.3-red)
+![Version](https://img.shields.io/badge/Version-V0.4.4-red)
 
 <https://github.com/teamssix/cf>
 
@@ -453,7 +453,7 @@ Cloud-Bucket-Leak-Detection-Tools是一款针对云厂商存储桶扫描检测�
 ![Author](https://img.shields.io/badge/Author-H4de5-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/H4de5-7/geacon_pro.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.1-red)
+![Version](https://img.shields.io/badge/Version-V1.1.0-red)
 
 <https://github.com/H4de5-7/geacon_pro>
 
@@ -639,7 +639,7 @@ WMIHACKER是一款免杀横向渗透远程命令执行工具，常见的WMIEXEC�
 ![Author](https://img.shields.io/badge/Author-H4de5-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/H4de5-7/geacon_pro.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.1-red)
+![Version](https://img.shields.io/badge/Version-V1.1.0-red)
 
 <https://github.com/H4de5-7/geacon_pro>
 

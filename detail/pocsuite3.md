@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/pocsuite3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.1-red)
+![Version](https://img.shields.io/badge/Version-V2.0.2-red)
 ![Time](https://img.shields.io/badge/Join-20200821-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -155,6 +155,14 @@ console mode
 
 ## 最近更新
 
+#### [v2.0.2] - 2022-12-13
+
+**更新**  
+- 修复 _check 方法中 url 重定向的问题  
+- 修复 console 模式下 use 命令使用绝对路径的问题  
+- 修复 build_url 兼容 ipv6 的问题  
+- 优化 nuclei DSL 表达式执行
+
 #### [v2.0.1] - 2022-11-09
 
 **更新**
@@ -186,13 +194,5 @@ console mode
 - 新增根据 poc 协议字段自动修正 target 路径  
 - 修复 windows 平台 poc-console 高亮显示的问题  
 - 默认去除 target 路径末尾的 '/' 字符
-
-#### [v1.9.8] - 2022-08-06
-
-**更新**  
-- 支持对 PoC 全文进行正则搜索  
-- 在基类 POCBase 中为 PoC 的所有属性设置了默认值  
-- 添加监听/反连 shell  
-- 修复 fofa 插件分页查询的 bug
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.4.2-red)
+![Version](https://img.shields.io/badge/Version-V2.4.5-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -62,6 +62,14 @@
 
 ## 最近更新
 
+#### [v2.4.5] - 2022-12-18
+
+**更新**  
+- 在线更新配置信息功能添加提示框, 防止用户误触导致配置被更新  
+- 数据聚合查询面板添加支持通配符域名查找  
+- 数据聚合查询面板添加清空数据功能, 便于用户查看最新数据  
+- 新增规则作用域: any header(请求与响应头)/any body(请求与响应主体)
+
 #### [v2.4.2] - 2022-07-15
 
 **更新**  
@@ -91,11 +99,5 @@
 - HaE规则增加sensitive字段，用于NFA引擎正则大小写敏感(更新后建议从HaE规则库中拉取最新规则)  
 - 公共规则库增加Dos Paramters、Create Script、Password Field、Username Field规则  
 - 兼容性：HaE将同时发布JDK8、9打包的Release版本
-
-#### [v2.2.3] - 2022-05-12
-
-**更新**  
-- 优化体验：在MarkInfo标签快捷键复制时，去除最后的换行符  
-- 美化代码：将UI部分代码变量名按小驼峰方式命名，增加代码可读性
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

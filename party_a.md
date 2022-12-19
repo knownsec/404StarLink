@@ -56,7 +56,7 @@ Appshark 是一个针对安卓的静态分析工具，它的设计目标是针�
 ![Author](https://img.shields.io/badge/Author-长亭科技-orange)
 ![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/chaitin/veinmind-tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.4-red)
+![Version](https://img.shields.io/badge/Version-V1.6.5-red)
 
 <https://github.com/chaitin/veinmind-tools>
 

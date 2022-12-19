@@ -104,4 +104,26 @@ python frida-skeleton.py -h
 - 修复有的su不支持后面跟一个-  
 - attrdict本地模块化以兼容3.10及以上版本
 
+#### [v3.2.3] - 2021-06-24
+
+**Add**  
+- 保存hook脚本的整个内容方便调试和查看  
+
+**Changed**  
+- 在调用Trace.javaClassByRegex的时候默认跳过hook系统函数  
+
+**Fixed**  
+- 修复可能无法退出程序的BUG
+
+#### [v3.2.0] - 2020-12-24
+
+**Add**  
+- 新增Jav.describeObject API，很方便地打印java对象的函数和字段信息  
+- 加入星链计划2.0  
+- 添加logo  
+
+**Changed**  
+- 迁移wiki到github  
+- 主程序帮助界面改为中文
+
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

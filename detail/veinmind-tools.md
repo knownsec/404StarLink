@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
 ![Author](https://img.shields.io/badge/Author-长亭科技-orange)
 ![GitHub stars](https://img.shields.io/github/stars/chaitin/veinmind-tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.4-red)
+![Version](https://img.shields.io/badge/Version-V1.6.5-red)
 ![Time](https://img.shields.io/badge/Join-20220316-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -66,6 +66,11 @@ PS: 目前所有工具均已支持平行容器的方式运行
 
 ## 最近更新
 
+#### [v1.6.5] - 2022-12-16
+
+**更新**  
+- veinmind-iac 支持扫描 k8s 集群
+
 #### [v1.6.4] - 2022-12-02
 
 **更新**  
@@ -87,12 +92,5 @@ PS: 目前所有工具均已支持平行容器的方式运行
 **更新**  
 - 新增 veinmind-unsafe-mount 插件  
 - 移除项目内 python 依赖
-
-#### [v1.5.3] - 2022-10-26
-
-**更新**  
-- 新增 veinmind-log4j2 插件  
-- 新增快速生成插件脚本  
-- veinmind-sensitive 支持扫描镜像构建历史敏感信息
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

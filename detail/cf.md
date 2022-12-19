@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-teamssix-orange)
 ![GitHub stars](https://img.shields.io/github/stars/teamssix/cf.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.4.3-red)
+![Version](https://img.shields.io/badge/Version-V0.4.4-red)
 ![Time](https://img.shields.io/badge/Join-20220829-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -11,16 +11,14 @@ CF 是一个云环境利用框架，适用于在红队场景中对云上内网�
 
 CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/cf/releases)
 
-![](https://cdn.jsdelivr.net/gh/teamssix/BlogImages/imgs/202210121146288.png)
+![](https://cdn.jsdelivr.net/gh/teamssix/BlogImages/imgs/202212132148217.png)
 
 当前已支持的云：
 
 - [x] 阿里云
 - [x] 腾讯云
 - [x] AWS
-- [ ] 华为云（预计在 2022 年 12 月 14 日前支持）
-
-功能排期可参考：[github.com/teamssix/cf/discussions/130](https://github.com/teamssix/cf/discussions/130)
+- [x] 华为云
 
 ## 使用手册
 
@@ -43,27 +41,13 @@ CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/
 |  cf_x.x.x_windows_amd64.zip  | Windows |                AMD                 |  64  |
 |  cf_x.x.x_windows_arm64.zip  | Windows |                ARM                 |  64  |
 
-### MacOS && Linux
-
-> 注意将下面命令中的地址和文件名替换成 [releases](https://github.com/teamssix/cf/releases) 里的值。
-
-```bash
-wget https://github.com/teamssix/cf/releases/download/xxx/cf_xxx_xxx_xxx.tar.gz
-tar zxvf cf_xxx_xxx_xxx.tar.gz
-chmod +x cf
-./cf
-```
-
-### Windows
-
-直接在 CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/cf/releases) 中下载系统对应的 ZIP 文件，解压后，在命令行中运行即可。
-
 ## 使用案例
 
-|                标题                | 所使用的 CF 版本 |             文章地址              | 发布时间  |
-| :--------------------------------: | :--------------: | :-------------------------------: | :-------: |
-| 《记录一次平平无奇的云上攻防过程》 |      v0.4.0      |  https://zone.huoxian.cn/d/2557   | 2022.9.14 |
-|   《我用 CF 打穿了他的云上内网》   |      v0.2.4      | https://zone.huoxian.cn/d/1341-cf | 2022.7.13 |
+|                标题                | 所使用的 CF 版本 |                           文章地址                           |   作者   |  发布时间  |
+| :--------------------------------: | :--------------: | :----------------------------------------------------------: | :------: | :--------: |
+|    《一次简单的"云"上野战记录》    |      v0.4.2      | [https://mp.weixin.qq.com/s/wi8C...](https://mp.weixin.qq.com/s/wi8CoNwdpfJa6eMP4t1PCQ) | carrypan | 2022.10.19 |
+| 《记录一次平平无奇的云上攻防过程》 |      v0.4.0      | [https://zone.huoxian.cn/d/2557](https://zone.huoxian.cn/d/2557) | TeamsSix | 2022.9.14  |
+|   《我用 CF 打穿了他的云上内网》   |      v0.2.4      | [https://zone.huoxian.cn/d/1341-cf](https://zone.huoxian.cn/d/1341-cf) | TeamsSix | 2022.7.13  |
 
 ## 简单上手
 
@@ -141,11 +125,26 @@ cf alibaba oss obj get
 cf upgrade
 ```
 
+![](https://cdn.jsdelivr.net/gh/teamssix/BlogImages/imgs/202209071737416.png)
+
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
 
 ## 最近更新
+
+#### [v0.4.4] - 2022-12-14
+
+**新增功能**  
+- 增加本地访问密钥扫描功能  
+- 增加 huawei obs ls 功能  
+
+**功能优化**  
+- 优化错误信息输出  
+
+**Bug 修复**  
+- 修复一处 aws ec2 ls 处的 Bug  
+- 修复一处配置功能处的 Bug
 
 #### [v0.4.3] - 2022-12-04
 
