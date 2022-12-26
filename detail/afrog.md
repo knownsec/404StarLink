@@ -3,68 +3,73 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.0-red)
+![Version](https://img.shields.io/badge/Version-V2.1.1-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
-## 什么是 afrog
+## What is afrog
 
-afrog 是一款性能卓越、快速稳定、PoC 可定制的漏洞扫描工具，PoC 包含 CVE、CNVD、默认口令、信息泄露、指纹识别、未授权访问、任意文件读取、命令执行等多种漏洞类型，帮助网络安全从业者快速验证并及时修复漏洞。
+afrog is an excellent performance, fast and stable, PoC customizable vulnerability scanning (hole digging) tool. PoC involves CVE, CNVD, default password, information leakage, fingerprint identification, unauthorized access, arbitrary file reading, command execution, etc. It helps network security practitioners quickly verify and fix vulnerabilities in a timely manner.
 
-## 特点
+## Features
 
-* [x] 开源
-* [x] 快速、稳定、误报低
-* [x] 详细的 html 漏洞报告
-* [x] PoC 可定制化、稳定更新
-* [x] 活跃的社区 [交流群](https://github.com/zan8in/afrog#%E4%BA%A4%E6%B5%81%E7%BE%A4)
-* [x] 长期维护
+* [x] Open Source
+* [x] Fast, stable, low false positives
+* [x] Detailed html vulnerability report
+* [x] PoC can be customized and updated stably
+* [x] Active community exchange group
 
-## 示例
+## Example
 
-基本用法
+Basic usage
 ```
-# 扫描一个目标
+# Scan a target
 afrog -t http://127.0.0.1
 
-# 扫描多个目标
+# Scan multiple targets
 afrog -T urls.txt
 
-# 指定漏扫报告文件
+# Specify a scan report file
 afrog -t http://127.0.0.1 -o result.html
 ```
 
-高级用法
+Advanced usage
 
 ```
-# 测试 PoC 
+# Test PoC 
 afrog -t http://127.0.0.1 -P ./test/ 
 afrog -t http://127.0.0.1 -P ./test/demo.yaml 
 
-# 按 PoC 关键字扫描 
+# Scan by PoC Keywords 
 afrog -t http://127.0.0.1 -s tomcat,springboot,shiro 
 
-# 按 Poc 漏洞等级扫描 
+# Scan by PoC Vulnerability Severity Level 
 afrog -t http://127.0.0.1 -S high,critical 
 
-# 在线更新 afrog-pocs 
-afrog --up 
+# Online update afrog-pocs 
+afrog -up 
 
-# 禁用指纹识别，直接漏扫 
-afrog -t http://127.0.0.1 --nf
+# Disable fingerprint recognition 
+afrog -t http://127.0.0.1 -nf
 ```
 
-## 截图
-控制台
-![](https://github.com/zan8in/afrog/blob/main/images/scan-new.png)
-html 报告
-![](https://github.com/zan8in/afrog/blob/main/images/report-new.png)
+## Screenshot
+
+![](https://github.com/zan8in/afrog/raw/main/images/scan-new.png)
+
+![](https://github.com/zan8in/afrog/raw/main/images/report-new.png)
 
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
 
 ## 最近更新
+
+#### [v2.1.1] - 2022-12-22
+
+**更新**  
+- 修复了指纹中误报率高的bug  
+- 添加 -json 选项，用于 json 格式输出
 
 #### [v2.1.0] - 2022-12-12
 
@@ -98,17 +103,5 @@ html 报告
 - 更新 指纹库 web_fingerprint_v3  
 - 解决 控制台 URL 打印不完整 BUG  
 - 解决 部分 PoC BUG
-
-#### [v1.3.8] - 2022-09-15
-
-**更新**  
-- 升级到 Golang 1.19  
-- 升级到最新 Fingerprint 指纹库  
-- 修复程序卡进度 99% 问题  
-- 修改 pocsizewaitgroup 默认值为 25  
-- afrog-config.yaml 一经生成不会被覆盖  
-- 修改 dial_timeout/read_timeout/write_timeout 等参数的默认值  
-- 优化 PoC nacos-v1-auth-bypass/solr-log4j-rce.yaml/CVE-2021-26084  
-- 累计 PoC 总数 684
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
