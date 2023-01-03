@@ -10,8 +10,8 @@
 8. [ysomap](#ysomap)
 9. [MySQL-Fake-Server](#mysql-fake-server)
 10. [DNSlog-GO](#dnslog-go)
-11. [geacon_pro](#geacon_pro)
-12. [Cloud-Bucket-Leak-Detection-Tools](#cloud-bucket-leak-detection-tools)
+11. [Cloud-Bucket-Leak-Detection-Tools](#cloud-bucket-leak-detection-tools)
+12. [geacon_pro](#geacon_pro)
 13. [Antenna](#antenna)
 14. [Redis-Rogue-Server](#redis-rogue-server)
 15. [MysqlT](#mysqlt)
@@ -119,16 +119,6 @@ Ysomap是一款适配于各类实际复杂环境的Java反序列化利用框架�
 
 DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面。单文件运行，无依赖。部署方便快捷。
 
-### [geacon_pro](detail/geacon_pro.md)
-![Author](https://img.shields.io/badge/Author-H4de5-orange)
-![Language](https://img.shields.io/badge/Language-Golang-blue)
-![GitHub stars](https://img.shields.io/github/stars/H4de5-7/geacon_pro.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.1.0-red)
-
-<https://github.com/H4de5-7/geacon_pro>
-
-跨平台重构了Cobaltstrike Beacon，适配了大部分Beacon的功能，行为对国内主流杀软免杀，支持4.1以上的版本。 A cross-platform CobaltStrike Beacon bypass anti-virus, supports 4.1+ version。
-
 ### [Cloud-Bucket-Leak-Detection-Tools](detail/Cloud-Bucket-Leak-Detection-Tools.md)
 ![Author](https://img.shields.io/badge/Author-UzJu-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
@@ -138,6 +128,16 @@ DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB�
 <https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools>
 
 Cloud-Bucket-Leak-Detection-Tools是一款针对云厂商存储桶扫描检测与利用的工具
+
+### [geacon_pro](detail/geacon_pro.md)
+![Author](https://img.shields.io/badge/Author-H4de5-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/H4de5-7/geacon_pro.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.2.0-red)
+
+<https://github.com/H4de5-7/geacon_pro>
+
+跨平台重构了Cobaltstrike Beacon，适配了大部分Beacon的功能，行为对国内主流杀软免杀，支持4.1以上的版本。 A cross-platform CobaltStrike Beacon bypass anti-virus, supports 4.1+ version。
 
 ### [Antenna](detail/Antenna.md)
 ![Author](https://img.shields.io/badge/Author-wuba-orange)

@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-H4de5-orange)
 ![GitHub stars](https://img.shields.io/github/stars/H4de5-7/geacon_pro.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.1.0-red)
+![Version](https://img.shields.io/badge/Version-V1.2.0-red)
 ![Time](https://img.shields.io/badge/Join-20221117-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -343,6 +343,13 @@ CobaltStrike貌似没有做自删除的功能，我们添加了不同平台下�
 
 
 ## 最近更新
+
+#### [v1.2.0] - 2023-01-02
+
+**更新**  
+- 集成了svc-exe系统服务的免杀system提权  
+- 新增了runu父进程欺骗、恢复了powershell-import  
+- 修复了特定情况下screenshot显示、sedebug函数错误、部分指令判断错误的BUG
 
 #### [v1.1.0] - 2022-12-18
 
