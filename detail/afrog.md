@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.1-red)
+![Version](https://img.shields.io/badge/Version-V2.2.0-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -65,6 +65,14 @@ afrog -t http://127.0.0.1 -nf
 
 ## 最近更新
 
+#### [v2.2.0] - 2023-01-07
+
+**更新**  
+- 新增仅指纹扫描选项 `-onlyfinger`  
+- 新增 CEL 函数，如 year/shortyear 等  
+- 新增 PoC 验证属性，默认为 false  
+- 新增规则属性表达式
+
 #### [v2.1.1] - 2022-12-22
 
 **更新**  
@@ -94,14 +102,5 @@ afrog -t http://127.0.0.1 -nf
 - 优化 afrog 稳定性，完善 URL 存活验证和扫描进度检查  
 - 优化 afrog 用户体验，控制台进度显示新增 hosts、closed、time  
 - 修复 target 黑名单逻辑判断不严谨导致的严重漏洞
-
-#### [v1.3.9] - 2022-10-18
-
-**更新**  
-- 新增 参数 --ss / --scan-stable(值越大扫描越稳定)  
-- 新增 参数 --pp / --printpocs 打印 PoC 列表  
-- 更新 指纹库 web_fingerprint_v3  
-- 解决 控制台 URL 打印不完整 BUG  
-- 解决 部分 PoC BUG
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
