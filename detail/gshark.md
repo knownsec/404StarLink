@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.2-red)
+![Version](https://img.shields.io/badge/Version-V1.1.0-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -151,6 +151,17 @@ go env -w GO111MODULE=on
 
 ## 最近更新
 
+#### [v1.1.0] - 2023-01-15
+
+**Added**  
+- 启用二次过滤规则功能(重大更新)  
+
+**Modified**  
+- 优化 GitHub 搜索  
+- 过滤规则重构，支持 extension, keyword, sec_keyword 白名单以及黑名单过滤  
+- 优化匹配结果展示，突出匹配的关键词  
+- 修改 eslint 规则
+
 #### [v1.0.2] - 2023-01-08
 
 **Modified**  
@@ -176,14 +187,5 @@ go env -w GO111MODULE=on
 **Fixed**  
 - 修复批量导入规则默认没有启用规则的问题  
 - 修改规则新增前端是否启用的样式
-
-#### [v0.9.8] - 2022-07-02
-
-**Added**  
-- 批量导入规则功能  
-
-**Fixed**  
-- 登录背景图案调整  
-- 企业微信通知提醒启用配置问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
