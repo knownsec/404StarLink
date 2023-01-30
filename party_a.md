@@ -56,7 +56,7 @@ Appshark 是一个针对安卓的静态分析工具，它的设计目标是针�
 ![Author](https://img.shields.io/badge/Author-长亭科技-orange)
 ![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/chaitin/veinmind-tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.5-red)
+![Version](https://img.shields.io/badge/Version-V1.7.0-red)
 
 <https://github.com/chaitin/veinmind-tools>
 
@@ -76,7 +76,7 @@ veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.1.0-red)
+![Version](https://img.shields.io/badge/Version-V1.1.2-red)
 
 <https://github.com/madneal/gshark>
 
