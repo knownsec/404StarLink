@@ -76,7 +76,7 @@ veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.1.2-red)
+![Version](https://img.shields.io/badge/Version-V1.1.3-red)
 
 <https://github.com/madneal/gshark>
 

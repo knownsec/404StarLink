@@ -30,7 +30,6 @@ Cola Dnslog 是一款更加强大的dnslog平台（无回显漏洞探测辅助�
 
 `Dingtalk Robot` `Bark` `API` `ldaplog` `rmilog` `Docker`
 
-
 ## 🥯 使用方法
 
 > 假设你购买的域名为`example.com`
@@ -57,6 +56,10 @@ Cola Dnslog 是一款更加强大的dnslog平台（无回显漏洞探测辅助�
 
 ### 安装部署
 
+> 因为一些国内网络众所周知的原因，大多数同学使用国内VPS都会卡在前端npm构建的时候，目前暂未找到更好的解决方案，建议使用国外或者网络畅通的VPS搭建。
+>
+> 欢迎大家提issues!
+
 #### Docker（推荐）
 
 ##### 一键启动（推荐）
@@ -79,11 +82,15 @@ cd cola_dnslog
       NS1_DOMAIN: ns1.example.com # ns1绑定
       NS2_DOMAIN: ns2.example.com # ns2绑定
       SERVER_IP: 1.1.1.1 # vps ip
+      HTTP_PORT: 80 # httplog服务端口
+      HTTP_RESPONSE_SERVER_VERSION: nginx # httplog返回头的服务端信息Server: nginx
+      LDAP_PORT: 1389 # ldaplog服务端口
+      RMI_PORT: 1099 # rmilog服务端口
     ...
   front:
   	...
     environment:
-      API_BASE_URL: 'http://1.1.1.1:28001' # http://vpsip:28001
+      API_BASE_URL: 'http://1.1.1.1:28001' # http://vpsip:28001 / http://example.com:28001
     ...
 
 ```
@@ -118,15 +125,16 @@ git clone https://github.com/Abelche/cola_dnslog.git
 cd cola_dnslog
 
 docker build -t coladnslog_server -f Dockerfile_server .
-docker run -itd -p 53:53/udp \
--p 80:80 \
--p 1099:1099 \
--p 1389:1389 \
--p 28001:28001 \
+docker run -itd \
 -e DNS_DOMAIN=example.com \
 -e NS1_DOMAIN=ns1.example.com \
 -e NS2_DOMAIN=ns2.example.com \
 -e SERVER_IP=1.1.1.1 \
+-e HTTP_PORT=80 \
+-e HTTP_RESPONSE_SERVER_VERSION=nginx \
+-e LDAP_PORT=1389 \
+-e RMI_PORT=1099 \
+--net=host \
 --name ColaDnslog_server coladnslog_server
 ```
 
@@ -136,8 +144,11 @@ docker run -itd -p 53:53/udp \
 git clone https://github.com/Abelche/cola_dnslog.git
 cd cola_dnslog
 
-sudo docker build -t coladnslogfront -f Dockerfile_front .
-sudo docker run -itd -p 18080:18080 coladnslogfront
+sudo docker build --build-arg VERSION=v1.3.2 -t coladnslog_front -f Dockerfile_front .
+sudo docker run -itd \
+-p 18080:80 \
+-e "API_BASE_URL=http://1.2.3.4:28001" \
+--name ColaDnslog_front coladnslog_front
 ```
 
 
@@ -207,16 +218,14 @@ chmod +x start_webserver
 ![image-20220730035846090](https://github.com/AbelChe/cola_dnslog/raw/main/readme_resource/image-20220730035846090.png)
 
 
-
-##### **第三步 启动logserver**
+##### **第三步 启动logserver**(需要root权限)
 
 ```sh
 chmod +x start_logserver
-./start_logserver
+sudo ./start_logserver
 ```
 
 ![image-20220730160132103](https://github.com/AbelChe/cola_dnslog/raw/main/readme_resource/image-20220730160132103.png)
-
 
 
 ##### **第四步 启动前端**
@@ -224,7 +233,7 @@ chmod +x start_logserver
 现在来到前端（不一定要和webserver放在一起，你甚至可以通过electron打包成本地客户端），先修改配置文件`.env.production`
 
 ```sh
-cd src/app/front
+cd src/front
 vim .env.production
 ```
 
@@ -330,56 +339,55 @@ ${jndi:rmi://1.1.1.1:1099/rmiqrq}
 
 ### 登录
 
-![image-20220730151326711](https://github.com/AbelChe/cola_dnslog/raw/main/readme_resource/image-20220730151326711.png)
+![image-20220730151326711](readme_resource/image-20220730151326711.png)
 
 
 
 ### 首页
 
-![image-20220731143149729](https://github.com/AbelChe/cola_dnslog/raw/main/readme_resource/image-20220731143149729.png)
+![image-20220731143149729](readme_resource/image-20220731143149729.png)
 
 
 
 ### Dnslog
 
-![image-20220730151604227](https://github.com/AbelChe/cola_dnslog/raw/main/readme_resource/image-20220730151604227.png)
+![image-20230204200108337](readme_resource/image-20230204200108337.png)
 
 
 
 ### Httplog
 
-![image-20220730151741311](https://github.com/AbelChe/cola_dnslog/raw/main/readme_resource/image-20220730151741311.png)
+![image-20230204200455783](readme_resource/image-20230204200455783.png)
 
 
 
 ### Ldaplog
 
-![image-20220730151826344](https://github.com/AbelChe/cola_dnslog/raw/main/readme_resource/image-20220730151826344.png)
+![image-20230204201704004](readme_resource/image-20230204201704004.png)
 
 
 
 ### Rmilog
 
-![image-20220730151921478](https://github.com/AbelChe/cola_dnslog/raw/main/readme_resource/image-20220730151921478.png)
+![image-20230204201750497](readme_resource/image-20230204201750497.png)
 
 
 
 ### 账号信息
 
-![image-20220801003540673](https://github.com/AbelChe/cola_dnslog/raw/main/readme_resource/image-20220801003540673.png)
+![image-20220801003540673](readme_resource/image-20220801003540673.png)
 
 
 
 ### 钉钉机器人
 
-<img src="https://github.com/AbelChe/cola_dnslog/raw/main/readme_resource/image-20220731231301577.png" alt="image-20220731231301577" style="zoom: 25%;" />
+<img src="readme_resource/image-20220731231301577.png" alt="image-20220731231301577" style="zoom: 25%;" />
 
 
 
 ### Bark
 
-<img src="https://github.com/AbelChe/cola_dnslog/raw/main/readme_resource/image-20220802015642879.png" alt="image-20220802015642879" style="zoom: 25%;" />
-
+<img src="readme_resource/image-20220802015642879.png" alt="image-20220802015642879" style="zoom: 25%;" />
 
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关

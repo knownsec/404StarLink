@@ -3,15 +3,17 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-H4de5-orange)
 ![GitHub stars](https://img.shields.io/github/stars/H4de5-7/geacon_pro.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.2.0-red)
+![Version](https://img.shields.io/badge/Version-V1.3.0-red)
 ![Time](https://img.shields.io/badge/Join-20221117-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
 本项目基于[geacon](https://github.com/darkr4y/geacon)项目对cobaltstrike的beacon进行了重构，并适配了大部分Beacon的功能，支持4.1+版本。
 
-目前实现的功能具备免杀性，可过Defender、360核晶、卡巴斯基（除内存操作外，如注入原生cs的dll）、火绒
+目前实现的功能具备免杀性，可过Defender、360核晶、卡巴斯基（除注入原生cs的dll、可注入无特征dll）、火绒
 
 上述测试环境均为实体机
+
+**为了预防杀软对本项目的部分特征进行监控，推荐师傅们使用garble对本项目进行混淆，使用注意事项请见下面的使用方法介绍。同时我们会实时跟踪杀软的动向并尽快更新，如果有杀软查杀了还望师傅们提issue说明。**
 
 **该项目会持续跟进免杀的技术，保持项目的免杀性，并将免杀的技术与工具集成进来，希望未来可以做成不仅限cs功能的跨平台后渗透免杀工具。如果师傅们有相关的需求或者想法，欢迎一起来讨论。师傅们的支持与讨论是我们前进的动力。**
 
@@ -25,9 +27,9 @@
 ## 三、实现功能
 本项目支持windows、linux、mac平台的使用。
 ### windows平台支持的功能：
-sleep、shell、upload、download、exit、cd、pwd、file_browse、ps、kill、getuid、mkdir、rm、cp、mv、run、execute、drives、powershell-import、免杀powershell命令混淆、免杀bypassuac、execute-assembly（不落地执行c#）、多种线程注入的方法（可自己更换源码）、spawn、inject、shinject、dllinject（反射型dll注入）、管道的传输、多种cs原生反射型dll注入（mimikatz、portscan、screenshot、keylogger等）、令牌的窃取与还原、令牌的制作、权限的获取、代理发包、自删除、timestomp更改文件时间等功能。支持cna自定义插件的reflectiveDll、execute-assembly、powershell、powerpick、upload and execute等功能。
+sleep、shell、upload、download、exit、cd、pwd、file_browse、ps、kill、getuid、mkdir、rm、cp、mv、run、execute、drives、powershell-import、powershell命令混淆、powerpick、psinject、免杀bypassuac（uac-token-duplication）、免杀系统服务提权（svc-exe）、execute-assembly、多种线程注入的方法（可自己更换源码）、spawn、inject、shinject、dllinject、管道的传输、多种cs原生反射型dll注入（mimikatz、portscan、screenshot、keylogger等）、令牌的窃取与还原、令牌的制作、权限的获取、runu父进程欺骗、argue欺骗、代理发包、自删除、timestomp更改文件时间、unhook等功能。支持cna自定义插件的reflectiveDll、execute-assembly、powershell、powerpick、upload and execute等功能。
 
-目前由于对其他进程进行自定义反射型dll注入有一些问题，目前无论将自定义反射型dll注入到哪个进程都默认为注入到自身进程，请师傅们注意，有可能会拿不到回显。。
+目前powershell命令的混淆可过defender、卡巴等，过不了360，若想使用原生非混淆powershell请使用shell powershell。
 
 ### linux和mac平台支持的功能：
 sleep、shell、upload、download、exit、cd、pwd、file_browse、ps、kill、getuid、mkdir、rm、cp、mv、自删除、timestomp
@@ -58,6 +60,8 @@ sleep、shell、upload、download、exit、cd、pwd、file_browse、ps、kill、
 config.go中设置了大部分C2profile流量端设置与部分主机端设置。
 
 C2profile暂时不要设置post-ex中的obfuscation以及data_jitter。
+
+如果快速使用的话可以直接使用示例的c2profile（其实示例c2profile流量侧已经配置了不少东西了）不需要修改config.go。如果自己配置可以根据config.go中具体的字段名称来对应，比如说Http_post_id_crypt=[]string{"mask", "netbiosu"}对应着c2profile中的http-post中的id里面的mask;和netbiosu;。我们下个阶段主要的任务是简化配置的过程。
 
 **修改完C2profile后请不要忘记在config.go中对相应位置进行修改。下面给出示例C2profile，默认config.go适配该C2profile：**
 
@@ -171,7 +175,7 @@ post-ex {
 ```
 
 #### 4、编译成exe并执行
-windows有五种推荐的编译方式：
+windows有三种推荐的编译方式：
 
 注意已实现了内置去黑框功能，不需要"-H windowsgui"参数了，但是目前仍有一闪而过的黑框。
 
@@ -179,13 +183,11 @@ windows有五种推荐的编译方式：
 
 * go build -ldflags "-H windowsgui" 去除黑框（已内置代码）
 
-* go build -ldflags "-w" 缩小体积
-
-* go build -ldflags "-s" 缩小体积
-
 * go build -ldflags "-s -w" 缩小体积
 
-**360对部分编译参数有监控，可以尝试用winhex/记事本等将-ldflags "-s -w"等含有编译信息的字符替换成其他的字符串，或者用garble等项目混淆编译参数(seed=randon、-literals等），或者尝试用伪造签名等方法。**
+**360对部分编译参数如-s -w有监控，可以在linux或mac平台下交叉编译exe，经测试不会被360监控。推测360对符号表这些进行了监控，如果不存在则报，但不知道为啥交叉编译之后就可以。。**
+
+**如果想混淆的话推荐使用garble项目对变量名、函数名、字符串进行混淆，但最好在linux或mac平台下交叉编译，因为garble自带-s -w会被360监控。**
 
 linux和mac编译的时候添加-ldflags "-s -w"减小程序体积，然后后台运行。
 
@@ -239,15 +241,13 @@ config.go中有一些自定义的设置：
 
 ## 五、其他注意事项与免杀手段
 
-1、出于免杀性考量，暂时删除掉powershell-import代码，师傅们若想使用可以将commands_windows.go中的PowershellPort注释恢复。
+1、geacon_pro基于原生cs进行的开发，部分二开的版本可能会兼容错误，需要在geacon_pro中修改代码以适配二开的版本。
 
-2、geacon_pro基于原生cs进行的开发，部分二开的版本可能会兼容错误，需要在geacon_pro中修改代码以适配二开的版本。
+2、若想用免杀捆绑器的话可以参考我的这个[小项目](https://github.com/H4de5-7/Bundler-bypass)。
 
-3、若想用免杀捆绑器的话可以参考我的这个[小项目](https://github.com/H4de5-7/Bundler-bypass)。
+3、若想用免杀计划任务的话可以参考我的这个[小项目](https://github.com/H4de5-7/schtask-bypass)以及一个师傅的这个[项目](https://github.com/0x727/SchTask_0x727)（不过这个项目需要用execute-assembly来内存执行）。
 
-4、若想用免杀计划任务的话可以参考我的这个[小项目](https://github.com/H4de5-7/schtask-bypass)以及一个师傅的这个[项目](https://github.com/0x727/SchTask_0x727)（不过这个项目需要用execute-assembly来内存执行）。
-
-5、如果师傅们对堆内存加密或者dllinject注入自己拿回显有想法，欢迎来交流。
+4、如果师傅们对堆内存加密或者dllinject注入自己拿回显有想法，欢迎来交流。
 
 ## 六、开发的思路
 <details><summary>点击展开</summary>
@@ -261,6 +261,9 @@ config.go中有一些自定义的设置：
 * 针对各功能实现了免杀，cs部分不免杀的功能得到了更换
 
 ### 主体代码结构
+#### communication
+* http为发包的代码
+* packet为通信所需的部分功能
 #### config
 * 公钥、C2服务器地址、https通信、超时的时间、代理等设置
 * C2profile设置
@@ -269,12 +272,13 @@ config.go中有一些自定义的设置：
 * C2profile中加密算法的实现
 #### packet
 * commands为各个平台下部分功能的实现
+* commands_type为beacon的命令
+* evasion为规避杀软的代码
 * execute_assembly为windows平台下内存执行不落地c#的代码
 * heap为windows平台下堆内存加密代码
-* http为发包的代码
 * inject为windows平台下进程注入的代码
 * jobs为windows平台下注入cs原生反射型dll并管道回传的代码
-* packet为通信所需的部分功能
+* spoof为windows平台下欺骗相关的功能
 * token为windows平台下令牌相关的功能
 #### services
 对packet里面的功能进行了跨平台封装，方便main.go调用
@@ -298,16 +302,14 @@ powershell-import部分的实现与cs的思路一样，先把输入的powershell
 #### powershell
 集成了powershell命令混淆免杀（AMSI绕过+ETW block+命令的混淆），VT全过，详情见我的[该项目](https://github.com/H4de5-7/powershell-obfuscation)。
 
-#### bypassuac
-集成了免杀bypassuac，即execute-assembly执行COM绕过的exe。
+#### 提权
+集成了免杀bypassuac，即execute-assembly执行COM绕过的exe。集成了免杀系统服务提权，详情见 https://github.com/H4de5-7/elevate-bypass 。
 
 #### execute-assembly
 execute-assembly的实现与cs原生的实现不太一样，cs的beacon从服务端接收的内容的主体部分是c#的程序以及开.net环境的dll。cs的beacon首先拉起来一个进程（默认是rundll32），之后把用来开环境的dll注入到该进程中，然后将c#的程序注入到该进程并执行。考虑到步骤过于繁琐，并且容易拿不到执行的结果，我这里直接用[该项目](https://github.com/timwhitez/Doge-CLRLoad)实现了execute-assembly的功能，但未对全版本windows进行测试。
 
 #### 进程注入
-进程注入shinject和dllinject采用的是remote注入。
-
-**目前dllinject只支持注入自身的进程，shinject若注入到其他的进程的话要注意杀软对远程线程注入的检测。**
+进程注入shinject、dllinject、psinject采用的是remote注入。
 
 不过如果想执行自己的shellcode的话建议用shspawn，在当前实现中shspawn会注入geacon_pro本身，因此不会被杀软报远程线程注入。
 
@@ -336,6 +338,12 @@ dll通过管道将结果异步地回传给服务端。目前的dll反射注入�
 #### 自删除
 CobaltStrike貌似没有做自删除的功能，我们添加了不同平台下的自删除功能。windows平台下由于进程未退出的时候是无法自己删除自己的，常用的方法有bat与远程线程注入。 远程线程注入的缺点前面也提到了容易被杀软监控，因此我们这里简化了一下bat自删除，用CreateProcess新起了一个自删除进程并设置为空闲时间执行，自删除进程在geacon_pro进程执行完之后删除它。Linux平台下可以直接删除正在执行的进程的文件。
 
+#### 欺骗
+实现了父进程的欺骗、argue欺骗
+
+#### 规避
+实现了windows平台下的full unhook，这里原本参考了sliver的evasion实现，但是sliver里面没有用直接系统调用，可能会被杀软监控到，因此我们用timwhitez师傅的这个[项目](https://github.com/timwhitez/Doge-Gabh)实现了full unhook。
+
 </details>
 
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
@@ -343,6 +351,15 @@ CobaltStrike貌似没有做自删除的功能，我们添加了不同平台下�
 
 
 ## 最近更新
+
+#### [v1.3.0] - 2023-02-05
+
+**更新**  
+- 新增unhook(ntdll.dll,kernel32.dll,kernelbase.dll)  
+- 新增argue欺骗  
+- 修复了drives的错误，如：keylogger中文会乱码、dllinject远程注入失败等  
+- 将os.Exit(0)修改为return，避免转换成反射型dll注入后退出宿主进程  
+- 优化代码结构与sysinfo的显示
 
 #### [v1.2.0] - 2023-01-02
 

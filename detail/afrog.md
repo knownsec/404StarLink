@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.2.0-red)
+![Version](https://img.shields.io/badge/Version-V2.2.1-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -65,6 +65,17 @@ afrog -t http://127.0.0.1 -nf
 
 ## 最近更新
 
+#### [v2.2.1] - 2023-02-04
+
+**更新**  
+- 将多个 panel 指纹探测合并到文件 panel-detect.yaml，大幅减少 http 请求  
+- 精简控制台日期打印，2023-01-01 改为 01-01  
+- 精简 afrog-config 配置信息  
+
+**修复**  
+- 解决：-fc 命令配置无效问题  
+- 提示：配置 -c 命令能明显提高扫描速度
+
 #### [v2.2.0] - 2023-01-07
 
 **更新**  
@@ -94,13 +105,5 @@ afrog -t http://127.0.0.1 -nf
 **更新**  
 - 紧急发布修复 BUG 的小版本  
 - 解决 afrog 线程池经常卡死 BUG
-
-#### [v2.0.0] - 2022-11-10
-
-**更新**  
-- 修复 afrog 后台执行命令失败 BUG  
-- 优化 afrog 稳定性，完善 URL 存活验证和扫描进度检查  
-- 优化 afrog 用户体验，控制台进度显示新增 hosts、closed、time  
-- 修复 target 黑名单逻辑判断不严谨导致的严重漏洞
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

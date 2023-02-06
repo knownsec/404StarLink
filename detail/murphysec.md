@@ -7,10 +7,9 @@
 ![Time](https://img.shields.io/badge/Join-20220914-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
-中文 | [EN](README.md)
+中文 | [EN](https://github.com/murphysecurity/murphysec/blob/v3/README.md)
 
 墨菲安全的 **CLI 工具**，用于在命令行检测指定目录代码的依赖安全问题，也可以基于 CLI 工具实现在 CI 流程的检测。
-
 
 ## 功能
 1. 分析项目使用的依赖信息，包含直接和间接依赖
@@ -21,12 +20,13 @@
 
 - CLI 运行结果
 
-  <img alt="cli output" src="https://github.com/murphysecurity/murphysec/raw/master/assets/cli.png" width="80%">
- 
+  <img alt="cli output" src="https://github.com/murphysecurity/murphysec/raw/v3/assets/cli.png" width="80%">
+
 - 检测结果页面
 
-  <img alt="scan result" src="https://github.com/murphysecurity/murphysec/raw/master/assets/scan-result.png" width="80%">
-  <img alt="scan result" src="https://github.com/murphysecurity/murphysec/raw/master/assets/scan-detail-result.png" width="80%">
+  <img alt="scan result" src="https://github.com/murphysecurity/murphysec/raw/v3/assets/scan-result.png" width="80%">
+  
+  <img alt="scan result" src="https://github.com/murphysecurity/murphysec/raw/v3/assets/scan-detail-result.png" width="80%">
 
 ## 目录
 
@@ -130,7 +130,7 @@
 1. 对于使用不同语言/包管理工具的项目，墨菲安全的 CLI 工具主要采用`项目构建`或直接对`包管理文件`进行解析的方式，来准确获取到项目的依赖信息
 2. 项目的依赖信息会上传到服务端，并基于墨菲安全持续维护的`漏洞知识库`来识别项目中存在安全缺陷的依赖
 
-![cli-flowchart](https://github.com/murphysecurity/murphysec/raw/master/assets/flowchart.png)
+![cli-flowchart](https://github.com/murphysecurity/murphysec/raw/v3/assets/flowchart.png)
 
 > 说明：CLI 工具只会将检测项目的依赖和基本信息发送到墨菲安全服务端，用于识别存在安全缺陷的依赖，不会上传任何本地代码。
 
@@ -166,16 +166,33 @@ curl -fsSL https://s.murphysec.com/install.sh | /bin/bash
 powershell -Command "iwr -useb https://s.murphysec.com/install.ps1 | iex"
 ```
 
-### 2. 获取访问令牌
+### 2.创建任务
 
-> CLI 工具需要使用墨菲安全账户的`访问令牌`进行认证才能正常使用。[访问令牌是什么？（点击查看详情）](https://www.murphysec.com/docs/faq/access-token/)
+首先登录到墨菲安全控制台，创建任务的方式有以下三种
+
+- 方式1：在项目页面，点击项目右上角的加号选择接入
+- 方式2：进入指定项目，点击右上角的创建任务按钮接入
+- 方式3：进入指定项目，点击右上角的创建任务按钮，选择其他接入方式通过模板接入
+
+### 3. 获取访问令牌
+
+> CLI 工具需要使用墨菲安全账户的`访问令牌`进行认证才能正常使用。[访问令牌是什么？（点击查看详情）](https://www.murphysec.com/docs/guides/scan-scene/cli.html)
+
+方式1：
+
+进入[墨菲安全控制台](https://www.murphysec.com/)，点击`左下角个人设置`，点击`用户token` 复制`访问令牌`
+
+<img alt="scan result" src="https://github.com/murphysecurity/murphysec/raw/v3/assets/acces-token1.png" width="80%">
 
 
-进入[墨菲安全控制台](https://www.murphysec.com/control/set)，点击`个人设置`，复制页面中的`访问令牌`
+
+方式2： 任务创建页面最下方-->复制token 
+
+<img alt="scan result" src="https://github.com/murphysecurity/murphysec/raw/v3/assets/acces-token2.png" width="80%">
 
 
 
-### 3. 认证
+### 4. 认证
 
 目前有两种认证方式可用：命令行交互认证、命令行参数认证
 
@@ -205,7 +222,7 @@ murphysec scan [your-project-path]
 
 ### 5. 查看结果
 
-CLI 工具默认不展示结果详情，可以在[墨菲安全控制台](https://www.murphysec.com/control/project)-`项目`页面查看详细的检测结果
+CLI 工具默认不展示结果详情，可以在[墨菲安全控制台](https://www.murphysec.com/project/list)-`项目`页面查看详细的检测结果
 
 
 
@@ -231,16 +248,18 @@ Usage:
   murphysec scan DIR [flags]
 
 Flags:
-  -h, --help   help for scan
-      --json   json output
+  -h, --help                帮助
+      --task-id string   指定本次检测归属的项目ID
 
 Global Flags:
-      --log-level string      specify log level, must be silent|error|warn|info|debug
-      --no-log-file           do not write log file
-      --server string         specify server address
-      --token string          specify API token
-  -v, --version               show version and exit
-      --write-log-to string   specify log file path
+  -x  --allow-insecure        允许不安全的TLS连接
+      --log-level string      指定输出日志信息的级别, 可以为 silent|error|warn|info|debug (默认为 "silent"， 不输出日志)
+      --network-log           打印网络数据
+      --no-log-file           不输出日志文件
+      --server string         指定服务地址
+      --token string          指定墨菲安全服务 Token
+  -v, --version               输出 CLI 版本
+      --write-log-to string   指定日志文件的路径
 
 ```
 
@@ -259,7 +278,6 @@ Powershell默认不允许从远程加载安装脚本，需要使用管理员权�
 **3. 为什么检测完依赖和缺陷组件数量都是0 ？**
 
 * 检查您的项目/文件是否在目前支持的检测范围内
-
 
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关

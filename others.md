@@ -33,7 +33,7 @@ BinAbsInspector(Binary Abstract Inspector)是一款用于自动化逆向工程�
 ![Author](https://img.shields.io/badge/Author-c0ny1-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/c0ny1/passive-scan-client.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.3.0-red)
+![Version](https://img.shields.io/badge/Version-V0.3.1-red)
 
 <https://github.com/c0ny1/passive-scan-client>
 
