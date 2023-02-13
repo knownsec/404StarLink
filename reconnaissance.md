@@ -38,7 +38,7 @@ HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。
 ![Author](https://img.shields.io/badge/Author-wgpsec-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.6-red)
+![Version](https://img.shields.io/badge/Version-V0.0.8-red)
 
 <https://github.com/wgpsec/ENScan_GO>
 

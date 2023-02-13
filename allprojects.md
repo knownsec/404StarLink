@@ -26,8 +26,8 @@
 
 * [漏洞探测/vulnerability_assessment](#漏洞探测vulnerability_assessment)
     * [Kunpeng](#kunpeng)
-    * [Pocassist](#pocassist)
     * [afrog](#afrog)
+    * [Pocassist](#pocassist)
     * [myscan](#myscan)
     * [LSpider](#lspider)
 
@@ -124,7 +124,7 @@ Appshark 是一个针对安卓的静态分析工具，它的设计目标是针�
 ![Author](https://img.shields.io/badge/Author-长亭科技-orange)
 ![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/chaitin/veinmind-tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.7.0-red)
+![Version](https://img.shields.io/badge/Version-V2.0.0-red)
 
 <https://github.com/chaitin/veinmind-tools>
 
@@ -164,7 +164,7 @@ veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目
 ![Author](https://img.shields.io/badge/Author-theSecHunter-orange)
 ![Language](https://img.shields.io/badge/Language-Golang&C++&C-blue)
 ![GitHub stars](https://img.shields.io/github/stars/theSecHunter/Hades.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+![Version](https://img.shields.io/badge/Version-V1.1.0-red)
 
 <https://github.com/theSecHunter/Hades>
 
@@ -197,7 +197,7 @@ HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。
 ![Author](https://img.shields.io/badge/Author-wgpsec-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.6-red)
+![Version](https://img.shields.io/badge/Version-V0.0.8-red)
 
 <https://github.com/wgpsec/ENScan_GO>
 
@@ -296,16 +296,6 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 
 Kunpeng是一个Golang编写的开源POC检测框架，集成了包括数据库、中间件、web组件、cms等等的漏洞POC，可检测弱口令、SQL注入、XSS、RCE等漏洞类型，以动态链接库的形式提供调用，通过此项目可快速开发漏洞检测类的系统，比攻击者快一步发现风险漏洞。
 
-### [Pocassist](detail/Pocassist.md)
-![Author](https://img.shields.io/badge/Author-jweny-orange)
-![Language](https://img.shields.io/badge/Language-Golang-blue)
-![GitHub stars](https://img.shields.io/github/stars/jweny/pocassist.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.5-red)
-
-<https://github.com/jweny/pocassist>
-
-Pocassist 是一个 Golang 编写的全新开源漏洞测试框架，帮助安全人员专注于漏洞验证的逻辑的实现。Pocassist 提供了简洁的 Web 图形化界面，用户可以在线编辑漏洞验证程序即可进行批量的测试；规则完全兼容 xray，可以直接使用现有开源的 PoC 库，同时也支持添加自定义规则。
-
 ### [afrog](detail/afrog.md)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
@@ -315,6 +305,16 @@ Pocassist 是一个 Golang 编写的全新开源漏洞测试框架，帮助安�
 <https://github.com/zan8in/afrog>
 
 afrog 是一款性能卓越、快速稳定、PoC 可定制的漏洞扫描工具，PoC 包含 CVE、CNVD、默认口令、信息泄露、指纹识别、未授权访问、任意文件读取、命令执行等多种漏洞类型，帮助网络安全从业者快速验证并及时修复漏洞。
+
+### [Pocassist](detail/Pocassist.md)
+![Author](https://img.shields.io/badge/Author-jweny-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/jweny/pocassist.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.0.5-red)
+
+<https://github.com/jweny/pocassist>
+
+Pocassist 是一个 Golang 编写的全新开源漏洞测试框架，帮助安全人员专注于漏洞验证的逻辑的实现。Pocassist 提供了简洁的 Web 图形化界面，用户可以在线编辑漏洞验证程序即可进行批量的测试；规则完全兼容 xray，可以直接使用现有开源的 PoC 库，同时也支持添加自定义规则。
 
 ### [myscan](detail/myscan.md)
 ![Author](https://img.shields.io/badge/Author-amcai-orange)

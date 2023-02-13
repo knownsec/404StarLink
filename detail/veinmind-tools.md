@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
 ![Author](https://img.shields.io/badge/Author-长亭科技-orange)
 ![GitHub stars](https://img.shields.io/github/stars/chaitin/veinmind-tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.7.0-red)
+![Version](https://img.shields.io/badge/Version-V2.0.0-red)
 ![Time](https://img.shields.io/badge/Join-20220316-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -77,6 +77,18 @@ PS: 目前所有工具均已支持平行容器的方式运行
 
 ## 最近更新
 
+#### [v2.0.0] - 2023-02-10
+
+**Feature**  
+- runner cmd优化: 协议化扫描对象  
+- runner 支持插件参数自定义  
+- runner 支持扫描 tar 类型镜像  
+- 插件报告输出优化：支持 cli/json/htm  
+- script.sh => makefile  
+- 新增 veinmind-esclate 逃逸检测插件  
+- veinmind-asset 升级为 veinmind-vuln，支持漏洞扫描  
+- iac 支持扫描 kubernetes
+
 #### [v1.7.0] - 2023-01-17
 
 **Feature**  
@@ -100,10 +112,5 @@ PS: 目前所有工具均已支持平行容器的方式运行
 **更新**  
 - 修复 git 仓库拖取问题  
 - git 扫描支持配置代理
-
-#### [v1.6.0] - 2022-11-12
-
-**更新**  
-- 新增 veinmind-iac 插件，支持扫描 IaC 文件风险
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

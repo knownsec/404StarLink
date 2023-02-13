@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang&C++&C-blue)
 ![Author](https://img.shields.io/badge/Author-theSecHunter-orange)
 ![GitHub stars](https://img.shields.io/github/stars/theSecHunter/Hades.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+![Version](https://img.shields.io/badge/Version-V1.1.0-red)
 ![Time](https://img.shields.io/badge/Join-20220829-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -25,5 +25,11 @@ Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检�
 
 
 ## 最近更新
+
+#### [v1.1.0] - 2023-01-31
+
+**更新**  
+- ebpf插件支持arm64，支持简易端口扫描检测以及其余问题修复  
+- win插件支持进程拦截、注册表拦截、目录保护、注入检测
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
