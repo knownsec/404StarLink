@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
 ![Author](https://img.shields.io/badge/Author-长亭科技-orange)
 ![GitHub stars](https://img.shields.io/github/stars/chaitin/veinmind-tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.0-red)
+![Version](https://img.shields.io/badge/Version-V2.0.1-red)
 ![Time](https://img.shields.io/badge/Join-20220316-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -12,7 +12,7 @@ veinmind-tools 是由长亭科技自研，基于 <a href="https://github.com/cha
 veinmind, 中文名为<b>问脉</b>，寓意 <b>容器安全见筋脉，望闻问切治病害。</b> 旨在成为云原生领域的一剂良方
 
 ## 🔥 Demo
-![](https://dinfinite.oss-cn-beijing.aliyuncs.com/image/20220415144819.gif)
+![](https://veinmind-cache.oss-cn-hangzhou.aliyuncs.com/img/index.gif)
 
 
 ## 🕹️ 快速开始
@@ -77,6 +77,16 @@ PS: 目前所有工具均已支持平行容器的方式运行
 
 ## 最近更新
 
+#### [v2.0.1] - 2023-02-15
+
+**Feature**  
+- 支持 arm64 构建  
+
+**Fix**  
+- 修复 Makefile  
+- 修复 veinmind-iac 文件识别问题  
+- 修复 veinmind-sensitive 扫描过慢问题
+
 #### [v2.0.0] - 2023-02-10
 
 **Feature**  
@@ -106,11 +116,5 @@ PS: 目前所有工具均已支持平行容器的方式运行
 
 **更新**  
 - veinmind-iac 增加部分 k8s 相关规则
-
-#### [v1.6.3] - 2022-11-24
-
-**更新**  
-- 修复 git 仓库拖取问题  
-- git 扫描支持配置代理
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

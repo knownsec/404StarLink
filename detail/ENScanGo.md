@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-wgpsec-orange)
 ![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.8-red)
+![Version](https://img.shields.io/badge/Version-V0.0.9-red)
 ![Time](https://img.shields.io/badge/Join-20221117-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -266,6 +266,16 @@ api:
 
 
 ## 最近更新
+
+#### [v0.0.9] - 2023-02-13
+
+**bugfix**  
+- 修复JSON导出问题  
+- 修复天眼查日期问题  
+- 修复阿拉丁导出bug  
+
+**new**  
+- 增加只在终端显示不导出文件
 
 #### [v0.0.8] - 2023-02-12
 

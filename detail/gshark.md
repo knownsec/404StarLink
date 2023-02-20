@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.1.3-red)
+![Version](https://img.shields.io/badge/Version-V1.1.4-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -151,6 +151,15 @@ go env -w GO111MODULE=on
 
 ## 最近更新
 
+#### [v1.1.4] - 2023-02-15
+
+**Fixed**  
+- 修复无法变更规则状态的问题  
+- 增加新增 token 的 postman 类型  
+
+**Added**  
+- 增加 startSecFilterTask 以及 getTaskStatus API 权限初始化
+
 #### [v1.1.3] - 2023-01-31
 
 **Fixed**  
@@ -192,11 +201,5 @@ go env -w GO111MODULE=on
 - 过滤规则重构，支持 extension, keyword, sec_keyword 白名单以及黑名单过滤  
 - 优化匹配结果展示，突出匹配的关键词  
 - 修改 eslint 规则
-
-#### [v1.0.2] - 2023-01-08
-
-**Modified**  
-- 移除规则为空的 info 日志记录  
-- 修改 all 扫描模式
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
