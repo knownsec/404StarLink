@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-wuba-orange)
 ![GitHub stars](https://img.shields.io/github/stars/wuba/Antenna.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.2.1-red)
+![Version](https://img.shields.io/badge/Version-V1.3.1-red)
 ![Time](https://img.shields.io/badge/Join-20220914-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -107,6 +107,13 @@ OPEN_API与CallBack使用教程:[关于OPEN_API与CallBack](http://blog.antenna.
 
 
 ## 最近更新
+
+#### [v1.3.1] - 2023-02-26
+
+**更新**  
+- Readme 新增DNS Rebinding功能演示文档，支持并优化了DNS 缓存的逻辑  
+- 优化了平台消息处理模块的逻辑，减少了数据库的请求数量  
+- 修复了平台配置的一些bug
 
 #### [v1.2.1] - 2022-10-19
 

@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.4.5-red)
+![Version](https://img.shields.io/badge/Version-V2.4.6-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -62,6 +62,12 @@
 
 ## 最近更新
 
+#### [v2.4.6] - 2023-02-22
+
+**更新**  
+- 加入多线程对数据进行匹配和提取，减少卡顿现象  
+- 变更配置文件更新地址为jsdelivr的CDN节点地址，优化国内用户体验
+
 #### [v2.4.5] - 2022-12-18
 
 **更新**  
@@ -92,12 +98,5 @@
 - 新增Databoard功能用于HaE规则匹配数据集中化查询  
 - 优化README文档，去除非必要内容，直观展示项目相关信息  
 - 发布HaE项目Logo及项目口号：赋能白帽，高效作战！提升项目品牌影响力与辨识度
-
-#### [v2.3] - 2022-05-27
-
-**更新**  
-- HaE规则增加sensitive字段，用于NFA引擎正则大小写敏感(更新后建议从HaE规则库中拉取最新规则)  
-- 公共规则库增加Dos Paramters、Create Script、Password Field、Username Field规则  
-- 兼容性：HaE将同时发布JDK8、9打包的Release版本
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
