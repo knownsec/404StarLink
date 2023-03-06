@@ -15,8 +15,8 @@
     * [AppInfoScanner](#appinfoscanner)
     * [HaE](#hae)
     * [ENScanGo](#enscango)
-    * [Kunyu](#kunyu)
     * [Glass](#glass)
+    * [Kunyu](#kunyu)
     * [scaninfo](#scaninfo)
     * [ksubdomain](#ksubdomain)
     * [ZoomEye-Python](#zoomeye-python)
@@ -203,16 +203,6 @@ HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。
 
 一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。
 
-### [Kunyu](detail/Kunyu.md)
-![Author](https://img.shields.io/badge/Author-风起-orange)
-![Language](https://img.shields.io/badge/Language-Python-blue)
-![GitHub stars](https://img.shields.io/github/stars/knownsec/Kunyu.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.7.2-red)
-
-<https://github.com/knownsec/Kunyu>
-
-Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在让企业资产收集更高效，使更多安全相关从业者了解、使用网络空间测绘技术。
-
 ### [Glass](detail/Glass.md)
 ![Author](https://img.shields.io/badge/Author-s7ckTeam-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
@@ -222,6 +212,16 @@ Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在�
 <https://github.com/s7ckTeam/Glass>
 
 Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/ZoomEye/Shodan/360等api接口快速查询资产信息并识别重点资产的指纹，也可针对IP/IP段或资产列表进行快速的指纹识别。
+
+### [Kunyu](detail/Kunyu.md)
+![Author](https://img.shields.io/badge/Author-风起-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/knownsec/Kunyu.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.7.2-red)
+
+<https://github.com/knownsec/Kunyu>
+
+Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在让企业资产收集更高效，使更多安全相关从业者了解、使用网络空间测绘技术。
 
 ### [scaninfo](detail/scaninfo.md)
 ![Author](https://img.shields.io/badge/Author-华东360安服团队-orange)
@@ -463,7 +463,7 @@ DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB�
 ![Author](https://img.shields.io/badge/Author-wuba-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/wuba/Antenna.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.1-red)
+![Version](https://img.shields.io/badge/Version-V1.3.2-red)
 
 <https://github.com/wuba/Antenna>
 

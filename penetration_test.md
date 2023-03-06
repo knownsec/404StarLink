@@ -143,7 +143,7 @@ DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB�
 ![Author](https://img.shields.io/badge/Author-wuba-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/wuba/Antenna.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.1-red)
+![Version](https://img.shields.io/badge/Version-V1.3.2-red)
 
 <https://github.com/wuba/Antenna>
 
