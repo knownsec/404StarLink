@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-cdkteam-orange)
 ![GitHub stars](https://img.shields.io/github/stars/cdk-team/CDK.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.0-red)
+![Version](https://img.shields.io/badge/Version-V1.5.2-red)
 ![Time](https://img.shields.io/badge/Join-20210223-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -208,6 +208,13 @@ cdk ps
 
 ## 最近更新
 
+#### [v1.5.2] - 2023-03-12
+
+**更新**  
+- 支持不同 linux 环境下的 containerd 路径  
+- shadow-apiserver匿名访问暂时无效，支持v1.23.1  
+- 弃用自动转义警告消息标志位
+
 #### [v1.5.0] - 2022-09-25
 
 **更新**  
@@ -243,24 +250,5 @@ cdk ps
 - 新增 Exploit：从 etcd 获取 k8s 的 token  
 - 添加输出结束消息  
 - 移除 --insecure-port 参数
-
-#### [v1.1.0] - 2022-05-30
-
-**Exploits**  
-- 在使用说明 banner 中添加 ocd 和 CDK  
-- 修复 exp 添加 run 描述文档  
-- 修复 exp 在 /proc/pid 路径出现的错误  
-- 修复 exp 中 k8s-psp-dump 参数检测错误  
-- 修复 exp 检查命令行中 cdk 进程的错误  
-- 移除 StringContains 相关重复函数  
-- 仅在 linux 上构建 mount cgroup  
-
-**About Evaluate**  
-- 添加 DNS-Based 服务发现  
-- 添加色彩标注的 perf  
-- 新增获取当前 pid cgroup 信息  
-
-**Others**  
-- github action 中添加 Evaluate/Exploit/Tool 等测试，修复部分问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
