@@ -211,9 +211,9 @@ cdk ps
 #### [v1.5.2] - 2023-03-12
 
 **更新**  
-- 支持不同 linux 环境下的 containerd 路径  
-- shadow-apiserver匿名访问暂时无效，支持v1.23.1  
-- 弃用自动转义警告消息标志位
+- 支持 linux 环境下的不同容器运行时，如 containerd、runc、docker  
+- 修复shadow-apiserver匿名访问无效的issue，支持新版本的k8s，如 v1.23.1  
+- 添加迭代部分功能的消息提醒
 
 #### [v1.5.0] - 2022-09-25
 
