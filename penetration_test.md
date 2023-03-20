@@ -7,15 +7,14 @@
 5. [MDUT](#mdut)
 6. [WMIHACKER](#wmihacker)
 7. [BurpCrypto](#burpcrypto)
-8. [geacon_pro](#geacon_pro)
-9. [MySQL-Fake-Server](#mysql-fake-server)
-10. [ysomap](#ysomap)
-11. [Cloud-Bucket-Leak-Detection-Tools](#cloud-bucket-leak-detection-tools)
-12. [DNSlog-GO](#dnslog-go)
-13. [Antenna](#antenna)
-14. [Redis-Rogue-Server](#redis-rogue-server)
-15. [MysqlT](#mysqlt)
-16. [Cola-Dnslog](#cola-dnslog)
+8. [MySQL-Fake-Server](#mysql-fake-server)
+9. [ysomap](#ysomap)
+10. [Cloud-Bucket-Leak-Detection-Tools](#cloud-bucket-leak-detection-tools)
+11. [DNSlog-GO](#dnslog-go)
+12. [Antenna](#antenna)
+13. [Redis-Rogue-Server](#redis-rogue-server)
+14. [MysqlT](#mysqlt)
+15. [Cola-Dnslog](#cola-dnslog)
 
 ----------------------------------------
 
@@ -88,16 +87,6 @@ WMIHACKER是一款免杀横向渗透远程命令执行工具，常见的WMIEXEC�
 <https://github.com/whwlsfb/BurpCrypto>
 
 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插件。
-
-### [geacon_pro](detail/geacon_pro.md)
-![Author](https://img.shields.io/badge/Author-H4de5-orange)
-![Language](https://img.shields.io/badge/Language-Golang-blue)
-![GitHub stars](https://img.shields.io/github/stars/H4de5-7/geacon_pro.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.0-red)
-
-<https://github.com/H4de5-7/geacon_pro>
-
-跨平台重构了Cobaltstrike Beacon，适配了大部分Beacon的功能，行为对国内主流杀软免杀，支持4.1以上的版本。 A cross-platform CobaltStrike Beacon bypass anti-virus, supports 4.1+ version。
 
 ### [MySQL-Fake-Server](detail/MySQL-Fake-Server.md)
 ![Author](https://img.shields.io/badge/Author-fnmsd-orange)

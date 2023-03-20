@@ -39,7 +39,6 @@
     * [MDUT](#mdut)
     * [WMIHACKER](#wmihacker)
     * [BurpCrypto](#burpcrypto)
-    * [geacon_pro](#geacon_pro)
     * [MySQL-Fake-Server](#mysql-fake-server)
     * [ysomap](#ysomap)
     * [Cloud-Bucket-Leak-Detection-Tools](#cloud-bucket-leak-detection-tools)
@@ -65,7 +64,6 @@
     * [ServerScan](#serverscan)
     * [Platypus](#platypus)
     * [WMIHACKER](#wmihacker)
-    * [geacon_pro](#geacon_pro)
     * [As-Exploits](#as-exploits)
     * [PortForward](#portforward)
 
@@ -409,16 +407,6 @@ WMIHACKER是一款免杀横向渗透远程命令执行工具，常见的WMIEXEC�
 
 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插件。
 
-### [geacon_pro](detail/geacon_pro.md)
-![Author](https://img.shields.io/badge/Author-H4de5-orange)
-![Language](https://img.shields.io/badge/Language-Golang-blue)
-![GitHub stars](https://img.shields.io/github/stars/H4de5-7/geacon_pro.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.0-red)
-
-<https://github.com/H4de5-7/geacon_pro>
-
-跨平台重构了Cobaltstrike Beacon，适配了大部分Beacon的功能，行为对国内主流杀软免杀，支持4.1以上的版本。 A cross-platform CobaltStrike Beacon bypass anti-virus, supports 4.1+ version。
-
 ### [MySQL-Fake-Server](detail/MySQL-Fake-Server.md)
 ![Author](https://img.shields.io/badge/Author-fnmsd-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
@@ -634,16 +622,6 @@ Platypus 是一个基于终端与 Web UI 交互式的反弹 Shell 会话管理�
 <https://github.com/rootclay/WMIHACKER>
 
 WMIHACKER是一款免杀横向渗透远程命令执行工具，常见的WMIEXEC、PSEXEC执行命令是创建服务或调用Win32_Process.create执行命令，这些方式都已经被杀软100%拦截，通过改造出的WMIHACKER可免杀横向移动。并且在企业网络目前阻断445端口严重的情况下可以无需445端口进行横向移动，效率高且不易被检测。
-
-### [geacon_pro](detail/geacon_pro.md)
-![Author](https://img.shields.io/badge/Author-H4de5-orange)
-![Language](https://img.shields.io/badge/Language-Golang-blue)
-![GitHub stars](https://img.shields.io/github/stars/H4de5-7/geacon_pro.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.0-red)
-
-<https://github.com/H4de5-7/geacon_pro>
-
-跨平台重构了Cobaltstrike Beacon，适配了大部分Beacon的功能，行为对国内主流杀软免杀，支持4.1以上的版本。 A cross-platform CobaltStrike Beacon bypass anti-virus, supports 4.1+ version。
 
 ### [As-Exploits](detail/As-Exploits.md)
 ![Author](https://img.shields.io/badge/Author-yzddmr6-orange)
