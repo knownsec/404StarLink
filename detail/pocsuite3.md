@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/pocsuite3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.2-red)
+![Version](https://img.shields.io/badge/Version-V2.0.3-red)
 ![Time](https://img.shields.io/badge/Join-20200821-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -155,6 +155,12 @@ console mode
 
 ## 最近更新
 
+#### [v2.0.3] - 2023-03-21
+
+**更新**  
+- 优化对 URL 协议的自动纠正  
+- 支持通过 --no-check 选项禁用 URL 协议自动纠正和蜜罐检查
+
 #### [v2.0.2] - 2022-12-13
 
 **更新**  
@@ -187,12 +193,5 @@ console mode
 - 使用 -s 参数可以 skip target 本身的端口，只使用 -p 提供的端口  
 - poc-console 优化  
 - 一些改进和 bug 修复
-
-#### [v1.9.9] - 2022-08-24
-
-**更新**  
-- 新增根据 poc 协议字段自动修正 target 路径  
-- 修复 windows 平台 poc-console 高亮显示的问题  
-- 默认去除 target 路径末尾的 '/' 字符
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
