@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-wuba-orange)
 ![GitHub stars](https://img.shields.io/github/stars/wuba/Antenna.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.2-red)
+![Version](https://img.shields.io/badge/Version-V1.3.4-red)
 ![Time](https://img.shields.io/badge/Join-20220914-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -104,6 +104,13 @@ OPEN_API与CallBack使用教程:[关于OPEN_API与CallBack](http://blog.antenna.
 
 ## 最近更新
 
+#### [v1.3.4] - 2023-04-06
+
+**更新**  
+- 增加OPENAPI 消息ORDER_DESC 参数  
+- 优化了工具方法逻辑，修复了一些已知的问题  
+- 为Python SDK 做接口适配开发
+
 #### [v1.3.2] - 2023-03-01
 
 **更新**  
@@ -131,12 +138,5 @@ OPEN_API与CallBack使用教程:[关于OPEN_API与CallBack](http://blog.antenna.
 **更新**  
 - 修复了一些bug  
 - 新增https监听功能
-
-#### [v1.1] - 2022-09-16
-
-**更新**  
-- 增加 OpenAPI 的部分接口  
-- 修复了一些 bug  
-- 支持 chrome 扩展 chrome-tools
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

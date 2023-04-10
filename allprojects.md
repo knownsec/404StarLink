@@ -298,7 +298,7 @@ Kunpeng是一个Golang编写的开源POC检测框架，集成了包括数据库�
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.2.1-red)
+![Version](https://img.shields.io/badge/Version-V2.2.2-red)
 
 <https://github.com/zan8in/afrog>
 
@@ -451,7 +451,7 @@ DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB�
 ![Author](https://img.shields.io/badge/Author-wuba-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/wuba/Antenna.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.2-red)
+![Version](https://img.shields.io/badge/Version-V1.3.4-red)
 
 <https://github.com/wuba/Antenna>
 

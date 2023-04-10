@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.2.1-red)
+![Version](https://img.shields.io/badge/Version-V2.2.2-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -65,6 +65,28 @@ afrog -t http://127.0.0.1 -nf
 
 ## 最近更新
 
+#### [v2.2.2] - 2023-04-05
+
+**修复**  
+- 修复 afrog html 报告 XSS 漏洞  
+
+**优化**  
+- 简化 URL 黑名单机制  
+- 优化 http/s 检测功能  
+- 优化 文件上传 (所有) PoC  
+- 优化 RCE (所有) PoC  
+
+**删除**  
+- 去掉 Fingerprint 指纹识别及命令参数 (替代工具 pyxis)  
+- 去掉不常用命令参数  
+
+**PoC**  
+- 新增 52 PoC  
+- 验证和优化 n 多个 PoC  
+- 删除 PoC csz-cms-multiple-blind-sql-injection  
+- 删除 PoC phpstudy-nginx-wrong-resolve  
+- 内置几个 private PoC
+
 #### [v2.2.1] - 2023-02-04
 
 **更新**  
@@ -99,11 +121,5 @@ afrog -t http://127.0.0.1 -nf
 - 修复 html 报告(返回多个请求记录)URL 不准确的 BUG  
 - 优化 banner 展示界面(模仿 nuclei)  
 - 屏蔽 GoPoc 功能(暂时)
-
-#### [v2.0.1] - 2022-11-30
-
-**更新**  
-- 紧急发布修复 BUG 的小版本  
-- 解决 afrog 线程池经常卡死 BUG
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
