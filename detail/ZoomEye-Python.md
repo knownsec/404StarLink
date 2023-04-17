@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-Knownsec404-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/ZoomEye-python.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.1-red)
+![Version](https://img.shields.io/badge/Version-V2.2.0-red)
 ![Time](https://img.shields.io/badge/Join-20200821-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -604,6 +604,11 @@ soft********11180040.b***c.net ['126.***.***.40']
 - 2021-01-20 发布文章[《ZoomEye-python 使用指南》](https://paper.seebug.org/1461/)
 
 ## 最近更新
+
+#### [v2.2.0] - 2023-04-12
+
+**更新**  
+- 移除用户名和密码的认证方式，仅支持 API- KEY 认证
 
 #### [v2.1.1] - 2021-12-14
 

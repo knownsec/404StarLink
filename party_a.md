@@ -1,16 +1,28 @@
 ## 甲方工具 / party_a
 
-1. [Elkeid](#elkeid)
-2. [linglong](#linglong)
-3. [OpenStar](#openstar)
-4. [veinmind-tools](#veinmind-tools)
-5. [appshark](#appshark)
-6. [murphysec](#murphysec)
-7. [GShark](#gshark)
-8. [Juggler](#juggler)
-9. [Hades](#hades)
+1. [dperf](#dperf)
+2. [Elkeid](#elkeid)
+3. [linglong](#linglong)
+4. [OpenStar](#openstar)
+5. [veinmind-tools](#veinmind-tools)
+6. [appshark](#appshark)
+7. [camille](#camille)
+8. [murphysec](#murphysec)
+9. [GShark](#gshark)
+10. [Juggler](#juggler)
+11. [Hades](#hades)
 
 ----------------------------------------
+
+### [dperf](detail/dperf.md)
+![Author](https://img.shields.io/badge/Author-Benjamin-orange)
+![Language](https://img.shields.io/badge/Language-C-blue)
+![GitHub stars](https://img.shields.io/github/stars/baidu/dperf.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.5.0-red)
+
+<https://github.com/baidu/dperf>
+
+dperf 是一个100Gbps的网络性能与压力测试软件。国内多个知名安全厂商用dperf测试其防火墙。知名开源四层负载均衡DPVS在用dperf做性能测试，发布性能测试报告。
 
 ### [Elkeid](detail/Elkeid.md)
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
@@ -61,6 +73,16 @@ veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目
 <https://github.com/bytedance/appshark>
 
 Appshark 是一个针对安卓的静态分析工具，它的设计目标是针对超大型App的分析，Appshark支持基于json的自定义扫描规则,发现自己关心的安全漏洞以及隐私合规问题，支持灵活配置，可以在准确率以及扫描时间空间之间寻求平衡，支持自定义扩展规则，根据自己的业务需要，进行定制分析
+
+### [camille](detail/camille.md)
+![Author](https://img.shields.io/badge/Author-zhengjim-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/zhengjim/camille.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+
+<https://github.com/zhengjim/camille>
+
+现如今APP隐私合规十分重要，各监管部门不断开展APP专项治理工作及核查通报，不合规的APP通知整改或直接下架。camille可以hook住Android敏感接口，并识别是否为第三方SDK调用。根据隐私合规的场景，辅助检查是否符合隐私合规标准。
 
 ### [murphysec](detail/murphysec.md)
 ![Author](https://img.shields.io/badge/Author-murphysecurity-orange)

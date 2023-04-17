@@ -88,7 +88,7 @@ ksubdomain是一款基于无状态子域名爆破工具，支持在Windows/Linux
 ![Author](https://img.shields.io/badge/Author-Knownsec404-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/ZoomEye-python.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.1-red)
+![Version](https://img.shields.io/badge/Version-V2.2.0-red)
 
 <https://github.com/knownsec/ZoomEye-python>
 

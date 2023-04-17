@@ -1,11 +1,13 @@
 ## 全部项目 / All_Projects
 
 * [甲方工具/party_a](#甲方工具party_a)
+    * [dperf](#dperf)
     * [Elkeid](#elkeid)
     * [linglong](#linglong)
     * [OpenStar](#openstar)
     * [veinmind-tools](#veinmind-tools)
     * [appshark](#appshark)
+    * [camille](#camille)
     * [murphysec](#murphysec)
     * [gshark](#gshark)
     * [Juggler](#juggler)
@@ -33,8 +35,9 @@
 
 * [攻击与利用/penetration_test](#攻击与利用penetration_test)
     * [pocsuite3](#pocsuite3)
-    * [Viper](#viper)
     * [CDK](#cdk)
+    * [Viper](#viper)
+    * [dperf](#dperf)
     * [cf](#cf)
     * [MDUT](#mdut)
     * [WMIHACKER](#wmihacker)
@@ -65,6 +68,7 @@
     * [Platypus](#platypus)
     * [WMIHACKER](#wmihacker)
     * [As-Exploits](#as-exploits)
+    * [rakshasa](#rakshasa)
     * [PortForward](#portforward)
 
 * [其他/others](#其他others)
@@ -78,6 +82,16 @@
 ----------------------------------------
 
 ## 甲方工具/party_a
+### [dperf](detail/dperf.md)
+![Author](https://img.shields.io/badge/Author-Benjamin-orange)
+![Language](https://img.shields.io/badge/Language-C-blue)
+![GitHub stars](https://img.shields.io/github/stars/baidu/dperf.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.5.0-red)
+
+<https://github.com/baidu/dperf>
+
+dperf 是一个100Gbps的网络性能与压力测试软件。国内多个知名安全厂商用dperf测试其防火墙。知名开源四层负载均衡DPVS在用dperf做性能测试，发布性能测试报告。
+
 ### [Elkeid](detail/Elkeid.md)
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![Language](https://img.shields.io/badge/Language-C/Golang-blue)
@@ -127,6 +141,16 @@ veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目
 <https://github.com/bytedance/appshark>
 
 Appshark 是一个针对安卓的静态分析工具，它的设计目标是针对超大型App的分析，Appshark支持基于json的自定义扫描规则,发现自己关心的安全漏洞以及隐私合规问题，支持灵活配置，可以在准确率以及扫描时间空间之间寻求平衡，支持自定义扩展规则，根据自己的业务需要，进行定制分析
+
+### [camille](detail/camille.md)
+![Author](https://img.shields.io/badge/Author-zhengjim-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/zhengjim/camille.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+
+<https://github.com/zhengjim/camille>
+
+现如今APP隐私合规十分重要，各监管部门不断开展APP专项治理工作及核查通报，不合规的APP通知整改或直接下架。camille可以hook住Android敏感接口，并识别是否为第三方SDK调用。根据隐私合规的场景，辅助检查是否符合隐私合规标准。
 
 ### [murphysec](detail/murphysec.md)
 ![Author](https://img.shields.io/badge/Author-murphysecurity-orange)
@@ -245,7 +269,7 @@ ksubdomain是一款基于无状态子域名爆破工具，支持在Windows/Linux
 ![Author](https://img.shields.io/badge/Author-Knownsec404-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/ZoomEye-python.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.1-red)
+![Version](https://img.shields.io/badge/Version-V2.2.0-red)
 
 <https://github.com/knownsec/ZoomEye-python>
 
@@ -347,6 +371,16 @@ LSpider 一个为被动扫描器定制的前端爬虫
 
 pocsuite3是由Knownsec 404团队开发的开源远程漏洞测试和概念验证开发框架。它带有强大的概念验证引擎，以及针对最终渗透测试人员和安全研究人员的许多强大功能。
 
+### [CDK](detail/CDK.md)
+![Author](https://img.shields.io/badge/Author-cdkteam-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/cdk-team/CDK.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.5.2-red)
+
+<https://github.com/cdk-team/CDK>
+
+CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器内部提供零依赖的常用命令及PoC/EXP。集成Docker/K8s场景特有的逃逸、横向移动、持久化利用方式，插件化管理。
+
 ### [Viper](detail/Viper.md)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
@@ -357,15 +391,15 @@ pocsuite3是由Knownsec 404团队开发的开源远程漏洞测试和概念验�
 
 VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战术及技术进行模块化及武器化。
 
-### [CDK](detail/CDK.md)
-![Author](https://img.shields.io/badge/Author-cdkteam-orange)
-![Language](https://img.shields.io/badge/Language-Golang-blue)
-![GitHub stars](https://img.shields.io/github/stars/cdk-team/CDK.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.2-red)
+### [dperf](detail/dperf.md)
+![Author](https://img.shields.io/badge/Author-Benjamin-orange)
+![Language](https://img.shields.io/badge/Language-C-blue)
+![GitHub stars](https://img.shields.io/github/stars/baidu/dperf.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.5.0-red)
 
-<https://github.com/cdk-team/CDK>
+<https://github.com/baidu/dperf>
 
-CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器内部提供零依赖的常用命令及PoC/EXP。集成Docker/K8s场景特有的逃逸、横向移动、持久化利用方式，插件化管理。
+dperf 是一个100Gbps的网络性能与压力测试软件。国内多个知名安全厂商用dperf测试其防火墙。知名开源四层负载均衡DPVS在用dperf做性能测试，发布性能测试报告。
 
 ### [cf](detail/cf.md)
 ![Author](https://img.shields.io/badge/Author-teamssix-orange)
@@ -632,6 +666,16 @@ WMIHACKER是一款免杀横向渗透远程命令执行工具，常见的WMIEXEC�
 <https://github.com/yzddmr6/As-Exploits>
 
 中国蚁剑后渗透框架
+
+### [rakshasa](detail/rakshasa.md)
+![Author](https://img.shields.io/badge/Author-Mob2003-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/Mob2003/rakshasa.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.2.2-red)
+
+<https://github.com/Mob2003/rakshasa>
+
+rakshasa是一个使用Go语言编写的强大多级代理工具，专为实现多级代理，内网穿透而设计。它可以在节点群里面任意两个节点之间转发TCP请求和响应，同时支持socks5代理，http代理，并且可以引入外部http、socks5代理池，自动切换请求IP。
 
 ### [PortForward](detail/PortForward.md)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
