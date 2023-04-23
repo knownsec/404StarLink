@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.2.2-red)
+![Version](https://img.shields.io/badge/Version-V2.2.3-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -65,6 +65,14 @@ afrog -t http://127.0.0.1 -nf
 
 ## 最近更新
 
+#### [v2.2.3] - 2023-04-22
+
+**优化**  
+- 可自定义 html report 报告生成目录  
+
+**PoC**  
+- 新增 22 PoC
+
 #### [v2.2.2] - 2023-04-05
 
 **修复**  
@@ -111,15 +119,5 @@ afrog -t http://127.0.0.1 -nf
 **更新**  
 - 修复了指纹中误报率高的bug  
 - 添加 -json 选项，用于 json 格式输出
-
-#### [v2.1.0] - 2022-12-12
-
-**更新**  
-- 新增 -update 将 afrog 引擎更新到最新发布的版本  
-- 新增 -proxy 使用 http/socks5 代理列表(逗号分隔或文件输入)  
-- 新增 -rate-limit、concurrency、fingerprint-concurrency、max-host-error、retries、timeout 等参数  
-- 修复 html 报告(返回多个请求记录)URL 不准确的 BUG  
-- 优化 banner 展示界面(模仿 nuclei)  
-- 屏蔽 GoPoc 功能(暂时)
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

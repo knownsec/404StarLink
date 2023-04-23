@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-wuba-orange)
 ![GitHub stars](https://img.shields.io/github/stars/wuba/Antenna.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.4-red)
+![Version](https://img.shields.io/badge/Version-V1.3.5-red)
 ![Time](https://img.shields.io/badge/Join-20220914-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -104,6 +104,13 @@ OPEN_API与CallBack使用教程:[关于OPEN_API与CallBack](http://blog.antenna.
 
 ## 最近更新
 
+#### [v1.3.5] - 2023-04-21
+
+**更新**  
+- 修复HTTPS分块传输请求导致处理逻辑错误  
+- 废弃domain_in查询方式，后续多个域名查询可使用多个domain参数查询  
+- 新增api查询用户token以及查询当前项目使用版本接口
+
 #### [v1.3.4] - 2023-04-06
 
 **更新**  
@@ -132,11 +139,5 @@ OPEN_API与CallBack使用教程:[关于OPEN_API与CallBack](http://blog.antenna.
 - OPEN_API新增domain_contains、content_contains查询关键字  
 - 优化用户使用体验、更新配置无需再重启docker及系统  
 - 日常修复了一些bug
-
-#### [v1.2.0] - 2022-10-14
-
-**更新**  
-- 修复了一些bug  
-- 新增https监听功能
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
