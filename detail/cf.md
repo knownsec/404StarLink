@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-teamssix-orange)
 ![GitHub stars](https://img.shields.io/github/stars/teamssix/cf.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.4.4-red)
+![Version](https://img.shields.io/badge/Version-V0.4.5-red)
 ![Time](https://img.shields.io/badge/Join-20220829-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -133,6 +133,21 @@ cf upgrade
 
 ## 最近更新
 
+#### [v0.4.5] - 2023-04-29
+
+**新增功能**  
+- 增加华为云控制台接管和权限枚举功能  
+
+**功能优化**  
+- 优化错误信息输出  
+- 优化更新功能
+
+**Bug 修复**  
+- 修复配置令牌功能的 Bug  
+- 修复两处缓存功能的 Bug  
+- 修复更新功能 Bug  
+- 修复腾讯云 cvm 和 lh 无法列全的 Bug
+
 #### [v0.4.4] - 2022-12-14
 
 **新增功能**  
@@ -184,17 +199,5 @@ cf upgrade
 
 **功能优化**  
 - 优化接管控制台输出信息
-
-#### [v0.4.0] - 2022-09-07
-
-**新增功能**  
-- 增加对已有的访问凭证修改功能  
-- 增加控制台接管历史记录查看功能  
-- 增加接管控制台指定用户名功能  
-
-**功能优化**  
-- 优化阿里云 OSS 相关功能  
-- 全面优化配置访问凭证功能  
-- 全面优化程序缓存功能
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

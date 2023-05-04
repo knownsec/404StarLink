@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-Mob2003-orange)
 ![GitHub stars](https://img.shields.io/github/stars/Mob2003/rakshasa.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.2.2-red)
+![Version](https://img.shields.io/badge/Version-V0.2.3-red)
 ![Time](https://img.shields.io/badge/Join-20230410-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -197,5 +197,11 @@ rakshasa -password 123456
 
 
 ## 最近更新
+
+#### [v0.2.3] - 2023-04-23
+
+**更新**  
+- 优化一个连接失败可能会导致nil的bug  
+- 修改一个nodeMap为sync.Map以减少代码里面lock的使用
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

@@ -23,7 +23,7 @@
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/pocsuite3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.3-red)
+![Version](https://img.shields.io/badge/Version-V2.0.4-red)
 
 <https://github.com/knownsec/pocsuite3>
 
@@ -43,7 +43,7 @@ CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器�
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.25-red)
+![Version](https://img.shields.io/badge/Version-V1.5.27-red)
 
 <https://github.com/FunnyWolf/Viper>
 
@@ -63,7 +63,7 @@ dperf 是一个100Gbps的网络性能与压力测试软件。国内多个知名�
 ![Author](https://img.shields.io/badge/Author-teamssix-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/teamssix/cf.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.4.4-red)
+![Version](https://img.shields.io/badge/Version-V0.4.5-red)
 
 <https://github.com/teamssix/cf>
 

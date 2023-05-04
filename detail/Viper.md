@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.25-red)
+![Version](https://img.shields.io/badge/Version-V1.5.27-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -78,6 +78,19 @@
 
 ## 最近更新
 
+#### [v1.5.27] - 2023-04-29
+
+**新功能**  
+- 新增基础LoaderShellcode分离免杀(Linux)模块  
+
+**优化**  
+- 合并metasploit-framework 6.3.15版本
+
+**Bugfix**  
+- 修复Python类型payload无法上线问题
+- 修复命令终端输出中文报错问题(提示执行超时)
+- 修复Session通信信道功能无法使用问题
+
 #### [v1.5.25] - 2023-02-05
 
 **优化**  
@@ -119,16 +132,5 @@
 
 **Bugfix**  
 - FOFA报错问题issues#87
-
-#### [v1.5.19] - 2022-03-28
-
-**优化**  
-- Session文件管理增加缓存,优化首次打开速度  
-- 合并metasploit-framework 6.1.36版本  
-
-**Bugfix**  
-- 修复无法使用migrate命令问题  
-- 修复无法创建虚拟监听问题  
-- 修复Windows UAC绕过运行报错问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

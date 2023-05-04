@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/pocsuite3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.3-red)
+![Version](https://img.shields.io/badge/Version-V2.0.4-red)
 ![Time](https://img.shields.io/badge/Join-20200821-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -155,6 +155,11 @@ console mode
 
 ## 最近更新
 
+#### [v2.0.4] - 2023-04-29
+
+**更新**  
+- 兼容 nuclei v2.9.1 的模版协议名称变化
+
 #### [v2.0.3] - 2023-03-21
 
 **更新**  
@@ -184,14 +189,5 @@ console mode
 - 支持 yaml 格式 poc，与 nuclei 的 poc 模版兼容  
 - 修复 httpserver 模块在 macos 平台卡住的问题  
 - 结合 http 状态码对 http/https 协议自动纠正
-
-#### [v1.9.11] - 2022-09-08
-
-**更新**  
-- 用户可以在 PoC 中自定义协议和默认端口，方便对 url 格式化  
-- 使用 -p 参数给目标添加额外端口，可同时提供协议  
-- 使用 -s 参数可以 skip target 本身的端口，只使用 -p 提供的端口  
-- poc-console 优化  
-- 一些改进和 bug 修复
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
