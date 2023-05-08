@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.27-red)
+![Version](https://img.shields.io/badge/Version-V1.5.28-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -78,6 +78,19 @@
 
 ## 最近更新
 
+#### [v1.5.28] - 2023-05-06
+
+**新功能**  
+- 新增只显示Session功能(首页和网络拓扑更简洁)  
+- 面向互联网的handler被扫描(网络测绘)时会在Notice提示  
+
+**优化**  
+- 合并metasploit-framework 6.3.16版本  
+
+**Bugfix**  
+- 修复无法修改包含中文内容的文件问题  
+- 修复文件管理无法上传文件问题
+
 #### [v1.5.27] - 2023-04-29
 
 **新功能**  
@@ -122,15 +135,5 @@
 - 修复yajl-ruby bug导致的渗透服务无响应问题  
 - 修复msf cpu占用100%问题  
 - 修复内存占用过高问题
-
-#### [v1.5.21] - 2022-05-21
-
-**优化**  
-- 更新内网代理提示  
-- 优化被动扫描模块加载逻辑,提高性能  
-- 合并metasploit-framework 6.1.44版本  
-
-**Bugfix**  
-- FOFA报错问题issues#87
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

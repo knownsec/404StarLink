@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.3.0-red)
+![Version](https://img.shields.io/badge/Version-V2.3.1-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -65,6 +65,17 @@ afrog -t http://127.0.0.1 -nf
 
 ## 最近更新
 
+#### [v2.3.1] - 2023-05-05
+
+**BUG**  
+- 解决`版本检查`导致内网无法使用问题  
+
+**新增**  
+- 命令 -disable-update-check，-duc 禁用自动更新检查  
+
+**修改**  
+- 现在 update-poc 会自动执行，禁用这个功能，请使用 -duc 命令
+
 #### [v2.3.0] - 2023-05-02
 
 **新增**  
@@ -114,13 +125,5 @@ afrog -t http://127.0.0.1 -nf
 **修复**  
 - 解决：-fc 命令配置无效问题  
 - 提示：配置 -c 命令能明显提高扫描速度
-
-#### [v2.2.0] - 2023-01-07
-
-**更新**  
-- 新增仅指纹扫描选项 `-onlyfinger`  
-- 新增 CEL 函数，如 year/shortyear 等  
-- 新增 PoC 验证属性，默认为 false  
-- 新增规则属性表达式
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
