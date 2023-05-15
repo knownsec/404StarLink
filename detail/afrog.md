@@ -3,67 +3,151 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.3.1-red)
+![Version](https://img.shields.io/badge/Version-V2.3.2-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
 ## What is afrog
 
-afrog is an excellent performance, fast and stable, PoC customizable vulnerability scanning (hole digging) tool. PoC involves CVE, CNVD, default password, information leakage, fingerprint identification, unauthorized access, arbitrary file reading, command execution, etc. It helps network security practitioners quickly verify and fix vulnerabilities in a timely manner.
+afrog is a high-performance vulnerability scanner that is fast and stable. It supports user-defined PoC and comes with several built-in types, such as CVE, CNVD, default passwords, information disclosure, fingerprint identification, unauthorized access, arbitrary file reading, and command execution. With afrog, network security professionals can quickly validate and remediate vulnerabilities, which helps to enhance their security defense capabilities.
 
 ## Features
 
-* [x] Open Source
-* [x] Fast, stable, low false positives
-* [x] Detailed html vulnerability report
-* [x] PoC can be customized and updated stably
+* [x] Open source
+* [x] Fast, stable, with low false positives
+* [x] Detailed HTML vulnerability reports
+* [x] Customizable and stably updatable PoCs
 * [x] Active community exchange group
 
-## Example
+## Installation
 
-Basic usage
+### Prerequisites
+
+- [Go](https://go.dev/) version 1.19 or higher.
+
+you can install it with:
+
+**Binary**
+```sh
+$ https://github.com/zan8in/afrog/releases
 ```
-# Scan a target
-afrog -t http://127.0.0.1
 
-# Scan multiple targets
+**Github**
+```sh
+$ git clone https://github.com/zan8in/afrog.git
+$ cd afrog
+$ go build cmd/afrog/main.go
+$ ./afrog -h
+```
+
+**Go**
+```sh
+$ go install -v https://github.com/zan8in/afrog/cmd/afrog@latest
+```
+
+## Running afrog
+
+By default, afrog scans all built-in PoCs, and if it finds any vulnerabilities, it automatically creates an HTML report with the date of the scan as the filename.
+
+```sh
+afrog -t https://example.com
+```
+
+**Warning occurs when running afrog**
+
+If you see an error message saying:
+```
+[ERR] ceye reverse service not set: /home/afrog/.config/afrog/afrog-config.yaml
+```
+it means you need to modify the [configuration file](https://github.com/zan8in/afrog/blob/main/README.md#configuration-file).
+
+To execute a custom PoC directory, you can use the following command:
+
+```sh
+afrog -t https://example.com -P mypocs/
+```
+
+Use the command `-s keyword` to perform a fuzzy search on all PoCs and scan the search results. Multiple keywords can be used, separated by commas. For example: `-s weblogic,jboss`.
+
+```sh
+afrog -t https://example.com -s weblogic,jboss
+```
+
+Use the command `-S keyword` to scan vulnerabilities based on their severity level. Severity levels include: `info`, `low`, `medium`, `high`, and `critical`. For example, to only scan high and critical vulnerabilities, use the command `-S high,critical`.
+
+```sh
+afrog -t https://example.com -S high,critical
+```
+
+You can scan multiple URLs at the same time as well.
+
+```sh
 afrog -T urls.txt
-
-# Specify a scan report file
-afrog -t http://127.0.0.1 -o result.html
 ```
 
-Advanced usage
+## Configuration file
 
-```
-# Test PoC 
-afrog -t http://127.0.0.1 -P ./test/ 
-afrog -t http://127.0.0.1 -P ./test/demo.yaml 
+The first time you start afrog, it will automatically create a configuration file called `afrog-config.yaml`, which will be saved in the current user directory under `$HOME/.config/afrog/afrog-config.yaml`.
 
-# Scan by PoC Keywords 
-afrog -t http://127.0.0.1 -s tomcat,springboot,shiro 
+Here is an example config file:
 
-# Scan by PoC Vulnerability Severity Level 
-afrog -t http://127.0.0.1 -S high,critical 
-
-# Online update afrog-pocs 
-afrog -up 
-
-# Disable fingerprint recognition 
-afrog -t http://127.0.0.1 -nf
+```yaml
+reverse:
+  ceye:
+    api-key: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+    domain: "xxxxxx.ceye.io"
 ```
 
-## Screenshot
+`reverse` is a reverse connection platform used to verify command execution vulnerabilities that cannot be echoed back. Currently, only ceye can be used for verification. To obtain ceye, follow these steps:
 
-![](https://github.com/zan8in/afrog/raw/main/images/scan-new.png)
+- Go to the [ceye.io](http://ceye.io/) website and register an account.
+- Log in and go to the personal settings page.
+- Copy the `domain` and `api-key` and correctly configure them in the `afrog-config.yaml` file.
 
-![](https://github.com/zan8in/afrog/raw/main/images/report-new.png)
+
+## Json Output (For developers)
+
+### Json
+Optional command: `-json` `-j`, Save the scan results to a JSON file. The JSON file includes the following contents by default: `target`, `fulltarget`, `id`, and `info`. The info field includes the following sub-fields: `name`, `author`, `severity`, `description`, and `reference`. If you want to save both `request` and `response` contents, please use the [-json-all](https://github.com/zan8in/afrog/blob/main/README.md#jsonall) command parameter.
+
+```sh
+afrog  -t https://example.com -json result.json
+afrog  -t https://example.com -j result.json
+```
+
+::: warning
+The content of the JSON file is updated in real time. However, there is an important note to keep in mind: before the scan is completed, if developers want to parse the file content, they need to add a '`]`' symbol to the end of the file by themselves, otherwise it will cause parsing errors. Of course, if you wait for the scan to complete before parsing the file, this issue will not occur.
+:::
+
+
+### JsonAll
+
+Optional command: `-json-all` `-ja`, The only difference between the `-json-all` and `-json` commands is that `-json-all` writes all vulnerability results, including `request` and `response`, to a JSON file.
+
+```sh
+afrog -t https://example.com -json-all result.json
+afrog -t https://example.com -ja result.json
+```
 
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
 
 ## 最近更新
+
+#### [v2.3.2] - 2023-05-14
+
+**新增**  
+- 使用命令参数 -json 或 -j，将漏洞结果写入 JSON 文件，不包括 request 和 response  
+- 使用命令参数 -json-all 或 -ja，将漏洞结果写入 JSON 文件，包括 request 和 response  
+- 使用 disable-output-html 命令可以禁止生成 HTML 报告，该命令的优先级高于 -o 命令  
+- PoC 脚本 info 信息增加 affected、solutions、created 三个字段  
+
+**优化**  
+- 已移除重复的PoC: springboot-env-unauth  
+- 执行更新操作时，-up 命令提示不够友好  
+- 按照从低到高的安全风险级别顺序进行扫描  
+- 优化 url.path 编码问题
 
 #### [v2.3.1] - 2023-05-05
 
@@ -114,16 +198,5 @@ afrog -t http://127.0.0.1 -nf
 - 删除 PoC csz-cms-multiple-blind-sql-injection  
 - 删除 PoC phpstudy-nginx-wrong-resolve  
 - 内置几个 private PoC
-
-#### [v2.2.1] - 2023-02-04
-
-**更新**  
-- 将多个 panel 指纹探测合并到文件 panel-detect.yaml，大幅减少 http 请求  
-- 精简控制台日期打印，2023-01-01 改为 01-01  
-- 精简 afrog-config 配置信息  
-
-**修复**  
-- 解决：-fc 命令配置无效问题  
-- 提示：配置 -c 命令能明显提高扫描速度
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
