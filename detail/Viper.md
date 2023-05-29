@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.28-red)
+![Version](https://img.shields.io/badge/Version-V1.5.29-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -78,6 +78,18 @@
 
 ## 最近更新
 
+#### [v1.5.29] - 2023-05-22
+
+**优化**  
+- 端口转发记录新增连接提示  
+- 模块运行结果记录运行模块的sessionid  
+- 适配reverse_tcp_ssl类型payload  
+- 合并metasploit-framework 6.3.18版本  
+
+**Bugfix**  
+- 修复sock4a/socks5代理无法使用问题  
+- 修复session长时间运行导致内存占用过高问题
+
 #### [v1.5.28] - 2023-05-06
 
 **新功能**  
@@ -125,15 +137,5 @@
 - msfrpc使用OJ为默认json组件,替换yajl  
 - 更新Django 4.0  
 - 合并metasploit-framework 6.2.18版本
-
-#### [v1.5.23] - 2022-08-07
-
-**优化**  
-- 合并 metasploit-framework 6.2.12版本  
-
-**Bugfix**  
-- 修复yajl-ruby bug导致的渗透服务无响应问题  
-- 修复msf cpu占用100%问题  
-- 修复内存占用过高问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

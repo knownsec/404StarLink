@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
 ![Author](https://img.shields.io/badge/Author-长亭科技-orange)
 ![GitHub stars](https://img.shields.io/github/stars/chaitin/veinmind-tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.2-red)
+![Version](https://img.shields.io/badge/Version-V2.1.3-red)
 ![Time](https://img.shields.io/badge/Join-20220316-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -77,6 +77,20 @@ PS: 目前所有工具均已支持平行容器的方式运行
 
 ## 最近更新
 
+#### [v2.1.3] - 2023-05-23
+
+**新增**  
+- 新增 mysql5 弱口令扫描  
+- 使用 bullseye 和 libveinmind-dev 更新至 1.9.15   
+- 新增 caching_sha2_password 插件  
+- 新增 kubernetes iac 策略插件  
+- 新增对 env/docker 历史命令扫描  
+
+**修复**  
+- 修复 libveinmind 遍历数据竞争的问题  
+- 优化 veinmind-malicious 代码  
+- 修复 mysql8 弱口令检查
+
 #### [v2.1.2] - 2023-04-25
 
 **新增**  
@@ -107,17 +121,5 @@ PS: 目前所有工具均已支持平行容器的方式运行
 - 修复 Makefile  
 - 修复 veinmind-iac 文件识别问题  
 - 修复 veinmind-sensitive 扫描过慢问题
-
-#### [v2.0.0] - 2023-02-10
-
-**Feature**  
-- runner cmd优化: 协议化扫描对象  
-- runner 支持插件参数自定义  
-- runner 支持扫描 tar 类型镜像  
-- 插件报告输出优化：支持 cli/json/htm  
-- script.sh => makefile  
-- 新增 veinmind-esclate 逃逸检测插件  
-- veinmind-asset 升级为 veinmind-vuln，支持漏洞扫描  
-- iac 支持扫描 kubernetes
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
