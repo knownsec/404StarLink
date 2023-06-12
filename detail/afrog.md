@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.3.2-red)
+![Version](https://img.shields.io/badge/Version-V2.5.2-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -59,7 +59,7 @@ If you see an error message saying:
 ```
 [ERR] ceye reverse service not set: /home/afrog/.config/afrog/afrog-config.yaml
 ```
-it means you need to modify the [configuration file](https://github.com/zan8in/afrog/blob/main/README.md#configuration-file).
+it means you need to modify the [configuration file](#configuration-file).
 
 To execute a custom PoC directory, you can use the following command:
 
@@ -108,7 +108,7 @@ reverse:
 ## Json Output (For developers)
 
 ### Json
-Optional command: `-json` `-j`, Save the scan results to a JSON file. The JSON file includes the following contents by default: `target`, `fulltarget`, `id`, and `info`. The info field includes the following sub-fields: `name`, `author`, `severity`, `description`, and `reference`. If you want to save both `request` and `response` contents, please use the [-json-all](https://github.com/zan8in/afrog/blob/main/README.md#jsonall) command parameter.
+Optional command: `-json` `-j`, Save the scan results to a JSON file. The JSON file includes the following contents by default: `target`, `fulltarget`, `id`, and `info`. The info field includes the following sub-fields: `name`, `author`, `severity`, `description`, and `reference`. If you want to save both `request` and `response` contents, please use the [-json-all](#jsonall) command parameter.
 
 ```sh
 afrog  -t https://example.com -json result.json
@@ -129,11 +129,37 @@ afrog -t https://example.com -json-all result.json
 afrog -t https://example.com -ja result.json
 ```
 
+
+## Screenshot
+
+![](https://github.com/zan8in/afrog/blob/main/images/1.png)
+
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
 
 ## 最近更新
+
+#### [v2.5.2] - 2023-06-07
+
+**新增**  
+- 命令 -mrbs 动态设置 http 响应 body 的最大值(默认2m)  
+- 删除 PoC shiro-key-detect
+
+#### [v2.5.1] - 2023-05-22
+
+**新增**  
+- 使用 YAML 编写 TCP/UDP 的 POC 文件  
+- 使用 YAML 调用 Go 语言的 POC 文件  
+- Shiro Key 检测脚本默认检测 20 个 Key  
+
+**优化**  
+- 解决 -update 程序更新时的路径错误问题  
+- 改进控制台提示信息  
+- 禁用 -up 命令，改为自动执行  
+- 将反连平台未配置的提示等级改为 Info  
+- 默认情况下不会监视目标访问(使用-monitor-targets/-mt命令进行启用)  
+- 删除重复 PoC: hikvision-applyct-fastjson-rce
 
 #### [v2.3.2] - 2023-05-14
 
@@ -168,35 +194,5 @@ afrog -t https://example.com -ja result.json
 
 **优化**  
 - 命令 `poc-list/pl`，查看 poc 列表
-
-#### [v2.2.3] - 2023-04-22
-
-**优化**  
-- 可自定义 html report 报告生成目录  
-
-**PoC**  
-- 新增 22 PoC
-
-#### [v2.2.2] - 2023-04-05
-
-**修复**  
-- 修复 afrog html 报告 XSS 漏洞  
-
-**优化**  
-- 简化 URL 黑名单机制  
-- 优化 http/s 检测功能  
-- 优化 文件上传 (所有) PoC  
-- 优化 RCE (所有) PoC  
-
-**删除**  
-- 去掉 Fingerprint 指纹识别及命令参数 (替代工具 pyxis)  
-- 去掉不常用命令参数  
-
-**PoC**  
-- 新增 52 PoC  
-- 验证和优化 n 多个 PoC  
-- 删除 PoC csz-cms-multiple-blind-sql-injection  
-- 删除 PoC phpstudy-nginx-wrong-resolve  
-- 内置几个 private PoC
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
