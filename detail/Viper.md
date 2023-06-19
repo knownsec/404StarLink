@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.29-red)
+![Version](https://img.shields.io/badge/Version-V1.5.30-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -78,6 +78,19 @@
 
 ## 最近更新
 
+#### [v1.5.30] - 2023-06-17
+
+**新功能**  
+- Viper所有功能都可通过右下角链接跳转到对应文档  
+
+**优化**  
+- 监听防火墙前端UI优化  
+- 只显示Session功能可在主页面使用  
+- 合并metasploit-framework 6.3.22版本  
+
+**Bugfix**  
+- 修复python类型payload断线后无法重连及无法清理历史网络连接问题
+
 #### [v1.5.29] - 2023-05-22
 
 **优化**  
@@ -124,18 +137,5 @@
 **Bugfix**  
 - 修复编译前端代码时监听载荷报错的问题  
 - 修复持久化密码修改失败的问题
-
-#### [v1.5.24] - 2022-09-11
-
-**新功能**  
-- 新增UI提示框获取用户输入的密码模块  
-
-**优化**  
-- mitmproxy开放公网访问,添加http代理认证  
-- msfrpc web组件由puma替换为thin,减少cpu占用  
-- msfrpc默认开启cpulimit 50%  
-- msfrpc使用OJ为默认json组件,替换yajl  
-- 更新Django 4.0  
-- 合并metasploit-framework 6.2.18版本
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

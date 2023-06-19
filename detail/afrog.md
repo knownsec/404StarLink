@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.5.2-red)
+![Version](https://img.shields.io/badge/Version-V2.5.3-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -140,6 +140,13 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v2.5.3] - 2023-06-14
+
+**新增**  
+- -target/-t 现在支持多个 URL  
+- 添加 JNDI 反连功能  
+- 添加 afrog 调用库和演示示例
+
 #### [v2.5.2] - 2023-06-07
 
 **新增**  
@@ -185,14 +192,5 @@ afrog -t https://example.com -ja result.json
 
 **修改**  
 - 现在 update-poc 会自动执行，禁用这个功能，请使用 -duc 命令
-
-#### [v2.3.0] - 2023-05-02
-
-**新增**  
-- 命令 `poc-detail/pd`，查看 poc 详情  
-- 命令 `monitor-targets/mt`，在扫描中实时监控目标存活  
-
-**优化**  
-- 命令 `poc-list/pl`，查看 poc 列表
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
