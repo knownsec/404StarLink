@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.5.3-red)
+![Version](https://img.shields.io/badge/Version-V2.6.0-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -140,6 +140,13 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v2.6.0] - 2023-06-24
+
+**新增**  
+- 新增 -append-poc / -ap 功能，允许指定一个或多个PoC文件或目录  
+- rawhttp 支持 HTTP/socks5 代理  
+- 庆祝！afrog PoC 的总数突破了1000个！目前总数为1018个
+
 #### [v2.5.3] - 2023-06-14
 
 **新增**  
@@ -181,16 +188,5 @@ afrog -t https://example.com -ja result.json
 - 执行更新操作时，-up 命令提示不够友好  
 - 按照从低到高的安全风险级别顺序进行扫描  
 - 优化 url.path 编码问题
-
-#### [v2.3.1] - 2023-05-05
-
-**BUG**  
-- 解决`版本检查`导致内网无法使用问题  
-
-**新增**  
-- 命令 -disable-update-check，-duc 禁用自动更新检查  
-
-**修改**  
-- 现在 update-poc 会自动执行，禁用这个功能，请使用 -duc 命令
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
