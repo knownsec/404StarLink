@@ -50,6 +50,7 @@
     * [Redis-Rogue-Server](#redis-rogue-server)
     * [MysqlT](#mysqlt)
     * [Cola-Dnslog](#cola-dnslog)
+    * [JNDIExploit](#jndiexploit)
 
 * [信息分析/information_analysis](#信息分析information_analysis)
     * [HackBrowserData](#hackbrowserdata)
@@ -520,6 +521,16 @@ Redis 4.x/Redis 5.x RCE利用脚本. 项目最初来源于 <https://github.com/n
 <https://github.com/AbelChe/cola_dnslog>
 
 Cola Dnslog 是一款更加强大的dnslog平台(无回显漏洞探测辅助平台)，支持dns http ldap rmi等协议，提供API调用方式便于与其他工具结合，支持钉钉机器人、Bark等提醒，并支持docker一键部署。
+
+### [JNDIExploit](detail/JNDIExploit.md)
+![Author](https://img.shields.io/badge/Author-qi4L-orange)
+![Language](https://img.shields.io/badge/Language-Java-blue)
+![GitHub stars](https://img.shields.io/github/stars/qi4L/JNDIExploit.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V2.4.6-red)
+
+<https://github.com/qi4L/JNDIExploit>
+
+JNDI注入的多功能利用工具。
 
 
 

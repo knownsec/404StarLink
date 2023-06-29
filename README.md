@@ -17,6 +17,7 @@
 
 | 时间 | 项目名称 | 项目动态 |
 |----|-----------|--------------------------|
+|2023-06-26|[**JNDIExploit**](detail/JNDIExploit.md)|JNDIExploit加入星链计划|
 |2023-06-24|[**afrog**](detail/afrog.md)|更新 [v2.6.0](detail/afrog.md#最近更新) 版本|
 |2023-06-17|[**Viper**](detail/Viper.md)|更新 [v1.5.30](detail/Viper.md#最近更新) 版本|
 |2023-05-23|[**veinmind-tools**](detail/veinmind-tools.md)|更新 [v2.1.3](detail/veinmind-tools.md#最近更新) 版本|
@@ -26,7 +27,6 @@
 |2023-04-21|[**Antenna**](detail/Antenna.md)|更新 [v1.3.5](detail/Antenna.md#最近更新) 版本|
 |2023-04-12|[**ZoomEye-Python**](detail/ZoomEye-Python.md)|更新 [v2.2.0](detail/ZoomEye-Python.md#最近更新) 版本|
 |2023-04-10|[**camille**](detail/camille.md)|camille加入星链计划|
-|2023-04-10|[**rakshasa**](detail/rakshasa.md)|rakshasa加入星链计划|
 
 **2.StarRank**
 
@@ -62,6 +62,7 @@
 
 | 时间 | 项目名称 | 项目简介 |
 |----|-----------|--------------------------|
+|2023-06-26|[**JNDIExploit**](detail/JNDIExploit.md)|JNDI注入的多功能利用工具。|
 |2023-04-10|[**camille**](detail/camille.md)|现如今APP隐私合规十分重要，各监管部门不断开展APP专项治理工作及核查通报，不合规的APP通知整改或直接下架。camille可以hook住Android敏感接口，并识别是否为第三方SDK调用。根据隐私合规的场景，辅助检查是否符合隐私合规标准。|
 |2023-04-10|[**rakshasa**](detail/rakshasa.md)|rakshasa是一个使用Go语言编写的强大多级代理工具，专为实现多级代理，内网穿透而设计。它可以在节点群里面任意两个节点之间转发TCP请求和响应，同时支持socks5代理，http代理，并且可以引入外部http、socks5代理池，自动切换请求IP。|
 |2023-04-10|[**dperf**](detail/dperf.md)|dperf 是一个100Gbps的网络性能与压力测试软件。国内多个知名安全厂商用dperf测试其防火墙。知名开源四层负载均衡DPVS在用dperf做性能测试，发布性能测试报告。|
@@ -71,7 +72,6 @@
 |2022-09-14|[**murphysec**](detail/murphysec.md)|墨菲安全专注于软件供应链安全，murphysec 是墨菲安全的 CLI 工具，用于在命令行检测指定目录代码的依赖安全问题，也可以基于 CLI 工具实现在 CI 流程的检测。|
 |2022-09-14|[**appshark**](detail/appshark.md)|Appshark 是一个针对安卓的静态分析工具，它的设计目标是针对超大型App的分析，Appshark支持基于json的自定义扫描规则,发现自己关心的安全漏洞以及隐私合规问题，支持灵活配置，可以在准确率以及扫描时间空间之间寻求平衡，支持自定义扩展规则，根据自己的业务需要，进行定制分析|
 |2022-09-14|[**Antenna**](detail/Antenna.md)|Antenna是58同城安全团队打造的一款辅助安全从业人员辅助验证网络中多种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试( OAST)通过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标进行Out-of-bind的数据通信方式进行辅助检测。|
-|2022-08-29|[**Hades**](detail/Hades.md)|Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检测系统，其中每个插件均可独立分开运行。|
 
 **5.[分类:甲方工具](party_a.md)**
 
