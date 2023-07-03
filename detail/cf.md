@@ -3,15 +3,17 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-teamssix-orange)
 ![GitHub stars](https://img.shields.io/github/stars/teamssix/cf.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.4.5-red)
+![Version](https://img.shields.io/badge/Version-V0.5.0-red)
 ![Time](https://img.shields.io/badge/Join-20220829-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
 CF 是一个云环境利用框架，适用于在红队场景中对云上内网进行横向、SRC 场景中对 Access Key 即访问凭证的影响程度进行判定、企业场景中对自己的云上资产进行自检等等。
 
-CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/cf/releases)
+<details> <summary>CF 命令使用大全</summary><br>
 
-![](https://cdn.jsdelivr.net/gh/teamssix/BlogImages/imgs/202212132148217.png)
+![](https://cdn.jsdelivr.net/gh/teamssix/BlogImages/imgs/202307010038925.png)
+
+</details>
 
 当前已支持的云：
 
@@ -28,7 +30,18 @@ CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/
 
 ## 安装
 
-直接在 CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/cf/releases) 中下载系统对应的压缩文件，解压后在命令行中运行即可，目前支持以下系统：
+### HomeBrew 安装
+
+```bash
+brew tap teamssix/tap
+brew install teamssix/tap/cf
+```
+
+### 下载二进制包
+
+直接在 CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/cf/releases) 中下载系统对应的压缩文件，解压后在命令行中运行即可。
+
+<details> <summary>目前支持的系统</summary><br>
 
 |            文件名            |  系统   |                架构                | 位数 |
 | :--------------------------: | :-----: | :--------------------------------: | :--: |
@@ -41,13 +54,17 @@ CF 下载地址：[github.com/teamssix/cf/releases](https://github.com/teamssix/
 |  cf_x.x.x_windows_amd64.zip  | Windows |                AMD                 |  64  |
 |  cf_x.x.x_windows_arm64.zip  | Windows |                ARM                 |  64  |
 
+</details>
+
 ## 使用案例
 
 |                标题                | 所使用的 CF 版本 |                           文章地址                           |   作者   |  发布时间  |
 | :--------------------------------: | :--------------: | :----------------------------------------------------------: | :------: | :--------: |
-|    《一次简单的"云"上野战记录》    |      v0.4.2      | [https://mp.weixin.qq.com/s/wi8C...](https://mp.weixin.qq.com/s/wi8CoNwdpfJa6eMP4t1PCQ) | carrypan | 2022.10.19 |
-| 《记录一次平平无奇的云上攻防过程》 |      v0.4.0      | [https://zone.huoxian.cn/d/2557](https://zone.huoxian.cn/d/2557) | TeamsSix | 2022.9.14  |
-|   《我用 CF 打穿了他的云上内网》   |      v0.2.4      | [https://zone.huoxian.cn/d/1341-cf](https://zone.huoxian.cn/d/1341-cf) | TeamsSix | 2022.7.13  |
+|    《CF 云环境利用框架最佳实践》    |      v0.4.5      | [wiki.teamssix.com/cf/cases/cf_best_practices](https://wiki.teamssix.com/cf/cases/cf_best_practices.html) | TeamsSix | 2023.6.4 |
+|    《记一次打穿云上内网的攻防实战》    |      v0.4.5      | [zone.huoxian.cn/d/2766](https://zone.huoxian.cn/d/2766) | Walker 沃克 | 2023.5.21 |
+|    《一次简单的"云"上野战记录》    |      v0.4.2      | [mp.weixin.qq.com/s/wi8CoNwdpfJa6eMP4t1PCQ](https://mp.weixin.qq.com/s/wi8CoNwdpfJa6eMP4t1PCQ) | carrypan | 2022.10.19 |
+| 《记录一次平平无奇的云上攻防过程》 |      v0.4.0      | [zone.huoxian.cn/d/2557](https://zone.huoxian.cn/d/2557) | TeamsSix | 2022.9.14  |
+|   《我用 CF 打穿了他的云上内网》   |      v0.2.4      | [zone.huoxian.cn/d/1341-cf](https://zone.huoxian.cn/d/1341-cf) | TeamsSix | 2022.7.13  |
 
 ## 简单上手
 
@@ -119,6 +136,14 @@ cf alibaba oss obj get
 
 ![](https://cdn.jsdelivr.net/gh/teamssix/BlogImages/imgs/202209071737414.png)
 
+一键创建 RDS 账号
+
+```bash
+cf alibaba rds account
+```
+
+![](https://cdn.jsdelivr.net/gh/teamssix/BlogImages/imgs/202307010033313.png)
+
 一键升级 CF 版本
 
 ```bash
@@ -132,6 +157,30 @@ cf upgrade
 
 
 ## 最近更新
+
+#### [v0.5.0] - 2023-07-01
+
+**新增功能**  
+- 新增阿里云用户数据后门功能  
+- 新增阿里云镜像共享功能  
+- 新增阿里云接管控制台时自动创建 AK 功能  
+- 新增阿里云 RDS 列出详细信息功能  
+- 新增阿里云 RDS 添加账号功能  
+- 新增阿里云 RDS 创建公网访问地址的功能  
+- 新增阿里云 RDS 添加白名单的功能  
+- 新增查询 AK 所属云厂商功能  
+- 新增支持 brew 安装  
+
+**功能优化**  
+- 优化配置功能，现在能自动识别配置是否处于可用状态  
+- 优化实例公网 IP 展示，不存在时会展示为空  
+- 优化 OSS 下载功能，现在默认会下载所有文件  
+- 优化更新处理逻辑  
+- 优化华为云 OBS 列出功能  
+
+**Bug 修复**  
+- 修复批量执行命令时，没有安装云助手导致批量执行中断的 Bug  
+- 修复 OSS 下载文件无法自动创建目录的 Bug
 
 #### [v0.4.5] - 2023-04-29
 
@@ -190,14 +239,5 @@ cf upgrade
 **Bug 修复**  
 - 修复一处由于历史代码造成的 Bug  
 - 修复一处配置 AK 时的 Bug
-
-#### [v0.4.1] - 2022-09-20
-
-**新增功能**  
-- 增加对象列表导出功能  
-- 增加指定查询对象列表数量功能  
-
-**功能优化**  
-- 优化接管控制台输出信息
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

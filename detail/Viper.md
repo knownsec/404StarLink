@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.30-red)
+![Version](https://img.shields.io/badge/Version-V1.6.0-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -78,6 +78,14 @@
 
 ## 最近更新
 
+#### [v1.6.0] - 2023-07-01
+
+**优化**  
+- 优化反溯源方案  
+- 优化内存执行C#可执行文件(Bypass)模块  
+- 关于VIPER中可以快捷查看最新版本  
+- 合并metasploit-framework 6.3.24版本
+
 #### [v1.5.30] - 2023-06-17
 
 **新功能**  
@@ -128,14 +136,5 @@
 - 修复Python类型payload无法上线问题
 - 修复命令终端输出中文报错问题(提示执行超时)
 - 修复Session通信信道功能无法使用问题
-
-#### [v1.5.25] - 2023-02-05
-
-**优化**  
-- 合并metasploit-framework 6.3.2版本 (更新多个域渗透模块)  
-
-**Bugfix**  
-- 修复编译前端代码时监听载荷报错的问题  
-- 修复持久化密码修改失败的问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

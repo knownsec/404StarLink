@@ -7,11 +7,11 @@
 ![Time](https://img.shields.io/badge/Join-20200821-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
+<big>**自Cobra-W 2.0版本起，Cobra-W正式更名为Kunlun-M(昆仑镜)，**</big>
 
 **请使用python3.6+运行该工具，已停止维护python2.7环境**
 
 # Kunlun-Mirror
-
 ```
  _   __            _                      ___  ___
 | | / /           | |                     |  \/  |
@@ -57,6 +57,10 @@ Kunlun-Mirror是从Cobra-W2.0发展而来，在经历了痛苦的维护改进原
 
 目前工具主要支持**php、javascript**的语义分析，以及**chrome ext, solidity**的基础扫描.
 
+## Stargazers 
+
+<div align=center><a href="https://github.com/LoRexxar/Kunlun-M"><img src="https://api.star-history.com/svg?repos=LoRexxar/Kunlun-M&type=Timeline"></a></div>
+
 ## why KunLun-M
 
 KunLun-M可能是市面上唯一的开源并长期维护的自动化代码审计工具，希望开源工具可以推动白盒审计的发展:>.
@@ -81,32 +85,7 @@ KunLun-M可能是市面上唯一的开源并长期维护的自动化代码审计
 - 深度重构代码结构，使其更符合可拓展，可优化的开源理念。
 
 ## TODO
-- <del>改写grep以及find，提供更好的底层支持</del>
-- <del>去除不符合白帽子审计习惯的部分模式以及相关冗余代码</del>
-- <del>重写rule规则方式</del>，改为更容易针对定制的方式（有待进一步优化）
-- 重写AST
-    - <del>递归回溯变量</del>
-    - <del>递归回溯自定义函数</del>
-    - <del>多级函数调用</del>
-    - <del>自定义类调用</del>
-    - 未知语法待解析
-- <del>添加疑似漏洞分级，部分回溯存在问题但是不能回溯到可控变量的漏洞，通过疑似漏洞的方式展示。</del>
-- <del>添加关于javascript的静态分析</del>
-- 完成针对有关于javascript的多种特殊问题
-    - 适配关于html中内联js的扫描
-    - 添加区分前端js与nodejs功能，并为node_js添加专门的扫描
-    - 未知语法待解析
-- 完成关于java的静态分析
-- 完善AST分析的路径记录以及分析流程，使其更符合QL的概念
-- <del>添加Sqlite3作为灵活数据库用于记录以及管理扫描任务以及结果</del>
-- 重构tamper部分，使其更符合人类的配置文件思路
-- <del>添加console模式，使其更符合日常使用的工具逻辑</del>
-- 重构rule模式，使其更符合可扩展，可编辑的概念
-- 重构Cobra-WA
-    - <del>添加http dashboard形式的漏洞任务管理界面</del> （短时间内不会继续做web管理界面，不符合目前对工具的定义
-    - 集成到Kunlun-M中的web管理平台
-    - 提供平台化的漏洞管理方案
-    - 添加图关系的审计分析流程
+**KunLun-M后续的更新计划会是跨越式更新，根据一段时间的研究和探索，我决定从底层重构这套代码分析方案**
 
 ## 社区化工具
 
@@ -117,7 +96,7 @@ KunLun-M可能是市面上唯一的开源并长期维护的自动化代码审计
 
 ## 更新日志
 
-[changelog.md](./docs/changelog.md)
+[changelog.md](https://github.com/LoRexxar/Kunlun-M/blob/master/docs/changelog.md)
 
 
 ## 安装
@@ -252,6 +231,7 @@ KunLun-M (root) >
 
 [![asciicast](https://asciinema.org/a/360845.svg)](https://asciinema.org/a/360845)
 
+
 ### plugin mode
 
 #### phpunserializechain
@@ -265,6 +245,7 @@ python3 .\kunlun.py plugin php_unserialize_chain_tools -t {target_path}
 ```
 
 ![](https://github.com/LoRexxar/Kunlun-M/raw/master/docs/phpunserchain.png)
+
 
 #### EntranceFinder
 
@@ -280,7 +261,7 @@ python3 .\kunlun.py plugin entrance_finder -t {target_path} -l 3
 
 开发文档还未更新.相应的文档内容仅供参考。
 
-[dev.md](https://github.com/LoRexxar/Kunlun-M/blob/master/docs/dev.md)
+[dev.md](https://github.com/LoRexxar/Kunlun-M/raw/master/docs/dev.md)
 
 ### 规则插件开发
 
@@ -300,7 +281,6 @@ rules/{语言类型}/CVI_xxxx.py
 相匹配到的文件不会被扫描。
 
 当然，可以通过-b来实现
-
 
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关

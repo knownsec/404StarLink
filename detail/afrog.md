@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.6.0-red)
+![Version](https://img.shields.io/badge/Version-V2.7.0-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -140,6 +140,13 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v2.7.0] - 2023-06-29
+
+**更新**  
+- 改进 -s 和 -S 命令的功能(我们已经支持在 -pl 和扫描过滤中同时使用 -s 和 -S)  
+- -smart 根据资产总数的扫描变化，智能调整并发数  
+- 新增内置函数 toUpper 和 toLower
+
 #### [v2.6.0] - 2023-06-24
 
 **新增**  
@@ -174,19 +181,5 @@ afrog -t https://example.com -ja result.json
 - 将反连平台未配置的提示等级改为 Info  
 - 默认情况下不会监视目标访问(使用-monitor-targets/-mt命令进行启用)  
 - 删除重复 PoC: hikvision-applyct-fastjson-rce
-
-#### [v2.3.2] - 2023-05-14
-
-**新增**  
-- 使用命令参数 -json 或 -j，将漏洞结果写入 JSON 文件，不包括 request 和 response  
-- 使用命令参数 -json-all 或 -ja，将漏洞结果写入 JSON 文件，包括 request 和 response  
-- 使用 disable-output-html 命令可以禁止生成 HTML 报告，该命令的优先级高于 -o 命令  
-- PoC 脚本 info 信息增加 affected、solutions、created 三个字段  
-
-**优化**  
-- 已移除重复的PoC: springboot-env-unauth  
-- 执行更新操作时，-up 命令提示不够友好  
-- 按照从低到高的安全风险级别顺序进行扫描  
-- 优化 url.path 编码问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
