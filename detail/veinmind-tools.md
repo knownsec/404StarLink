@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
 ![Author](https://img.shields.io/badge/Author-长亭科技-orange)
 ![GitHub stars](https://img.shields.io/github/stars/chaitin/veinmind-tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.3-red)
+![Version](https://img.shields.io/badge/Version-V2.1.4-red)
 ![Time](https://img.shields.io/badge/Join-20220316-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -77,6 +77,21 @@ PS: 目前所有工具均已支持平行容器的方式运行
 
 ## 最近更新
 
+#### [v2.1.4] - 2023-07-04
+
+**新增**  
+- 添加 veinmind-privilege-escalation 插件，用于检测权限升级风险(包括suid/sudo)  
+
+**修复**  
+- 修复libveinmind步行数据竞争错误  
+- veinmind-weakpass 添加错误检查  
+- 修复文档中有关如何初始化插件的描述错误  
+- 修复 README 格式  
+
+**其他**  
+- libveinmind 更新至 1.9.21  
+- CI 添加自动同步到 harbor
+
 #### [v2.1.3] - 2023-05-23
 
 **新增**  
@@ -111,15 +126,5 @@ PS: 目前所有工具均已支持平行容器的方式运行
 
 **更新**  
 - 新增 veinmind-minio 插件
-
-#### [v2.0.1] - 2023-02-15
-
-**Feature**  
-- 支持 arm64 构建  
-
-**Fix**  
-- 修复 Makefile  
-- 修复 veinmind-iac 文件识别问题  
-- 修复 veinmind-sensitive 扫描过慢问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

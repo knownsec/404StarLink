@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-wgpsec-orange)
 ![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.9-red)
+![Version](https://img.shields.io/badge/Version-V0.0.12-red)
 ![Time](https://img.shields.io/badge/Join-20221117-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -266,6 +266,12 @@ api:
 
 
 ## 最近更新
+
+#### [v0.0.12] - 2023-07-04
+
+**修复**  
+- 修复天眼查查询BUG  
+- 优化延迟选项
 
 #### [v0.0.9] - 2023-02-13
 

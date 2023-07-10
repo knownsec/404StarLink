@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.7.0-red)
+![Version](https://img.shields.io/badge/Version-V2.7.1-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -140,6 +140,13 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v2.7.1] - 2023-07-06
+
+**更新**  
+- 新增反链平台存活检测功能  
+- 新增提取器 extractors 功能，可提取版本号等敏感信息  
+- 删除PoC: CNVD-2021-15824/t-soft-e-commerce4-urunadi-stored-xss/clicshopping-v2-xss
+
 #### [v2.7.0] - 2023-06-29
 
 **更新**  
@@ -166,20 +173,5 @@ afrog -t https://example.com -ja result.json
 **新增**  
 - 命令 -mrbs 动态设置 http 响应 body 的最大值(默认2m)  
 - 删除 PoC shiro-key-detect
-
-#### [v2.5.1] - 2023-05-22
-
-**新增**  
-- 使用 YAML 编写 TCP/UDP 的 POC 文件  
-- 使用 YAML 调用 Go 语言的 POC 文件  
-- Shiro Key 检测脚本默认检测 20 个 Key  
-
-**优化**  
-- 解决 -update 程序更新时的路径错误问题  
-- 改进控制台提示信息  
-- 禁用 -up 命令，改为自动执行  
-- 将反连平台未配置的提示等级改为 Info  
-- 默认情况下不会监视目标访问(使用-monitor-targets/-mt命令进行启用)  
-- 删除重复 PoC: hikvision-applyct-fastjson-rce
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

@@ -44,7 +44,7 @@ pocsuite3是由Knownsec 404团队开发的开源远程漏洞测试和概念验�
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.0-red)
+![Version](https://img.shields.io/badge/Version-V1.6.1-red)
 
 <https://github.com/FunnyWolf/Viper>
 
@@ -184,7 +184,7 @@ Cola Dnslog 是一款更加强大的dnslog平台(无回显漏洞探测辅助平�
 ![Author](https://img.shields.io/badge/Author-qi4L-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/qi4L/JNDIExploit.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.5.0-red)
+![Version](https://img.shields.io/badge/Version-V3.1.0-red)
 
 <https://github.com/qi4L/JNDIExploit>
 

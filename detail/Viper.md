@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.0-red)
+![Version](https://img.shields.io/badge/Version-V1.6.1-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -78,6 +78,15 @@
 
 ## 最近更新
 
+#### [v1.6.1] - 2023-07-09
+
+**优化**  
+- 合并metasploit-framework 6.3.25版本  
+
+**Bugfix**  
+- 修复NAT网络Linux主机(VPS)IP显示为::1问题  
+- 修复NAT网络Linux主机(VPS)上线生成多个主机问题
+
 #### [v1.6.0] - 2023-07-01
 
 **优化**  
@@ -123,18 +132,5 @@
 **Bugfix**  
 - 修复无法修改包含中文内容的文件问题  
 - 修复文件管理无法上传文件问题
-
-#### [v1.5.27] - 2023-04-29
-
-**新功能**  
-- 新增基础LoaderShellcode分离免杀(Linux)模块  
-
-**优化**  
-- 合并metasploit-framework 6.3.15版本
-
-**Bugfix**  
-- 修复Python类型payload无法上线问题
-- 修复命令终端输出中文报错问题(提示执行超时)
-- 修复Session通信信道功能无法使用问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

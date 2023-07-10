@@ -8,7 +8,7 @@
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
 <div align="center">
-<img src="https://github.com/moonD4rk/HackBrowserData/raw/master/LOGO.svg" alt="hack-browser-data logo" />
+<img src="https://github.com/moonD4rk/HackBrowserData/raw/master/LOGO.png" alt="hack-browser-data logo" />
 </div>
 
 
@@ -48,24 +48,25 @@
 
 由于 MacOS 的安全性设置，基于 `Chromium` 内核浏览器解密时**需要当前用户密码**
 
-| 浏览器                | 密码  | Cookie | 书签  | 历史记录 |
-|:-------------------|:---:|:------:|:---:|:----:|
-| Google Chrome      |  ✅  |   ✅    |  ✅  |  ✅   |
-| Google Chrome Beta |  ✅  |   ✅    |  ✅  |  ✅   |
-| Chromium           |  ✅  |   ✅    |  ✅  |  ✅   |
-| Microsoft Edge     |  ✅  |   ✅    |  ✅  |  ✅   |
-| Brave              |  ✅  |   ✅    |  ✅  |  ✅   |
-| Opera              |  ✅  |   ✅    |  ✅  |  ✅   |
-| OperaGX            |  ✅  |   ✅    |  ✅  |  ✅   |
-| Vivaldi            |  ✅  |   ✅    |  ✅  |  ✅   |
-| Yandex             |  ✅  |   ✅    |  ✅  |  ✅   |
-| CocCoc             |  ✅  |   ✅    |  ✅  |  ✅   |
-| Firefox            |  ✅  |   ✅    |  ✅  |  ✅   |
-| Firefox Beta       |  ✅  |   ✅    |  ✅  |  ✅   |
-| Firefox Dev        |  ✅  |   ✅    |  ✅  |  ✅   |
-| Firefox ESR        |  ✅  |   ✅    |  ✅  |  ✅   |
-| Firefox Nightly    |  ✅  |   ✅    |  ✅  |  ✅   |
-| Safari             |  ❌  |   ❌    |  ❌  |  ❌   |
+| 浏览器                | 密码 | Cookie | 书签 | 历史记录 |
+|:-------------------|:--:|:------:|:--:|:----:|
+| Google Chrome      | ✅  |   ✅    | ✅  |  ✅   |
+| Google Chrome Beta | ✅  |   ✅    | ✅  |  ✅   |
+| Chromium           | ✅  |   ✅    | ✅  |  ✅   |
+| Microsoft Edge     | ✅  |   ✅    | ✅  |  ✅   |
+| Brave              | ✅  |   ✅    | ✅  |  ✅   |
+| Opera              | ✅  |   ✅    | ✅  |  ✅   |
+| OperaGX            | ✅  |   ✅    | ✅  |  ✅   |
+| Vivaldi            | ✅  |   ✅    | ✅  |  ✅   |
+| CocCoc             | ✅  |   ✅    | ✅  |  ✅   |
+| Yandex             | ✅  |   ✅    | ✅  |  ✅   |
+| Arc                | ✅  |   ✅    | ✅  |  ✅   |
+| Firefox            | ✅  |   ✅    | ✅  |  ✅   |
+| Firefox Beta       | ✅  |   ✅    | ✅  |  ✅   |
+| Firefox Dev        | ✅  |   ✅    | ✅  |  ✅   |
+| Firefox ESR        | ✅  |   ✅    | ✅  |  ✅   |
+| Firefox Nightly    | ✅  |   ✅    | ✅  |  ✅   |
+| Safari             | ❌  |   ❌    | ❌  |  ❌   |
 
 ### Linux
 
