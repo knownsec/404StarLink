@@ -137,6 +137,7 @@ afrog -t https://example.com -ja result.json
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
+- 2023-07-10 发布视频[《404星链计划 | afrog：快速稳定的漏洞扫描工具》](https://www.bilibili.com/video/BV1Pz4y177PU/)
 
 ## 最近更新
 

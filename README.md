@@ -17,6 +17,7 @@
 
 | 时间 | 项目名称 | 项目动态 |
 |----|-----------|--------------------------|
+|2023-07-10|[**afrog**](detail/afrog.md)|发布视频[《404星链计划 | afrog：快速稳定的漏洞扫描工具》](https://www.bilibili.com/video/BV1Pz4y177PU/)|
 |2023-07-09|[**Viper**](detail/Viper.md)|更新 [v1.6.1](detail/Viper.md#最近更新) 版本|
 |2023-07-06|[**JNDIExploit**](detail/JNDIExploit.md)|更新 [v3.1.0](detail/JNDIExploit.md#最近更新) 版本|
 |2023-07-06|[**afrog**](detail/afrog.md)|更新 [v2.7.1](detail/afrog.md#最近更新) 版本|
@@ -26,7 +27,6 @@
 |2023-06-26|[**JNDIExploit**](detail/JNDIExploit.md)|JNDIExploit加入星链计划|
 |2023-04-29|[**pocsuite3**](detail/pocsuite3.md)|更新 [v2.0.4](detail/pocsuite3.md#最近更新) 版本|
 |2023-04-23|[**rakshasa**](detail/rakshasa.md)|更新 [v0.2.3](detail/rakshasa.md#最近更新) 版本|
-|2023-04-21|[**Antenna**](detail/Antenna.md)|更新 [v1.3.5](detail/Antenna.md#最近更新) 版本|
 
 **2.StarRank**
 
