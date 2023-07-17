@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.7.1-red)
+![Version](https://img.shields.io/badge/Version-V2.7.2-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -137,9 +137,16 @@ afrog -t https://example.com -ja result.json
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
-- 2023-07-10 发布视频[《404星链计划 | afrog：快速稳定的漏洞扫描工具》](https://www.bilibili.com/video/BV1Pz4y177PU/)
+- 2023-07-10 发布视频[《404星链计划-afrog：快速稳定的漏洞扫描工具》](https://www.bilibili.com/video/BV1Pz4y177PU/)
 
 ## 最近更新
+
+#### [v2.7.2] - 2023-07-12
+
+**更新**  
+- 将反链存活检查改为并发执行  
+- 新增 poc : ecology-filedownloadforoutdoc-sqli  
+- Poc 总数: 1041
 
 #### [v2.7.1] - 2023-07-06
 
@@ -168,11 +175,5 @@ afrog -t https://example.com -ja result.json
 - -target/-t 现在支持多个 URL  
 - 添加 JNDI 反连功能  
 - 添加 afrog 调用库和演示示例
-
-#### [v2.5.2] - 2023-06-07
-
-**新增**  
-- 命令 -mrbs 动态设置 http 响应 body 的最大值(默认2m)  
-- 删除 PoC shiro-key-detect
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
