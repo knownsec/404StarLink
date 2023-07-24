@@ -16,7 +16,7 @@
 14. [Redis-Rogue-Server](#redis-rogue-server)
 15. [Cola-Dnslog](#cola-dnslog)
 16. [MysqlT](#mysqlt)
-17. [JNDIExploit](#jndiexploit)
+17. [JYso](#jyso)
 
 ----------------------------------------
 
@@ -180,13 +180,13 @@ Cola Dnslog 是一款更加强大的dnslog平台(无回显漏洞探测辅助平�
 
 伪造Myslq服务端,并利用Mysql逻辑漏洞来获取客户端的任意文件反击攻击。
 
-### [JNDIExploit](detail/JNDIExploit.md)
+### [JYso](detail/JYso.md)
 ![Author](https://img.shields.io/badge/Author-qi4L-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
-![GitHub stars](https://img.shields.io/github/stars/qi4L/JNDIExploit.svg?style=flat&logo=github)
+![GitHub stars](https://img.shields.io/github/stars/qi4L/JYso.svg?style=flat&logo=github)
 ![Version](https://img.shields.io/badge/Version-V3.1.0-red)
 
-<https://github.com/qi4L/JNDIExploit>
+<https://github.com/qi4L/JYso>
 
-JNDI注入的多功能利用工具。
+JYso是一个可以用于 jndi 注入攻击和生成反序列化数据流的工具，既可以当 JNDIExploit 用也可以当作 ysoserial 使用。
 

@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-wgpsec-orange)
 ![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.12-red)
+![Version](https://img.shields.io/badge/Version-V0.0.14-red)
 ![Time](https://img.shields.io/badge/Join-20221117-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -12,6 +12,8 @@
 ## 功能列表
 
 **使用程序可能导致账号被封，仅用于信息收集用途，请勿用于非法用途**
+
+**若该程序影响或侵犯到您的权益，请与我们联系**
 
 ![ENScanGo](https://github.com/wgpsec/ENScan_GO/raw/master/README/ENScanGo.png)
 
@@ -39,12 +41,29 @@
 
 
 ## 使用指南
+请直接前往RELEASE下载编译好的文件使用
 
 ENScanGo在第一次使用时需要使用 -v 命令 生成配置文件信息
+
+**遇到问题请加上参数 --debug 提issue**
+
+### 登陆配置
 
 Cookie信息请勿直接 `document.cookie`，可能因为http-only 选项无法复制全导致登陆失败
 
 ![image-20221028223835307](https://github.com/wgpsec/ENScan_GO/raw/master/README/image-20221028223835307.png)
+
+**阿拉丁使用的是TOKEN**
+
+点击任意请求，拿到请求里的TOKEN
+
+![image-20230709132223242](https://github.com/wgpsec/ENScan_GO/raw/master/README/image-20230709132223242.png)
+
+**TYC tycid**
+
+配置COOKIE后配置tycid
+
+![image-20230722194839975](https://github.com/wgpsec/ENScan_GO/raw/master/README/image-20230722194839975.png)
 
 ### 快速使用
 
@@ -158,6 +177,8 @@ ENScanGo可使用API模式进行分布式部署，搭建API服务构建资产处
 
 **api调用效果（前端开发中）**
 
+可使用 https://enscan.wgpsec.org/api/info 体验
+
 ![image-20221028231744940](https://github.com/wgpsec/ENScan_GO/raw/master/README/image-20221028231744940.png)
 
 ![image-20221028231815437](https://github.com/wgpsec/ENScan_GO/raw/master/README/image-20221028231815437.png)
@@ -232,7 +253,12 @@ POST /api/info
 
 #### 启动部署
 
-首先我们需要对配置文件进行修改，加入数据库连接信息，与common同级加入以下配置
+**golang 版本依赖**
+```
+go >= 1.17
+```
+
+然后我们需要对配置文件进行修改，加入数据库连接信息，与common同级加入以下配置
 
 ```yaml
 api:
@@ -240,6 +266,30 @@ api:
   mongodb: "mongodb://user:pass@127.0.0.1:27017" # mongodb 连接信息
   redis: "redis_password" # redis 密码
   port: "8080" # 启动API端口
+```
+
+mongodb数据库初始化配置
+
+```
+db.createCollection("app");
+db.createCollection("branch");
+db.createCollection("copyright");
+db.createCollection("enterprise_info");
+db.getCollection("enterprise_info").createIndex({
+    name: "hashed"
+}, {
+    name: "name"
+});
+db.createCollection("holds");
+db.createCollection("icp");
+db.createCollection("infos");
+db.createCollection("invest");
+db.createCollection("job");
+db.createCollection("partner");
+db.createCollection("supplier");
+db.createCollection("wechat");
+db.createCollection("weibo");
+db.createCollection("wx_app");
 ```
 
 **API模式**
@@ -260,12 +310,22 @@ api:
 ./enscan --client
 ```
 
-
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
 
 ## 最近更新
+
+#### [v0.0.14] - 2023-07-22
+
+**更新**  
+- 修复TYC查询BUG，增加tycid参数，获取方式详见README  
+- 修复qimai查询问题  
+
+**其他**  
+- 配置文件更新升级到v0.4，请重新生成  
+- 当ENSCAN无法正常访问网站可尝试使用-proxy参数挂上代理  
+- 当ENSCAN查询时有问题，可以使用--debug进行排查
 
 #### [v0.0.12] - 2023-07-04
 

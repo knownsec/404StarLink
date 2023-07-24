@@ -1,8 +1,8 @@
-## JNDIExploit <https://github.com/qi4L/JNDIExploit>
+## JYso <https://github.com/qi4L/JYso>
 <!--auto_detail_badge_begin_0b490ffb61b26b45de3ea5d7dd8a582e-->
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-qi4L-orange)
-![GitHub stars](https://img.shields.io/github/stars/qi4L/JNDIExploit.svg?style=flat&logo=github)
+![GitHub stars](https://img.shields.io/github/stars/qi4L/JYso.svg?style=flat&logo=github)
 ![Version](https://img.shields.io/badge/Version-V3.1.0-red)
 ![Time](https://img.shields.io/badge/Join-20230626-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->

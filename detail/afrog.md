@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.7.2-red)
+![Version](https://img.shields.io/badge/Version-V2.7.5-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,13 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v2.7.5] - 2023-07-23
+
+**优化**  
+- 修复 ecology-filedownloadforoutdoc-sqli 误报问题  
+- 修复 CVE-2023-28432 规则编写错误问题  
+- 修复 CVE-2021-22205 规则编写错误问题
+
 #### [v2.7.2] - 2023-07-12
 
 **更新**  
@@ -168,12 +175,5 @@ afrog -t https://example.com -ja result.json
 - 新增 -append-poc / -ap 功能，允许指定一个或多个PoC文件或目录  
 - rawhttp 支持 HTTP/socks5 代理  
 - 庆祝！afrog PoC 的总数突破了1000个！目前总数为1018个
-
-#### [v2.5.3] - 2023-06-14
-
-**新增**  
-- -target/-t 现在支持多个 URL  
-- 添加 JNDI 反连功能  
-- 添加 afrog 调用库和演示示例
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

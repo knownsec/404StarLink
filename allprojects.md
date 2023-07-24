@@ -50,7 +50,7 @@
     * [Redis-Rogue-Server](#redis-rogue-server)
     * [Cola-Dnslog](#cola-dnslog)
     * [MysqlT](#mysqlt)
-    * [JNDIExploit](#jndiexploit)
+    * [JYso](#jyso)
 
 * [信息分析/information_analysis](#信息分析information_analysis)
     * [HackBrowserData](#hackbrowserdata)
@@ -220,7 +220,7 @@ HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。
 ![Author](https://img.shields.io/badge/Author-wgpsec-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.12-red)
+![Version](https://img.shields.io/badge/Version-V0.0.14-red)
 
 <https://github.com/wgpsec/ENScan_GO>
 
@@ -313,7 +313,7 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.7.2-red)
+![Version](https://img.shields.io/badge/Version-V2.7.5-red)
 
 <https://github.com/zan8in/afrog>
 
@@ -522,15 +522,15 @@ Cola Dnslog 是一款更加强大的dnslog平台(无回显漏洞探测辅助平�
 
 伪造Myslq服务端,并利用Mysql逻辑漏洞来获取客户端的任意文件反击攻击。
 
-### [JNDIExploit](detail/JNDIExploit.md)
+### [JYso](detail/JYso.md)
 ![Author](https://img.shields.io/badge/Author-qi4L-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
-![GitHub stars](https://img.shields.io/github/stars/qi4L/JNDIExploit.svg?style=flat&logo=github)
+![GitHub stars](https://img.shields.io/github/stars/qi4L/JYso.svg?style=flat&logo=github)
 ![Version](https://img.shields.io/badge/Version-V3.1.0-red)
 
-<https://github.com/qi4L/JNDIExploit>
+<https://github.com/qi4L/JYso>
 
-JNDI注入的多功能利用工具。
+JYso是一个可以用于 jndi 注入攻击和生成反序列化数据流的工具，既可以当 JNDIExploit 用也可以当作 ysoserial 使用。
 
 
 
