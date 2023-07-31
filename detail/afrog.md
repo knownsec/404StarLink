@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.7.5-red)
+![Version](https://img.shields.io/badge/Version-V2.7.7-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,17 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v2.7.7] - 2023-07-30
+
+**新增**  
+- 新增 -pedm 参数(POC Execution Duration Monitor/POC执行时长监视器)  
+- 新增 Vulnerability Scanner Breakpoint (漏洞扫描断点)  
+
+**优化**  
+- 优化 arcgis-default-password (ArcGIS默认口令)  
+- 修复 mysql-detect 和 CVE-2023-25573 的误报  
+- 优化 CVE-2023-25157，提升扫描速度
+
 #### [v2.7.5] - 2023-07-23
 
 **优化**  
@@ -168,12 +179,5 @@ afrog -t https://example.com -ja result.json
 - 改进 -s 和 -S 命令的功能(我们已经支持在 -pl 和扫描过滤中同时使用 -s 和 -S)  
 - -smart 根据资产总数的扫描变化，智能调整并发数  
 - 新增内置函数 toUpper 和 toLower
-
-#### [v2.6.0] - 2023-06-24
-
-**新增**  
-- 新增 -append-poc / -ap 功能，允许指定一个或多个PoC文件或目录  
-- rawhttp 支持 HTTP/socks5 代理  
-- 庆祝！afrog PoC 的总数突破了1000个！目前总数为1018个
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

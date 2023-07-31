@@ -117,7 +117,7 @@ linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，
 ![Author](https://img.shields.io/badge/Author-长亭科技-orange)
 ![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/chaitin/veinmind-tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.4-red)
+![Version](https://img.shields.io/badge/Version-V2.1.5-red)
 
 <https://github.com/chaitin/veinmind-tools>
 
@@ -313,7 +313,7 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.7.5-red)
+![Version](https://img.shields.io/badge/Version-V2.7.7-red)
 
 <https://github.com/zan8in/afrog>
 
