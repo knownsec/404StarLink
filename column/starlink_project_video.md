@@ -23,4 +23,16 @@ https://www.bilibili.com/video/BV1Jg411h7Pj
 Github高赞工具，渗透测试er看过来——404星链计划CDK  
 https://www.bilibili.com/video/BV1DG4y1Z784/
 
+**第五期演示项目：[fscan](https://github.com/shadow1ng/fscan)**  
+【安全工具】5大功能，一键化内网扫描神器——404星链计划fscan  
+https://www.bilibili.com/video/BV1Cv4y1R72M
+
+**第六期演示项目：[Viper](https://github.com/FunnyWolf/Viper)**  
+【安全工具】集成70+模块，红队内网渗透必备——404星链计划Viper  
+https://www.bilibili.com/video/BV1zv4y1s7xv
+
+**第七期演示项目：[Pocsuite3](https://github.com/knownsec/pocsuite3)**  
+【安全工具】必备神器！开源远程漏洞测试框架——404星链计划Pocsuite3  
+https://www.bilibili.com/video/BV1gz4y1E7j1
+
 **持续更新中……**

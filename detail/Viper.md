@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.1-red)
+![Version](https://img.shields.io/badge/Version-V1.6.2-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -79,6 +79,17 @@
 
 ## 最近更新
 
+#### [v1.6.2] - 2023-08-02
+
+**优化**  
+- 优化Session Timeout默认值,断线可自动切换传输协议  
+- reverse_http监听不再返回404页面,直接关闭连接  
+- 优化网络拓扑,根据载荷类型确认方向并动态显示当前存活的连接  
+- 合并metasploit-framework 6.3.28版本  
+
+**Bugfix**  
+- Socks5代理在存在连接时无法正确关闭问题
+
 #### [v1.6.1] - 2023-07-09
 
 **优化**  
@@ -120,18 +131,5 @@
 **Bugfix**  
 - 修复sock4a/socks5代理无法使用问题  
 - 修复session长时间运行导致内存占用过高问题
-
-#### [v1.5.28] - 2023-05-06
-
-**新功能**  
-- 新增只显示Session功能(首页和网络拓扑更简洁)  
-- 面向互联网的handler被扫描(网络测绘)时会在Notice提示  
-
-**优化**  
-- 合并metasploit-framework 6.3.16版本  
-
-**Bugfix**  
-- 修复无法修改包含中文内容的文件问题  
-- 修复文件管理无法上传文件问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
