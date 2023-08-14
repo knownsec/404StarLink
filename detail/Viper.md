@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.2-red)
+![Version](https://img.shields.io/badge/Version-V1.6.3-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -79,6 +79,20 @@
 
 ## 最近更新
 
+#### [v1.6.3] - 2023-08-12
+
+**优化**  
+- 调整vipermsf及viperpython日志级别及格式,便于定位问题  
+- 关闭vipermsf的cpulimit  
+- 新增vipermsf心跳异常提示  
+- 更新沙箱IP列表  
+- 优化网络拓扑动态效果  
+- 合并metasploit-framework 6.3.30版本  
+
+**Bugfix**  
+- 修复session下载文件时会偶发性的下载了1m中断  
+- 修复thin的pid文件未清除导致重启msf后台服务无法启动
+
 #### [v1.6.2] - 2023-08-02
 
 **优化**  
@@ -119,17 +133,5 @@
 
 **Bugfix**  
 - 修复python类型payload断线后无法重连及无法清理历史网络连接问题
-
-#### [v1.5.29] - 2023-05-22
-
-**优化**  
-- 端口转发记录新增连接提示  
-- 模块运行结果记录运行模块的sessionid  
-- 适配reverse_tcp_ssl类型payload  
-- 合并metasploit-framework 6.3.18版本  
-
-**Bugfix**  
-- 修复sock4a/socks5代理无法使用问题  
-- 修复session长时间运行导致内存占用过高问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

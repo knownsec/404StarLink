@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.7.7-red)
+![Version](https://img.shields.io/badge/Version-V2.7.8-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,12 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v2.7.8] - 2023-08-09
+
+**新增**  
+- 引入了 Eye.sh 反链配置项  
+- 增加 -rrl 和 -rc 参数，对反链平台支持的 PoC 进行独立的并发速率控制
+
 #### [v2.7.7] - 2023-07-30
 
 **新增**  
@@ -172,12 +178,5 @@ afrog -t https://example.com -ja result.json
 - 新增反链平台存活检测功能  
 - 新增提取器 extractors 功能，可提取版本号等敏感信息  
 - 删除PoC: CNVD-2021-15824/t-soft-e-commerce4-urunadi-stored-xss/clicshopping-v2-xss
-
-#### [v2.7.0] - 2023-06-29
-
-**更新**  
-- 改进 -s 和 -S 命令的功能(我们已经支持在 -pl 和扫描过滤中同时使用 -s 和 -S)  
-- -smart 根据资产总数的扫描变化，智能调整并发数  
-- 新增内置函数 toUpper 和 toLower
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
