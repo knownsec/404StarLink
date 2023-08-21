@@ -4,19 +4,18 @@
 2. [pocsuite3](#pocsuite3)
 3. [Viper](#viper)
 4. [CDK](#cdk)
-5. [cf](#cf)
-6. [MDUT](#mdut)
-7. [WMIHACKER](#wmihacker)
-8. [BurpCrypto](#burpcrypto)
-9. [MySQL-Fake-Server](#mysql-fake-server)
-10. [ysomap](#ysomap)
-11. [Cloud-Bucket-Leak-Detection-Tools](#cloud-bucket-leak-detection-tools)
-12. [DNSlog-GO](#dnslog-go)
-13. [Antenna](#antenna)
-14. [Redis-Rogue-Server](#redis-rogue-server)
-15. [Cola-Dnslog](#cola-dnslog)
-16. [MysqlT](#mysqlt)
-17. [JYso](#jyso)
+5. [MDUT](#mdut)
+6. [WMIHACKER](#wmihacker)
+7. [BurpCrypto](#burpcrypto)
+8. [MySQL-Fake-Server](#mysql-fake-server)
+9. [ysomap](#ysomap)
+10. [Cloud-Bucket-Leak-Detection-Tools](#cloud-bucket-leak-detection-tools)
+11. [DNSlog-GO](#dnslog-go)
+12. [Antenna](#antenna)
+13. [Redis-Rogue-Server](#redis-rogue-server)
+14. [Cola-Dnslog](#cola-dnslog)
+15. [MysqlT](#mysqlt)
+16. [JYso](#jyso)
 
 ----------------------------------------
 
@@ -59,16 +58,6 @@ VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战�
 <https://github.com/cdk-team/CDK>
 
 CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器内部提供零依赖的常用命令及PoC/EXP。集成Docker/K8s场景特有的逃逸、横向移动、持久化利用方式，插件化管理。
-
-### [cf](detail/cf.md)
-![Author](https://img.shields.io/badge/Author-teamssix-orange)
-![Language](https://img.shields.io/badge/Language-Golang-blue)
-![GitHub stars](https://img.shields.io/github/stars/teamssix/cf.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.5.0-red)
-
-<https://github.com/teamssix/cf>
-
-CF 是一个云环境利用框架，主要用来方便红队人员在获得云服务 Access Key 的后续工作。
 
 ### [MDUT](detail/MDUT.md)
 ![Author](https://img.shields.io/badge/Author-Ch1ngg-orange)

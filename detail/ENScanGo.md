@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-wgpsec-orange)
 ![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.14-red)
+![Version](https://img.shields.io/badge/Version-V0.0.15-red)
 ![Time](https://img.shields.io/badge/Join-20221117-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -315,6 +315,12 @@ db.createCollection("wx_app");
 
 
 ## 最近更新
+
+#### [v0.0.15] - 2023-08-16
+
+**更新**  
+- 修复AQC查询问题  
+- 当ENSCAN无法正常访问网站可尝试使用-proxy参数挂上代理
 
 #### [v0.0.14] - 2023-07-22
 

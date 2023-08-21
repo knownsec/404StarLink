@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.7.8-red)
+![Version](https://img.shields.io/badge/Version-V2.7.9-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,13 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v2.7.9] - 2023-08-20
+
+**更新**  
+- 解决 console 输出内容被转义问题  
+- 解决了使用`go install ..afrog/v2`命令时版本不正确的问题  
+- 新增 24 PoC，共 1105 个 PoC
+
 #### [v2.7.8] - 2023-08-09
 
 **新增**  
@@ -171,12 +178,5 @@ afrog -t https://example.com -ja result.json
 - 将反链存活检查改为并发执行  
 - 新增 poc : ecology-filedownloadforoutdoc-sqli  
 - Poc 总数: 1041
-
-#### [v2.7.1] - 2023-07-06
-
-**更新**  
-- 新增反链平台存活检测功能  
-- 新增提取器 extractors 功能，可提取版本号等敏感信息  
-- 删除PoC: CNVD-2021-15824/t-soft-e-commerce4-urunadi-stored-xss/clicshopping-v2-xss
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

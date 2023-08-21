@@ -38,7 +38,6 @@
     * [pocsuite3](#pocsuite3)
     * [Viper](#viper)
     * [CDK](#cdk)
-    * [cf](#cf)
     * [MDUT](#mdut)
     * [WMIHACKER](#wmihacker)
     * [BurpCrypto](#burpcrypto)
@@ -73,8 +72,8 @@
     * [PortForward](#portforward)
 
 * [其他/others](#其他others)
-    * [BinAbsInspector](#binabsinspector)
     * [f8x](#f8x)
+    * [BinAbsInspector](#binabsinspector)
     * [passive-scan-client](#passive-scan-client)
     * [Heimdallr](#heimdallr)
     * [wam](#wam)
@@ -210,7 +209,7 @@ Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检�
 ![Author](https://img.shields.io/badge/Author-wgpsec-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.14-red)
+![Version](https://img.shields.io/badge/Version-V0.0.15-red)
 
 <https://github.com/wgpsec/ENScan_GO>
 
@@ -313,7 +312,7 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.7.8-red)
+![Version](https://img.shields.io/badge/Version-V2.7.9-red)
 
 <https://github.com/zan8in/afrog>
 
@@ -401,16 +400,6 @@ VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战�
 <https://github.com/cdk-team/CDK>
 
 CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器内部提供零依赖的常用命令及PoC/EXP。集成Docker/K8s场景特有的逃逸、横向移动、持久化利用方式，插件化管理。
-
-### [cf](detail/cf.md)
-![Author](https://img.shields.io/badge/Author-teamssix-orange)
-![Language](https://img.shields.io/badge/Language-Golang-blue)
-![GitHub stars](https://img.shields.io/github/stars/teamssix/cf.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.5.0-red)
-
-<https://github.com/teamssix/cf>
-
-CF 是一个云环境利用框架，主要用来方便红队人员在获得云服务 Access Key 的后续工作。
 
 ### [MDUT](detail/MDUT.md)
 ![Author](https://img.shields.io/badge/Author-Ch1ngg-orange)
@@ -701,16 +690,6 @@ PortForward 是使用 Golang 进行开发的端口转发工具，解决在某些
 
 
 ## 其他/others
-### [BinAbsInspector](detail/BinAbsInspector.md)
-![Author](https://img.shields.io/badge/Author-KeenSecurityLab-orange)
-![Language](https://img.shields.io/badge/Language-Java-blue)
-![GitHub stars](https://img.shields.io/github/stars/KeenSecurityLab/BinAbsInspector.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.1-red)
-
-<https://github.com/KeenSecurityLab/BinAbsInspector>
-
-BinAbsInspector(Binary Abstract Inspector)是一款用于自动化逆向工程和扫描二进制文件漏洞的静态分析器，是 Keenlab 孵化的长期研究项目。基于 Ghidra 的支持下的抽象解释，适用于 Ghidra 的 Pcode 而非汇编。目前支持 x86、x64、armv7 和 aarch64 的二进制文件。
-
 ### [f8x](detail/f8x.md)
 ![Author](https://img.shields.io/badge/Author-ffffffff0x-orange)
 ![Language](https://img.shields.io/badge/Language-Bash-blue)
@@ -720,6 +699,16 @@ BinAbsInspector(Binary Abstract Inspector)是一款用于自动化逆向工程�
 <https://github.com/ffffffff0x/f8x>
 
 一款红/蓝队环境自动化部署工具,支持多种场景,渗透,开发,代理环境,服务可选项等。
+
+### [BinAbsInspector](detail/BinAbsInspector.md)
+![Author](https://img.shields.io/badge/Author-KeenSecurityLab-orange)
+![Language](https://img.shields.io/badge/Language-Java-blue)
+![GitHub stars](https://img.shields.io/github/stars/KeenSecurityLab/BinAbsInspector.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.1-red)
+
+<https://github.com/KeenSecurityLab/BinAbsInspector>
+
+BinAbsInspector(Binary Abstract Inspector)是一款用于自动化逆向工程和扫描二进制文件漏洞的静态分析器，是 Keenlab 孵化的长期研究项目。基于 Ghidra 的支持下的抽象解释，适用于 Ghidra 的 Pcode 而非汇编。目前支持 x86、x64、armv7 和 aarch64 的二进制文件。
 
 ### [passive-scan-client](detail/passive-scan-client.md)
 ![Author](https://img.shields.io/badge/Author-c0ny1-orange)
