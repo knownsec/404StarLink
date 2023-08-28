@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.3-red)
+![Version](https://img.shields.io/badge/Version-V20230827-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -79,6 +79,39 @@
 
 ## 最近更新
 
+#### [v20230827] - 2023-08-28
+
+**优化**  
+- 反溯源脚本nobody.sh可以快速使用初始nginx配置  
+- 合并metasploit-framework 6.3.32版本  
+- Viper后续使用构建时间作为版本号  
+
+**Bugfix**  
+- 修复Session心跳显示999,msfrpc状态正常,界面显示渗透服务心跳异常  
+- 修复session文件下载报错的问题  
+- 修复多次重启后会重复添加缓存的监听的问题
+
+#### [v1.6.4] - 2023-08-21
+
+**新功能**  
+- 新增判断Session是否运行在容器中模块  
+
+**优化**  
+- session通过鼠标提示展示英文的地理位置信息  
+- Viper通过CI自动更新Geolite数据库  
+- Viper当前通过CI自动构建  
+- 优化模块运行部分前端提示信息  
+- 优化viperpython日志格式  
+- 提高运行信息执行速度  
+- 渗透服务异常时日志更详细说明异常类型  
+- 合并metasploit-framework 6.3.31版本  
+
+**Bugfix**  
+- 修复Session心跳显示999,msfrpc状态正常,界面显示渗透服务心跳异常  
+- 修复session下载文件时会偶发性的下载了1m中断  
+- 修复已经上线的session界面未显示  
+- 修复日志逻辑问题
+
 #### [v1.6.3] - 2023-08-12
 
 **优化**  
@@ -112,26 +145,5 @@
 **Bugfix**  
 - 修复NAT网络Linux主机(VPS)IP显示为::1问题  
 - 修复NAT网络Linux主机(VPS)上线生成多个主机问题
-
-#### [v1.6.0] - 2023-07-01
-
-**优化**  
-- 优化反溯源方案  
-- 优化内存执行C#可执行文件(Bypass)模块  
-- 关于VIPER中可以快捷查看最新版本  
-- 合并metasploit-framework 6.3.24版本
-
-#### [v1.5.30] - 2023-06-17
-
-**新功能**  
-- Viper所有功能都可通过右下角链接跳转到对应文档  
-
-**优化**  
-- 监听防火墙前端UI优化  
-- 只显示Session功能可在主页面使用  
-- 合并metasploit-framework 6.3.22版本  
-
-**Bugfix**  
-- 修复python类型payload断线后无法重连及无法清理历史网络连接问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
