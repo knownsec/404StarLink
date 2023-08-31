@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-kelvinBen-orange)
 ![GitHub stars](https://img.shields.io/github/stars/kelvinBen/AppInfoScanner.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.8-red)
+![Version](https://img.shields.io/badge/Version-V1.0.9-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -353,5 +353,14 @@ method: 用于配置自动下载过程中需要的请求方法
 
 
 ## 最近更新
+
+#### [v1.0.9] - 2022-10-23
+
+**更新**  
+- 更新apktool为最新版本  
+- 优化部分环节流程  
+- 修复excle文件导出时超时行数限制  
+- 修复脚本执行时卡顿的问题  
+- 修复Mac下Playload文件权限不足的问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

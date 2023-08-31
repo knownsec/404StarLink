@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-Margular-orange)
 ![GitHub stars](https://img.shields.io/github/stars/Margular/frida-skeleton.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.0-red)
+![Version](https://img.shields.io/badge/Version-V3.3-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -89,5 +89,41 @@ python frida-skeleton.py -h
 
 
 ## 最近更新
+
+#### [v3.3] - 2022-12-10
+
+**Add**  
+- 新增--no-root选项，有的设备不支持adb root  
+- frida-server使用随机端口绕过常规检测  
+- 在初始化FridaThread时校验设备是否root  
+
+**Changed**  
+- 使用enumerate_applications替换enumerate_processes  
+
+**Fixed**  
+- 修复有的su不支持后面跟一个-  
+- attrdict本地模块化以兼容3.10及以上版本
+
+#### [v3.2.3] - 2021-06-24
+
+**Add**  
+- 保存hook脚本的整个内容方便调试和查看  
+
+**Changed**  
+- 在调用Trace.javaClassByRegex的时候默认跳过hook系统函数  
+
+**Fixed**  
+- 修复可能无法退出程序的BUG
+
+#### [v3.2.0] - 2020-12-24
+
+**Add**  
+- 新增Jav.describeObject API，很方便地打印java对象的函数和字段信息  
+- 加入星链计划2.0  
+- 添加logo  
+
+**Changed**  
+- 迁移wiki到github  
+- 主程序帮助界面改为中文
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

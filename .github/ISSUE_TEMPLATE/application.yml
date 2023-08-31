@@ -1,0 +1,50 @@
+name: 项目申请
+description: 使用此表单填写项目申请
+title: "[项目申请]: "
+body:
+  - type: checkboxes
+    id: requirements
+    attributes:
+      label: 基本要求
+      description: 欢迎申请加入星链计划，请先判断是否符合以下条件
+      options:
+        - label: "1. 项目完全开源并遵守开源协议"
+          required: true
+        - label: "2. 项目提供README等项目描述"
+          required: true
+        - label: "3. 项目属于计算机安全范畴"
+          required: true
+        - label: "4. 项目具备一定的实用价值"
+          required: true
+        - label: "5. 项目不包含恶意功能或源码"
+          required: true
+        - label: "6. 项目将会积极维护"
+          required: true
+  - type: input
+    id: name
+    attributes:
+      label: 项目名称
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: 项目地址
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 项目简介
+    validations:
+      required: true
+  - type: textarea
+    id: highlight
+    attributes:
+      label: 项目亮点
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        感谢申请加入 404 星链计划，我们将于 7 个工作日审核并回复，如有疑问可联系运营 WeChat：ks404team

@@ -6,26 +6,26 @@
 
 ```
 ## 404星链计划
-<img src="https://github.com/knownsec/404StarLink-Project/raw/master/logo.png" width="30%">
+<img src="https://github.com/knownsec/404StarLink/raw/master/Images/logo.png" width="30%">
 
-(项目名称) 现已加入 [404星链计划](https://github.com/knownsec/404StarLink2.0-Galaxy)
+(项目名称) 现已加入 [404星链计划](https://github.com/knownsec/404StarLink)
 ```
 
 ## 404星链计划
-<img src="https://github.com/knownsec/404StarLink-Project/raw/master/logo.png" width="30%">
+<img src="https://github.com/knownsec/404StarLink/raw/master/Images/logo.png" width="30%">
 
-AAAA 现已加入 [404星链计划](https://github.com/knownsec/404StarLink2.0-Galaxy)
+AAAA 现已加入 [404星链计划](https://github.com/knownsec/404StarLink)
 
 **英文版本**  
 
 ```
 ## 404Starlink
-<img src="https://github.com/knownsec/404StarLink-Project/raw/master/logo.png" width="30%">
+<img src="https://github.com/knownsec/404StarLink/raw/master/Images/logo.png" width="30%">
 
-(ProjectName) has joined [404Starlink](https://github.com/knownsec/404StarLink2.0-Galaxy)
+(ProjectName) has joined [404Starlink](https://github.com/knownsec/404StarLink)
 ```
 
 ## 404Starlink
-<img src="https://github.com/knownsec/404StarLink-Project/raw/master/logo.png" width="30%">
+<img src="https://github.com/knownsec/404StarLink/raw/master/Images/logo.png" width="30%">
 
-AAAA has joined [404Starlink](https://github.com/knownsec/404StarLink2.0-Galaxy)
+AAAA has joined [404Starlink](https://github.com/knownsec/404StarLink)

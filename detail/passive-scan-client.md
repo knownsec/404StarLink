@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-c0ny1-orange)
 ![GitHub stars](https://img.shields.io/github/stars/c0ny1/passive-scan-client.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.3.0-red)
+![Version](https://img.shields.io/badge/Version-V0.3.1-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -40,5 +40,11 @@ mvn package
 
 
 ## 最近更新
+
+#### [v0.3.1] - 2023-02-03
+
+**更新**  
+- 添加url黑名单  
+- 添加右键`Send to Passive Scan Client`手动转发
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

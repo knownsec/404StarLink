@@ -206,6 +206,7 @@ First use `Jump` to select a client, then type `PTY`, then type `Interact` to dr
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
+- 2021-11-19 发布文章[《Platypus：支持多会话的交互式反向 Shell 管理器》](https://mp.weixin.qq.com/s/9UFm1XQiWMUeA7pG93FfeQ)
 
 ## 最近更新
 
