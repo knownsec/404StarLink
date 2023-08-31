@@ -1,28 +1,22 @@
 ## 甲方工具 / party_a
 
-1. [dperf](#dperf)
+1. [OpenStar](#openstar)
 2. [Elkeid](#elkeid)
 3. [linglong](#linglong)
-4. [veinmind-tools](#veinmind-tools)
-5. [appshark](#appshark)
-6. [OpenStar](#openstar)
-7. [camille](#camille)
-8. [murphysec](#murphysec)
-9. [GShark](#gshark)
-10. [Juggler](#juggler)
-11. [Hades](#hades)
+4. [gshark](#gshark)
+5. [Juggler](#juggler)
 
 ----------------------------------------
 
-### [dperf](detail/dperf.md)
-![Author](https://img.shields.io/badge/Author-Benjamin-orange)
-![Language](https://img.shields.io/badge/Language-C-blue)
-![GitHub stars](https://img.shields.io/github/stars/baidu/dperf.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.0-red)
+### [OpenStar](detail/OpenStar.md)
+![Author](https://img.shields.io/badge/Author-starjun-orange)
+![Language](https://img.shields.io/badge/Language-JS/Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/starjun/openstar.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.0.0-red)
 
-<https://github.com/baidu/dperf>
+<https://github.com/starjun/openstar>
 
-dperf 是一个100Gbps的网络性能与压力测试软件。国内多个知名安全厂商用dperf测试其防火墙。知名开源四层负载均衡DPVS在用dperf做性能测试，发布性能测试报告。
+OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复杂规则编写。提供了常规的 HTTP 字段规则配置，还提供了 IP 黑白名单、访问频次等配置，对于 CC 防护更提供的特定的规则算法，并且支持搭建集群进行防护。
 
 ### [Elkeid](detail/Elkeid.md)
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
@@ -44,65 +38,15 @@ Elkeid是一个云原生的基于主机的安全(入侵检测与风险识别)解
 
 linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，进行端口爆破。帮助企业更快发现弱口令问题。主要功能包括: 资产探测、端口爆破、定时任务、管理后台识别、报表展示。
 
-### [veinmind-tools](detail/veinmind-tools.md)
-![Author](https://img.shields.io/badge/Author-长亭科技-orange)
-![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
-![GitHub stars](https://img.shields.io/github/stars/chaitin/veinmind-tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.5-red)
-
-<https://github.com/chaitin/veinmind-tools>
-
-veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目前已支持镜像 恶意文件/后门/敏感信息/弱口令 的扫描，更多功能正在逐步开发中。
-
-### [appshark](detail/appshark.md)
-![Author](https://img.shields.io/badge/Author-bytedance-orange)
-![Language](https://img.shields.io/badge/Language-Kotlin-blue)
-![GitHub stars](https://img.shields.io/github/stars/bytedance/appshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.1.2-red)
-
-<https://github.com/bytedance/appshark>
-
-Appshark 是一个针对安卓的静态分析工具，它的设计目标是针对超大型App的分析，Appshark支持基于json的自定义扫描规则,发现自己关心的安全漏洞以及隐私合规问题，支持灵活配置，可以在准确率以及扫描时间空间之间寻求平衡，支持自定义扩展规则，根据自己的业务需要，进行定制分析
-
-### [OpenStar](detail/OpenStar.md)
-![Author](https://img.shields.io/badge/Author-starjun-orange)
-![Language](https://img.shields.io/badge/Language-JS/Python-blue)
-![GitHub stars](https://img.shields.io/github/stars/starjun/openstar.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.0-red)
-
-<https://github.com/starjun/openstar>
-
-OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复杂规则编写。提供了常规的 HTTP 字段规则配置，还提供了 IP 黑白名单、访问频次等配置，对于 CC 防护更提供的特定的规则算法，并且支持搭建集群进行防护。
-
-### [camille](detail/camille.md)
-![Author](https://img.shields.io/badge/Author-zhengjim-orange)
-![Language](https://img.shields.io/badge/Language-Python-blue)
-![GitHub stars](https://img.shields.io/github/stars/zhengjim/camille.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.1-red)
-
-<https://github.com/zhengjim/camille>
-
-现如今APP隐私合规十分重要，各监管部门不断开展APP专项治理工作及核查通报，不合规的APP通知整改或直接下架。camille可以hook住Android敏感接口，并识别是否为第三方SDK调用。根据隐私合规的场景，辅助检查是否符合隐私合规标准。
-
-### [murphysec](detail/murphysec.md)
-![Author](https://img.shields.io/badge/Author-murphysecurity-orange)
-![Language](https://img.shields.io/badge/Language-Golang-blue)
-![GitHub stars](https://img.shields.io/github/stars/murphysecurity/murphysec.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.10.0-red)
-
-<https://github.com/murphysecurity/murphysec>
-
-墨菲安全专注于软件供应链安全，murphysec 是墨菲安全的 CLI 工具，用于在命令行检测指定目录代码的依赖安全问题，也可以基于 CLI 工具实现在 CI 流程的检测。
-
-### [GShark](detail/gshark.md)
+### [gshark](detail/gshark.md)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.2.0-red)
+![Version](https://img.shields.io/badge/Version-V0.8.4-red)
 
 <https://github.com/madneal/gshark>
 
-一款开源敏感信息检测系统，可以监测包括 GitHub, GitLab(支持私有部署版本), Postman, searchcode 多个平台的敏感信息监测。
+一款开源敏感信息监测系统，可以监测包括 github、gitlab(目前不太稳定，由于gitlab对于免费用户不提供代码全文检索API)、searchcode 多平台的敏感信息监测。
 
 ### [Juggler](detail/Juggler.md)
 ![Author](https://img.shields.io/badge/Author-C4o-orange)
@@ -113,14 +57,4 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 <https://github.com/C4o/Juggler>
 
 一个也许能骗到黑客的系统，可以作为WAF等防护体系的一环。
-
-### [Hades](detail/Hades.md)
-![Author](https://img.shields.io/badge/Author-theSecHunter-orange)
-![Language](https://img.shields.io/badge/Language-Golang&C++&C-blue)
-![GitHub stars](https://img.shields.io/github/stars/theSecHunter/Hades.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.1.0-red)
-
-<https://github.com/theSecHunter/Hades>
-
-Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检测系统，其中每个插件均可独立分开运行。
 

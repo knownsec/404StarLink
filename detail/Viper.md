@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V20230827-red)
+![Version](https://img.shields.io/badge/Version-V1.5.5-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -75,75 +75,54 @@
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
-- 2023-02-14 发布演示视频[404星链计划开源安全工具演示——Viper](https://www.bilibili.com/video/BV1zv4y1s7xv)
 
 ## 最近更新
 
-#### [v20230827] - 2023-08-28
-
-**优化**  
-- 反溯源脚本nobody.sh可以快速使用初始nginx配置  
-- 合并metasploit-framework 6.3.32版本  
-- Viper后续使用构建时间作为版本号  
-
-**Bugfix**  
-- 修复Session心跳显示999,msfrpc状态正常,界面显示渗透服务心跳异常  
-- 修复session文件下载报错的问题  
-- 修复多次重启后会重复添加缓存的监听的问题
-
-#### [v1.6.4] - 2023-08-21
-
+#### [v1.5.6] - 2021-10-31
 **新功能**  
-- 新增判断Session是否运行在容器中模块  
-
+- 新增监听防火墙功能  
+- 新增直接windows系统调用规避技术模块  
 **优化**  
-- session通过鼠标提示展示英文的地理位置信息  
-- Viper通过CI自动更新Geolite数据库  
-- Viper当前通过CI自动构建  
-- 优化模块运行部分前端提示信息  
-- 优化viperpython日志格式  
-- 提高运行信息执行速度  
-- 渗透服务异常时日志更详细说明异常类型  
-- 合并metasploit-framework 6.3.31版本  
-
+- reverse_http(s)在网络断开时超时时间从21秒(Windows默认)更新为3秒  
+- 当前Session默认用不过期,不会自动退出  
+- 合并metasploit-framework 6.1.13版本  
 **Bugfix**  
-- 修复Session心跳显示999,msfrpc状态正常,界面显示渗透服务心跳异常  
-- 修复session下载文件时会偶发性的下载了1m中断  
-- 修复已经上线的session界面未显示  
-- 修复日志逻辑问题
+- 修复sessionExpirationTimeout为0时reverse_tcp无法连接问题  
+- 修复UI界面无法获取默认lhost参数问题
 
-#### [v1.6.3] - 2023-08-12
-
+#### [v1.5.5] - 2021-10-24
+**新功能**  
+- 新增`CVE-2021-40449提权`模块  
+- 新增WebUI一键下载Viper所有日志  
 **优化**  
-- 调整vipermsf及viperpython日志级别及格式,便于定位问题  
-- 关闭vipermsf的cpulimit  
-- 新增vipermsf心跳异常提示  
-- 更新沙箱IP列表  
-- 优化网络拓扑动态效果  
-- 合并metasploit-framework 6.3.30版本  
-
+- 合并metasploit-framework 6.1.12版本  
 **Bugfix**  
-- 修复session下载文件时会偶发性的下载了1m中断  
-- 修复thin的pid文件未清除导致重启msf后台服务无法启动
+- 修复Socks代理关闭后端口占用问题
 
-#### [v1.6.2] - 2023-08-02
-
+#### [v1.5.4] - 2021-10-17
+**新功能**  
+- 新增MS17-010利用(CSharp)模块  
 **优化**  
-- 优化Session Timeout默认值,断线可自动切换传输协议  
-- reverse_http监听不再返回404页面,直接关闭连接  
-- 优化网络拓扑,根据载荷类型确认方向并动态显示当前存活的连接  
-- 合并metasploit-framework 6.3.28版本  
-
+- 合并metasploit-framework 6.1.11版本  
 **Bugfix**  
-- Socks5代理在存在连接时无法正确关闭问题
+- 修复重复添加reverse_http(s)监听时无法上线Session问题
 
-#### [v1.6.1] - 2023-07-09
-
+#### [v1.5.3] - 2021-10-10
 **优化**  
-- 合并metasploit-framework 6.3.25版本  
+- 登录页面多语言支持
+  - 优化 msfconsole 用户体验  
+- 合并metasploit-framework 6.1.10版本
 
+#### [v1.5.1] - 2021-09-26
+**新功能**  
+- 新增`获取互联网出口IP`模块  
+- session进程列表新增搜索过滤  
+**优化**  
+- 杀毒软件显示支持英文版  
+- 优化内网扫描模块输出格式  
+- 优化`运行模块`功能的性能及UI  
+- 合并metasploit-framework 6.1.8版本  
 **Bugfix**  
-- 修复NAT网络Linux主机(VPS)IP显示为::1问题  
-- 修复NAT网络Linux主机(VPS)上线生成多个主机问题
+- 修复不显示杀毒软件名称问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

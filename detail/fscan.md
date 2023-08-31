@@ -3,9 +3,10 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-shadow1ng-orange)
 ![GitHub stars](https://img.shields.io/github/stars/shadow1ng/fscan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.8.2-red)
+![Version](https://img.shields.io/badge/Version-V1.6.3-red)
 ![Time](https://img.shields.io/badge/Join-20210422-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
+
 
 # 简介
 一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。   
@@ -17,8 +18,8 @@
 * 端口扫描
 
 2.爆破功能:
-* 各类服务爆破(ssh、smb、rdp等)
-* 数据库密码爆破(mysql、mssql、redis、psql、oracle等)  
+* 各类服务爆破(ssh、smb等)
+* 数据库密码爆破(mysql、mssql、redis、psql等)  
 
 3.系统信息、漏洞扫描:  
 * netbios探测、域控识别  
@@ -31,9 +32,8 @@
 * web漏洞扫描(weblogic、st2等,支持xray的poc)
 
 5.漏洞利用:
-* redis写公钥或写计划任务  
-* ssh命令执行  
-* ms17017利用(植入shellcode),如添加用户等  
+* redis写公钥或写计划任务
+* ssh命令执行
 
 6.其他功能:
 * 文件保存
@@ -59,10 +59,6 @@ fscan.exe -h 192.168.1.1/24 -m smb -pwd password (smb密码碰撞)
 fscan.exe -h 192.168.1.1/24 -m ms17010 (指定模块)
 fscan.exe -hf ip.txt  (以文件导入)
 fscan.exe -u http://baidu.com -proxy 8080 (扫描单个url,并设置http代理 http://127.0.0.1:8080)
-fscan.exe -h 192.168.1.1/24 -nobr -nopoc (不进行爆破,不扫Web poc,以减少流量)
-fscan.exe -h 192.168.1.1/24 -pa 3389 (在原基础上,加入3389->rdp扫描)
-fscan.exe -h 192.168.1.1/24 -socks5 127.0.0.1:1080
-fscan.exe -h 192.168.1.1/24 -m ms17017 -sc add (可在ms17010-exp.go自定义shellcode,内置添加用户等功能)
 ```
 编译命令
 ```
@@ -71,84 +67,60 @@ go build -ldflags="-s -w " -trimpath
 
 完整参数
 ```
+   -Num int
+        poc rate (default 20)
   -c string
-        ssh命令执行
+        exec command (ssh)
   -cookie string
-        设置cookie
-  -debug int
-        多久没响应,就打印当前进度(default 60)
+        set poc cookie
+  -debug
+        debug mode will print more error info
   -domain string
-        smb爆破模块时,设置域名
+        smb domain
   -h string
-        目标ip: 192.168.11.11 | 192.168.11.11-255 | 192.168.11.11,192.168.11.12
+        IP address of the host you want to scan,for example: 192.168.11.11 | 192.168.11.11-255 | 192.168.11.11,192.168.11.12
   -hf string
-        读取文件中的目标
-  -hn string
-        扫描时,要跳过的ip: -hn 192.168.1.1/24
+        host file, -hs ip.txt
   -m string
-        设置扫描模式: -m ssh (default "all")
+        Select scan type ,as: -m ssh (default "all")
   -no
-        扫描结果不保存到文件中
-  -nobr
-        跳过sql、ftp、ssh等的密码爆破
+        not to save output log
   -nopoc
-        跳过web poc扫描
+        not to scan web vul
   -np
-        跳过存活探测
-  -num int
-        web poc 发包速率  (default 20)
+        not to ping
   -o string
-        扫描结果保存到哪 (default "result.txt")
+        Outputfile (default "result.txt")
   -p string
-        设置扫描的端口: 22 | 1-65535 | 22,80,3306 (default "21,22,80,81,135,139,443,445,1433,3306,5432,6379,7001,8000,8080,8089,9000,9200,11211,27017")
-  -pa string
-        新增需要扫描的端口,-pa 3389 (会在原有端口列表基础上,新增该端口)
-  -path string
-        fcgi、smb romote file path
+        Select a port,for example: 22 | 1-65535 | 22,80,3306 (default "21,22,80,81,135,443,445,1433,3306,5432,6379,7001,8000,8080,8089,9200,11211,270179098,9448,8888,82,8858,1081,8879,21502,9097,8088,8090,8200,91,1080,889,8834,8011,9986,9043,9988,7080,10000,9089,8028,9999,8001,89,8086,8244,9000,2008,8080,7000,8030,8983,8096,8288,18080,8020,8848,808,8099,6868,18088,10004,8443,8042,7008,8161,7001,1082,8095,8087,8880,9096,7074,8044,8048,9087,10008,2020,8003,8069,20000,7688,1010,8092,8484,6648,9100,21501,8009,8360,9060,85,99,8000,9085,9998,8172,8899,9084,9010,9082,10010,7005,12018,87,7004,18004,8098,18098,8002,3505,8018,3000,9094,83,8108,1118,8016,20720,90,8046,9443,8091,7002,8868,8010,18082,8222,7088,8448,18090,3008,12443,9001,9093,7003,8101,14000,7687,8094,9002,8082,9081,8300,9086,8081,8089,8006,443,7007,7777,1888,9090,9095,81,1000,18002,8800,84,9088,7071,7070,8038,9091,8258,9008,9083,16080,88,8085,801,5555,7680,800,8180,9800,10002,18000,18008,98,28018,86,9092,8881,8100,8012,8084,8989,6080,7078,18001,8093,8053,8070,8280,880,92,9099,8181,9981,8060,8004,8083,10001,8097,21000,80,7200,888,7890,3128,8838,8008,8118,9080,2100,7180,9200")
   -ping
-        使用ping代替icmp进行存活探测
-  -pn string
-        扫描时要跳过的端口,as: -pn 445
+        using ping replace icmp
   -pocname string
-        指定web poc的模糊名字, -pocname weblogic
+        use the pocs these contain pocname, -pocname weblogic
   -proxy string
-        设置代理, -proxy http://127.0.0.1:8080
-  -user string
-        指定爆破时的用户名
-  -userf string
-        指定爆破时的用户名文件
+        set poc proxy, -proxy http://127.0.0.1:8080
   -pwd string
-        指定爆破时的密码
+        password
   -pwdf string
-        指定爆破时的密码文件
+        password file
   -rf string
-        指定redis写公钥用模块的文件 (as: -rf id_rsa.pub)
+        redis file to write sshkey file (as: -rf id_rsa.pub)
   -rs string
-        redis计划任务反弹shell的ip端口 (as: -rs 192.168.1.1:6666)
-  -silent
-        静默扫描,适合cs扫描时不回显
-  -sshkey string
-        ssh连接时,指定ssh私钥
+        redis shell to write cron file (as: -rs 192.168.1.1:6666)
   -t int
-        扫描线程 (default 600)
+        Thread nums (default 600)
   -time int
-        端口扫描超时时间 (default 3)
+        Set timeout (default 3)
   -u string
-        指定Url扫描
+        url
   -uf string
-        指定Url文件扫描
+        urlfile
+  -user string
+        username
+  -userf string
+        username file
   -wt int
-        web访问超时时间 (default 5)
-  -pocpath string
-        指定poc路径
-  -usera string
-        在原有用户字典基础上,新增新用户
-  -pwda string
-        在原有密码字典基础上,增加新密码
-  -socks5
-        指定socks5代理 (as: -socks5  socks5://127.0.0.1:1080)
-  -sc 
-        指定ms17010利用模块shellcode,内置添加用户等功能 (as: -sc add)
+        Set web timeout (default 5)
 ```
 
 ## 运行截图
@@ -173,44 +145,10 @@ go build -ldflags="-s -w " -trimpath
 `go run .\main.go -h 192.168.x.x/24 -m netbios(-m netbios时,才会显示完整的netbios信息)`
 ![](https://github.com/shadow1ng/fscan/raw/main/image/netbios1.png)
 
-`go run .\main.go -h 192.0.0.0/8 -m icmp(探测每个C段的网关和数个随机IP,并统计top 10 B、C段存活数量)`
-![img.png](https://github.com/shadow1ng/fscan/raw/main/image/live.png)
-
-
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
-- 2022-12-09 发布演示视频[404星链计划开源安全工具演示——fscan](https://www.bilibili.com/video/BV1Cv4y1R72M/)
 
 ## 最近更新
-
-#### [v1.8.2] - 2022-11-19
-
-**更新**  
-- 新增 hash 碰撞  
-- 新增 wmiiexec 无回显命令执行
-
-#### [v1.8.1] - 2022-07-06
-
-**更新**  
-- 加入手工gc回收,尝试节省无用内存  
-- -url 支持逗号隔开  
-- 修复一个poc模块bug
-
-#### [v1.8.0] - 2022-07-02
-
-**更新**  
-- 加强poc fuzz模块,支持跑备份文件、目录、shiro-key等  
-- 新增ms17017利用,可在ms17010-exp.go自定义shellcode,内置添加用户等功能  
-- 新增poc、指纹  
-- 支持socks5代理  
-- 因body指纹更全,默认不再跑ico图标
-
-#### [v1.7.1] - 2022-04-20
-
-**更新**  
-- poc模块现加入指定目录或文件  
-- 端口可指定文件  
-- rdp加入多线程爆破(demo)
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
