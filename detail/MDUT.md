@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-Ch1ngg-orange)
 ![GitHub stars](https://img.shields.io/github/stars/SafeGroceryStore/MDUT.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.1-red)
+![Version](https://img.shields.io/badge/Version-V2.0.7-red)
 ![Time](https://img.shields.io/badge/Join-20210702-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -41,58 +41,7 @@ MDUT 全称 Multiple Database Utilization Tools，是一款中文的数据库跨
 
 ## 最近更新
 
-#### [v2.1.1] - 2022-06-22
-
-**核心**  
-- 优化逻辑代码  
-- 更改用户协议窗口  
-- 重构 Http Tunnel 生成界面  
-
-**Mysql**  
-- 修正 Mysql 某些时候错误不弹窗  
-
-**Mssql**  
-- 将依赖包重新替换为 jTDS (Microsoft 官方驱动太多问题)  
-
-**Oracle**  
-- 增加oracle 单独上传功能  
-
-**Redis**  
-- 优化内部代码  
-- 再次修复 Redis 测试连接错误信息返回连接成功 Bug  
-- 增加反弹shell功能 (不推荐使用影响生产环境)  
-- 修复 Redis 某些时候错误不弹窗  
-- 增强 替换 SSH 公钥 功能
-
-#### [v2.1.0] - 2022-05-24
-
-**核心**  
-- 增加 HTTP 隧道功能(Redis暂不支持)  
-- 优化逻辑代码  
-- 加长默认超时时间  
-
-**Mssql**  
-- 修复下载文件 Bug  
-- 删除获取管理员密码功能  
-- 增加一键恢复所有组件功能   
-- 修正 CLR Hex String  
-
-**Oracle**  
-- 更改 JAVA Util 导入方式  
-- 优化 JAVA ShellUtil 代码  
-
-**Redis**  
-- 添加 slave-read-only 功能
-
-#### [v2.0.8] - 2021-12-01
-
-**核心**  
-- 修复 Mssql 连接 2000 时候的语句兼容性问题  
-- 设置程序默认编码  
-- 删除敏感文件(详细说明情况请看文档里的公告一栏)
-
 #### [v2.0.6] - 2021-08-17
-
 **核心**  
 - 优化内部代码  
 - 删除软件自启更新功能  
