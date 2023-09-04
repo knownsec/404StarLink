@@ -124,24 +124,12 @@ ierrors 0                  oerrors  0                  imissed  0
     ./build/dperf -c test/http/client-cps.conf
 
 ## 文档
- - [配置手册](https://github.com/baidu/dperf/blob/main/docs/configuration-CN.md)
- - [设计原理](https://github.com/baidu/dperf/blob/main/docs/design-CN.md)
- - [编译指导](https://github.com/baidu/dperf/blob/main/docs/build.md) 
- - [统计说明](https://github.com/baidu/dperf/blob/main/docs/statistics-CN.md)
+请访问[https://dperf.org/](https://dperf.org/).
 
 ## 限制
  - dperf 要求HTTP消息在一个数据包中，所以不适合7层负载均衡的测试。
  - dperf 要求独占使用网络接口。
  - dperf 没有路由功能。建议配合三层交换机搭建测试环境。
-
-## 相关文章
-- [dperf FAQ(zh)](https://zhuanlan.zhihu.com/p/561093951)
-- [How to set up dperf](https://metonymical.hatenablog.com/entry/2022/02/11/234927)
-- [Using dperf to test network bandwidth](https://github.com/baidu/dperf/blob/main/test/performance/bandwidth/README.md)
-- [DPVS v1.9.2 Performance Tests by dperf](https://github.com/iqiyi/dpvs/blob/master/test/release/v1.9.2/performance.md)
-- [Using dperf to test 100Gbps bandwidth(zh)](https://zhuanlan.zhihu.com/p/601137162)
-- [How to install dperf on ubuntu](https://github.com/digger-yu/blog/blob/main/how%20to%20install%20dperf%20on%20ubuntu.md)
-- [Using dperf to test the performance of DPVS(zh)](https://blog.csdn.net/yuubeka/article/details/128945241)
 
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关

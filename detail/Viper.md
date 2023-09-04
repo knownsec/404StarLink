@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V20230827-red)
+![Version](https://img.shields.io/badge/Version-V20230831-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -79,6 +79,17 @@
 
 ## 最近更新
 
+#### [v20230831] - 2023-08-31
+
+**优化**  
+- 清除不需要的日志,提高系统运行速度  
+- 优化docker logs日志,存储到日志目录便于问题定位  
+- docker healthcheck当前检查所有后台服务  
+
+**Bugfix**  
+- 修复python payload在心跳发送失败时不会记录错误的问题  
+- 修复thin的pid文件未清除的问题
+
 #### [v20230827] - 2023-08-28
 
 **优化**  
@@ -136,14 +147,5 @@
 
 **Bugfix**  
 - Socks5代理在存在连接时无法正确关闭问题
-
-#### [v1.6.1] - 2023-07-09
-
-**优化**  
-- 合并metasploit-framework 6.3.25版本  
-
-**Bugfix**  
-- 修复NAT网络Linux主机(VPS)IP显示为::1问题  
-- 修复NAT网络Linux主机(VPS)上线生成多个主机问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

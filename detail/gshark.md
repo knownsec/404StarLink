@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.2.0-red)
+![Version](https://img.shields.io/badge/Version-V1.2.1-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -151,6 +151,12 @@ go env -w GO111MODULE=on
 
 ## 最近更新
 
+#### [v1.2.1] - 2023-08-21
+
+**更新**  
+- 修复数据库初始化错误  
+- 依赖包安全升级
+
 #### [v1.2.0] - 2023-08-06
 
 **更新**  
@@ -186,15 +192,5 @@ go env -w GO111MODULE=on
 **Added**  
 - 增加仅展示二次过滤的结果  
 - 增加 getTaskStatus API 权限初始化
-
-#### [v1.1.1] - 2023-01-16
-
-**Mofified**  
-- 修改日志时间格式  
-
-**Fixed**  
-- 修复前端变更过滤规则问题  
-- 修改忽略仓库状态的问题  
-- 修复 filter_type 黑白名单问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

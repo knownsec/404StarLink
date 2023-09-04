@@ -5,7 +5,8 @@
 3. [frida-skeleton](#frida-skeleton)
 4. [java-object-searcher](#java-object-searcher)
 5. [MySQLMonitor](#mysqlmonitor)
-6. [CodeReviewTools](#codereviewtools)
+6. [js-cookie-monitor-debugger-hook](#js-cookie-monitor-debugger-hook)
+7. [CodeReviewTools](#codereviewtools)
 
 ----------------------------------------
 
@@ -58,6 +59,16 @@ java内存对象搜索辅助工具，配合IDEA在Java应用运行时，对内�
 <https://github.com/TheKingOfDuck/MySQLMonitor>
 
 MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具) 
+
+### [js-cookie-monitor-debugger-hook](detail/js-cookie-monitor-debugger-hook.md)
+![Author](https://img.shields.io/badge/Author-JSREI-orange)
+![Language](https://img.shields.io/badge/Language-JavaScript-blue)
+![GitHub stars](https://img.shields.io/github/stars/JSREI/js-cookie-monitor-debugger-hook.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.11.0-red)
+
+<https://github.com/JSREI/js-cookie-monitor-debugger-hook>
+
+js cookie逆向利器：js cookie变动监控可视化工具 & js cookie hook打条件断点
 
 ### [CodeReviewTools](detail/CodeReviewTools.md)
 ![Author](https://img.shields.io/badge/Author-Ppsoft1991-orange)

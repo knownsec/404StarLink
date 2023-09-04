@@ -7,10 +7,11 @@
     * [veinmind-tools](#veinmind-tools)
     * [appshark](#appshark)
     * [OpenStar](#openstar)
-    * [camille](#camille)
     * [murphysec](#murphysec)
+    * [camille](#camille)
     * [gshark](#gshark)
     * [Juggler](#juggler)
+    * [vArmor](#varmor)
     * [Hades](#hades)
 
 * [信息收集/reconnaissance](#信息收集reconnaissance)
@@ -57,6 +58,7 @@
     * [frida-skeleton](#frida-skeleton)
     * [java-object-searcher](#java-object-searcher)
     * [MySQLMonitor](#mysqlmonitor)
+    * [js-cookie-monitor-debugger-hook](#js-cookie-monitor-debugger-hook)
     * [CodeReviewTools](#codereviewtools)
 
 * [内网工具/intranet_tools](#内网工具intranet_tools)
@@ -142,16 +144,6 @@ Appshark 是一个针对安卓的静态分析工具，它的设计目标是针�
 
 OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复杂规则编写。提供了常规的 HTTP 字段规则配置，还提供了 IP 黑白名单、访问频次等配置，对于 CC 防护更提供的特定的规则算法，并且支持搭建集群进行防护。
 
-### [camille](detail/camille.md)
-![Author](https://img.shields.io/badge/Author-zhengjim-orange)
-![Language](https://img.shields.io/badge/Language-Python-blue)
-![GitHub stars](https://img.shields.io/github/stars/zhengjim/camille.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.1-red)
-
-<https://github.com/zhengjim/camille>
-
-现如今APP隐私合规十分重要，各监管部门不断开展APP专项治理工作及核查通报，不合规的APP通知整改或直接下架。camille可以hook住Android敏感接口，并识别是否为第三方SDK调用。根据隐私合规的场景，辅助检查是否符合隐私合规标准。
-
 ### [murphysec](detail/murphysec.md)
 ![Author](https://img.shields.io/badge/Author-murphysecurity-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
@@ -162,11 +154,21 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 
 墨菲安全专注于软件供应链安全，murphysec 是墨菲安全的 CLI 工具，用于在命令行检测指定目录代码的依赖安全问题，也可以基于 CLI 工具实现在 CI 流程的检测。
 
+### [camille](detail/camille.md)
+![Author](https://img.shields.io/badge/Author-zhengjim-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/zhengjim/camille.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+
+<https://github.com/zhengjim/camille>
+
+现如今APP隐私合规十分重要，各监管部门不断开展APP专项治理工作及核查通报，不合规的APP通知整改或直接下架。camille可以hook住Android敏感接口，并识别是否为第三方SDK调用。根据隐私合规的场景，辅助检查是否符合隐私合规标准。
+
 ### [GShark](detail/gshark.md)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.2.0-red)
+![Version](https://img.shields.io/badge/Version-V1.2.1-red)
 
 <https://github.com/madneal/gshark>
 
@@ -181,6 +183,16 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 <https://github.com/C4o/Juggler>
 
 一个也许能骗到黑客的系统，可以作为WAF等防护体系的一环。
+
+### [vArmor](detail/vArmor.md)
+![Author](https://img.shields.io/badge/Author-bytedance-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/bytedance/vArmor.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.5.2-red)
+
+<https://github.com/bytedance/vArmor>
+
+vArmor 是一个云原生容器沙箱系统，它借助 Linux 的 LSM 技术（AppArmor & BPF）实现强制访问控制器（即 enforcer），从而对容器进行安全加固。它可以用于增强容器隔离性、减少内核攻击面、增加容器逃逸或横行移动攻击的难度与成本。vArmor 遵循 Kubernetes Operator 设计模式，用户可通过操作 CRD API 对特定的 Workload 进行加固。从而以更贴近业务的视角，实现对容器化微服务的沙箱加固。此外 vArmor 还包含多种内置加固策略，具备开箱即用的特性。
 
 ### [Hades](detail/Hades.md)
 ![Author](https://img.shields.io/badge/Author-theSecHunter-orange)
@@ -312,7 +324,7 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.7.9-red)
+![Version](https://img.shields.io/badge/Version-V2.8.0-red)
 
 <https://github.com/zan8in/afrog>
 
@@ -385,7 +397,7 @@ pocsuite3是由Knownsec 404团队开发的开源远程漏洞测试和概念验�
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V20230827-red)
+![Version](https://img.shields.io/badge/Version-V20230831-red)
 
 <https://github.com/FunnyWolf/Viper>
 
@@ -573,6 +585,16 @@ java内存对象搜索辅助工具，配合IDEA在Java应用运行时，对内�
 <https://github.com/TheKingOfDuck/MySQLMonitor>
 
 MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具) 
+
+### [js-cookie-monitor-debugger-hook](detail/js-cookie-monitor-debugger-hook.md)
+![Author](https://img.shields.io/badge/Author-JSREI-orange)
+![Language](https://img.shields.io/badge/Language-JavaScript-blue)
+![GitHub stars](https://img.shields.io/github/stars/JSREI/js-cookie-monitor-debugger-hook.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.11.0-red)
+
+<https://github.com/JSREI/js-cookie-monitor-debugger-hook>
+
+js cookie逆向利器：js cookie变动监控可视化工具 & js cookie hook打条件断点
 
 ### [CodeReviewTools](detail/CodeReviewTools.md)
 ![Author](https://img.shields.io/badge/Author-Ppsoft1991-orange)
