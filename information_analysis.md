@@ -3,10 +3,11 @@
 1. [HackBrowserData](#hackbrowserdata)
 2. [KunLun-M](#kunlun-m)
 3. [frida-skeleton](#frida-skeleton)
-4. [java-object-searcher](#java-object-searcher)
-5. [MySQLMonitor](#mysqlmonitor)
-6. [js-cookie-monitor-debugger-hook](#js-cookie-monitor-debugger-hook)
-7. [CodeReviewTools](#codereviewtools)
+4. [Tai-e](#tai-e)
+5. [java-object-searcher](#java-object-searcher)
+6. [MySQLMonitor](#mysqlmonitor)
+7. [js-cookie-monitor-debugger-hook](#js-cookie-monitor-debugger-hook)
+8. [CodeReviewTools](#codereviewtools)
 
 ----------------------------------------
 
@@ -39,6 +40,16 @@ KunLun-M是一个完全开源的静态白盒扫描工具，支持PHP、JavaScrip
 <https://github.com/Margular/frida-skeleton>
 
 frida-skeleton是基于frida的安卓hook框架，提供了很多frida自身不支持的功能，将hook安卓变成简单便捷，人人都会的事情。
+
+### [Tai-e](detail/Tai-e.md)
+![Author](https://img.shields.io/badge/Author-pascal-lab-orange)
+![Language](https://img.shields.io/badge/Language-Java-blue)
+![GitHub stars](https://img.shields.io/github/stars/pascal-lab/Tai-e.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.3-red)
+
+<https://github.com/pascal-lab/Tai-e>
+
+Tai-e (Chinese: 太阿; pronunciation: [ˈtaɪə:]) is a new static analysis framework for Java (please see our ISSTA 2023 paper for details), which features arguably the 'best' designs from both the novel ones we proposed and those of classic frameworks such as Soot, WALA, Doop, and SpotBugs. Tai-e is easy-to-learn, easy-to-use, efficient, and highly extensible, allowing you to easily develop new analyses on top of it.
 
 ### [java-object-searcher](detail/java-object-searcher.md)
 ![Author](https://img.shields.io/badge/Author-c0ny1-orange)

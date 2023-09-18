@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V20230831-red)
+![Version](https://img.shields.io/badge/Version-V20230914-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -79,6 +79,18 @@
 
 ## 最近更新
 
+#### [v20230914] - 2023-09-14
+
+**优化**  
+- 清理不必要的日志打印  
+- 合并metasploit-framework 6.3.34版本  
+- 增加后台服务监控日志  
+- 渗透服务使用多线程模式,解决Session操作执行超时导致其他任务无法进行  
+
+**Bugfix**  
+- 修复Python Meterpreter断线后无法重连问题  
+- 修复thin的pid文件未清除的问题
+
 #### [v20230831] - 2023-08-31
 
 **优化**  
@@ -136,16 +148,5 @@
 **Bugfix**  
 - 修复session下载文件时会偶发性的下载了1m中断  
 - 修复thin的pid文件未清除导致重启msf后台服务无法启动
-
-#### [v1.6.2] - 2023-08-02
-
-**优化**  
-- 优化Session Timeout默认值,断线可自动切换传输协议  
-- reverse_http监听不再返回404页面,直接关闭连接  
-- 优化网络拓扑,根据载荷类型确认方向并动态显示当前存活的连接  
-- 合并metasploit-framework 6.3.28版本  
-
-**Bugfix**  
-- Socks5代理在存在连接时无法正确关闭问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/vArmor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.5.2-red)
+![Version](https://img.shields.io/badge/Version-V0.5.3-red)
 ![Time](https://img.shields.io/badge/Join-20230831-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -129,5 +129,13 @@ vArmor 在研发初期参考了 [Nirmata](https://nirmata.com/) 开发的 [kyver
 
 
 ## 最近更新
+
+#### [v0.5.3] - 2023-09-12
+
+**更新**  
+- 优化容器 manager 选举逻辑  
+- 添加 webhook matchlabel 和 BPF 强制执行器独占模式配置选项  
+- 引入 ptrace 原语和 BPF 强制执行器的内置规则  
+- 优化文档
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.8.0-red)
+![Version](https://img.shields.io/badge/Version-V2.8.1-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,13 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v2.8.1] - 2023-09-18
+
+**更新**  
+- 新增备份文件检测的 PoC  
+- 自定义全局 cookie，不会覆盖原 POC 的 cookie  
+- 新增一批 HVV2023 PoCs
+
 #### [v2.8.0] - 2023-09-03
 
 **新增**  
@@ -174,12 +181,5 @@ afrog -t https://example.com -ja result.json
 - 优化 arcgis-default-password (ArcGIS默认口令)  
 - 修复 mysql-detect 和 CVE-2023-25573 的误报  
 - 优化 CVE-2023-25157，提升扫描速度
-
-#### [v2.7.5] - 2023-07-23
-
-**优化**  
-- 修复 ecology-filedownloadforoutdoc-sqli 误报问题  
-- 修复 CVE-2023-28432 规则编写错误问题  
-- 修复 CVE-2021-22205 规则编写错误问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

@@ -5,9 +5,9 @@
     * [Elkeid](#elkeid)
     * [linglong](#linglong)
     * [veinmind-tools](#veinmind-tools)
+    * [murphysec](#murphysec)
     * [appshark](#appshark)
     * [OpenStar](#openstar)
-    * [murphysec](#murphysec)
     * [camille](#camille)
     * [gshark](#gshark)
     * [Juggler](#juggler)
@@ -44,8 +44,8 @@
     * [BurpCrypto](#burpcrypto)
     * [MySQL-Fake-Server](#mysql-fake-server)
     * [ysomap](#ysomap)
-    * [Cloud-Bucket-Leak-Detection-Tools](#cloud-bucket-leak-detection-tools)
     * [DNSlog-GO](#dnslog-go)
+    * [Cloud-Bucket-Leak-Detection-Tools](#cloud-bucket-leak-detection-tools)
     * [Antenna](#antenna)
     * [Redis-Rogue-Server](#redis-rogue-server)
     * [Cola-Dnslog](#cola-dnslog)
@@ -56,6 +56,7 @@
     * [HackBrowserData](#hackbrowserdata)
     * [KunLun-M](#kunlun-m)
     * [frida-skeleton](#frida-skeleton)
+    * [Tai-e](#tai-e)
     * [java-object-searcher](#java-object-searcher)
     * [MySQLMonitor](#mysqlmonitor)
     * [js-cookie-monitor-debugger-hook](#js-cookie-monitor-debugger-hook)
@@ -124,6 +125,16 @@ linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，
 
 veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目前已支持镜像 恶意文件/后门/敏感信息/弱口令 的扫描，更多功能正在逐步开发中。
 
+### [murphysec](detail/murphysec.md)
+![Author](https://img.shields.io/badge/Author-murphysecurity-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/murphysecurity/murphysec.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.10.0-red)
+
+<https://github.com/murphysecurity/murphysec>
+
+墨菲安全专注于软件供应链安全，murphysec 是墨菲安全的 CLI 工具，用于在命令行检测指定目录代码的依赖安全问题，也可以基于 CLI 工具实现在 CI 流程的检测。
+
 ### [appshark](detail/appshark.md)
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![Language](https://img.shields.io/badge/Language-Kotlin-blue)
@@ -143,16 +154,6 @@ Appshark 是一个针对安卓的静态分析工具，它的设计目标是针�
 <https://github.com/starjun/openstar>
 
 OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复杂规则编写。提供了常规的 HTTP 字段规则配置，还提供了 IP 黑白名单、访问频次等配置，对于 CC 防护更提供的特定的规则算法，并且支持搭建集群进行防护。
-
-### [murphysec](detail/murphysec.md)
-![Author](https://img.shields.io/badge/Author-murphysecurity-orange)
-![Language](https://img.shields.io/badge/Language-Golang-blue)
-![GitHub stars](https://img.shields.io/github/stars/murphysecurity/murphysec.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.10.0-red)
-
-<https://github.com/murphysecurity/murphysec>
-
-墨菲安全专注于软件供应链安全，murphysec 是墨菲安全的 CLI 工具，用于在命令行检测指定目录代码的依赖安全问题，也可以基于 CLI 工具实现在 CI 流程的检测。
 
 ### [camille](detail/camille.md)
 ![Author](https://img.shields.io/badge/Author-zhengjim-orange)
@@ -188,7 +189,7 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/vArmor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.5.2-red)
+![Version](https://img.shields.io/badge/Version-V0.5.3-red)
 
 <https://github.com/bytedance/vArmor>
 
@@ -324,7 +325,7 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.8.0-red)
+![Version](https://img.shields.io/badge/Version-V2.8.1-red)
 
 <https://github.com/zan8in/afrog>
 
@@ -397,7 +398,7 @@ pocsuite3是由Knownsec 404团队开发的开源远程漏洞测试和概念验�
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V20230831-red)
+![Version](https://img.shields.io/badge/Version-V20230914-red)
 
 <https://github.com/FunnyWolf/Viper>
 
@@ -463,16 +464,6 @@ WMIHACKER是一款免杀横向渗透远程命令执行工具，常见的WMIEXEC�
 
 Ysomap是一款适配于各类实际复杂环境的Java反序列化利用框架，可动态配置具备不同执行效果的Java反序列化利用链payload，以应对不同场景下的反序列化利用。
 
-### [Cloud-Bucket-Leak-Detection-Tools](detail/Cloud-Bucket-Leak-Detection-Tools.md)
-![Author](https://img.shields.io/badge/Author-UzJu-orange)
-![Language](https://img.shields.io/badge/Language-Python-blue)
-![GitHub stars](https://img.shields.io/github/stars/UzJu/Cloud-Bucket-Leak-Detection-Tools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.4.0-red)
-
-<https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools>
-
-Cloud-Bucket-Leak-Detection-Tools是一款针对云厂商存储桶扫描检测与利用的工具
-
 ### [DNSlog-GO](detail/DNSlog-GO.md)
 ![Author](https://img.shields.io/badge/Author-lanyi-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
@@ -482,6 +473,16 @@ Cloud-Bucket-Leak-Detection-Tools是一款针对云厂商存储桶扫描检测�
 <https://github.com/lanyi1998/DNSlog-GO>
 
 DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面。单文件运行，无依赖。部署方便快捷。
+
+### [Cloud-Bucket-Leak-Detection-Tools](detail/Cloud-Bucket-Leak-Detection-Tools.md)
+![Author](https://img.shields.io/badge/Author-UzJu-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/UzJu/Cloud-Bucket-Leak-Detection-Tools.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.4.0-red)
+
+<https://github.com/UzJu/Cloud-Bucket-Leak-Detection-Tools>
+
+Cloud-Bucket-Leak-Detection-Tools是一款针对云厂商存储桶扫描检测与利用的工具
 
 ### [Antenna](detail/Antenna.md)
 ![Author](https://img.shields.io/badge/Author-wuba-orange)
@@ -565,6 +566,16 @@ KunLun-M是一个完全开源的静态白盒扫描工具，支持PHP、JavaScrip
 <https://github.com/Margular/frida-skeleton>
 
 frida-skeleton是基于frida的安卓hook框架，提供了很多frida自身不支持的功能，将hook安卓变成简单便捷，人人都会的事情。
+
+### [Tai-e](detail/Tai-e.md)
+![Author](https://img.shields.io/badge/Author-pascal-lab-orange)
+![Language](https://img.shields.io/badge/Language-Java-blue)
+![GitHub stars](https://img.shields.io/github/stars/pascal-lab/Tai-e.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.3-red)
+
+<https://github.com/pascal-lab/Tai-e>
+
+Tai-e (Chinese: 太阿; pronunciation: [ˈtaɪə:]) is a new static analysis framework for Java (please see our ISSTA 2023 paper for details), which features arguably the 'best' designs from both the novel ones we proposed and those of classic frameworks such as Soot, WALA, Doop, and SpotBugs. Tai-e is easy-to-learn, easy-to-use, efficient, and highly extensible, allowing you to easily develop new analyses on top of it.
 
 ### [java-object-searcher](detail/java-object-searcher.md)
 ![Author](https://img.shields.io/badge/Author-c0ny1-orange)
