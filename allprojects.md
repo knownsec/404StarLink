@@ -9,6 +9,7 @@
     * [appshark](#appshark)
     * [OpenStar](#openstar)
     * [camille](#camille)
+    * [Tai-e](#tai-e)
     * [gshark](#gshark)
     * [Juggler](#juggler)
     * [vArmor](#varmor)
@@ -56,7 +57,6 @@
     * [HackBrowserData](#hackbrowserdata)
     * [KunLun-M](#kunlun-m)
     * [frida-skeleton](#frida-skeleton)
-    * [Tai-e](#tai-e)
     * [java-object-searcher](#java-object-searcher)
     * [MySQLMonitor](#mysqlmonitor)
     * [js-cookie-monitor-debugger-hook](#js-cookie-monitor-debugger-hook)
@@ -164,6 +164,16 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 <https://github.com/zhengjim/camille>
 
 现如今APP隐私合规十分重要，各监管部门不断开展APP专项治理工作及核查通报，不合规的APP通知整改或直接下架。camille可以hook住Android敏感接口，并识别是否为第三方SDK调用。根据隐私合规的场景，辅助检查是否符合隐私合规标准。
+
+### [Tai-e](detail/Tai-e.md)
+![Author](https://img.shields.io/badge/Author-pascal-lab-orange)
+![Language](https://img.shields.io/badge/Language-Java-blue)
+![GitHub stars](https://img.shields.io/github/stars/pascal-lab/Tai-e.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.2.2-red)
+
+<https://github.com/pascal-lab/Tai-e>
+
+Tai-e（太阿）是一个通用型Java程序分析框架，包含了开发程序分析技术所需的各类基础设施，并提供了可配置性高、功能强大的污点分析系统，用于检测各类隐私泄露、注入攻击等安全漏洞。
 
 ### [GShark](detail/gshark.md)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
@@ -398,7 +408,7 @@ pocsuite3是由Knownsec 404团队开发的开源远程漏洞测试和概念验�
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V20230914-red)
+![Version](https://img.shields.io/badge/Version-V20230924-red)
 
 <https://github.com/FunnyWolf/Viper>
 
@@ -566,16 +576,6 @@ KunLun-M是一个完全开源的静态白盒扫描工具，支持PHP、JavaScrip
 <https://github.com/Margular/frida-skeleton>
 
 frida-skeleton是基于frida的安卓hook框架，提供了很多frida自身不支持的功能，将hook安卓变成简单便捷，人人都会的事情。
-
-### [Tai-e](detail/Tai-e.md)
-![Author](https://img.shields.io/badge/Author-pascal-lab-orange)
-![Language](https://img.shields.io/badge/Language-Java-blue)
-![GitHub stars](https://img.shields.io/github/stars/pascal-lab/Tai-e.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.3-red)
-
-<https://github.com/pascal-lab/Tai-e>
-
-Tai-e (Chinese: 太阿; pronunciation: [ˈtaɪə:]) is a new static analysis framework for Java (please see our ISSTA 2023 paper for details), which features arguably the 'best' designs from both the novel ones we proposed and those of classic frameworks such as Soot, WALA, Doop, and SpotBugs. Tai-e is easy-to-learn, easy-to-use, efficient, and highly extensible, allowing you to easily develop new analyses on top of it.
 
 ### [java-object-searcher](detail/java-object-searcher.md)
 ![Author](https://img.shields.io/badge/Author-c0ny1-orange)

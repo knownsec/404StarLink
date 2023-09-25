@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V20230914-red)
+![Version](https://img.shields.io/badge/Version-V20230924-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -79,6 +79,22 @@
 
 ## 最近更新
 
+#### [v20230924] - 2023-09-24
+
+**新功能**  
+- 自动编排新增Session定时任务功能  
+- 新增TCPLOG服务器模块  
+- 新增Last日志删除模块  
+
+**优化**  
+- 前端界面支持OSX的Payload和Handler生成  
+- Session展示区域支持伸缩(点击右侧按钮扩大缩小)  
+- 合并metasploit-framework 6.3.35版本  
+
+**Bugfix**  
+- fix 监听通信通道选择Session后不显示问题  
+- fix 内存执行C#可执行文件模块报错问题
+
 #### [v20230914] - 2023-09-14
 
 **优化**  
@@ -134,19 +150,5 @@
 - 修复session下载文件时会偶发性的下载了1m中断  
 - 修复已经上线的session界面未显示  
 - 修复日志逻辑问题
-
-#### [v1.6.3] - 2023-08-12
-
-**优化**  
-- 调整vipermsf及viperpython日志级别及格式,便于定位问题  
-- 关闭vipermsf的cpulimit  
-- 新增vipermsf心跳异常提示  
-- 更新沙箱IP列表  
-- 优化网络拓扑动态效果  
-- 合并metasploit-framework 6.3.30版本  
-
-**Bugfix**  
-- 修复session下载文件时会偶发性的下载了1m中断  
-- 修复thin的pid文件未清除导致重启msf后台服务无法启动
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

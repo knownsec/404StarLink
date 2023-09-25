@@ -8,10 +8,11 @@
 6. [appshark](#appshark)
 7. [OpenStar](#openstar)
 8. [camille](#camille)
-9. [GShark](#gshark)
-10. [Juggler](#juggler)
-11. [vArmor](#varmor)
-12. [Hades](#hades)
+9. [Tai-e](#tai-e)
+10. [GShark](#gshark)
+11. [Juggler](#juggler)
+12. [vArmor](#varmor)
+13. [Hades](#hades)
 
 ----------------------------------------
 
@@ -94,6 +95,16 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 <https://github.com/zhengjim/camille>
 
 现如今APP隐私合规十分重要，各监管部门不断开展APP专项治理工作及核查通报，不合规的APP通知整改或直接下架。camille可以hook住Android敏感接口，并识别是否为第三方SDK调用。根据隐私合规的场景，辅助检查是否符合隐私合规标准。
+
+### [Tai-e](detail/Tai-e.md)
+![Author](https://img.shields.io/badge/Author-pascal-lab-orange)
+![Language](https://img.shields.io/badge/Language-Java-blue)
+![GitHub stars](https://img.shields.io/github/stars/pascal-lab/Tai-e.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.2.2-red)
+
+<https://github.com/pascal-lab/Tai-e>
+
+Tai-e（太阿）是一个通用型Java程序分析框架，包含了开发程序分析技术所需的各类基础设施，并提供了可配置性高、功能强大的污点分析系统，用于检测各类隐私泄露、注入攻击等安全漏洞。
 
 ### [GShark](detail/gshark.md)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
