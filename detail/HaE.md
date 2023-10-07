@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.4.6-red)
+![Version](https://img.shields.io/badge/Version-V2.4.8-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -62,6 +62,24 @@
 
 ## 最近更新
 
+#### [v2.4.8] - 2023-10-01
+
+**更新**  
+- HaE初始化自动加载官方规则库，让用户体验更佳  
+- 规则文件层次结构发生变化：rules -> group -> rule -> xxx  
+- 优化项目代码、调整项目目录结构，通俗易懂更便于阅读和二次开发  
+- Databoard新增`**`查询条件，可以查看所有数据，并以域名的方式单独展示对应数据  
+- 命名规范统一化：原`Config.yml`修改为`Rules.yml`，原`Setting.yml`修改为`Config.yml`
+
+#### [v2.4.7] - 2023-09-28
+
+**更新**  
+- 新增MarkInfo/Databoard数据展示表单表头排序功能  
+- 新增数据匹配量显示功能，作用于Comment及MarkInfo、Databoard数据展示表单  
+- 新增Databoard数据查询全量信息，在搜索框中输入*号即可查看HaE匹配到的所有数据  
+- 解决Databoard数据全局Map直接引用修改导致数据不全问题  
+- 解决Databoard数据存储非二级域名、非域名的模糊条件问题
+
 #### [v2.4.6] - 2023-02-22
 
 **更新**  
@@ -82,21 +100,5 @@
 - 由于原按钮的鼠标点击监听不灵敏，所以将该监听修改为动作监听  
 - 在 issue 发布「HaE公共规则」征集活动  
 - 公共规则库新增7条规则
-
-#### [v2.4.1] - 2022-06-29
-
-**更新**  
-- 采用全局ArrayList的方式遍历删除Tab，以此应对BurpSuite缓存机制导致的MarkInfo UI错误展示  
-- 移除Select File自定义选择配置文件功能，固定配置文件路径，不再支持自定义  
-- 新增Online Update功能，单击按钮可在线更新官方配置库
-
-#### [v2.4] - 2022-06-23
-
-**更新**  
-- 修复规则导入问题  
-- 配置文件初始化默认路径切换到用户根目录/.config/HaE/目录下  
-- 新增Databoard功能用于HaE规则匹配数据集中化查询  
-- 优化README文档，去除非必要内容，直观展示项目相关信息  
-- 发布HaE项目Logo及项目口号：赋能白帽，高效作战！提升项目品牌影响力与辨识度
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

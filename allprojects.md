@@ -49,9 +49,9 @@
     * [Cloud-Bucket-Leak-Detection-Tools](#cloud-bucket-leak-detection-tools)
     * [Antenna](#antenna)
     * [Redis-Rogue-Server](#redis-rogue-server)
+    * [JYso](#jyso)
     * [Cola-Dnslog](#cola-dnslog)
     * [MysqlT](#mysqlt)
-    * [JYso](#jyso)
 
 * [信息分析/information_analysis](#信息分析information_analysis)
     * [HackBrowserData](#hackbrowserdata)
@@ -242,7 +242,7 @@ Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检�
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.4.6-red)
+![Version](https://img.shields.io/badge/Version-V2.4.8-red)
 
 <https://github.com/gh0stkey/HaE>
 
@@ -335,7 +335,7 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.8.1-red)
+![Version](https://img.shields.io/badge/Version-V2.8.8-red)
 
 <https://github.com/zan8in/afrog>
 
@@ -514,6 +514,16 @@ Antenna是58同城安全团队打造的一款辅助安全从业人员辅助验�
 
 Redis 4.x/Redis 5.x RCE利用脚本. 项目最初来源于 <https://github.com/n0b0dyCN/redis-rogue-server>
 
+### [JYso](detail/JYso.md)
+![Author](https://img.shields.io/badge/Author-qi4L-orange)
+![Language](https://img.shields.io/badge/Language-Java-blue)
+![GitHub stars](https://img.shields.io/github/stars/qi4L/JYso.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V3.4.0-red)
+
+<https://github.com/qi4L/JYso>
+
+JYso是一个可以用于 jndi 注入攻击和生成反序列化数据流的工具，既可以当 JNDIExploit 用也可以当作 ysoserial 使用。
+
 ### [Cola-Dnslog](detail/Cola-Dnslog.md)
 ![Author](https://img.shields.io/badge/Author-AbelChe-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
@@ -533,16 +543,6 @@ Cola Dnslog 是一款更加强大的dnslog平台(无回显漏洞探测辅助平�
 <https://github.com/BeichenDream/MysqlT>
 
 伪造Myslq服务端,并利用Mysql逻辑漏洞来获取客户端的任意文件反击攻击。
-
-### [JYso](detail/JYso.md)
-![Author](https://img.shields.io/badge/Author-qi4L-orange)
-![Language](https://img.shields.io/badge/Language-Java-blue)
-![GitHub stars](https://img.shields.io/github/stars/qi4L/JYso.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.4.0-red)
-
-<https://github.com/qi4L/JYso>
-
-JYso是一个可以用于 jndi 注入攻击和生成反序列化数据流的工具，既可以当 JNDIExploit 用也可以当作 ysoserial 使用。
 
 
 

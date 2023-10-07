@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.8.1-red)
+![Version](https://img.shields.io/badge/Version-V2.8.8-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,12 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v2.8.8] - 2023-09-28
+
+**更新**  
+- 新增 -web 命令用于启动一个 Web 服务，用于查看漏洞报告  
+- 更新一部分 PoCs
+
 #### [v2.8.1] - 2023-09-18
 
 **更新**  
@@ -170,16 +176,5 @@ afrog -t https://example.com -ja result.json
 **新增**  
 - 引入了 Eye.sh 反链配置项  
 - 增加 -rrl 和 -rc 参数，对反链平台支持的 PoC 进行独立的并发速率控制
-
-#### [v2.7.7] - 2023-07-30
-
-**新增**  
-- 新增 -pedm 参数(POC Execution Duration Monitor/POC执行时长监视器)  
-- 新增 Vulnerability Scanner Breakpoint (漏洞扫描断点)  
-
-**优化**  
-- 优化 arcgis-default-password (ArcGIS默认口令)  
-- 修复 mysql-detect 和 CVE-2023-25573 的误报  
-- 优化 CVE-2023-25157，提升扫描速度
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
