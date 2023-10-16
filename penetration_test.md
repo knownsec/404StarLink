@@ -23,7 +23,7 @@
 ![Author](https://img.shields.io/badge/Author-Benjamin-orange)
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![GitHub stars](https://img.shields.io/github/stars/baidu/dperf.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.0-red)
+![Version](https://img.shields.io/badge/Version-V1.6.0-red)
 
 <https://github.com/baidu/dperf>
 
@@ -103,7 +103,7 @@ WMIHACKER是一款免杀横向渗透远程命令执行工具，常见的WMIEXEC�
 ![Author](https://img.shields.io/badge/Author-wh1t3p1g-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/wh1t3p1g/ysomap.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.1.3-red)
+![Version](https://img.shields.io/badge/Version-V0.1.4-red)
 
 <https://github.com/wh1t3p1g/ysomap>
 

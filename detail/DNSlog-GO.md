@@ -7,7 +7,6 @@
 ![Time](https://img.shields.io/badge/Join-20220316-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
-
 DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带多用户WEB界面
 
 演示截图:
@@ -22,6 +21,15 @@ DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带多�
 # 1.获取发行版
 
 这里 https://github.com/lanyi1998/DNSlog-GO/releases 下载最新发行版,并解压
+
+或者docker启动
+```shell
+wget https://raw.githubusercontent.com/lanyi1998/DNSlog-GO/master/config.yaml
+#修改你的config.yaml文件
+docker run -d -p 53:53 -p 53:53/udp -p 8000:8000 -v `pwd`/config.yaml:/DNSlog-GO/config.yaml --name dnslog --privileged lanyi1998/dnslog-go:latest
+#设置开机启动
+docker update --restart=always dnslog
+```
 
 # 2.域名与公网 IP 准备
 
@@ -118,7 +126,6 @@ requests.post(url, json=payload)
 if dns.checkDomain(subDomain):
     print("存在FastJosn")
 ```
-
 
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关

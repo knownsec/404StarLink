@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-wh1t3p1g-orange)
 ![GitHub stars](https://img.shields.io/github/stars/wh1t3p1g/ysomap.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.1.3-red)
+![Version](https://img.shields.io/badge/Version-V0.1.4-red)
 ![Time](https://img.shields.io/badge/Join-20211122-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -87,6 +87,16 @@ CommonsCollection1和3，在分析时我们可以看到实际1和3的区别在�
 - 2021-11-24 发布文章[《ysomap : Java反序列化利用框架》](https://mp.weixin.qq.com/s/WluThXve9hLoJQ8hnyfLgA)
 
 ## 最近更新
+
+#### [v0.1.4] - 2022-10-15
+
+**更新**  
+- 新增 16 exploits, 12 payloads, 9 bullets  
+- 新增 yso 脚本支持  
+- 使用 `script /path/to/file.yso` 加载 yso 脚本(cli 模式下)  
+- 使用 `dump /path/to/file.yso` 导出当前会话设置(cli 模式下)  
+- 使用 `java -jar ysomap.jar cli` 触发 cli 模式   
+- 使用 `java -jar ysomap.jar script /path/to/file.yso` 触发脚本模式
 
 #### [v0.1.3] - 2022-04-15
 

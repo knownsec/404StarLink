@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![Author](https://img.shields.io/badge/Author-Benjamin-orange)
 ![GitHub stars](https://img.shields.io/github/stars/baidu/dperf.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.0-red)
+![Version](https://img.shields.io/badge/Version-V1.6.0-red)
 ![Time](https://img.shields.io/badge/Join-20230410-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -136,5 +136,26 @@ ierrors 0                  oerrors  0                  imissed  0
 
 
 ## 最近更新
+
+#### [v1.6.0] - 2023-10-10
+
+**新增**  
+- dperf 服务器可返回较大的 payload  
+- 现在可使用 l3/l3l4 的网卡 RSS 分流算法  
+
+**改动**  
+- 最小本地端口范围可以设置为 1  
+- 优化移除了 lport_range 之外的无用 socket  
+- 将文档移至 dperf.org  
+- 调整最大的 MTU 默认值  
+
+**修复**  
+- 修复 udp 连接数为负数的问题  
+- 启动失败时将打印更多信息  
+- 修复拼写错误和表达问题  
+- 修复查找端口 id 时的错误  
+- 修复创建新连接时长计算的错误  
+- 仅当启用 http 时才能配置 http_host 或 http_path  
+- 修复 dpdk-18.11 上构建错误的问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

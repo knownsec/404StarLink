@@ -140,6 +140,7 @@ The educational version shares a large amount of code with Tai-e, thus doing the
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
+- 2023-10-08 发布演示视频[程序分析框架“太阿”与安全漏洞的那些事之Log4Shell篇](https://www.bilibili.com/video/BV1ez4y1F7VB/)
 
 ## 最近更新
 
