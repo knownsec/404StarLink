@@ -3,11 +3,13 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/vArmor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.5.3-red)
+![Version](https://img.shields.io/badge/Version-V0.5.4-red)
 ![Time](https://img.shields.io/badge/Join-20230831-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
-**vArmor** 是一个云原生容器沙箱系统，它借助 Linux 的 LSM 技术（AppArmor & BPF）实现强制访问控制器（即 enforcer），从而对容器进行安全加固。它可以用于增强容器隔离性、减少内核攻击面、增加容器逃逸或横行移动攻击的难度与成本。**vArmor** 遵循 Kubernetes Operator 设计模式，用户可通过操作 CRD API 对特定的 Workload 进行加固。从而以更贴近业务的视角，实现对容器化微服务的沙箱加固。此外 **vArmor** 还包含多种内置加固策略，具备开箱即用的特性。
+## 简介
+
+**vArmor** 是一个云原生容器沙箱系统，它借助 Linux 的 LSM 技术（AppArmor & BPF）实现强制访问控制器（即 enforcer），从而对容器进行安全加固。它可以用于增强容器隔离性、减少内核攻击面、增加容器逃逸或横行移动攻击的难度与成本。**vArmor** 遵循 Kubernetes Operator 设计模式，用户可通过操作 CRD API 对特定的 Workload 进行加固。从而以更贴近业务的视角，实现对容器化微服务的沙箱加固。此外 **vArmor** 还包含多种内置加固规则，具备开箱即用的特性。
 
 你可以借助 **vArmor** 在以下场景对 Kubernetes 集群中的容器进行沙箱防护
 * 业务场景存在多租户（多租户共享同一个集群），由于成本、技术条件等原因无法使用硬件虚拟化容器（如 Kata Container）
@@ -17,8 +19,8 @@
 **vArmor** 通过以下技术实现云原生容器沙箱
 * 借助 Linux 的 AppArmor 或 BPF LSM，在内核中对容器进程进行强制访问控制（文件、程序、网络外联等）
 * 为减少性能损失和增加易用性，**vArmor** 的安全模型为 Allow by Default，即只有显式声明的行为会被阻断
-* 用户通过操作 CRD 实现对指定 Workload 中的容器进行沙箱加固
-* 用户可以通过选择和配置沙箱策略（预置策略、自定义策略）来对容器进行强制访问控制。预置策略包含一些常见的提权阻断、渗透入侵防御策略。
+* 用户通过操作自定义对象（参见 [Custom Resources](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/)）实现对指定 Workloads 中的容器进行沙箱加固
+* 用户可以通过选择和配置沙箱规则（内置规则、自定义规则）来对容器进行强制访问控制。内置规则包含一些常见的提权阻断、渗透入侵防御策略。
 
 **vArmor** 由字节跳动终端安全团队的 **Elkeid Team** 研发，目前该项目仍在积极迭代中。
 
@@ -36,34 +38,30 @@
 |BPF         |1. Linux Kernel 5.7 及以上版本<br>2. containerd v1.6.0 及以上版本<br>3. 系统需开启 BPF LSM|EKS with Amazon Linux 2<br>GKE with Container-Optimized OS<br>AKS with Ubuntu 22.04 LTS <sup>\*</sup><br>ACK with Alibaba Cloud Linux 3 <sup>\*</sup><br>OpenSUSE 15.4  <sup>\*</sup><br>Debian 11 <sup>\*</sup><br>Fedora 37 等<br><br>* *需手动启用节点的 BPF LSM*
 
 
-## 内置策略
-**vArmor** 提供 5 种类型的内置策略和自定义接口，以满足不同的防护需求。由于 AppArmor LSM 和 BPF LSM 的差异，不同 enforcer 所支持的规则和语法会有所区别。
+## 内置规则
+**vArmor** 提供 5 种类型的[内置规则](https://github.com/bytedance/vArmor/blob/main/docs/built_in_rules.zh_CN.md#%E5%86%85%E7%BD%AE%E8%A7%84%E5%88%99)和自定义接口，以满足不同的防护需求。
 
 |类型|说明|
 |-------------------------|----------------------------------------------------------------------------------|
 | Always Allow            | 在容器启动时不对其施加任何限制，可在稍后变更配置，从而在无需重启工作负载的情况下动态调整防护策略。|
-| Runtime Default         | 使用与容器运行时组件相同的默认策略进行基础防护，防护强度较弱。（如 containerd 的 [cri-containerd.apparmor.d](https://github.com/containerd/containerd/blob/main/contrib/apparmor/template.go)）|
-| Hardening               | 对容器进行加固，减少攻击面的策略。包括：<br>* 阻断特权容器的常见逃逸向量<br>* 禁用 capabilities<br>* 阻断部分内核漏洞利用向量|
-| Attack Protection       | 针对黑客渗透入侵手法进行防护的策略。从而增加攻击的难度和成本，进行纵深防御。包括：<br>* 容器信息泄露缓解<br>* 禁止执行敏感行为<br>* 对特定可执行文件进行沙箱限制（仅限 AppArmor enforcer）|
-| Vulnerability Mitigation| 针对由不安全配置导致的漏洞、特定 0day 漏洞、由软件 feature 导致的安全漏洞，在漏洞被修复前提供防护策略，阻断或增加漏洞利用的难度<br>（注：取决于漏洞类型或漏洞利用向量）。|
-
-详见 [内置策略](https://github.com/bytedance/vArmor/blob/main/docs/policy_manual.zh_CN.md#%E5%86%85%E7%BD%AE%E7%AD%96%E7%95%A5-wip) ，你可以根据 [系统接口](https://github.com/bytedance/vArmor/blob/main/docs/usage_instructions.zh_CN.md#%E7%B3%BB%E7%BB%9F%E6%8E%A5%E5%8F%A3) 为工作负载定义沙箱策略。
-
-*注意：不同 enforcer 所支持的内置策略与语法仍旧处于开发中。*
+| Runtime Default         | 使用与容器运行时组件相同的默认规则进行基础防护，防护强度较弱。（如 containerd 的 [cri-containerd.apparmor.d](https://github.com/containerd/containerd/blob/main/contrib/apparmor/template.go)）|
+| Hardening               | 对容器进行加固，减少攻击面的规则。包括：<br>* 阻断特权容器的常见逃逸向量<br>* 禁用 capabilities<br>* 阻断部分内核漏洞利用向量|
+| Attack Protection       | 针对黑客渗透入侵手法进行防护的规则。从而增加攻击的难度和成本，进行纵深防御。包括：<br>* 容器信息泄露缓解<br>* 禁止执行敏感行为<br>* 对特定可执行文件进行沙箱限制（仅限 AppArmor enforcer）|
+| Vulnerability Mitigation| 针对由不安全配置导致的漏洞、特定 0day 漏洞、由软件 feature 导致的安全漏洞，在漏洞被修复前提供防护，阻断或增加漏洞利用的难度<br>（注：取决于漏洞类型或漏洞利用向量）。|
 
 
 ## 快速上手
+**更多配置项和使用说明详见 [使用说明](https://github.com/bytedance/vArmor/blob/main/docs/usage_instructions.zh_CN.md)**
+
 ### Step 1. 拉取 chart 包
 ```
-helm pull oci://elkeid-cn-beijing.cr.volces.com/varmor/varmor --version 0.5.2
+helm pull oci://elkeid-cn-beijing.cr.volces.com/varmor/varmor --version 0.5.4
 ```
 
 ### Step 2. 安装
-**vArmor** 的某些功能需在安装时进行配置，详见 [配置选项](https://github.com/bytedance/vArmor/blob/main/docs/usage_instructions.zh_CN.md#%E9%85%8D%E7%BD%AE%E9%80%89%E9%A1%B9)
 ```
-kubectl create ns varmor
-helm install varmor varmor-0.5.2.tgz \
-    -n varmor \
+helm install varmor varmor-0.5.4.tgz \
+    --namespace varmor --create-namespace \
     --set image.registry="elkeid-cn-beijing.cr.volces.com"
 ```
 
@@ -129,6 +127,17 @@ vArmor 在研发初期参考了 [Nirmata](https://nirmata.com/) 开发的 [kyver
 
 
 ## 最近更新
+
+#### [v0.5.4] - 2023-10-19
+
+**更新**  
+- 为 BPF 强制访问控制器增加 mount 系统调用的强制访问控制原语  
+- 为 BPF 强制访问控制器添加新的内置规则，包括 disallow-mount、disallow-umount 等  
+- 微调部分强制访问控制器的内置规则，使其更加精确并避免非预期行为  
+- 默认情况下在 RuntimeDefault 规则之上构建增强的保护规则  
+- 改进 BPF 强制执行器的 RuntimeDefault 模式  
+- 引入集群范围的策略接口：VarmorClusterPolicy CR  
+- 文档优化
 
 #### [v0.5.3] - 2023-09-12
 

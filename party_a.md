@@ -97,7 +97,7 @@ Appshark 是一个针对安卓的静态分析工具，它的设计目标是针�
 OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复杂规则编写。提供了常规的 HTTP 字段规则配置，还提供了 IP 黑白名单、访问频次等配置，对于 CC 防护更提供的特定的规则算法，并且支持搭建集群进行防护。
 
 ### [Tai-e](detail/Tai-e.md)
-![Author](https://img.shields.io/badge/Author-pascal-lab-orange)
+![Author](https://img.shields.io/badge/Author-pascal_lab-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/pascal-lab/Tai-e.svg?style=flat&logo=github)
 ![Version](https://img.shields.io/badge/Version-V0.2.2-red)
@@ -130,7 +130,7 @@ Tai-e（太阿）是一个通用型Java程序分析框架，包含了开发程�
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/vArmor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.5.3-red)
+![Version](https://img.shields.io/badge/Version-V0.5.4-red)
 
 <https://github.com/bytedance/vArmor>
 

@@ -97,7 +97,7 @@ rakshasa是一个使用Go语言编写的强大多级代理工具，专为实现�
 ![Author](https://img.shields.io/badge/Author-yzddmr6-orange)
 ![Language](https://img.shields.io/badge/Language-JavaScript-blue)
 ![GitHub stars](https://img.shields.io/github/stars/yzddmr6/As-Exploits.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.0-red)
+![Version](https://img.shields.io/badge/Version-V1.5.0-red)
 
 <https://github.com/yzddmr6/As-Exploits>
 

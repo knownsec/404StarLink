@@ -1,7 +1,7 @@
 ## Tai-e <https://github.com/pascal-lab/Tai-e>
 <!--auto_detail_badge_begin_0b490ffb61b26b45de3ea5d7dd8a582e-->
 ![Language](https://img.shields.io/badge/Language-Java-blue)
-![Author](https://img.shields.io/badge/Author-pascal-lab-orange)
+![Author](https://img.shields.io/badge/Author-pascal_lab-orange)
 ![GitHub stars](https://img.shields.io/github/stars/pascal-lab/Tai-e.svg?style=flat&logo=github)
 ![Version](https://img.shields.io/badge/Version-V0.2.2-red)
 ![Time](https://img.shields.io/badge/Join-20230913-green)
@@ -147,31 +147,31 @@ The educational version shares a large amount of code with Tai-e, thus doing the
 #### [v0.2.2] - 2023-09-23
 
 **新功能**  
-  
-* 添加选项--app-class-path  
-* 添加选项--keep-results  
-* 添加选项--output-dir  
-* 添加选项-wc, --world-cache-mode  
-* 添加 def-use 分析  
-* 添加 dominator-finding 算法  
-* 添加类、函数和字段的通用签名信息  
-* 添加文档源文件  
-* 污点分析  
-  * 支持函数形参和实参的污点源  
-  * 支持字段加载的污点源  
-  * 支持函数参数的污点清理  
-  * 转储污点流程图  
-  * 支持加载多个污点配置文件  
-  * 支持变量和实例字段/数组元素之间的污点传输  
-  * 支持 call-site 模式  
-* 指针分析  
-  * 支持添加程序的入口点进行分析  
-  * 支持设置分析时间限制  
-  * 支持原始类型值的传播  
-  * 支持基于推理和基于日志的混合反射分析  
-  * 添加 Solar 反射分析 (TOSEM'19)  
-  * 支持基于注释的调用处理程序注册  
-  * 支持转储 YAML 格式的指针分析集合。  
-* 更多详细更新内容：https://github.com/pascal-lab/Tai-e/releases
+- 添加选项--app-class-path, 指定 application 类的路径  
+- 添加选项--keep-results, 支持运行时只保留必要的分析结果, 节省内存  
+- 添加选项--output-dir, 可指定分析结果输出目录  
+- 添加选项-wc,--world-cache-mode, 可缓存World, 加速多次分析同一程序的启动时间  
+- 添加 def-use 分析  
+- 添加 dominator-finding 算法  
+- 添加类、方法与字段的泛型签名信息  
+- 将文档源文件包含进仓库中, 实现文档与代码版本的对应  
+- 污点分析  
+  - 支持指定方法形参以及实参作为污点源  
+  - 支持指定字段读取作为污点源  
+  - 支持为方法形参配置污点消毒器(sanitizer)  
+  - 自动输出污点流图  
+  - 支持加载多个污点配置文件  
+  - 支持变量和实例字段/数组元素之间的污点转移  
+  - 支持 call-site 模式  
+- 指针分析  
+  - 支持添加程序的入口点进行分析  
+  - 支持设置分析时间限制  
+  - 支持原子类型值的传播  
+  - 支持基于推导和基于日志的混合反射分析  
+  - 添加 Solar 反射分析(TOSEM'19)  
+  - 支持以注解的方式注册的调用处理程序  
+  - 支持转储 YAML 格式的指针分析结果  
+更多详细更新内容:https://github.com/pascal-lab/Tai-e/releases  
+
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
