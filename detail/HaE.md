@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.5.0-red)
+![Version](https://img.shields.io/badge/Version-V2.5.5-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -57,49 +57,39 @@
 
 ## 最近更新
 
-#### [v2.5.0] - 2023-10-12
-
-**功能升级**  
-- 将所有匹配到的数据、HTTP请求和响应集中到Databoard中，实现一体化查询功能  
-- 在Databoard中支持双击匹配到的数据并展示相应的HTTP报文条目，简化繁琐的搜索过程  
-
-**性能优化**  
-- 建立缓存池，利用HTTP请求和响应作为索引来缓存匹配数据，减少重复匹配，提高效率倍速  
-- 对于Databoard中的HTTP报文，采用预加载UI显示，在后台线程加载报文，减少超大报文导致的卡顿问题  
-
-**其他改进**  
-- 修复了一系列的BUG，包括但不限于Databoard查询数据缺失和通配符查询逻辑缺陷
-
-#### [v2.4.8] - 2023-10-01
+#### [v2.5.5] - 2023-10-26
 
 **更新**  
-- HaE初始化自动加载官方规则库，让用户体验更佳  
-- 规则文件层次结构发生变化：rules -> group -> rule -> xxx  
-- 优化项目代码、调整项目目录结构，通俗易懂更便于阅读和二次开发  
-- Databoard新增`**`查询条件，可以查看所有数据，并以域名的方式单独展示对应数据  
-- 命名规范统一化：原`Config.yml`修改为`Rules.yml`，原`Setting.yml`修改为`Config.yml`
+- 优化Databoard匹配数据表单搜索大小写敏感问题  
+- 修复Databoard消息内容表单表头排序错乱问题
 
-#### [v2.4.7] - 2023-09-28
+#### [v2.5.4] - 2023-10-24
 
 **更新**  
-- 新增MarkInfo/Databoard数据展示表单表头排序功能  
-- 新增数据匹配量显示功能，作用于Comment及MarkInfo、Databoard数据展示表单  
-- 新增Databoard数据查询全量信息，在搜索框中输入*号即可查看HaE匹配到的所有数据  
-- 解决Databoard数据全局Map直接引用修改导致数据不全问题  
-- 解决Databoard数据存储非二级域名、非域名的模糊条件问题
+- 修复Databoard中HTTP消息内容框自动去重不完整问题  
+- 修复BurpSuite暗黑主题下Databoard下拉框消失问题  
+- UI界面进行小幅度调整，主要加入了HaE的Logo与标语
 
-#### [v2.4.6] - 2023-02-22
+#### [v2.5.3] - 2023-10-23
 
 **更新**  
-- 加入多线程对数据进行匹配和提取，减少卡顿现象  
-- 变更配置文件更新地址为jsdelivr的CDN节点地址，优化国内用户体验
+- 在 Databoard 面板中新增了匹配数据搜索功能，能够快速从匹配列表中找到有价值的关键数据  
+- 在 Databoard 面板的 HTTP 消息内容表单添加了 Status 字段，用于过滤响应状态码  
+- Databoard 面板的 HTTP 消息内容表单支持自动去重，不再显示重复的 HTTP 消息
 
-#### [v2.4.5] - 2022-12-18
+#### [v2.5.2] - 2023-10-19
 
 **更新**  
-- 在线更新配置信息功能添加提示框, 防止用户误触导致配置被更新  
-- 数据聚合查询面板添加支持通配符域名查找  
-- 数据聚合查询面板添加清空数据功能, 便于用户查看最新数据  
-- 新增规则作用域: any header(请求与响应头)/any body(请求与响应主体)
+- Databoard 消息内容框现在支持 Burp Suite Dark 主题模式  
+- Databoard 消息内容框的高亮颜色和选中颜色与 Burp Suite 保持同步  
+- 增加配置目录，以便在离线环境中携带  
+- 通过独立线程使用 Burp Suite 官方请求接口获取规则，解决了由于规则拉取导致页面卡顿的问题
+
+#### [v2.5.1] - 2023-10-18
+
+**更新**  
+- 修复Databoard双击数据查询，定位数据包编码问题  
+- 修复Comment重复标记，并合并相加匹配数量  
+- 增加修改按钮弹窗提示，优化用户体验
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

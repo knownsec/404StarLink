@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.2.1-red)
+![Version](https://img.shields.io/badge/Version-V1.2.2-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -151,6 +151,12 @@ go env -w GO111MODULE=on
 
 ## 最近更新
 
+#### [v1.2.2] - 2023-10-27
+
+**更新**  
+- 修复数据库初始化逻辑问题  
+- 升级前端组件版本
+
 #### [v1.2.1] - 2023-08-21
 
 **更新**  
@@ -181,16 +187,5 @@ go env -w GO111MODULE=on
 **Added**  
 - 增加 switchRuleStatus 权限初始化  
 - github client 初始化增加 httpcache
-
-#### [v1.1.2] - 2023-01-18
-
-**Fixed**  
-- 修复执行过滤任务时未成功忽略仓库的问题  
-- 修复 deleted_at 字段造成的初始化失败的问题  
-- 修复字段问题导致忽略单个结果失败的问题  
-
-**Added**  
-- 增加仅展示二次过滤的结果  
-- 增加 getTaskStatus API 权限初始化
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

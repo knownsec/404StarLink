@@ -10,9 +10,10 @@
 8. [OpenStar](#openstar)
 9. [Tai-e](#tai-e)
 10. [GShark](#gshark)
-11. [Juggler](#juggler)
-12. [vArmor](#varmor)
-13. [Hades](#hades)
+11. [AppScan](#appscan)
+12. [Juggler](#juggler)
+13. [vArmor](#varmor)
+14. [Hades](#hades)
 
 ----------------------------------------
 
@@ -110,11 +111,21 @@ Tai-e（太阿）是一个通用型Java程序分析框架，包含了开发程�
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.2.1-red)
+![Version](https://img.shields.io/badge/Version-V1.2.2-red)
 
 <https://github.com/madneal/gshark>
 
 一款开源敏感信息检测系统，可以监测包括 GitHub, GitLab(支持私有部署版本), Postman, searchcode 多个平台的敏感信息监测。
+
+### [AppScan](detail/AppScan.md)
+![Author](https://img.shields.io/badge/Author-TongchengOpenSource-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/TongchengOpenSource/AppScan.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.0.10-red)
+
+<https://github.com/TongchengOpenSource/AppScan>
+
+安全隐私卫士（AppScan）一款免费的企业级自动化App隐私合规检测工具
 
 ### [Juggler](detail/Juggler.md)
 ![Author](https://img.shields.io/badge/Author-C4o-orange)
