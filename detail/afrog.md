@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.8.9-red)
+![Version](https://img.shields.io/badge/Version-V2.9.1-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,12 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v2.9.1] - 2023-11-01
+
+**更新**  
+- 为解决 2.9.0 版本干扰漏洞探测结果的问题，建议升级至 2.9.1，或使用更低版本  
+- 新增 -resume 命令，使用指定的 afrog-resume.cfg 文件恢复扫描
+
 #### [v2.8.9] - 2023-10-15
 
 **新增**  
@@ -175,12 +181,5 @@ afrog -t https://example.com -ja result.json
 
 **优化**  
 - afrog API 已同步最新功能
-
-#### [v2.7.9] - 2023-08-20
-
-**更新**  
-- 解决 console 输出内容被转义问题  
-- 解决了使用`go install ..afrog/v2`命令时版本不正确的问题  
-- 新增 24 PoC，共 1105 个 PoC
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
