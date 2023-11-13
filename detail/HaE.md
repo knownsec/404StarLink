@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.5.5-red)
+![Version](https://img.shields.io/badge/Version-V2.5.7-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -57,6 +57,22 @@
 
 ## 最近更新
 
+#### [v2.5.7] - 2023-11-13
+
+**更新**  
+- 在MarkInfo表单中，新增展示全部数据功能  
+- 修复Databoard中双击数据时匹配错误的问题  
+- 修复Databoard中清空数据不完全的问题
+
+#### [v2.5.6] - 2023-11-07
+
+**更新**  
+- MarkInfo数据提取表单增加搜索框，便于寻找想要的数据信息  
+- 数据表单增加#（即ID字段），便于清晰数据展示的具体条数  
+- 数据表单增加滑动滚轮加载数据模式，大于3000条则需要滚轮进行加载  
+- 消息内容表单过滤超大HTTP消息，当消息包大于3MB时则只截取3MB大小内容返回  
+- 修复Databoard数据展示表单监听逻辑错误，不再需要两个TabbedPane进行轮换
+
 #### [v2.5.5] - 2023-10-26
 
 **更新**  
@@ -76,20 +92,5 @@
 - 在 Databoard 面板中新增了匹配数据搜索功能，能够快速从匹配列表中找到有价值的关键数据  
 - 在 Databoard 面板的 HTTP 消息内容表单添加了 Status 字段，用于过滤响应状态码  
 - Databoard 面板的 HTTP 消息内容表单支持自动去重，不再显示重复的 HTTP 消息
-
-#### [v2.5.2] - 2023-10-19
-
-**更新**  
-- Databoard 消息内容框现在支持 Burp Suite Dark 主题模式  
-- Databoard 消息内容框的高亮颜色和选中颜色与 Burp Suite 保持同步  
-- 增加配置目录，以便在离线环境中携带  
-- 通过独立线程使用 Burp Suite 官方请求接口获取规则，解决了由于规则拉取导致页面卡顿的问题
-
-#### [v2.5.1] - 2023-10-18
-
-**更新**  
-- 修复Databoard双击数据查询，定位数据包编码问题  
-- 修复Comment重复标记，并合并相加匹配数量  
-- 增加修改按钮弹窗提示，优化用户体验
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

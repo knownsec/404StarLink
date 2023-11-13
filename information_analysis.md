@@ -8,6 +8,7 @@
 6. [MySQLMonitor](#mysqlmonitor)
 7. [js-cookie-monitor-debugger-hook](#js-cookie-monitor-debugger-hook)
 8. [CodeReviewTools](#codereviewtools)
+9. [Pillager](#pillager)
 
 ----------------------------------------
 
@@ -90,4 +91,14 @@ js cookie逆向利器：js cookie变动监控可视化工具 & js cookie hook打
 <https://github.com/Ppsoft1991/CodeReviewTools>
 
 CodeReviewTools是一个可以快速批量反编译jar包的工具，为审计Java代码做好第一步。
+
+### [Pillager](detail/Pillager.md)
+![Author](https://img.shields.io/badge/Author-qwqdanchun-orange)
+![Language](https://img.shields.io/badge/Language-C#-blue)
+![GitHub stars](https://img.shields.io/github/stars/qwqdanchun/Pillager.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+
+<https://github.com/qwqdanchun/Pillager>
+
+Pillager是一个适用于后渗透期间的信息收集工具，可以收集目标机器上敏感信息，方便下一步渗透工作的进行。
 
