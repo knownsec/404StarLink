@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.9.1-red)
+![Version](https://img.shields.io/badge/Version-V2.9.2-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,12 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v2.9.2] - 2023-11-16
+
+**更新**  
+- 新增 debug 参数，它可以在执行过程中打印更详细的请求和响应信息  
+- 优化响应 Header 头包含多个 Set-Cookie 情况，合并到一个 Set-Cookie
+
 #### [v2.9.1] - 2023-11-01
 
 **更新**  
@@ -171,15 +177,5 @@ afrog -t https://example.com -ja result.json
 - 新增备份文件检测的 PoC  
 - 自定义全局 cookie，不会覆盖原 POC 的 cookie  
 - 新增一批 HVV2023 PoCs
-
-#### [v2.8.0] - 2023-09-03
-
-**新增**  
-- 新增备份文件检测的 PoC  
-- 自定义全局 cookie，不会覆盖原 POC 的 cookie  
-- 新增一批 HVV2023 PoCs  
-
-**优化**  
-- afrog API 已同步最新功能
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

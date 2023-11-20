@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.5.7-red)
+![Version](https://img.shields.io/badge/Version-V2.5.8-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -23,6 +23,24 @@
 
 1. Linux/Mac用户的配置文件目录：`~/.config/HaE/`
 2. Windows用户的配置文件目录：`%USERPROFILE%/.config/HaE/`
+
+除此之外，您也可以选择将配置文件存放在`HaE Jar包`的同级目录下的`/.config/HaE/`中，**以便于离线携带**。
+
+### 规则释义
+
+HaE目前的规则一共有6个字段，分别是规则名称、规则正则、规则作用域、正则引擎、规则匹配颜色、规则敏感性。
+
+详细的含义如下所示：
+
+| 字段      | 含义                                                                                                                                                                                                   |
+|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Name      | 规则名称，主要用于简短概括当前规则的作用。                                                                                                                                                               |
+| Regex     | 规则正则，主要用于填写正则表达式。在HaE中所需提取匹配的内容需要用`(`、`)`将正则表达式进行包裹。                                                                                                            |
+| Scope     | 规则作用域，主要用于表示当前规则作用与HTTP报文的哪个部分。                                                                                                                                               |
+| Engine    | 正则引擎，主要用于表示当前规则的正则表达式所使用的引擎。**DFA引擎**：对于文本串里的每一个字符只需扫描一次，速度快、特性少；**NFA引擎**：要翻来覆去标注字符、取消标注字符，速度慢，但是特性（如:分组、替换、分割）丰富。 |
+| Color     | 规则匹配颜色，主要用于表示当前规则匹配到对应HTTP报文时所需标记的高亮颜色。                                                                                                                               |
+| Sensitive | 规则敏感性，主要用于表示当前规则对于大小写字母是否敏感，敏感（`True`）则严格按照大小写要求匹配，不敏感（`False`）则反之。                                                                                      |
+
 
 ## 优势特点
 
@@ -51,11 +69,18 @@
 
 ![-w1047](https://github.com/gh0stkey/HaE/raw/master/images/markinfo.png)
 
+
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
 
 ## 最近更新
+
+#### [v2.5.8] - 2023-11-16
+
+**更新**  
+- 修复Databoard输入框卡顿问题  
+- 修复Databoard消息内容表单数据展示不完全问题
 
 #### [v2.5.7] - 2023-11-13
 
@@ -85,12 +110,5 @@
 - 修复Databoard中HTTP消息内容框自动去重不完整问题  
 - 修复BurpSuite暗黑主题下Databoard下拉框消失问题  
 - UI界面进行小幅度调整，主要加入了HaE的Logo与标语
-
-#### [v2.5.3] - 2023-10-23
-
-**更新**  
-- 在 Databoard 面板中新增了匹配数据搜索功能，能够快速从匹配列表中找到有价值的关键数据  
-- 在 Databoard 面板的 HTTP 消息内容表单添加了 Status 字段，用于过滤响应状态码  
-- Databoard 面板的 HTTP 消息内容表单支持自动去重，不再显示重复的 HTTP 消息
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

@@ -62,8 +62,8 @@
     * [AppScan](#appscan)
     * [MySQLMonitor](#mysqlmonitor)
     * [js-cookie-monitor-debugger-hook](#js-cookie-monitor-debugger-hook)
-    * [CodeReviewTools](#codereviewtools)
     * [Pillager](#pillager)
+    * [CodeReviewTools](#codereviewtools)
 
 * [内网工具/intranet_tools](#内网工具intranet_tools)
     * [fscan](#fscan)
@@ -255,7 +255,7 @@ Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检�
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.5.7-red)
+![Version](https://img.shields.io/badge/Version-V2.5.8-red)
 
 <https://github.com/gh0stkey/HaE>
 
@@ -348,7 +348,7 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.9.1-red)
+![Version](https://img.shields.io/badge/Version-V2.9.2-red)
 
 <https://github.com/zan8in/afrog>
 
@@ -630,16 +630,6 @@ MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具)
 
 js cookie逆向利器：js cookie变动监控可视化工具 & js cookie hook打条件断点
 
-### [CodeReviewTools](detail/CodeReviewTools.md)
-![Author](https://img.shields.io/badge/Author-Ppsoft1991-orange)
-![Language](https://img.shields.io/badge/Language-Java-blue)
-![GitHub stars](https://img.shields.io/github/stars/Ppsoft1991/CodeReviewTools.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.1.0-red)
-
-<https://github.com/Ppsoft1991/CodeReviewTools>
-
-CodeReviewTools是一个可以快速批量反编译jar包的工具，为审计Java代码做好第一步。
-
 ### [Pillager](detail/Pillager.md)
 ![Author](https://img.shields.io/badge/Author-qwqdanchun-orange)
 ![Language](https://img.shields.io/badge/Language-C#-blue)
@@ -649,6 +639,16 @@ CodeReviewTools是一个可以快速批量反编译jar包的工具，为审计Ja
 <https://github.com/qwqdanchun/Pillager>
 
 Pillager是一个适用于后渗透期间的信息收集工具，可以收集目标机器上敏感信息，方便下一步渗透工作的进行。
+
+### [CodeReviewTools](detail/CodeReviewTools.md)
+![Author](https://img.shields.io/badge/Author-Ppsoft1991-orange)
+![Language](https://img.shields.io/badge/Language-Java-blue)
+![GitHub stars](https://img.shields.io/github/stars/Ppsoft1991/CodeReviewTools.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.1.0-red)
+
+<https://github.com/Ppsoft1991/CodeReviewTools>
+
+CodeReviewTools是一个可以快速批量反编译jar包的工具，为审计Java代码做好第一步。
 
 
 
