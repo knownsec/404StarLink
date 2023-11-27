@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V20230924-red)
+![Version](https://img.shields.io/badge/Version-V20231125-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -79,6 +79,12 @@
 
 ## 最近更新
 
+#### [v20231125] - 2023-11-25
+
+**修复**  
+- 修复渗透服务连接失败,请检查MSFRPC状态的问题  
+- 修复安装完成后访问Web页面时报502错误的问题
+
 #### [v20230924] - 2023-09-24
 
 **新功能**  
@@ -129,26 +135,5 @@
 - 修复Session心跳显示999,msfrpc状态正常,界面显示渗透服务心跳异常  
 - 修复session文件下载报错的问题  
 - 修复多次重启后会重复添加缓存的监听的问题
-
-#### [v1.6.4] - 2023-08-21
-
-**新功能**  
-- 新增判断Session是否运行在容器中模块  
-
-**优化**  
-- session通过鼠标提示展示英文的地理位置信息  
-- Viper通过CI自动更新Geolite数据库  
-- Viper当前通过CI自动构建  
-- 优化模块运行部分前端提示信息  
-- 优化viperpython日志格式  
-- 提高运行信息执行速度  
-- 渗透服务异常时日志更详细说明异常类型  
-- 合并metasploit-framework 6.3.31版本  
-
-**Bugfix**  
-- 修复Session心跳显示999,msfrpc状态正常,界面显示渗透服务心跳异常  
-- 修复session下载文件时会偶发性的下载了1m中断  
-- 修复已经上线的session界面未显示  
-- 修复日志逻辑问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

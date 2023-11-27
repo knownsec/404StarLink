@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.2.2-red)
+![Version](https://img.shields.io/badge/Version-V1.2.4-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -151,6 +151,12 @@ go env -w GO111MODULE=on
 
 ## 最近更新
 
+#### [v1.2.4] - 2023-11-26
+
+**更新**  
+- 修复 task 表初始化的问题  
+- 增加 nginx 配置全文
+
 #### [v1.2.2] - 2023-11-19
 
 **更新**  
@@ -178,15 +184,5 @@ go env -w GO111MODULE=on
 
 **Added**  
 - 增加 startSecFilterTask 以及 getTaskStatus API 权限初始化
-
-#### [v1.1.3] - 2023-01-31
-
-**Fixed**  
-- 修复变更规则错误的问题  
-- 修复搜索代码结果错误的问题  
-
-**Added**  
-- 增加 switchRuleStatus 权限初始化  
-- github client 初始化增加 httpcache
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

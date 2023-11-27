@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-TongchengOpenSource-orange)
 ![GitHub stars](https://img.shields.io/github/stars/TongchengOpenSource/AppScan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.10-red)
+![Version](https://img.shields.io/badge/Version-V2.1.2-red)
 ![Time](https://img.shields.io/badge/Join-20231025-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -86,5 +86,23 @@ AppScan 这款隐私合规检测工具, 它是一款基于动态分析, 可以
 
 
 ## 最近更新
+
+#### [v2.1.2] - 2023-11-25
+
+**新功能**  
+- 支持雷电模拟器9  
+- 更新frida到16.1.4  
+- 更新adb到RC14.0.5  
+
+**优化**  
+- 迁移更新源到githubRelease  
+- '关于我们'菜单优化  
+- 增加错误日志记录堆栈信息  
+
+**修复**  
+- 修复打标页面描述错误与错位  
+- 修复android13兼容问题  
+- 修复打标文案错乱问题  
+- 修复app信息缺失导致的panic问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
