@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.9.2-red)
+![Version](https://img.shields.io/badge/Version-V2.9.3-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,14 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v2.9.3] - 2023-11-27
+
+**更新**  
+- 新增 -sort 参数，命令 -sort a-z 按 PoC 首字母顺序扫描，默认按 PoC 漏洞等级从低到高顺序扫描  
+- 新增 versionCompare 函数，用于比较版本号大小  
+- 新增 ActiveMQ RCE 漏洞检测  
+- 优化 -web 命令的报告模板，使其与 report 模板一致
+
 #### [v2.9.2] - 2023-11-16
 
 **更新**  
@@ -170,12 +178,5 @@ afrog -t https://example.com -ja result.json
 **更新**  
 - 新增 -web 命令用于启动一个 Web 服务，用于查看漏洞报告  
 - 更新一部分 PoCs
-
-#### [v2.8.1] - 2023-09-18
-
-**更新**  
-- 新增备份文件检测的 PoC  
-- 自定义全局 cookie，不会覆盖原 POC 的 cookie  
-- 新增一批 HVV2023 PoCs
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

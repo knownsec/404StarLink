@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.2.4-red)
+![Version](https://img.shields.io/badge/Version-V1.3.0-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -151,6 +151,15 @@ go env -w GO111MODULE=on
 
 ## 最近更新
 
+#### [v1.3.0] - 2023-12-03
+
+**新增**  
+- 发布 Docker 版本，通过 Docket 快速启动  
+- 增加 Docker 启动说明，更新 Docker 版本使用视频  
+
+**修复**  
+- 修复任务管理菜单初始化问题
+
 #### [v1.2.4] - 2023-11-26
 
 **更新**  
@@ -175,14 +184,5 @@ go env -w GO111MODULE=on
 **更新**  
 - 任务无需通过命令行启动  
 - 通过 Web 直接管理扫描任务
-
-#### [v1.1.4] - 2023-02-15
-
-**Fixed**  
-- 修复无法变更规则状态的问题  
-- 增加新增 token 的 postman 类型  
-
-**Added**  
-- 增加 startSecFilterTask 以及 getTaskStatus API 权限初始化
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
