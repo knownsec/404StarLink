@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.0-red)
+![Version](https://img.shields.io/badge/Version-V1.4.0-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -97,23 +97,6 @@ npm run serve
 
 ## 运行
 
-```
-USAGE:
-   gshark [global options] command [command options] [arguments...]
-
-COMMANDS:
-     web      Startup a web Service
-     scan     Start to scan github leak info
-     help, h  Show a list of commands or help for one command
-
-GLOBAL OPTIONS:
-   --debug, -d             Debug Mode
-   --host value, -H value  web listen address (default: "0.0.0.0")
-   --port value, -p value  web listen port (default: 8000)
-   --time value, -t value  scan interval(second) (default: 900)
-   --help, -h              show help
-   --version, -v           print the version
-```
 
 ### 添加 Token
 
@@ -151,6 +134,12 @@ go env -w GO111MODULE=on
 
 ## 最近更新
 
+#### [v1.4.0] - 2023-12-09
+
+**更新**  
+- go-github 组件升级  
+- GitHub 扫描支持系统代理
+
 #### [v1.3.0] - 2023-12-03
 
 **新增**  
@@ -178,11 +167,5 @@ go env -w GO111MODULE=on
 **更新**  
 - 修复数据库初始化错误  
 - 依赖包安全升级
-
-#### [v1.2.0] - 2023-08-06
-
-**更新**  
-- 任务无需通过命令行启动  
-- 通过 Web 直接管理扫描任务
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
