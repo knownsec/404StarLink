@@ -5,8 +5,8 @@
 3. [frida-skeleton](#frida-skeleton)
 4. [java-object-searcher](#java-object-searcher)
 5. [AppScan](#appscan)
-6. [MySQLMonitor](#mysqlmonitor)
-7. [Pillager](#pillager)
+6. [Pillager](#pillager)
+7. [MySQLMonitor](#mysqlmonitor)
 8. [js-cookie-monitor-debugger-hook](#js-cookie-monitor-debugger-hook)
 9. [CodeReviewTools](#codereviewtools)
 
@@ -62,16 +62,6 @@ java内存对象搜索辅助工具，配合IDEA在Java应用运行时，对内�
 
 安全隐私卫士（AppScan）一款免费的企业级自动化App隐私合规检测工具
 
-### [MySQLMonitor](detail/MySQLMonitor.md)
-![Author](https://img.shields.io/badge/Author-TheKingOfDuck-orange)
-![Language](https://img.shields.io/badge/Language-Java-blue)
-![GitHub stars](https://img.shields.io/github/stars/TheKingOfDuck/MySQLMonitor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.0-red)
-
-<https://github.com/TheKingOfDuck/MySQLMonitor>
-
-MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具) 
-
 ### [Pillager](detail/Pillager.md)
 ![Author](https://img.shields.io/badge/Author-qwqdanchun-orange)
 ![Language](https://img.shields.io/badge/Language-C#-blue)
@@ -81,6 +71,16 @@ MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具)
 <https://github.com/qwqdanchun/Pillager>
 
 Pillager是一个适用于后渗透期间的信息收集工具，可以收集目标机器上敏感信息，方便下一步渗透工作的进行。
+
+### [MySQLMonitor](detail/MySQLMonitor.md)
+![Author](https://img.shields.io/badge/Author-TheKingOfDuck-orange)
+![Language](https://img.shields.io/badge/Language-Java-blue)
+![GitHub stars](https://img.shields.io/github/stars/TheKingOfDuck/MySQLMonitor.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.0.0-red)
+
+<https://github.com/TheKingOfDuck/MySQLMonitor>
+
+MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具) 
 
 ### [js-cookie-monitor-debugger-hook](detail/js-cookie-monitor-debugger-hook.md)
 ![Author](https://img.shields.io/badge/Author-JSREI-orange)

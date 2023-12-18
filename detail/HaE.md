@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.5.9-red)
+![Version](https://img.shields.io/badge/Version-V2.5.10-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -76,6 +76,12 @@ HaE目前的规则一共有6个字段，分别是规则名称、规则正则、�
 
 ## 最近更新
 
+#### [v2.5.10] - 2023-12-12
+
+**更新**  
+- 去除MarkInfo及Databoard数据展示表单分页展示数据功能，功能冗余不再需要  
+- 优化MarkInfo及Databoard数据展示表单正向与反向搜索功能，支持正则模式
+
 #### [v2.5.9] - 2023-11-28
 
 **BUG修复**  
@@ -110,11 +116,5 @@ HaE目前的规则一共有6个字段，分别是规则名称、规则正则、�
 - 数据表单增加滑动滚轮加载数据模式，大于3000条则需要滚轮进行加载  
 - 消息内容表单过滤超大HTTP消息，当消息包大于3MB时则只截取3MB大小内容返回  
 - 修复Databoard数据展示表单监听逻辑错误，不再需要两个TabbedPane进行轮换
-
-#### [v2.5.5] - 2023-10-26
-
-**更新**  
-- 优化Databoard匹配数据表单搜索大小写敏感问题  
-- 修复Databoard消息内容表单表头排序错乱问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
