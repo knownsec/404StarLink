@@ -49,8 +49,8 @@
     * [DNSlog-GO](#dnslog-go)
     * [Cloud-Bucket-Leak-Detection-Tools](#cloud-bucket-leak-detection-tools)
     * [Antenna](#antenna)
-    * [Redis-Rogue-Server](#redis-rogue-server)
     * [JYso](#jyso)
+    * [Redis-Rogue-Server](#redis-rogue-server)
     * [Cola-Dnslog](#cola-dnslog)
     * [MysqlT](#mysqlt)
 
@@ -348,7 +348,7 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.9.5-red)
+![Version](https://img.shields.io/badge/Version-V2.9.6-red)
 
 <https://github.com/zan8in/afrog>
 
@@ -517,16 +517,6 @@ Cloud-Bucket-Leak-Detection-Tools是一款针对云厂商存储桶扫描检测�
 
 Antenna是58同城安全团队打造的一款辅助安全从业人员辅助验证网络中多种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试( OAST)通过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标进行Out-of-bind的数据通信方式进行辅助检测。
 
-### [Redis-Rogue-Server](detail/Redis-Rogue-Server.md)
-![Author](https://img.shields.io/badge/Author-Dliv3-orange)
-![Language](https://img.shields.io/badge/Language-Python-blue)
-![GitHub stars](https://img.shields.io/github/stars/Dliv3/redis-rogue-server.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.0-red)
-
-<https://github.com/Dliv3/redis-rogue-server>
-
-Redis 4.x/Redis 5.x RCE利用脚本. 项目最初来源于 <https://github.com/n0b0dyCN/redis-rogue-server>
-
 ### [JYso](detail/JYso.md)
 ![Author](https://img.shields.io/badge/Author-qi4L-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
@@ -536,6 +526,16 @@ Redis 4.x/Redis 5.x RCE利用脚本. 项目最初来源于 <https://github.com/n
 <https://github.com/qi4L/JYso>
 
 JYso是一个可以用于 jndi 注入攻击和生成反序列化数据流的工具，既可以当 JNDIExploit 用也可以当作 ysoserial 使用。
+
+### [Redis-Rogue-Server](detail/Redis-Rogue-Server.md)
+![Author](https://img.shields.io/badge/Author-Dliv3-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/Dliv3/redis-rogue-server.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.0.0-red)
+
+<https://github.com/Dliv3/redis-rogue-server>
+
+Redis 4.x/Redis 5.x RCE利用脚本. 项目最初来源于 <https://github.com/n0b0dyCN/redis-rogue-server>
 
 ### [Cola-Dnslog](detail/Cola-Dnslog.md)
 ![Author](https://img.shields.io/badge/Author-AbelChe-orange)

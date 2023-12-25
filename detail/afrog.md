@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.9.5-red)
+![Version](https://img.shields.io/badge/Version-V2.9.6-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,12 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v2.9.6] - 2023-12-22
+
+**更新**  
+- 优化进行TCP PoC验证时，新增返回十六进制数据包类型的功能  
+- PoC总数：1266
+
 #### [v2.9.5] - 2023-12-06
 
 **更新**  
@@ -166,17 +172,5 @@ afrog -t https://example.com -ja result.json
 **更新**  
 - 为解决 2.9.0 版本干扰漏洞探测结果的问题，建议升级至 2.9.1，或使用更低版本  
 - 新增 -resume 命令，使用指定的 afrog-resume.cfg 文件恢复扫描
-
-#### [v2.8.9] - 2023-10-15
-
-**新增**  
-- 新增 -dingtalk 命令用于 Dingtalk webhook  
-
-**优化**  
-- Sqlite 入库错误重试功能，最大重试 5 次  
-- PoC：weblogic-panel、weblogic-weak-login  
-
-**删除**  
-- PoC：backup-files
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
