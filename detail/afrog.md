@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.9.6-red)
+![Version](https://img.shields.io/badge/Version-V2.9.8-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,18 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v2.9.8] - 2024-01-06
+
+**更新**  
+- 新增引入 ysoserial 函数，用于生成 Java 反序列化 payload  
+- 新增引入 aesCBC 函数
+
+#### [v2.9.7] - 2024-01-03
+
+**更新**  
+- 优化调整反连平台优先级逻辑，确保自建Eye反连平台具有最高优先权  
+- 优化花里胡哨的进度条，看起来炫，实际并没什么用
+
 #### [v2.9.6] - 2023-12-22
 
 **更新**  
@@ -160,17 +172,5 @@ afrog -t https://example.com -ja result.json
 - 新增 versionCompare 函数，用于比较版本号大小  
 - 新增 ActiveMQ RCE 漏洞检测  
 - 优化 -web 命令的报告模板，使其与 report 模板一致
-
-#### [v2.9.2] - 2023-11-16
-
-**更新**  
-- 新增 debug 参数，它可以在执行过程中打印更详细的请求和响应信息  
-- 优化响应 Header 头包含多个 Set-Cookie 情况，合并到一个 Set-Cookie
-
-#### [v2.9.1] - 2023-11-01
-
-**更新**  
-- 为解决 2.9.0 版本干扰漏洞探测结果的问题，建议升级至 2.9.1，或使用更低版本  
-- 新增 -resume 命令，使用指定的 afrog-resume.cfg 文件恢复扫描
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
