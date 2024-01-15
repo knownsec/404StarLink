@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-moonD4rk-orange)
 ![GitHub stars](https://img.shields.io/github/stars/moonD4rk/HackBrowserData.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.4.4-red)
+![Version](https://img.shields.io/badge/Version-V0.4.5-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -183,6 +183,29 @@ PS C:\test> .\hack-browser-data.exe -b all -f json --dir results -zip
 
 ## 最近更新
 
+#### [v0.4.5] - 2024-01-09
+
+**新增**  
+- 添加搜狗和dc浏览器  
+- 格式化项目布局  
+- 添加完全导出浏览数据选项  
+- 支持 macOS 的 Arc 浏览器  
+- 改进扩展解析  
+
+**修复**  
+- 修复日志错误并删除已弃用的 linter  
+- 修复运行二进制文件失败时的句柄错误  
+- 修复数据丢失导致标题为空的问题  
+- 修复命令行使用提示不完整的bug  
+- 修复错误的日志调用者跳过级别  
+- 修复 Firefox 文件遍历中的错误  
+- 解密主密钥失败时发出的警告  
+- 改进浏览数据和文件复制功能中的错误处理  
+
+**优化**  
+- 优化 JSON 缩进输出格式  
+- 优化添加提供商软件文件夹和 linter 检查
+
 #### [v0.4.4] - 2022-08-16
 
 **更新**  
@@ -212,16 +235,5 @@ PS C:\test> .\hack-browser-data.exe -b all -f json --dir results -zip
 - 支持所有浏览器导出 local storage
 - 修复 firefox ans1 数据结构  
 - 修复 windows 平台上 chromium 密钥查找失败的问题
-
-#### [v0.4.0] - 2022-04-18
-
-**更新**  
-- 支持 Go 1.18 泛型，重构项目布局  
-- 添加对所有已发布的 Firefox 的支持  
-- 为命令行日志添加颜色输出  
-- 某些 Linux 发行版的 chromium 现可不使用 D-Bus 获取主密钥  
-- 修复 Chromium cookie 文件路径错误  
-- Windows 下解密 Chromium 密码时增加 AES 块大小检查  
-- 修复 Windows 导出信用卡失败
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

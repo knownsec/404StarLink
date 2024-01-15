@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/vArmor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.5.4-red)
+![Version](https://img.shields.io/badge/Version-V0.5.5-red)
 ![Time](https://img.shields.io/badge/Join-20230831-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -127,6 +127,16 @@ vArmor 在研发初期参考了 [Nirmata](https://nirmata.com/) 开发的 [kyver
 
 
 ## 最近更新
+
+#### [v0.5.5] - 2024-01-11
+
+**更新**  
+- 重构 AppArmor 执行器的行为建模功能  
+- 引入BehaviorModeling模式来收集应用行为并生成模型  
+- 优化 BPF 强制执行器的安装访问控制原语以解决绕过问题  
+- 修复异常节点影响策略状态的问题  
+- 升级到1.20版本并在容器内构建BPF程序  
+- 支持拉取亚太东南地区的镜像和图表
 
 #### [v0.5.4] - 2023-10-19
 
