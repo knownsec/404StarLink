@@ -22,8 +22,9 @@ Pillager是一个适用于后渗透期间的信息收集工具，可以收集目
 | Chrome SxS    |    ✅    |   ✅   |    ✅    |    ✅    |      ✅      |         ✅         |
 | Chromium      |    ✅    |   ✅   |    ✅    |    ✅    |      ✅      |         ✅         |
 | Brave-Browser |    ✅    |   ✅   |    ✅    |    ✅    |      🚧      |         🚧         |
-| QQBrowser     |    ✅    |   ✅   |    ✅    |    ✅    |      🚧      |         🚧         |
+| QQBrowser     |    ✅    |   ✅   |    ✅    |    ✅    |      ✅      |         ✅         |
 | SogouExplorer |    ✅    |   ✅   |    ✅    |    ✅    |      🚧      |         🚧         |
+| 360Chrome     |    ❌    |   ✅   |    ✅    |    ❌    |      ✅      |         ✅         |
 | 360ChromeX    |    ❌    |   ✅   |    ✅    |    ❌    |      ✅      |         ✅         |
 | Vivaldi       |    🚧    |   🚧   |    🚧    |    🚧    |      🚧      |         🚧         |
 | CocCoc        |    🚧    |   🚧   |    🚧    |    🚧    |      🚧      |         🚧         |
@@ -36,23 +37,45 @@ Pillager是一个适用于后渗透期间的信息收集工具，可以收集目
 | Epic Privacy  |    🚧    |   🚧   |    🚧    |    🚧    |      🚧      |         🚧         |
 | Uran          |    🚧    |   🚧   |    🚧    |    🚧    |      🚧      |         🚧         |
 | Yandex        |    🚧    |   🚧   |    🚧    |    🚧    |      🚧      |         🚧         |
-| FireFox       |    ✅    |   ✅   |    ✅    |    ✅    |      ❌      |         ❌         |
+| FireFox       |    ✅    |   ✅   |    ✅    |    ✅    |      ❌      |         ✅         |
 
 注：✅表示经过测试，🚧表示理论上支持但未经测试，❌表示无此功能或不支持
 
-| IM       | Support            |
-| -------- | ------------------ |
-| QQ       | ClientKey（Email） |
-| Telegram | tdata              |
-| Skype    | Token              |
+|    IM    |      Support      |
+| :------: | :---------------: |
+|    QQ    |     QQ Number     |
+| Telegram |       tdata       |
+|  Skype  |       Token       |
+|  Enigma  | DeviceID/Datebase |
+| DingTalk |      Storage      |
 
-| Tool      | Support             |
-| --------- | ------------------- |
-| MobaXterm | Password/Credential |
+|    Tool    | Support |
+| :--------: | :------: |
+| MobaXterm | Password |
+|  Xmanager  | Password |
+|   RDCMan   | Password |
+| FinalShell | Password |
+|  Navicat  | Password |
+|   SQLyog   | Password |
 
-| Others | Support  |
-| ------ | -------- |
-| Wifi   | Password |
+|      Software      |    Support    |
+| :----------------: | :-----------: |
+|       VSCode       | History Files |
+| Netease CloudMusic |   UserInfo   |
+
+|    Mail    | Support |
+| :--------: | :------: |
+| MailMaster | DataFile |
+|  Foxmail  | Storage |
+
+|    FTP    | Support |
+| :-------: | :------: |
+| FileZilla |  Config  |
+|  WinSCP  | Password |
+
+| Others | Support |
+| :----: | :------: |
+|  Wifi  | Password |
 
 后续将会陆续添加支持的软件
 
@@ -66,7 +89,7 @@ Pillager是一个适用于后渗透期间的信息收集工具，可以收集目
 
 使用CobaltStrike可以直接下载插件包，其他人推荐将shellcode集成至自己的加载器或工具中运行，不建议直接使用Pillager.exe
 
-执行后会将文件打包至 `%Temp%\Pillager.zip`，需要自行前往目录下载文件或修改代码将文件上传至他处
+执行后会将文件打包至 `%Temp%\Pillager.tar.gz`，需要自行前往目录下载文件或修改代码将文件上传至他处
 
 ## 优点
 
