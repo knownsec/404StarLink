@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.5.11-red)
+![Version](https://img.shields.io/badge/Version-V2.6.0-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -28,17 +28,19 @@
 
 ### 规则释义
 
-HaE目前的规则一共有6个字段，分别是规则名称、规则正则、规则作用域、正则引擎、规则匹配颜色、规则敏感性。
+HaE目前的规则一共有8个字段，分别是规则名称、规则正则、规则作用域、正则引擎、规则匹配颜色、规则敏感性。
 
 详细的含义如下所示：
 
 | 字段      | 含义                                                                                                                                                                                                   |
 |-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name      | 规则名称，主要用于简短概括当前规则的作用。                                                                                                                                                               |
-| Regex     | 规则正则，主要用于填写正则表达式。在HaE中所需提取匹配的内容需要用`(`、`)`将正则表达式进行包裹。                                                                                                            |
-| Scope     | 规则作用域，主要用于表示当前规则作用与HTTP报文的哪个部分。                                                                                                                                               |
+| F-Regex     | 规则正则，主要用于填写正则表达式。在HaE中所需提取匹配的内容需要用`(`、`)`将正则表达式进行包裹。|
+| S-Regex     | 规则正则，作用及使用同F-Regex。S-Regex为二次正则，可以用于对F-Regex匹配的数据结果进行二次的匹配提取，如不需要的情况下可以留空。|
+| Format     | 格式化输出，在NFA引擎的正则表达式中，我们可以通过`{0}`、`{1}`、`{2}`…的方式进行取分组格式化输出。默认情况下使用`{0}`即可。          |
+| Scope     | 规则作用域，主要用于表示当前规则作用于HTTP报文的哪个部分。                                                                                                                                               |
 | Engine    | 正则引擎，主要用于表示当前规则的正则表达式所使用的引擎。**DFA引擎**：对于文本串里的每一个字符只需扫描一次，速度快、特性少；**NFA引擎**：要翻来覆去标注字符、取消标注字符，速度慢，但是特性（如:分组、替换、分割）丰富。 |
-| Color     | 规则匹配颜色，主要用于表示当前规则匹配到对应HTTP报文时所需标记的高亮颜色。                                                                                                                               |
+| Color     | 规则匹配颜色，主要用于表示当前规则匹配到对应HTTP报文时所需标记的高亮颜色。在HaE中具备颜色升级算法，当出现相同颜色时会自动向上升级一个颜色进行标记。                                                                                                                               |
 | Sensitive | 规则敏感性，主要用于表示当前规则对于大小写字母是否敏感，敏感（`True`）则严格按照大小写要求匹配，不敏感（`False`）则反之。                                                                                      |
 
 
@@ -59,22 +61,21 @@ HaE目前的规则一共有6个字段，分别是规则名称、规则正则、�
 | Config（配置信息管理）    | <img src="https://github.com/gh0stkey/HaE/raw/master/images/config.png" style="width: 80%" />    |
 | Databoard（数据集合面板） | <img src="https://github.com/gh0stkey/HaE/raw/master/images/databoard.png" style="width: 80%" /> |
 
-## 实际使用
-
-使用 RGPerson 生成测试数据，放入网站根目录文件中: 
-
-![-w467](https://github.com/gh0stkey/HaE/raw/master/images/rgperson.jpg)
-
-访问该地址，在`Proxy - HTTP History`中可以看见高亮请求，响应标签页中含有`MarkInfo`标签，其中将匹配到的信息提取了出来。
-
-![-w1047](https://github.com/gh0stkey/HaE/raw/master/images/markinfo.png)
-
-
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
 
 ## 最近更新
+
+#### [v2.6.0] - 2024-02-02
+
+**更新**  
+- 支持双正则匹配，第一次正则(F-Regex)匹配结果可以通过第二次正则(S-Regex)进行二次匹配  
+- 支持格式化输出，在NFA引擎的正则表达式中，我们可以通过`{0}、{1}、{2}…`的方式进行取分组格式化输出  
+- DFA引擎支持大小写敏感配置项(即Sensitive可为Flase/True)，有效减少正则长度  
+
+**修复**  
+- 修复Databoard面板展示UI的布局大小失效BUG
 
 #### [v2.5.11] - 2024-01-18
 
@@ -106,12 +107,5 @@ HaE目前的规则一共有6个字段，分别是规则名称、规则正则、�
 **更新**  
 - 修复Databoard输入框卡顿问题  
 - 修复Databoard消息内容表单数据展示不完全问题
-
-#### [v2.5.7] - 2023-11-13
-
-**更新**  
-- 在MarkInfo表单中，新增展示全部数据功能  
-- 修复Databoard中双击数据时匹配错误的问题  
-- 修复Databoard中清空数据不完全的问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

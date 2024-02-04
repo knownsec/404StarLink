@@ -182,7 +182,7 @@ Tai-e（太阿）是一个通用型Java程序分析框架，包含了开发程�
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.4.0-red)
+![Version](https://img.shields.io/badge/Version-V1.4.2-red)
 
 <https://github.com/madneal/gshark>
 
@@ -255,7 +255,7 @@ Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检�
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.5.11-red)
+![Version](https://img.shields.io/badge/Version-V2.6.0-red)
 
 <https://github.com/gh0stkey/HaE>
 
@@ -521,7 +521,7 @@ Antenna是58同城安全团队打造的一款辅助安全从业人员辅助验�
 ![Author](https://img.shields.io/badge/Author-qi4L-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/qi4L/JYso.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.5.0-red)
+![Version](https://img.shields.io/badge/Version-V3.5.1-red)
 
 <https://github.com/qi4L/JYso>
 

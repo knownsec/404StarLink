@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-qi4L-orange)
 ![GitHub stars](https://img.shields.io/github/stars/qi4L/JYso.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.5.0-red)
+![Version](https://img.shields.io/badge/Version-V3.5.1-red)
 ![Time](https://img.shields.io/badge/Join-20230626-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -530,6 +530,12 @@ GroovyBypass路由与WebsphereBypass路由的具体实现功能还在思考中
 
 
 ## 最近更新
+
+#### [v3.5.1] - 2024-01-30
+
+**更新**  
+- 修复若干BUG  
+- URLDNS中新增fastjson，jackson，ROME，SpringAOP的探测
 
 #### [v3.5.0] - 2023-10-25
 

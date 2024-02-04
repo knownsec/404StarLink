@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.4.0-red)
+![Version](https://img.shields.io/badge/Version-V1.4.2-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -134,6 +134,15 @@ go env -w GO111MODULE=on
 
 ## 最近更新
 
+#### [v1.4.2] - 2024-02-03
+
+**新增**  
+- 增加 postman 中 request 搜索  
+
+**更新**  
+- 修改 docker 数据库默认密码  
+- 增加初始化任务
+
 #### [v1.4.0] - 2023-12-09
 
 **更新**  
@@ -161,11 +170,5 @@ go env -w GO111MODULE=on
 - 修复数据库初始化逻辑问题  
 - 升级前端组件版本  
 - 修复 darwin_arm64 版本 release
-
-#### [v1.2.1] - 2023-08-21
-
-**更新**  
-- 修复数据库初始化错误  
-- 依赖包安全升级
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
