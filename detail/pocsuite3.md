@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/pocsuite3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.7-red)
+![Version](https://img.shields.io/badge/Version-V2.0.8-red)
 ![Time](https://img.shields.io/badge/Join-20200821-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -253,6 +253,12 @@ console mode
 
 ## 最近更新
 
+#### [v2.0.8] - 2024-02-09
+
+**更新**  
+- 修复 nuclei dsl 语法解析  
+- 修复 -l 命令在 windows 兼容问题
+
 #### [v2.0.7] - 2023-12-29
 
 **更新**  
@@ -277,11 +283,5 @@ console mode
 
 **更新**  
 - 兼容 nuclei v2.9.1 的模版协议名称变化
-
-#### [v2.0.3] - 2023-03-21
-
-**更新**  
-- 优化对 URL 协议的自动纠正  
-- 支持通过 --no-check 选项禁用 URL 协议自动纠正和蜜罐检查
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
