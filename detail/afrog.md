@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.9.8-red)
+![Version](https://img.shields.io/badge/Version-V3.0.1-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,15 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v3.0.1] - 2024-02-27
+
+**更新**  
+- 新增 -oob 参数，指定扫描使用的反连平台，默认 ceyeio  
+- 新增 oob 功能，代替旧版 reverse(将废弃)  
+
+**注意事项**  
+- 历史 PoC 的 newReverse() 方法均已升级为新版的 oob() 方法。为确保兼容性和功能完整性，建议用户尽快升级至 3.0.1
+
 #### [v2.9.8] - 2024-01-06
 
 **更新**  
@@ -164,13 +173,5 @@ afrog -t https://example.com -ja result.json
 **更新**  
 - 新增 -cyberspace/-cs 网络测绘空间搜索功能  
 - 优化 PoC GitLab public snippets 漏洞等级由 INFO 改为 HIGH
-
-#### [v2.9.3] - 2023-11-27
-
-**更新**  
-- 新增 -sort 参数，命令 -sort a-z 按 PoC 首字母顺序扫描，默认按 PoC 漏洞等级从低到高顺序扫描  
-- 新增 versionCompare 函数，用于比较版本号大小  
-- 新增 ActiveMQ RCE 漏洞检测  
-- 优化 -web 命令的报告模板，使其与 report 模板一致
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

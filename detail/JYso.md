@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-qi4L-orange)
 ![GitHub stars](https://img.shields.io/github/stars/qi4L/JYso.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.5.1-red)
+![Version](https://img.shields.io/badge/Version-V3.5.5-red)
 ![Time](https://img.shields.io/badge/Join-20230626-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -531,6 +531,11 @@ GroovyBypass路由与WebsphereBypass路由的具体实现功能还在思考中
 
 ## 最近更新
 
+#### [v3.5.5] - 2024-03-02
+
+**更新**  
+- 新增UTF-8 Overlong Encoding Bypass waf
+
 #### [v3.5.1] - 2024-01-30
 
 **更新**  
@@ -553,10 +558,5 @@ GroovyBypass路由与WebsphereBypass路由的具体实现功能还在思考中
 **更新**  
 - 路由不可控的情况下的利用  
 - jndi必须要使用账号密码认证
-
-#### [v2.5.0] - 2022-06-27
-
-**新增**  
-- 新增命令执行回显 weblogicEcho/WebsphereEcho/ResinEcho/WindowsEcho/LinuxEcho/JettyEcho
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

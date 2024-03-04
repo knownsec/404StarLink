@@ -61,8 +61,8 @@
     * [java-object-searcher](#java-object-searcher)
     * [AppScan](#appscan)
     * [Pillager](#pillager)
-    * [MySQLMonitor](#mysqlmonitor)
     * [js-cookie-monitor-debugger-hook](#js-cookie-monitor-debugger-hook)
+    * [MySQLMonitor](#mysqlmonitor)
     * [CodeReviewTools](#codereviewtools)
 
 * [内网工具/intranet_tools](#内网工具intranet_tools)
@@ -212,7 +212,7 @@ Tai-e（太阿）是一个通用型Java程序分析框架，包含了开发程�
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/vArmor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.5.5-red)
+![Version](https://img.shields.io/badge/Version-V0.5.6-red)
 
 <https://github.com/bytedance/vArmor>
 
@@ -348,7 +348,7 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.9.8-red)
+![Version](https://img.shields.io/badge/Version-V3.0.1-red)
 
 <https://github.com/zan8in/afrog>
 
@@ -521,7 +521,7 @@ Antenna是58同城安全团队打造的一款辅助安全从业人员辅助验�
 ![Author](https://img.shields.io/badge/Author-qi4L-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/qi4L/JYso.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.5.1-red)
+![Version](https://img.shields.io/badge/Version-V3.5.5-red)
 
 <https://github.com/qi4L/JYso>
 
@@ -620,16 +620,6 @@ java内存对象搜索辅助工具，配合IDEA在Java应用运行时，对内�
 
 Pillager是一个适用于后渗透期间的信息收集工具，可以收集目标机器上敏感信息，方便下一步渗透工作的进行。
 
-### [MySQLMonitor](detail/MySQLMonitor.md)
-![Author](https://img.shields.io/badge/Author-TheKingOfDuck-orange)
-![Language](https://img.shields.io/badge/Language-Java-blue)
-![GitHub stars](https://img.shields.io/github/stars/TheKingOfDuck/MySQLMonitor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.0-red)
-
-<https://github.com/TheKingOfDuck/MySQLMonitor>
-
-MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具) 
-
 ### [js-cookie-monitor-debugger-hook](detail/js-cookie-monitor-debugger-hook.md)
 ![Author](https://img.shields.io/badge/Author-JSREI-orange)
 ![Language](https://img.shields.io/badge/Language-JavaScript-blue)
@@ -639,6 +629,16 @@ MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具)
 <https://github.com/JSREI/js-cookie-monitor-debugger-hook>
 
 js cookie逆向利器：js cookie变动监控可视化工具 & js cookie hook打条件断点
+
+### [MySQLMonitor](detail/MySQLMonitor.md)
+![Author](https://img.shields.io/badge/Author-TheKingOfDuck-orange)
+![Language](https://img.shields.io/badge/Language-Java-blue)
+![GitHub stars](https://img.shields.io/github/stars/TheKingOfDuck/MySQLMonitor.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.0.0-red)
+
+<https://github.com/TheKingOfDuck/MySQLMonitor>
+
+MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具) 
 
 ### [CodeReviewTools](detail/CodeReviewTools.md)
 ![Author](https://img.shields.io/badge/Author-Ppsoft1991-orange)

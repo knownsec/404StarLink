@@ -6,8 +6,8 @@
 4. [java-object-searcher](#java-object-searcher)
 5. [AppScan](#appscan)
 6. [Pillager](#pillager)
-7. [MySQLMonitor](#mysqlmonitor)
-8. [js-cookie-monitor-debugger-hook](#js-cookie-monitor-debugger-hook)
+7. [js-cookie-monitor-debugger-hook](#js-cookie-monitor-debugger-hook)
+8. [MySQLMonitor](#mysqlmonitor)
 9. [CodeReviewTools](#codereviewtools)
 
 ----------------------------------------
@@ -72,16 +72,6 @@ java内存对象搜索辅助工具，配合IDEA在Java应用运行时，对内�
 
 Pillager是一个适用于后渗透期间的信息收集工具，可以收集目标机器上敏感信息，方便下一步渗透工作的进行。
 
-### [MySQLMonitor](detail/MySQLMonitor.md)
-![Author](https://img.shields.io/badge/Author-TheKingOfDuck-orange)
-![Language](https://img.shields.io/badge/Language-Java-blue)
-![GitHub stars](https://img.shields.io/github/stars/TheKingOfDuck/MySQLMonitor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.0-red)
-
-<https://github.com/TheKingOfDuck/MySQLMonitor>
-
-MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具) 
-
 ### [js-cookie-monitor-debugger-hook](detail/js-cookie-monitor-debugger-hook.md)
 ![Author](https://img.shields.io/badge/Author-JSREI-orange)
 ![Language](https://img.shields.io/badge/Language-JavaScript-blue)
@@ -91,6 +81,16 @@ MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具)
 <https://github.com/JSREI/js-cookie-monitor-debugger-hook>
 
 js cookie逆向利器：js cookie变动监控可视化工具 & js cookie hook打条件断点
+
+### [MySQLMonitor](detail/MySQLMonitor.md)
+![Author](https://img.shields.io/badge/Author-TheKingOfDuck-orange)
+![Language](https://img.shields.io/badge/Language-Java-blue)
+![GitHub stars](https://img.shields.io/github/stars/TheKingOfDuck/MySQLMonitor.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.0.0-red)
+
+<https://github.com/TheKingOfDuck/MySQLMonitor>
+
+MySQL实时监控工具(代码审计/黑盒/白盒审计辅助工具) 
 
 ### [CodeReviewTools](detail/CodeReviewTools.md)
 ![Author](https://img.shields.io/badge/Author-Ppsoft1991-orange)

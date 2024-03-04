@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/vArmor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.5.5-red)
+![Version](https://img.shields.io/badge/Version-V0.5.6-red)
 ![Time](https://img.shields.io/badge/Join-20230831-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -111,6 +111,21 @@ helm uninstall varmor -n varmor
 
 
 ## 最近更新
+
+#### [v0.5.6] - 2024-02-29
+
+**更新**  
+- Agent 和 Manager 现在通过 TLS 进行交互  
+- 添加 Seccomp 支持增强保护、行为建模和深度防御模式  
+- 集群范围策略 VarmorClusterPolicy 现在支持 BehaviorModeling 模式  
+- 支持不同执行器的组合，现在可以组合使用 AppArmor、BPF、Seccomp 执行器  
+- 在策略接口中添加 `.spec.updateExistingWorkloads`，允许用户独立控制现有工作负载的保护开关  
+- 默认启用 Manager 的 --restartExistWorkloads 开关  
+- 将策略接口的特权字段移至 `.spec.policy.enhanceProtect` 内部  
+- 添加部分内置规则  
+- 添加 CI 工作流程以自动化构建和测试流程  
+- 添加更多演示并使它们更容易理解  
+- 修复 bugs
 
 #### [v0.5.5] - 2024-01-11
 
