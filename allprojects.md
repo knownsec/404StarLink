@@ -521,7 +521,7 @@ Antenna是58同城安全团队打造的一款辅助安全从业人员辅助验�
 ![Author](https://img.shields.io/badge/Author-qi4L-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/qi4L/JYso.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.5.5-red)
+![Version](https://img.shields.io/badge/Version-V1.2.62-red)
 
 <https://github.com/qi4L/JYso>
 
