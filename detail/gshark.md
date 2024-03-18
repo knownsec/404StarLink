@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.4.2-red)
+![Version](https://img.shields.io/badge/Version-V1.4.3-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -134,6 +134,17 @@ go env -w GO111MODULE=on
 
 ## 最近更新
 
+#### [v1.4.3] - 2024-03-16
+
+**修复**  
+- 组件版本的安全升级  
+- 修复 golang User-Agent 被 Postman 禁用的问题  
+- 修复前端缺少 postman 规则选项问题  
+
+**新增**  
+- 增加 Docker 版本 MySql 的数据持久化  
+- GitHub client 可以忽略 TLS 错误
+
 #### [v1.4.2] - 2024-02-03
 
 **新增**  
@@ -163,12 +174,5 @@ go env -w GO111MODULE=on
 **更新**  
 - 修复 task 表初始化的问题  
 - 增加 nginx 配置全文
-
-#### [v1.2.2] - 2023-11-19
-
-**更新**  
-- 修复数据库初始化逻辑问题  
-- 升级前端组件版本  
-- 修复 darwin_arm64 版本 release
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

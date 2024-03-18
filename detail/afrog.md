@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.0.1-red)
+![Version](https://img.shields.io/badge/Version-V3.0.2-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,11 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v3.0.2] - 2024-03-16
+
+**更新**  
+- 新增了 -config 参数，用于自定义 afrog-config.yaml 文件的目录
+
 #### [v3.0.1] - 2024-02-27
 
 **更新**  
@@ -167,11 +172,5 @@ afrog -t https://example.com -ja result.json
 **更新**  
 - 优化进行TCP PoC验证时，新增返回十六进制数据包类型的功能  
 - PoC总数：1266
-
-#### [v2.9.5] - 2023-12-06
-
-**更新**  
-- 新增 -cyberspace/-cs 网络测绘空间搜索功能  
-- 优化 PoC GitLab public snippets 漏洞等级由 INFO 改为 HIGH
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

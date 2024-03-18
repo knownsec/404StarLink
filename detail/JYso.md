@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-qi4L-orange)
 ![GitHub stars](https://img.shields.io/github/stars/qi4L/JYso.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.2.62-red)
+![Version](https://img.shields.io/badge/Version-V1.2.8-red)
 ![Time](https://img.shields.io/badge/Join-20230626-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -531,6 +531,13 @@ GroovyBypass路由与WebsphereBypass路由的具体实现功能还在思考中
 
 ## 最近更新
 
+#### [v1.2.8] - 2024-03-13
+
+**更新**  
+- 修复BUG  
+- 代码优化  
+- RMI打内存马和回显类
+
 #### [v1.2.62] - 2024-03-05
 
 **更新**  
@@ -552,11 +559,5 @@ GroovyBypass路由与WebsphereBypass路由的具体实现功能还在思考中
 
 **更新**  
 - 新增一条用来绕过TemplatesImpl黑名单的链子，JacksonLdapAttr
-
-#### [v3.4.0] - 2023-08-11
-
-**新增**  
-- 新增绕过Nginx、CDN代理限制的WebSocket马  
-- 新增Tomcat、Spring、Jetty、Resin、Weblogic、Websphere的WebSocket马
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

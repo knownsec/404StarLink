@@ -182,7 +182,7 @@ Tai-e（太阿）是一个通用型Java程序分析框架，包含了开发程�
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.4.2-red)
+![Version](https://img.shields.io/badge/Version-V1.4.3-red)
 
 <https://github.com/madneal/gshark>
 
@@ -348,7 +348,7 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.0.1-red)
+![Version](https://img.shields.io/badge/Version-V3.0.2-red)
 
 <https://github.com/zan8in/afrog>
 
@@ -521,7 +521,7 @@ Antenna是58同城安全团队打造的一款辅助安全从业人员辅助验�
 ![Author](https://img.shields.io/badge/Author-qi4L-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/qi4L/JYso.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.2.62-red)
+![Version](https://img.shields.io/badge/Version-V1.2.8-red)
 
 <https://github.com/qi4L/JYso>
 
