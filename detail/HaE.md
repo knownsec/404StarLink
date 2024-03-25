@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.6.0-red)
+![Version](https://img.shields.io/badge/Version-V2.6.1-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -67,6 +67,12 @@ HaE目前的规则一共有8个字段，分别是规则名称、规则正则、�
 
 ## 最近更新
 
+#### [v2.6.1] - 2024-03-22
+
+**更新**  
+- 修复DFA模式下数据提取错位问题  
+- 修复DFA模式下中文不匹配问题
+
 #### [v2.6.0] - 2024-02-02
 
 **更新**  
@@ -101,11 +107,5 @@ HaE目前的规则一共有8个字段，分别是规则名称、规则正则、�
 
 **UI更新**  
 - 修改HaE展示Logo逻辑，使界面不再突兀
-
-#### [v2.5.8] - 2023-11-16
-
-**更新**  
-- 修复Databoard输入框卡顿问题  
-- 修复Databoard消息内容表单数据展示不完全问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

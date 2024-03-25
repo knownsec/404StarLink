@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.4.3-red)
+![Version](https://img.shields.io/badge/Version-V1.4.4-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -134,6 +134,13 @@ go env -w GO111MODULE=on
 
 ## 最近更新
 
+#### [v1.4.4] - 2024-03-23
+
+**修复**  
+- 修复数据库初始化的问题  
+- 修复 Postman 搜索结果格式  
+- 前端组件安全升级
+
 #### [v1.4.3] - 2024-03-16
 
 **修复**  
@@ -168,11 +175,5 @@ go env -w GO111MODULE=on
 
 **修复**  
 - 修复任务管理菜单初始化问题
-
-#### [v1.2.4] - 2023-11-26
-
-**更新**  
-- 修复 task 表初始化的问题  
-- 增加 nginx 配置全文
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
