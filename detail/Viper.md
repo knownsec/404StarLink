@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V20231125-red)
+![Version](https://img.shields.io/badge/Version-V2.1-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -79,6 +79,17 @@
 
 ## 最近更新
 
+#### [v2.1] - 2024-03-29
+
+**新功能**  
+- 新增通用配置界面,可以配置网络搜索引擎,wafw00f相关配置  
+
+**优化**  
+- 优化wafw00f和nuclei的相关接口及模块代码  
+
+**Bugfix**  
+- fix `自动化信息收集(通过公司名称)` 结果不全问题
+
 #### [v20231125] - 2023-11-25
 
 **修复**  
@@ -123,17 +134,5 @@
 **Bugfix**  
 - 修复python payload在心跳发送失败时不会记录错误的问题  
 - 修复thin的pid文件未清除的问题
-
-#### [v20230827] - 2023-08-28
-
-**优化**  
-- 反溯源脚本nobody.sh可以快速使用初始nginx配置  
-- 合并metasploit-framework 6.3.32版本  
-- Viper后续使用构建时间作为版本号  
-
-**Bugfix**  
-- 修复Session心跳显示999,msfrpc状态正常,界面显示渗透服务心跳异常  
-- 修复session文件下载报错的问题  
-- 修复多次重启后会重复添加缓存的监听的问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

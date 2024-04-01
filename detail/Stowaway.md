@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-ph4ntonn-orange)
 ![GitHub stars](https://img.shields.io/github/stars/ph4ntonn/Stowaway.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1-red)
+![Version](https://img.shields.io/badge/Version-V2.2-red)
 ![Time](https://img.shields.io/badge/Join-20210702-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -259,6 +259,20 @@ agent之间也与上面情况一致
 - 2021-11-16 发布文章[《Stowaway : 专为渗透测试工作者制作的多级代理工具》](https://mp.weixin.qq.com/s/L7Ikxd_Nql8SkezY4l0blQ)
 
 ## 最近更新
+
+#### [v2.2] - 2024-03-29
+
+**更新**  
+- 将 AES-CBC 切换为 AES-GCM  
+- 修复一些 bugs 和 拼写错误  
+- 修复关闭短连接时数据丢失的错误  
+- 添加gzip功能  
+- 优化关键代码  
+- 添加http代理支持  
+- 将压缩的 macOS 可执行文件替换为未压缩的可执行文件  
+- 允许管理员在没有连接时退出  
+- 为节点之间的连接启用 TLS 功能  
+- Socks 可以监听特定接口
 
 #### [v2.1] - 2022-04-08
 
