@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-wgpsec-orange)
 ![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.16-red)
+![Version](https://img.shields.io/badge/Version-V0.0.17-red)
 ![Time](https://img.shields.io/badge/Join-20221117-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -316,6 +316,11 @@ db.createCollection("wx_app");
 
 ## 最近更新
 
+#### [v0.0.17] - 2024-04-14
+
+**更新**  
+- 修复AQC安全验证问题
+
 #### [v0.0.16] - 2024-01-16
 
 **更新**  
@@ -344,15 +349,5 @@ db.createCollection("wx_app");
 **修复**  
 - 修复天眼查查询BUG  
 - 优化延迟选项
-
-#### [v0.0.9] - 2023-02-13
-
-**bugfix**  
-- 修复JSON导出问题  
-- 修复天眼查日期问题  
-- 修复阿拉丁导出bug  
-
-**new**  
-- 增加只在终端显示不导出文件
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

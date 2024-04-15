@@ -7,9 +7,9 @@
 5. [MDUT](#mdut)
 6. [WMIHACKER](#wmihacker)
 7. [BurpCrypto](#burpcrypto)
-8. [MySQL-Fake-Server](#mysql-fake-server)
-9. [ysomap](#ysomap)
-10. [JYso](#jyso)
+8. [JYso](#jyso)
+9. [MySQL-Fake-Server](#mysql-fake-server)
+10. [ysomap](#ysomap)
 11. [DNSlog-GO](#dnslog-go)
 12. [Cloud-Bucket-Leak-Detection-Tools](#cloud-bucket-leak-detection-tools)
 13. [Antenna](#antenna)
@@ -89,6 +89,16 @@ WMIHACKER是一款免杀横向渗透远程命令执行工具，常见的WMIEXEC�
 
 支持多种加密算法或直接执行JS代码的用于爆破前端加密的BurpSuite插件。
 
+### [JYso](detail/JYso.md)
+![Author](https://img.shields.io/badge/Author-qi4L-orange)
+![Language](https://img.shields.io/badge/Language-Java-blue)
+![GitHub stars](https://img.shields.io/github/stars/qi4L/JYso.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.2.8-red)
+
+<https://github.com/qi4L/JYso>
+
+JYso是一个可以用于 jndi 注入攻击和生成反序列化数据流的工具，既可以当 JNDIExploit 用也可以当作 ysoserial 使用。
+
 ### [MySQL-Fake-Server](detail/MySQL-Fake-Server.md)
 ![Author](https://img.shields.io/badge/Author-fnmsd-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
@@ -108,16 +118,6 @@ WMIHACKER是一款免杀横向渗透远程命令执行工具，常见的WMIEXEC�
 <https://github.com/wh1t3p1g/ysomap>
 
 Ysomap是一款适配于各类实际复杂环境的Java反序列化利用框架，可动态配置具备不同执行效果的Java反序列化利用链payload，以应对不同场景下的反序列化利用。
-
-### [JYso](detail/JYso.md)
-![Author](https://img.shields.io/badge/Author-qi4L-orange)
-![Language](https://img.shields.io/badge/Language-Java-blue)
-![GitHub stars](https://img.shields.io/github/stars/qi4L/JYso.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.2.8-red)
-
-<https://github.com/qi4L/JYso>
-
-JYso是一个可以用于 jndi 注入攻击和生成反序列化数据流的工具，既可以当 JNDIExploit 用也可以当作 ysoserial 使用。
 
 ### [DNSlog-GO](detail/DNSlog-GO.md)
 ![Author](https://img.shields.io/badge/Author-lanyi-orange)

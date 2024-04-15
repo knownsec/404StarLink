@@ -3,8 +3,8 @@
 1. [HackBrowserData](#hackbrowserdata)
 2. [KunLun-M](#kunlun-m)
 3. [frida-skeleton](#frida-skeleton)
-4. [java-object-searcher](#java-object-searcher)
-5. [AppScan](#appscan)
+4. [AppScan](#appscan)
+5. [java-object-searcher](#java-object-searcher)
 6. [Pillager](#pillager)
 7. [js-cookie-monitor-debugger-hook](#js-cookie-monitor-debugger-hook)
 8. [MySQLMonitor](#mysqlmonitor)
@@ -42,16 +42,6 @@ KunLun-M是一个完全开源的静态白盒扫描工具，支持PHP、JavaScrip
 
 frida-skeleton是基于frida的安卓hook框架，提供了很多frida自身不支持的功能，将hook安卓变成简单便捷，人人都会的事情。
 
-### [java-object-searcher](detail/java-object-searcher.md)
-![Author](https://img.shields.io/badge/Author-c0ny1-orange)
-![Language](https://img.shields.io/badge/Language-Java-blue)
-![GitHub stars](https://img.shields.io/github/stars/c0ny1/java-object-searcher.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.1.0-red)
-
-<https://github.com/c0ny1/java-object-searcher>
-
-java内存对象搜索辅助工具，配合IDEA在Java应用运行时，对内存中的对象进行搜索。比如可以可以用挖掘request对象用于回显等场景。
-
 ### [AppScan](detail/AppScan.md)
 ![Author](https://img.shields.io/badge/Author-TongchengOpenSource-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
@@ -61,6 +51,16 @@ java内存对象搜索辅助工具，配合IDEA在Java应用运行时，对内�
 <https://github.com/TongchengOpenSource/AppScan>
 
 安全隐私卫士（AppScan）一款免费的企业级自动化App隐私合规检测工具
+
+### [java-object-searcher](detail/java-object-searcher.md)
+![Author](https://img.shields.io/badge/Author-c0ny1-orange)
+![Language](https://img.shields.io/badge/Language-Java-blue)
+![GitHub stars](https://img.shields.io/github/stars/c0ny1/java-object-searcher.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.1.0-red)
+
+<https://github.com/c0ny1/java-object-searcher>
+
+java内存对象搜索辅助工具，配合IDEA在Java应用运行时，对内存中的对象进行搜索。比如可以可以用挖掘request对象用于回显等场景。
 
 ### [Pillager](detail/Pillager.md)
 ![Author](https://img.shields.io/badge/Author-qwqdanchun-orange)
