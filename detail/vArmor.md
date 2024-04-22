@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/vArmor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.5.6-red)
+![Version](https://img.shields.io/badge/Version-V0.5.7-red)
 ![Time](https://img.shields.io/badge/Join-20230831-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -111,6 +111,18 @@ helm uninstall varmor -n varmor
 
 
 ## 最近更新
+
+#### [v0.5.7] - 2024-04-16
+
+**更新**  
+- 添加了 Seccomp 强制执行器的预检查  
+- 将基础镜像升级为 Debian bookworm  
+- 将apparmor用户组件升级到3.1  
+- 为 Seccomp 强制执行器添加了禁用 chmod-x-bit 内置规则  
+- 优化的 CI 工作流程  
+- 为Agent添加readinessProbe，优化启动流程  
+- 统一日志格式  
+- 为演示添加了注释
 
 #### [v0.5.6] - 2024-02-29
 

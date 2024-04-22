@@ -7,8 +7,8 @@
 5. [veinmind-tools](#veinmind-tools)
 6. [appshark](#appshark)
 7. [camille](#camille)
-8. [OpenStar](#openstar)
-9. [Tai-e](#tai-e)
+8. [Tai-e](#tai-e)
+9. [OpenStar](#openstar)
 10. [GShark](#gshark)
 11. [AppScan](#appscan)
 12. [Juggler](#juggler)
@@ -87,16 +87,6 @@ Appshark 是一个针对安卓的静态分析工具，它的设计目标是针�
 
 现如今APP隐私合规十分重要，各监管部门不断开展APP专项治理工作及核查通报，不合规的APP通知整改或直接下架。camille可以hook住Android敏感接口，并识别是否为第三方SDK调用。根据隐私合规的场景，辅助检查是否符合隐私合规标准。
 
-### [OpenStar](detail/OpenStar.md)
-![Author](https://img.shields.io/badge/Author-starjun-orange)
-![Language](https://img.shields.io/badge/Language-JS/Python-blue)
-![GitHub stars](https://img.shields.io/github/stars/starjun/openstar.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.0-red)
-
-<https://github.com/starjun/openstar>
-
-OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复杂规则编写。提供了常规的 HTTP 字段规则配置，还提供了 IP 黑白名单、访问频次等配置，对于 CC 防护更提供的特定的规则算法，并且支持搭建集群进行防护。
-
 ### [Tai-e](detail/Tai-e.md)
 ![Author](https://img.shields.io/badge/Author-pascal_lab-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
@@ -106,6 +96,16 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 <https://github.com/pascal-lab/Tai-e>
 
 Tai-e（太阿）是一个通用型Java程序分析框架，包含了开发程序分析技术所需的各类基础设施，并提供了可配置性高、功能强大的污点分析系统，用于检测各类隐私泄露、注入攻击等安全漏洞。
+
+### [OpenStar](detail/OpenStar.md)
+![Author](https://img.shields.io/badge/Author-starjun-orange)
+![Language](https://img.shields.io/badge/Language-JS/Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/starjun/openstar.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.0.0-red)
+
+<https://github.com/starjun/openstar>
+
+OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复杂规则编写。提供了常规的 HTTP 字段规则配置，还提供了 IP 黑白名单、访问频次等配置，对于 CC 防护更提供的特定的规则算法，并且支持搭建集群进行防护。
 
 ### [GShark](detail/gshark.md)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
@@ -141,7 +141,7 @@ Tai-e（太阿）是一个通用型Java程序分析框架，包含了开发程�
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/vArmor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.5.6-red)
+![Version](https://img.shields.io/badge/Version-V0.5.7-red)
 
 <https://github.com/bytedance/vArmor>
 

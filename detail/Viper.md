@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1-red)
+![Version](https://img.shields.io/badge/Version-V2.2.1-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -79,6 +79,25 @@
 
 ## 最近更新
 
+#### [v2.2.1] - 2024-04-21
+
+**新功能**  
+- 新增通用配置界面,可以配置网络搜索引擎,wafw00f相关配置  
+
+**优化**  
+- 服务状态新增wafw00f检查  
+- 未登录时访问导航页自动跳转  
+- nuclei支持设置漏洞级别及并发数  
+- 更新360 Quake接口  
+- 优化wafw00f性能(gevent)  
+- 优化模块报错时前端错误提示  
+- 解释器更新到python3.12及pip依赖包更新到最新版本  
+- 合并metasploit-framework 6.4.6版本  
+
+**Bugfix**  
+- fix 扫描模块异常的错误  
+- fix 低概率生成C代码时出现编码错误
+
 #### [v2.1] - 2024-03-29
 
 **新功能**  
@@ -122,17 +141,6 @@
 
 **Bugfix**  
 - 修复Python Meterpreter断线后无法重连问题  
-- 修复thin的pid文件未清除的问题
-
-#### [v20230831] - 2023-08-31
-
-**优化**  
-- 清除不需要的日志,提高系统运行速度  
-- 优化docker logs日志,存储到日志目录便于问题定位  
-- docker healthcheck当前检查所有后台服务  
-
-**Bugfix**  
-- 修复python payload在心跳发送失败时不会记录错误的问题  
 - 修复thin的pid文件未清除的问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
