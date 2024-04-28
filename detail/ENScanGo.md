@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-wgpsec-orange)
 ![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.17-red)
+![Version](https://img.shields.io/badge/Version-V0.0.18-red)
 ![Time](https://img.shields.io/badge/Join-20221117-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -316,6 +316,14 @@ db.createCollection("wx_app");
 
 ## 最近更新
 
+#### [v0.0.18] - 2024-04-23
+
+**更新**  
+- 修复TYC验证码问题  
+- 使用os库替换遗弃的io/ioutil  
+- 更新交叉编译脚本  
+- 更新安装使用说明
+
 #### [v0.0.17] - 2024-04-14
 
 **更新**  
@@ -343,11 +351,5 @@ db.createCollection("wx_app");
 - 配置文件更新升级到v0.4，请重新生成  
 - 当ENSCAN无法正常访问网站可尝试使用-proxy参数挂上代理  
 - 当ENSCAN查询时有问题，可以使用--debug进行排查
-
-#### [v0.0.12] - 2023-07-04
-
-**修复**  
-- 修复天眼查查询BUG  
-- 优化延迟选项
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/vArmor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.5.7-red)
+![Version](https://img.shields.io/badge/Version-V0.5.8-red)
 ![Time](https://img.shields.io/badge/Join-20230831-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -112,6 +112,13 @@ helm uninstall varmor -n varmor
 
 ## 最近更新
 
+#### [v0.5.8] - 2024-04-24
+
+**更新**  
+- 添加`disable-cap-all-except-net-bind-service`内置规则以符合Pod安全标准的限制策略  
+- 已弃用 AppArmor 和 BPF 强制执行器的 `disallow-create-user-ns` 内置规则  
+- 添加了策略顾问以帮助使用上下文信息生成策略模板
+
 #### [v0.5.7] - 2024-04-16
 
 **更新**  
@@ -159,13 +166,5 @@ helm uninstall varmor -n varmor
 - 改进 BPF 强制执行器的 RuntimeDefault 模式  
 - 引入集群范围的策略接口：VarmorClusterPolicy CR  
 - 文档优化
-
-#### [v0.5.3] - 2023-09-12
-
-**更新**  
-- 优化容器 manager 选举逻辑  
-- 添加 webhook matchlabel 和 BPF 强制执行器独占模式配置选项  
-- 引入 ptrace 原语和 BPF 强制执行器的内置规则  
-- 优化文档
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
