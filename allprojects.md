@@ -348,7 +348,7 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.0.3-red)
+![Version](https://img.shields.io/badge/Version-V3.0.5-red)
 
 <https://github.com/zan8in/afrog>
 
@@ -471,7 +471,7 @@ WMIHACKER是一款免杀横向渗透远程命令执行工具，常见的WMIEXEC�
 ![Author](https://img.shields.io/badge/Author-qi4L-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/qi4L/JYso.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.2.8-red)
+![Version](https://img.shields.io/badge/Version-V1.2.9-red)
 
 <https://github.com/qi4L/JYso>
 

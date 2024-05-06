@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.0.3-red)
+![Version](https://img.shields.io/badge/Version-V3.0.5-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,11 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v3.0.5] - 2024-04-30
+
+**更新**  
+- 修复在Linux环境内使用 -ap 命令时,指定路径全部转为小写,导致无法正常工作的 BUG
+
 #### [v3.0.3] - 2024-04-13
 
 **更新**  
@@ -166,11 +171,5 @@ afrog -t https://example.com -ja result.json
 **更新**  
 - 新增引入 ysoserial 函数，用于生成 Java 反序列化 payload  
 - 新增引入 aesCBC 函数
-
-#### [v2.9.7] - 2024-01-03
-
-**更新**  
-- 优化调整反连平台优先级逻辑，确保自建Eye反连平台具有最高优先权  
-- 优化花里胡哨的进度条，看起来炫，实际并没什么用
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
