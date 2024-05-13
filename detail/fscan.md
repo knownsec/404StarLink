@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-shadow1ng-orange)
 ![GitHub stars](https://img.shields.io/github/stars/shadow1ng/fscan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.8.2-red)
+![Version](https://img.shields.io/badge/Version-V1.8.4-red)
 ![Time](https://img.shields.io/badge/Join-20210422-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -183,6 +183,13 @@ go build -ldflags="-s -w " -trimpath
 - 2022-12-09 发布演示视频[404星链计划开源安全工具演示——fscan](https://www.bilibili.com/video/BV1Cv4y1R72M/)
 
 ## 最近更新
+
+#### [v1.8.4] - 2024-05-11
+
+**更新**  
+* 优化报错处理，避免部分扫描模块报错后导致的程序退出  
+* linux(amd64)默认使用fscan  
+* windows(x64)默认使用fscan.exe
 
 #### [v1.8.2] - 2022-11-19
 

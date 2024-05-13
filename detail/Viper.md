@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.2.1-red)
+![Version](https://img.shields.io/badge/Version-V2.3.0-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -79,6 +79,19 @@
 
 ## 最近更新
 
+#### [v2.3.0] - 2024-05-09
+
+**优化**  
+* 调整互联网攻击面整体架构  
+* 优化网络资产搜索功能  
+* 优化互联网攻击面数据存储效率  
+* 适配Quake新API接口  
+
+**Bugfix**  
+* fix 模块无法使用新建立的监听问题  
+* fix 无法使用反溯源  
+* fix 主机性能不足时新建监听超时问题
+
 #### [v2.2.1] - 2024-04-21
 
 **新功能**  
@@ -130,17 +143,5 @@
 **Bugfix**  
 - fix 监听通信通道选择Session后不显示问题  
 - fix 内存执行C#可执行文件模块报错问题
-
-#### [v20230914] - 2023-09-14
-
-**优化**  
-- 清理不必要的日志打印  
-- 合并metasploit-framework 6.3.34版本  
-- 增加后台服务监控日志  
-- 渗透服务使用多线程模式,解决Session操作执行超时导致其他任务无法进行  
-
-**Bugfix**  
-- 修复Python Meterpreter断线后无法重连问题  
-- 修复thin的pid文件未清除的问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
