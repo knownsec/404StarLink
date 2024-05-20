@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-cdkteam-orange)
 ![GitHub stars](https://img.shields.io/github/stars/cdk-team/CDK.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.2-red)
+![Version](https://img.shields.io/badge/Version-V1.5.3-red)
 ![Time](https://img.shields.io/badge/Join-20210223-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -208,6 +208,15 @@ cdk ps
 
 ## 最近更新
 
+#### [v1.5.3] - 2024-05-19
+
+**更新**  
+- 为 docker rootfs 适配 docker devicemapper 文件系统  
+- 增加查看网络连接信息  
+- 修复 k8s apiserver 中超时问题  
+- 添加netstat文档  
+- 修复 cgroup 后半部分切片长度错误
+
 #### [v1.5.2] - 2023-03-12
 
 **更新**  
@@ -243,12 +252,5 @@ cdk ps
 - 支持 linux 容器获取网关  
 - 更新文档，新增了 快速开始 章节  
 - 新增在 pods 中获取网关
-
-#### [v1.2.0] - 2022-06-25
-
-**更新**  
-- 新增 Exploit：从 etcd 获取 k8s 的 token  
-- 添加输出结束消息  
-- 移除 --insecure-port 参数
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
