@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.0.2-red)
+![Version](https://img.shields.io/badge/Version-V3.2-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -17,10 +17,10 @@
 
 1. 由于HaE 3.0版本开始采用`Montoya API`进行开发，因此使用新版HaE需要升级你的BurpSuite版本（>=2023.12.1）。
 2. 由于HaE 2.6版本后对规则字段进行了更新，因此无法适配<=2.6版本的规则，请用户自行前往[规则转换页面](https://gh0st.cn/HaE/ConversionRule.html)进行转换。
-3. HaE官方规则库存放在[Github](https://raw.githubusercontent.com/gh0stkey/HaE/gh-pages/Rules.yml)上，因此默认加载HaE官方规则库需使用代理（BApp审核不允许使用CDN）。
+3. HaE官方规则库存放在[Github](https://raw.githubusercontent.com/gh0stkey/HaE/gh-pages/Rules.yml)上，因此点击`Update`升级HaE官方规则库时需使用代理（BApp审核考虑安全性，不允许使用CDN）。
 4. 自定义HaE规则必须用左右括号`()`将所需提取的表达式内容包含，例如你要匹配一个**Shiro应用**的响应报文，正常匹配规则为`rememberMe=delete`，在HaE的规则中就需要变成`(rememberMe=delete)`。
 
-### 使用方法
+## 使用方法
 
 插件装载: `Extender - Extensions - Add - Select File - Next`
 
@@ -46,16 +46,15 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 | Color     | 规则匹配颜色，主要用于表示当前规则匹配到对应HTTP报文时所需标记的高亮颜色。在HaE中具备颜色升级算法，当出现相同颜色时会自动向上升级一个颜色进行标记。                                                                                                                               |
 | Sensitive | 规则敏感性，主要用于表示当前规则对于大小写字母是否敏感，敏感（`True`）则严格按照大小写要求匹配，不敏感（`False`）则反之。                                                                                      |
 
-### 优势特点
 
-1. 精细配置：高度自由的配置选项，以满足各类精细化场景需求。
-2. 分类标签：使用标签对规则进行分类，便于管理和组织规则。
-3. 高亮标记：在HTTP History页面，通过颜色高亮和注释判断请求的价值。
-4. 易读配置：使用易读的YAML格式存储配置文件，方便阅读和修改。
-5. 数据集合：将匹配到的数据、请求和响应集中在数据面板中，提高测试和梳理效率。
-6. 简洁可视：清晰可视的界面设计，更轻松地了解和配置HaE，操作简单、使用便捷。
-7. 颜色升级：内置颜色升级算法，避免“屠龙者终成恶龙”场景，突出最具价值的请求。
-8. 实战规则：官方规则库是基于实战化场景总结输出，提升数据发现的有效性、精准性。
+## 优势特点
+
+1. **功能**：通过对HTTP报文的颜色高亮、注释和提取，帮助使用者获取有意义的信息，**聚焦高价值报文**。
+2. **界面**：清晰可视的界面设计，以及**简洁的界面交互**，帮助使用者更轻松的了解和配置项目，**避免`多按钮`式的复杂体验**。
+3. **查询**：将HTTP报文的高亮、注释和提取到的相关信息**集中在一个数据面板**，可以一键查询、提取信息，从而提高测试和梳理效率。
+4. **算法**：内置高亮颜色的升级算法，当出现相同颜色时**会自动向上升级一个颜色**进行标记，**避免`屠龙者终成恶龙`场景**。
+5. **管理**：支持对数据的一键导出、导入，以**自定义`.hae`文件的方式**进行项目数据存储，**便于存储和共享项目数据**。
+6. **实战**：官方规则库和规则字段作用功能，都是**基于实战化场景总结输出**的，**以此提高数据的有效性、精准性发现**。
 
 | 界面名称                  | 界面展示                                              |
 | ------------------------ | ---------------------------------------------------- |
@@ -64,12 +63,29 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 | Databoard（数据集合） | <img src="https://github.com/gh0stkey/HaE/raw/master/images/databoard.png" style="width: 80%" /> |
 | MarkInfo（数据展示） | <img src="https://github.com/gh0stkey/HaE/raw/master/images/markinfo.png" style="width: 80%" /> |
 
-
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
 
 ## 最近更新
+
+#### [v3.2] - 2024-05-24
+
+**更新**  
+* 修复Databoard查询数据缺少问题  
+* 修复Databoard删除数据失效问题  
+* 优化Config配置数据插入逻辑，支持回车键  
+* 新增Databoard数据导出、导入功能
+
+#### [v3.1] - 2024-05-23
+
+**更新**  
+* 修复后缀名匹配失效问题  
+* 优化HaE MarkInfo调用逻辑，减少UI重复创建  
+* 优化缓存池逻辑，基于Caffeine进行生命周期管理  
+* 优化HaE初始化逻辑，内置官方规则，初始化将不再依赖于网络  
+* 改进HaE Config布局，基于表格方式进行配置信息管理  
+* 新增HaE Config配置，可以设置Block host黑名单方式禁止HaE匹配
 
 #### [v3.0.2] - 2024-05-12
 
@@ -92,21 +108,5 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 * 新增对Websocket消息的HaE功能作用，支持高亮、注释、数据展示  
 * 删除Databoard中**双星号形式的数据查询功能  
 * 新版HaE需要升级你的BurpSuite版本(>=2023.12.1)
-
-#### [v2.6.1] - 2024-03-22
-
-**更新**  
-- 修复DFA模式下数据提取错位问题  
-- 修复DFA模式下中文不匹配问题
-
-#### [v2.6.0] - 2024-02-02
-
-**更新**  
-- 支持双正则匹配，第一次正则(F-Regex)匹配结果可以通过第二次正则(S-Regex)进行二次匹配  
-- 支持格式化输出，在NFA引擎的正则表达式中，我们可以通过`{0}、{1}、{2}…`的方式进行取分组格式化输出  
-- DFA引擎支持大小写敏感配置项(即Sensitive可为Flase/True)，有效减少正则长度  
-
-**修复**  
-- 修复Databoard面板展示UI的布局大小失效BUG
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

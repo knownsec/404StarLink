@@ -121,7 +121,7 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 ![Author](https://img.shields.io/badge/Author-TongchengOpenSource-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/TongchengOpenSource/AppScan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.2-red)
+![Version](https://img.shields.io/badge/Version-V2.1.5-red)
 
 <https://github.com/TongchengOpenSource/AppScan>
 

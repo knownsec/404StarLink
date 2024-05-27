@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-TongchengOpenSource-orange)
 ![GitHub stars](https://img.shields.io/github/stars/TongchengOpenSource/AppScan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.2-red)
+![Version](https://img.shields.io/badge/Version-V2.1.5-red)
 ![Time](https://img.shields.io/badge/Join-20231025-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -86,6 +86,19 @@ AppScan 这款隐私合规检测工具, 它是一款基于动态分析, 可以
 
 
 ## 最近更新
+
+#### [v2.1.5] - 2024-05-26
+
+**新功能**  
+- 修复AndroidID误报  
+- SDK名单新增quickGame匹配  
+
+**优化**  
+- 丰富安卓ID触发场景  
+- 丰富获取安装app信息触发场景  
+
+**修复**  
+- 打标信息缺失
 
 #### [v2.1.2] - 2023-11-25
 

@@ -28,7 +28,7 @@
 ![Author](https://img.shields.io/badge/Author-wgpsec-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.18-red)
+![Version](https://img.shields.io/badge/Version-V1.0.0-red)
 
 <https://github.com/wgpsec/ENScan_GO>
 
@@ -38,7 +38,7 @@
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.0.2-red)
+![Version](https://img.shields.io/badge/Version-V3.2-red)
 
 <https://github.com/gh0stkey/HaE>
 
