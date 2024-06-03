@@ -255,7 +255,7 @@ Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检�
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.2-red)
+![Version](https://img.shields.io/badge/Version-V3.2.1-red)
 
 <https://github.com/gh0stkey/HaE>
 
@@ -471,7 +471,7 @@ WMIHACKER是一款免杀横向渗透远程命令执行工具，常见的WMIEXEC�
 ![Author](https://img.shields.io/badge/Author-qi4L-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/qi4L/JYso.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.0-red)
+![Version](https://img.shields.io/badge/Version-V1.3.1-red)
 
 <https://github.com/qi4L/JYso>
 

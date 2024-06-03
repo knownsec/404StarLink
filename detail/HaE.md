@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.2-red)
+![Version](https://img.shields.io/badge/Version-V3.2.1-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -69,6 +69,14 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 
 ## 最近更新
 
+#### [v3.2.1] - 2024-05-30
+
+**更新**  
+* 修复多屏时HaE的信息窗口不跟随问题  
+* 修复Databoard删除数据后空数据列表保留问题  
+* 优化Databoard数据查询体验，增加底部数据加载等待条  
+* 优化Databoard数据导出、导入功能，支持大数据内容的处理
+
 #### [v3.2] - 2024-05-24
 
 **更新**  
@@ -99,14 +107,5 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 * 修复因HaE导致的BurpSuite整体卡顿问题  
 * 修复HaE的MarkInfo复制数据失效问题  
 * 新增HaE规则作用域2个分别是：请求行(request line)、响应行(response line)
-
-#### [v3.0.0] - 2024-05-06
-
-**更新**  
-* 基于Montoya API进行重构，完美支持BurpSuite新版本  
-* 新增Databoard端口形式的数据查询，为80/443端口则不显示  
-* 新增对Websocket消息的HaE功能作用，支持高亮、注释、数据展示  
-* 删除Databoard中**双星号形式的数据查询功能  
-* 新版HaE需要升级你的BurpSuite版本(>=2023.12.1)
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
