@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![Author](https://img.shields.io/badge/Author-Benjamin-orange)
 ![GitHub stars](https://img.shields.io/github/stars/baidu/dperf.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.0-red)
+![Version](https://img.shields.io/badge/Version-V1.7.0-red)
 ![Time](https://img.shields.io/badge/Join-20230410-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -136,6 +136,28 @@ ierrors 0                  oerrors  0                  imissed  0
 
 
 ## 最近更新
+
+#### [v1.7.0] - 2024-06-06
+
+**新增**  
+- 发送http post请求  
+- dpdk pdump  
+- fast_close：使用RST关闭连接  
+- 支持DPDK-23.11和DPDK-24  
+- 启用simd512  
+- 禁用ack  
+- 配置重发超时  
+
+**更改**  
+- 配置DPDK日志级别  
+- clear_screen：dperf可以清除屏幕输出，让屏幕更干净  
+- 静态链接  
+
+**修复**  
+- dpdk清理  
+- CFLAGS覆盖  
+- 拼写错误  
+- 不要清除处于等待时间状态的序列
 
 #### [v1.6.0] - 2023-10-10
 

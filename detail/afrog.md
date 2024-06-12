@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.0.5-red)
+![Version](https://img.shields.io/badge/Version-V3.0.7-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,21 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v3.0.7] - 2024-06-11
+
+**更新**  
+- 新增 OOB 平台：recvsuit，使用命令：`-oob revsuit`  
+- afrog-config.yaml 新增 `revsuit` 配置
+
+#### [v3.0.6] - 2024-06-03
+
+**更新**  
+- afrog 已更新了 POC 扫描逻辑，现在先扫描普通 POC，然后再扫描 OOB POC  
+- -oob-rate-limit/-orl 设定 OOB POC 的每秒最大请求量，默认为 25；-oob-concurrency/-oc 则设置 OOB POC 的最大并发执行数量，默认为 25  
+- 修复了一个导致 ceye 验证接口不稳定时漏报的 BUG  
+- 将 SQLite3 数据表的 ID 修改为雪花算法，以支持分布式系统  
+- 首次使用 afrog 并指定 config 配置文件时，SQLite3 未初始化表，导致插入操作报错的 BUG
+
 #### [v3.0.5] - 2024-04-30
 
 **更新**  
@@ -156,20 +171,5 @@ afrog -t https://example.com -ja result.json
 
 **更新**  
 - 新增了 -config 参数，用于自定义 afrog-config.yaml 文件的目录
-
-#### [v3.0.1] - 2024-02-27
-
-**更新**  
-- 新增 -oob 参数，指定扫描使用的反连平台，默认 ceyeio  
-- 新增 oob 功能，代替旧版 reverse(将废弃)  
-
-**注意事项**  
-- 历史 PoC 的 newReverse() 方法均已升级为新版的 oob() 方法。为确保兼容性和功能完整性，建议用户尽快升级至 3.0.1
-
-#### [v2.9.8] - 2024-01-06
-
-**更新**  
-- 新增引入 ysoserial 函数，用于生成 Java 反序列化 payload  
-- 新增引入 aesCBC 函数
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

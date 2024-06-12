@@ -92,7 +92,7 @@
 ![Author](https://img.shields.io/badge/Author-Benjamin-orange)
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![GitHub stars](https://img.shields.io/github/stars/baidu/dperf.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.0-red)
+![Version](https://img.shields.io/badge/Version-V1.7.0-red)
 
 <https://github.com/baidu/dperf>
 
@@ -348,7 +348,7 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.0.5-red)
+![Version](https://img.shields.io/badge/Version-V3.0.7-red)
 
 <https://github.com/zan8in/afrog>
 
@@ -401,7 +401,7 @@ LSpider 一个为被动扫描器定制的前端爬虫
 ![Author](https://img.shields.io/badge/Author-Benjamin-orange)
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![GitHub stars](https://img.shields.io/github/stars/baidu/dperf.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.0-red)
+![Version](https://img.shields.io/badge/Version-V1.7.0-red)
 
 <https://github.com/baidu/dperf>
 

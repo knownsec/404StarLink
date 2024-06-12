@@ -21,7 +21,7 @@
 ![Author](https://img.shields.io/badge/Author-Benjamin-orange)
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![GitHub stars](https://img.shields.io/github/stars/baidu/dperf.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.0-red)
+![Version](https://img.shields.io/badge/Version-V1.7.0-red)
 
 <https://github.com/baidu/dperf>
 

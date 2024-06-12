@@ -9,9 +9,9 @@
 
 ## 简介
 
-**vArmor** 是一个云原生容器沙箱系统，它借助 Linux 的 [AppArmor LSM](https://en.wikipedia.org/wiki/AppArmor), [BPF LSM](https://docs.kernel.org/bpf/prog_lsm.html) 和 [Seccomp](https://en.wikipedia.org/wiki/Seccomp) 技术实现强制访问控制器（即 enforcer），从而对容器进行安全加固。它可以用于增强容器隔离性、减少内核攻击面、增加容器逃逸或横行移动攻击的难度与成本。
+vArmor 是一个云原生容器沙箱系统，它借助 Linux 的 [AppArmor LSM](https://en.wikipedia.org/wiki/AppArmor), [BPF LSM](https://docs.kernel.org/bpf/prog_lsm.html) 和 [Seccomp](https://en.wikipedia.org/wiki/Seccomp) 技术实现强制访问控制器（即 enforcer），从而对容器进行安全加固。它可以用于增强容器隔离性、减少内核攻击面、增加容器逃逸或横行移动攻击的难度与成本。
 
-你可以借助 vArmor 在以下场景对 Kubernetes 集群中的容器进行沙箱防护
+您可以借助 vArmor 在以下场景对 Kubernetes 集群中的容器进行沙箱防护
 * 业务场景存在多租户（多租户共享同一个集群），由于成本、技术条件等原因无法使用硬件虚拟化容器（如 Kata Container）
 * 需要对关键的业务进行安全加固，增加攻击者权限提升、容器逃逸、横向渗透的难度与成本
 * 当出现高危漏洞，但由于修复难度大、周期长等原因无法立即修复时，可以借助 vArmor 实施漏洞利用缓解（具体取决于漏洞类型或漏洞利用向量。缓解代表阻断利用向量、增加利用难度）
@@ -29,7 +29,7 @@ vArmor 由字节跳动终端安全团队的 **Elkeid Team** 研发，目前该�
 
 
 ## 架构
-<img src="https://github.com/bytedance/vArmor/raw/main/docs/architecture.png" width="600">
+<img src="https://github.com/bytedance/vArmor/raw/main/docs/img/architecture.png" width="600">
 
 
 ## 前置条件
@@ -39,9 +39,9 @@ vArmor 由字节跳动终端安全团队的 **Elkeid Team** 研发，目前该�
 
 |强制访问控制器|要求|推荐|
 |------------|--------------------------------------------|--------|
-|AppArmor    |1. Linux Kernel 4.15 及以上版本<br>2. 系统需开启 AppArmor LSM|GKE with Container-Optimized OS<br>AKS with Ubuntu 22.04 LTS<br>[VKE](https://www.volcengine.com/product/vke) with veLinux<br>Debian 10 及以上版本<br>Ubuntu 18.04.0 LTS 及以上版本<br>[veLinux 1.0](https://www.volcengine.com/docs/6396/74967) 等
-|BPF         |1. Linux Kernel 5.10 及以上版本 (x86_64)<br>2. containerd v1.6.0 及以上版本<br>3. 系统需开启 BPF LSM|EKS with Amazon Linux 2<br>GKE with Container-Optimized OS<br>AKS with Ubuntu 22.04 LTS <sup>\*</sup><br>ACK with Alibaba Cloud Linux 3 <sup>\*</sup><br>OpenSUSE 15.4  <sup>\*</sup><br>Debian 11 <sup>\*</sup><br>Fedora 37<br>[veLinux 1.0 with 5.10](https://www.volcengine.com/docs/6396/74967) 等<br><br>* *需手动启用节点的 BPF LSM*
-|Seccomp     |1. Kubernetes v1.19 及以上版本
+|AppArmor    |1. Linux Kernel 4.15 及以上版本<br>2. 系统需开启 AppArmor LSM|GKE with Container-Optimized OS<br>AKS with Ubuntu 22.04 LTS<br>[VKE](https://www.volcengine.com/product/vke) with veLinux 1.0<br>Debian 10 及以上版本<br>Ubuntu 18.04.0 LTS 及以上版本<br>[veLinux 1.0](https://www.volcengine.com/docs/6396/74967) 等
+|BPF         |1. Linux Kernel 5.10 及以上版本 (x86_64)<br>2. containerd v1.6.0 及以上版本<br>3. 系统需开启 BPF LSM|EKS with Amazon Linux 2<br>GKE with Container-Optimized OS<br>[VKE](https://www.volcengine.com/product/vke) with veLinux 1.0 (with 5.10 kernel)<br>AKS with Ubuntu 22.04 LTS <sup>\*</sup><br>ACK with Alibaba Cloud Linux 3 <sup>\*</sup><br>OpenSUSE 15.4  <sup>\*</sup><br>Debian 11 <sup>\*</sup><br>Fedora 37<br>[veLinux 1.0 with 5.10 kernel](https://www.volcengine.com/docs/6396/74967) 等<br><br>* *需手动启用节点的 BPF LSM*
+|Seccomp     |1. Kubernetes v1.19 及以上版本|所有 Linux 发行版
 
 
 ## 策略模式与内置规则
@@ -51,16 +51,17 @@ vArmor 的策略支持 5 种运行模式：**AlwaysAllow、RuntimeDefault、Enha
 
 
 ## 快速上手
-**更多配置项和使用说明详见 [使用说明](https://github.com/bytedance/vArmor/blob/main/docs/usage_instructions.zh_CN.md)**
+更多配置项和使用说明详见 [使用说明](https://github.com/bytedance/vArmor/blob/main/docs/usage_instructions.zh_CN.md)。您可以参考 [样例](https://github.com/bytedance/vArmor/blob/main/test/demo) 来了解相关功能的用法，从而辅助策略编写。您也可以尝试使用 [policy-advisor](https://github.com/bytedance/vArmor/blob/main/tools/policy-advisor/policy-advisor.py) 生成策略模版，并在模版基础上制定最终的策略。
 
 ### Step 1. 拉取 chart 包
 ```
-helm pull oci://elkeid-cn-beijing.cr.volces.com/varmor/varmor --version 0.5.6-rc
+helm pull oci://elkeid-cn-beijing.cr.volces.com/varmor/varmor --version 0.5.8
 ```
 
 ### Step 2. 安装
+*您可以在非中国地区使用 elkeid-ap-southeast-1.cr.volces.com 域名*
 ```
-helm install varmor varmor-0.5.6-rc.tgz \
+helm install varmor varmor-0.5.8.tgz \
     --namespace varmor --create-namespace \
     --set image.registry="elkeid-cn-beijing.cr.volces.com"
 ```
@@ -105,6 +106,7 @@ helm uninstall varmor -n varmor
 
 ## 性能说明
 详见 [性能说明](https://github.com/bytedance/vArmor/blob/main/docs/performance_specification.zh_CN.md)
+
 
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
