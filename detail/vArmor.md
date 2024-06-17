@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/vArmor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.5.8-red)
+![Version](https://img.shields.io/badge/Version-V0.5.9-red)
 ![Time](https://img.shields.io/badge/Join-20230831-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -114,6 +114,26 @@ helm uninstall varmor -n varmor
 
 ## 最近更新
 
+#### [v0.5.9] - 2024-06-15
+
+**更新**  
+- 为 Seccomp enforcer 添加了 disable-chmod-s-bit 内置规则  
+- 重构 Seccomp enforcer，并尽可能合并规则  
+- 为 Seccomp enforcer 添加了 AlwaysAllow 和 RuntimeDefault 模式  
+- 将来自 containerd 的上游规则同步到 AppArmor 配置文件模板  
+- 为 AppArmor enforcer 合并相同的子配置文件  
+- 为 AppArmor enforcer 引入了违规审计功能  
+- 支持修改现有策略并动态添加执行器  
+- 优化 VarmorClusterPolicy/VarmorPolicy CR 的状态以显示更多错误信息  
+- 为 ArmorProfile CR 添加了ownerReference 和 finalizers 以防止意外删除  
+- 策略顾问现在可以使用行为模型数据生成策略模板  
+- 更新文档  
+- 修复：CI 工作流登录使用 docker/login-action  
+- 修复：忽略 Seccomp enforcer 的 enhancedProtect 特权选项  
+- 修复：确保正确执行 CR 的清理逻辑  
+- 修复：更新图表模板以生成 k8s 资源的固定全名  
+- 修复：建模完成后更新 ArmorProfileModel CR
+
 #### [v0.5.8] - 2024-04-24
 
 **更新**  
@@ -157,16 +177,5 @@ helm uninstall varmor -n varmor
 - 修复异常节点影响策略状态的问题  
 - 升级到1.20版本并在容器内构建BPF程序  
 - 支持拉取亚太东南地区的镜像和图表
-
-#### [v0.5.4] - 2023-10-19
-
-**更新**  
-- 为 BPF 强制访问控制器增加 mount 系统调用的强制访问控制原语  
-- 为 BPF 强制访问控制器添加新的内置规则，包括 disallow-mount、disallow-umount 等  
-- 微调部分强制访问控制器的内置规则，使其更加精确并避免非预期行为  
-- 默认情况下在 RuntimeDefault 规则之上构建增强的保护规则  
-- 改进 BPF 强制执行器的 RuntimeDefault 模式  
-- 引入集群范围的策略接口：VarmorClusterPolicy CR  
-- 文档优化
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

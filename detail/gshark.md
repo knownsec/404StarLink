@@ -7,61 +7,112 @@
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
-中文 | [英文](README.md)
-<p align="center">
-   <img alt="GgShark logo" src="https://s1.ax1x.com/2018/10/17/idhZvj.png" />
-   <h3 align="center">GShark</h3>
-   <p align="center">Scan for sensitive information easily and effectively.</p>
-</p>
+The project is based on Go and Vue to build a management system for sensitive information detection. For the full introduction, please refer to [articles](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI3MjA3MTY3Mw==&action=getalbum&album_id=2376148333116850178#wechat_redirect) and [videos](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI3MjA3MTY3Mw==&action=getalbum&album_id=1834365721464651778#wechat_redirect). For now, all the scans are only targeted to the public environments, not local environments.
 
-# GShark [![Go Report Card](https://goreportcard.com/badge/github.com/madneal/gshark)](https://goreportcard.com/report/github.com/madneal/gshark)   
+For the usage of GShark, please refer to the [wiki](https://github.com/madneal/gshark/wiki).
 
-项目基于 Go 以及 Vue 搭建的敏感信息检测管理系统。关于的完整介绍请参考[这里](https://mp.weixin.qq.com/s/Yoo1DdC2lCtqOMAreF9K0w)。
+# Features
 
-# 特性
+* Support multi-platforms, including GitLab, GitHub, Searchcode, Postman
+* Flexible menu and API permission setting
+* Flexible rules and filter rules
+* Utilize gobuster to brute force subdomain
+* Easily used management system
+* Support for docker deployment
 
-* 支持多个搜索平台，包括 Github，Gitlab（不稳定支持），Searchcode
-* 灵活的菜单以及 API 权限管理
-* 灵活的规则以及过滤规则设置
-* 支持 gobuster 作为子域名爆破的支持
-* 方便易用
+# Quick start
 
-# 快速开始
-
-![GShark](https://user-images.githubusercontent.com/12164075/114326875-58e1da80-9b69-11eb-82a5-b2e3751a2304.png)
-
-## 部署
-
-建议通过 nginx 部署前端项目。 将 `dist` 文件夹放在 `/var/www/html`下，修改 `nginx.conf` 来反向代理后端服务。在[bilibili](https://www.bilibili.com/video/BV1Py4y1s7ap/) 和 [youtube](https://youtu.be/bFrKm5t4M54) 可以参考部署视频教程。 Windows 下的部署请参考[这里](https://www.bilibili.com/video/BV1CA411L7ux/)。
+## Docker
 
 ```
-location /api/ {
-proxy_set_header Host $http_host;
-proxy_set_header  X-Real-IP $remote_addr;
-proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-proxy_set_header X-Forwarded-Proto $scheme;
-rewrite ^/api/(.*)$ /$1 break;
-proxy_pass http://127.0.0.1:8888;
+git clone https://github.com/madneal/gshark
+cd gshark
+docker-compose build && docker-compose up 
+```
+
+## Deployment
+
+### Requirements
+
+* Nginx
+* MySQL(version above **8.0**)
+
+It's suggested to deploy the Front-End project by nginx. Place the `dist` folder under `/var/www/html`, modify the `nginx.conf` (/etc/nginx/nginx.conf for linux) to reverse proxy the backend service. For the detailed deployment videos, refer to [bilibili](https://www.bilibili.com/video/BV1Py4y1s7ap/) or [youtube](https://youtu.be/bFrKm5t4M54). For the deployment in windows, refer to [here](https://www.bilibili.com/video/BV1CA411L7ux/).
+
+### Nginx
+
+Modify the `nginx.conf`:
+
+```
+// config the user accoring to your need
+user  www www;
+worker_processes  1;
+
+events {
+    worker_connections  1024;
 }
+
+http {
+    include       mime.types;
+    default_type  application/octet-stream;
+    sendfile        on;
+    keepalive_timeout  65;
+    server {
+        listen       8080;
+        server_name  localhost;
+
+        location / {
+            autoindex on;
+            root   html;
+            index  index.html index.htm;
+        }
+        location /api/ {
+            proxy_set_header Host $http_host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto $scheme;
+            rewrite ^/api/(.*)$ /$1 break;
+            proxy_pass http://127.0.0.1:8888;
+        }
+        error_page   500 502 503 504  /50x.html;
+        location = /50x.html {
+            root   html;
+        }
+    }
+    include servers/*;
+}
+
 ```
 
-部署工作非常简单。 从 [releases](https://github.com/madneal/gshark/releases) 中找到对应的版本 zip 文件。 解压后得将 `dist` 中的文件复制到  `/var/www/html` 文件夹中。
+The deployment work is straightforward. Find the corresponding version zip file from [releases](https://github.com/madneal/gshark/releases). 
 
-### Web 服务
-
-```
-./gshark web
-```
-
-### 扫描服务
+Unzip and copy the files inside `dist` to `/var/www/html` folder of Nginx. 
 
 ```
-./gshark scan
+unzip gshark*.zip
 ```
 
-## 开发
+Start the Nginx and the Front-End is deployed successfully.
 
-### 服务端
+### Incremental Deployment
+
+For the incremental deployment, [sql.md](https://github.com/madneal/gshark/blob/master/sql.md) should be executed for the corresponding database operations.
+
+### Server service
+
+For the first time, you need to rename `config-temp.yaml` to `config.yaml`.
+
+```
+go build && ./gshark
+or
+go run main.go
+```
+
+For the scan service, it's necessary to config the corresponding rules. For example, Github or Gitlab rules.
+
+## Development
+
+### Server
 
 ``` 
 git clone https://github.com/madneal/gshark.git
@@ -74,18 +125,16 @@ mv config-temp.yaml config.yaml
 
 go build
 
-./gshark web
+./gshark
+
+or
+
+go run main.go
 ```
 
-启动扫描服务：
-
-```
-./gshark scan
-```
 
 
-
-### Web 端
+### Web 
 
 ```
 cd ../web
@@ -95,37 +144,42 @@ npm install
 npm run serve
 ```
 
-## 运行
+## Usage
+### Add Token
 
+#### GitHub
 
-### 添加 Token
-
-执行扫描任务需要在 Github 的 Github token。你可以在 [tokens](https://github.com/settings/tokens) 中生成令牌，只需要 public_repo 的读权限即可。对于 Gitlab 扫描，请记得添加令牌。
+To execute the scan task for GitHub, you need to add a GitHub token for crawl information in GitHub. You can generate a token in [tokens](https://github.com/settings/tokens). Most access scopes are enough. For the GitLab search, remember to add a token too.
 
 [![iR2TMt.md.png](https://s1.ax1x.com/2018/10/31/iR2TMt.md.png)](https://imgchr.com/i/iR2TMt)
 
-## FAQ
+#### Postman
 
-1. 默认登录的用户名密码（**及时修改**）：
+Obtain the `postman.sid` cookie:
 
-gshark/gshark
+<img width="653" alt="image" src="https://github.com/madneal/gshark/assets/12164075/7775c8bb-79da-4e2b-b341-3c5b8395a6d0">
 
-2. 数据库初始化失败
 
-确保数据库 mysql 版本高于 5.6。如果是第二次初始化的时候记得移除第一次初始化产生的实例。
+### Rule Configuration
 
-3. `go get ./... connection error`
+For the Github or Gitlab rule, the rule will be matched by the syntax in the corresponding platforms. Directly, you config what you search at GitHub. You can download the rule import template CSV file, then batch import rules.
 
-[使用 GOPROXY](https://madneal.com/post/gproxy/:
+<img width="572" alt="image" src="https://user-images.githubusercontent.com/12164075/212504597-3e1ad5bd-bacf-433e-83e8-08de7eee6509.png">
 
-```
-go env -w GOPROXY=https://goproxy.cn,direct
-go env -w GO111MODULE=on
-```
-4. 部署前端项目后，页面空白
 
-尝试清除 LocalStorage
+### Filter Configuration
 
+Filter is only addressed to GitHub search now. There are three classes of filters, including `extension`, `keyword`, `sec_keyword`. For `extension` and `keyword`, they can used for blacklist or whitelist.
+
+For more information, you can refer to this [video](https://www.bilibili.com/video/BV1aG4y1c72N/?vd_source=ef4657ebf0549af8755f75118b6e81bb).
+
+## Configuration
+
+You are supposed to rename `config-temp.yaml` to `config.yaml` and config the database information and other information according to your environment.
+
+### GitLab Base Url
+
+<img width="363" alt="image" src="https://user-images.githubusercontent.com/12164075/203898719-1ce66395-083d-4226-937f-b6eed859addc.png">
 
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
