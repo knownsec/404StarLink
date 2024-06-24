@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.4.4-red)
+![Version](https://img.shields.io/badge/Version-V1.4.5-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -188,6 +188,13 @@ You are supposed to rename `config-temp.yaml` to `config.yaml` and config the da
 
 ## 最近更新
 
+#### [v1.4.5] - 2024-06-22
+
+**修复**  
+- 组件依赖升级  
+- 修复 API 列表排序问题  
+- 移除任务列表
+
 #### [v1.4.4] - 2024-03-23
 
 **修复**  
@@ -220,14 +227,5 @@ You are supposed to rename `config-temp.yaml` to `config.yaml` and config the da
 **更新**  
 - go-github 组件升级  
 - GitHub 扫描支持系统代理
-
-#### [v1.3.0] - 2023-12-03
-
-**新增**  
-- 发布 Docker 版本，通过 Docket 快速启动  
-- 增加 Docker 启动说明，更新 Docker 版本使用视频  
-
-**修复**  
-- 修复任务管理菜单初始化问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

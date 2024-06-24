@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.2.1-red)
+![Version](https://img.shields.io/badge/Version-V3.2.2-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -69,6 +69,15 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 
 ## 最近更新
 
+#### [v3.2.2] - 2024-06-19
+
+**更新**  
+- 修复Databoard长时间查询界面错乱问题  
+- 修复Databoard在Windows下复制截断问题  
+- 修复Databoard查询数据数量随机问题  
+- 优化Databoard清空数据逻辑  
+- 优化HTTP消息处理逻辑
+
 #### [v3.2.1] - 2024-05-30
 
 **更新**  
@@ -100,12 +109,5 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 **更新**  
 * 修复Databoard中当规则作用域为request line/response line时候数据无法定位问题  
 * 修复Databoard中数据的查询错乱问题
-
-#### [v3.0.1] - 2024-05-09
-
-**更新**  
-* 修复因HaE导致的BurpSuite整体卡顿问题  
-* 修复HaE的MarkInfo复制数据失效问题  
-* 新增HaE规则作用域2个分别是：请求行(request line)、响应行(response line)
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
