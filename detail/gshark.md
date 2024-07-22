@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.4.5-red)
+![Version](https://img.shields.io/badge/Version-V1.4.6-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -13,12 +13,12 @@ For the usage of GShark, please refer to the [wiki](https://github.com/madneal/g
 
 # Features
 
-* Support multi-platforms, including GitLab, GitHub, Searchcode, Postman
-* Flexible menu and API permission setting
-* Flexible rules and filter rules
-* Utilize gobuster to brute force subdomain
-* Easily used management system
-* Support for docker deployment
+* Support multiple platforms, such as GitLab, GitHub, Searchcode, and Postman
+* Flexible menu and API permission settings
+* Flexible rules and filtering rules
+* Utilize gobuster for subdomain brute force
+* Easy-to-use management system
+* Support for Docker deployment
 
 # Quick start
 
@@ -30,18 +30,18 @@ cd gshark
 docker-compose build && docker-compose up 
 ```
 
-## Deployment
+## Manual Deployment
 
 ### Requirements
 
 * Nginx
 * MySQL(version above **8.0**)
 
-It's suggested to deploy the Front-End project by nginx. Place the `dist` folder under `/var/www/html`, modify the `nginx.conf` (/etc/nginx/nginx.conf for linux) to reverse proxy the backend service. For the detailed deployment videos, refer to [bilibili](https://www.bilibili.com/video/BV1Py4y1s7ap/) or [youtube](https://youtu.be/bFrKm5t4M54). For the deployment in windows, refer to [here](https://www.bilibili.com/video/BV1CA411L7ux/).
+It is recommended to deploy the Front-End project using nginx. Place the `dist` folder in `/var/www/html`, and adjust the `nginx.conf` file (/etc/nginx/nginx.conf for Linux) to set up reverse proxy for the backend service. For detailed deployment tutorials, you can watch videos on [bilibili](https://www.bilibili.com/video/BV1Py4y1s7ap/) or [youtube](https://youtu.be/bFrKm5t4M54). For deployment on Windows, refer to [this link](https://www.bilibili.com/video/BV1CA411L7ux/).
 
 ### Nginx
 
-Modify the `nginx.conf`:
+Can use `nginx -t` to locate the `nginx.conf` file, then modify the `nginx.conf`:
 
 ```
 // config the user accoring to your need
@@ -90,25 +90,34 @@ Unzip and copy the files inside `dist` to `/var/www/html` folder of Nginx.
 
 ```
 unzip gshark*.zip
+cd gshark*
+mv dist /var/www/html/
+# for Mac
+mv dist /usr/local/www/html/
 ```
 
 Start the Nginx and the Front-End is deployed successfully.
 
-### Incremental Deployment
-
-For the incremental deployment, [sql.md](https://github.com/madneal/gshark/blob/master/sql.md) should be executed for the corresponding database operations.
+> [!TIP]
+> If you installed Nginx by Homebrew, you need to stop Nginx by:
+> ```shell
+> brew services stop nginx
+> ```
 
 ### Server service
 
-For the first time, you need to rename `config-temp.yaml` to `config.yaml`.
+For the first time, you need to rename `config-temp.yaml` to `config.yaml`. Then you can run the binary file `gshark` directly. Then access to `localhost:8080` for local deployment.
 
-```
-go build && ./gshark
-or
-go run main.go
-```
+If you have not initial the database in the before, you will be redirec to the database initial page at first.
+
+<img width="936" alt="image" src="https://github.com/user-attachments/assets/dfa7e53e-dc4a-4697-831f-a4f4f3810c3c">
+
 
 For the scan service, it's necessary to config the corresponding rules. For example, Github or Gitlab rules.
+
+### Incremental Deployment
+
+For the incremental deployment, [sql.md](https://github.com/madneal/gshark/blob/master/sql.md) should be executed for the corresponding database operations.
 
 ## Development
 
@@ -188,6 +197,15 @@ You are supposed to rename `config-temp.yaml` to `config.yaml` and config the da
 
 ## 最近更新
 
+#### [v1.4.6] - 2024-07-20
+
+**修复**  
+- 组件依赖升级  
+- 修复部分安全问题  
+- 丰富使用说明 README  
+- 恢复本地 build 脚本  
+- 简化项目，移除 autocode
+
 #### [v1.4.5] - 2024-06-22
 
 **修复**  
@@ -221,11 +239,5 @@ You are supposed to rename `config-temp.yaml` to `config.yaml` and config the da
 **更新**  
 - 修改 docker 数据库默认密码  
 - 增加初始化任务
-
-#### [v1.4.0] - 2023-12-09
-
-**更新**  
-- go-github 组件升级  
-- GitHub 扫描支持系统代理
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

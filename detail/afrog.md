@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.0.7-red)
+![Version](https://img.shields.io/badge/Version-V3.0.9-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,18 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v3.0.9] - 2024-07-21
+
+**更新**  
+- 修复了-t命令中自动将路径(path)全部转换为小写的错误
+
+#### [v3.0.8] - 2024-07-08
+
+**更新**  
+- 优化Debug模式下，调整漏洞条目位置至Debug请求数据的底部  
+- 优化-Target命令现在能够自动从读取的文件内资产中去除左右两侧的空格  
+- 修复当使用 Cookie 中包含多个冒号时无法被正确解析和应用的问题
+
 #### [v3.0.7] - 2024-06-11
 
 **更新**  
@@ -160,16 +172,5 @@ afrog -t https://example.com -ja result.json
 
 **更新**  
 - 修复在Linux环境内使用 -ap 命令时,指定路径全部转为小写,导致无法正常工作的 BUG
-
-#### [v3.0.3] - 2024-04-13
-
-**更新**  
-- 新增 -header 命令，用于在 http 请求中自定义 header 头  
-- 命令 -cookie 已废弃
-
-#### [v3.0.2] - 2024-03-16
-
-**更新**  
-- 新增了 -config 参数，用于自定义 afrog-config.yaml 文件的目录
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

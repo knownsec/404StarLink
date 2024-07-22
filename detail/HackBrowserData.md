@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-moonD4rk-orange)
 ![GitHub stars](https://img.shields.io/github/stars/moonD4rk/HackBrowserData.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.4.5-red)
+![Version](https://img.shields.io/badge/Version-V0.4.6-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -183,6 +183,18 @@ PS C:\test> .\hack-browser-data.exe -b all -f json --dir results -zip
 
 ## 最近更新
 
+#### [v0.4.6] - 2024-07-16
+
+**更新**  
+- 重构项目并更新 repo deploy  
+- 重构 logger 到标准库  
+- 移除 CGO go-sqlite3 改用纯 go 驱动  
+- 优化加解密模块  
+- 重构获取浏览器数据的逻辑  
+- 跳过 chromium 快照目录以找到正确的密码数据库  
+- 改进浏览浏览器配置文件目录时的错误处理  
+- 优化 GitHub 操作和依赖项更新
+
 #### [v0.4.5] - 2024-01-09
 
 **新增**  
@@ -228,12 +240,5 @@ PS C:\test> .\hack-browser-data.exe -b all -f json --dir results -zip
 - 新增导出扩展
 - 新增设置控制台 log 日志的色彩  
 - 文档添加 HackBrowserData 的 logo
-
-#### [v0.4.1] - 2022-04-20
-
-**更新**  
-- 支持所有浏览器导出 local storage
-- 修复 firefox ans1 数据结构  
-- 修复 windows 平台上 chromium 密钥查找失败的问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
