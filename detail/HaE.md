@@ -3,28 +3,31 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.2.2-red)
+![Version](https://img.shields.io/badge/Version-V3.2.3-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
 ## 项目介绍
 
-**HaE**是一款网络安全（数据安全）领域下的辅助型框架式项目，旨在实现对HTTP消息（包含WebSocket）的高亮标记和信息提取。本项目通过自定义正则表达式匹配响应报文或请求报文，并对匹配成功的报文进行标记和提取。
+**HaE**是一款**网络安全（数据安全）领域**下的框架式项目，采用了**乐高积木式**模块化设计理念，巧妙地融入了**人工智能大模型辅助技术**，实现对HTTP消息（包含WebSocket）精细化的标记和提取。
+
+通过运用**多引擎**的自定义正则表达式，HaE能够准确匹配并处理HTTP请求与响应报文（包含WebSocket），对匹配成功的内容进行有效的标记和信息抽取，从而提升网络安全（数据安全）领域下的**漏洞和数据分析效率**。
 
 > 随着现代化Web应用采用前后端分离的开发模式，日常漏洞挖掘的过程中，捕获的HTTP请求流量也相应增加。若想全面评估一个Web应用，会花费大量时间在无用的报文上。**HaE的出现旨在解决这类情况**，借助HaE，您能够**有效减少**测试时间，将更多精力集中在**有价值且有意义**的报文上，从而**提高漏洞挖掘效率**。
 
 **注意事项**: 
 
-1. 由于HaE 3.0版本开始采用`Montoya API`进行开发，因此使用新版HaE需要升级你的BurpSuite版本（>=2023.12.1）。
-2. 由于HaE 2.6版本后对规则字段进行了更新，因此无法适配<=2.6版本的规则，请用户自行前往[规则转换页面](https://gh0st.cn/HaE/ConversionRule.html)进行转换。
-3. HaE官方规则库存放在[Github](https://raw.githubusercontent.com/gh0stkey/HaE/gh-pages/Rules.yml)上，因此点击`Update`升级HaE官方规则库时需使用代理（BApp审核考虑安全性，不允许使用CDN）。
-4. 自定义HaE规则必须用左右括号`()`将所需提取的表达式内容包含，例如你要匹配一个**Shiro应用**的响应报文，正常匹配规则为`rememberMe=delete`，在HaE的规则中就需要变成`(rememberMe=delete)`。
+1. HaE 3.3版本开启了AI+新功能，该功能目前仅支持阿里的`Qwen-Long`模型（支持超长文本）和月之暗面的`moonshot-v1-128k`模型（支持短文本），请配置和使用时注意。
+2. HaE 3.0版本开始采用`Montoya API`进行开发，使用新版HaE需要升级你的BurpSuite版本（>=2023.12.1）。
+3. HaE 2.6版本后对规则字段进行了更新，因此无法适配<=2.6版本的规则，请用户自行前往[规则转换页面](https://gh0st.cn/HaE/ConversionRule.html)进行转换。
+4. HaE官方规则库存放在[Github](https://raw.githubusercontent.com/gh0stkey/HaE/gh-pages/Rules.yml)上，因此点击`Update`升级HaE官方规则库时需使用代理（BApp审核考虑安全性，不允许使用CDN）。
+5. 自定义HaE规则必须用左右括号`()`将所需提取的表达式内容包含，例如你要匹配一个**Shiro应用**的响应报文，正常匹配规则为`rememberMe=delete`，在HaE的规则中就需要变成`(rememberMe=delete)`。
 
 ## 使用方法
 
 插件装载: `Extender - Extensions - Add - Select File - Next`
 
-初次装载`HaE`会自动获取官方规则库`https://raw.githubusercontent.com/gh0stkey/HaE/gh-pages/Rules.yml`，配置文件（`Config.yml`）和规则文件（`Rules.yml`）会放在固定目录下：
+初次装载`HaE`会从Jar包中加载离线的规则库，如果更新的话则会向官方规则库地址拉取`https://raw.githubusercontent.com/gh0stkey/HaE/gh-pages/Rules.yml`，配置文件（`Config.yml`）和规则文件（`Rules.yml`）会放在固定目录下：
 
 1. Linux/Mac用户的配置文件目录：`~/.config/HaE/`
 2. Windows用户的配置文件目录：`%USERPROFILE%/.config/HaE/`
@@ -55,11 +58,13 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 4. **算法**：内置高亮颜色的升级算法，当出现相同颜色时**会自动向上升级一个颜色**进行标记，**避免`屠龙者终成恶龙`场景**。
 5. **管理**：支持对数据的一键导出、导入，以**自定义`.hae`文件的方式**进行项目数据存储，**便于存储和共享项目数据**。
 6. **实战**：官方规则库和规则字段作用功能，都是**基于实战化场景总结输出**的，**以此提高数据的有效性、精准性发现**。
+7. **智能**：融入**人工智能（AI）大模型**API，对匹配的数据进行优化处理，**提高数据式漏洞挖掘效率**。
 
 | 界面名称                  | 界面展示                                              |
 | ------------------------ | ---------------------------------------------------- |
 | Rules（规则管理）     | <img src="https://github.com/gh0stkey/HaE/raw/master/images/rules.png" style="width: 80%" />     |
-| Config（配置管理）    | <img src="https://github.com/gh0stkey/HaE/raw/master/images/config.png" style="width: 80%" />    |
+| Config-Setting（Setting配置管理）    | <img src="https://github.com/gh0stkey/HaE/raw/master/images/config-setting.png" style="width: 80%" />    |
+| Config-AI+（AI+配置管理）    | <img src="https://github.com/gh0stkey/HaE/raw/master/images/config-ai.png" style="width: 80%" />    |
 | Databoard（数据集合） | <img src="https://github.com/gh0stkey/HaE/raw/master/images/databoard.png" style="width: 80%" /> |
 | MarkInfo（数据展示） | <img src="https://github.com/gh0stkey/HaE/raw/master/images/markinfo.png" style="width: 80%" /> |
 
@@ -68,6 +73,17 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 
 
 ## 最近更新
+
+#### [v3.2.3] - 2024-07-23
+
+**功能更新**  
+- 新增AI+功能(实验性)，通过调用阿里(Qwen-Long)和月之暗面(moonshot-v1-128k)的AI大模型API，优化HaE匹配结果  
+- 新增作用域功能，在Config - Setting中可以设置HaE的作用域，可以选择想要高亮提取的模块  
+
+**问题修复**  
+- 修复Databoard长时间使用卡顿问题  
+- 修复HaE在暗黑主题下加载的Logo颜色问题  
+- 修复项目数据导入、导出提示框过大问题
 
 #### [v3.2.2] - 2024-06-19
 
@@ -103,11 +119,5 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 * 优化HaE初始化逻辑，内置官方规则，初始化将不再依赖于网络  
 * 改进HaE Config布局，基于表格方式进行配置信息管理  
 * 新增HaE Config配置，可以设置Block host黑名单方式禁止HaE匹配
-
-#### [v3.0.2] - 2024-05-12
-
-**更新**  
-* 修复Databoard中当规则作用域为request line/response line时候数据无法定位问题  
-* 修复Databoard中数据的查询错乱问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
