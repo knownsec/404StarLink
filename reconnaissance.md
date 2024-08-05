@@ -28,7 +28,7 @@
 ![Author](https://img.shields.io/badge/Author-wgpsec-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.0-red)
+![Version](https://img.shields.io/badge/Version-V1.0.2-red)
 
 <https://github.com/wgpsec/ENScan_GO>
 

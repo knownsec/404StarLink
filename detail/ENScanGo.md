@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-wgpsec-orange)
 ![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.0-red)
+![Version](https://img.shields.io/badge/Version-V1.0.2-red)
 ![Time](https://img.shields.io/badge/Join-20221117-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -226,6 +226,12 @@ go >= 1.22.1
 
 ## 最近更新
 
+#### [v1.0.2] - 2024-08-03
+
+**更新**  
+- 修复 AQC 查询经常触发验证问题  
+- 修复自定义tls指纹ja3问题(应该不用挂burp了)
+
 #### [v1.0.0] - 2024-05-21
 
 **更新**  
@@ -253,11 +259,5 @@ go >= 1.22.1
 **更新**  
 - 增加轻量web模式 --web 模式即可启动默认端口为3000  
 - 访问 /api/info 即可搜索，无需配置数据库
-
-#### [v0.0.15] - 2023-08-16
-
-**更新**  
-- 修复AQC查询问题  
-- 当ENSCAN无法正常访问网站可尝试使用-proxy参数挂上代理
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
