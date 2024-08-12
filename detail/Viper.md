@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.3.0-red)
+![Version](https://img.shields.io/badge/Version-V2.3.2-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -79,6 +79,33 @@
 
 ## 最近更新
 
+#### [v2.3.2] - 2024-08-05
+
+**新功能**  
+- 新增SMTP配置,用于发送邮件  
+- 数据分析多角色智能体支持session/handler相关信息查询分析 
+- 数据分析多角色智能体支持meterpreter相关操作(摄像头/截屏/键盘记录/查看文件)  
+- 新增邮件生成/发送智能体,可以根据用户简单描述生成完整的邮件并发送  
+
+**优化**  
+- 部分按钮UI调整  
+- OpenAI新增gpt-4o-mini模型  
+- 渗透服务状态检查新增心跳功能检测  
+- 互联网攻击面管理的worker代码合并到主分支  
+
+**Bugfix**  
+- fix 部分界面抖动问题
+
+#### [v2.3.1] - 2024-07-08
+
+**新功能**  
+- 新增V-GPT,AI驱动的攻击型智能体框架  
+- 新增数据分析智能体 数据分析多角色智能体模块  
+- 新增OpenAI集成  
+
+**优化**  
+- 调整平台设置部分UI
+
 #### [v2.3.0] - 2024-05-09
 
 **优化**  
@@ -121,27 +148,5 @@
 
 **Bugfix**  
 - fix `自动化信息收集(通过公司名称)` 结果不全问题
-
-#### [v20231125] - 2023-11-25
-
-**修复**  
-- 修复渗透服务连接失败,请检查MSFRPC状态的问题  
-- 修复安装完成后访问Web页面时报502错误的问题
-
-#### [v20230924] - 2023-09-24
-
-**新功能**  
-- 自动编排新增Session定时任务功能  
-- 新增TCPLOG服务器模块  
-- 新增Last日志删除模块  
-
-**优化**  
-- 前端界面支持OSX的Payload和Handler生成  
-- Session展示区域支持伸缩(点击右侧按钮扩大缩小)  
-- 合并metasploit-framework 6.3.35版本  
-
-**Bugfix**  
-- fix 监听通信通道选择Session后不显示问题  
-- fix 内存执行C#可执行文件模块报错问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

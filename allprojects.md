@@ -80,8 +80,8 @@
 * [其他/others](#其他others)
     * [f8x](#f8x)
     * [BinAbsInspector](#binabsinspector)
-    * [passive-scan-client](#passive-scan-client)
     * [Heimdallr](#heimdallr)
+    * [passive-scan-client](#passive-scan-client)
     * [wam](#wam)
     * [LBot](#lbot)
 
@@ -348,7 +348,7 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.0.9-red)
+![Version](https://img.shields.io/badge/Version-V3.1.1-red)
 
 <https://github.com/zan8in/afrog>
 
@@ -421,7 +421,7 @@ CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器�
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.3.0-red)
+![Version](https://img.shields.io/badge/Version-V2.3.2-red)
 
 <https://github.com/FunnyWolf/Viper>
 
@@ -776,16 +776,6 @@ PortForward 是使用 Golang 进行开发的端口转发工具，解决在某些
 
 BinAbsInspector(Binary Abstract Inspector)是一款用于自动化逆向工程和扫描二进制文件漏洞的静态分析器，是 Keenlab 孵化的长期研究项目。基于 Ghidra 的支持下的抽象解释，适用于 Ghidra 的 Pcode 而非汇编。目前支持 x86、x64、armv7 和 aarch64 的二进制文件。
 
-### [passive-scan-client](detail/passive-scan-client.md)
-![Author](https://img.shields.io/badge/Author-c0ny1-orange)
-![Language](https://img.shields.io/badge/Language-Java-blue)
-![GitHub stars](https://img.shields.io/github/stars/c0ny1/passive-scan-client.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.3.1-red)
-
-<https://github.com/c0ny1/passive-scan-client>
-
-Passive Scan Client是一款可以将经过筛选的流量转发到指定代理的Burp被动扫描流量转发插件
-
 ### [Heimdallr](detail/Heimdallr.md)
 ![Author](https://img.shields.io/badge/Author-graynjo-orange)
 ![Language](https://img.shields.io/badge/Language-JavaScript-blue)
@@ -795,6 +785,16 @@ Passive Scan Client是一款可以将经过筛选的流量转发到指定代理�
 <https://github.com/graynjo/Heimdallr>
 
 一款完全被动监听的谷歌插件，用于高危指纹识别、蜜罐特征告警和拦截、机器特征对抗。
+
+### [passive-scan-client](detail/passive-scan-client.md)
+![Author](https://img.shields.io/badge/Author-c0ny1-orange)
+![Language](https://img.shields.io/badge/Language-Java-blue)
+![GitHub stars](https://img.shields.io/github/stars/c0ny1/passive-scan-client.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.3.1-red)
+
+<https://github.com/c0ny1/passive-scan-client>
+
+Passive Scan Client是一款可以将经过筛选的流量转发到指定代理的Burp被动扫描流量转发插件
 
 ### [wam](detail/wam.md)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
