@@ -3,9 +3,10 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.4.6-red)
+![Version](https://img.shields.io/badge/Version-V1.5.0-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
+
 
 The project is based on Go and Vue to build a management system for sensitive information detection. For the full introduction, please refer to [articles](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI3MjA3MTY3Mw==&action=getalbum&album_id=2376148333116850178#wechat_redirect) and [videos](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzI3MjA3MTY3Mw==&action=getalbum&album_id=1834365721464651778#wechat_redirect). For now, all the scans are only targeted to the public environments, not local environments.
 
@@ -197,6 +198,13 @@ You are supposed to rename `config-temp.yaml` to `config.yaml` and config the da
 
 ## 最近更新
 
+#### [v1.5.0] - 2024-08-17
+
+**修复**  
+- 组件版本升级  
+- 将后端服务与扫描服务分离  
+- 改进 Docker 镜像
+
 #### [v1.4.6] - 2024-07-20
 
 **修复**  
@@ -230,14 +238,5 @@ You are supposed to rename `config-temp.yaml` to `config.yaml` and config the da
 **新增**  
 - 增加 Docker 版本 MySql 的数据持久化  
 - GitHub client 可以忽略 TLS 错误
-
-#### [v1.4.2] - 2024-02-03
-
-**新增**  
-- 增加 postman 中 request 搜索  
-
-**更新**  
-- 修改 docker 数据库默认密码  
-- 增加初始化任务
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
