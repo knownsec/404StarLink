@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.2.3-red)
+![Version](https://img.shields.io/badge/Version-V3.3.2-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -74,7 +74,28 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 
 ## 最近更新
 
-#### [v3.2.3] - 2024-07-23
+#### [v3.3.2] - 2024-08-23
+
+**更新**  
+- 修复假后台线程，正确使用后台线程函数  
+- 修复报错提示，添加对HTTP消息过滤的容错处理  
+- 修复数据错乱展示，新增数据存储边界  
+- 修复配置初始化缺失，新增初始化信息
+
+#### [v3.3.1] - 2024-08-12
+
+**功能更新**  
+- 优化HaE的项目管理提示信息，使用表格方式呈现  
+- 新增Exclude status用于排除对应HTTP状态码报文  
+- 新增Request URI规则，用于快速发现未授权访问漏洞  
+
+**问题修复**  
+- 修复Databoard下空列表查询时状态栏停留问题  
+- 修复Databoard下报文多次选中时数据小时问题  
+- 修复特殊场景下的报错问题，容错处理  
+- 修复Config下添加按钮失效问题
+
+#### [v3.3] - 2024-07-23
 
 **功能更新**  
 - 新增AI+功能(实验性)，通过调用阿里(Qwen-Long)和月之暗面(moonshot-v1-128k)的AI大模型API，优化HaE匹配结果  
@@ -101,23 +122,5 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 * 修复Databoard删除数据后空数据列表保留问题  
 * 优化Databoard数据查询体验，增加底部数据加载等待条  
 * 优化Databoard数据导出、导入功能，支持大数据内容的处理
-
-#### [v3.2] - 2024-05-24
-
-**更新**  
-* 修复Databoard查询数据缺少问题  
-* 修复Databoard删除数据失效问题  
-* 优化Config配置数据插入逻辑，支持回车键  
-* 新增Databoard数据导出、导入功能
-
-#### [v3.1] - 2024-05-23
-
-**更新**  
-* 修复后缀名匹配失效问题  
-* 优化HaE MarkInfo调用逻辑，减少UI重复创建  
-* 优化缓存池逻辑，基于Caffeine进行生命周期管理  
-* 优化HaE初始化逻辑，内置官方规则，初始化将不再依赖于网络  
-* 改进HaE Config布局，基于表格方式进行配置信息管理  
-* 新增HaE Config配置，可以设置Block host黑名单方式禁止HaE匹配
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
