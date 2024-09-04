@@ -45,8 +45,7 @@ AppScan 这款隐私合规检测工具, 它是一款基于动态分析, 可以
 - app: 64位/未加固(有时候引入的第三方sdk也会自带一些反检测功能)
 
 ## 模拟器
-根据 https://github.com/TongchengOpenSource/AppScan/discussions/29 的投票结果, 我们对MuMu和雷神进行了适配工作
-目前模拟器支持未完全上线, 用户可在 release 中下载pre版本进行测试
+根据 https://github.com/TongchengOpenSource/AppScan/discussions/29 的投票结果, 我们对MuMu和雷电进行了适配工作调研
 目前支持的模拟器
 - 雷神模拟器9(需要在 设置-其他设置 中开启root权限, 设置ADB调试为'开启本地连接')
 
