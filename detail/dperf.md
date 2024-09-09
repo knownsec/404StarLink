@@ -89,7 +89,7 @@ ierrors 0                  oerrors  0                  imissed  0
     #Mellanox CX4/CX5 requires 'CONFIG_RTE_LIBRTE_MLX5_PMD=y'
     #HNS3 requires 'CONFIG_RTE_LIBRTE_HNS3_PMD=y'
     #VMXNET3 requires 'CONFIG_RTE_LIBRTE_VMXNET3_PMD=y'
-    
+
     TARGET=x86_64-native-linuxapp-gcc #or arm64-armv8a-linuxapp-gcc
     cd /root/dpdk/dpdk-stable-19.11.10
     make install T=$TARGET -j16
@@ -98,10 +98,10 @@ ierrors 0                  oerrors  0                  imissed  0
     cd dperf
     make -j8 RTE_SDK=/root/dpdk/dpdk-stable-19.11.10 RTE_TARGET=$TARGET
 
-### 绑定网卡 
+### 绑定网卡
     #Mellanox网卡跳过此步
     #假设PCI号是0000:1b:00.0
-    
+
     modprobe uio
     modprobe uio_pci_generic
     /root/dpdk/dpdk-stable-19.11.10/usertools/dpdk-devbind.py -b uio_pci_generic 0000:1b:00.0
@@ -116,10 +116,11 @@ ierrors 0                  oerrors  0                  imissed  0
     curl http://6.6.241.27/
 
 ## 运行测试
-下面的例子运行一个HTTP CPS压力测试。    
+下面的例子运行一个HTTP CPS压力测试。
+
     #在server端运行dperf
     ./build/dperf -c test/http/server-cps.conf
-    
+
     #以另一台机器作为client端，运行dperf
     ./build/dperf -c test/http/client-cps.conf
 
@@ -130,6 +131,18 @@ ierrors 0                  oerrors  0                  imissed  0
  - dperf 要求HTTP消息在一个数据包中，所以不适合7层负载均衡的测试。
  - dperf 要求独占使用网络接口。
  - dperf 没有路由功能。建议配合三层交换机搭建测试环境。
+
+## 贡献
+dperf 欢迎大家贡献。详情请参阅[贡献指南](https://github.com/baidu/dperf/blob/main/CONTRIBUTING.md)。
+
+## 专利
+ - 彭建章(2024). 网络设备的测试方法及其装置. CN114205274B. 2024-06-11.
+
+## 作者
+* [Jianzhang Peng](https://github.com/pengjianzhang), 中国科学技术大学计算机专业博士，曾在华为和百度担任主任工程师一职，参与了7层负载均衡与4层负载均衡系统的开发。在百度工作期间，他开发了dperf项目。即使从百度离职后，他仍然致力于维护dperf项目。目前，他在新加坡工作，专注于研究和实现加密货币的高频量化交易的低时延网络系统。
+
+## 许可
+dperf基于 [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0) 许可证。
 
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关

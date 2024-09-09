@@ -7,174 +7,170 @@
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
-<div align="center">
-<img src="https://github.com/moonD4rk/HackBrowserData/raw/master/LOGO.png" alt="hack-browser-data logo" />
-</div>
-
-
 # HackBrowserData
 
-`HackBrowserData` 是一个浏览器数据（密码|历史记录|Cookie|书签|信用卡|下载记录|localStorage|浏览器插件）的导出工具，支持全平台主流浏览器。
+`HackBrowserData` is a command-line tool for decrypting and exporting browser data (passwords, history, cookies, bookmarks, credit cards, download history, localStorage and extensions) from the browser. It supports the most popular browsers on the market and runs on Windows, macOS and Linux.
 
+> Disclaimer: This tool is only intended for security research. Users are responsible for all legal and related liabilities resulting from the use of this tool. The original author does not assume any legal responsibility.
 
-> 免责声明：此工具仅限于安全研究，用户承担因使用此工具而导致的所有法律和相关责任！作者不承担任何法律责任！
-
-## 各平台浏览器支持情况
+## Supported Browser
 
 ### Windows
+| Browser            | Password | Cookie | Bookmark | History |
+|:-------------------|:--------:|:------:|:--------:|:-------:|
+| Google Chrome      |    ✅     |   ✅    |    ✅     |    ✅    |
+| Google Chrome Beta |    ✅     |   ✅    |    ✅     |    ✅    |
+| Chromium           |    ✅     |   ✅    |    ✅     |    ✅    |
+| Microsoft Edge     |    ✅     |   ✅    |    ✅     |    ✅    |
+| 360 Speed          |    ✅     |   ✅    |    ✅     |    ✅    |
+| QQ                 |    ✅     |   ✅    |    ✅     |    ✅    |
+| Brave              |    ✅     |   ✅    |    ✅     |    ✅    |
+| Opera              |    ✅     |   ✅    |    ✅     |    ✅    |
+| OperaGX            |    ✅     |   ✅    |    ✅     |    ✅    |
+| Vivaldi            |    ✅     |   ✅    |    ✅     |    ✅    |
+| Yandex             |    ✅     |   ✅    |    ✅     |    ✅    |
+| CocCoc             |    ✅     |   ✅    |    ✅     |    ✅    |
+| Firefox            |    ✅     |   ✅    |    ✅     |    ✅    |
+| Firefox Beta       |    ✅     |   ✅    |    ✅     |    ✅    |
+| Firefox Dev        |    ✅     |   ✅    |    ✅     |    ✅    |
+| Firefox ESR        |    ✅     |   ✅    |    ✅     |    ✅    |
+| Firefox Nightly    |    ✅     |   ✅    |    ✅     |    ✅    |
+| Internet Explorer  |    ❌     |   ❌    |    ❌     |    ❌    |
 
-| 浏览器                | 密码  | Cookie | 书签  | 历史记录 |
-|:-------------------|:---:|:------:|:---:|:----:|
-| Google Chrome      |  ✅  |   ✅    |  ✅  |  ✅   |
-| Google Chrome Beta |  ✅  |   ✅    |  ✅  |  ✅   |
-| Chromium           |  ✅  |   ✅    |  ✅  |  ✅   |
-| Microsoft Edge     |  ✅  |   ✅    |  ✅  |  ✅   |
-| 360 极速浏览器          |  ✅  |   ✅    |  ✅  |  ✅   |
-| QQ                 |  ✅  |   ✅    |  ✅  |  ✅   |
-| Brave              |  ✅  |   ✅    |  ✅  |  ✅   |
-| Opera              |  ✅  |   ✅    |  ✅  |  ✅   |
-| OperaGX            |  ✅  |   ✅    |  ✅  |  ✅   |
-| Vivaldi            |  ✅  |   ✅    |  ✅  |  ✅   |
-| Yandex             |  ✅  |   ✅    |  ✅  |  ✅   |
-| CocCoc             |  ✅  |   ✅    |  ✅  |  ✅   |
-| Firefox            |  ✅  |   ✅    |  ✅  |  ✅   |
-| Firefox Beta       |  ✅  |   ✅    |  ✅  |  ✅   |
-| Firefox Dev        |  ✅  |   ✅    |  ✅  |  ✅   |
-| Firefox ESR        |  ✅  |   ✅    |  ✅  |  ✅   |
-| Firefox Nightly    |  ✅  |   ✅    |  ✅  |  ✅   |
-| IE 浏览器             |  ❌  |   ❌    |  ❌  |  ❌   |
 
 ### MacOS
 
-由于 MacOS 的安全性设置，基于 `Chromium` 内核浏览器解密时**需要当前用户密码**
+Based on Apple's security policy, some browsers **require a current user password** to decrypt.
 
-| 浏览器                | 密码 | Cookie | 书签 | 历史记录 |
-|:-------------------|:--:|:------:|:--:|:----:|
-| Google Chrome      | ✅  |   ✅    | ✅  |  ✅   |
-| Google Chrome Beta | ✅  |   ✅    | ✅  |  ✅   |
-| Chromium           | ✅  |   ✅    | ✅  |  ✅   |
-| Microsoft Edge     | ✅  |   ✅    | ✅  |  ✅   |
-| Brave              | ✅  |   ✅    | ✅  |  ✅   |
-| Opera              | ✅  |   ✅    | ✅  |  ✅   |
-| OperaGX            | ✅  |   ✅    | ✅  |  ✅   |
-| Vivaldi            | ✅  |   ✅    | ✅  |  ✅   |
-| CocCoc             | ✅  |   ✅    | ✅  |  ✅   |
-| Yandex             | ✅  |   ✅    | ✅  |  ✅   |
-| Arc                | ✅  |   ✅    | ✅  |  ✅   |
-| Firefox            | ✅  |   ✅    | ✅  |  ✅   |
-| Firefox Beta       | ✅  |   ✅    | ✅  |  ✅   |
-| Firefox Dev        | ✅  |   ✅    | ✅  |  ✅   |
-| Firefox ESR        | ✅  |   ✅    | ✅  |  ✅   |
-| Firefox Nightly    | ✅  |   ✅    | ✅  |  ✅   |
-| Safari             | ❌  |   ❌    | ❌  |  ❌   |
+| Browser            | Password | Cookie | Bookmark | History |
+|:-------------------|:--------:|:------:|:--------:|:-------:|
+| Google Chrome      |    ✅     |   ✅    |    ✅     |    ✅    |
+| Google Chrome Beta |    ✅     |   ✅    |    ✅     |    ✅    |
+| Chromium           |    ✅     |   ✅    |    ✅     |    ✅    |
+| Microsoft Edge     |    ✅     |   ✅    |    ✅     |    ✅    |
+| Brave              |    ✅     |   ✅    |    ✅     |    ✅    |
+| Opera              |    ✅     |   ✅    |    ✅     |    ✅    |
+| OperaGX            |    ✅     |   ✅    |    ✅     |    ✅    |
+| Vivaldi            |    ✅     |   ✅    |    ✅     |    ✅    |
+| CocCoc             |    ✅     |   ✅    |    ✅     |    ✅    |
+| Yandex             |    ✅     |   ✅    |    ✅     |    ✅    |
+| Arc                |    ✅     |   ✅    |    ✅     |    ✅    |
+| Firefox            |    ✅     |   ✅    |    ✅     |    ✅    |
+| Firefox Beta       |    ✅     |   ✅    |    ✅     |    ✅    |
+| Firefox Dev        |    ✅     |   ✅    |    ✅     |    ✅    |
+| Firefox ESR        |    ✅     |   ✅    |    ✅     |    ✅    |
+| Firefox Nightly    |    ✅     |   ✅    |    ✅     |    ✅    |
+| Safari             |    ❌     |   ❌    |    ❌     |    ❌    |
 
 ### Linux
 
-| 浏览器                | 密码  | Cookie | 书签  | 历史记录 |
-|:-------------------|:---:|:------:|:---:|:----:|
-| Google Chrome      |  ✅  |   ✅    |  ✅  |  ✅   |
-| Google Chrome Beta |  ✅  |   ✅    |  ✅  |  ✅   |
-| Chromium           |  ✅  |   ✅    |  ✅  |  ✅   |
-| Microsoft Edge     |  ✅  |   ✅    |  ✅  |  ✅   |
-| Brave              |  ✅  |   ✅    |  ✅  |  ✅   |
-| Opera              |  ✅  |   ✅    |  ✅  |  ✅   |
-| Vivaldi            |  ✅  |   ✅    |  ✅  |  ✅   |
-| Chromium           |  ✅  |   ✅    |  ✅  |  ✅   |
-| Firefox            |  ✅  |   ✅    |  ✅  |  ✅   |
-| Firefox Beta       |  ✅  |   ✅    |  ✅  |  ✅   |
-| Firefox Dev        |  ✅  |   ✅    |  ✅  |  ✅   |
-| Firefox ESR        |  ✅  |   ✅    |  ✅  |  ✅   |
-| Firefox Nightly    |  ✅  |   ✅    |  ✅  |  ✅   |
+| Browser            | Password | Cookie | Bookmark | History |
+|:-------------------|:--------:|:------:|:--------:|:-------:|
+| Google Chrome      |    ✅     |   ✅    |    ✅     |    ✅    |
+| Google Chrome Beta |    ✅     |   ✅    |    ✅     |    ✅    |
+| Chromium           |    ✅     |   ✅    |    ✅     |    ✅    |
+| Microsoft Edge Dev |    ✅     |   ✅    |    ✅     |    ✅    |
+| Brave              |    ✅     |   ✅    |    ✅     |    ✅    |
+| Opera              |    ✅     |   ✅    |    ✅     |    ✅    |
+| Vivaldi            |    ✅     |   ✅    |    ✅     |    ✅    |
+| Firefox            |    ✅     |   ✅    |    ✅     |    ✅    |
+| Firefox Beta       |    ✅     |   ✅    |    ✅     |    ✅    |
+| Firefox Dev        |    ✅     |   ✅    |    ✅     |    ✅    |
+| Firefox ESR        |    ✅     |   ✅    |    ✅     |    ✅    |
+| Firefox Nightly    |    ✅     |   ✅    |    ✅     |    ✅    |
 
-## 安装运行
-### 安装
 
-可下载已编译好，可直接运行的 [二进制文件](https://github.com/moonD4rk/HackBrowserData/releases)
+## Getting started
 
-> 某些情况下，这款安全工具会被 Windows Defender 或其他杀毒软件当作病毒导致无法执行。代码已经全部开源，可自行编译。
+### Install
 
-### 从源码编译
+Installation of `HackBrowserData` is dead-simple, just download [the release for your system](https://github.com/moonD4rk/HackBrowserData/releases) and run the binary.
 
-仅支持 `go 1.18+` 以后版本，一些函数使用到了泛型
+> In some situations, this security tool will be treated as a virus by Windows Defender or other antivirus software and can not be executed. The code is all open source, you can modify and compile by yourself.
 
-``` bash
+### Building from source
+
+only support `go 1.21+` with go generics and `log/slog` standard library.
+
+```bash
 $ git clone https://github.com/moonD4rk/HackBrowserData
 
 $ cd HackBrowserData/cmd/hack-browser-data
 
-$ CGO_ENABLED=1 go build
+$ go build
 ```
 
-### 跨平台编译
+### Cross compile
 
-由于用到了 `go-sqlite3` 库，在跨平台编译时需提前安装支持目标平台的 `GCC` 工具，下面以 `MacOS` 下分别编译 `Windows` 和 `Linux` 程序为例：
+Here's an example of use `macOS` building for `Windows` and `Linux`
 
-#### Windows
+#### For Windows
 
-``` shell
-brew install mingw-w64
-
-CGO_ENABLED=1 GOOS=windows GOARCH=amd64 CC=x86_64-w64-mingw32-gcc go build
+```shell
+GOOS=windows GOARCH=amd64 go build
 ```
 
-#### Linux
+#### For Linux
 
-``` shell
-brew install FiloSottile/musl-cross/musl-cross
+````shell
+GOOS=linux GOARCH=amd64 go build
+````
 
-CC=x86_64-linux-musl-gcc CXX=x86_64-linux-musl-g++ GOARCH=amd64 GOOS=linux CGO_ENABLED=1 go build -ldflags "-linkmode external -extldflags -static"
-```
+### Run
 
-### 运行
-双击直接运行，也可以使用命令行调用相应的命令。
+You can double-click to run, or use command line.
 
-```
-PS C:\test> .\hack-browser-data.exe -h
+```powershell
+PS C:\Users\moond4rk\Desktop> .\hack-browser-data.exe -h
 NAME:
-   hack-browser-data - Export password|bookmark|cookie|history|credit card|download|localStorage|extension from browser
-
+   hack-browser-data - Export passwords|bookmarks|cookies|history|credit cards|download history|localStorage|extensions from browser
 USAGE:
-   [hack-browser-data -b chrome -f json -dir results -cc]
-   Export all browingdata(password/cookie/history/bookmark) from browser
+   [hack-browser-data -b chrome -f json --dir results --zip]
+   Export all browsing data (passwords/cookies/history/bookmarks) from browser
    Github Link: https://github.com/moonD4rk/HackBrowserData
-
 VERSION:
-   0.5.0
+   0.4.6
 
 GLOBAL OPTIONS:
    --verbose, --vv                   verbose (default: false)
    --compress, --zip                 compress result to zip (default: false)
-   --browser value, -b value         available browsers: all|brave|chrome|chrome-beta|chromium|coccoc|edge|firefox|opera|opera-gx|vivaldi|yandex (default: "all")
+   --browser value, -b value         available browsers: all|360|brave|chrome|chrome-beta|chromium|coccoc|dc|edge|firefox|opera|opera-gx|qq|sogou|vivaldi|yandex (default: "all")
    --results-dir value, --dir value  export dir (default: "results")
-   --format value, -f value          file name csv|json (default: "csv")
+   --format value, -f value          output format: csv|json (default: "csv")
    --profile-path value, -p value    custom profile dir path, get with chrome://version
    --full-export, --full             is export full browsing data (default: true)
    --help, -h                        show help
    --version, -v                     print the version
 
-
-PS C:\test> .\hack-browser-data.exe -b all -f json --dir results -zip
-[NOTICE] [browser.go:46,pickChromium] find browser Chrome success  
-[NOTICE] [browser.go:46,pickChromium] find browser Microsoft Edge success  
-[NOTICE] [browsingdata.go:59,Output] output to file results/microsoft_edge_download.json success  
-[NOTICE] [browsingdata.go:59,Output] output to file results/microsoft_edge_password.json success  
-[NOTICE] [browsingdata.go:59,Output] output to file results/microsoft_edge_creditcard.json success  
-[NOTICE] [browsingdata.go:59,Output] output to file results/microsoft_edge_bookmark.json success  
-[NOTICE] [browsingdata.go:59,Output] output to file results/microsoft_edge_cookie.json success  
-[NOTICE] [browsingdata.go:59,Output] output to file results/microsoft_edge_history.json success  
-[NOTICE] [browsingdata.go:59,Output] output to file results/chrome_history.json success  
-[NOTICE] [browsingdata.go:59,Output] output to file results/chrome_download.json success  
-[NOTICE] [browsingdata.go:59,Output] output to file results/chrome_password.json success  
-[NOTICE] [browsingdata.go:59,Output] output to file results/chrome_creditcard.json success  
-[NOTICE] [browsingdata.go:59,Output] output to file results/chrome_bookmark.json success  
-[NOTICE] [browsingdata.go:59,Output] output to file results/chrome_cookie.json success  
-
 ```
 
-### 基于此工具的一些其他项目
-[Sharp-HackBrowserData](https://github.com/S3cur3Th1sSh1t/Sharp-HackBrowserData)
+For example, the following is an automatic scan of the browser on the current computer, outputting the decryption results in `JSON` format and compressing as `zip`.
 
-[Reflective-HackBrowserData](https://github.com/idiotc4t/Reflective-HackBrowserData)
+```powershell
+PS C:\Users\moond4rk\Desktop> .\hack-browser-data.exe -b all -f json --dir results --zip
+
+PS C:\Users\moond4rk\Desktop> ls -l .\results\
+    Directory: C:\Users\moond4rk\Desktop\results
+    
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         7/15/2024  10:55 PM          44982 results.zip
+```
+
+
+### Run with custom browser profile folder
+
+If you want to export data from a custom browser profile folder, you can use the `-p` parameter to specify the path of the browser profile folder. PS: use double quotes to wrap the path.
+```powershell
+PS C:\Users\moond4rk\Desktop> .\hack-browser-data.exe -b chrome -p "C:\Users\User\AppData\Local\Microsoft\Edge\User Data\Default"
+
+[NOTICE] [browsingdata.go:59,Output] output to file results/chrome_creditcard.csv success  
+[NOTICE] [browsingdata.go:59,Output] output to file results/chrome_bookmark.csv success  
+[NOTICE] [browsingdata.go:59,Output] output to file results/chrome_cookie.csv success  
+[NOTICE] [browsingdata.go:59,Output] output to file results/chrome_history.csv success  
+[NOTICE] [browsingdata.go:59,Output] output to file results/chrome_download.csv success  
+[NOTICE] [browsingdata.go:59,Output] output to file results/chrome_password.csv success  
+```
 
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关

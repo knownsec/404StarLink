@@ -3,17 +3,15 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.3.2-red)
+![Version](https://img.shields.io/badge/Version-V2.3.4-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
-
-- Viper(炫彩蛇)是一款图形化内网渗透工具,将内网渗透过程中常用的战术及技术进行模块化及武器化.
-- Viper(炫彩蛇)集成杀软绕过,内网隧道,文件管理,命令行等基础功能.
-- Viper(炫彩蛇)当前已集成70+个模块,覆盖初始访问/持久化/权限提升/防御绕过/凭证访问/信息收集/横向移动等大类.
-- Viper(炫彩蛇)目标是帮助红队工程师提高攻击效率,简化操作,降低技术门槛.
-- Viper(炫彩蛇)支持在浏览器中运行原生msfconsole,且支持多人协作.
-
+- Viper(炫彩蛇)是一款图形化互联网攻击面管理&红队模拟平台.
+- Viper(炫彩蛇)覆盖红队模拟的常用功能(杀软绕过,内网隧道,文件管理,命令行等).
+- Viper(炫彩蛇)红队模拟当前已集成100+个模块,覆盖MITRE ATT&CK的所有战术大类.
+- Viper(炫彩蛇)红队模拟支持基于LLM的智能体,用户可以用自然语言调用系统功能.
+- Viper(炫彩蛇)攻击面管理支持备案\域名\IP\公众号小程序\CDN\WAF\漏洞等采集及管理功能.
 <br>
 
 ![image.png](https://cdn.nlark.com/yuque/0/2021/png/159259/1631687579184-a2603220-9009-4240-9709-76b503fe8174.png?x-oss-process=image%2Fresize%2Cw_1504%2Climit_0)
@@ -28,7 +26,7 @@
 <br>
 <br>
 <br>
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/159259/1609217723155-f57417f1-2229-4386-888a-c8608449643c.png#align=left&display=inline&height=511&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1022&originWidth=2028&size=296317&status=done&style=none&width=1014)
+![image.png](https://cdn.nlark.com/yuque/0/2024/png/159259/1725593479768-b315a2a1-596d-4407-84a9-d643751c7520.png?x-oss-process=image%2Fformat%2Cwebp)
 <br>
 
 # 官网
@@ -38,6 +36,12 @@
 # 安装
 
 - [安装](https://www.yuque.com/vipersec/help/olg1ua)
+
+# 友情链接
+
+[使用Cloudflare Argo隐藏VIPER后台](https://tokisaki.top/blog/viper-via-cloudflare-argo/)
+
+[msf http使用cloudflare argo上线](https://tokisaki.top/blog/meterpreter-via-cloudflare-argo/)
 
 # 常见问题
 
@@ -52,6 +56,7 @@
 - [文档链接](https://www.yuque.com/vipersec/module)
 
 # 系统架构图
+
 ![viper.png](https://cdn.nlark.com/yuque/0/2021/png/159259/1627364231093-768d3b07-e044-4a2d-a3fa-e9ebd92a0828.png)
 
 # 开发手册
@@ -78,6 +83,14 @@
 - 2023-02-14 发布演示视频[404星链计划开源安全工具演示——Viper](https://www.bilibili.com/video/BV1zv4y1s7xv)
 
 ## 最近更新
+
+#### [v2.3.4] - 2024-09-06
+
+**新功能**  
+- 新增多用户功能,支持多人协作  
+
+**优化**  
+- 智能助手支持Markdown格式输出及展示
 
 #### [v2.3.2] - 2024-08-05
 
@@ -137,16 +150,5 @@
 **Bugfix**  
 - fix 扫描模块异常的错误  
 - fix 低概率生成C代码时出现编码错误
-
-#### [v2.1] - 2024-03-29
-
-**新功能**  
-- 新增通用配置界面,可以配置网络搜索引擎,wafw00f相关配置  
-
-**优化**  
-- 优化wafw00f和nuclei的相关接口及模块代码  
-
-**Bugfix**  
-- fix `自动化信息收集(通过公司名称)` 结果不全问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
