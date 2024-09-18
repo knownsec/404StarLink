@@ -451,7 +451,7 @@ MDUT 全称 Multiple Database Utilization Tools，旨在将常见的数据库利
 ![Author](https://img.shields.io/badge/Author-qi4L-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/qi4L/JYso.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.2-red)
+![Version](https://img.shields.io/badge/Version-V1.3.4-red)
 
 <https://github.com/qi4L/JYso>
 
