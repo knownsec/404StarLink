@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.3.2-red)
+![Version](https://img.shields.io/badge/Version-V3.3.3-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -74,6 +74,16 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 
 ## 最近更新
 
+#### [v3.3.3] - 2024-09-19
+
+**功能更新**  
+- 新增二次检索功能，可用于对数据进行二次搜索  
+- 新增Limit size配置项，可用于Databoard中限制响应包返回(以MB为单位，默认为0不限制)  
+
+**问题修复**  
+- 修复Config页面中配置项添加逻辑错误  
+- 修复Databoard查看数据条目逻辑错误
+
 #### [v3.3.2] - 2024-08-23
 
 **更新**  
@@ -114,13 +124,5 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 - 修复Databoard查询数据数量随机问题  
 - 优化Databoard清空数据逻辑  
 - 优化HTTP消息处理逻辑
-
-#### [v3.2.1] - 2024-05-30
-
-**更新**  
-* 修复多屏时HaE的信息窗口不跟随问题  
-* 修复Databoard删除数据后空数据列表保留问题  
-* 优化Databoard数据查询体验，增加底部数据加载等待条  
-* 优化Databoard数据导出、导入功能，支持大数据内容的处理
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
