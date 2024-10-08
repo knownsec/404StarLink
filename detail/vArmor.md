@@ -7,8 +7,6 @@
 ![Time](https://img.shields.io/badge/Join-20230831-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
-## 简介
-
 vArmor 是一个云原生容器沙箱系统，它借助 Linux 的 [AppArmor LSM](https://en.wikipedia.org/wiki/AppArmor), [BPF LSM](https://docs.kernel.org/bpf/prog_lsm.html) 和 [Seccomp](https://en.wikipedia.org/wiki/Seccomp) 技术实现强制访问控制器（即 enforcer），从而对容器进行安全加固。它可以用于增强容器隔离性、减少内核攻击面、增加容器逃逸或横行移动攻击的难度与成本。
 
 您可以借助 vArmor 在以下场景对 Kubernetes 集群中的容器进行沙箱防护
@@ -16,97 +14,41 @@ vArmor 是一个云原生容器沙箱系统，它借助 Linux 的 [AppArmor LSM]
 * 需要对关键的业务进行安全加固，增加攻击者权限提升、容器逃逸、横向渗透的难度与成本
 * 当出现高危漏洞，但由于修复难度大、周期长等原因无法立即修复时，可以借助 vArmor 实施漏洞利用缓解（具体取决于漏洞类型或漏洞利用向量。缓解代表阻断利用向量、增加利用难度）
 
+*注意：如果需要高强度的隔离方案，建议优先考虑使用硬件虚拟化容器（如 Kata Container）进行计算隔离，并借助 CNI 的 NetworkPolicy 进行网络隔离。*
+
 **vArmor 的特色**
-* 云原生。vArmor 遵循 Kubernetes Operator 设计模式，用户可通过操作 [CRD API](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/) 对特定的 Workloads 进行加固。从而以更贴近业务的视角，实现对容器化微服务的沙箱加固
-* 支持单独或组合使用 AppArmor、BPF、Seccomp enforcer，对容器的文件访问、进程执行、网络外联、系统调用等进行强制访问控制
-* 支持 Allow by Default 安全模型，即只有显式声明的行为会被阻断，从而减少性能损失和增加易用性
-* 支持行为建模，并基于行为模型进行安全防护，即只有显式声明的行为会被允许
-* 开箱即用。vArmor 包含多种内置加固规则供直接使用
+* **Cloud-Native**. vArmor 遵循 Kubernetes Operator 设计模式，用户可通过操作 [CRD API](https://kubernetes.io/docs/concepts/extend-kubernetes/api-extension/custom-resources/) 对特定的 Workloads 进行加固。从而以更贴近业务的视角，实现对容器化微服务的沙箱加固。
+* **Multiple Enforcers**. vArmor 将 AppArmor、BPF、Seccomp 抽象为 Enforcer，并支持单独或组合使用，从而对容器的文件访问、进程执行、网络外联、系统调用等进行访问控制。
+* **Allow-by-Default**. vArmor 当前重点支持此安全模型。即只有显式声明的行为会被阻断，从而减少性能损失和增加易用性。
+* **Built-in Rules**. vArmor 提供了一系列开箱即用的内置规则。这些规则为 Allow-by-Default 安全模型设计，从而极大降低对用户专业知识的要求。
+* **Behavior Modeling**. vArmor 支持对工作负载进行行为建模。这可用于开发白名单安全策略、分析哪些内置规则可用于加固应用、指导工作负载的配置遵循权限最小化原则。
+* **Deny-by-Default**. vArmor 可以基于行为模型创建白名单安全策略，从而确保仅显式声明的行为被允许。
 
 vArmor 由字节跳动终端安全团队的 **Elkeid Team** 研发，目前该项目仍在积极迭代中。
 
-*注意：如果需要高强度的隔离方案，建议优先考虑使用硬件虚拟化容器（如 Kata Container）进行计算隔离，并借助 CNI 的 NetworkPolicy 进行网络隔离。*
+
+## 文档
+您可以访问 [varmor.org](https://varmor.org) 查看 vArmor 的文档。
+
+👉 **[快速上手](https://www.varmor.org/docs/introduction#quick-start)**
+
+👉 **[安装指引](https://www.varmor.org/docs/getting_started/installation)**
+
+👉 **[使用手册](https://www.varmor.org/docs/getting_started/usage_instructions)**
+
+👉 **[策略与规则](https://www.varmor.org/docs/guides/policies_and_rules)**
+
+👉 **[性能说明](https://www.varmor.org/docs/guides/performance)**
 
 
-## 架构
-<img src="https://github.com/bytedance/vArmor/raw/main/docs/img/architecture.png" width="600">
+## 贡献
+感谢您有兴趣为 vArmor 做出贡献！以下是帮助您入门的一些步骤：
 
+✔ 阅读并遵循社区[行为准则](https://github.com/bytedance/vArmor/blob/main/CODE_OF_CONDUCT.md).
 
-## 前置条件
-您可以通过策略对象（[VarmorPolicy](https://github.com/bytedance/vArmor/blob/main/docs/usage_instructions.zh_CN.md#varmorpolicy)/[VarmorClusterPolicy](https://github.com/bytedance/vArmor/blob/main/docs/usage_instructions.zh_CN.md#varmorclusterpolicy)）的 `spec.policy.enforcer` 字段来指定 enforcer。另外，您还可以单独、组合使用不同的 enforcer，例如：AppArmorBPF, AppArmorSeccomp, AppArmorBPFSeccomp。
+✔ 阅读[开发指引](https://github.com/bytedance/vArmor/blob/main/docs/development_guide.md).
 
-不同 enforcers 所需要的前置条件如下表所示。
-
-|强制访问控制器|要求|推荐|
-|------------|--------------------------------------------|--------|
-|AppArmor    |1. Linux Kernel 4.15 及以上版本<br>2. 系统需开启 AppArmor LSM|GKE with Container-Optimized OS<br>AKS with Ubuntu 22.04 LTS<br>[VKE](https://www.volcengine.com/product/vke) with veLinux 1.0<br>Debian 10 及以上版本<br>Ubuntu 18.04.0 LTS 及以上版本<br>[veLinux 1.0](https://www.volcengine.com/docs/6396/74967) 等
-|BPF         |1. Linux Kernel 5.10 及以上版本 (x86_64)<br>2. containerd v1.6.0 及以上版本<br>3. 系统需开启 BPF LSM|EKS with Amazon Linux 2<br>GKE with Container-Optimized OS<br>[VKE](https://www.volcengine.com/product/vke) with veLinux 1.0 (with 5.10 kernel)<br>AKS with Ubuntu 22.04 LTS <sup>\*</sup><br>ACK with Alibaba Cloud Linux 3 <sup>\*</sup><br>OpenSUSE 15.4  <sup>\*</sup><br>Debian 11 <sup>\*</sup><br>Fedora 37<br>[veLinux 1.0 with 5.10 kernel](https://www.volcengine.com/docs/6396/74967) 等<br><br>* *需手动启用节点的 BPF LSM*
-|Seccomp     |1. Kubernetes v1.19 及以上版本|所有 Linux 发行版
-
-
-## 策略模式与内置规则
-vArmor 的策略支持 5 种运行模式：**AlwaysAllow、RuntimeDefault、EnhanceProtect、BehaviorModeling、 DefenseInDepth**。当策略运行在 **EnhanceProtect** 模式时，可使用内置规则和自定义接口对容器进行加固。
-
-更多说明请参见 [策略模式与内置规则](https://github.com/bytedance/vArmor/blob/main/docs/built_in_rules.zh_CN.md)。
-
-
-## 快速上手
-更多配置项和使用说明详见 [使用说明](https://github.com/bytedance/vArmor/blob/main/docs/usage_instructions.zh_CN.md)。您可以参考 [样例](https://github.com/bytedance/vArmor/blob/main/test/demo) 来了解相关功能的用法，从而辅助策略编写。您也可以尝试使用 [policy-advisor](https://github.com/bytedance/vArmor/blob/main/tools/policy-advisor/policy-advisor.py) 生成策略模版，并在模版基础上制定最终的策略。
-
-### Step 1. 拉取 chart 包
-```
-helm pull oci://elkeid-cn-beijing.cr.volces.com/varmor/varmor --version 0.5.8
-```
-
-### Step 2. 安装
-*您可以在非中国地区使用 elkeid-ap-southeast-1.cr.volces.com 域名*
-```
-helm install varmor varmor-0.5.8.tgz \
-    --namespace varmor --create-namespace \
-    --set image.registry="elkeid-cn-beijing.cr.volces.com"
-```
-
-### Step 3. 示例
-```
-# 创建名为 demo 的命名空间
-kubectl create namespace demo
-
-# 创建 VarmorPolicy，对符合 .spec.target.selector 的 Deployment 开启 AlwaysAllow 模式沙箱
-kubectl create -f test/demo/1-apparmor/vpol-apparmor-alwaysallow.yaml
-
-# 查看 VarmorPolicy & ArmorProfile 状态
-kubectl get VarmorPolicy -n demo
-kubectl get ArmorProfile -n demo
-
-# 创建 Deployment
-kubectl create -f test/demo/1-apparmor/deploy.yaml
-
-# 获取 Pod name
-POD_NAME=$(kubectl get Pods -n demo -l app=demo-1 -o name)
-
-# 在 c1 容器中执行命令，读取 secret token
-kubectl exec -n demo $POD_NAME -c c1 -- cat /run/secrets/kubernetes.io/serviceaccount/token
-
-# 更新 VarmorPolicy 策略，禁止 Deployment 读取 secret token
-kubectl apply -f test/demo/1-apparmor/vpol-apparmor-enhance.yaml
-
-# 在 c1 容器中执行命令，读取 secret token，验证读取行为被禁止
-kubectl exec -n demo $POD_NAME -c c1 -- cat /run/secrets/kubernetes.io/serviceaccount/token
-
-# 删除 VarmorPolicy 和 Deployment
-kubectl delete -f test/demo/1-apparmor/vpol-apparmor-alwaysallow.yaml
-kubectl delete -f test/demo/1-apparmor/deploy.yaml
-```
-
-### Step 4. 卸载
-```
-helm uninstall varmor -n varmor
-```
-
-
-## 性能说明
-详见 [性能说明](https://github.com/bytedance/vArmor/blob/main/docs/performance_specification.zh_CN.md)
-
+✔ 加入 vArmor [飞书群](https://applink.larkoffice.com/client/chat/chatter/add_by_link?link_token=ae5pfb2d-f8a4-4f0b-b12e-15f24fdaeb24&qr_code=true).
 
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
