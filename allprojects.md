@@ -18,8 +18,8 @@
 
 * [信息收集/reconnaissance](#信息收集reconnaissance)
     * [AppInfoScanner](#appinfoscanner)
-    * [ENScanGo](#enscango)
     * [HaE](#hae)
+    * [ENScanGo](#enscango)
     * [Kunyu](#kunyu)
     * [Glass](#glass)
     * [ksubdomain](#ksubdomain)
@@ -241,16 +241,6 @@ Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检�
 
 一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。
 
-### [ENScanGo](detail/ENScanGo.md)
-![Author](https://img.shields.io/badge/Author-wgpsec-orange)
-![Language](https://img.shields.io/badge/Language-Golang-blue)
-![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.2-red)
-
-<https://github.com/wgpsec/ENScan_GO>
-
-一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。
-
 ### [HaE](detail/HaE.md)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
@@ -260,6 +250,16 @@ Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检�
 <https://github.com/gh0stkey/HaE>
 
 HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。
+
+### [ENScanGo](detail/ENScanGo.md)
+![Author](https://img.shields.io/badge/Author-wgpsec-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.0.2-red)
+
+<https://github.com/wgpsec/ENScan_GO>
+
+一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。
 
 ### [Kunyu](detail/Kunyu.md)
 ![Author](https://img.shields.io/badge/Author-风起-orange)
