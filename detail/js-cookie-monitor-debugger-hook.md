@@ -210,7 +210,7 @@ const debuggerRules = [/foo.+/];
 
 然后追溯调用栈，能够看到设置Cookie的地方：
 
-![](images/README_images/33dc63f1.png)
+![](https://github.com/JSREI/js-cookie-monitor-debugger-hook/raw/main/images/README_images/33dc63f1.png)
 
 当然看这个栈对我们没用，我们要做的就是逐步往前定位， 直到定位到真正生成Cookie的地方，但是呢，本脚本只能帮你打个断点， 后面星辰大海的征程就要靠你自己啦！
 
@@ -383,7 +383,8 @@ consoleLogFontSize
 # 八、实战示例
 
 此页面下是一些使用此脚本逆向的实战例子汇总：  
-[点我进入导航页](https://github.com/JSREI/js-cookie-monitor-debugger-hook/blob/main/docs)
+[点我进入导航页](https://github.com/JSREI/js-cookie-monitor-debugger-hook/tree/main/docs)
+
 
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
