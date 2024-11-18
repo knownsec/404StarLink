@@ -28,6 +28,8 @@
     * [ct](#ct)
     * [ZoomEye-Tools](#zoomeye-tools)
     * [ZoomEye-go](#zoomeye-go)
+    * [vultrap](#vultrap)
+    * [xtate](#xtate)
 
 * [漏洞探测/vulnerability_assessment](#漏洞探测vulnerability_assessment)
     * [afrog](#afrog)
@@ -52,6 +54,7 @@
     * [Antenna](#antenna)
     * [Redis-Rogue-Server](#redis-rogue-server)
     * [Cola-Dnslog](#cola-dnslog)
+    * [GrabAccess](#grabaccess)
     * [MysqlT](#mysqlt)
 
 * [信息分析/information_analysis](#信息分析information_analysis)
@@ -82,6 +85,7 @@
     * [BinAbsInspector](#binabsinspector)
     * [Heimdallr](#heimdallr)
     * [passive-scan-client](#passive-scan-client)
+    * [GrabAccess](#grabaccess)
     * [wam](#wam)
     * [LBot](#lbot)
 
@@ -245,7 +249,7 @@ Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检�
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.3.3-red)
+![Version](https://img.shields.io/badge/Version-V3.4-red)
 
 <https://github.com/gh0stkey/HaE>
 
@@ -341,6 +345,26 @@ ct 是一款使用 rust 语言进行开发，并且基于ZoomEye域名查询以�
 
 ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 命令行模式，同时也可以作为SDK集成到其他工具中。该库可以让技术人员更便捷地搜索、筛选、导出 ZoomEye 的数据。
 
+### [vultrap](detail/vultrap.md)
+![Author](https://img.shields.io/badge/Author-liqzz-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/liqzz/vultrap.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+
+<https://github.com/liqzz/vultrap>
+
+在开源领域，从来不缺少优秀的漏洞POC框架和POC，现今情况下，当有相关漏洞的漏洞情报出现的时候，其用于漏洞的验证的POC代码或利用请求都会很快的被公布在互联网上，比如Nuclei等漏洞检测框架也会即时得跟进新的漏洞，并以漏洞检测模板的形式进行更新，如nuclei 的nuclei-temaplte 仓库几乎每天都会出现新的漏洞需求和检测模板提交。对于漏洞检测模板而言，其主要目的用来验证目标是否存在漏洞，但仔细了解漏洞检测的机制之后，漏洞检测大多数情况下实际就是构造请求和判断响应的过程，那么基于次，是否可以反向思维，通过判断漏洞验证的请求来返回迷惑性的结果，扰乱扫描器的判断呢，其实本质还是honeypot的思路，也可以称“漏洞伪装”，也是本项目 vultrap的实现背景。
+
+### [xtate](detail/xtate.md)
+![Author](https://img.shields.io/badge/Author-sharkocha-orange)
+![Language](https://img.shields.io/badge/Language-C-blue)
+![GitHub stars](https://img.shields.io/github/stars/sharkocha/xtate.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V2.4.6-red)
+
+<https://github.com/sharkocha/xtate>
+
+Xtate是面向互联网规模网络测量的模块化全栈扫描器（框架）。利用自研的应用层无状态扫描模型ZBanner和混合状态轻量级TCP协议栈HLTCP实现异步高速扫描。与已有的无状态端口扫描器只能探测端口是否开放不同，Xtate基于应用层无状态扫描模型，在千兆带宽下能够在6分钟内完成中国大陆地址集中所有80端口的开放性检测和Banner抓取。基于HLTCP用户态协议栈实现和TLS支持，Xtate也能够在有状态模式下执行多轮数据交互的高速扫描，包括TLS上层服务Banner抓取。Xtate框架提供统一接口以自定义模块实现不同的扫描任务，专注于大规模网络的协议层面测量（包括传输层、应用层和TLS上层服务），具有坚实的底层高速异步数据包收发机制，期望为学术和实践领域中大规模网络测量的各种算法和任务提供承载平台。
+
 
 
 ## 漏洞探测/vulnerability_assessment
@@ -348,7 +372,7 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.1.1-red)
+![Version](https://img.shields.io/badge/Version-V3.1.2-red)
 
 <https://github.com/zan8in/afrog>
 
@@ -411,7 +435,7 @@ dperf 是一个100Gbps的网络性能与压力测试软件。国内多个知名�
 ![Author](https://img.shields.io/badge/Author-cdkteam-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/cdk-team/CDK.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.3-red)
+![Version](https://img.shields.io/badge/Version-V1.5.4-red)
 
 <https://github.com/cdk-team/CDK>
 
@@ -546,6 +570,16 @@ Redis 4.x/Redis 5.x RCE利用脚本. 项目最初来源于 <https://github.com/n
 <https://github.com/AbelChe/cola_dnslog>
 
 Cola Dnslog 是一款更加强大的dnslog平台(无回显漏洞探测辅助平台)，支持dns http ldap rmi等协议，提供API调用方式便于与其他工具结合，支持钉钉机器人、Bark等提醒，并支持docker一键部署。
+
+### [GrabAccess](detail/GrabAccess.md)
+![Author](https://img.shields.io/badge/Author-Push3AX-orange)
+![Language](https://img.shields.io/badge/Language-C-blue)
+![GitHub stars](https://img.shields.io/github/stars/Push3AX/GrabAccess.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.1-red)
+
+<https://github.com/Push3AX/GrabAccess>
+
+GrabAccess：Bookit/Windows登陆密码和Bitlocker绕过工具，在物理接触目标计算机的情况下，GrabAccess可以：绕过Windows登陆密码执行任意操作（以System权限执行命令、重置Windows账户密码等），植入木马并添加自启动（可以绕过Bitlocker，但要求受害者登录），通过修改主板UEFI固件实现无视重装系统、更换硬盘的持久化（Bootkit）
 
 ### [MysqlT](detail/MysqlT.md)
 ![Author](https://img.shields.io/badge/Author-BeichenDream-orange)
@@ -795,6 +829,16 @@ BinAbsInspector(Binary Abstract Inspector)是一款用于自动化逆向工程�
 <https://github.com/c0ny1/passive-scan-client>
 
 Passive Scan Client是一款可以将经过筛选的流量转发到指定代理的Burp被动扫描流量转发插件
+
+### [GrabAccess](detail/GrabAccess.md)
+![Author](https://img.shields.io/badge/Author-Push3AX-orange)
+![Language](https://img.shields.io/badge/Language-C-blue)
+![GitHub stars](https://img.shields.io/github/stars/Push3AX/GrabAccess.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.1-red)
+
+<https://github.com/Push3AX/GrabAccess>
+
+GrabAccess：Bookit/Windows登陆密码和Bitlocker绕过工具，在物理接触目标计算机的情况下，GrabAccess可以：绕过Windows登陆密码执行任意操作（以System权限执行命令、重置Windows账户密码等），植入木马并添加自启动（可以绕过Bitlocker，但要求受害者登录），通过修改主板UEFI固件实现无视重装系统、更换硬盘的持久化（Bootkit）
 
 ### [wam](detail/wam.md)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)

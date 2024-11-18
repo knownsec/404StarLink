@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-cdkteam-orange)
 ![GitHub stars](https://img.shields.io/github/stars/cdk-team/CDK.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.3-red)
+![Version](https://img.shields.io/badge/Version-V1.5.4-red)
 ![Time](https://img.shields.io/badge/Join-20210223-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -208,6 +208,20 @@ cdk ps
 
 ## 最近更新
 
+#### [v1.5.4] - 2024-11-15
+
+**更新**  
+- 修复合并目录在路径中出现两次的问题  
+- 修复添加测试 poc，Github Action 中出现未知错误的问题  
+- 优化漏洞列表的输出  
+- 在所有漏洞中添加类型字符串  
+- 修复 github action 检查因未知问题而失败的问题  
+- 添加漏洞的基本结构  
+- 重新组织漏洞包中的 exp 文件  
+- 在 cmd 行中运行二进制本机 kubectl 的保留路径  
+- 修复在路径中找不到 gox 的问题  
+- 修复使用了弃用版本而自动失败的问题
+
 #### [v1.5.3] - 2024-05-19
 
 **更新**  
@@ -239,18 +253,5 @@ cdk ps
 - 新增通过 cgroup release_agent 实现的 lxcfs-rw Exploit  
 - 为 lxcfs-rw/lxcfs-rw-cgroup 添加推荐信息  
 - 新增高亮显示所有的挂载信息
-
-#### [v1.3.0] - 2022-07-10
-
-**Exploits**  
-- 为 ParseCDKMain 添加单元测试  
-- 新增'Exploit container escape with kubelet log access & /var/log mount'  
-- 新增 kubelet 默认未授权访问利用(端口10250)  
-
-**Others**  
-- 在 github action 中新增了 go test  
-- 支持 linux 容器获取网关  
-- 更新文档，新增了 快速开始 章节  
-- 新增在 pods 中获取网关
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

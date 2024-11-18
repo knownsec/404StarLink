@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.3.3-red)
+![Version](https://img.shields.io/badge/Version-V3.4-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -74,6 +74,16 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 
 ## 最近更新
 
+#### [v3.4] - 2024-11-16
+
+**功能更新**  
+- 优化HaE官方规则库规则  
+- 优化UI显示界面和布局，对用户可视化操作更友好  
+- 新增Mode开关，开启则支持高亮和备注，关闭则提高性能  
+
+**问题修复**  
+- 修复汉化补丁下搜索功能失效问题
+
 #### [v3.3.3] - 2024-09-19
 
 **功能更新**  
@@ -115,14 +125,5 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 - 修复Databoard长时间使用卡顿问题  
 - 修复HaE在暗黑主题下加载的Logo颜色问题  
 - 修复项目数据导入、导出提示框过大问题
-
-#### [v3.2.2] - 2024-06-19
-
-**更新**  
-- 修复Databoard长时间查询界面错乱问题  
-- 修复Databoard在Windows下复制截断问题  
-- 修复Databoard查询数据数量随机问题  
-- 优化Databoard清空数据逻辑  
-- 优化HTTP消息处理逻辑
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

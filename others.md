@@ -4,8 +4,9 @@
 2. [BinAbsInspector](#binabsinspector)
 3. [Heimdallr](#heimdallr)
 4. [passive-scan-client](#passive-scan-client)
-5. [wam](#wam)
-6. [LBot](#lbot)
+5. [GrabAccess](#grabaccess)
+6. [wam](#wam)
+7. [LBot](#lbot)
 
 ----------------------------------------
 
@@ -48,6 +49,16 @@ BinAbsInspector(Binary Abstract Inspector)是一款用于自动化逆向工程�
 <https://github.com/c0ny1/passive-scan-client>
 
 Passive Scan Client是一款可以将经过筛选的流量转发到指定代理的Burp被动扫描流量转发插件
+
+### [GrabAccess](detail/GrabAccess.md)
+![Author](https://img.shields.io/badge/Author-Push3AX-orange)
+![Language](https://img.shields.io/badge/Language-C-blue)
+![GitHub stars](https://img.shields.io/github/stars/Push3AX/GrabAccess.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.1-red)
+
+<https://github.com/Push3AX/GrabAccess>
+
+GrabAccess：Bookit/Windows登陆密码和Bitlocker绕过工具，在物理接触目标计算机的情况下，GrabAccess可以：绕过Windows登陆密码执行任意操作（以System权限执行命令、重置Windows账户密码等），植入木马并添加自启动（可以绕过Bitlocker，但要求受害者登录），通过修改主板UEFI固件实现无视重装系统、更换硬盘的持久化（Bootkit）
 
 ### [wam](detail/wam.md)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)

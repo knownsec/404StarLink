@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.1.1-red)
+![Version](https://img.shields.io/badge/Version-V3.1.2-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,14 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v3.1.2] - 2024-11-15
+
+**更新**  
+- 优化PoC文件：smartbi-bypass-builtin-user-login.yaml  
+- 新增资产自动去重功能  
+- 优化资产存活性验证功能  
+- 新增 PoC 10 个
+
 #### [v3.1.1] - 2024-08-09
 
 **更新**  
@@ -165,11 +173,5 @@ afrog -t https://example.com -ja result.json
 - 优化Debug模式下，调整漏洞条目位置至Debug请求数据的底部  
 - 优化-Target命令现在能够自动从读取的文件内资产中去除左右两侧的空格  
 - 修复当使用 Cookie 中包含多个冒号时无法被正确解析和应用的问题
-
-#### [v3.0.7] - 2024-06-11
-
-**更新**  
-- 新增 OOB 平台：recvsuit，使用命令：`-oob revsuit`  
-- afrog-config.yaml 新增 `revsuit` 配置
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
