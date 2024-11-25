@@ -494,4 +494,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 ## 最近更新
 
+#### [v2.4.6] - 2024-11-15
+
+**更新**  
+- 修复在特殊环境或低版本编译器上编译和链接错误
+
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
