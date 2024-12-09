@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.1.2-red)
+![Version](https://img.shields.io/badge/Version-V3.1.3-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,12 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v3.1.3] - 2024-12-03
+
+**更新**  
+- 修复 -mt 选项无法应用于 HTTP 请求的缺陷  
+- 优化 http 默认请求超时为 50s
+
 #### [v3.1.2] - 2024-11-15
 
 **更新**  
@@ -166,12 +172,5 @@ afrog -t https://example.com -ja result.json
 
 **更新**  
 - 修复了-t命令中自动将路径(path)全部转换为小写的错误
-
-#### [v3.0.8] - 2024-07-08
-
-**更新**  
-- 优化Debug模式下，调整漏洞条目位置至Debug请求数据的底部  
-- 优化-Target命令现在能够自动从读取的文件内资产中去除左右两侧的空格  
-- 修复当使用 Cookie 中包含多个冒号时无法被正确解析和应用的问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
