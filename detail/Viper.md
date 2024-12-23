@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.3.4-red)
+![Version](https://img.shields.io/badge/Version-V3.0.0-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -84,6 +84,30 @@
 
 ## 最近更新
 
+#### [v3.0.0] - 2024-12-10
+
+**新功能**  
+- screen_share功能支持web端直接预览  
+- 攻击面管理新增备案 Favicon等功能  
+- viper被暴力破解时自动阻止登陆  
+
+**优化**  
+- 更新AI模块提示词  
+- 攻击面管理数据存储由sqlite切换为elasticsearch  
+- 更新后台服务启动顺序,添加启动失败原因日志  
+- 合并metasploit-framework 6.4.40版本
+
+#### [v2.3.5] - 2024-09-29
+
+**新功能**  
+- webcam_stream功能支持web端直接预览  
+
+**优化**  
+- OPENAI支持输入自定义模型名称  
+- OPENAI未配置时错误提示更为友好  
+- 获取互联网出口IP模块API为https://ipwho.is/  
+- 邮件生成/发送智能体 平台操作智能体提示词更新,引入CoT及Role Play
+
 #### [v2.3.4] - 2024-09-06
 
 **新功能**  
@@ -118,37 +142,5 @@
 
 **优化**  
 - 调整平台设置部分UI
-
-#### [v2.3.0] - 2024-05-09
-
-**优化**  
-* 调整互联网攻击面整体架构  
-* 优化网络资产搜索功能  
-* 优化互联网攻击面数据存储效率  
-* 适配Quake新API接口  
-
-**Bugfix**  
-* fix 模块无法使用新建立的监听问题  
-* fix 无法使用反溯源  
-* fix 主机性能不足时新建监听超时问题
-
-#### [v2.2.1] - 2024-04-21
-
-**新功能**  
-- 新增通用配置界面,可以配置网络搜索引擎,wafw00f相关配置  
-
-**优化**  
-- 服务状态新增wafw00f检查  
-- 未登录时访问导航页自动跳转  
-- nuclei支持设置漏洞级别及并发数  
-- 更新360 Quake接口  
-- 优化wafw00f性能(gevent)  
-- 优化模块报错时前端错误提示  
-- 解释器更新到python3.12及pip依赖包更新到最新版本  
-- 合并metasploit-framework 6.4.6版本  
-
-**Bugfix**  
-- fix 扫描模块异常的错误  
-- fix 低概率生成C代码时出现编码错误
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

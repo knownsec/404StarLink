@@ -1,7 +1,7 @@
 ## 信息收集 / reconnaissance
 
-1. [AppInfoScanner](#appinfoscanner)
-2. [HaE](#hae)
+1. [HaE](#hae)
+2. [AppInfoScanner](#appinfoscanner)
 3. [ENScanGo](#enscango)
 4. [Kunyu](#kunyu)
 5. [Glass](#glass)
@@ -16,6 +16,16 @@
 
 ----------------------------------------
 
+### [HaE](detail/HaE.md)
+![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
+![Language](https://img.shields.io/badge/Language-Java-blue)
+![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V4.0-red)
+
+<https://github.com/gh0stkey/HaE>
+
+HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。
+
 ### [AppInfoScanner](detail/AppInfoScanner.md)
 ![Author](https://img.shields.io/badge/Author-kelvinBen-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
@@ -26,21 +36,11 @@
 
 一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。
 
-### [HaE](detail/HaE.md)
-![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
-![Language](https://img.shields.io/badge/Language-Java-blue)
-![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.4-red)
-
-<https://github.com/gh0stkey/HaE>
-
-HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。
-
 ### [ENScanGo](detail/ENScanGo.md)
 ![Author](https://img.shields.io/badge/Author-wgpsec-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.2-red)
+![Version](https://img.shields.io/badge/Version-V1.1.0-red)
 
 <https://github.com/wgpsec/ENScan_GO>
 

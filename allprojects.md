@@ -17,8 +17,8 @@
     * [Hades](#hades)
 
 * [信息收集/reconnaissance](#信息收集reconnaissance)
-    * [AppInfoScanner](#appinfoscanner)
     * [HaE](#hae)
+    * [AppInfoScanner](#appinfoscanner)
     * [ENScanGo](#enscango)
     * [Kunyu](#kunyu)
     * [Glass](#glass)
@@ -96,7 +96,7 @@
 ![Author](https://img.shields.io/badge/Author-Benjamin-orange)
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![GitHub stars](https://img.shields.io/github/stars/baidu/dperf.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.7.0-red)
+![Version](https://img.shields.io/badge/Version-V1.8.0-red)
 
 <https://github.com/baidu/dperf>
 
@@ -216,7 +216,7 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/vArmor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.5.11-red)
+![Version](https://img.shields.io/badge/Version-V0.6.1-red)
 
 <https://github.com/bytedance/vArmor>
 
@@ -235,6 +235,16 @@ Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检�
 
 
 ## 信息收集/reconnaissance
+### [HaE](detail/HaE.md)
+![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
+![Language](https://img.shields.io/badge/Language-Java-blue)
+![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V4.0-red)
+
+<https://github.com/gh0stkey/HaE>
+
+HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。
+
 ### [AppInfoScanner](detail/AppInfoScanner.md)
 ![Author](https://img.shields.io/badge/Author-kelvinBen-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
@@ -245,21 +255,11 @@ Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检�
 
 一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。
 
-### [HaE](detail/HaE.md)
-![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
-![Language](https://img.shields.io/badge/Language-Java-blue)
-![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.4-red)
-
-<https://github.com/gh0stkey/HaE>
-
-HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。
-
 ### [ENScanGo](detail/ENScanGo.md)
 ![Author](https://img.shields.io/badge/Author-wgpsec-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.2-red)
+![Version](https://img.shields.io/badge/Version-V1.1.0-red)
 
 <https://github.com/wgpsec/ENScan_GO>
 
@@ -425,7 +425,7 @@ LSpider 一个为被动扫描器定制的前端爬虫
 ![Author](https://img.shields.io/badge/Author-Benjamin-orange)
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![GitHub stars](https://img.shields.io/github/stars/baidu/dperf.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.7.0-red)
+![Version](https://img.shields.io/badge/Version-V1.8.0-red)
 
 <https://github.com/baidu/dperf>
 
@@ -445,7 +445,7 @@ CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器�
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.3.4-red)
+![Version](https://img.shields.io/badge/Version-V3.0.0-red)
 
 <https://github.com/FunnyWolf/Viper>
 
@@ -691,7 +691,7 @@ CodeReviewTools是一个可以快速批量反编译jar包的工具，为审计Ja
 ![Author](https://img.shields.io/badge/Author-shadow1ng-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/shadow1ng/fscan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.8.4-red)
+![Version](https://img.shields.io/badge/Version-V2.0.0-red)
 
 <https://github.com/shadow1ng/fscan>
 

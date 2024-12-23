@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![Author](https://img.shields.io/badge/Author-Benjamin-orange)
 ![GitHub stars](https://img.shields.io/github/stars/baidu/dperf.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.7.0-red)
+![Version](https://img.shields.io/badge/Version-V1.8.0-red)
 ![Time](https://img.shields.io/badge/Join-20230410-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -149,6 +149,25 @@ dperf基于 [Apache License, Version 2.0](https://www.apache.org/licenses/LICENS
 
 
 ## 最近更新
+
+#### [v1.8.0] - 2024-12-12
+
+**新增**  
+- 支持 DPDK-24.11  
+- 新增 neigh_ignore 用于 LVS DR 模式  
+- 新增随机 vxlan 源端口  
+- 支持多进程  
+- 新增 payload_file 以支持从文件设置 payload  
+- 新增 vhost-net 支持  
+- 更多服务器 ips  
+
+**修改**  
+- 自动调整默认 luanch_num  
+- 简化 RSS 配置  
+
+**修复**  
+- 修复编译警告  
+- 修复 rss 的准确并发连接数
 
 #### [v1.7.0] - 2024-06-06
 

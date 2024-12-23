@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-shadow1ng-orange)
 ![GitHub stars](https://img.shields.io/github/stars/shadow1ng/fscan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.8.4-red)
+![Version](https://img.shields.io/badge/Version-V2.0.0-red)
 ![Time](https://img.shields.io/badge/Join-20210422-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -184,6 +184,11 @@ go build -ldflags="-s -w " -trimpath
 
 ## 最近更新
 
+#### [v2.0.0] - 2024-12-19
+
+**更新**  
+- 全面代码重构，项目结构重构，插件逻辑优化，项目文档添加，规范化输出、新增本地敏感信息搜集插件等
+
 #### [v1.8.4] - 2024-05-11
 
 **更新**  
@@ -212,12 +217,5 @@ go build -ldflags="-s -w " -trimpath
 - 新增poc、指纹  
 - 支持socks5代理  
 - 因body指纹更全,默认不再跑ico图标
-
-#### [v1.7.1] - 2022-04-20
-
-**更新**  
-- poc模块现加入指定目录或文件  
-- 端口可指定文件  
-- rdp加入多线程爆破(demo)
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
