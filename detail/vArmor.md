@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/vArmor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.6.1-red)
+![Version](https://img.shields.io/badge/Version-V0.6.2-red)
 ![Time](https://img.shields.io/badge/Join-20230831-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -56,6 +56,15 @@ vArmor 由字节跳动终端安全团队的 **Elkeid Team** 研发，目前该�
 
 ## 最近更新
 
+#### [v0.6.2] - 2024-12-27
+
+**更新**  
+- 新增在行为建模过程中，将其 mnt ns id 添加到监视列表中  
+- 优化当行为数据太大时直接返回  
+- 添加了调试标志  
+- 为 Seccomp 执行器添加了 disallow-load-all-bpf-prog 规则  
+- 修复在安装 varmor 的命名空间中创建 varmor-classifier-svc 服务
+
 #### [v0.6.1] - 2024-12-20
 
 **更新**  
@@ -104,25 +113,5 @@ vArmor 由字节跳动终端安全团队的 **Elkeid Team** 研发，目前该�
 
 **修复**  
 - 修正功能中的拼写错误
-
-#### [v0.5.9] - 2024-06-15
-
-**更新**  
-- 为 Seccomp enforcer 添加了 disable-chmod-s-bit 内置规则  
-- 重构 Seccomp enforcer，并尽可能合并规则  
-- 为 Seccomp enforcer 添加了 AlwaysAllow 和 RuntimeDefault 模式  
-- 将来自 containerd 的上游规则同步到 AppArmor 配置文件模板  
-- 为 AppArmor enforcer 合并相同的子配置文件  
-- 为 AppArmor enforcer 引入了违规审计功能  
-- 支持修改现有策略并动态添加执行器  
-- 优化 VarmorClusterPolicy/VarmorPolicy CR 的状态以显示更多错误信息  
-- 为 ArmorProfile CR 添加了ownerReference 和 finalizers 以防止意外删除  
-- 策略顾问现在可以使用行为模型数据生成策略模板  
-- 更新文档  
-- 修复：CI 工作流登录使用 docker/login-action  
-- 修复：忽略 Seccomp enforcer 的 enhancedProtect 特权选项  
-- 修复：确保正确执行 CR 的清理逻辑  
-- 修复：更新图表模板以生成 k8s 资源的固定全名  
-- 修复：建模完成后更新 ArmorProfileModel CR
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
