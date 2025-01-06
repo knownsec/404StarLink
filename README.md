@@ -17,36 +17,37 @@
 
 | 时间 | 项目名称 | 项目动态 |
 |----|-----------|--------------------------|
+|2025-01-02|[**GShark**](detail/gshark.md)|更新 [v1.5.2](detail/gshark.md#最近更新) 版本|
+|2025-01-01|[**afrog**](detail/afrog.md)|更新 [v3.1.5](detail/afrog.md#最近更新) 版本|
+|2024-12-31|[**Tai-e**](detail/Tai-e.md)|更新 [v0.5.1](detail/Tai-e.md#最近更新) 版本|
+|2024-12-31|[**HaE**](detail/HaE.md)|更新 [v4.1](detail/HaE.md#最近更新) 版本|
 |2024-12-28|[**xtate**](detail/xtate.md)|更新 [v2.6.0](detail/xtate.md#最近更新) 版本|
 |2024-12-27|[**vArmor**](detail/vArmor.md)|更新 [v0.6.2](detail/vArmor.md#最近更新) 版本|
-|2024-12-21|[**HaE**](detail/HaE.md)|更新 [v4.0](detail/HaE.md#最近更新) 版本|
 |2024-12-20|[**ENScanGo**](detail/ENScanGo.md)|更新 [v1.1.0](detail/ENScanGo.md#最近更新) 版本|
 |2024-12-19|[**fscan**](detail/fscan.md)|更新 [v2.0.0](detail/fscan.md#最近更新) 版本|
 |2024-12-12|[**dperf**](detail/dperf.md)|更新 [v1.8.0](detail/dperf.md#最近更新) 版本|
 |2024-12-10|[**Viper**](detail/Viper.md)|更新 [v3.0.0](detail/Viper.md#最近更新) 版本|
-|2024-12-03|[**afrog**](detail/afrog.md)|更新 [v3.1.3](detail/afrog.md#最近更新) 版本|
-|2024-11-15|[**CDK**](detail/CDK.md)|更新 [v1.5.4](detail/CDK.md#最近更新) 版本|
-|2024-11-01|[**JYso**](detail/JYso.md)|更新 [v1.3.5](detail/JYso.md#最近更新) 版本|
 
 **2.StarRank**
 
 | 序号 | 项目名称 | 项目简介 | Star |
 |----|-----------|--------------------------|----|
-|1|[**HackBrowserData**](detail/HackBrowserData.md)|hack-browser-data 是一个解密浏览器数据（密码/历史记录/Cookies/书签）的导出工具，支持全平台主流浏览器的数据导出窃取。|11575|
-|2|[**fscan**](detail/fscan.md)|一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。支持主机存活探测、端口扫描、常见服务的爆破、ms17010、redis批量写公钥、计划任务反弹shell、读取win网卡信息、web指纹识别、web漏洞扫描、netbios探测、域控识别等功能。|11241|
-|3|[**dperf**](detail/dperf.md)|dperf 是一个100Gbps的网络性能与压力测试软件。国内多个知名安全厂商用dperf测试其防火墙。知名开源四层负载均衡DPVS在用dperf做性能测试，发布性能测试报告。|5134|
+|1|[**HackBrowserData**](detail/HackBrowserData.md)|hack-browser-data 是一个解密浏览器数据（密码/历史记录/Cookies/书签）的导出工具，支持全平台主流浏览器的数据导出窃取。|11606|
+|2|[**fscan**](detail/fscan.md)|一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。支持主机存活探测、端口扫描、常见服务的爆破、ms17010、redis批量写公钥、计划任务反弹shell、读取win网卡信息、web指纹识别、web漏洞扫描、netbios探测、域控识别等功能。|11301|
+|3|[**dperf**](detail/dperf.md)|dperf 是一个100Gbps的网络性能与压力测试软件。国内多个知名安全厂商用dperf测试其防火墙。知名开源四层负载均衡DPVS在用dperf做性能测试，发布性能测试报告。|5150|
 |4|[**CDK**](detail/CDK.md)|CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器内部提供零依赖的常用命令及PoC/EXP。集成Docker/K8s场景特有的逃逸、横向移动、持久化利用方式，插件化管理。|4011|
-|5|[**antSword**](detail/antSword.md)|中国蚁剑是一款开源的跨平台网站管理工具。|3834|
+|5|[**antSword**](detail/antSword.md)|中国蚁剑是一款开源的跨平台网站管理工具。|3846|
 |6|[**Viper**](detail/Viper.md)|VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战术及技术进行模块化及武器化。|3787|
-|7|[**pocsuite3**](detail/pocsuite3.md)|pocsuite3是由Knownsec 404团队开发的开源远程漏洞测试和概念验证开发框架。它带有强大的概念验证引擎，以及针对最终渗透测试人员和安全研究人员的许多强大功能。|3662|
-|8|[**afrog**](detail/afrog.md)|afrog 是一款性能卓越、快速稳定、PoC 可定制的漏洞扫描工具，PoC 包含 CVE、CNVD、默认口令、信息泄露、指纹识别、未授权访问、任意文件读取、命令执行等多种漏洞类型，帮助网络安全从业者快速验证并及时修复漏洞。|3557|
+|7|[**pocsuite3**](detail/pocsuite3.md)|pocsuite3是由Knownsec 404团队开发的开源远程漏洞测试和概念验证开发框架。它带有强大的概念验证引擎，以及针对最终渗透测试人员和安全研究人员的许多强大功能。|3672|
+|8|[**afrog**](detail/afrog.md)|afrog 是一款性能卓越、快速稳定、PoC 可定制的漏洞扫描工具，PoC 包含 CVE、CNVD、默认口令、信息泄露、指纹识别、未授权访问、任意文件读取、命令执行等多种漏洞类型，帮助网络安全从业者快速验证并及时修复漏洞。|3572|
 |9|[**HaE**](detail/HaE.md)|HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。|3295|
-|10|[**AppInfoScanner**](detail/AppInfoScanner.md)|一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。|3240|
+|10|[**AppInfoScanner**](detail/AppInfoScanner.md)|一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。|3256|
 
 **3.项目更新**
 
 | 时间 | 项目迭代版本 |
 |----|-----------|
+|第1周|[**GShark**](detail/gshark.md) 更新 [v1.5.2](detail/gshark.md#最近更新) / [**afrog**](detail/afrog.md) 更新 [v3.1.5](detail/afrog.md#最近更新) / [**Tai-e**](detail/Tai-e.md) 更新 [v0.5.1](detail/Tai-e.md#最近更新) / [**HaE**](detail/HaE.md) 更新 [v4.1](detail/HaE.md#最近更新) / [**GShark**](detail/gshark.md) 更新 [v1.5.1](detail/gshark.md#最近更新)|
 |第52周|[**xtate**](detail/xtate.md) 更新 [v2.6.0](detail/xtate.md#最近更新) / [**vArmor**](detail/vArmor.md) 更新 [v0.6.2](detail/vArmor.md#最近更新) / [**xtate**](detail/xtate.md) 更新 [v2.5.1](detail/xtate.md#最近更新)|
 |第51周|[**HaE**](detail/HaE.md) 更新 [v4.0](detail/HaE.md#最近更新) / [**vArmor**](detail/vArmor.md) 更新 [v0.6.1](detail/vArmor.md#最近更新) / [**ENScanGo**](detail/ENScanGo.md) 更新 [v1.1.0](detail/ENScanGo.md#最近更新) / [**fscan**](detail/fscan.md) 更新 [v2.0.0](detail/fscan.md#最近更新) / [**vArmor**](detail/vArmor.md) 更新 [v0.6.0](detail/vArmor.md#最近更新)|
 |第50周|[**dperf**](detail/dperf.md) 更新 [v1.8.0](detail/dperf.md#最近更新) / [**Viper**](detail/Viper.md) 更新 [v3.0.0](detail/Viper.md#最近更新)|
@@ -56,7 +57,6 @@
 |第39周|[**Viper**](detail/Viper.md) 更新 [v2.3.5](detail/Viper.md#最近更新)|
 |第38周|[**HaE**](detail/HaE.md) 更新 [v3.3.3](detail/HaE.md#最近更新) / [**JYso**](detail/JYso.md) 更新 [v1.3.4](detail/JYso.md#最近更新)|
 |第36周|[**Viper**](detail/Viper.md) 更新 [v2.3.4](detail/Viper.md#最近更新)|
-|第35周|[**JYso**](detail/JYso.md) 更新 [v1.3.3](detail/JYso.md#最近更新)|
 
 **4.新项目加入**
 
@@ -77,13 +77,13 @@
 
 | 序号 | 项目名称 | 作者 | 项目简介 | Star |
 |------|----------|------|----------|------|
-|1|[**Elkeid**](detail/Elkeid.md)|bytedance|Elkeid是一个云原生的基于主机的安全(入侵检测与风险识别)解决方案。Elkeid 包含两大部分：Elkeid Agent与Elkeid Driver作为数据采集层，它在Linux系统的内核和用户空间上均可使用，从而提供了具有更好性能的且更丰富的数据。 Elkeid Server可以提供百万级Agent的接入能力，采集Agent数据，支持控制与策略下发。包含实时、离线计算模块，对采集上来的数据进行分析和检测。又有自带的服务发现和管理系统，方便对整个后台管理和操作。|2289|
-|2|[**linglong**](detail/linglong.md)|awake1t|linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，进行端口爆破。帮助企业更快发现弱口令问题。主要功能包括: 资产探测、端口爆破、定时任务、管理后台识别、报表展示。|1738|
+|1|[**Elkeid**](detail/Elkeid.md)|bytedance|Elkeid是一个云原生的基于主机的安全(入侵检测与风险识别)解决方案。Elkeid 包含两大部分：Elkeid Agent与Elkeid Driver作为数据采集层，它在Linux系统的内核和用户空间上均可使用，从而提供了具有更好性能的且更丰富的数据。 Elkeid Server可以提供百万级Agent的接入能力，采集Agent数据，支持控制与策略下发。包含实时、离线计算模块，对采集上来的数据进行分析和检测。又有自带的服务发现和管理系统，方便对整个后台管理和操作。|2302|
+|2|[**linglong**](detail/linglong.md)|awake1t|linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，进行端口爆破。帮助企业更快发现弱口令问题。主要功能包括: 资产探测、端口爆破、定时任务、管理后台识别、报表展示。|1750|
 |3|[**murphysec**](detail/murphysec.md)|murphysecurity|墨菲安全专注于软件供应链安全，murphysec 是墨菲安全的 CLI 工具，用于在命令行检测指定目录代码的依赖安全问题，也可以基于 CLI 工具实现在 CI 流程的检测。|1706|
-|4|[**appshark**](detail/appshark.md)|bytedance|Appshark 是一个针对安卓的静态分析工具，它的设计目标是针对超大型App的分析，Appshark支持基于json的自定义扫描规则,发现自己关心的安全漏洞以及隐私合规问题，支持灵活配置，可以在准确率以及扫描时间空间之间寻求平衡，支持自定义扩展规则，根据自己的业务需要，进行定制分析|1540|
+|4|[**appshark**](detail/appshark.md)|bytedance|Appshark 是一个针对安卓的静态分析工具，它的设计目标是针对超大型App的分析，Appshark支持基于json的自定义扫描规则,发现自己关心的安全漏洞以及隐私合规问题，支持灵活配置，可以在准确率以及扫描时间空间之间寻求平衡，支持自定义扩展规则，根据自己的业务需要，进行定制分析|1551|
 |5|[**veinmind-tools**](detail/veinmind-tools.md)|长亭科技|veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目前已支持镜像 恶意文件/后门/敏感信息/弱口令 的扫描，更多功能正在逐步开发中。|1539|
 |6|[**camille**](detail/camille.md)|zhengjim|现如今APP隐私合规十分重要，各监管部门不断开展APP专项治理工作及核查通报，不合规的APP通知整改或直接下架。camille可以hook住Android敏感接口，并识别是否为第三方SDK调用。根据隐私合规的场景，辅助检查是否符合隐私合规标准。|1538|
-|7|[**Tai-e**](detail/Tai-e.md)|pascal_lab|Tai-e（太阿）是一个通用型Java程序分析框架，包含了开发程序分析技术所需的各类基础设施，并提供了可配置性高、功能强大的污点分析系统，用于检测各类隐私泄露、注入攻击等安全漏洞。|1484|
+|7|[**Tai-e**](detail/Tai-e.md)|pascal_lab|Tai-e（太阿）是一个通用型Java程序分析框架，包含了开发程序分析技术所需的各类基础设施，并提供了可配置性高、功能强大的污点分析系统，用于检测各类隐私泄露、注入攻击等安全漏洞。|1495|
 |8|[**OpenStar**](detail/OpenStar.md)|starjun|OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复杂规则编写。提供了常规的 HTTP 字段规则配置，还提供了 IP 黑白名单、访问频次等配置，对于 CC 防护更提供的特定的规则算法，并且支持搭建集群进行防护。|1260|
 |9|[**GShark**](detail/gshark.md)|madneal|一款开源敏感信息检测系统，可以监测包括 GitHub, GitLab(支持私有部署版本), Postman, searchcode 多个平台的敏感信息监测。|914|
 |10|[**AppScan**](detail/AppScan.md)|TongchengOpenSource|安全隐私卫士（AppScan）一款免费的企业级自动化App隐私合规检测工具|913|
@@ -92,8 +92,8 @@
 
 | 序号 | 项目名称 | 作者 | 项目简介 | Star |
 |------|----------|------|----------|------|
-|1|[**AppInfoScanner**](detail/AppInfoScanner.md)|kelvinBen|一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。|3240|
-|2|[**ENScanGo**](detail/ENScanGo.md)|wgpsec|一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。|3194|
+|1|[**AppInfoScanner**](detail/AppInfoScanner.md)|kelvinBen|一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。|3256|
+|2|[**ENScanGo**](detail/ENScanGo.md)|wgpsec|一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。|3205|
 |3|[**Kunyu**](detail/Kunyu.md)|风起|Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在让企业资产收集更高效，使更多安全相关从业者了解、使用网络空间测绘技术。|1008|
 |4|[**Glass**](detail/Glass.md)|s7ckTeam|Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/ZoomEye/Shodan/360等api接口快速查询资产信息并识别重点资产的指纹，也可针对IP/IP段或资产列表进行快速的指纹识别。|975|
 |5|[**ksubdomain**](detail/ksubdomain.md)|w8ay|ksubdomain是一款基于无状态子域名爆破工具，支持在Windows/Linux/Mac上使用，它会很快的进行DNS爆破，在Mac和Windows上理论最大发包速度在30w/s,linux上为160w/s的速度。|897|

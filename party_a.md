@@ -91,7 +91,7 @@ veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目
 ![Author](https://img.shields.io/badge/Author-pascal_lab-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/pascal-lab/Tai-e.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.2.2-red)
+![Version](https://img.shields.io/badge/Version-V0.5.1-red)
 
 <https://github.com/pascal-lab/Tai-e>
 
@@ -111,7 +111,7 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.0-red)
+![Version](https://img.shields.io/badge/Version-V1.5.2-red)
 
 <https://github.com/madneal/gshark>
 

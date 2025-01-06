@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-pascal_lab-orange)
 ![GitHub stars](https://img.shields.io/github/stars/pascal-lab/Tai-e.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.2.2-red)
+![Version](https://img.shields.io/badge/Version-V0.5.1-red)
 ![Time](https://img.shields.io/badge/Join-20230913-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -143,6 +143,25 @@ The educational version shares a large amount of code with Tai-e, thus doing the
 - 2023-10-08 发布演示视频[程序分析框架“太阿”与安全漏洞的那些事之Log4Shell篇](https://www.bilibili.com/video/BV1ez4y1F7VB/)
 
 ## 最近更新
+
+#### [v0.5.1] - 2024-12-31
+
+**新功能**  
+- 添加 sub-effect 分析  
+- 选项 --class-path 和 --app-class-path 可以重复多次，以指定多个路径  
+- 新增指针分析  
+- 新增污点分析  
+- 新增类层次结构分析(CHA)  
+- 新增签名模式和匹配器  
+
+**修改**  
+- 对部分 API 进行了优化更改  
+
+**修复**  
+- 修复未使用 -acp 选项的前端的类路径参数不正确的问题  
+- 修复内部类的 JMethod 中参数名称数量与实际参数数量不匹配的问题  
+- 修复选项解析器，现在仅将第一个冒号视为键和值之间的分隔符  
+- 修复通过 JAR 运行时日志文件为空的问题
 
 #### [v0.2.2] - 2023-09-23
 

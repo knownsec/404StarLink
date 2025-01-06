@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.0-red)
+![Version](https://img.shields.io/badge/Version-V1.5.2-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -198,6 +198,21 @@ You are supposed to rename `config-temp.yaml` to `config.yaml` and config the da
 
 ## 最近更新
 
+#### [v1.5.2] - 2025-01-02
+
+**修复**  
+- 修复没有 Matches 的情况下无法展示结果的问题
+
+#### [v1.5.1] - 2024-12-30
+
+**新增**  
+- 增加搜索结果导出功能  
+
+**修复**  
+- 修复 searchcode 搜索报错  
+- 升级 docker 中 go 版本  
+- 修复 api list 报错
+
 #### [v1.5.0] - 2024-08-17
 
 **修复**  
@@ -220,23 +235,5 @@ You are supposed to rename `config-temp.yaml` to `config.yaml` and config the da
 - 组件依赖升级  
 - 修复 API 列表排序问题  
 - 移除任务列表
-
-#### [v1.4.4] - 2024-03-23
-
-**修复**  
-- 修复数据库初始化的问题  
-- 修复 Postman 搜索结果格式  
-- 前端组件安全升级
-
-#### [v1.4.3] - 2024-03-16
-
-**修复**  
-- 组件版本的安全升级  
-- 修复 golang User-Agent 被 Postman 禁用的问题  
-- 修复前端缺少 postman 规则选项问题  
-
-**新增**  
-- 增加 Docker 版本 MySql 的数据持久化  
-- GitHub client 可以忽略 TLS 错误
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

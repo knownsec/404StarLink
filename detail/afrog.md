@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.1.3-red)
+![Version](https://img.shields.io/badge/Version-V3.1.5-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,14 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v3.1.5] - 2025-01-01
+
+**更新**  
+- 解决在 RAW HTTP 模式下，multipart 请求偶尔不成功的问题  
+- 移除 PoC：hue-default-credential.yaml  
+- 优化优化文件上传 PoC 写法  
+- PoC 总数 1500 个
+
 #### [v3.1.3] - 2024-12-03
 
 **更新**  
@@ -167,10 +175,5 @@ afrog -t https://example.com -ja result.json
 - 增强 afrog 漏洞报告，新增响应时间显示功能，以便用户更直观地评估目标系统的响应速度  
 - 在启动afrog时，若未执行OOB POC扫描，则不会进行OOB存活性的探测  
 - 在yaml模板规则，在type中增加https标头，区别http标头
-
-#### [v3.0.9] - 2024-07-21
-
-**更新**  
-- 修复了-t命令中自动将路径(path)全部转换为小写的错误
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

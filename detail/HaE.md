@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V4.0-red)
+![Version](https://img.shields.io/badge/Version-V4.1-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -80,6 +80,14 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 
 ## 最近更新
 
+#### [v4.1] - 2024-12-31
+
+**功能更新**  
+- 优化Linkfinder规则，支持非/开头的路径匹配  
+
+**问题修复**  
+- 修复项目管理功能中多线程数据冲突问题
+
 #### [v4.0] - 2024-12-21
 
 **功能更新**  
@@ -116,18 +124,5 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 - 修复报错提示，添加对HTTP消息过滤的容错处理  
 - 修复数据错乱展示，新增数据存储边界  
 - 修复配置初始化缺失，新增初始化信息
-
-#### [v3.3.1] - 2024-08-12
-
-**功能更新**  
-- 优化HaE的项目管理提示信息，使用表格方式呈现  
-- 新增Exclude status用于排除对应HTTP状态码报文  
-- 新增Request URI规则，用于快速发现未授权访问漏洞  
-
-**问题修复**  
-- 修复Databoard下空列表查询时状态栏停留问题  
-- 修复Databoard下报文多次选中时数据小时问题  
-- 修复特殊场景下的报错问题，容错处理  
-- 修复Config下添加按钮失效问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
