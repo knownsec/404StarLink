@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V4.1-red)
+![Version](https://img.shields.io/badge/Version-V4.0.3-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -80,7 +80,22 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 
 ## 最近更新
 
-#### [v4.1] - 2024-12-31
+#### [v4.0.3] - 2025-01-10
+
+**问题修复**  
+- 修复Databoard数据搜索实效问题，采用正则加字符双匹配结果  
+- 修复MarkInfo数据双击编辑失焦问题
+
+#### [v4.0.2] - 2025-01-08
+
+**功能更新**  
+- 优化HTTP消息存储逻辑  
+- 优化HaE数据存储逻辑  
+
+**问题修复**  
+- 修复BurpSuite社区版下无法使用HaE的问题
+
+#### [v4.0.1] - 2024-12-31
 
 **功能更新**  
 - 优化Linkfinder规则，支持非/开头的路径匹配  
@@ -106,23 +121,5 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 
 **问题修复**  
 - 修复汉化补丁下搜索功能失效问题
-
-#### [v3.3.3] - 2024-09-19
-
-**功能更新**  
-- 新增二次检索功能，可用于对数据进行二次搜索  
-- 新增Limit size配置项，可用于Databoard中限制响应包返回(以MB为单位，默认为0不限制)  
-
-**问题修复**  
-- 修复Config页面中配置项添加逻辑错误  
-- 修复Databoard查看数据条目逻辑错误
-
-#### [v3.3.2] - 2024-08-23
-
-**更新**  
-- 修复假后台线程，正确使用后台线程函数  
-- 修复报错提示，添加对HTTP消息过滤的容错处理  
-- 修复数据错乱展示，新增数据存储边界  
-- 修复配置初始化缺失，新增初始化信息
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

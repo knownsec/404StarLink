@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![Author](https://img.shields.io/badge/Author-sharkocha-orange)
 ![GitHub stars](https://img.shields.io/github/stars/sharkocha/xtate.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.6.0-red)
+![Version](https://img.shields.io/badge/Version-V2.6.1-red)
 ![Time](https://img.shields.io/badge/Join-20241029-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
  
@@ -493,6 +493,11 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
 ## 最近更新
+
+#### [v2.6.1] - 2025-01-09
+
+**更新**  
+- 重构：优雅的资源释放和类型宽度限制
 
 #### [v2.6.0] - 2024-12-28
 
