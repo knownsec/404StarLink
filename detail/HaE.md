@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V4.0.3-red)
+![Version](https://img.shields.io/badge/Version-V4.0.4-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -80,6 +80,14 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 
 ## 最近更新
 
+#### [v4.0.4] - 2025-01-17
+
+**功能更新**  
+- 新增数据表格Regex mode模式，用于区分正则和纯文本搜索  
+
+**问题修复**  
+- 修复数据表格搜索失效问题
+
 #### [v4.0.3] - 2025-01-10
 
 **问题修复**  
@@ -111,15 +119,5 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 - 优化数据管理功能，可与BurpSuite项目一并存储管理  
 - 新增、优化若干规则，如手机号、用户名、密码等字段规  
 - 新增Reinit功能，用于重新初始化内置规则库
-
-#### [v3.4] - 2024-11-16
-
-**功能更新**  
-- 优化HaE官方规则库规则  
-- 优化UI显示界面和布局，对用户可视化操作更友好  
-- 新增Mode开关，开启则支持高亮和备注，关闭则提高性能  
-
-**问题修复**  
-- 修复汉化补丁下搜索功能失效问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
