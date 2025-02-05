@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![Author](https://img.shields.io/badge/Author-sharkocha-orange)
 ![GitHub stars](https://img.shields.io/github/stars/sharkocha/xtate.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.6.1-red)
+![Version](https://img.shields.io/badge/Version-V2.6.2-red)
 ![Time](https://img.shields.io/badge/Join-20241029-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
  
@@ -494,6 +494,11 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 ## 最近更新
 
+#### [v2.6.2] - 2025-01-28
+
+**更新**  
+- 支持非严格的模块名称设置和参数调整
+
 #### [v2.6.1] - 2025-01-09
 
 **更新**  
@@ -516,10 +521,5 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 - 新增支持将元信息输出到指定文件  
 - 更新帮助文本  
 - 修复一些全局时间操作
-
-#### [v2.4.6] - 2024-11-15
-
-**更新**  
-- 修复在特殊环境或低版本编译器上编译和链接错误
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
