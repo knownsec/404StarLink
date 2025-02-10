@@ -3,11 +3,9 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-风起-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/Kunyu.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.7.2-red)
+![Version](https://img.shields.io/badge/Version-V2.0.0-red)
 ![Time](https://img.shields.io/badge/Join-20211122-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
-
-中文文档 | [English](../README.md)
 
 # 0x00 介绍
 
@@ -53,13 +51,13 @@ P.S. Windows同样支持python3 setup.py install
 ```
 
 # 0x02 配置说明
-在第一次运行程序时通过输入以下命令进行初始化操作，提供了其他登录方式，但是推荐使用API的方式，因为用户名/密码登录需要额外做一次请求，所以理论上API的方式会更加高效。
+在第一次运行程序时通过输入以下命令进行初始化操作，提供了其他登录方式，推荐使用API的方式（用户名/密码登录已弃用）。
 ```
 kunyu init --apikey <your zoomeye key> --seebug <your seebug key>
 ```
 ![](https://github.com/knownsec/Kunyu/raw/main/images/setinfo.png)
 
-初次使用需要通过ZoomEye登录凭证，才使用该工具进行信息收集，目前ZoomEye注册用户每月赠送1w条查询额度，足够日常工作使用。
+初次使用需要通过ZoomEye登录凭证，才使用该工具进行信息收集，目前ZoomEye API需付费使用。
 
 **ZoomEye访问地址：https://www.zoomeye.org/**
 
@@ -86,44 +84,46 @@ kunyu console
 
 ```
 Global commands:
-        info                                      Print User info
-        SearchHost <query>                        Basic Host search
-        SearchWeb <query>                         Basic Web search
-        SearchIcon <File>/<URL>                   Icon Image search
-        SearchBatch <File>                        Batch search Host
-        SearchCert <Domain>                       SSL certificate Search
-        SearchDomain <Domain>                     Domain name associated/subdomain search
-        EncodeHash <encryption> <query>           Encryption method interface 
-        HostCrash <IP> <Domain>                   Host Header Scan hidden assets
-        show <config>/<rule>                      Show can set options or Kunyu config
-        Seebug <query>                            Search Seebug vulnerability information
-        set <option>                              Set Global arguments values
-        view/views <ID>                           Look over banner row data information
-        Cscan <IP>/<Port>                 	  Scans port information about cobaltStrike
-        PupilSearch <URL>/<ID>                    Example Query sensitive interfaces
-        Pocsuite3                                 Invoke the pocsuite component
-        ExportPath                                Returns the path of the output file
-        CreateMap                                 Generate an IP distribution heat map
-        AliveScan                                 The viability of the last retrieval
-        clear                                     Clear the console screen
-        help                                      Print Help info
-        exit                                      Exit KunYu &
+        info                                      Print User Info
+        Search <Query>                            Comprehensive Information Search
+        SearchIcon <File>/<URL>                   Query Based On Icon Image
+        SearchBatch <File>                        Batch Query Assets In Files
+        SearchCert <Domain>                       SSL Certificate Search
+        SearchDomain <Domain>                     Domain Name Associated/Subdomain Search
+        EncodeHash <Encryption> <Query>           Encryption Method Interface (Base64/HEX/MD5/mmh3)
+        HostCrash <IP> <Domain>                   Host Header Scan Hidden Assets
+        show <config>/<rule>                      Show Can Set Options Or Kunyu Config
+        Seebug <Query>                            Search Seebug Vulnerability Information
+        set <Option>                              Set Global Arguments Values
+        view/views <ID>                           Look Over Banner Row Data Information
+        Cscan <IP>/<Port>                         Scans Port Information About CobaltStrike
+        PupilSearch <URL>/<ID>                    Example Query Sensitive Interfaces And Information
+        CDNAnalysis <Domain>                      Identify Whether The Domain Name Is a CDN Asset
+        Pocsuite3                                 Invoke The Pocsuite Component
+        ExportPath                                Returns The Path Of The Output File
+        CreateMap                                 Generate An IP Distribution Heat Map
+        AliveScan                                 The Viability Of The Last Retrieval
+        clear                                     Clear The Console Screen
+        help                                      Print Help Info
+        exit                                      Exit KunYu & 
 ```
 
 **OPTIONS**
 
 ```
 ZoomEye:
-		page <Number>    			查询返回页数(默认查询一页，每页20条数据)
-		dtype <0/1>      			查询关联域名/子域名(设置0为查询关联域名，反之为子域名)
-		stype <v4/v6>	 			设置获取数据类型IPV4或IPV6，默认为 ipv4,ipv6 全选
-		btype <host/web> 			设置批量查询的API接口(默认为HOST)
-		timeout <num>	 			设置Kunyu HTTP请求的超时时间
-		thread  		 		设置PupilSearch线程数量(默认为10)
-		deep   			 		设置PupilSearch递归深度(默认为2)
-		all  			 		PupilSearch Add All Url To Check List
-		fuzz   			 		PupilSearch Add Api To Check List
-    		proxy  			 		PupilSearch HTTP Proxy
+        page <Number>       		查询返回页数(默认查询一页)
+        size <Number>      		设置每页搜索数量(默认值为每页查询10条)
+        fields <fields>     		设置响应字段信息，具体以readme给出字段为准
+        dtype <0/1>         		查询关联域名/子域名(设置0为查询关联域名，反之为子域名)
+        stype <v4/v6>       		设置获取数据类型IPV4或IPV6，默认为 ipv4,ipv6 全选
+        btype <host/web>    		设置批量查询的API接口(默认为HOST)
+        timeout <num>       		设置Kunyu HTTP请求的超时时间
+        thread              		设置PupilSearch线程数量(默认为10)
+        deep                		设置PupilSearch递归深度(默认为2)
+        all                 		PupilSearch Add All Url To Check List
+        fuzz                		PupilSearch Add Api To Check List
+        proxy               		PupilSearch HTTP Proxy
 ```
 
 ## 使用案例
@@ -134,13 +134,65 @@ ZoomEye:
 
 ![](https://github.com/knownsec/Kunyu/raw/main/images/userinfo.png)
 
-**HOST 主机搜索**
+**综合搜索（NEW）**
 
-![](https://github.com/knownsec/Kunyu/raw/main/images/searchhost.png)
+![](https://github.com/knownsec/Kunyu/raw/main/images/search.png)
 
-**Web 主机搜索**
+**自定义输出字段（NEW）**
 
-![](https://github.com/knownsec/Kunyu/raw/main/images/searchweb.png)
+具体支持输出自定义字段可参考以下：
+
+| 字段名称           | 类型    | 描述                                 | 权限             |
+| ------------------ | ------- | ------------------------------------ | ---------------- |
+| ip                 | string  | IP 地址（web 资产时不完整时使用）    | 所有用户         |
+| domain             | string  | 域名                                 | 所有用户         |
+| url                | string  | 资产的完整 URL（用于 web 资产）      | 所有用户         |
+| ssl.jarm           | string  | SSL JARM 指纹                        | 所有用户         |
+| ssl.ja3s           | string  | SSL JA3S 指纹                        | 所有用户         |
+| iconhash_md5       | string  | icon 图像的 MD5 值                   | 专业版及以上用户 |
+| robots_md5         | string  | robots.txt 文件的 MD5 值             | 商业版及以上用户 |
+| security_md5       | string  | 安全设置文件的 MD5 值                | 商业版及以上用户 |
+| hostname           | string  | 主机名信息                           | 所有用户         |
+| os                 | string  | 操作系统信息                         | 所有用户         |
+| port               | integer | 端口号                               | 所有用户         |
+| service            | string  | 提供的应用协议（例如 HTTP、SSH）     | 所有用户         |
+| title              | list    | 网页标题                             | 所有用户         |
+| version            | string  | 组件版本信息                         | 所有用户         |
+| device             | string  | 设备名称                             | 所有用户         |
+| rdns               | string  | 反向 DNS 信息                        | 所有用户         |
+| product            | string  | 产品组件信息                         | 所有用户         |
+| header             | string  | HTTP 响应头信息                      | 所有用户         |
+| header_hash        | string  | 从 HTTP 响应头计算的哈希值           | 专业版及以上用户 |
+| banner             | string  | 服务横幅信息                         | 所有用户         |
+| body               | string  | HTML 正文内容                        | 商业版及以上用户 |
+| body_hash          | string  | 从 HTML 正文计算的哈希值             | 专业版及以上用户 |
+| update_time        | string  | 资产更新时间                         | 所有用户         |
+| header.server.name | string  | HTTP 响应头中的 server 名称          | 所有用户         |
+| continent.name     | string  | 所在大洲名称                         | 所有用户         |
+| country.name       | string  | 所在国家名称                         | 所有用户         |
+| province.name      | string  | 所在省份名称                         | 所有用户         |
+| city.name          | string  | 所在城市名称                         | 所有用户         |
+| isp.name           | string  | ISP 名称                             | 所有用户         |
+| organization.name  | string  | 组织信息名称                         | 所有用户         |
+| zipcode            | integer | 邮政编码                             | 所有用户         |
+| idc                | string  | 是否为 IDC（0 表示否，1 表示是）     | 所有用户         |
+| lon                | string  | 地理位置经度                         | 所有用户         |
+| lat                | string  | 地理位置纬度                         | 所有用户         |
+| asn                | string  | 自治系统编号                         | 所有用户         |
+| protocol           | string  | 传输层协议（例如 TCP、UDP）          | 所有用户         |
+| honeypot           | integer | 是否为蜜罐（0 表示否，1 表示是）     | 所有用户         |
+| ssl                | string  | SSL x509 证书信息                    | 所有用户         |
+| primary_industry   | string  | 主行业信息                           | 商业版及以上用户 |
+| sub_industry       | string  | 子行业信息                           | 商业版及以上用户 |
+| rank               | integer | 资产重要性排名，分值越大重要性越高。 | 商业版及以上用户 |
+
+**设置更改默认输出字段**
+
+```
+Set fields = ip,port
+```
+
+![](https://github.com/knownsec/Kunyu/raw/main/images/fields.png)
 
 **批量 IP 搜索**
 
@@ -152,9 +204,10 @@ ZoomEye:
 
 **命令格式：**
 
+```
 SearchIocn https://www.baidu.com/favicon.ico
-
 SearchIcon /root/favicon.ico
+```
 
 ![](https://github.com/knownsec/Kunyu/raw/main/images/searchico.png)
 
@@ -212,21 +265,38 @@ Cscan是Kunyu 1.7.2版本的一个新特性，允许您使用此命令来识别�
 
 **命令格式:**
 
+```
 Cscan 1.1.1.1 443  
-
 Cscan 1.1.1.1 443, 80  
+```
 
 ![](https://github.com/knownsec/Kunyu/raw/main/images/cscan.png)
+
+**CDNAnalysis（NEW）**
+
+注意通过代码编译的方式使用Kunyu，默认不提供该功能模块，如果需要添加该功能，需要自行编译并添加到kunyu运行路径下的/lib/cdn/路径下，根据使用操作系统不同分别命名为**linux、darwin、windows.exe**使用即可。
+
+https://github.com/wikiZ/CDN-Discovery
+
+**命令格式：**
+
+```
+CDNAnalysis --file ip.txt
+CDNAnalysis --domain www.baidu.com
+```
+
+![](https://github.com/knownsec/Kunyu/raw/main/images/CDNAnalysis.png)
 
 **PupilSearch敏感信息收集**
 
 在Kunyu v1.7.0版本后，移除了KeyWord命令替换为PupilSearch，就是提取敏感数据的功能，当然也支持通过空间测绘提取历史banner信息，举个例子像accesskey这种，历史数据中banner泄露了敏感信息，哪怕现在换了服务，但是AK/SK没有过期，依旧可以直接利用，懂得都懂，支持提取敏感信息**（身份证号、IP、JWT、API接口、appid、appkey、GithubAccessKey，default username\password、邮箱等）**。
 
-命令格式：
+**命令格式：**
 
-**PupilSearch https://www.domain.com/**
-
-**PupilSearch ID	(通过空间测绘返回的banner提取敏感信息)**
+```
+PupilSearch https://www.domain.com/
+PupilSearch ID(通过Kunyu返回的ID提取敏感信息)
+```
 
 ![](https://github.com/knownsec/Kunyu/raw/main/images/pupilsearch_1.png)
 
@@ -252,12 +322,14 @@ Cscan 1.1.1.1 443, 80
 
 **命令格式：**
 
+```
 EncodeHash hex 7239dcc9beb5c9cd795415f9
 EncodeHash md5 https://www.baidu.com/favicon.ico
 EncodeHash md5 /root/favicon.ico
 EncodeHash mmh3 https://www.baidu.com/favicon.ico
 EncodeHash mmh3 /root/favicon.ico
 EncodeHash base64 dasdasdsa
+```
 
 ![](https://github.com/knownsec/Kunyu/raw/main/images/encode.png)
 
@@ -265,11 +337,17 @@ EncodeHash base64 dasdasdsa
 
 Kunyu V1.6.5版本后，增加了对最后一次检索结果进行存活性扫描，结果通过轮询的方式实时输出。
 
+![](https://github.com/knownsec/Kunyu/raw/main/images/alivescan.png)
+
 **Seebug漏洞查询**
 
 通过输入想要查找的框架、设备等信息，查询历史相关漏洞，但是需要注意仅支持英文，这里后期会进行改进，升级。
 
-命令格式: **Seebug tongda**
+**命令格式:** 
+
+```
+Seebug tongda
+```
 
 ![](https://github.com/knownsec/Kunyu/raw/main/images/seebug.png)
 
@@ -305,13 +383,13 @@ source: https://github.com/wikiZ/Kunyu
 
 **设置参数**
 
-当设置set page = 2时，返回结果为40条，大家可以通过修改page参数，设置查询的页数，需要注意1 page = 20/条 ，可以根据需求修改该值，获取更多返回结果。
+当设置set page = 2时，返回结果为20条，大家可以通过修改page参数，设置查询的页数，需要注意1 page = 10/条 ，可以根据需求修改该值，获取更多返回结果。
+
+**Kunyu2.0可以通过size设置每页查询数量，默认是10条，最大是10,000条/页。**
 
 通过show显示可配置的参数，以及参数当前的值。
 
 ![](https://github.com/knownsec/Kunyu/raw/main/images/show.png)
-
-![](https://github.com/knownsec/Kunyu/raw/main/images/set.png)
 
 **Pocsuite3 联动**
 
@@ -325,10 +403,12 @@ source: https://github.com/wikiZ/Kunyu
 
 **命令格式：**
 
+```
 HostCrash C:\ip.txt C:\host.txt
 HostCrash C:\ip.txt baidu.com
 HostCrash 1.1.1.1 baidu.com
 HostCrash 1.1.1.1 G:\host.txt
+```
 
 **示例一**
 
@@ -342,7 +422,7 @@ HostCrash 1.1.1.1 G:\host.txt
 
 Kunyu v1.6.2新增了一个有意思的功能，结合云函数对目标进行HOSTS碰撞，通过这样的方式有效的隐藏了我们的扫描IP防止被目标态势感知捕捉到，也防止了WAF对真实IP的封禁，并对特征进行了隐匿，通过下面的扫描效果可以发现扫描的IP均为云服务厂商且每次扫描均为随机IP地址，可以通过初始化时配置云函数地址的方式自主选择是否启用。
 
-**配置导读：** [云函数的配置方法](https://github.com/knownsec/Kunyu/blob/main/doc/Serverless_CN.md)
+**配置导读：** [云函数的配置方法](./Serverless_CN.md)
 
 **相关技术：**https://www.anquanke.com/post/id/261551
 
@@ -369,89 +449,17 @@ v1.6.2新增CreateMap命令，可对上次检索的资产生成地理位置分�
 ![](https://github.com/knownsec/Kunyu/raw/main/images/output.png)
 
 
-# 0x04 Loading
-
-​    感谢各位用户的支持，Kunyu也会坚持进行完善更新的，希望 Kunyu (坤舆)能够让更多安全从业者所知，工具框架有参考昆仑镜、Pocsuite3，都是非常棒的作品。	
-
-​    感谢 KnownSec 404 Team 的全体小伙伴。	
-
-​	**关于开发者 风起 相关文章：https://www.anquanke.com/member.html?memberId=148652**																																																	
-
-> “ 看得清 ” 是能力的体现，是 “ 器 ” ，而 “ 看得见 ” 就是思想的体现，那最后关联的是 “ 道 ”。
->
-> ​																																							 	   --SuperHei
-
-# 0x05 Issue
-
-**1、多因素搜索**
-
-ZoomEye搜索可以使用多因素搜索，dork：cisco +port:80(注意空格) 可以搜索符合cisco以及port:80条件的所有数据，如果没有中间的空格则为同一搜索条件，则为满足cisco并且端口为80的所有数据。Kunyu的dork无需引号。
-
-**2、高精地理位置**
-
-ZoomEye给予特权用户高精地理位置的数据，但是需要注意的是普通用户，则不具备该功能，望周知。
-
-**3、用户名/密码登录**
-
-如果您使用的是username/password作为初始化条件，那么所获得token时效为12小时，如果发现您的搜索不能返回数据，那么不妨info一下，如果会话超时则会返回初始化命令提示。绝大多数情况下我们建议您使用API KEY的方式，则不存在失效问题。这样的设计也是为了您账号密码的安全性，毕竟API KEY可以重置，token会失效，但是有了账号密码，则有可能登录您的ZoomEye账户。
-
-**4、Cert证书搜索**
-
-需要注意的是，按照常规逻辑，您需要将目标ssl证书的序列号进行十六进制编码后才能配合语句搜索，但是Kunyu则仅需要提供Domain地址则可以检索。原理是对目标站做了一次请求获取到了序列号并进行处理，但是如果您的主机无法访问需要搜索的目标则无法检索，这时您也可以按照常规方法配合语句搜索。
-
-**5、Favicon图标搜索**
-
-ico图标搜索既支持URL检索，又支持本地ico图标文件搜索，这样有了更好的延展性，以及兼容性。
-
-**6、查询数据保存路径**
-
-默认情况下您的查询数据在用户目录下的Kunyu文件夹中，您也可以在console模式中使用ExportPath命令查询路径。
-
-**7、自动补全**
-
-Kunyu的自动补全支持大小写，命令记录等，使用Tab进行补全，用法参见Metasploit即可。
-
-**8、关于pip install kunyu使用时报错的问题**
-
-在使用pip install kunyu时报以下错误：
-`File "C:\Users\风起\AppData\Local\Programs\Python\Python37\Scripts\kunyu-script.py", line 1 SyntaxError: Non-UTF-8 code starting with '\xb7' in file C:\Users\风起\AppData\Local\Programs\Python\Python37\Scripts\kunyu-script.py on line 1, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details`
-
-解决方案：
-修改C:\Users\风起\AppData\Local\Programs\Python\Python37\Scripts\kunyu-script.py文件，在文件开头添加# encoding: utf-8
-然后保存即可正常使用，该bug出现原因为用户目录路径存在中文名，通常出现在windows上。
-
-**9、Pocsuite3模块POC存放目录**
-
-对于使用pocsuite3模块时，如果想要新增POC模块，则可以在 **项目目录/pocsuite3/pocs/** 添加POC文件。需要注意的是，当使用打包好的Kunyu console命令时应添加POC到该目录，并重新打包kunyu程序才可以正常加载POC。
-
-**10、Pocsuite3模块POC缺失问题**
-
-使用Pocsuite命令联动时，如果是已经打包好的Kunyu版本，则poc已经被固定，这时修改poc目录是无法新增模块的，这时可以通过重新打包的方式，或者使用 **项目目录/kunyu/console.py** 运行kunyu可实时更新poc模块。
-
-**11、Kunyu可执行系统命令如下。**
-
-**Windows:**
-        OS_SYSTEM = [**"ipconfig", "dir", "whoami", "ping", "telnet", "cd", "findstr", "chdir","find", "mysql", "type", "curl", "netstat", "tasklist", "taskkill", "tracert", "del", "ver","nmap"**]
-
-**Linux/Mac：**
-
-​	OS_SYSTEM = [**"ifconfig", "ls", "cat", "pwd", "whoami", "ping", "find", "grep", "telnet", "mysql", "cd", "vi", "more", "less", "curl", "ps", "netstat", "rm", "touch", "mkdir", "uname","nmap"**]
-
-**12、Kunyu运行环境**
-
-这里建议使用Python3.2 — 3.9版本，Python3其他版本可能会有未知的报错，**Python2不可使用**。
-
-**13、设置超时时间**
-
-如果HTTP请求没有得到及时响应，可以通过增大timeout时间解决，如:set timeout = 50
-
-
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
 
 - 2021-11-23 发布文章[《Kunyu (坤舆) : 更高效的企业资产收集》](https://mp.weixin.qq.com/s/mjPDX8PhfnpjmS6LaMcD_A)
 
 ## 最近更新
+
+#### [v2.0.0] - 2025-02-06
+
+**更新**  
+- 推出 Kunyu 2.0 及主要更新
 
 #### [v1.7.2] - 2022-04-20
 
@@ -477,11 +485,5 @@ Kunyu的自动补全支持大小写，命令记录等，使用Tab进行补全，
 **新增**  
 - 增加了对查询结果存活检测的功能  
 - 修复了一些模块不兼容问题
-
-#### [v1.6.4] - 2022-01-04
-
-**新增**  
-- 添加了“显示规则”/“显示配置”命令  
-- 增加了外部加载指纹文件的功能
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

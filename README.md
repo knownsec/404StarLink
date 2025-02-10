@@ -17,7 +17,9 @@
 
 | 时间 | 项目名称 | 项目动态 |
 |----|-----------|--------------------------|
-|2025-01-28|[**xtate**](detail/xtate.md)|更新 [v2.6.2](detail/xtate.md#最近更新) 版本|
+|2025-02-09|[**xtate**](detail/xtate.md)|更新 [v2.7.0](detail/xtate.md#最近更新) 版本|
+|2025-02-06|[**ZoomEye-Python**](detail/ZoomEye-Python.md)|更新 [v3.0.0](detail/ZoomEye-Python.md#最近更新) 版本|
+|2025-02-06|[**Kunyu**](detail/Kunyu.md)|更新 [v2.0.0](detail/Kunyu.md#最近更新) 版本|
 |2025-01-17|[**HaE**](detail/HaE.md)|更新 [v4.0.4](detail/HaE.md#最近更新) 版本|
 |2025-01-02|[**GShark**](detail/gshark.md)|更新 [v1.5.2](detail/gshark.md#最近更新) 版本|
 |2025-01-01|[**afrog**](detail/afrog.md)|更新 [v3.1.5](detail/afrog.md#最近更新) 版本|
@@ -25,28 +27,27 @@
 |2024-12-27|[**vArmor**](detail/vArmor.md)|更新 [v0.6.2](detail/vArmor.md#最近更新) 版本|
 |2024-12-20|[**ENScanGo**](detail/ENScanGo.md)|更新 [v1.1.0](detail/ENScanGo.md#最近更新) 版本|
 |2024-12-19|[**fscan**](detail/fscan.md)|更新 [v2.0.0](detail/fscan.md#最近更新) 版本|
-|2024-12-12|[**dperf**](detail/dperf.md)|更新 [v1.8.0](detail/dperf.md#最近更新) 版本|
-|2024-12-10|[**Viper**](detail/Viper.md)|更新 [v3.0.0](detail/Viper.md#最近更新) 版本|
 
 **2.StarRank**
 
 | 序号 | 项目名称 | 项目简介 | Star |
 |----|-----------|--------------------------|----|
-|1|[**HackBrowserData**](detail/HackBrowserData.md)|hack-browser-data 是一个解密浏览器数据（密码/历史记录/Cookies/书签）的导出工具，支持全平台主流浏览器的数据导出窃取。|11872|
-|2|[**fscan**](detail/fscan.md)|一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。支持主机存活探测、端口扫描、常见服务的爆破、ms17010、redis批量写公钥、计划任务反弹shell、读取win网卡信息、web指纹识别、web漏洞扫描、netbios探测、域控识别等功能。|11424|
-|3|[**dperf**](detail/dperf.md)|dperf 是一个100Gbps的网络性能与压力测试软件。国内多个知名安全厂商用dperf测试其防火墙。知名开源四层负载均衡DPVS在用dperf做性能测试，发布性能测试报告。|5176|
+|1|[**HackBrowserData**](detail/HackBrowserData.md)|hack-browser-data 是一个解密浏览器数据（密码/历史记录/Cookies/书签）的导出工具，支持全平台主流浏览器的数据导出窃取。|11895|
+|2|[**fscan**](detail/fscan.md)|一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。支持主机存活探测、端口扫描、常见服务的爆破、ms17010、redis批量写公钥、计划任务反弹shell、读取win网卡信息、web指纹识别、web漏洞扫描、netbios探测、域控识别等功能。|11439|
+|3|[**dperf**](detail/dperf.md)|dperf 是一个100Gbps的网络性能与压力测试软件。国内多个知名安全厂商用dperf测试其防火墙。知名开源四层负载均衡DPVS在用dperf做性能测试，发布性能测试报告。|5192|
 |4|[**CDK**](detail/CDK.md)|CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器内部提供零依赖的常用命令及PoC/EXP。集成Docker/K8s场景特有的逃逸、横向移动、持久化利用方式，插件化管理。|4053|
 |5|[**antSword**](detail/antSword.md)|中国蚁剑是一款开源的跨平台网站管理工具。|3891|
 |6|[**Viper**](detail/Viper.md)|VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战术及技术进行模块化及武器化。|3817|
-|7|[**pocsuite3**](detail/pocsuite3.md)|pocsuite3是由Knownsec 404团队开发的开源远程漏洞测试和概念验证开发框架。它带有强大的概念验证引擎，以及针对最终渗透测试人员和安全研究人员的许多强大功能。|3672|
+|7|[**pocsuite3**](detail/pocsuite3.md)|pocsuite3是由Knownsec 404团队开发的开源远程漏洞测试和概念验证开发框架。它带有强大的概念验证引擎，以及针对最终渗透测试人员和安全研究人员的许多强大功能。|3683|
 |8|[**afrog**](detail/afrog.md)|afrog 是一款性能卓越、快速稳定、PoC 可定制的漏洞扫描工具，PoC 包含 CVE、CNVD、默认口令、信息泄露、指纹识别、未授权访问、任意文件读取、命令执行等多种漏洞类型，帮助网络安全从业者快速验证并及时修复漏洞。|3662|
-|9|[**HaE**](detail/HaE.md)|HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。|3316|
+|9|[**HaE**](detail/HaE.md)|HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。|3330|
 |10|[**AppInfoScanner**](detail/AppInfoScanner.md)|一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。|3271|
 
 **3.项目更新**
 
 | 时间 | 项目迭代版本 |
 |----|-----------|
+|第6周|[**xtate**](detail/xtate.md) 更新 [v2.7.0](detail/xtate.md#最近更新) / [**ZoomEye-Python**](detail/ZoomEye-Python.md) 更新 [v3.0.0](detail/ZoomEye-Python.md#最近更新) / [**Kunyu**](detail/Kunyu.md) 更新 [v2.0.0](detail/Kunyu.md#最近更新)|
 |第5周|[**xtate**](detail/xtate.md) 更新 [v2.6.2](detail/xtate.md#最近更新)|
 |第3周|[**HaE**](detail/HaE.md) 更新 [v4.0.4](detail/HaE.md#最近更新)|
 |第2周|[**HaE**](detail/HaE.md) 更新 [v4.0.3](detail/HaE.md#最近更新) / [**xtate**](detail/xtate.md) 更新 [v2.6.1](detail/xtate.md#最近更新) / [**HaE**](detail/HaE.md) 更新 [v4.0.2](detail/HaE.md#最近更新)|
@@ -56,7 +57,6 @@
 |第50周|[**dperf**](detail/dperf.md) 更新 [v1.8.0](detail/dperf.md#最近更新) / [**Viper**](detail/Viper.md) 更新 [v3.0.0](detail/Viper.md#最近更新)|
 |第49周|[**xtate**](detail/xtate.md) 更新 [v2.5.0](detail/xtate.md#最近更新) / [**afrog**](detail/afrog.md) 更新 [v3.1.3](detail/afrog.md#最近更新)|
 |第46周|[**HaE**](detail/HaE.md) 更新 [v3.4](detail/HaE.md#最近更新) / [**xtate**](detail/xtate.md) 更新 [v2.4.6](detail/xtate.md#最近更新) / [**CDK**](detail/CDK.md) 更新 [v1.5.4](detail/CDK.md#最近更新) / [**afrog**](detail/afrog.md) 更新 [v3.1.2](detail/afrog.md#最近更新)|
-|第44周|[**JYso**](detail/JYso.md) 更新 [v1.3.5](detail/JYso.md#最近更新)|
 
 **4.新项目加入**
 

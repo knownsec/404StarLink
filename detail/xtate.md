@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![Author](https://img.shields.io/badge/Author-sharkocha-orange)
 ![GitHub stars](https://img.shields.io/github/stars/sharkocha/xtate.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.6.2-red)
+![Version](https://img.shields.io/badge/Version-V2.7.0-red)
 ![Time](https://img.shields.io/badge/Join-20241029-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
  
@@ -494,6 +494,13 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 ## 最近更新
 
+#### [v2.7.0] - 2025-02-09
+
+**更新**  
+- 添加模块模糊搜索  
+- 使用 clangd 更新代码健康度  
+- 修复 bugs
+
 #### [v2.6.2] - 2025-01-28
 
 **更新**  
@@ -514,12 +521,5 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 **更新**  
 - 修复向已保存的图数据添加信息
-
-#### [v2.5.0] - 2024-12-04
-
-**更新**  
-- 新增支持将元信息输出到指定文件  
-- 更新帮助文本  
-- 修复一些全局时间操作
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
