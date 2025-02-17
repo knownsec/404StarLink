@@ -186,7 +186,7 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.2-red)
+![Version](https://img.shields.io/badge/Version-V1.6.0-red)
 
 <https://github.com/madneal/gshark>
 
@@ -239,7 +239,7 @@ Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检�
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V4.0.4-red)
+![Version](https://img.shields.io/badge/Version-V4.0.5-red)
 
 <https://github.com/gh0stkey/HaE>
 

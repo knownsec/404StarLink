@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V4.0.4-red)
+![Version](https://img.shields.io/badge/Version-V4.0.5-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -80,6 +80,11 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 
 ## 最近更新
 
+#### [v4.0.5] - 2025-02-11
+
+**问题修复**  
+- 优化项目存储时的逻辑，解决并发导致的出错
+
 #### [v4.0.4] - 2025-01-17
 
 **功能更新**  
@@ -110,14 +115,5 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 
 **问题修复**  
 - 修复项目管理功能中多线程数据冲突问题
-
-#### [v4.0] - 2024-12-21
-
-**功能更新**  
-- 删除AI+实验性功能  
-- 删除在线规则库功能，未来以内置规则库的方式持续运营  
-- 优化数据管理功能，可与BurpSuite项目一并存储管理  
-- 新增、优化若干规则，如手机号、用户名、密码等字段规  
-- 新增Reinit功能，用于重新初始化内置规则库
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

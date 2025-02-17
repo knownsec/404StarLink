@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.2-red)
+![Version](https://img.shields.io/badge/Version-V1.6.0-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -198,6 +198,12 @@ You are supposed to rename `config-temp.yaml` to `config.yaml` and config the da
 
 ## 最近更新
 
+#### [v1.6.0] - 2025-02-15
+
+**新增**  
+- 支持 OPENAI 兼容模式进行 AI 分析  
+- 更新 config 模板文件
+
 #### [v1.5.2] - 2025-01-02
 
 **修复**  
@@ -228,12 +234,5 @@ You are supposed to rename `config-temp.yaml` to `config.yaml` and config the da
 - 丰富使用说明 README  
 - 恢复本地 build 脚本  
 - 简化项目，移除 autocode
-
-#### [v1.4.5] - 2024-06-22
-
-**修复**  
-- 组件依赖升级  
-- 修复 API 列表排序问题  
-- 移除任务列表
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

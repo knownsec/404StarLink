@@ -111,7 +111,7 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.2-red)
+![Version](https://img.shields.io/badge/Version-V1.6.0-red)
 
 <https://github.com/madneal/gshark>
 
