@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/vArmor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.6.2-red)
+![Version](https://img.shields.io/badge/Version-V0.6.3-red)
 ![Time](https://img.shields.io/badge/Join-20230831-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -55,6 +55,13 @@ vArmor 由字节跳动终端安全团队的 **Elkeid Team** 研发，目前该�
 
 
 ## 最近更新
+
+#### [v0.6.3] - 2025-02-19
+
+**更新**  
+- 为 Seccomp enforcer 添加了 disallow-load-bpf-via-setsockopt 内置规则  
+- 为 Seccomp enforcer 添加了 disallow-userfaultfd-creation 内置规则  
+- 增加了状态报告超时重试的等待时间
 
 #### [v0.6.2] - 2024-12-27
 
@@ -108,10 +115,5 @@ vArmor 由字节跳动终端安全团队的 **Elkeid Team** 研发，目前该�
 - Gin logger现在仅记录未成功的请求  
 - 修复容器启动时加载BPF配置文件  
 - 修复当服务响应未经授权时返回错误
-
-#### [v0.5.10] - 2024-06-25
-
-**修复**  
-- 修正功能中的拼写错误
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

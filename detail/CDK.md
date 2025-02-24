@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-cdkteam-orange)
 ![GitHub stars](https://img.shields.io/github/stars/cdk-team/CDK.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.4-red)
+![Version](https://img.shields.io/badge/Version-V1.5.5-red)
 ![Time](https://img.shields.io/badge/Join-20210223-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -208,6 +208,14 @@ cdk ps
 
 ## 最近更新
 
+#### [v1.5.5] - 2025-02-23
+
+**更新**  
+- 修复新的调试日志，未来需要修复该错误  
+- 修复 gh action 中路径中未找到 gox 的问题  
+- 修复 gh action 由于使用了弃用版本而自动失败的问题  
+- 修复 shim-pwn 合并目录在路径中出现两次的问题
+
 #### [v1.5.4] - 2024-11-15
 
 **更新**  
@@ -246,12 +254,5 @@ cdk ps
 - 为功能列表添加增加红色高亮输出  
 - 支持两种新的格式化打印函数  
 - 优化 CDK banner 高亮输出
-
-#### [v1.4.0] - 2022-09-04
-
-**更新**  
-- 新增通过 cgroup release_agent 实现的 lxcfs-rw Exploit  
-- 为 lxcfs-rw/lxcfs-rw-cgroup 添加推荐信息  
-- 新增高亮显示所有的挂载信息
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

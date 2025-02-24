@@ -34,7 +34,7 @@ dperf 是一个100Gbps的网络性能与压力测试软件。国内多个知名�
 ![Author](https://img.shields.io/badge/Author-cdkteam-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/cdk-team/CDK.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.4-red)
+![Version](https://img.shields.io/badge/Version-V1.5.5-red)
 
 <https://github.com/cdk-team/CDK>
 

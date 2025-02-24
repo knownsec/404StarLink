@@ -130,7 +130,7 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 ![Author](https://img.shields.io/badge/Author-sharkocha-orange)
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![GitHub stars](https://img.shields.io/github/stars/sharkocha/xtate.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.7.0-red)
+![Version](https://img.shields.io/badge/Version-V2.8.0-red)
 
 <https://github.com/sharkocha/xtate>
 

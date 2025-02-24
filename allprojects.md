@@ -186,7 +186,7 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.0-red)
+![Version](https://img.shields.io/badge/Version-V1.6.1-red)
 
 <https://github.com/madneal/gshark>
 
@@ -216,7 +216,7 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/vArmor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.6.2-red)
+![Version](https://img.shields.io/badge/Version-V0.6.3-red)
 
 <https://github.com/bytedance/vArmor>
 
@@ -349,7 +349,7 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 ![Author](https://img.shields.io/badge/Author-sharkocha-orange)
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![GitHub stars](https://img.shields.io/github/stars/sharkocha/xtate.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.7.0-red)
+![Version](https://img.shields.io/badge/Version-V2.8.0-red)
 
 <https://github.com/sharkocha/xtate>
 
@@ -435,7 +435,7 @@ dperf 是一个100Gbps的网络性能与压力测试软件。国内多个知名�
 ![Author](https://img.shields.io/badge/Author-cdkteam-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/cdk-team/CDK.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.4-red)
+![Version](https://img.shields.io/badge/Version-V1.5.5-red)
 
 <https://github.com/cdk-team/CDK>
 
