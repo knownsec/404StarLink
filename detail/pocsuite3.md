@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/pocsuite3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.8-red)
+![Version](https://img.shields.io/badge/Version-V2.1.0-red)
 ![Time](https://img.shields.io/badge/Join-20200821-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -253,6 +253,12 @@ console mode
 
 ## 最近更新
 
+#### [v2.1.0] - 2025-02-28
+
+**更新**  
+- 更新 ZoomEye API v2  
+- 修复部分 bug
+
 #### [v2.0.8] - 2024-02-09
 
 **更新**  
@@ -278,10 +284,5 @@ console mode
 - 优化 DSL 表达式执行  
 - 将 mmh3 设置为可选依赖  
 - 优化检查更新
-
-#### [v2.0.4] - 2023-04-29
-
-**更新**  
-- 兼容 nuclei v2.9.1 的模版协议名称变化
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

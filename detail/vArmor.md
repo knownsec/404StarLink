@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/vArmor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.6.3-red)
+![Version](https://img.shields.io/badge/Version-V0.7.0-red)
 ![Time](https://img.shields.io/badge/Join-20230831-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -56,6 +56,30 @@ vArmor 由字节跳动终端安全团队的 **Elkeid Team** 研发，目前该�
 
 ## 最近更新
 
+#### [v0.7.0] - 2025-02-27
+
+**新增**  
+- 在 VarmorPolicy 和 VarmorClusterPolicy CRD 中添加了 AllowViolations 字段  
+- AppArmor、BPF 和 Seccomp enforcers 支持观察模式  
+- 在 debug 日志中将未被阻止的违规事件记录到 violence.log 文件中  
+- 在 ArmorProfileModel CRD 中添加了 StorageType 字段  
+- 在 ArmorProfileModel 资源的附加打印机列中添加了 STORAGE-TYPE 字段  
+- 在启用行为建模功能时，将 emptyDir 数据卷挂载到 agent 和管理器  
+- 当 ArmorProfileModel 对象超出限制时，管理器将行为数据和配置文件保存到数据卷内的本地文件中- agent 建模期间将审计数据缓存在数据卷中  
+- 支持从管理器的接口导出完整的 ArmorProfileModel 对象  
+- 管理器的所有接暴露在 /apis 路径  
+- 添加了 --logFormat 命令行选项，并允许以 JSON 格式输出日志  
+- 修改了 VarmorPolicy 和 VarmorClusterPolicy CRD 的 AppArmorRawRules 结构  
+- 当遇到不符合标准的个人信息时强制定期更新  
+- 当策略在 DefenseInDepth 模式下运行时，如果 ArmorProfileModel 对象的 StorageType 字段为 LocalDisk，则从本地文件加载配置文件  
+- 添加了 --set jsonLogFormat.enabled=true 选项，用于将日志格式切换为 JSON  
+
+**修复**  
+- 如果 agent 不在容器中，readinessProbe 使用默认端口 6080  
+- 当 agent 在容器中运行时，通过 varmor-classifier-svc 服务访问分类器  
+- 增加了超时重试的等待时间  
+- 将 trace 的日志级别从 3 切换到 2
+
 #### [v0.6.3] - 2025-02-19
 
 **更新**  
@@ -107,13 +131,5 @@ vArmor 由字节跳动终端安全团队的 **Elkeid Team** 研发，目前该�
 - 修复当代理服务启动失败时输出错误信息  
 - 进一步完善 repo 文档  
 - 官方网站上线 (https://varmor.org)
-
-#### [v0.5.11] - 2024-07-09
-
-**更新**  
-- 发生冲突时重试删除ArmorProfile finalizers  
-- Gin logger现在仅记录未成功的请求  
-- 修复容器启动时加载BPF配置文件  
-- 修复当服务响应未经授权时返回错误
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

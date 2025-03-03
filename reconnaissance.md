@@ -129,10 +129,10 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 ### [xtate](detail/xtate.md)
 ![Author](https://img.shields.io/badge/Author-sharkocha-orange)
 ![Language](https://img.shields.io/badge/Language-C-blue)
-![GitHub stars](https://img.shields.io/github/stars/sharkocha/xtate.svg?style=flat&logo=github)
+![GitHub stars](https://img.shields.io/github/stars/babycoff/xtate.svg?style=flat&logo=github)
 ![Version](https://img.shields.io/badge/Version-V2.8.0-red)
 
-<https://github.com/sharkocha/xtate>
+<https://github.com/babycoff/xtate>
 
 Xtate是面向互联网规模网络测量的模块化全栈扫描器（框架）。利用自研的应用层无状态扫描模型ZBanner和混合状态轻量级TCP协议栈HLTCP实现异步高速扫描。与已有的无状态端口扫描器只能探测端口是否开放不同，Xtate基于应用层无状态扫描模型，在千兆带宽下能够在6分钟内完成中国大陆地址集中所有80端口的开放性检测和Banner抓取。基于HLTCP用户态协议栈实现和TLS支持，Xtate也能够在有状态模式下执行多轮数据交互的高速扫描，包括TLS上层服务Banner抓取。Xtate框架提供统一接口以自定义模块实现不同的扫描任务，专注于大规模网络的协议层面测量（包括传输层、应用层和TLS上层服务），具有坚实的底层高速异步数据包收发机制，期望为学术和实践领域中大规模网络测量的各种算法和任务提供承载平台。
 
