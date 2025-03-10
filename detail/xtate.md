@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![Author](https://img.shields.io/badge/Author-sharkocha-orange)
 ![GitHub stars](https://img.shields.io/github/stars/babycoff/xtate.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.8.0-red)
+![Version](https://img.shields.io/badge/Version-V2.9.0-red)
 ![Time](https://img.shields.io/badge/Join-20241029-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
  
@@ -494,6 +494,12 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 ## 最近更新
 
+#### [v2.9.0] - 2025-03-08
+
+**更新**  
+- 交互模式命令更新  
+- 修复MSVC编译器版本检测
+
 #### [v2.8.0] - 2025-02-20
 
 **更新**  
@@ -516,11 +522,5 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 **更新**  
 - 重构：优雅的资源释放和类型宽度限制
-
-#### [v2.6.0] - 2024-12-28
-
-**更新**  
-- 新增支持指定参数帮助文本查询  
-- 重构美化代码
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
