@@ -7,75 +7,58 @@
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
-- Viper(炫彩蛇)是一款图形化互联网攻击面管理&红队模拟平台.
-- Viper(炫彩蛇)覆盖红队模拟的常用功能(杀软绕过,内网隧道,文件管理,命令行等).
-- Viper(炫彩蛇)红队模拟当前已集成100+个模块,覆盖MITRE ATT&CK的所有战术大类.
-- Viper(炫彩蛇)红队模拟支持基于LLM的智能体,用户可以用自然语言调用系统功能.
-- Viper(炫彩蛇)攻击面管理支持备案\域名\IP\公众号小程序\CDN\WAF\漏洞等采集及管理功能.
-<br>
+<p align="center">
+  <img src="https://github.com/FunnyWolf/Viper/raw/master/docs/public/viper.svg" alt="Viper Icon" width="200">
+</p>
 
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/159259/1631687579184-a2603220-9009-4240-9709-76b503fe8174.png?x-oss-process=image%2Fresize%2Cw_1504%2Climit_0)
-<br>
-<br>
-<br>
-![image.png](https://cdn.nlark.com/yuque/0/2021/png/159259/1628573079014-871d0573-ef2a-4267-974b-1026d6ed2466.png?x-oss-process=image%2Fresize%2Cw_1504%2Climit_0)
-<br>
-<br>
-<br>
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/159259/1609217703998-8bebe969-7a26-4f75-b2cb-6dca34a39951.png#align=left&display=inline&height=511&margin=%5Bobject%20Object%5D&name=image.png&originHeight=1022&originWidth=2028&size=191127&status=done&style=none&width=1014)
-<br>
-<br>
-<br>
-![image.png](https://cdn.nlark.com/yuque/0/2024/png/159259/1725593479768-b315a2a1-596d-4407-84a9-d643751c7520.png?x-oss-process=image%2Fformat%2Cwebp)
-<br>
+**VIPER** 是一个强大且灵活的红队平台.平台集成对手模拟及红队行动所需的核心工具和功能,帮助您高效完成网络安全评估工作。
 
-# 官网
+- **直观的操作界面**
 
-- [https://www.yuque.com/vipersec](https://www.yuque.com/vipersec)
+  提供易于上手的用户界面，使得红队成员可以迅速开始他们的安全评估任务。
 
-# 安装
+- **多平台支持**
 
-- [安装](https://www.yuque.com/vipersec/help/olg1ua)
+  支持针对多种操作系统进行红队评估，包括 Windows、Linux 和 macOS。
 
-# 友情链接
+- **开箱即用的红队工具**
 
-[使用Cloudflare Argo隐藏VIPER后台](https://tokisaki.top/blog/viper-via-cloudflare-argo/)
+  功能设计涵盖了 MITRE ATT&CK 框架的所有阶段，为用户提供了一个全面的攻击模拟解决方案。
 
-[msf http使用cloudflare argo上线](https://tokisaki.top/blog/meterpreter-via-cloudflare-argo/)
+- **集成 LLM Agent**
 
-# 常见问题
+  内置大型语言模型智能体，增强自动化处理能力和智能决策支持。
 
-- [FAQ](https://www.yuque.com/vipersec/faq)
+- **自动化工作流程**
 
-# 问题反馈
+  支持自动化的编排和通知机制，使红队能够全天候监控目标状态。
 
-- github issues : [https://github.com/FunnyWolf/Viper/issues](https://github.com/FunnyWolf/Viper/issues)
+- **多样化的模块**
 
-# 模块列表
+  集成后渗透模块、被动扫描模块以及全网扫描模块在内的多种类型，满足不同场景下的需求。
 
-- [文档链接](https://www.yuque.com/vipersec/module)
+- **自定义扩展能力**
 
-# 系统架构图
+  支持通过 Python 编写自定义模块，满足特定需求或添加额外功能。
 
-![viper.png](https://cdn.nlark.com/yuque/0/2021/png/159259/1627364231093-768d3b07-e044-4a2d-a3fa-e9ebd92a0828.png)
+- **攻击面管理（Beta）**
 
-# 开发手册
+  引入攻击面管理功能，帮助团队更好地识别和理解目标企业潜在的风险点。
 
-- [开发手册](https://www.yuque.com/vipersec/code)
+![img.webp](https://github.com/FunnyWolf/Viper/raw/master/docs/zh/guide/webp/img.webp)
+![img_1.webp](https://github.com/FunnyWolf/Viper/raw/master/docs/zh/guide/webp/img_1.webp)
+![img_2.webp](https://github.com/FunnyWolf/Viper/raw/master/docs/zh/guide/webp/img_2.webp)
+![img_3.webp](https://github.com/FunnyWolf/Viper/raw/master/docs/zh/guide/webp/img_3.webp)
+![img_4.webp](https://github.com/FunnyWolf/Viper/raw/master/docs/zh/guide/webp/img_4.webp)
+![img_5.webp](https://github.com/FunnyWolf/Viper/raw/master/docs/zh/guide/webp/img_5.webp)
 
-# 源代码
+## 官方网站
 
-- viperjs (前端)
+[https://www.viperrtp.com/zh/](https://www.viperrtp.com/zh/)
 
-[https://github.com/FunnyWolf/viperjs](https://github.com/FunnyWolf/viperjs)
+## 问题反馈
 
-- viperpython (后台)
-
-[https://github.com/FunnyWolf/viperpython](https://github.com/FunnyWolf/viperpython)
-
-- vipermsf (渗透服务)
-
-[https://github.com/FunnyWolf/vipermsf](https://github.com/FunnyWolf/vipermsf)
+[https://github.com/FunnyWolf/Viper/issues](https://github.com/FunnyWolf/Viper/issues)
 
 <!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
 ## 项目相关
