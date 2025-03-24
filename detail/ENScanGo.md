@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-wgpsec-orange)
 ![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.1.0-red)
+![Version](https://img.shields.io/badge/Version-V1.1.2-red)
 ![Time](https://img.shields.io/badge/Join-20221117-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -280,6 +280,11 @@ go >= 1.22.1
 
 ## 最近更新
 
+#### [v1.1.2] - 2025-03-20
+
+**更新**  
+- 修复 TYC must login 错误
+
 #### [v1.1.0] - 2024-12-20
 
 **更新**  
@@ -312,10 +317,5 @@ go >= 1.22.1
 - 使用os库替换遗弃的io/ioutil  
 - 更新交叉编译脚本  
 - 更新安装使用说明
-
-#### [v0.0.17] - 2024-04-14
-
-**更新**  
-- 修复AQC安全验证问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
