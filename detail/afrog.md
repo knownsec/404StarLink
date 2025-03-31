@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.1.5-red)
+![Version](https://img.shields.io/badge/Version-V3.1.7-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,13 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v3.1.7] - 2025-03-30
+
+**更新**  
+- 修复HTTP响应解析异常问题，兼容更多服务器返回格式，程序运行更稳定！  
+- Banner展示效果全面优化，界面颜值暴涨，交互体验更丝滑～  
+- 新增临时文件自动清理机制，afg文件每10秒智能更新，任务结束即自动清除，省心又安全！
+
 #### [v3.1.5] - 2025-01-01
 
 **更新**  
@@ -168,12 +175,5 @@ afrog -t https://example.com -ja result.json
 **更新**  
 - HTML报告新增 Copy 按钮，一键复制Request请求包  
 - 修复 afrog 工具中使用 -P 命令指定不存在的YAML文件时，会错误地扫描所有PoC文件的问题
-
-#### [v3.1.0] - 2024-08-08
-
-**更新**  
-- 增强 afrog 漏洞报告，新增响应时间显示功能，以便用户更直观地评估目标系统的响应速度  
-- 在启动afrog时，若未执行OOB POC扫描，则不会进行OOB存活性的探测  
-- 在yaml模板规则，在type中增加https标头，区别http标头
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

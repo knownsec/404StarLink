@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JS/Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.0.0-red)
+![Version](https://img.shields.io/badge/Version-V3.1.1-red)
 ![Time](https://img.shields.io/badge/Join-20210323-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -67,6 +67,16 @@
 
 ## 最近更新
 
+#### [v3.1.1] - 2025-03-30
+
+**更新**  
+- 新的官方网站 [viperrtp.com] ，并支持从DockerHub获取镜像。  
+- AI Agent更新，现在可以添加多个符合OpenAI标准的key，并根据模型Tag赋予不同的任务，详情见项目Release。  
+
+**优化**  
+- 平台现在默认过滤支持多级控制的有效载荷，增强稳定性。  
+- 更新了一些 i18n 和文档链接。
+
 #### [v3.0.0] - 2024-12-10
 
 **新功能**  
@@ -115,15 +125,5 @@
 
 **Bugfix**  
 - fix 部分界面抖动问题
-
-#### [v2.3.1] - 2024-07-08
-
-**新功能**  
-- 新增V-GPT,AI驱动的攻击型智能体框架  
-- 新增数据分析智能体 数据分析多角色智能体模块  
-- 新增OpenAI集成  
-
-**优化**  
-- 调整平台设置部分UI
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

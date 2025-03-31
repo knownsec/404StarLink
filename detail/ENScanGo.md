@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-wgpsec-orange)
 ![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.1.2-red)
+![Version](https://img.shields.io/badge/Version-V1.2.1-red)
 ![Time](https://img.shields.io/badge/Join-20221117-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -280,6 +280,11 @@ go >= 1.22.1
 
 ## 最近更新
 
+#### [v1.2.1] - 2025-03-29
+
+**更新**  
+- 增加支持介入MCP协议，方便接入本地大模型调用。
+
 #### [v1.1.2] - 2025-03-20
 
 **更新**  
@@ -309,13 +314,5 @@ go >= 1.22.1
 - 优化删除冗余代码，删除鸡肋的web功能，换成实时api功能方便接入其他工具  
 - 增加意外退出保存功能  
 - 增加单独信息实时保存功能 -n xxx -field icp -out-update icp.csv 将会实时写入该文件，可增加其他查询参数如投资占比等，但不会输出
-
-#### [v0.0.18] - 2024-04-23
-
-**更新**  
-- 修复TYC验证码问题  
-- 使用os库替换遗弃的io/ioutil  
-- 更新交叉编译脚本  
-- 更新安装使用说明
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V4.1-red)
+![Version](https://img.shields.io/badge/Version-V4.1.1-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -80,6 +80,14 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 
 ## 最近更新
 
+#### [v4.1.1] - 2025-03-25
+
+**功能更新**  
+- 优化Databoard存储逻辑，提升数据处理速度。  
+
+**问题修复**  
+- 修复Databoard展示HTTP消息时存在的重复问题。
+
 #### [v4.1] - 2025-03-21
 
 **功能更新**  
@@ -110,14 +118,5 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 **问题修复**  
 - 修复Databoard数据搜索实效问题，采用正则加字符双匹配结果  
 - 修复MarkInfo数据双击编辑失焦问题
-
-#### [v4.0.2] - 2025-01-08
-
-**功能更新**  
-- 优化HTTP消息存储逻辑  
-- 优化HaE数据存储逻辑  
-
-**问题修复**  
-- 修复BurpSuite社区版下无法使用HaE的问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

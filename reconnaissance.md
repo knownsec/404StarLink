@@ -20,7 +20,7 @@
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V4.1-red)
+![Version](https://img.shields.io/badge/Version-V4.1.1-red)
 
 <https://github.com/gh0stkey/HaE>
 
@@ -30,7 +30,7 @@ HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。
 ![Author](https://img.shields.io/badge/Author-wgpsec-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.1.2-red)
+![Version](https://img.shields.io/badge/Version-V1.2.1-red)
 
 <https://github.com/wgpsec/ENScan_GO>
 
