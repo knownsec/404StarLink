@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-lanyi-orange)
 ![GitHub stars](https://img.shields.io/github/stars/lanyi1998/DNSlog-GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.2-red)
+![Version](https://img.shields.io/badge/Version-V1.5.7-red)
 ![Time](https://img.shields.io/badge/Join-20220316-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -132,6 +132,11 @@ if dns.checkDomain(subDomain):
 
 
 ## 最近更新
+
+#### [v1.5.7] - 2025-04-09
+
+**修复**  
+- 修复8.8.8.8无法收到记录的bug
 
 #### [v1.5.2] - 2022-06-08
 

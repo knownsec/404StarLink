@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![Author](https://img.shields.io/badge/Author-sharkocha-orange)
 ![GitHub stars](https://img.shields.io/github/stars/babycoff/xtate.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.10.0-red)
+![Version](https://img.shields.io/badge/Version-V2.11.1-red)
 ![Time](https://img.shields.io/badge/Join-20241029-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
  
@@ -494,6 +494,12 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 ## 最近更新
 
+#### [v2.11.1] - 2025-04-06
+
+**更新**  
+- 优化：部分代码和自检日志  
+- 更新：添加 IPv6 地址自检以与 Masscan 保持一致
+
 #### [v2.10.0] - 2025-03-17
 
 **更新**  
@@ -517,10 +523,5 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 - 添加模块模糊搜索  
 - 使用 clangd 更新代码健康度  
 - 修复 bugs
-
-#### [v2.6.2] - 2025-01-28
-
-**更新**  
-- 支持非严格的模块名称设置和参数调整
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

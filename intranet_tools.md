@@ -9,7 +9,8 @@
 7. [WMIHACKER](#wmihacker)
 8. [rakshasa](#rakshasa)
 9. [As-Exploits](#as-exploits)
-10. [PortForward](#portforward)
+10. [g3proxy](#g3proxy)
+11. [PortForward](#portforward)
 
 ----------------------------------------
 
@@ -102,6 +103,16 @@ rakshasa是一个使用Go语言编写的强大多级代理工具，专为实现�
 <https://github.com/yzddmr6/As-Exploits>
 
 中国蚁剑后渗透框架
+
+### [g3proxy](detail/g3proxy.md)
+![Author](https://img.shields.io/badge/Author-bytedance-orange)
+![Language](https://img.shields.io/badge/Language-Rust-blue)
+![GitHub stars](https://img.shields.io/github/stars/bytedance/g3.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.10.4-red)
+
+<https://github.com/bytedance/g3>
+
+通用正向代理解决方案，同时带有TCP映射、TLS卸载/封装、透明代理、简单反向代理等功能
 
 ### [PortForward](detail/PortForward.md)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)

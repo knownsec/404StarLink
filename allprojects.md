@@ -10,8 +10,8 @@
     * [veinmind-tools](#veinmind-tools)
     * [Tai-e](#tai-e)
     * [OpenStar](#openstar)
-    * [AppScan](#appscan)
     * [gshark](#gshark)
+    * [AppScan](#appscan)
     * [Juggler](#juggler)
     * [vArmor](#varmor)
     * [Hades](#hades)
@@ -28,8 +28,8 @@
     * [ct](#ct)
     * [ZoomEye-Tools](#zoomeye-tools)
     * [ZoomEye-go](#zoomeye-go)
-    * [vultrap](#vultrap)
     * [xtate](#xtate)
+    * [vultrap](#vultrap)
 
 * [漏洞探测/vulnerability_assessment](#漏洞探测vulnerability_assessment)
     * [afrog](#afrog)
@@ -41,7 +41,6 @@
 * [攻击与利用/penetration_test](#攻击与利用penetration_test)
     * [dperf](#dperf)
     * [CDK](#cdk)
-    * [Viper](#viper)
     * [pocsuite3](#pocsuite3)
     * [MDUT](#mdut)
     * [JYso](#jyso)
@@ -53,8 +52,8 @@
     * [Cloud-Bucket-Leak-Detection-Tools](#cloud-bucket-leak-detection-tools)
     * [Antenna](#antenna)
     * [Redis-Rogue-Server](#redis-rogue-server)
-    * [Cola-Dnslog](#cola-dnslog)
     * [GrabAccess](#grabaccess)
+    * [Cola-Dnslog](#cola-dnslog)
     * [MysqlT](#mysqlt)
 
 * [信息分析/information_analysis](#信息分析information_analysis)
@@ -78,6 +77,7 @@
     * [WMIHACKER](#wmihacker)
     * [rakshasa](#rakshasa)
     * [As-Exploits](#as-exploits)
+    * [g3proxy](#g3proxy)
     * [PortForward](#portforward)
 
 * [其他/others](#其他others)
@@ -182,16 +182,6 @@ Tai-e（太阿）是一个通用型Java程序分析框架，包含了开发程�
 
 OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复杂规则编写。提供了常规的 HTTP 字段规则配置，还提供了 IP 黑白名单、访问频次等配置，对于 CC 防护更提供的特定的规则算法，并且支持搭建集群进行防护。
 
-### [AppScan](detail/AppScan.md)
-![Author](https://img.shields.io/badge/Author-TongchengOpenSource-orange)
-![Language](https://img.shields.io/badge/Language-Python-blue)
-![GitHub stars](https://img.shields.io/github/stars/TongchengOpenSource/AppScan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.5-red)
-
-<https://github.com/TongchengOpenSource/AppScan>
-
-安全隐私卫士（AppScan）一款免费的企业级自动化App隐私合规检测工具
-
 ### [GShark](detail/gshark.md)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
@@ -201,6 +191,16 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 <https://github.com/madneal/gshark>
 
 一款开源敏感信息检测系统，可以监测包括 GitHub, GitLab(支持私有部署版本), Postman, searchcode 多个平台的敏感信息监测。
+
+### [AppScan](detail/AppScan.md)
+![Author](https://img.shields.io/badge/Author-TongchengOpenSource-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/TongchengOpenSource/AppScan.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V2.1.5-red)
+
+<https://github.com/TongchengOpenSource/AppScan>
+
+安全隐私卫士（AppScan）一款免费的企业级自动化App隐私合规检测工具
 
 ### [Juggler](detail/Juggler.md)
 ![Author](https://img.shields.io/badge/Author-C4o-orange)
@@ -239,7 +239,7 @@ Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检�
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V4.1.1-red)
+![Version](https://img.shields.io/badge/Version-V4.1.2-red)
 
 <https://github.com/gh0stkey/HaE>
 
@@ -345,6 +345,16 @@ ct 是一款使用 rust 语言进行开发，并且基于ZoomEye域名查询以�
 
 ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 命令行模式，同时也可以作为SDK集成到其他工具中。该库可以让技术人员更便捷地搜索、筛选、导出 ZoomEye 的数据。
 
+### [xtate](detail/xtate.md)
+![Author](https://img.shields.io/badge/Author-sharkocha-orange)
+![Language](https://img.shields.io/badge/Language-C-blue)
+![GitHub stars](https://img.shields.io/github/stars/babycoff/xtate.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V2.11.1-red)
+
+<https://github.com/babycoff/xtate>
+
+Xtate是面向互联网规模网络测量的模块化全栈扫描器（框架）。利用自研的应用层无状态扫描模型ZBanner和混合状态轻量级TCP协议栈HLTCP实现异步高速扫描。与已有的无状态端口扫描器只能探测端口是否开放不同，Xtate基于应用层无状态扫描模型，在千兆带宽下能够在6分钟内完成中国大陆地址集中所有80端口的开放性检测和Banner抓取。基于HLTCP用户态协议栈实现和TLS支持，Xtate也能够在有状态模式下执行多轮数据交互的高速扫描，包括TLS上层服务Banner抓取。Xtate框架提供统一接口以自定义模块实现不同的扫描任务，专注于大规模网络的协议层面测量（包括传输层、应用层和TLS上层服务），具有坚实的底层高速异步数据包收发机制，期望为学术和实践领域中大规模网络测量的各种算法和任务提供承载平台。
+
 ### [vultrap](detail/vultrap.md)
 ![Author](https://img.shields.io/badge/Author-liqzz-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
@@ -354,16 +364,6 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 <https://github.com/liqzz/vultrap>
 
 在开源领域，从来不缺少优秀的漏洞POC框架和POC，现今情况下，当有相关漏洞的漏洞情报出现的时候，其用于漏洞的验证的POC代码或利用请求都会很快的被公布在互联网上，比如Nuclei等漏洞检测框架也会即时得跟进新的漏洞，并以漏洞检测模板的形式进行更新，如nuclei 的nuclei-temaplte 仓库几乎每天都会出现新的漏洞需求和检测模板提交。对于漏洞检测模板而言，其主要目的用来验证目标是否存在漏洞，但仔细了解漏洞检测的机制之后，漏洞检测大多数情况下实际就是构造请求和判断响应的过程，那么基于次，是否可以反向思维，通过判断漏洞验证的请求来返回迷惑性的结果，扰乱扫描器的判断呢，其实本质还是honeypot的思路，也可以称“漏洞伪装”，也是本项目 vultrap的实现背景。
-
-### [xtate](detail/xtate.md)
-![Author](https://img.shields.io/badge/Author-sharkocha-orange)
-![Language](https://img.shields.io/badge/Language-C-blue)
-![GitHub stars](https://img.shields.io/github/stars/babycoff/xtate.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.10.0-red)
-
-<https://github.com/babycoff/xtate>
-
-Xtate是面向互联网规模网络测量的模块化全栈扫描器（框架）。利用自研的应用层无状态扫描模型ZBanner和混合状态轻量级TCP协议栈HLTCP实现异步高速扫描。与已有的无状态端口扫描器只能探测端口是否开放不同，Xtate基于应用层无状态扫描模型，在千兆带宽下能够在6分钟内完成中国大陆地址集中所有80端口的开放性检测和Banner抓取。基于HLTCP用户态协议栈实现和TLS支持，Xtate也能够在有状态模式下执行多轮数据交互的高速扫描，包括TLS上层服务Banner抓取。Xtate框架提供统一接口以自定义模块实现不同的扫描任务，专注于大规模网络的协议层面测量（包括传输层、应用层和TLS上层服务），具有坚实的底层高速异步数据包收发机制，期望为学术和实践领域中大规模网络测量的各种算法和任务提供承载平台。
 
 
 
@@ -441,16 +441,6 @@ dperf 是一个100Gbps的网络性能与压力测试软件。国内多个知名�
 
 CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器内部提供零依赖的常用命令及PoC/EXP。集成Docker/K8s场景特有的逃逸、横向移动、持久化利用方式，插件化管理。
 
-### [Viper](detail/Viper.md)
-![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
-![Language](https://img.shields.io/badge/Language-JS/Python-blue)
-![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/Viper.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.1.1-red)
-
-<https://github.com/FunnyWolf/Viper>
-
-VIPER是一款图形化内网渗透工具,将内网渗透过程中常用的战术及技术进行模块化及武器化。
-
 ### [pocsuite3](detail/pocsuite3.md)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
@@ -525,7 +515,7 @@ Ysomap是一款适配于各类实际复杂环境的Java反序列化利用框架�
 ![Author](https://img.shields.io/badge/Author-lanyi-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/lanyi1998/DNSlog-GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.2-red)
+![Version](https://img.shields.io/badge/Version-V1.5.7-red)
 
 <https://github.com/lanyi1998/DNSlog-GO>
 
@@ -561,16 +551,6 @@ Antenna是58同城安全团队打造的一款辅助安全从业人员辅助验�
 
 Redis 4.x/Redis 5.x RCE利用脚本. 项目最初来源于 <https://github.com/n0b0dyCN/redis-rogue-server>
 
-### [Cola-Dnslog](detail/Cola-Dnslog.md)
-![Author](https://img.shields.io/badge/Author-AbelChe-orange)
-![Language](https://img.shields.io/badge/Language-Python-blue)
-![GitHub stars](https://img.shields.io/github/stars/AbelChe/cola_dnslog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.1-red)
-
-<https://github.com/AbelChe/cola_dnslog>
-
-Cola Dnslog 是一款更加强大的dnslog平台(无回显漏洞探测辅助平台)，支持dns http ldap rmi等协议，提供API调用方式便于与其他工具结合，支持钉钉机器人、Bark等提醒，并支持docker一键部署。
-
 ### [GrabAccess](detail/GrabAccess.md)
 ![Author](https://img.shields.io/badge/Author-Push3AX-orange)
 ![Language](https://img.shields.io/badge/Language-C-blue)
@@ -580,6 +560,16 @@ Cola Dnslog 是一款更加强大的dnslog平台(无回显漏洞探测辅助平�
 <https://github.com/Push3AX/GrabAccess>
 
 GrabAccess：Bookit/Windows登陆密码和Bitlocker绕过工具，在物理接触目标计算机的情况下，GrabAccess可以：绕过Windows登陆密码执行任意操作（以System权限执行命令、重置Windows账户密码等），植入木马并添加自启动（可以绕过Bitlocker，但要求受害者登录），通过修改主板UEFI固件实现无视重装系统、更换硬盘的持久化（Bootkit）
+
+### [Cola-Dnslog](detail/Cola-Dnslog.md)
+![Author](https://img.shields.io/badge/Author-AbelChe-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/AbelChe/cola_dnslog.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.1-red)
+
+<https://github.com/AbelChe/cola_dnslog>
+
+Cola Dnslog 是一款更加强大的dnslog平台(无回显漏洞探测辅助平台)，支持dns http ldap rmi等协议，提供API调用方式便于与其他工具结合，支持钉钉机器人、Bark等提醒，并支持docker一键部署。
 
 ### [MysqlT](detail/MysqlT.md)
 ![Author](https://img.shields.io/badge/Author-BeichenDream-orange)
@@ -776,6 +766,16 @@ rakshasa是一个使用Go语言编写的强大多级代理工具，专为实现�
 <https://github.com/yzddmr6/As-Exploits>
 
 中国蚁剑后渗透框架
+
+### [g3proxy](detail/g3proxy.md)
+![Author](https://img.shields.io/badge/Author-bytedance-orange)
+![Language](https://img.shields.io/badge/Language-Rust-blue)
+![GitHub stars](https://img.shields.io/github/stars/bytedance/g3.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.10.4-red)
+
+<https://github.com/bytedance/g3>
+
+通用正向代理解决方案，同时带有TCP映射、TLS卸载/封装、透明代理、简单反向代理等功能
 
 ### [PortForward](detail/PortForward.md)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)

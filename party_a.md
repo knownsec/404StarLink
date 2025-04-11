@@ -9,8 +9,8 @@
 7. [veinmind-tools](#veinmind-tools)
 8. [Tai-e](#tai-e)
 9. [OpenStar](#openstar)
-10. [AppScan](#appscan)
-11. [GShark](#gshark)
+10. [GShark](#gshark)
+11. [AppScan](#appscan)
 12. [Juggler](#juggler)
 13. [vArmor](#varmor)
 14. [Hades](#hades)
@@ -107,16 +107,6 @@ Tai-e（太阿）是一个通用型Java程序分析框架，包含了开发程�
 
 OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复杂规则编写。提供了常规的 HTTP 字段规则配置，还提供了 IP 黑白名单、访问频次等配置，对于 CC 防护更提供的特定的规则算法，并且支持搭建集群进行防护。
 
-### [AppScan](detail/AppScan.md)
-![Author](https://img.shields.io/badge/Author-TongchengOpenSource-orange)
-![Language](https://img.shields.io/badge/Language-Python-blue)
-![GitHub stars](https://img.shields.io/github/stars/TongchengOpenSource/AppScan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.5-red)
-
-<https://github.com/TongchengOpenSource/AppScan>
-
-安全隐私卫士（AppScan）一款免费的企业级自动化App隐私合规检测工具
-
 ### [GShark](detail/gshark.md)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
@@ -126,6 +116,16 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 <https://github.com/madneal/gshark>
 
 一款开源敏感信息检测系统，可以监测包括 GitHub, GitLab(支持私有部署版本), Postman, searchcode 多个平台的敏感信息监测。
+
+### [AppScan](detail/AppScan.md)
+![Author](https://img.shields.io/badge/Author-TongchengOpenSource-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/TongchengOpenSource/AppScan.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V2.1.5-red)
+
+<https://github.com/TongchengOpenSource/AppScan>
+
+安全隐私卫士（AppScan）一款免费的企业级自动化App隐私合规检测工具
 
 ### [Juggler](detail/Juggler.md)
 ![Author](https://img.shields.io/badge/Author-C4o-orange)
