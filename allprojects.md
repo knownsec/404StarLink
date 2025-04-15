@@ -21,8 +21,8 @@
     * [ENScanGo](#enscango)
     * [AppInfoScanner](#appinfoscanner)
     * [Kunyu](#kunyu)
-    * [Glass](#glass)
     * [ksubdomain](#ksubdomain)
+    * [Glass](#glass)
     * [scaninfo](#scaninfo)
     * [ZoomEye-Python](#zoomeye-python)
     * [ct](#ct)
@@ -86,6 +86,7 @@
     * [Heimdallr](#heimdallr)
     * [passive-scan-client](#passive-scan-client)
     * [GrabAccess](#grabaccess)
+    * [AiPy](#aipy)
     * [wam](#wam)
     * [LBot](#lbot)
 
@@ -275,6 +276,16 @@ HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。
 
 Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在让企业资产收集更高效，使更多安全相关从业者了解、使用网络空间测绘技术。
 
+### [ksubdomain](detail/ksubdomain.md)
+![Author](https://img.shields.io/badge/Author-w8ay-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/boy-hack/ksubdomain.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V2.2.1-red)
+
+<https://github.com/boy-hack/ksubdomain>
+
+ksubdomain是一款基于无状态子域名爆破工具，支持在Windows/Linux/Mac上使用，它会很快的进行DNS爆破，在Mac和Windows上理论最大发包速度在30w/s,linux上为160w/s的速度。
+
 ### [Glass](detail/Glass.md)
 ![Author](https://img.shields.io/badge/Author-s7ckTeam-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
@@ -284,16 +295,6 @@ Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在�
 <https://github.com/s7ckTeam/Glass>
 
 Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/ZoomEye/Shodan/360等api接口快速查询资产信息并识别重点资产的指纹，也可针对IP/IP段或资产列表进行快速的指纹识别。
-
-### [ksubdomain](detail/ksubdomain.md)
-![Author](https://img.shields.io/badge/Author-w8ay-orange)
-![Language](https://img.shields.io/badge/Language-Golang-blue)
-![GitHub stars](https://img.shields.io/github/stars/boy-hack/ksubdomain.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.9.5-red)
-
-<https://github.com/boy-hack/ksubdomain>
-
-ksubdomain是一款基于无状态子域名爆破工具，支持在Windows/Linux/Mac上使用，它会很快的进行DNS爆破，在Mac和Windows上理论最大发包速度在30w/s,linux上为160w/s的速度。
 
 ### [scaninfo](detail/scaninfo.md)
 ![Author](https://img.shields.io/badge/Author-华东360安服团队-orange)
@@ -349,7 +350,7 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 ![Author](https://img.shields.io/badge/Author-sharkocha-orange)
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![GitHub stars](https://img.shields.io/github/stars/babycoff/xtate.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.11.1-red)
+![Version](https://img.shields.io/badge/Version-V2.12.0-red)
 
 <https://github.com/babycoff/xtate>
 
@@ -839,6 +840,16 @@ Passive Scan Client是一款可以将经过筛选的流量转发到指定代理�
 <https://github.com/Push3AX/GrabAccess>
 
 GrabAccess：Bookit/Windows登陆密码和Bitlocker绕过工具，在物理接触目标计算机的情况下，GrabAccess可以：绕过Windows登陆密码执行任意操作（以System权限执行命令、重置Windows账户密码等），植入木马并添加自启动（可以绕过Bitlocker，但要求受害者登录），通过修改主板UEFI固件实现无视重装系统、更换硬盘的持久化（Bootkit）
+
+### [AiPy](detail/AiPy.md)
+![Author](https://img.shields.io/badge/Author-Knownsec-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/knownsec/aipyapp.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.1.21-red)
+
+<https://github.com/knownsec/aipyapp>
+
+AiPy是知道创宇站在AI技术变革前沿，基于LLM（大语言模型）与高级编程语言Python 完美融合，打造的一款突破性产品。AiPy以创新的技术范式和更低的成本，重构AI生产力边界，让大模型集思考能力和主动执行任务于一体。
 
 ### [wam](detail/wam.md)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)

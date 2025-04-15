@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![Author](https://img.shields.io/badge/Author-sharkocha-orange)
 ![GitHub stars](https://img.shields.io/github/stars/babycoff/xtate.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.11.1-red)
+![Version](https://img.shields.io/badge/Version-V2.12.0-red)
 ![Time](https://img.shields.io/badge/Join-20241029-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
  
@@ -494,6 +494,12 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 ## 最近更新
 
+#### [v2.12.0] - 2025-04-14
+
+**更新**  
+- 功能：在 Linux 的交互模式中添加reboot  
+- 修复：在 Windows 上使用 MinGW 的编译问题
+
 #### [v2.11.1] - 2025-04-06
 
 **更新**  
@@ -516,12 +522,5 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 **更新**  
 - 添加交互模式  
 - 修复数据竞争和内存泄漏问题
-
-#### [v2.7.0] - 2025-02-09
-
-**更新**  
-- 添加模块模糊搜索  
-- 使用 clangd 更新代码健康度  
-- 修复 bugs
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
