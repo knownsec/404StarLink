@@ -3,12 +3,15 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-Knownsec-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/aipyapp.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.1.21-red)
+![Version](https://img.shields.io/badge/Version-V0.1.24-red)
 ![Time](https://img.shields.io/badge/Join-20250415-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
 # Python use
-Python use (aipython) 是一个集成 LLM 的 Python 命令行解释器。
+AIPy 是 Python-use 概念的一个具体实现，旨在展示该理念的实际价值与应用潜力。
+
+使命: 释放大语言模型的全部潜能
+愿景: 能够自主改进和使用 AIPy 的更聪明的LLM
 
 ## What
 Python use 是把整个 Python 执行环境提供给 LLM 使用，可以想象为 LLM 坐在电脑前用键盘在 Python 命令行解释器里输入各种命令，按回车运行，然后观察执行结果，再输入代码和执行。
@@ -75,6 +78,17 @@ AIPython 有两种运行模式：
 >>> /done
 ```
 
+`pip install aipyapp` ，运行aipy命令进入任务模式
+
+```
+-> % aipy
+🚀 Python use - AIPython (0.1.22) [https://aipy.app]
+请输入需要 AI 处理的任务 (输入 /use <下述 LLM> 切换)
+>> 获取Reddit r/LocalLLaMA 最新帖子
+......
+>>
+```
+
 ### Python 模式
 #### 基本用法
 自动任务处理：
@@ -105,5 +119,12 @@ Python use - AIPython (Quit with 'exit()')
 
 
 ## 最近更新
+
+#### [v0.1.24] - 2025-04-20
+
+**更新**  
+- 完善 plugin 接口  
+- 修改任务记录保存方式  
+- 更新系统提示词
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

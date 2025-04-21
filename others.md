@@ -65,7 +65,7 @@ GrabAccess：Bookit/Windows登陆密码和Bitlocker绕过工具，在物理接�
 ![Author](https://img.shields.io/badge/Author-Knownsec-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/aipyapp.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.1.21-red)
+![Version](https://img.shields.io/badge/Version-V0.1.24-red)
 
 <https://github.com/knownsec/aipyapp>
 
