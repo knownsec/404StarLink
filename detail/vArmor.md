@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/vArmor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.7.0-red)
+![Version](https://img.shields.io/badge/Version-V0.7.1-red)
 ![Time](https://img.shields.io/badge/Join-20230831-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -56,6 +56,12 @@ vArmor 由字节跳动终端安全团队的 **Elkeid Team** 研发，目前该�
 
 ## 最近更新
 
+#### [v0.7.1] - 2025-04-23
+
+**更新**  
+- 修复了 procfs 中的路径匹配问题，以确保 FD 匹配正确  
+- 修复了 disallow-load-bpf-via-setsockopt 规则中对合法 setsockopt 调用的错误拦截
+
 #### [v0.7.0] - 2025-02-27
 
 **新增**  
@@ -101,35 +107,5 @@ vArmor 由字节跳动终端安全团队的 **Elkeid Team** 研发，目前该�
 **更新**  
 - 修复始终呈现代理环境变量  
 - 升级 net 包以修复 CVE-2024-45338
-
-#### [v0.6.0] - 2024-12-18
-
-**更新**  
-- 适配 AppArmor enforcer 到 K8s v1.30 版本  
-- 添加监控指标并支持与 Prometheus 和 Grafana 集成  
-- 支持 BPF enforcer 的违规审计功能  
-- 丰富 BPF enforcer 的违规审计日志，包含容器和 pod 信息  
-- 集成 AppArmor/BPF enforcer 的违规审计功能  
-- 统一 AppArmor/BPF enforcer 的审计事件格式  
-- 支持对 BPF enforcer 的套接字创建进行访问控制  
-- 支持所有 bpf 权限和标志的通配符  
-- 为 BPF/AppArmor enforcer 添加新的网络内置规则  
-- 支持在非特权容器中运行代理  
-- 允许在主机的网络命名空间中运行代理  
-- 重构 processtracer 和 auditer 模块以收集行为建模和违规审计功能的事件  
-- 重构行为建模和违规审计功能，不再依赖于 syslog 或 auditd，也无需手动配置  
-- 重构将 CRD 中的字段从对象更改为指针  
-- 重构集成更新策略对象的逻辑  
-- 自动调整 GOMAXPROCS 以适应容器限制  
-- 支持通过环境变量将节点名称和就绪端口传递给代理  
-- 规范 UserAgent 的名称  
-- 添加版本标志  
-- 为新功能添加 helm 配置选项  
-- 删除僵尸 ArmorProfile 对象的终结器  
-- 修复当发生冲突时，始终重试对象更新  
-- 修复子配置文件应从没有攻击保护规则的父配置文件继承规则  
-- 修复当代理服务启动失败时输出错误信息  
-- 进一步完善 repo 文档  
-- 官方网站上线 (https://varmor.org)
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

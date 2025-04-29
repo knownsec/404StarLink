@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-Knownsec-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/aipyapp.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.1.24-red)
+![Version](https://img.shields.io/badge/Version-V0.1.25-red)
 ![Time](https://img.shields.io/badge/Join-20250415-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -119,6 +119,13 @@ Python use - AIPython (Quit with 'exit()')
 
 
 ## 最近更新
+
+#### [v0.1.25] - 2025-04-24
+
+**更新**  
+- 增加了 GUI 图形界面  
+- 修复产品Bug  
+- 提供 Windows 一键运行包
 
 #### [v0.1.24] - 2025-04-20
 

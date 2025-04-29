@@ -4,8 +4,8 @@
 2. [BinAbsInspector](#binabsinspector)
 3. [Heimdallr](#heimdallr)
 4. [passive-scan-client](#passive-scan-client)
-5. [GrabAccess](#grabaccess)
-6. [AiPy](#aipy)
+5. [AiPy](#aipy)
+6. [GrabAccess](#grabaccess)
 7. [wam](#wam)
 8. [LBot](#lbot)
 
@@ -51,6 +51,16 @@ BinAbsInspector(Binary Abstract Inspector)是一款用于自动化逆向工程�
 
 Passive Scan Client是一款可以将经过筛选的流量转发到指定代理的Burp被动扫描流量转发插件
 
+### [AiPy](detail/AiPy.md)
+![Author](https://img.shields.io/badge/Author-Knownsec-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/knownsec/aipyapp.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.1.25-red)
+
+<https://github.com/knownsec/aipyapp>
+
+AiPy是知道创宇站在AI技术变革前沿，基于LLM（大语言模型）与高级编程语言Python 完美融合，打造的一款突破性产品。AiPy以创新的技术范式和更低的成本，重构AI生产力边界，让大模型集思考能力和主动执行任务于一体。
+
 ### [GrabAccess](detail/GrabAccess.md)
 ![Author](https://img.shields.io/badge/Author-Push3AX-orange)
 ![Language](https://img.shields.io/badge/Language-C-blue)
@@ -60,16 +70,6 @@ Passive Scan Client是一款可以将经过筛选的流量转发到指定代理�
 <https://github.com/Push3AX/GrabAccess>
 
 GrabAccess：Bookit/Windows登陆密码和Bitlocker绕过工具，在物理接触目标计算机的情况下，GrabAccess可以：绕过Windows登陆密码执行任意操作（以System权限执行命令、重置Windows账户密码等），植入木马并添加自启动（可以绕过Bitlocker，但要求受害者登录），通过修改主板UEFI固件实现无视重装系统、更换硬盘的持久化（Bootkit）
-
-### [AiPy](detail/AiPy.md)
-![Author](https://img.shields.io/badge/Author-Knownsec-orange)
-![Language](https://img.shields.io/badge/Language-Python-blue)
-![GitHub stars](https://img.shields.io/github/stars/knownsec/aipyapp.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.1.24-red)
-
-<https://github.com/knownsec/aipyapp>
-
-AiPy是知道创宇站在AI技术变革前沿，基于LLM（大语言模型）与高级编程语言Python 完美融合，打造的一款突破性产品。AiPy以创新的技术范式和更低的成本，重构AI生产力边界，让大模型集思考能力和主动执行任务于一体。
 
 ### [wam](detail/wam.md)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
