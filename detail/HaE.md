@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V4.1.2-red)
+![Version](https://img.shields.io/badge/Version-V4.2.1-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -80,6 +80,17 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 
 ## 最近更新
 
+#### [v4.2.1] - 2025-05-08
+
+**功能更新**  
+- 优化缓存池的存储逻辑，为正则部分添加缓存功能，一次编译多次使用。  
+- 新增动态响应头配置，用于去除动态响应头便于缓存。  
+- 新增3条规则，用于进行漏洞探测和验证：Vite DevMode、Passwd File、Win.ini File。 
+**问题修复**  
+- 为规则修改时候增加清空缓存机制，解决规则修改不生效问题。  
+- 优化YAML加载逻辑，确保安全可控的进行配置文件加载。  
+- 修复Config配置不能设为空的问题。
+
 #### [v4.1.2] - 2025-04-02
 
 **功能更新**  
@@ -111,13 +122,5 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 
 **问题修复**  
 - 优化项目存储时的逻辑，解决并发导致的出错
-
-#### [v4.0.4] - 2025-01-17
-
-**功能更新**  
-- 新增数据表格Regex mode模式，用于区分正则和纯文本搜索  
-
-**问题修复**  
-- 修复数据表格搜索失效问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

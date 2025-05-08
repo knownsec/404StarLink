@@ -250,7 +250,7 @@ Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检�
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V4.1.2-red)
+![Version](https://img.shields.io/badge/Version-V4.2.1-red)
 
 <https://github.com/gh0stkey/HaE>
 
@@ -835,7 +835,7 @@ Passive Scan Client是一款可以将经过筛选的流量转发到指定代理�
 ![Author](https://img.shields.io/badge/Author-Knownsec-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/aipyapp.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.1.25-red)
+![Version](https://img.shields.io/badge/Version-V0.1.27-red)
 
 <https://github.com/knownsec/aipyapp>
 
