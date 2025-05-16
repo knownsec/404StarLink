@@ -20,10 +20,11 @@
     * [ENScanGo](#enscango)
     * [HaE](#hae)
     * [AppInfoScanner](#appinfoscanner)
-    * [Kunyu](#kunyu)
     * [ksubdomain](#ksubdomain)
+    * [Kunyu](#kunyu)
     * [Glass](#glass)
     * [scaninfo](#scaninfo)
+    * [qscan](#qscan)
     * [ZoomEye-Python](#zoomeye-python)
     * [ct](#ct)
     * [ZoomEye-Tools](#zoomeye-tools)
@@ -266,16 +267,6 @@ HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。
 
 一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。
 
-### [Kunyu](detail/Kunyu.md)
-![Author](https://img.shields.io/badge/Author-风起-orange)
-![Language](https://img.shields.io/badge/Language-Python-blue)
-![GitHub stars](https://img.shields.io/github/stars/knownsec/Kunyu.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.0-red)
-
-<https://github.com/knownsec/Kunyu>
-
-Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在让企业资产收集更高效，使更多安全相关从业者了解、使用网络空间测绘技术。
-
 ### [ksubdomain](detail/ksubdomain.md)
 ![Author](https://img.shields.io/badge/Author-w8ay-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
@@ -285,6 +276,16 @@ Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在�
 <https://github.com/boy-hack/ksubdomain>
 
 ksubdomain是一款基于无状态子域名爆破工具，支持在Windows/Linux/Mac上使用，它会很快的进行DNS爆破，在Mac和Windows上理论最大发包速度在30w/s,linux上为160w/s的速度。
+
+### [Kunyu](detail/Kunyu.md)
+![Author](https://img.shields.io/badge/Author-风起-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/knownsec/Kunyu.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V2.0.0-red)
+
+<https://github.com/knownsec/Kunyu>
+
+Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在让企业资产收集更高效，使更多安全相关从业者了解、使用网络空间测绘技术。
 
 ### [Glass](detail/Glass.md)
 ![Author](https://img.shields.io/badge/Author-s7ckTeam-orange)
@@ -305,6 +306,16 @@ Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/Z
 <https://github.com/redtoolskobe/scaninfo>
 
 scaninfo 是一款开源、轻量、快速、跨平台的红队内外网打点扫描器。比较同类工具，其能够在 nmap 的扫描速度和 masscan 的准确度之间寻找一个较好的平衡点，能够快速进行端口扫描和服务识别，内置指纹识别用于 web 探测，可以用报告的方式整理扫描结果。
+
+### [qscan](detail/qscan.md)
+![Author](https://img.shields.io/badge/Author-qi4L-orange)
+![Language](https://img.shields.io/badge/Language-Go-blue)
+![GitHub stars](https://img.shields.io/github/stars/qi4L/qscan.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.8-red)
+
+<https://github.com/qi4L/qscan>
+
+一个速度极快的内网扫描器，具备端口扫描、协议检测、指纹识别，暴力破解，漏洞探测等功能。支持协议1200+，协议指纹10000+，应用指纹20000+，暴力破解协议10余种。
 
 ### [ZoomEye-Python](detail/ZoomEye-Python.md)
 ![Author](https://img.shields.io/badge/Author-Knownsec404-orange)
@@ -350,7 +361,7 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 ![Author](https://img.shields.io/badge/Author-sharkocha-orange)
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![GitHub stars](https://img.shields.io/github/stars/babycoff/xtate.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.12.0-red)
+![Version](https://img.shields.io/badge/Version-V2.12.2-red)
 
 <https://github.com/babycoff/xtate>
 
