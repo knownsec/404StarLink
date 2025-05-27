@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-Knownsec-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/aipyapp.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.1.27-red)
+![Version](https://img.shields.io/badge/Version-V0.1.28-red)
 ![Time](https://img.shields.io/badge/Join-20250415-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -119,6 +119,20 @@ Python use - AIPython (Quit with 'exit()')
 
 
 ## 最近更新
+
+#### [v0.1.28] - 2025-05-21
+
+**新增**  
+- Trustoken集成联网搜索功能，新闻、时事查询更快捷，平均用时大幅降低。  
+- 任务执行完毕自动上传云端私密存储功能，方便用户案例管理或分享精彩案例给他人，该功能可通过配置关闭。  
+- Trustoken新增阿里Qwen、腾讯Hunyuan最新模型，多重选择更智能。  
+- GUI客户端可通过“aipyw”命令在终端直接打开。  
+- GUI客户端可通过“aipyw”命令在终端直接打开。  
+**优化**  
+- 新用户首次使用引导流程优化，操作体验更便捷。  
+- 大幅改善任务拆解、执行逻辑、内置最佳实践方案，执行复杂任务将用时更短、实现方案更可靠。  
+- 任务中Python库安装调整为无需确认方式，任务执行过程全自动完成。  
+- 修正多处缺陷。  
 
 #### [v0.1.27] - 2025-04-30
 

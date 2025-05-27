@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![Author](https://img.shields.io/badge/Author-sharkocha-orange)
 ![GitHub stars](https://img.shields.io/github/stars/babycoff/xtate.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.12.2-red)
+![Version](https://img.shields.io/badge/Version-V2.12.3-red)
 ![Time](https://img.shields.io/badge/Join-20241029-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
  
@@ -494,6 +494,17 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 ## 最近更新
 
+#### [v2.12.3] - 2025-05-24
+
+**更新**  
+- 仅在交互模式下进行扫描。  
+- 代码重构。  
+**修复**  
+- 在发布模式下的编译警告。  
+- 二进制搜索算法中的错误。  
+- 参数解析问题。  
+- 在交互模式下的操作混乱。  
+
 #### [v2.12.2] - 2025-05-15
 
 **更新**  
@@ -517,11 +528,5 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 **更新**  
 - 交互模式添加配置文件读取与保存命令
-
-#### [v2.9.0] - 2025-03-08
-
-**更新**  
-- 交互模式命令更新  
-- 修复MSVC编译器版本检测
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
