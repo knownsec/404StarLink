@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/vArmor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.7.1-red)
+![Version](https://img.shields.io/badge/Version-V0.8.0-red)
 ![Time](https://img.shields.io/badge/Join-20230831-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -56,6 +56,30 @@ vArmor 由字节跳动终端安全团队的 **Elkeid Team** 研发，目前该�
 
 ## 最近更新
 
+#### [v0.8.0] - 2025-06-26
+
+**新增**  
+- 添加了自托管运行器和 BPF 执行者的端到端测试用例  
+- 支持为网络出口规则定义多个端口和端口范围  
+- 添加了 PodServiceEgressControl 特性，限制对 Pod 和服务的访问  
+- 添加了 pod-self 实体，以限制容器访问其所在 Pod 的 IP  
+- 添加了一个未指定的实体，以限制容器访问 0.0.0.0 和 ::  
+- 添加了一个 localhost 实体，以限制容器访问回环地址  
+- 通过灵活的配置文件来源和观察支持增强了深入防御模式  
+- 从 Pod 注释中提取了配置文件名称，并将其添加到违规事件中，以改善日志可追溯性  
+- 支持将元数据注入违规事件  
+- 支持从现有策略中移除 BPF 执行者  
+- 添加了 block-access-to-kube-apiserver 内置规则  
+- 添加了 ingress-nightmare-mitigation 内置规则  
+**更新**  
+- 将 AppArmor 和 Seccomp 配置文件以纯文本形式保存至 CR 对象  
+- 增强了状态同步的并发安全性  
+- 从 CRD 定义中提取公共字段到一个公共文件  
+- 升级 libseccomp-golang 至 v0.11.0  
+- 改进了 ArmorProfile 处理中的错误处理，以收集所有配置文件错误  
+ -为 Kubernetes 客户端设置默认的 qps 和突发值  
+- 将 MaxTargetContainerCountForBpfLsm 的值从 100 增加到 110
+
 #### [v0.7.1] - 2025-04-23
 
 **更新**  
@@ -101,11 +125,5 @@ vArmor 由字节跳动终端安全团队的 **Elkeid Team** 研发，目前该�
 - 添加了调试标志  
 - 为 Seccomp 执行器添加了 disallow-load-all-bpf-prog 规则  
 - 修复在安装 varmor 的命名空间中创建 varmor-classifier-svc 服务
-
-#### [v0.6.1] - 2024-12-20
-
-**更新**  
-- 修复始终呈现代理环境变量  
-- 升级 net 包以修复 CVE-2024-45338
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-Knownsec-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/aipyapp.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.1.28-red)
+![Version](https://img.shields.io/badge/Version-V2.0.0-red)
 ![Time](https://img.shields.io/badge/Join-20250415-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -119,6 +119,12 @@ Python use - AIPython (Quit with 'exit()')
 
 
 ## 最近更新
+
+#### [v2.0.0] - 2025-06-26
+
+**新增**  
+- 全新的GUI客户端2.0  
+- 集成MCP一键接入功能
 
 #### [v0.1.28] - 2025-05-21
 

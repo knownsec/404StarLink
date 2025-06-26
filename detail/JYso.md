@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-qi4L-orange)
 ![GitHub stars](https://img.shields.io/github/stars/qi4L/JYso.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.5.1-red)
+![Version](https://img.shields.io/badge/Version-V1.3.5.2-red)
 ![Time](https://img.shields.io/badge/Join-20230626-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -531,6 +531,11 @@ GroovyBypass路由与WebsphereBypass路由的具体实现功能还在思考中
 
 ## 最近更新
 
+#### [v1.3.5.2] - 2025-06-26
+
+**修复**  
+- 修复在特定环境下JSEngine无法获取到defineClass的bug  
+
 #### [v1.3.5.1] - 2025-05-17
 
 **修复**  
@@ -554,11 +559,5 @@ GroovyBypass路由与WebsphereBypass路由的具体实现功能还在思考中
 - XStream Payload  
 - 新增ldaps协议利用  
 - 修复BUG若干
-
-#### [v1.3.2] - 2024-07-24
-
-**更新**  
-- 增加CC13链的实现  
-- 修复CC4链的错误
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

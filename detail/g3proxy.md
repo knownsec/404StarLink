@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Rust-blue)
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/g3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.10.4-red)
+![Version](https://img.shields.io/badge/Version-V1.10.6-red)
 ![Time](https://img.shields.io/badge/Join-20250401-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -187,5 +187,14 @@ docker build -f <app>/docker/debian.Dockerfile github.com/bytedance/g3 -t <app>:
 
 
 ## 最近更新
+
+#### [v1.10.6] - 2025-06-26
+
+**修复**  
+- 修复 H2 零大小主体帧的读取  
+- 修复 HTTP 1 OPTIONS 头行格式  
+- 修复发送给客户端的 h2 最大并发流设置  
+- 修复 h2 连接级别 IDLE 检查  
+- 使用更合理的 h2 默认设置值
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

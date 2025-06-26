@@ -121,7 +121,7 @@ ct 是一款使用 rust 语言进行开发，并且基于ZoomEye域名查询以�
 ![Author](https://img.shields.io/badge/Author-sharkocha-orange)
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![GitHub stars](https://img.shields.io/github/stars/babycoff/xtate.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.12.3-red)
+![Version](https://img.shields.io/badge/Version-V2.13.0-red)
 
 <https://github.com/babycoff/xtate>
 
