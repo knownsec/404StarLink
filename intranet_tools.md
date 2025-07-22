@@ -18,7 +18,7 @@
 ![Author](https://img.shields.io/badge/Author-shadow1ng-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/shadow1ng/fscan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.0-red)
+![Version](https://img.shields.io/badge/Version-V2.0.1-red)
 
 <https://github.com/shadow1ng/fscan>
 
@@ -108,7 +108,7 @@ rakshasa是一个使用Go语言编写的强大多级代理工具，专为实现�
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![Language](https://img.shields.io/badge/Language-Rust-blue)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/g3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.10.6-red)
+![Version](https://img.shields.io/badge/Version-V1.10.7-red)
 
 <https://github.com/bytedance/g3>
 

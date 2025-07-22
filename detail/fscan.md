@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-shadow1ng-orange)
 ![GitHub stars](https://img.shields.io/github/stars/shadow1ng/fscan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.0-red)
+![Version](https://img.shields.io/badge/Version-V2.0.1-red)
 ![Time](https://img.shields.io/badge/Join-20210422-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -249,6 +249,24 @@ paru -S fscan-git
 
 ## 最近更新
 
+#### [v2.0.1] - 2025-07-22
+
+**新增**  
+- 增加远程参数解析功能并重构扫描逻辑  
+- 增强 gRPC 和 HTTP 网关服务  
+- 实现扫描任务的并发控制，优化参数解析和输出初始化逻辑  
+- 添加API地址和加密密钥配置，重构API服务启动逻辑  
+- 添加扫描结果响应中的总结果数和结束结果数字段，并优化错误日志记录  
+- 添加误删文件  
+- 新增rpc服务  
+**修复**  
+- 修复 API 密钥逻辑，确保正确设置和使用 Fscan-API-SECRET 头  
+- 修复扫描逻辑  
+- 参数修正  
+- 暂时去除mips相关  
+- 修复rebase时产生错误  
+- 修复rebase时造成的参数丢失
+
 #### [v2.0.0] - 2024-12-19
 
 **更新**  
@@ -273,14 +291,5 @@ paru -S fscan-git
 - 加入手工gc回收,尝试节省无用内存  
 - -url 支持逗号隔开  
 - 修复一个poc模块bug
-
-#### [v1.8.0] - 2022-07-02
-
-**更新**  
-- 加强poc fuzz模块,支持跑备份文件、目录、shiro-key等  
-- 新增ms17017利用,可在ms17010-exp.go自定义shellcode,内置添加用户等功能  
-- 新增poc、指纹  
-- 支持socks5代理  
-- 因body指纹更全,默认不再跑ico图标
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

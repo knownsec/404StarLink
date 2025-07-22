@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Rust-blue)
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/g3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.10.6-red)
+![Version](https://img.shields.io/badge/Version-V1.10.7-red)
 ![Time](https://img.shields.io/badge/Join-20250401-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -187,6 +187,12 @@ docker build -f <app>/docker/debian.Dockerfile github.com/bytedance/g3 -t <app>:
 
 
 ## 最近更新
+
+#### [v1.10.7] - 2025-07-22
+
+**修复**  
+- 修复检测 DNS over TLS 流量时的崩溃  
+- 修复 c-ares 解析器中的默认最小 ttl 值
 
 #### [v1.10.6] - 2025-06-26
 

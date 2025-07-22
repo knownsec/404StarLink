@@ -113,7 +113,7 @@ Ysomap是一款适配于各类实际复杂环境的Java反序列化利用框架�
 ![Author](https://img.shields.io/badge/Author-lanyi-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/lanyi1998/DNSlog-GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.7-red)
+![Version](https://img.shields.io/badge/Version-V2.1.4-red)
 
 <https://github.com/lanyi1998/DNSlog-GO>
 

@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.1.7-red)
+![Version](https://img.shields.io/badge/Version-V3.1.8-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,13 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v3.1.8] - 2025-07-22
+
+**新增**  
+- length 函数，计算字符串或字符数组的长度  
+**更新**  
+- 指定常用 CipherSuites，兼容老加密套件
+
 #### [v3.1.7] - 2025-03-30
 
 **更新**  
@@ -169,11 +176,5 @@ afrog -t https://example.com -ja result.json
 - 新增资产自动去重功能  
 - 优化资产存活性验证功能  
 - 新增 PoC 10 个
-
-#### [v3.1.1] - 2024-08-09
-
-**更新**  
-- HTML报告新增 Copy 按钮，一键复制Request请求包  
-- 修复 afrog 工具中使用 -P 命令指定不存在的YAML文件时，会错误地扫描所有PoC文件的问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

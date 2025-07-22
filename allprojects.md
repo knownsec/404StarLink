@@ -6,9 +6,9 @@
     * [linglong](#linglong)
     * [murphysec](#murphysec)
     * [appshark](#appshark)
+    * [Tai-e](#tai-e)
     * [veinmind-tools](#veinmind-tools)
     * [camille](#camille)
-    * [Tai-e](#tai-e)
     * [OpenStar](#openstar)
     * [AppScan](#appscan)
     * [gshark](#gshark)
@@ -85,10 +85,11 @@
     * [f8x](#f8x)
     * [BinAbsInspector](#binabsinspector)
     * [Heimdallr](#heimdallr)
-    * [passive-scan-client](#passive-scan-client)
     * [AiPy](#aipy)
+    * [passive-scan-client](#passive-scan-client)
     * [GrabAccess](#grabaccess)
     * [wam](#wam)
+    * [WeaponizedVSCode](#weaponizedvscode)
     * [LBot](#lbot)
 
 ----------------------------------------
@@ -144,6 +145,16 @@ linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，
 
 Appshark 是一个针对安卓的静态分析工具，它的设计目标是针对超大型App的分析，Appshark支持基于json的自定义扫描规则,发现自己关心的安全漏洞以及隐私合规问题，支持灵活配置，可以在准确率以及扫描时间空间之间寻求平衡，支持自定义扩展规则，根据自己的业务需要，进行定制分析
 
+### [Tai-e](detail/Tai-e.md)
+![Author](https://img.shields.io/badge/Author-pascal_lab-orange)
+![Language](https://img.shields.io/badge/Language-Java-blue)
+![GitHub stars](https://img.shields.io/github/stars/pascal-lab/Tai-e.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.5.1-red)
+
+<https://github.com/pascal-lab/Tai-e>
+
+Tai-e（太阿）是一个通用型Java程序分析框架，包含了开发程序分析技术所需的各类基础设施，并提供了可配置性高、功能强大的污点分析系统，用于检测各类隐私泄露、注入攻击等安全漏洞。
+
 ### [veinmind-tools](detail/veinmind-tools.md)
 ![Author](https://img.shields.io/badge/Author-长亭科技-orange)
 ![Language](https://img.shields.io/badge/Language-Golang/Python-blue)
@@ -163,16 +174,6 @@ veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目
 <https://github.com/zhengjim/camille>
 
 现如今APP隐私合规十分重要，各监管部门不断开展APP专项治理工作及核查通报，不合规的APP通知整改或直接下架。camille可以hook住Android敏感接口，并识别是否为第三方SDK调用。根据隐私合规的场景，辅助检查是否符合隐私合规标准。
-
-### [Tai-e](detail/Tai-e.md)
-![Author](https://img.shields.io/badge/Author-pascal_lab-orange)
-![Language](https://img.shields.io/badge/Language-Java-blue)
-![GitHub stars](https://img.shields.io/github/stars/pascal-lab/Tai-e.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.5.1-red)
-
-<https://github.com/pascal-lab/Tai-e>
-
-Tai-e（太阿）是一个通用型Java程序分析框架，包含了开发程序分析技术所需的各类基础设施，并提供了可配置性高、功能强大的污点分析系统，用于检测各类隐私泄露、注入攻击等安全漏洞。
 
 ### [OpenStar](detail/OpenStar.md)
 ![Author](https://img.shields.io/badge/Author-starjun-orange)
@@ -241,7 +242,7 @@ Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检�
 ![Author](https://img.shields.io/badge/Author-wgpsec-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.2.2-red)
+![Version](https://img.shields.io/badge/Version-V1.3.1-red)
 
 <https://github.com/wgpsec/ENScan_GO>
 
@@ -384,7 +385,7 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.1.7-red)
+![Version](https://img.shields.io/badge/Version-V3.1.8-red)
 
 <https://github.com/zan8in/afrog>
 
@@ -527,7 +528,7 @@ Ysomap是一款适配于各类实际复杂环境的Java反序列化利用框架�
 ![Author](https://img.shields.io/badge/Author-lanyi-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/lanyi1998/DNSlog-GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.5.7-red)
+![Version](https://img.shields.io/badge/Version-V2.1.4-red)
 
 <https://github.com/lanyi1998/DNSlog-GO>
 
@@ -693,7 +694,7 @@ CodeReviewTools是一个可以快速批量反编译jar包的工具，为审计Ja
 ![Author](https://img.shields.io/badge/Author-shadow1ng-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/shadow1ng/fscan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.0-red)
+![Version](https://img.shields.io/badge/Version-V2.0.1-red)
 
 <https://github.com/shadow1ng/fscan>
 
@@ -783,7 +784,7 @@ rakshasa是一个使用Go语言编写的强大多级代理工具，专为实现�
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![Language](https://img.shields.io/badge/Language-Rust-blue)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/g3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.10.6-red)
+![Version](https://img.shields.io/badge/Version-V1.10.7-red)
 
 <https://github.com/bytedance/g3>
 
@@ -832,16 +833,6 @@ BinAbsInspector(Binary Abstract Inspector)是一款用于自动化逆向工程�
 
 一款完全被动监听的谷歌插件，用于高危指纹识别、蜜罐特征告警和拦截、机器特征对抗。
 
-### [passive-scan-client](detail/passive-scan-client.md)
-![Author](https://img.shields.io/badge/Author-c0ny1-orange)
-![Language](https://img.shields.io/badge/Language-Java-blue)
-![GitHub stars](https://img.shields.io/github/stars/c0ny1/passive-scan-client.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.3.1-red)
-
-<https://github.com/c0ny1/passive-scan-client>
-
-Passive Scan Client是一款可以将经过筛选的流量转发到指定代理的Burp被动扫描流量转发插件
-
 ### [AiPy](detail/AiPy.md)
 ![Author](https://img.shields.io/badge/Author-Knownsec-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
@@ -851,6 +842,16 @@ Passive Scan Client是一款可以将经过筛选的流量转发到指定代理�
 <https://github.com/knownsec/aipyapp>
 
 AiPy是知道创宇站在AI技术变革前沿，基于LLM（大语言模型）与高级编程语言Python 完美融合，打造的一款突破性产品。AiPy以创新的技术范式和更低的成本，重构AI生产力边界，让大模型集思考能力和主动执行任务于一体。
+
+### [passive-scan-client](detail/passive-scan-client.md)
+![Author](https://img.shields.io/badge/Author-c0ny1-orange)
+![Language](https://img.shields.io/badge/Language-Java-blue)
+![GitHub stars](https://img.shields.io/github/stars/c0ny1/passive-scan-client.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.3.1-red)
+
+<https://github.com/c0ny1/passive-scan-client>
+
+Passive Scan Client是一款可以将经过筛选的流量转发到指定代理的Burp被动扫描流量转发插件
 
 ### [GrabAccess](detail/GrabAccess.md)
 ![Author](https://img.shields.io/badge/Author-Push3AX-orange)
@@ -871,6 +872,16 @@ GrabAccess：Bookit/Windows登陆密码和Bitlocker绕过工具，在物理接�
 <https://github.com/knownsec/wam>
 
 WAM是一个由Python开发的用于监控'Web App'、'动态网络信息'的平台。在一定程度上，它极大地帮助安全研究人员节省了跟踪代码补丁的时间。
+
+### [WeaponizedVSCode](detail/WeaponizedVSCode.md)
+![Author](https://img.shields.io/badge/Author-Esonhugh-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/Esonhugh/WeaponizedVSCode.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.5.0-red)
+
+<https://github.com/Esonhugh/WeaponizedVSCode>
+
+A VSCode Workspace based hacking environment utils. Starting your Note-Driven Hacking experience. Checkout the following link to sample of HackThebox mist.htb
 
 ### [LBot](detail/LBot.md)
 ![Author](https://img.shields.io/badge/Author-LoRexxar@knownsec404-orange)

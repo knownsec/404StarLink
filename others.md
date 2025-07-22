@@ -3,11 +3,12 @@
 1. [f8x](#f8x)
 2. [BinAbsInspector](#binabsinspector)
 3. [Heimdallr](#heimdallr)
-4. [passive-scan-client](#passive-scan-client)
-5. [AiPy](#aipy)
+4. [AiPy](#aipy)
+5. [passive-scan-client](#passive-scan-client)
 6. [GrabAccess](#grabaccess)
 7. [wam](#wam)
-8. [LBot](#lbot)
+8. [WeaponizedVSCode](#weaponizedvscode)
+9. [LBot](#lbot)
 
 ----------------------------------------
 
@@ -41,16 +42,6 @@ BinAbsInspector(Binary Abstract Inspector)是一款用于自动化逆向工程�
 
 一款完全被动监听的谷歌插件，用于高危指纹识别、蜜罐特征告警和拦截、机器特征对抗。
 
-### [passive-scan-client](detail/passive-scan-client.md)
-![Author](https://img.shields.io/badge/Author-c0ny1-orange)
-![Language](https://img.shields.io/badge/Language-Java-blue)
-![GitHub stars](https://img.shields.io/github/stars/c0ny1/passive-scan-client.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.3.1-red)
-
-<https://github.com/c0ny1/passive-scan-client>
-
-Passive Scan Client是一款可以将经过筛选的流量转发到指定代理的Burp被动扫描流量转发插件
-
 ### [AiPy](detail/AiPy.md)
 ![Author](https://img.shields.io/badge/Author-Knownsec-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
@@ -60,6 +51,16 @@ Passive Scan Client是一款可以将经过筛选的流量转发到指定代理�
 <https://github.com/knownsec/aipyapp>
 
 AiPy是知道创宇站在AI技术变革前沿，基于LLM（大语言模型）与高级编程语言Python 完美融合，打造的一款突破性产品。AiPy以创新的技术范式和更低的成本，重构AI生产力边界，让大模型集思考能力和主动执行任务于一体。
+
+### [passive-scan-client](detail/passive-scan-client.md)
+![Author](https://img.shields.io/badge/Author-c0ny1-orange)
+![Language](https://img.shields.io/badge/Language-Java-blue)
+![GitHub stars](https://img.shields.io/github/stars/c0ny1/passive-scan-client.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.3.1-red)
+
+<https://github.com/c0ny1/passive-scan-client>
+
+Passive Scan Client是一款可以将经过筛选的流量转发到指定代理的Burp被动扫描流量转发插件
 
 ### [GrabAccess](detail/GrabAccess.md)
 ![Author](https://img.shields.io/badge/Author-Push3AX-orange)
@@ -80,6 +81,16 @@ GrabAccess：Bookit/Windows登陆密码和Bitlocker绕过工具，在物理接�
 <https://github.com/knownsec/wam>
 
 WAM是一个由Python开发的用于监控'Web App'、'动态网络信息'的平台。在一定程度上，它极大地帮助安全研究人员节省了跟踪代码补丁的时间。
+
+### [WeaponizedVSCode](detail/WeaponizedVSCode.md)
+![Author](https://img.shields.io/badge/Author-Esonhugh-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/Esonhugh/WeaponizedVSCode.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.5.0-red)
+
+<https://github.com/Esonhugh/WeaponizedVSCode>
+
+A VSCode Workspace based hacking environment utils. Starting your Note-Driven Hacking experience. Checkout the following link to sample of HackThebox mist.htb
 
 ### [LBot](detail/LBot.md)
 ![Author](https://img.shields.io/badge/Author-LoRexxar@knownsec404-orange)
