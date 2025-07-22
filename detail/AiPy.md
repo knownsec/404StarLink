@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-Knownsec-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/aipyapp.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.0-red)
+![Version](https://img.shields.io/badge/Version-V0.2.2-red)
 ![Time](https://img.shields.io/badge/Join-20250415-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -120,7 +120,12 @@ Python use - AIPython (Quit with 'exit()')
 
 ## 最近更新
 
-#### [v2.0.0] - 2025-06-26
+#### [v0.2.2] - 2025-07-22
+
+**修复**  
+- 修复 MCP 提示词
+
+#### [v0.2.0] - 2025-06-26
 
 **新增**  
 - 全新的GUI客户端2.0  
@@ -152,12 +157,5 @@ Python use - AIPython (Quit with 'exit()')
 - 增加了 GUI 图形界面  
 - 修复产品Bug  
 - 提供 Windows 一键运行包
-
-#### [v0.1.24] - 2025-04-20
-
-**更新**  
-- 完善 plugin 接口  
-- 修改任务记录保存方式  
-- 更新系统提示词
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

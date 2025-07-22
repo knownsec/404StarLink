@@ -46,7 +46,7 @@ BinAbsInspector(Binary Abstract Inspector)是一款用于自动化逆向工程�
 ![Author](https://img.shields.io/badge/Author-Knownsec-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/aipyapp.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.0-red)
+![Version](https://img.shields.io/badge/Version-V0.2.2-red)
 
 <https://github.com/knownsec/aipyapp>
 
@@ -90,7 +90,7 @@ WAM是一个由Python开发的用于监控'Web App'、'动态网络信息'的平
 
 <https://github.com/Esonhugh/WeaponizedVSCode>
 
-A VSCode Workspace based hacking environment utils. Starting your Note-Driven Hacking experience. Checkout the following link to sample of HackThebox mist.htb
+一个基于VSCode工作区的黑客环境工具。
 
 ### [LBot](detail/LBot.md)
 ![Author](https://img.shields.io/badge/Author-LoRexxar@knownsec404-orange)

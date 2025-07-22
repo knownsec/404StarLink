@@ -17,13 +17,13 @@
 
 | 时间 | 项目名称 | 项目动态 |
 |----|-----------|--------------------------|
+|2025-07-22|[**AiPy**](detail/AiPy.md)|更新 [v0.2.2](detail/AiPy.md#最近更新) 版本|
 |2025-07-22|[**fscan**](detail/fscan.md)|更新 [v2.0.1](detail/fscan.md#最近更新) 版本|
 |2025-07-22|[**ENScanGo**](detail/ENScanGo.md)|更新 [v1.3.1](detail/ENScanGo.md#最近更新) 版本|
 |2025-07-22|[**WeaponizedVSCode**](detail/WeaponizedVSCode.md)|WeaponizedVSCode加入星链计划|
 |2025-07-22|[**g3proxy**](detail/g3proxy.md)|更新 [v1.10.7](detail/g3proxy.md#最近更新) 版本|
 |2025-07-22|[**DNSlog-GO**](detail/DNSlog-GO.md)|更新 [v2.1.4](detail/DNSlog-GO.md#最近更新) 版本|
 |2025-07-22|[**afrog**](detail/afrog.md)|更新 [v3.1.8](detail/afrog.md#最近更新) 版本|
-|2025-06-26|[**AiPy**](detail/AiPy.md)|更新 [v2.0.0](detail/AiPy.md#最近更新) 版本|
 |2025-06-26|[**xtate**](detail/xtate.md)|更新 [v2.13.0](detail/xtate.md#最近更新) 版本|
 |2025-06-26|[**vArmor**](detail/vArmor.md)|更新 [v0.8.0](detail/vArmor.md#最近更新) 版本|
 |2025-06-26|[**JYso**](detail/JYso.md)|更新 [v1.3.5.2](detail/JYso.md#最近更新) 版本|
@@ -47,8 +47,8 @@
 
 | 时间 | 项目迭代版本 |
 |----|-----------|
-|第30周|[**fscan**](detail/fscan.md) 更新 [v2.0.1](detail/fscan.md#最近更新) / [**ENScanGo**](detail/ENScanGo.md) 更新 [v1.3.1](detail/ENScanGo.md#最近更新) / [**g3proxy**](detail/g3proxy.md) 更新 [v1.10.7](detail/g3proxy.md#最近更新) / [**DNSlog-GO**](detail/DNSlog-GO.md) 更新 [v2.1.4](detail/DNSlog-GO.md#最近更新) / [**afrog**](detail/afrog.md) 更新 [v3.1.8](detail/afrog.md#最近更新)|
-|第26周|[**AiPy**](detail/AiPy.md) 更新 [v2.0.0](detail/AiPy.md#最近更新) / [**xtate**](detail/xtate.md) 更新 [v2.13.0](detail/xtate.md#最近更新) / [**vArmor**](detail/vArmor.md) 更新 [v0.8.0](detail/vArmor.md#最近更新) / [**JYso**](detail/JYso.md) 更新 [v1.3.5.2](detail/JYso.md#最近更新) / [**g3proxy**](detail/g3proxy.md) 更新 [v1.10.6](detail/g3proxy.md#最近更新)|
+|第30周|[**AiPy**](detail/AiPy.md) 更新 [v0.2.2](detail/AiPy.md#最近更新) / [**fscan**](detail/fscan.md) 更新 [v2.0.1](detail/fscan.md#最近更新) / [**ENScanGo**](detail/ENScanGo.md) 更新 [v1.3.1](detail/ENScanGo.md#最近更新) / [**g3proxy**](detail/g3proxy.md) 更新 [v1.10.7](detail/g3proxy.md#最近更新) / [**DNSlog-GO**](detail/DNSlog-GO.md) 更新 [v2.1.4](detail/DNSlog-GO.md#最近更新) / [**afrog**](detail/afrog.md) 更新 [v3.1.8](detail/afrog.md#最近更新)|
+|第26周|[**AiPy**](detail/AiPy.md) 更新 [v0.2.0](detail/AiPy.md#最近更新) / [**xtate**](detail/xtate.md) 更新 [v2.13.0](detail/xtate.md#最近更新) / [**vArmor**](detail/vArmor.md) 更新 [v0.8.0](detail/vArmor.md#最近更新) / [**JYso**](detail/JYso.md) 更新 [v1.3.5.2](detail/JYso.md#最近更新) / [**g3proxy**](detail/g3proxy.md) 更新 [v1.10.6](detail/g3proxy.md#最近更新)|
 |第21周|[**xtate**](detail/xtate.md) 更新 [v2.12.3](detail/xtate.md#最近更新) / [**AiPy**](detail/AiPy.md) 更新 [v0.1.28](detail/AiPy.md#最近更新) / [**ENScanGo**](detail/ENScanGo.md) 更新 [v1.2.2](detail/ENScanGo.md#最近更新)|
 |第20周|[**JYso**](detail/JYso.md) 更新 [v1.3.5.1](detail/JYso.md#最近更新) / [**xtate**](detail/xtate.md) 更新 [v2.12.2](detail/xtate.md#最近更新)|
 |第19周|[**HaE**](detail/HaE.md) 更新 [v4.2.1](detail/HaE.md#最近更新)|
@@ -62,7 +62,7 @@
 
 | 时间 | 项目名称 | 项目简介 |
 |----|-----------|--------------------------|
-|2025-07-22|[**WeaponizedVSCode**](detail/WeaponizedVSCode.md)|A VSCode Workspace based hacking environment utils. Starting your Note-Driven Hacking experience. Checkout the following link to sample of HackThebox mist.htb|
+|2025-07-22|[**WeaponizedVSCode**](detail/WeaponizedVSCode.md)|一个基于VSCode工作区的黑客环境工具。|
 |2025-05-13|[**qscan**](detail/qscan.md)|一个速度极快的内网扫描器，具备端口扫描、协议检测、指纹识别，暴力破解，漏洞探测等功能。支持协议1200+，协议指纹10000+，应用指纹20000+，暴力破解协议10余种。|
 |2025-04-15|[**AiPy**](detail/AiPy.md)|AiPy是知道创宇站在AI技术变革前沿，基于LLM（大语言模型）与高级编程语言Python 完美融合，打造的一款突破性产品。AiPy以创新的技术范式和更低的成本，重构AI生产力边界，让大模型集思考能力和主动执行任务于一体。|
 |2025-04-01|[**g3proxy**](detail/g3proxy.md)|通用正向代理解决方案，同时带有TCP映射、TLS卸载/封装、透明代理、简单反向代理等功能|
