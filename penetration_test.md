@@ -8,8 +8,8 @@
 6. [BurpCrypto](#burpcrypto)
 7. [WMIHACKER](#wmihacker)
 8. [MySQL-Fake-Server](#mysql-fake-server)
-9. [ysomap](#ysomap)
-10. [DNSlog-GO](#dnslog-go)
+9. [DNSlog-GO](#dnslog-go)
+10. [ysomap](#ysomap)
 11. [Cloud-Bucket-Leak-Detection-Tools](#cloud-bucket-leak-detection-tools)
 12. [Antenna](#antenna)
 13. [Redis-Rogue-Server](#redis-rogue-server)
@@ -99,6 +99,16 @@ WMIHACKER是一款免杀横向渗透远程命令执行工具，常见的WMIEXEC�
 
 用于渗透测试过程中的假MySQL服务器，纯原生python3实现，不依赖其它包。
 
+### [DNSlog-GO](detail/DNSlog-GO.md)
+![Author](https://img.shields.io/badge/Author-lanyi-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/lanyi1998/DNSlog-GO.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V2.2.0-red)
+
+<https://github.com/lanyi1998/DNSlog-GO>
+
+DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面。单文件运行，无依赖。部署方便快捷。
+
 ### [ysomap](detail/ysomap.md)
 ![Author](https://img.shields.io/badge/Author-wh1t3p1g-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
@@ -108,16 +118,6 @@ WMIHACKER是一款免杀横向渗透远程命令执行工具，常见的WMIEXEC�
 <https://github.com/wh1t3p1g/ysomap>
 
 Ysomap是一款适配于各类实际复杂环境的Java反序列化利用框架，可动态配置具备不同执行效果的Java反序列化利用链payload，以应对不同场景下的反序列化利用。
-
-### [DNSlog-GO](detail/DNSlog-GO.md)
-![Author](https://img.shields.io/badge/Author-lanyi-orange)
-![Language](https://img.shields.io/badge/Language-Golang-blue)
-![GitHub stars](https://img.shields.io/github/stars/lanyi1998/DNSlog-GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.4-red)
-
-<https://github.com/lanyi1998/DNSlog-GO>
-
-DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面。单文件运行，无依赖。部署方便快捷。
 
 ### [Cloud-Bucket-Leak-Detection-Tools](detail/Cloud-Bucket-Leak-Detection-Tools.md)
 ![Author](https://img.shields.io/badge/Author-UzJu-orange)

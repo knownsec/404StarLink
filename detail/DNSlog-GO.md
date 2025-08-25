@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-lanyi-orange)
 ![GitHub stars](https://img.shields.io/github/stars/lanyi1998/DNSlog-GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.4-red)
+![Version](https://img.shields.io/badge/Version-V2.2.0-red)
 ![Time](https://img.shields.io/badge/Join-20220316-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -132,6 +132,16 @@ if dns.checkDomain(subDomain):
 
 
 ## 最近更新
+
+#### [v2.2.0] - 2025-08-22
+
+**添加**  
+- 添加 LDAP 和 RMI 协议的 payload
+- 在 copyText 方法中增加了 LDAP 和 RMI 协议的 payload生成
+- 使用 location.protocol 和 location.host 生成 SSRF payload
+ - 将 domain 的第一个部分作为 subdomain 使用
+ - 添加了换行符以提高代码可读性
+ 
 
 #### [v2.1.4] - 2025-07-22
 

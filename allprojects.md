@@ -48,8 +48,8 @@
     * [BurpCrypto](#burpcrypto)
     * [WMIHACKER](#wmihacker)
     * [MySQL-Fake-Server](#mysql-fake-server)
-    * [ysomap](#ysomap)
     * [DNSlog-GO](#dnslog-go)
+    * [ysomap](#ysomap)
     * [Cloud-Bucket-Leak-Detection-Tools](#cloud-bucket-leak-detection-tools)
     * [Antenna](#antenna)
     * [Redis-Rogue-Server](#redis-rogue-server)
@@ -83,9 +83,9 @@
 
 * [其他/others](#其他others)
     * [f8x](#f8x)
+    * [AiPy](#aipy)
     * [BinAbsInspector](#binabsinspector)
     * [Heimdallr](#heimdallr)
-    * [AiPy](#aipy)
     * [passive-scan-client](#passive-scan-client)
     * [GrabAccess](#grabaccess)
     * [wam](#wam)
@@ -514,6 +514,16 @@ WMIHACKER是一款免杀横向渗透远程命令执行工具，常见的WMIEXEC�
 
 用于渗透测试过程中的假MySQL服务器，纯原生python3实现，不依赖其它包。
 
+### [DNSlog-GO](detail/DNSlog-GO.md)
+![Author](https://img.shields.io/badge/Author-lanyi-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/lanyi1998/DNSlog-GO.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V2.2.0-red)
+
+<https://github.com/lanyi1998/DNSlog-GO>
+
+DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面。单文件运行，无依赖。部署方便快捷。
+
 ### [ysomap](detail/ysomap.md)
 ![Author](https://img.shields.io/badge/Author-wh1t3p1g-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
@@ -523,16 +533,6 @@ WMIHACKER是一款免杀横向渗透远程命令执行工具，常见的WMIEXEC�
 <https://github.com/wh1t3p1g/ysomap>
 
 Ysomap是一款适配于各类实际复杂环境的Java反序列化利用框架，可动态配置具备不同执行效果的Java反序列化利用链payload，以应对不同场景下的反序列化利用。
-
-### [DNSlog-GO](detail/DNSlog-GO.md)
-![Author](https://img.shields.io/badge/Author-lanyi-orange)
-![Language](https://img.shields.io/badge/Language-Golang-blue)
-![GitHub stars](https://img.shields.io/github/stars/lanyi1998/DNSlog-GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.4-red)
-
-<https://github.com/lanyi1998/DNSlog-GO>
-
-DNSLog-GO 是一款golang编写的监控 DNS 解析记录的工具，自带WEB界面。单文件运行，无依赖。部署方便快捷。
 
 ### [Cloud-Bucket-Leak-Detection-Tools](detail/Cloud-Bucket-Leak-Detection-Tools.md)
 ![Author](https://img.shields.io/badge/Author-UzJu-orange)
@@ -784,7 +784,7 @@ rakshasa是一个使用Go语言编写的强大多级代理工具，专为实现�
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![Language](https://img.shields.io/badge/Language-Rust-blue)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/g3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.10.7-red)
+![Version](https://img.shields.io/badge/Version-V1.12.2-red)
 
 <https://github.com/bytedance/g3>
 
@@ -813,6 +813,16 @@ PortForward 是使用 Golang 进行开发的端口转发工具，解决在某些
 
 一款红/蓝队环境自动化部署工具,支持多种场景,渗透,开发,代理环境,服务可选项等。
 
+### [AiPy](detail/AiPy.md)
+![Author](https://img.shields.io/badge/Author-Knownsec-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/knownsec/aipyapp.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.2.2-red)
+
+<https://github.com/knownsec/aipyapp>
+
+AiPy是知道创宇站在AI技术变革前沿，基于LLM（大语言模型）与高级编程语言Python 完美融合，打造的一款突破性产品。AiPy以创新的技术范式和更低的成本，重构AI生产力边界，让大模型集思考能力和主动执行任务于一体。
+
 ### [BinAbsInspector](detail/BinAbsInspector.md)
 ![Author](https://img.shields.io/badge/Author-KeenSecurityLab-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
@@ -832,16 +842,6 @@ BinAbsInspector(Binary Abstract Inspector)是一款用于自动化逆向工程�
 <https://github.com/graynjo/Heimdallr>
 
 一款完全被动监听的谷歌插件，用于高危指纹识别、蜜罐特征告警和拦截、机器特征对抗。
-
-### [AiPy](detail/AiPy.md)
-![Author](https://img.shields.io/badge/Author-Knownsec-orange)
-![Language](https://img.shields.io/badge/Language-Python-blue)
-![GitHub stars](https://img.shields.io/github/stars/knownsec/aipyapp.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.2.2-red)
-
-<https://github.com/knownsec/aipyapp>
-
-AiPy是知道创宇站在AI技术变革前沿，基于LLM（大语言模型）与高级编程语言Python 完美融合，打造的一款突破性产品。AiPy以创新的技术范式和更低的成本，重构AI生产力边界，让大模型集思考能力和主动执行任务于一体。
 
 ### [passive-scan-client](detail/passive-scan-client.md)
 ![Author](https://img.shields.io/badge/Author-c0ny1-orange)

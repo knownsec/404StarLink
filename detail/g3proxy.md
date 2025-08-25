@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Rust-blue)
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/g3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.10.7-red)
+![Version](https://img.shields.io/badge/Version-V1.12.2-red)
 ![Time](https://img.shields.io/badge/Join-20250401-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -187,6 +187,12 @@ docker build -f <app>/docker/debian.Dockerfile github.com/bytedance/g3 -t <app>:
 
 
 ## 最近更新
+
+#### [v1.12.2] - 2025-08-20
+
+This is a minor for v1.12 LTS branch:
+support to build rpm package on OpenSUSE
+Prebuilt rpm and deb packages can be found at cloudsmith.
 
 #### [v1.10.7] - 2025-07-22
 
