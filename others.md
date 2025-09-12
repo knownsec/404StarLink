@@ -6,9 +6,10 @@
 4. [Heimdallr](#heimdallr)
 5. [passive-scan-client](#passive-scan-client)
 6. [GrabAccess](#grabaccess)
-7. [wam](#wam)
-8. [WeaponizedVSCode](#weaponizedvscode)
-9. [LBot](#lbot)
+7. [JNDIMap](#jndimap)
+8. [wam](#wam)
+9. [WeaponizedVSCode](#weaponizedvscode)
+10. [LBot](#lbot)
 
 ----------------------------------------
 
@@ -71,6 +72,16 @@ Passive Scan Client是一款可以将经过筛选的流量转发到指定代理�
 <https://github.com/Push3AX/GrabAccess>
 
 GrabAccess：Bookit/Windows登陆密码和Bitlocker绕过工具，在物理接触目标计算机的情况下，GrabAccess可以：绕过Windows登陆密码执行任意操作（以System权限执行命令、重置Windows账户密码等），植入木马并添加自启动（可以绕过Bitlocker，但要求受害者登录），通过修改主板UEFI固件实现无视重装系统、更换硬盘的持久化（Bootkit）
+
+### [JNDIMap](detail/JNDIMap.md)
+![Author](https://img.shields.io/badge/Author-X1r0z-orange)
+![Language](https://img.shields.io/badge/Language-Java-blue)
+![GitHub stars](https://img.shields.io/github/stars/X1r0z/JNDIMap.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.3-red)
+
+<https://github.com/X1r0z/JNDIMap>
+
+一个 JNDI 注入利用框架, 支持 RMI、LDAP 和 LDAPS 协议, 包含多种高版本 JDK 绕过方式
 
 ### [wam](detail/wam.md)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)
