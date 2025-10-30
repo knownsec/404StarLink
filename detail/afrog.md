@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.1.8-red)
+![Version](https://img.shields.io/badge/Version-V3.2.2-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,12 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v3.2.2] - 2025-10-10
+
+**PoC 管理与扫描优化** 
+**安全可靠的登录机制**
+
+
 #### [v3.1.8] - 2025-07-22
 
 **新增**  
@@ -168,13 +174,5 @@ afrog -t https://example.com -ja result.json
 **更新**  
 - 修复 -mt 选项无法应用于 HTTP 请求的缺陷  
 - 优化 http 默认请求超时为 50s
-
-#### [v3.1.2] - 2024-11-15
-
-**更新**  
-- 优化PoC文件：smartbi-bypass-builtin-user-login.yaml  
-- 新增资产自动去重功能  
-- 优化资产存活性验证功能  
-- 新增 PoC 10 个
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

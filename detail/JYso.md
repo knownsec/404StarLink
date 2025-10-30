@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-qi4L-orange)
 ![GitHub stars](https://img.shields.io/github/stars/qi4L/JYso.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.5.2-red)
+![Version](https://img.shields.io/badge/Version-V1.3.6-red)
 ![Time](https://img.shields.io/badge/Join-20230626-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -531,6 +531,24 @@ GroovyBypass路由与WebsphereBypass路由的具体实现功能还在思考中
 
 ## 最近更新
 
+#### [v1.3.6] - 2025-10-19
+
+**新增**
+ - Jackson3 gadget，JDK17可用，解决JDK版本不同问题
+ - Jackson4 gadget，是Jackson1链改造为jdk17可用
+ - cc4_17链 
+ - 简化部分cb链，cc链类名
+ - 修复URLDNS链BUG 
+ - ldaps的转发完善 
+ - 解决Websphere回显马可以执行命令但只回显一次 
+ - 解决回显马在jdk17中只能使用一次
+
+
+#### [v1.3.5.2] - 2025-06-26
+
+**修复**  
+- 修复在特定环境下JSEngine无法获取到defineClass的bug  
+
 #### [v1.3.5.2] - 2025-06-26
 
 **修复**  
@@ -546,18 +564,5 @@ GroovyBypass路由与WebsphereBypass路由的具体实现功能还在思考中
 **更新**  
 - trustSerialData 绕过，Bypass jdk20 21  
 - TomcatJdbc，通过jdbc来构造H2 Payload进行代码执行
-
-#### [v1.3.4] - 2024-09-16
-
-**更新**  
-- 增加Marshalsec output
-
-#### [v1.3.3] - 2024-08-26
-
-**更新**  
-- 新增cc链  
-- XStream Payload  
-- 新增ldaps协议利用  
-- 修复BUG若干
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

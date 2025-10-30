@@ -4,8 +4,8 @@
 2. [antSword](#antsword)
 3. [Stowaway](#stowaway)
 4. [shellcodeloader](#shellcodeloader)
-5. [ServerScan](#serverscan)
-6. [Platypus](#platypus)
+5. [Platypus](#platypus)
+6. [ServerScan](#serverscan)
 7. [WMIHACKER](#wmihacker)
 8. [rakshasa](#rakshasa)
 9. [As-Exploits](#as-exploits)
@@ -54,16 +54,6 @@ Stowaway 是一款多级代理工具，可将外部流量通过多个节点代�
 
 Windows平台的shellcode免杀加载器，自带多种加载方式：32位自带13种加载方式，64位自带12种加载方式。
 
-### [ServerScan](detail/ServerScan.md)
-![Author](https://img.shields.io/badge/Author-Adminisme-orange)
-![Language](https://img.shields.io/badge/Language-Golang-blue)
-![GitHub stars](https://img.shields.io/github/stars/Adminisme/ServerScan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.2-red)
-
-<https://github.com/Adminisme/ServerScan>
-
-一款使用Golang开发且适用于攻防演习内网横向信息收集的高并发网络扫描、服务探测工具。
-
 ### [Platypus](detail/Platypus.md)
 ![Author](https://img.shields.io/badge/Author-WangYihang-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
@@ -73,6 +63,16 @@ Windows平台的shellcode免杀加载器，自带多种加载方式：32位自�
 <https://github.com/WangYihang/Platypus>
 
 Platypus 是一个基于终端与 Web UI 交互式的反弹 Shell 会话管理工具。在实际的渗透测试中，为了解决 Netcat/Socat 等工具在文件传输、多会话管理方面的不足。该工具在多会话管理的基础上增加了在渗透测试中更加有用的功能，可以更方便灵活地对反弹 Shell 会话进行管理。
+
+### [ServerScan](detail/ServerScan.md)
+![Author](https://img.shields.io/badge/Author-Adminisme-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/Adminisme/ServerScan.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.0.2-red)
+
+<https://github.com/Adminisme/ServerScan>
+
+一款使用Golang开发且适用于攻防演习内网横向信息收集的高并发网络扫描、服务探测工具。
 
 ### [WMIHACKER](detail/WMIHACKER.md)
 ![Author](https://img.shields.io/badge/Author-rootclay-orange)

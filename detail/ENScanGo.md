@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-wgpsec-orange)
 ![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.1-red)
+![Version](https://img.shields.io/badge/Version-V2.0.3-red)
 ![Time](https://img.shields.io/badge/Join-20221117-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -280,6 +280,13 @@ go >= 1.22.1
 
 ## 最近更新
 
+#### [v2.0.3] - 2025-10-23
+
+**修复**  
+- 修复tyc bug  
+**修复**  
+- list bug
+
 #### [v1.3.1] - 2025-07-22
 
 **修复**  
@@ -301,15 +308,5 @@ go >= 1.22.1
 
 **更新**  
 - 修复 TYC must login 错误
-
-#### [v1.1.0] - 2024-12-20
-
-**更新**  
-- 增加分支机构和子公司名称过滤功能  
-- 新增 miit 插件可自建实时查询，提供 ICP备案、APP、小程序等信息查询  
-- 新增 kuaicha 数据源，提供企业信息、微信公众号、投资信息、招聘信息等查询  
-- 重构部分代码以支持插件扩展  
-- 优化数据处理和导出逻辑  
-- 优化了 README 文档
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

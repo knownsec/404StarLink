@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.2-red)
+![Version](https://img.shields.io/badge/Version-V1.6.5-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -198,6 +198,16 @@ You are supposed to rename `config-temp.yaml` to `config.yaml` and config the da
 
 ## 最近更新
 
+#### [v1.6.5] - 2025-10-30
+
+**修复** - MacOS arm 芯片 release 包
+ - 升级组件
+ - 简化角色权限设计
+**修复** - rule 状态切换问题
+**修复** - 前端组件冲突问题
+ - 增加一键部署脚本
+
+
 #### [v1.6.2] - 2025-03-15
 
 **新增**  
@@ -228,15 +238,5 @@ You are supposed to rename `config-temp.yaml` to `config.yaml` and config the da
 
 **修复**  
 - 修复没有 Matches 的情况下无法展示结果的问题
-
-#### [v1.5.1] - 2024-12-30
-
-**新增**  
-- 增加搜索结果导出功能  
-
-**修复**  
-- 修复 searchcode 搜索报错  
-- 升级 docker 中 go 版本  
-- 修复 api list 报错
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

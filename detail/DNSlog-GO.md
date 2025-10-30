@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-lanyi-orange)
 ![GitHub stars](https://img.shields.io/github/stars/lanyi1998/DNSlog-GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.2.0-red)
+![Version](https://img.shields.io/badge/Version-V2.2.2-red)
 ![Time](https://img.shields.io/badge/Join-20220316-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -132,6 +132,14 @@ if dns.checkDomain(subDomain):
 
 
 ## 最近更新
+
+#### [v2.2.2] - 2025-09-09
+
+**refactor(pkg/sdk)** : 
+-更新 DnsLogClient 的 Clear 方法
+-将 clear 方法的首字母大写，改为 Clear，以符合 Go语言的导出规则
+- 添加了注释，明确了函数的功能
+
 
 #### [v2.2.0] - 2025-08-22
 

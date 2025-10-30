@@ -63,7 +63,7 @@ MDUT 全称 Multiple Database Utilization Tools，旨在将常见的数据库利
 ![Author](https://img.shields.io/badge/Author-qi4L-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/qi4L/JYso.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.5.2-red)
+![Version](https://img.shields.io/badge/Version-V1.3.6-red)
 
 <https://github.com/qi4L/JYso>
 
@@ -103,7 +103,7 @@ WMIHACKER是一款免杀横向渗透远程命令执行工具，常见的WMIEXEC�
 ![Author](https://img.shields.io/badge/Author-lanyi-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/lanyi1998/DNSlog-GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.2.0-red)
+![Version](https://img.shields.io/badge/Version-V2.2.2-red)
 
 <https://github.com/lanyi1998/DNSlog-GO>
 

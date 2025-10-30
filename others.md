@@ -1,7 +1,7 @@
 ## 其他 / others
 
-1. [f8x](#f8x)
-2. [AiPy](#aipy)
+1. [AiPy](#aipy)
+2. [f8x](#f8x)
 3. [BinAbsInspector](#binabsinspector)
 4. [Heimdallr](#heimdallr)
 5. [passive-scan-client](#passive-scan-client)
@@ -13,6 +13,16 @@
 
 ----------------------------------------
 
+### [AiPy](detail/AiPy.md)
+![Author](https://img.shields.io/badge/Author-Knownsec-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/knownsec/aipyapp.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.3.0-red)
+
+<https://github.com/knownsec/aipyapp>
+
+AiPy是知道创宇站在AI技术变革前沿，基于LLM（大语言模型）与高级编程语言Python 完美融合，打造的一款突破性产品。AiPy以创新的技术范式和更低的成本，重构AI生产力边界，让大模型集思考能力和主动执行任务于一体。
+
 ### [f8x](detail/f8x.md)
 ![Author](https://img.shields.io/badge/Author-ffffffff0x-orange)
 ![Language](https://img.shields.io/badge/Language-Bash-blue)
@@ -22,16 +32,6 @@
 <https://github.com/ffffffff0x/f8x>
 
 一款红/蓝队环境自动化部署工具,支持多种场景,渗透,开发,代理环境,服务可选项等。
-
-### [AiPy](detail/AiPy.md)
-![Author](https://img.shields.io/badge/Author-Knownsec-orange)
-![Language](https://img.shields.io/badge/Language-Python-blue)
-![GitHub stars](https://img.shields.io/github/stars/knownsec/aipyapp.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.2.2-red)
-
-<https://github.com/knownsec/aipyapp>
-
-AiPy是知道创宇站在AI技术变革前沿，基于LLM（大语言模型）与高级编程语言Python 完美融合，打造的一款突破性产品。AiPy以创新的技术范式和更低的成本，重构AI生产力边界，让大模型集思考能力和主动执行任务于一体。
 
 ### [BinAbsInspector](detail/BinAbsInspector.md)
 ![Author](https://img.shields.io/badge/Author-KeenSecurityLab-orange)
