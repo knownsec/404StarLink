@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V4.2.1-red)
+![Version](https://img.shields.io/badge/Version-V4.3.2-red)
 ![Time](https://img.shields.io/badge/Join-20210120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -80,6 +80,15 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 
 ## 最近更新
 
+#### [v4.3.2] - 2025-11-25
+
+** 问题修复 ** 
+ - 修复Databoard面板查询默认选中页面不是第一个的问题。
+ - 修复不同Host情况下返回相同内容导致数据无法查询问题。
+ ** 贡献者信息**
+ - 感谢ArG3、冰淇霖帮助修复问题，并提供宝贵建议！
+
+
 #### [v4.2.1] - 2025-05-08
 
 **功能更新**  
@@ -117,10 +126,5 @@ HaE目前的规则一共有8个字段，详细的含义如下所示：
 
 **问题修复**  
 - 修复切换主题之后导致规则新增失灵的问题。
-
-#### [v4.0.5] - 2025-02-11
-
-**问题修复**  
-- 优化项目存储时的逻辑，解决并发导致的出错
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

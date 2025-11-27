@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/vArmor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.8.0-red)
+![Version](https://img.shields.io/badge/Version-V0.9.0-red)
 ![Time](https://img.shields.io/badge/Join-20230831-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -55,6 +55,28 @@ vArmor 由字节跳动终端安全团队的 **Elkeid Team** 研发，目前该�
 
 
 ## 最近更新
+
+#### [v0.9.0] - 2025-11-13
+**功能更新**
+ -   为 BPF 执行器配置文件启用了 enforce/complain 模式，以与 AppArmor 对齐 (#250)
+ -   为 BPF 执行器添加了 BehaviorModeling 模式支持 (#250)
+ -   为 BPF 执行器生成的违规日志添加了 `operation` 字段 (#250)
+ -   将违规日志中的 `eventType` 字段重命名为 enforcer (#250)
+ -   为 BPF 执行器的自定义规则接口添加了 `qualifiers` 字段 (#257)
+ -   为 BPF 执行器中支持的挂载标志添加了简写形式，与 AppArmor 保持一致 (#250)
+ -   启用了 policy-advisor 使用 BPF 执行器行为数据生成策略模板 (#261)
+ **重构**
+ -   重命名了 CRD 中的配置文件和动态结果字段 (#255)
+ -   标准化了所有 Seccomp 违规日志，使用 `AUDIT|ALLOWED` 操作 (#253)
+ -   调整了所有违规日志的记录级别为 warn (#263)
+ -   从 JSON 日志格式设置中移除了 zerolog 时间格式配置 (#266)
+ -   标准化了所有 AppArmor 规则的缩进以提高可读性 (#265)
+ -   依赖项升级：Go 更新至 1.24，ebpf 包更新至 v0.19.0 (#250)
+ -   更新了 Dockerfile 中的基础镜像和环境变量 (#250, #251)
+ **修复**
+ -   修复了 BPF 执行器的配置文件生成逻辑，使用正确的规则模式常量 (#252)
+ -   解决了 BPF 事件转换过程中的潜在空指针引用问题 (#254)
+
 
 #### [v0.8.0] - 2025-06-26
 
@@ -116,14 +138,5 @@ vArmor 由字节跳动终端安全团队的 **Elkeid Team** 研发，目前该�
 - 为 Seccomp enforcer 添加了 disallow-load-bpf-via-setsockopt 内置规则  
 - 为 Seccomp enforcer 添加了 disallow-userfaultfd-creation 内置规则  
 - 增加了状态报告超时重试的等待时间
-
-#### [v0.6.2] - 2024-12-27
-
-**更新**  
-- 新增在行为建模过程中，将其 mnt ns id 添加到监视列表中  
-- 优化当行为数据太大时直接返回  
-- 添加了调试标志  
-- 为 Seccomp 执行器添加了 disallow-load-all-bpf-prog 规则  
-- 修复在安装 varmor 的命名空间中创建 varmor-classifier-svc 服务
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

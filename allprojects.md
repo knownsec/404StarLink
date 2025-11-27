@@ -5,8 +5,8 @@
     * [Elkeid](#elkeid)
     * [linglong](#linglong)
     * [murphysec](#murphysec)
-    * [appshark](#appshark)
     * [Tai-e](#tai-e)
+    * [appshark](#appshark)
     * [camille](#camille)
     * [veinmind-tools](#veinmind-tools)
     * [OpenStar](#openstar)
@@ -21,8 +21,8 @@
     * [HaE](#hae)
     * [AppInfoScanner](#appinfoscanner)
     * [ksubdomain](#ksubdomain)
-    * [Kunyu](#kunyu)
     * [qscan](#qscan)
+    * [Kunyu](#kunyu)
     * [Glass](#glass)
     * [scaninfo](#scaninfo)
     * [ZoomEye-Python](#zoomeye-python)
@@ -136,16 +136,6 @@ linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，
 
 墨菲安全专注于软件供应链安全，murphysec 是墨菲安全的 CLI 工具，用于在命令行检测指定目录代码的依赖安全问题，也可以基于 CLI 工具实现在 CI 流程的检测。
 
-### [appshark](detail/appshark.md)
-![Author](https://img.shields.io/badge/Author-bytedance-orange)
-![Language](https://img.shields.io/badge/Language-Kotlin-blue)
-![GitHub stars](https://img.shields.io/github/stars/bytedance/appshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.1.2-red)
-
-<https://github.com/bytedance/appshark>
-
-Appshark 是一个针对安卓的静态分析工具，它的设计目标是针对超大型App的分析，Appshark支持基于json的自定义扫描规则,发现自己关心的安全漏洞以及隐私合规问题，支持灵活配置，可以在准确率以及扫描时间空间之间寻求平衡，支持自定义扩展规则，根据自己的业务需要，进行定制分析
-
 ### [Tai-e](detail/Tai-e.md)
 ![Author](https://img.shields.io/badge/Author-pascal_lab-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
@@ -155,6 +145,16 @@ Appshark 是一个针对安卓的静态分析工具，它的设计目标是针�
 <https://github.com/pascal-lab/Tai-e>
 
 Tai-e（太阿）是一个通用型Java程序分析框架，包含了开发程序分析技术所需的各类基础设施，并提供了可配置性高、功能强大的污点分析系统，用于检测各类隐私泄露、注入攻击等安全漏洞。
+
+### [appshark](detail/appshark.md)
+![Author](https://img.shields.io/badge/Author-bytedance-orange)
+![Language](https://img.shields.io/badge/Language-Kotlin-blue)
+![GitHub stars](https://img.shields.io/github/stars/bytedance/appshark.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.1.2-red)
+
+<https://github.com/bytedance/appshark>
+
+Appshark 是一个针对安卓的静态分析工具，它的设计目标是针对超大型App的分析，Appshark支持基于json的自定义扫描规则,发现自己关心的安全漏洞以及隐私合规问题，支持灵活配置，可以在准确率以及扫描时间空间之间寻求平衡，支持自定义扩展规则，根据自己的业务需要，进行定制分析
 
 ### [camille](detail/camille.md)
 ![Author](https://img.shields.io/badge/Author-zhengjim-orange)
@@ -220,7 +220,7 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/vArmor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.8.0-red)
+![Version](https://img.shields.io/badge/Version-V0.9.0-red)
 
 <https://github.com/bytedance/vArmor>
 
@@ -243,7 +243,7 @@ Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检�
 ![Author](https://img.shields.io/badge/Author-wgpsec-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.3-red)
+![Version](https://img.shields.io/badge/Version-V2.0.4-red)
 
 <https://github.com/wgpsec/ENScan_GO>
 
@@ -253,7 +253,7 @@ Hades 是一款支持 Windows/Linux 的内核级别数据采集主机入侵检�
 ![Author](https://img.shields.io/badge/Author-gh0stkey-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/gh0stkey/HaE.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V4.2.1-red)
+![Version](https://img.shields.io/badge/Version-V4.3.2-red)
 
 <https://github.com/gh0stkey/HaE>
 
@@ -279,6 +279,16 @@ HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。
 
 ksubdomain是一款基于无状态子域名爆破工具，支持在Windows/Linux/Mac上使用，它会很快的进行DNS爆破，在Mac和Windows上理论最大发包速度在30w/s,linux上为160w/s的速度。
 
+### [qscan](detail/qscan.md)
+![Author](https://img.shields.io/badge/Author-qi4L-orange)
+![Language](https://img.shields.io/badge/Language-Go-blue)
+![GitHub stars](https://img.shields.io/github/stars/qi4L/qscan.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.8.1-red)
+
+<https://github.com/qi4L/qscan>
+
+一个速度极快的内网扫描器，具备端口扫描、协议检测、指纹识别，暴力破解，漏洞探测等功能。支持协议1200+，协议指纹10000+，应用指纹20000+，暴力破解协议10余种。
+
 ### [Kunyu](detail/Kunyu.md)
 ![Author](https://img.shields.io/badge/Author-风起-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
@@ -288,16 +298,6 @@ ksubdomain是一款基于无状态子域名爆破工具，支持在Windows/Linux
 <https://github.com/knownsec/Kunyu>
 
 Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在让企业资产收集更高效，使更多安全相关从业者了解、使用网络空间测绘技术。
-
-### [qscan](detail/qscan.md)
-![Author](https://img.shields.io/badge/Author-qi4L-orange)
-![Language](https://img.shields.io/badge/Language-Go-blue)
-![GitHub stars](https://img.shields.io/github/stars/qi4L/qscan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.8-red)
-
-<https://github.com/qi4L/qscan>
-
-一个速度极快的内网扫描器，具备端口扫描、协议检测、指纹识别，暴力破解，漏洞探测等功能。支持协议1200+，协议指纹10000+，应用指纹20000+，暴力破解协议10余种。
 
 ### [Glass](detail/Glass.md)
 ![Author](https://img.shields.io/badge/Author-s7ckTeam-orange)
@@ -386,7 +386,7 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.2.2-red)
+![Version](https://img.shields.io/badge/Version-V3.2.5-red)
 
 <https://github.com/zan8in/afrog>
 
@@ -868,7 +868,7 @@ GrabAccess：Bookit/Windows登陆密码和Bitlocker绕过工具，在物理接�
 ![Author](https://img.shields.io/badge/Author-X1r0z-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/X1r0z/JNDIMap.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.3-red)
+![Version](https://img.shields.io/badge/Version-V0.0.4-red)
 
 <https://github.com/X1r0z/JNDIMap>
 

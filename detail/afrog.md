@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.2.2-red)
+![Version](https://img.shields.io/badge/Version-V3.2.5-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,12 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v3.2.5] - 2025-11-20
+
+**修复紧急 bug** 
+ - 多个协程同时修改共享map数据，导致数据混乱，程序崩溃。 
+
+
 #### [v3.2.2] - 2025-10-10
 
 **PoC 管理与扫描优化** 
@@ -168,11 +174,5 @@ afrog -t https://example.com -ja result.json
 - 移除 PoC：hue-default-credential.yaml  
 - 优化优化文件上传 PoC 写法  
 - PoC 总数 1500 个
-
-#### [v3.1.3] - 2024-12-03
-
-**更新**  
-- 修复 -mt 选项无法应用于 HTTP 请求的缺陷  
-- 优化 http 默认请求超时为 50s
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

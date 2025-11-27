@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-X1r0z-orange)
 ![GitHub stars](https://img.shields.io/github/stars/X1r0z/JNDIMap.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.3-red)
+![Version](https://img.shields.io/badge/Version-V0.0.4-red)
 ![Time](https://img.shields.io/badge/Join-2025098-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -95,5 +95,15 @@ mvn package -Dmaven.test.skip=true
 
 
 ## 最近更新
+
+#### [v0.0.4] - 2025-11-20
+
+**特性**
+ -   支持 UTF-8 Overlong Encoding 绕过
+ -   支持 JDK 17 Jackson 反序列化
+ -   支持在新线程中反弹 Shell
+ **维护**
+ -   增加 GitHub Workflow 自动构建
+
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

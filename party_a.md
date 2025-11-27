@@ -4,8 +4,8 @@
 2. [Elkeid](#elkeid)
 3. [linglong](#linglong)
 4. [murphysec](#murphysec)
-5. [appshark](#appshark)
-6. [Tai-e](#tai-e)
+5. [Tai-e](#tai-e)
+6. [appshark](#appshark)
 7. [camille](#camille)
 8. [veinmind-tools](#veinmind-tools)
 9. [OpenStar](#openstar)
@@ -57,16 +57,6 @@ linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，
 
 墨菲安全专注于软件供应链安全，murphysec 是墨菲安全的 CLI 工具，用于在命令行检测指定目录代码的依赖安全问题，也可以基于 CLI 工具实现在 CI 流程的检测。
 
-### [appshark](detail/appshark.md)
-![Author](https://img.shields.io/badge/Author-bytedance-orange)
-![Language](https://img.shields.io/badge/Language-Kotlin-blue)
-![GitHub stars](https://img.shields.io/github/stars/bytedance/appshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.1.2-red)
-
-<https://github.com/bytedance/appshark>
-
-Appshark 是一个针对安卓的静态分析工具，它的设计目标是针对超大型App的分析，Appshark支持基于json的自定义扫描规则,发现自己关心的安全漏洞以及隐私合规问题，支持灵活配置，可以在准确率以及扫描时间空间之间寻求平衡，支持自定义扩展规则，根据自己的业务需要，进行定制分析
-
 ### [Tai-e](detail/Tai-e.md)
 ![Author](https://img.shields.io/badge/Author-pascal_lab-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
@@ -76,6 +66,16 @@ Appshark 是一个针对安卓的静态分析工具，它的设计目标是针�
 <https://github.com/pascal-lab/Tai-e>
 
 Tai-e（太阿）是一个通用型Java程序分析框架，包含了开发程序分析技术所需的各类基础设施，并提供了可配置性高、功能强大的污点分析系统，用于检测各类隐私泄露、注入攻击等安全漏洞。
+
+### [appshark](detail/appshark.md)
+![Author](https://img.shields.io/badge/Author-bytedance-orange)
+![Language](https://img.shields.io/badge/Language-Kotlin-blue)
+![GitHub stars](https://img.shields.io/github/stars/bytedance/appshark.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.1.2-red)
+
+<https://github.com/bytedance/appshark>
+
+Appshark 是一个针对安卓的静态分析工具，它的设计目标是针对超大型App的分析，Appshark支持基于json的自定义扫描规则,发现自己关心的安全漏洞以及隐私合规问题，支持灵活配置，可以在准确率以及扫描时间空间之间寻求平衡，支持自定义扩展规则，根据自己的业务需要，进行定制分析
 
 ### [camille](detail/camille.md)
 ![Author](https://img.shields.io/badge/Author-zhengjim-orange)
@@ -141,7 +141,7 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/vArmor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.8.0-red)
+![Version](https://img.shields.io/badge/Version-V0.9.0-red)
 
 <https://github.com/bytedance/vArmor>
 

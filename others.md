@@ -77,7 +77,7 @@ GrabAccess：Bookit/Windows登陆密码和Bitlocker绕过工具，在物理接�
 ![Author](https://img.shields.io/badge/Author-X1r0z-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/X1r0z/JNDIMap.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.3-red)
+![Version](https://img.shields.io/badge/Version-V0.0.4-red)
 
 <https://github.com/X1r0z/JNDIMap>
 
