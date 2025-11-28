@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-Knownsec-orange)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/aipyapp.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.3.0-red)
+![Version](https://img.shields.io/badge/Version-V0.4.0-red)
 ![Time](https://img.shields.io/badge/Join-20250415-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -120,6 +120,44 @@ Python use - AIPython (Quit with 'exit()')
 
 ## 最近更新
 
+#### [v0.4.0] - 2025-11-28
+
+**架构重构:**
+ - 全新的 Step-based 上下文清理机制，大幅减少 token 消耗
+ - 强类型事件系统，提供更好的类型安全和错误处理
+ - 重构子任务系统，支持重放和树状视图
+ 
+ **MCP 集成:**
+ - 完全重构 MCP 客户端，升级到 1.21.0
+ - 统一工具调用接口，改进进度跟踪
+ - 增强 MCP 工具调用限制规则
+ 
+ **LLM 客户端:**
+ - 新增 Gemini 客户端支持
+ - 引入 OpenAIBaseClientV2 增强参数处理
+ - 类型安全的配置管理系统
+ 
+ **用户体验:**
+ - 实时 token 使用统计和显示
+ - 新增 /compact 命令和改进的 /steps 命令
+ - 更好的国际化和多语言支持
+ 
+ **稳定性改进:**
+ - 网络错误重试机制优化
+ - Windows 任务目录重命名问题修复
+ - 序列化和存储错误修复
+ 
+ **文档完善:**
+ - 新增开发文档和功能说明
+ - 改进提示词系统
+ - 更新模型配置
+ 
+ **技术债务清理:**
+ - 升级 Python 最低版本到 3.11
+ - 依赖包更新和锁文件优化
+ - 代码结构优化和类型安全改进
+
+
 #### [v0.3.0] - 2025-10-28
 
 **优化**  
@@ -150,12 +188,5 @@ Python use - AIPython (Quit with 'exit()')
 **问题修复**  
 - 修复界面显示问题  
 - 修复代码重构导致的Bug  
-
-#### [v0.1.25] - 2025-04-24
-
-**更新**  
-- 增加了 GUI 图形界面  
-- 修复产品Bug  
-- 提供 Windows 一键运行包
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

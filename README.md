@@ -17,6 +17,7 @@
 
 | 时间 | 项目名称 | 项目动态 |
 |----|-----------|--------------------------|
+|2025-11-28|[**AiPy**](detail/AiPy.md)|更新 [v0.4.0](detail/AiPy.md#最近更新) 版本|
 |2025-11-27|[**qscan**](detail/qscan.md)|更新 [v1.8.1](detail/qscan.md#最近更新) 版本|
 |2025-11-25|[**HaE**](detail/HaE.md)|更新 [v4.3.2](detail/HaE.md#最近更新) 版本|
 |2025-11-20|[**afrog**](detail/afrog.md)|更新 [v3.2.5](detail/afrog.md#最近更新) 版本|
@@ -24,7 +25,6 @@
 |2025-11-13|[**vArmor**](detail/vArmor.md)|更新 [v0.9.0](detail/vArmor.md#最近更新) 版本|
 |2025-10-31|[**ENScanGo**](detail/ENScanGo.md)|更新 [v2.0.4](detail/ENScanGo.md#最近更新) 版本|
 |2025-10-30|[**GShark**](detail/gshark.md)|更新 [v1.6.5](detail/gshark.md#最近更新) 版本|
-|2025-10-28|[**AiPy**](detail/AiPy.md)|更新 [v0.3.0](detail/AiPy.md#最近更新) 版本|
 |2025-10-19|[**JYso**](detail/JYso.md)|更新 [v1.3.6](detail/JYso.md#最近更新) 版本|
 |2025-09-09|[**DNSlog-GO**](detail/DNSlog-GO.md)|更新 [v2.2.2](detail/DNSlog-GO.md#最近更新) 版本|
 
@@ -47,7 +47,7 @@
 
 | 时间 | 项目迭代版本 |
 |----|-----------|
-|第48周|[**qscan**](detail/qscan.md) 更新 [v1.8.1](detail/qscan.md#最近更新) / [**HaE**](detail/HaE.md) 更新 [v4.3.2](detail/HaE.md#最近更新)|
+|第48周|[**AiPy**](detail/AiPy.md) 更新 [v0.4.0](detail/AiPy.md#最近更新) / [**qscan**](detail/qscan.md) 更新 [v1.8.1](detail/qscan.md#最近更新) / [**HaE**](detail/HaE.md) 更新 [v4.3.2](detail/HaE.md#最近更新)|
 |第47周|[**afrog**](detail/afrog.md) 更新 [v3.2.5](detail/afrog.md#最近更新) / [**JNDIMap**](detail/JNDIMap.md) 更新 [v0.0.4](detail/JNDIMap.md#最近更新)|
 |第46周|[**vArmor**](detail/vArmor.md) 更新 [v0.9.0](detail/vArmor.md#最近更新)|
 |第44周|[**ENScanGo**](detail/ENScanGo.md) 更新 [v2.0.4](detail/ENScanGo.md#最近更新) / [**GShark**](detail/gshark.md) 更新 [v1.6.5](detail/gshark.md#最近更新) / [**AiPy**](detail/AiPy.md) 更新 [v0.3.0](detail/AiPy.md#最近更新)|
@@ -56,7 +56,7 @@
 |第41周|[**afrog**](detail/afrog.md) 更新 [v3.2.2](detail/afrog.md#最近更新)|
 |第37周|[**DNSlog-GO**](detail/DNSlog-GO.md) 更新 [v2.2.2](detail/DNSlog-GO.md#最近更新)|
 |第34周|[**DNSlog-GO**](detail/DNSlog-GO.md) 更新 [v2.2.0](detail/DNSlog-GO.md#最近更新) / [**g3proxy**](detail/g3proxy.md) 更新 [v1.12.2](detail/g3proxy.md#最近更新)|
-|第30周|[**fscan**](detail/fscan.md) 更新 [v2.0.1](detail/fscan.md#最近更新) / [**afrog**](detail/afrog.md) 更新 [v3.1.8](detail/afrog.md#最近更新) / [**DNSlog-GO**](detail/DNSlog-GO.md) 更新 [v2.1.4](detail/DNSlog-GO.md#最近更新) / [**g3proxy**](detail/g3proxy.md) 更新 [v1.10.7](detail/g3proxy.md#最近更新) / [**ENScanGo**](detail/ENScanGo.md) 更新 [v1.3.1](detail/ENScanGo.md#最近更新)|
+|第30周|[**DNSlog-GO**](detail/DNSlog-GO.md) 更新 [v2.1.4](detail/DNSlog-GO.md#最近更新) / [**afrog**](detail/afrog.md) 更新 [v3.1.8](detail/afrog.md#最近更新) / [**fscan**](detail/fscan.md) 更新 [v2.0.1](detail/fscan.md#最近更新) / [**g3proxy**](detail/g3proxy.md) 更新 [v1.10.7](detail/g3proxy.md#最近更新) / [**ENScanGo**](detail/ENScanGo.md) 更新 [v1.3.1](detail/ENScanGo.md#最近更新)|
 
 **4.新项目加入**
 
@@ -96,7 +96,7 @@
 |2|[**AppInfoScanner**](detail/AppInfoScanner.md)|kelvinBen|一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。|3475|
 |3|[**ksubdomain**](detail/ksubdomain.md)|w8ay|ksubdomain是一款基于无状态子域名爆破工具，支持在Windows/Linux/Mac上使用，它会很快的进行DNS爆破，在Mac和Windows上理论最大发包速度在30w/s,linux上为160w/s的速度。|1126|
 |4|[**qscan**](detail/qscan.md)|qi4L|一个速度极快的内网扫描器，具备端口扫描、协议检测、指纹识别，暴力破解，漏洞探测等功能。支持协议1200+，协议指纹10000+，应用指纹20000+，暴力破解协议10余种。|1081|
-|5|[**Kunyu**](detail/Kunyu.md)|风起|Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在让企业资产收集更高效，使更多安全相关从业者了解、使用网络空间测绘技术。|1044|
+|5|[**Kunyu**](detail/Kunyu.md)|风起|Kunyu(坤舆)，是一款基于ZoomEye API开发的信息收集工具，旨在让企业资产收集更高效，使更多安全相关从业者了解、使用网络空间测绘技术。|1058|
 |6|[**Glass**](detail/Glass.md)|s7ckTeam|Glass是一款针对资产列表的快速指纹识别工具，通过调用Fofa/ZoomEye/Shodan/360等api接口快速查询资产信息并识别重点资产的指纹，也可针对IP/IP段或资产列表进行快速的指纹识别。|1007|
 |7|[**scaninfo**](detail/scaninfo.md)|华东360安服团队|scaninfo 是一款开源、轻量、快速、跨平台的红队内外网打点扫描器。比较同类工具，其能够在 nmap 的扫描速度和 masscan 的准确度之间寻找一个较好的平衡点，能够快速进行端口扫描和服务识别，内置指纹识别用于 web 探测，可以用报告的方式整理扫描结果。|875|
 |8|[**ZoomEye-Python**](detail/ZoomEye-Python.md)|Knownsec404|ZoomEye-python 是一款基于 ZoomEye API 开发的 Python 库，提供了 ZoomEye 命令行模式，同时也可以作为 SDK 集成到其他工具中。该库可以让技术人员更便捷地搜索、筛选、导出 ZoomEye 的数据|550|

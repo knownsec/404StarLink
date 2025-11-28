@@ -808,7 +808,7 @@ PortForward 是使用 Golang 进行开发的端口转发工具，解决在某些
 ![Author](https://img.shields.io/badge/Author-Knownsec-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/knownsec/aipyapp.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.3.0-red)
+![Version](https://img.shields.io/badge/Version-V0.4.0-red)
 
 <https://github.com/knownsec/aipyapp>
 
