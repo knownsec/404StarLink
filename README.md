@@ -62,6 +62,7 @@
 
 | 时间 | 项目名称 | 项目简介 |
 |----|-----------|--------------------------|
+|2025-12-1|[**Typhon**](detail/Typhon.md)|一个绕过 pyjail 的一把梭的CTF工具|
 |2025-09-8|[**JNDIMap**](detail/JNDIMap.md)|一个 JNDI 注入利用框架, 支持 RMI、LDAP 和 LDAPS 协议, 包含多种高版本 JDK 绕过方式|
 |2025-07-22|[**WeaponizedVSCode**](detail/WeaponizedVSCode.md)|一个基于VSCode工作区的黑客环境工具。|
 |2025-05-13|[**qscan**](detail/qscan.md)|一个速度极快的内网扫描器，具备端口扫描、协议检测、指纹识别，暴力破解，漏洞探测等功能。支持协议1200+，协议指纹10000+，应用指纹20000+，暴力破解协议10余种。|
