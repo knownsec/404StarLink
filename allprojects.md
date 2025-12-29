@@ -52,8 +52,8 @@
     * [ysomap](#ysomap)
     * [Cloud-Bucket-Leak-Detection-Tools](#cloud-bucket-leak-detection-tools)
     * [Antenna](#antenna)
-    * [Redis-Rogue-Server](#redis-rogue-server)
     * [GrabAccess](#grabaccess)
+    * [Redis-Rogue-Server](#redis-rogue-server)
     * [Cola-Dnslog](#cola-dnslog)
     * [MysqlT](#mysqlt)
 
@@ -89,6 +89,9 @@
     * [passive-scan-client](#passive-scan-client)
     * [GrabAccess](#grabaccess)
     * [JNDIMap](#jndimap)
+    * [CyberStrikeAI](#cyberstrikeai)
+    * [agentic-soc-platform](#agentic-soc-platform)
+    * [Typhon](#typhon)
     * [wam](#wam)
     * [WeaponizedVSCode](#weaponizedvscode)
     * [LBot](#lbot)
@@ -386,7 +389,7 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.2.5-red)
+![Version](https://img.shields.io/badge/Version-V3.2.8-red)
 
 <https://github.com/zan8in/afrog>
 
@@ -519,7 +522,7 @@ WMIHACKER是一款免杀横向渗透远程命令执行工具，常见的WMIEXEC�
 ![Author](https://img.shields.io/badge/Author-lanyi-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/lanyi1998/DNSlog-GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.2.2-red)
+![Version](https://img.shields.io/badge/Version-V2.3.0-red)
 
 <https://github.com/lanyi1998/DNSlog-GO>
 
@@ -555,16 +558,6 @@ Cloud-Bucket-Leak-Detection-Tools是一款针对云厂商存储桶扫描检测�
 
 Antenna是58同城安全团队打造的一款辅助安全从业人员辅助验证网络中多种漏洞是否存在以及可利用性的工具。其基于带外应用安全测试( OAST)通过任务的形式，将不同漏洞场景检测能力通过插件的形式进行集合，通过与目标进行Out-of-bind的数据通信方式进行辅助检测。
 
-### [Redis-Rogue-Server](detail/Redis-Rogue-Server.md)
-![Author](https://img.shields.io/badge/Author-Dliv3-orange)
-![Language](https://img.shields.io/badge/Language-Python-blue)
-![GitHub stars](https://img.shields.io/github/stars/Dliv3/redis-rogue-server.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.0-red)
-
-<https://github.com/Dliv3/redis-rogue-server>
-
-Redis 4.x/Redis 5.x RCE利用脚本. 项目最初来源于 <https://github.com/n0b0dyCN/redis-rogue-server>
-
 ### [GrabAccess](detail/GrabAccess.md)
 ![Author](https://img.shields.io/badge/Author-Push3AX-orange)
 ![Language](https://img.shields.io/badge/Language-C-blue)
@@ -574,6 +567,16 @@ Redis 4.x/Redis 5.x RCE利用脚本. 项目最初来源于 <https://github.com/n
 <https://github.com/Push3AX/GrabAccess>
 
 GrabAccess：Bookit/Windows登陆密码和Bitlocker绕过工具，在物理接触目标计算机的情况下，GrabAccess可以：绕过Windows登陆密码执行任意操作（以System权限执行命令、重置Windows账户密码等），植入木马并添加自启动（可以绕过Bitlocker，但要求受害者登录），通过修改主板UEFI固件实现无视重装系统、更换硬盘的持久化（Bootkit）
+
+### [Redis-Rogue-Server](detail/Redis-Rogue-Server.md)
+![Author](https://img.shields.io/badge/Author-Dliv3-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/Dliv3/redis-rogue-server.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.0.0-red)
+
+<https://github.com/Dliv3/redis-rogue-server>
+
+Redis 4.x/Redis 5.x RCE利用脚本. 项目最初来源于 <https://github.com/n0b0dyCN/redis-rogue-server>
 
 ### [Cola-Dnslog](detail/Cola-Dnslog.md)
 ![Author](https://img.shields.io/badge/Author-AbelChe-orange)
@@ -873,6 +876,36 @@ GrabAccess：Bookit/Windows登陆密码和Bitlocker绕过工具，在物理接�
 <https://github.com/X1r0z/JNDIMap>
 
 一个 JNDI 注入利用框架, 支持 RMI、LDAP 和 LDAPS 协议, 包含多种高版本 JDK 绕过方式
+
+### [CyberStrikeAI](detail/CyberStrikeAI.md)
+![Author](https://img.shields.io/badge/Author-Ed1s0nZ-orange)
+![Language](https://img.shields.io/badge/Language-go-blue)
+![GitHub stars](https://img.shields.io/github/stars/Ed1s0nZ/CyberStrikeAI.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.11-red)
+
+<https://github.com/Ed1s0nZ/CyberStrikeAI>
+
+CyberStrikeAI 是一款 AI 原生安全测试平台，基于 Go 构建，集成了 100+ 安全工具、智能编排引擎与完整的测试生命周期管理能力
+
+### [agentic-soc-platform.json](detail/agentic-soc-platform.md)
+![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/agentic-soc-platform.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.1.0-red)
+
+<https://github.com/FunnyWolf/agentic-soc-platform>
+
+Agentic SOC Platform 是一个功能强大、灵活且开源的自动化安全运营平台。它集成了 AI Agent 能力与自动化编排，支持主流 SIEM/SOAR 场景，帮助企业高效构建智能化安全运营体系。
+
+### [Typhon](detail/Typhon.md)
+![Author](https://img.shields.io/badge/Author-LamentXU123-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/LamentXU123/Typhon.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.0.11-red)
+
+<https://github.com/LamentXU123/Typhon>
+
+Typhon 是绕过 pyjail 的一把梭的CTF工具
 
 ### [wam](detail/wam.md)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)

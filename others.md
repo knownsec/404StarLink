@@ -7,9 +7,12 @@
 5. [passive-scan-client](#passive-scan-client)
 6. [GrabAccess](#grabaccess)
 7. [JNDIMap](#jndimap)
-8. [wam](#wam)
-9. [WeaponizedVSCode](#weaponizedvscode)
-10. [LBot](#lbot)
+8. [CyberStrikeAI](#cyberstrikeai)
+9. [agentic-soc-platform.json](#agentic-soc-platform.json)
+10. [Typhon](#typhon)
+11. [wam](#wam)
+12. [WeaponizedVSCode](#weaponizedvscode)
+13. [LBot](#lbot)
 
 ----------------------------------------
 
@@ -82,6 +85,36 @@ GrabAccess：Bookit/Windows登陆密码和Bitlocker绕过工具，在物理接�
 <https://github.com/X1r0z/JNDIMap>
 
 一个 JNDI 注入利用框架, 支持 RMI、LDAP 和 LDAPS 协议, 包含多种高版本 JDK 绕过方式
+
+### [CyberStrikeAI](detail/CyberStrikeAI.md)
+![Author](https://img.shields.io/badge/Author-Ed1s0nZ-orange)
+![Language](https://img.shields.io/badge/Language-go-blue)
+![GitHub stars](https://img.shields.io/github/stars/Ed1s0nZ/CyberStrikeAI.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.0.11-red)
+
+<https://github.com/Ed1s0nZ/CyberStrikeAI>
+
+CyberStrikeAI 是一款 AI 原生安全测试平台，基于 Go 构建，集成了 100+ 安全工具、智能编排引擎与完整的测试生命周期管理能力
+
+### [agentic-soc-platform.json](detail/agentic-soc-platform.md)
+![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/agentic-soc-platform.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V0.1.0-red)
+
+<https://github.com/FunnyWolf/agentic-soc-platform>
+
+Agentic SOC Platform 是一个功能强大、灵活且开源的自动化安全运营平台。它集成了 AI Agent 能力与自动化编排，支持主流 SIEM/SOAR 场景，帮助企业高效构建智能化安全运营体系。
+
+### [Typhon](detail/Typhon.md)
+![Author](https://img.shields.io/badge/Author-LamentXU123-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/LamentXU123/Typhon.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.0.11-red)
+
+<https://github.com/LamentXU123/Typhon>
+
+Typhon 是绕过 pyjail 的一把梭的CTF工具
 
 ### [wam](detail/wam.md)
 ![Author](https://img.shields.io/badge/Author-knownsec404-orange)

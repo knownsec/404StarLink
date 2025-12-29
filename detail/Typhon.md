@@ -1,12 +1,10 @@
 ## Typhon <https://github.com/LamentXU123/Typhon>
-
 <!--auto_detail_badge_begin_0b490ffb61b26b45de3ea5d7dd8a582e-->
-[![PyPI Downloads](https://static.pepy.tech/personalized-badge/typhonbreaker?period=total&units=ABBREVIATION&left_color=BLACK&right_color=GREEN&left_text=total%20downloads)](https://pepy.tech/projects/typhonbreaker)
-![License](https://img.shields.io/badge/license-Apache_2.0-cyan.svg)
-![Python_version](https://img.shields.io/pypi/pyversions/TyphonBreaker.svg?logo=python&logoColor=FBE072)
-![PyPI Version](https://img.shields.io/pypi/v/TyphonBreaker)
-![Tests](https://github.com/Team-intN18-SoybeanSeclab/Typhon/actions/workflows/test.yml/badge.svg)
-[![codecov](https://codecov.io/gh/LamentXU123/Typhon/graph/badge.svg?token=JCH6XBAORY)](https://codecov.io/gh/LamentXU123/Typhon)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![Author](https://img.shields.io/badge/Author-LamentXU123-orange)
+![GitHub stars](https://img.shields.io/github/stars/LamentXU123/Typhon.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.0.11-red)
+![Time](https://img.shields.io/badge/Join-20251201-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
 
@@ -396,6 +394,20 @@ Typhon 现已加入 [404星链计划](https://github.com/knownsec/404StarLink)
 
 
 ## 最近更新
+
+
+<!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
+<!--auto_detail_active_begin_e1c6fb434b6f0baf6912c7a1934f772b-->
+## 项目相关
+
+
+## 最近更新
+
+#### [v1.0.11] - 2025-11-15
+
+ - 解决 #7 
+- 增加了对 help, breakpoint 等函数的文档提示
+- 完善文档
 
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

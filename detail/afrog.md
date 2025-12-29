@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.2.5-red)
+![Version](https://img.shields.io/badge/Version-V3.2.8-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,18 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v3.2.8] - 2025-12-29
+
+**新增** 
+ - brute 暴力扫描模式 
+ - 按目标限速（--req-limit-per-target）
+ - 实时状态监控（--live-stats）
+ ** 优化**
+ - Go PoC HTTP请求统一化
+ - Shiro-key 支持回归 
+ - Backup-files 支持回归
+ 
+
 #### [v3.2.5] - 2025-11-20
 
 **修复紧急 bug** 
@@ -166,13 +178,5 @@ afrog -t https://example.com -ja result.json
 - 修复HTTP响应解析异常问题，兼容更多服务器返回格式，程序运行更稳定！  
 - Banner展示效果全面优化，界面颜值暴涨，交互体验更丝滑～  
 - 新增临时文件自动清理机制，afg文件每10秒智能更新，任务结束即自动清除，省心又安全！
-
-#### [v3.1.5] - 2025-01-01
-
-**更新**  
-- 解决在 RAW HTTP 模式下，multipart 请求偶尔不成功的问题  
-- 移除 PoC：hue-default-credential.yaml  
-- 优化优化文件上传 PoC 写法  
-- PoC 总数 1500 个
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
