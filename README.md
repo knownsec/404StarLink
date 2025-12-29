@@ -62,7 +62,7 @@
 
 | 时间 | 项目名称 | 项目简介 |
 |----|-----------|--------------------------|
-|2025-12-29|[***CyberStrikeAI*](detail/CyberStrikeAI.md)|是一款 AI 原生安全测试平台，基于 Go 构建，集成了 100+ 安全工具、智能编排引擎与完整的测试生命周期管理能力。|
+|2025-12-29|[**CyberStrikeAI**](detail/CyberStrikeAI.md)|是一款 AI 原生安全测试平台，基于 Go 构建，集成了 100+ 安全工具、智能编排引擎与完整的测试生命周期管理能力。|
 |2025-12-5|[**Agentic SOC Platform**](detail/agentic-soc-platform.md)|是一个功能强大、灵活且开源的AI自动化安全运营平台|
 |2025-12-1|[**Typhon**](detail/Typhon.md)|一个绕过 pyjail 的一把梭的CTF工具|
 |2025-09-8|[**JNDIMap**](detail/JNDIMap.md)|一个 JNDI 注入利用框架, 支持 RMI、LDAP 和 LDAPS 协议, 包含多种高版本 JDK 绕过方式|
