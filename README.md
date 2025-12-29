@@ -21,8 +21,8 @@
 |2025-12-29|[**DNSlog-GO**](detail/DNSlog-GO.md)|更新 [v2.3.0](detail/DNSlog-GO.md#最近更新) 版本|
 |2025-12-29|[**afrog**](detail/afrog.md)|更新 [v3.2.8](detail/afrog.md#最近更新) 版本|
 |2025-12-28|[**CyberStrikeAI**](detail/CyberStrikeAI.md)|更新 [v0.0.11](detail/CyberStrikeAI.md#最近更新) 版本|
-|2025-12-05|[**agentic-soc-platform.json**](detail/agentic-soc-platform.md)|agentic-soc-platform.json加入星链计划|
-|2025-12-03|[**agentic-soc-platform.json**](detail/agentic-soc-platform.md)|更新 [v0.1.0](detail/agentic-soc-platform.md#最近更新) 版本|
+|2025-12-05|[**Agentic SOC Platform**](detail/agentic-soc-platform.md)|agentic-soc-platform.json加入星链计划|
+|2025-12-03|[**Agentic SOC Platform**](detail/agentic-soc-platform.md)|更新 [v0.1.0](detail/agentic-soc-platform.md#最近更新) 版本|
 |2025-12-01|[**Typhon**](detail/Typhon.md)|Typhon加入星链计划|
 |2025-11-28|[**AiPy**](detail/AiPy.md)|更新 [v0.4.0](detail/AiPy.md#最近更新) 版本|
 |2025-11-27|[**qscan**](detail/qscan.md)|更新 [v1.8.1](detail/qscan.md#最近更新) 版本|
@@ -49,7 +49,7 @@
 |----|-----------|
 |第1周|[**DNSlog-GO**](detail/DNSlog-GO.md) 更新 [v2.3.0](detail/DNSlog-GO.md#最近更新) / [**afrog**](detail/afrog.md) 更新 [v3.2.8](detail/afrog.md#最近更新)|
 |第52周|[**CyberStrikeAI**](detail/CyberStrikeAI.md) 更新 [v0.0.11](detail/CyberStrikeAI.md#最近更新)|
-|第49周|[**agentic-soc-platform.json**](detail/agentic-soc-platform.md) 更新 [v0.1.0](detail/agentic-soc-platform.md#最近更新)|
+|第49周|[**Agentic SOC Platform**](detail/agentic-soc-platform.md) 更新 [v0.1.0](detail/agentic-soc-platform.md#最近更新)|
 |第48周|[**AiPy**](detail/AiPy.md) 更新 [v0.4.0](detail/AiPy.md#最近更新) / [**qscan**](detail/qscan.md) 更新 [v1.8.1](detail/qscan.md#最近更新) / [**HaE**](detail/HaE.md) 更新 [v4.3.2](detail/HaE.md#最近更新)|
 |第47周|[**JNDIMap**](detail/JNDIMap.md) 更新 [v0.0.4](detail/JNDIMap.md#最近更新) / [**afrog**](detail/afrog.md) 更新 [v3.2.5](detail/afrog.md#最近更新)|
 |第46周|[**Typhon**](detail/Typhon.md) 更新 [v1.0.11](detail/Typhon.md#最近更新) / [**vArmor**](detail/vArmor.md) 更新 [v0.9.0](detail/vArmor.md#最近更新)|
@@ -63,7 +63,7 @@
 | 时间 | 项目名称 | 项目简介 |
 |----|-----------|--------------------------|
 |2025-12-29|[**CyberStrikeAI**](detail/CyberStrikeAI.md)|CyberStrikeAI 是一款 AI 原生安全测试平台，基于 Go 构建，集成了 100+ 安全工具、智能编排引擎与完整的测试生命周期管理能力|
-|2025-12-05|[**agentic-soc-platform.json**](detail/agentic-soc-platform.md)|Agentic SOC Platform 是一个功能强大、灵活且开源的自动化安全运营平台。它集成了 AI Agent 能力与自动化编排，支持主流 SIEM/SOAR 场景，帮助企业高效构建智能化安全运营体系。|
+|2025-12-05|[**Agentic SOC Platform**](detail/agentic-soc-platform.md)|Agentic SOC Platform 是一个功能强大、灵活且开源的自动化安全运营平台。它集成了 AI Agent 能力与自动化编排，支持主流 SIEM/SOAR 场景，帮助企业高效构建智能化安全运营体系。|
 |2025-12-01|[**Typhon**](detail/Typhon.md)|Typhon 是绕过 pyjail 的一把梭的CTF工具|
 |2025-09-8|[**JNDIMap**](detail/JNDIMap.md)|一个 JNDI 注入利用框架, 支持 RMI、LDAP 和 LDAPS 协议, 包含多种高版本 JDK 绕过方式|
 |2025-07-22|[**WeaponizedVSCode**](detail/WeaponizedVSCode.md)|一个基于VSCode工作区的黑客环境工具。|
