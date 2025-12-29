@@ -1,4 +1,4 @@
-## agentic-soc-platform.json <https://github.com/FunnyWolf/agentic-soc-platform>
+## Agentic SOC Platform <https://github.com/FunnyWolf/agentic-soc-platform>
 <!--auto_detail_badge_begin_0b490ffb61b26b45de3ea5d7dd8a582e-->
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
