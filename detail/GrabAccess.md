@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![Author](https://img.shields.io/badge/Author-Push3AX-orange)
 ![GitHub stars](https://img.shields.io/github/stars/Push3AX/GrabAccess.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.1-red)
+![Version](https://img.shields.io/badge/Version-V1.2-red)
 ![Time](https://img.shields.io/badge/Join-20240805-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 

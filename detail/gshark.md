@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.5-red)
+![Version](https://img.shields.io/badge/Version-V2.1.12-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -198,6 +198,11 @@ You are supposed to rename `config-temp.yaml` to `config.yaml` and config the da
 
 ## 最近更新
 
+#### [v2.1.12] - 2026-07-30
+
+ **修复** - 当 GitLab 实例不支持全局组代码搜索时，则回退到单独爬取存储库。 
+
+
 #### [v2.1.5] - 2026-06-28
 
  **修复** - Casbin 初始化和默认策略 — @madneal (300) 
@@ -235,11 +240,5 @@ You are supposed to rename `config-temp.yaml` to `config.yaml` and config the da
 - 搜索结果按照 id 降序排序  
 - 更新 config 模板  
 - 修复 Postman 搜索功能
-
-#### [v1.6.0] - 2025-02-15
-
-**新增**  
-- 支持 OPENAI 兼容模式进行 AI 分析  
-- 更新 config 模板文件
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

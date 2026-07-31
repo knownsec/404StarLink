@@ -53,7 +53,7 @@ pocsuite3是由Knownsec 404团队开发的开源远程漏洞测试和概念验�
 ![Author](https://img.shields.io/badge/Author-Ch1ngg-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/SafeGroceryStore/MDUT.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.1-red)
+![Version](https://img.shields.io/badge/Version-V3.1.1-red)
 
 <https://github.com/SafeGroceryStore/MDUT>
 
@@ -143,7 +143,7 @@ Antenna是58同城安全团队打造的一款辅助安全从业人员辅助验�
 ![Author](https://img.shields.io/badge/Author-Push3AX-orange)
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![GitHub stars](https://img.shields.io/github/stars/Push3AX/GrabAccess.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.1-red)
+![Version](https://img.shields.io/badge/Version-V1.2-red)
 
 <https://github.com/Push3AX/GrabAccess>
 

@@ -204,7 +204,7 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.5-red)
+![Version](https://img.shields.io/badge/Version-V2.1.12-red)
 
 <https://github.com/madneal/gshark>
 
@@ -214,7 +214,7 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/vArmor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.10.2-red)
+![Version](https://img.shields.io/badge/Version-V0.10.3-red)
 
 <https://github.com/bytedance/vArmor>
 
@@ -390,7 +390,7 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.5.3-red)
+![Version](https://img.shields.io/badge/Version-V3.5.6-red)
 
 <https://github.com/zan8in/afrog>
 
@@ -473,7 +473,7 @@ pocsuite3是由Knownsec 404团队开发的开源远程漏洞测试和概念验�
 ![Author](https://img.shields.io/badge/Author-Ch1ngg-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/SafeGroceryStore/MDUT.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.1-red)
+![Version](https://img.shields.io/badge/Version-V3.1.1-red)
 
 <https://github.com/SafeGroceryStore/MDUT>
 
@@ -563,7 +563,7 @@ Antenna是58同城安全团队打造的一款辅助安全从业人员辅助验�
 ![Author](https://img.shields.io/badge/Author-Push3AX-orange)
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![GitHub stars](https://img.shields.io/github/stars/Push3AX/GrabAccess.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.1-red)
+![Version](https://img.shields.io/badge/Version-V1.2-red)
 
 <https://github.com/Push3AX/GrabAccess>
 
@@ -699,7 +699,7 @@ CodeReviewTools是一个可以快速批量反编译jar包的工具，为审计Ja
 ![Author](https://img.shields.io/badge/Author-shadow1ng-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/shadow1ng/fscan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.3-red)
+![Version](https://img.shields.io/badge/Version-V2.2.0-red)
 
 <https://github.com/shadow1ng/fscan>
 
@@ -789,7 +789,7 @@ rakshasa是一个使用Go语言编写的强大多级代理工具，专为实现�
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![Language](https://img.shields.io/badge/Language-Rust-blue)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/g3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.12.3-red)
+![Version](https://img.shields.io/badge/Version-V1.12.4-red)
 
 <https://github.com/bytedance/g3>
 
@@ -812,7 +812,7 @@ PortForward 是使用 Golang 进行开发的端口转发工具，解决在某些
 ![Author](https://img.shields.io/badge/Author-Ed1s0nZ-orange)
 ![Language](https://img.shields.io/badge/Language-go-blue)
 ![GitHub stars](https://img.shields.io/github/stars/Ed1s0nZ/CyberStrikeAI.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.47-red)
+![Version](https://img.shields.io/badge/Version-V1.7.11-red)
 
 <https://github.com/Ed1s0nZ/CyberStrikeAI>
 
@@ -882,7 +882,7 @@ Passive Scan Client是一款可以将经过筛选的流量转发到指定代理�
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/agentic-soc-platform.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.4.1-red)
+![Version](https://img.shields.io/badge/Version-V0.5.2-red)
 
 <https://github.com/FunnyWolf/agentic-soc-platform>
 
@@ -892,7 +892,7 @@ Agentic SOC Platform 是一个功能强大、灵活且开源的自动化安全�
 ![Author](https://img.shields.io/badge/Author-Push3AX-orange)
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![GitHub stars](https://img.shields.io/github/stars/Push3AX/GrabAccess.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.1-red)
+![Version](https://img.shields.io/badge/Version-V1.2-red)
 
 <https://github.com/Push3AX/GrabAccess>
 

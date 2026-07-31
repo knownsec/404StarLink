@@ -17,46 +17,46 @@
 
 | 时间 | 项目名称 | 项目动态 |
 |----|-----------|--------------------------|
-|2026-06-28|[**GShark**](detail/gshark.md)|更新 [v2.1.5](detail/gshark.md#最近更新) 版本|
-|2026-06-28|[**agentic-soc-platform.json**](detail/agentic-soc-platform.md)|更新 [v0.4.1](detail/agentic-soc-platform.md#最近更新) 版本|
+|2026-07-30|[**GShark**](detail/gshark.md)|更新 [v2.1.12](detail/gshark.md#最近更新) 版本|
+|2026-07-29|[**agentic-soc-platform.json**](detail/agentic-soc-platform.md)|更新 [v0.5.2](detail/agentic-soc-platform.md#最近更新) 版本|
+|2026-07-28|[**CyberStrikeAI**](detail/CyberStrikeAI.md)|更新 [v1.7.11](detail/CyberStrikeAI.md#最近更新) 版本|
+|2026-07-28|[**g3proxy**](detail/g3proxy.md)|更新 [v1.12.4](detail/g3proxy.md#最近更新) 版本|
+|2026-07-23|[**MDUT**](detail/MDUT.md)|更新 [v3.1.1](detail/MDUT.md#最近更新) 版本|
+|2026-07-19|[**afrog**](detail/afrog.md)|更新 [v3.5.6](detail/afrog.md#最近更新) 版本|
+|2026-07-15|[**fscan**](detail/fscan.md)|更新 [v2.2.0](detail/fscan.md#最近更新) 版本|
+|2026-07-05|[**vArmor**](detail/vArmor.md)|更新 [v0.10.3](detail/vArmor.md#最近更新) 版本|
 |2026-06-27|[**Tai-e**](detail/Tai-e.md)|更新 [v0.5.4](detail/Tai-e.md#最近更新) 版本|
-|2026-06-27|[**CyberStrikeAI**](detail/CyberStrikeAI.md)|更新 [v1.6.47](detail/CyberStrikeAI.md#最近更新) 版本|
 |2026-06-17|[**KunLun-M**](detail/KunLun-M.md)|更新 [v2.15.1](detail/KunLun-M.md#最近更新) 版本|
-|2026-06-15|[**HackBrowserData**](detail/HackBrowserData.md)|更新 [v1.1.0](detail/HackBrowserData.md#最近更新) 版本|
-|2026-06-10|[**AntiDebug_Breaker**](detail/AntiDebug_Breaker.md)|更新 [v3.0.8](detail/AntiDebug_Breaker.md#最近更新) 版本|
-|2026-06-02|[**vArmor**](detail/vArmor.md)|更新 [v0.10.2](detail/vArmor.md#最近更新) 版本|
-|2026-05-28|[**ENScanGo**](detail/ENScanGo.md)|更新 [v2.0.5](detail/ENScanGo.md#最近更新) 版本|
-|2026-05-24|[**qscan**](detail/qscan.md)|更新 [v1.8.2](detail/qscan.md#最近更新) 版本|
 
 **2.StarRank**
 
 | 序号 | 项目名称 | 项目简介 | Star |
 |----|-----------|--------------------------|----|
-|1|[**HackBrowserData**](detail/HackBrowserData.md)|hack-browser-data 是一个解密浏览器数据（密码/历史记录/Cookies/书签）的导出工具，支持全平台主流浏览器的数据导出窃取。|14260|
-|2|[**fscan**](detail/fscan.md)|一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。支持主机存活探测、端口扫描、常见服务的爆破、ms17010、redis批量写公钥、计划任务反弹shell、读取win网卡信息、web指纹识别、web漏洞扫描、netbios探测、域控识别等功能。|14049|
-|3|[**dperf**](detail/dperf.md)|dperf 是一个100Gbps的网络性能与压力测试软件。国内多个知名安全厂商用dperf测试其防火墙。知名开源四层负载均衡DPVS在用dperf做性能测试，发布性能测试报告。|5572|
-|4|[**CyberStrikeAI**](detail/CyberStrikeAI.md)|CyberStrikeAI 是一款 AI 原生安全测试平台，基于 Go 构建，集成了 100+ 安全工具、智能编排引擎与完整的测试生命周期管理能力|4864|
-|5|[**CDK**](detail/CDK.md)|CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器内部提供零依赖的常用命令及PoC/EXP。集成Docker/K8s场景特有的逃逸、横向移动、持久化利用方式，插件化管理。|4693|
-|6|[**antSword**](detail/antSword.md)|中国蚁剑是一款开源的跨平台网站管理工具。|4627|
-|7|[**ENScanGo**](detail/ENScanGo.md)|一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。|4477|
-|8|[**afrog**](detail/afrog.md)|afrog 是一款性能卓越、快速稳定、PoC 可定制的漏洞扫描工具，PoC 包含 CVE、CNVD、默认口令、信息泄露、指纹识别、未授权访问、任意文件读取、命令执行等多种漏洞类型，帮助网络安全从业者快速验证并及时修复漏洞。|4326|
-|9|[**HaE**](detail/HaE.md)|HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。|4234|
-|10|[**AiPy**](detail/AiPy.md)|AiPy是知道创宇站在AI技术变革前沿，基于LLM（大语言模型）与高级编程语言Python 完美融合，打造的一款突破性产品。AiPy以创新的技术范式和更低的成本，重构AI生产力边界，让大模型集思考能力和主动执行任务于一体。|3984|
+|1|[**HackBrowserData**](detail/HackBrowserData.md)|hack-browser-data 是一个解密浏览器数据（密码/历史记录/Cookies/书签）的导出工具，支持全平台主流浏览器的数据导出窃取。|14376|
+|2|[**fscan**](detail/fscan.md)|一款内网综合扫描工具，方便一键自动化、全方位漏扫扫描。支持主机存活探测、端口扫描、常见服务的爆破、ms17010、redis批量写公钥、计划任务反弹shell、读取win网卡信息、web指纹识别、web漏洞扫描、netbios探测、域控识别等功能。|14201|
+|3|[**dperf**](detail/dperf.md)|dperf 是一个100Gbps的网络性能与压力测试软件。国内多个知名安全厂商用dperf测试其防火墙。知名开源四层负载均衡DPVS在用dperf做性能测试，发布性能测试报告。|5583|
+|4|[**CyberStrikeAI**](detail/CyberStrikeAI.md)|CyberStrikeAI 是一款 AI 原生安全测试平台，基于 Go 构建，集成了 100+ 安全工具、智能编排引擎与完整的测试生命周期管理能力|5404|
+|5|[**CDK**](detail/CDK.md)|CDK是一款为容器环境定制的渗透测试工具，在已攻陷的容器内部提供零依赖的常用命令及PoC/EXP。集成Docker/K8s场景特有的逃逸、横向移动、持久化利用方式，插件化管理。|4721|
+|6|[**antSword**](detail/antSword.md)|中国蚁剑是一款开源的跨平台网站管理工具。|4666|
+|7|[**ENScanGo**](detail/ENScanGo.md)|一款基于各大企业信息API的工具，解决在遇到的各种针对国内企业信息收集难题。一键收集控股公司ICP备案、APP、小程序、微信公众号等信息聚合导出。|4597|
+|8|[**HaE**](detail/HaE.md)|HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。|4352|
+|9|[**afrog**](detail/afrog.md)|afrog 是一款性能卓越、快速稳定、PoC 可定制的漏洞扫描工具，PoC 包含 CVE、CNVD、默认口令、信息泄露、指纹识别、未授权访问、任意文件读取、命令执行等多种漏洞类型，帮助网络安全从业者快速验证并及时修复漏洞。|4344|
+|10|[**AiPy**](detail/AiPy.md)|AiPy是知道创宇站在AI技术变革前沿，基于LLM（大语言模型）与高级编程语言Python 完美融合，打造的一款突破性产品。AiPy以创新的技术范式和更低的成本，重构AI生产力边界，让大模型集思考能力和主动执行任务于一体。|4002|
 
 **3.项目更新**
 
 | 时间 | 项目迭代版本 |
 |----|-----------|
+|第31周|[**GShark**](detail/gshark.md) 更新 [v2.1.12](detail/gshark.md#最近更新) / [**agentic-soc-platform.json**](detail/agentic-soc-platform.md) 更新 [v0.5.2](detail/agentic-soc-platform.md#最近更新) / [**CyberStrikeAI**](detail/CyberStrikeAI.md) 更新 [v1.7.11](detail/CyberStrikeAI.md#最近更新) / [**g3proxy**](detail/g3proxy.md) 更新 [v1.12.4](detail/g3proxy.md#最近更新)|
+|第30周|[**MDUT**](detail/MDUT.md) 更新 [v3.1.1](detail/MDUT.md#最近更新)|
+|第29周|[**afrog**](detail/afrog.md) 更新 [v3.5.6](detail/afrog.md#最近更新) / [**fscan**](detail/fscan.md) 更新 [v2.2.0](detail/fscan.md#最近更新)|
+|第27周|[**vArmor**](detail/vArmor.md) 更新 [v0.10.3](detail/vArmor.md#最近更新)|
 |第26周|[**GShark**](detail/gshark.md) 更新 [v2.1.5](detail/gshark.md#最近更新) / [**agentic-soc-platform.json**](detail/agentic-soc-platform.md) 更新 [v0.4.1](detail/agentic-soc-platform.md#最近更新) / [**Tai-e**](detail/Tai-e.md) 更新 [v0.5.4](detail/Tai-e.md#最近更新) / [**CyberStrikeAI**](detail/CyberStrikeAI.md) 更新 [v1.6.47](detail/CyberStrikeAI.md#最近更新)|
 |第25周|[**KunLun-M**](detail/KunLun-M.md) 更新 [v2.15.1](detail/KunLun-M.md#最近更新) / [**HackBrowserData**](detail/HackBrowserData.md) 更新 [v1.1.0](detail/HackBrowserData.md#最近更新)|
 |第24周|[**AntiDebug_Breaker**](detail/AntiDebug_Breaker.md) 更新 [v3.0.8](detail/AntiDebug_Breaker.md#最近更新)|
 |第23周|[**vArmor**](detail/vArmor.md) 更新 [v0.10.2](detail/vArmor.md#最近更新)|
 |第22周|[**ENScanGo**](detail/ENScanGo.md) 更新 [v2.0.5](detail/ENScanGo.md#最近更新)|
 |第21周|[**qscan**](detail/qscan.md) 更新 [v1.8.2](detail/qscan.md#最近更新) / [**afrog**](detail/afrog.md) 更新 [v3.5.3](detail/afrog.md#最近更新)|
-|第20周|[**fscan**](detail/fscan.md) 更新 [v2.1.3](detail/fscan.md#最近更新)|
-|第19周|[**JNDIMap**](detail/JNDIMap.md) 更新 [v0.0.5](detail/JNDIMap.md#最近更新)|
-|第18周|[**JYso**](detail/JYso.md) 更新 [v1.3.8](detail/JYso.md#最近更新)|
-|第17周|[**antSword**](detail/antSword.md) 更新 [v2.1.16](detail/antSword.md#最近更新)|
 
 **4.新项目加入**
 
@@ -78,21 +78,21 @@
 | 序号 | 项目名称 | 作者 | 项目简介 | Star |
 |------|----------|------|----------|------|
 |1|[**Elkeid**](detail/Elkeid.md)|bytedance|Elkeid是一个云原生的基于主机的安全(入侵检测与风险识别)解决方案。Elkeid 包含两大部分：Elkeid Agent与Elkeid Driver作为数据采集层，它在Linux系统的内核和用户空间上均可使用，从而提供了具有更好性能的且更丰富的数据。 Elkeid Server可以提供百万级Agent的接入能力，采集Agent数据，支持控制与策略下发。包含实时、离线计算模块，对采集上来的数据进行分析和检测。又有自带的服务发现和管理系统，方便对整个后台管理和操作。|2655|
-|2|[**linglong**](detail/linglong.md)|awake1t|linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，进行端口爆破。帮助企业更快发现弱口令问题。主要功能包括: 资产探测、端口爆破、定时任务、管理后台识别、报表展示。|1830|
-|3|[**Tai-e**](detail/Tai-e.md)|pascal_lab|Tai-e（太阿）是一个通用型Java程序分析框架，包含了开发程序分析技术所需的各类基础设施，并提供了可配置性高、功能强大的污点分析系统，用于检测各类隐私泄露、注入攻击等安全漏洞。|1784|
+|2|[**linglong**](detail/linglong.md)|awake1t|linglong是一款甲方资产巡航扫描系统。系统定位是发现资产，进行端口爆破。帮助企业更快发现弱口令问题。主要功能包括: 资产探测、端口爆破、定时任务、管理后台识别、报表展示。|1843|
+|3|[**Tai-e**](detail/Tai-e.md)|pascal_lab|Tai-e（太阿）是一个通用型Java程序分析框架，包含了开发程序分析技术所需的各类基础设施，并提供了可配置性高、功能强大的污点分析系统，用于检测各类隐私泄露、注入攻击等安全漏洞。|1795|
 |4|[**murphysec**](detail/murphysec.md)|murphysecurity|墨菲安全专注于软件供应链安全，murphysec 是墨菲安全的 CLI 工具，用于在命令行检测指定目录代码的依赖安全问题，也可以基于 CLI 工具实现在 CI 流程的检测。|1753|
-|5|[**appshark**](detail/appshark.md)|bytedance|Appshark 是一个针对安卓的静态分析工具，它的设计目标是针对超大型App的分析，Appshark支持基于json的自定义扫描规则,发现自己关心的安全漏洞以及隐私合规问题，支持灵活配置，可以在准确率以及扫描时间空间之间寻求平衡，支持自定义扩展规则，根据自己的业务需要，进行定制分析|1739|
+|5|[**appshark**](detail/appshark.md)|bytedance|Appshark 是一个针对安卓的静态分析工具，它的设计目标是针对超大型App的分析，Appshark支持基于json的自定义扫描规则,发现自己关心的安全漏洞以及隐私合规问题，支持灵活配置，可以在准确率以及扫描时间空间之间寻求平衡，支持自定义扩展规则，根据自己的业务需要，进行定制分析|1750|
 |6|[**camille**](detail/camille.md)|zhengjim|现如今APP隐私合规十分重要，各监管部门不断开展APP专项治理工作及核查通报，不合规的APP通知整改或直接下架。camille可以hook住Android敏感接口，并识别是否为第三方SDK调用。根据隐私合规的场景，辅助检查是否符合隐私合规标准。|1677|
 |7|[**veinmind-tools**](detail/veinmind-tools.md)|长亭科技|veinmind-tools 是基于 veinmind-sdk 打造的一个容器安全工具集，目前已支持镜像 恶意文件/后门/敏感信息/弱口令 的扫描，更多功能正在逐步开发中。|1645|
 |8|[**OpenStar**](detail/OpenStar.md)|starjun|OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复杂规则编写。提供了常规的 HTTP 字段规则配置，还提供了 IP 黑白名单、访问频次等配置，对于 CC 防护更提供的特定的规则算法，并且支持搭建集群进行防护。|1282|
-|9|[**AppScan**](detail/AppScan.md)|TongchengOpenSource|安全隐私卫士（AppScan）一款免费的企业级自动化App隐私合规检测工具|1112|
+|9|[**AppScan**](detail/AppScan.md)|TongchengOpenSource|安全隐私卫士（AppScan）一款免费的企业级自动化App隐私合规检测工具|1122|
 |10|[**GShark**](detail/gshark.md)|madneal|一款开源敏感信息检测系统，可以监测包括 GitHub, GitLab(支持私有部署版本), Postman, searchcode 多个平台的敏感信息监测。|1035|
 
 **6.[分类:信息收集](reconnaissance.md)**
 
 | 序号 | 项目名称 | 作者 | 项目简介 | Star |
 |------|----------|------|----------|------|
-|1|[**HaE**](detail/HaE.md)|gh0stkey|HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。|4234|
+|1|[**HaE**](detail/HaE.md)|gh0stkey|HaE是一款可以快速挖掘目标指纹和关键信息的Burp插件。|4352|
 |2|[**AppInfoScanner**](detail/AppInfoScanner.md)|kelvinBen|一款适用于以HW行动/红队/渗透测试团队为场景的移动端(Android、iOS、WEB、H5、静态网站)信息收集扫描工具，可以帮助渗透测试工程师、攻击队成员、红队成员快速收集到移动端或者静态WEB站点中关键的资产信息并提供基本的信息输出,如：Title、Domain、CDN、指纹信息、状态信息等。|3537|
 |3|[**ksubdomain**](detail/ksubdomain.md)|w8ay|ksubdomain是一款基于无状态子域名爆破工具，支持在Windows/Linux/Mac上使用，它会很快的进行DNS爆破，在Mac和Windows上理论最大发包速度在30w/s,linux上为160w/s的速度。|1205|
 |4|[**qscan**](detail/qscan.md)|qi4L|一个速度极快的内网扫描器，具备端口扫描、协议检测、指纹识别，暴力破解，漏洞探测等功能。支持协议1200+，协议指纹10000+，应用指纹20000+，暴力破解协议10余种。|1184|

@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/vArmor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.10.2-red)
+![Version](https://img.shields.io/badge/Version-V0.10.3-red)
 ![Time](https://img.shields.io/badge/Join-20230831-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -55,6 +55,11 @@ vArmor 由字节跳动终端安全团队的 **Elkeid Team** 研发，目前该�
 
 
 ## 最近更新
+
+#### [v0.10.3] - 2026-07-05
+**功能特性**
+ - 为 NetworkProxy 强制执行器添加了基于 gRPC ALS 的审计日志报告，由代理进行规范化 
+
 
 #### [v0.10.2] - 2026-06-02
 **功能特性**
@@ -119,11 +124,5 @@ vArmor 由字节跳动终端安全团队的 **Elkeid Team** 研发，目前该�
 - 改进了 ArmorProfile 处理中的错误处理，以收集所有配置文件错误  
  -为 Kubernetes 客户端设置默认的 qps 和突发值  
 - 将 MaxTargetContainerCountForBpfLsm 的值从 100 增加到 110
-
-#### [v0.7.1] - 2025-04-23
-
-**更新**  
-- 修复了 procfs 中的路径匹配问题，以确保 FD 匹配正确  
-- 修复了 disallow-load-bpf-via-setsockopt 规则中对合法 setsockopt 调用的错误拦截
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

@@ -21,7 +21,7 @@
 ![Author](https://img.shields.io/badge/Author-Ed1s0nZ-orange)
 ![Language](https://img.shields.io/badge/Language-go-blue)
 ![GitHub stars](https://img.shields.io/github/stars/Ed1s0nZ/CyberStrikeAI.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.47-red)
+![Version](https://img.shields.io/badge/Version-V1.7.11-red)
 
 <https://github.com/Ed1s0nZ/CyberStrikeAI>
 
@@ -91,7 +91,7 @@ Passive Scan Client是一款可以将经过筛选的流量转发到指定代理�
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/agentic-soc-platform.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.4.1-red)
+![Version](https://img.shields.io/badge/Version-V0.5.2-red)
 
 <https://github.com/FunnyWolf/agentic-soc-platform>
 
@@ -101,7 +101,7 @@ Agentic SOC Platform 是一个功能强大、灵活且开源的自动化安全�
 ![Author](https://img.shields.io/badge/Author-Push3AX-orange)
 ![Language](https://img.shields.io/badge/Language-C-blue)
 ![GitHub stars](https://img.shields.io/github/stars/Push3AX/GrabAccess.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.1-red)
+![Version](https://img.shields.io/badge/Version-V1.2-red)
 
 <https://github.com/Push3AX/GrabAccess>
 

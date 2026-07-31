@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-shadow1ng-orange)
 ![GitHub stars](https://img.shields.io/github/stars/shadow1ng/fscan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.3-red)
+![Version](https://img.shields.io/badge/Version-V2.2.0-red)
 ![Time](https://img.shields.io/badge/Join-20210422-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -249,6 +249,11 @@ paru -S fscan-git
 
 ## 最近更新
 
+#### [v2.2.0] - 2026-07-15
+
+ - 提升大规模扫描稳定性、POC 扫描可靠性、非标准端口服务识别、插件隔离和嵌入式 SDK 能力。
+
+
 #### [v2.1.3] - 2026-05-15
 
  - 2e277a5: fix: 修复 plugins/local 未使用变量导致编译失败 (@ZacharyZcR) 
@@ -284,11 +289,5 @@ paru -S fscan-git
 * 优化报错处理，避免部分扫描模块报错后导致的程序退出  
 * linux(amd64)默认使用fscan  
 * windows(x64)默认使用fscan.exe
-
-#### [v1.8.2] - 2022-11-19
-
-**更新**  
-- 新增 hash 碰撞  
-- 新增 wmiiexec 无回显命令执行
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

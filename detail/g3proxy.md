@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Rust-blue)
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/g3.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.12.3-red)
+![Version](https://img.shields.io/badge/Version-V1.12.4-red)
 ![Time](https://img.shields.io/badge/Join-20250401-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -187,6 +187,12 @@ docker build -f <app>/docker/debian.Dockerfile github.com/bytedance/g3 -t <app>:
 
 
 ## 最近更新
+
+#### [v1.12.4] - 2026-07-28
+
+ **错误修复**：停止在任务统计信息中重复计算 sni_proxy 握手前的字节数 
+ **错误修复**：将过长的 FTP 列表行拆分到多个 HTTP 数据块中
+
 
 #### [v1.12.3] - 2026-03-10
 
