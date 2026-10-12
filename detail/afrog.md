@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.5.6-red)
+![Version](https://img.shields.io/badge/Version-V3.5.8-red)
 ![Time](https://img.shields.io/badge/Join-20220615-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -141,6 +141,14 @@ afrog -t https://example.com -ja result.json
 
 ## 最近更新
 
+#### [v3.5.8] - 2026-10-11
+
+  **修复**: 
+  - RunEval goroutine 泄漏：超时或求值报错提前返回时，求值 goroutine 会永久阻塞在无缓冲 channel 发送上。
+ -  go.mod 升级到 Go 1.27.1 工具链 
+ - 全新 afrog 内置 web 端 
+
+
 #### [v3.5.6] - 2026-07-19
 
   **修复**: OOB 类型漏洞在“最终结果收敛后”丢失请求/响应过程数据，导致 HTML 报告和 -web 页面无法展示完整漏洞过程的问题。
@@ -175,11 +183,5 @@ afrog -t https://example.com -ja result.json
  - Shiro-key 支持回归 
  - Backup-files 支持回归
  
-
-#### [v3.2.5] - 2025-11-20
-
-**修复紧急 bug** 
- - 多个协程同时修改共享map数据，导致数据混乱，程序崩溃。 
-
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

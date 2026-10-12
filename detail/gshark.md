@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.12-red)
+![Version](https://img.shields.io/badge/Version-V2.1.27-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -198,6 +198,11 @@ You are supposed to rename `config-temp.yaml` to `config.yaml` and config the da
 
 ## 最近更新
 
+#### [v2.1.27] - 2026-10-05
+
+ **修复** -  Sourcegraph 扫描范围问题，默认排除 GitHub 仓库，避免与 GitHub 扫描重复获取相同结果。
+
+
 #### [v2.1.12] - 2026-07-30
 
  **修复** - 当 GitLab 实例不支持全局组代码搜索时，则回退到单独爬取存储库。 
@@ -232,13 +237,5 @@ You are supposed to rename `config-temp.yaml` to `config.yaml` and config the da
 - 修复 match 不是有效 json 的情况  
 - 修复 docker 的 golang 版本问题  
 - 修复大语言模型分析 Postman 结果时候的问题
-
-#### [v1.6.1] - 2025-02-22
-
-**修复**  
-- 修复邮件发送功能  
-- 搜索结果按照 id 降序排序  
-- 更新 config 模板  
-- 修复 Postman 搜索功能
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

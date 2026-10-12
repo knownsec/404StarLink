@@ -31,6 +31,7 @@
     * [ZoomEye-Tools](#zoomeye-tools)
     * [ZoomEye-go](#zoomeye-go)
     * [vultrap](#vultrap)
+    * [ip-radar](#ip-radar)
 
 * [漏洞探测/vulnerability_assessment](#漏洞探测vulnerability_assessment)
     * [afrog](#afrog)
@@ -73,8 +74,8 @@
     * [antSword](#antsword)
     * [Stowaway](#stowaway)
     * [shellcodeloader](#shellcodeloader)
-    * [ServerScan](#serverscan)
     * [Platypus](#platypus)
+    * [ServerScan](#serverscan)
     * [WMIHACKER](#wmihacker)
     * [rakshasa](#rakshasa)
     * [As-Exploits](#as-exploits)
@@ -84,8 +85,8 @@
 * [其他/others](#其他others)
     * [CyberStrikeAI](#cyberstrikeai)
     * [AiPy](#aipy)
-    * [f8x](#f8x)
     * [AntiDebug_Breaker](#antidebug_breaker)
+    * [f8x](#f8x)
     * [Heimdallr](#heimdallr)
     * [BinAbsInspector](#binabsinspector)
     * [passive-scan-client](#passive-scan-client)
@@ -204,7 +205,7 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.12-red)
+![Version](https://img.shields.io/badge/Version-V2.1.27-red)
 
 <https://github.com/madneal/gshark>
 
@@ -214,7 +215,7 @@ OpenStar 是一个基于 OpenResty 的高性能 Web 应用防火墙，支持复�
 ![Author](https://img.shields.io/badge/Author-bytedance-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/bytedance/vArmor.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.10.3-red)
+![Version](https://img.shields.io/badge/Version-V0.10.5-red)
 
 <https://github.com/bytedance/vArmor>
 
@@ -383,6 +384,16 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 
 在开源领域，从来不缺少优秀的漏洞POC框架和POC，现今情况下，当有相关漏洞的漏洞情报出现的时候，其用于漏洞的验证的POC代码或利用请求都会很快的被公布在互联网上，比如Nuclei等漏洞检测框架也会即时得跟进新的漏洞，并以漏洞检测模板的形式进行更新，如nuclei 的nuclei-temaplte 仓库几乎每天都会出现新的漏洞需求和检测模板提交。对于漏洞检测模板而言，其主要目的用来验证目标是否存在漏洞，但仔细了解漏洞检测的机制之后，漏洞检测大多数情况下实际就是构造请求和判断响应的过程，那么基于次，是否可以反向思维，通过判断漏洞验证的请求来返回迷惑性的结果，扰乱扫描器的判断呢，其实本质还是honeypot的思路，也可以称“漏洞伪装”，也是本项目 vultrap的实现背景。
 
+### [ip-radar](detail/ip-radar.md)
+![Author](https://img.shields.io/badge/Author-steponeerror-orange)
+![Language](https://img.shields.io/badge/Language-python-blue)
+![GitHub stars](https://img.shields.io/github/stars/steponeerror/ip-radar.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.4.2-red)
+
+<https://github.com/steponeerror/ip-radar>
+
+One verdict per IP, in plain words — evidence, confidence, geo & ASN fused from 42 public intel sources. 38/42 need no API key. One command, fully self-hosted.
+
 
 
 ## 漏洞探测/vulnerability_assessment
@@ -390,7 +401,7 @@ ZoomEye-go 是一款基于 ZoomEye API 开发的 Golang 库，提供了 ZoomEye 
 ![Author](https://img.shields.io/badge/Author-zan8in-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/zan8in/afrog.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.5.6-red)
+![Version](https://img.shields.io/badge/Version-V3.5.8-red)
 
 <https://github.com/zan8in/afrog>
 
@@ -616,7 +627,7 @@ hack-browser-data 是一个解密浏览器数据（密码/历史记录/Cookies/�
 ![Author](https://img.shields.io/badge/Author-LoRexxar-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/LoRexxar/Kunlun-M.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.15.1-red)
+![Version](https://img.shields.io/badge/Version-V3.0.0-1-red)
 
 <https://github.com/LoRexxar/Kunlun-M>
 
@@ -699,7 +710,7 @@ CodeReviewTools是一个可以快速批量反编译jar包的工具，为审计Ja
 ![Author](https://img.shields.io/badge/Author-shadow1ng-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/shadow1ng/fscan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.2.0-red)
+![Version](https://img.shields.io/badge/Version-V2.2.2-red)
 
 <https://github.com/shadow1ng/fscan>
 
@@ -735,16 +746,6 @@ Stowaway 是一款多级代理工具，可将外部流量通过多个节点代�
 
 Windows平台的shellcode免杀加载器，自带多种加载方式：32位自带13种加载方式，64位自带12种加载方式。
 
-### [ServerScan](detail/ServerScan.md)
-![Author](https://img.shields.io/badge/Author-Adminisme-orange)
-![Language](https://img.shields.io/badge/Language-Golang-blue)
-![GitHub stars](https://img.shields.io/github/stars/Adminisme/ServerScan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.0.2-red)
-
-<https://github.com/Adminisme/ServerScan>
-
-一款使用Golang开发且适用于攻防演习内网横向信息收集的高并发网络扫描、服务探测工具。
-
 ### [Platypus](detail/Platypus.md)
 ![Author](https://img.shields.io/badge/Author-WangYihang-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
@@ -754,6 +755,16 @@ Windows平台的shellcode免杀加载器，自带多种加载方式：32位自�
 <https://github.com/WangYihang/Platypus>
 
 Platypus 是一个基于终端与 Web UI 交互式的反弹 Shell 会话管理工具。在实际的渗透测试中，为了解决 Netcat/Socat 等工具在文件传输、多会话管理方面的不足。该工具在多会话管理的基础上增加了在渗透测试中更加有用的功能，可以更方便灵活地对反弹 Shell 会话进行管理。
+
+### [ServerScan](detail/ServerScan.md)
+![Author](https://img.shields.io/badge/Author-Adminisme-orange)
+![Language](https://img.shields.io/badge/Language-Golang-blue)
+![GitHub stars](https://img.shields.io/github/stars/Adminisme/ServerScan.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.0.2-red)
+
+<https://github.com/Adminisme/ServerScan>
+
+一款使用Golang开发且适用于攻防演习内网横向信息收集的高并发网络扫描、服务探测工具。
 
 ### [WMIHACKER](detail/WMIHACKER.md)
 ![Author](https://img.shields.io/badge/Author-rootclay-orange)
@@ -828,6 +839,16 @@ CyberStrikeAI 是一款 AI 原生安全测试平台，基于 Go 构建，集成�
 
 AiPy是知道创宇站在AI技术变革前沿，基于LLM（大语言模型）与高级编程语言Python 完美融合，打造的一款突破性产品。AiPy以创新的技术范式和更低的成本，重构AI生产力边界，让大模型集思考能力和主动执行任务于一体。
 
+### [AntiDebug_Breaker](detail/AntiDebug_Breaker.md)
+![Author](https://img.shields.io/badge/Author-0xsdeo-orange)
+![Language](https://img.shields.io/badge/Language-JavaScript-blue)
+![GitHub stars](https://img.shields.io/github/stars/0xsdeo/AntiDebug_Breaker.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V3.1.2-red)
+
+<https://github.com/0xsdeo/AntiDebug_Breaker>
+
+本插件是基于Hook_JS库所写的Google插件，将致力于辅助前端JavaScript逆向以及渗透测试信息收集。
+
 ### [f8x](detail/f8x.md)
 ![Author](https://img.shields.io/badge/Author-ffffffff0x-orange)
 ![Language](https://img.shields.io/badge/Language-Bash-blue)
@@ -837,16 +858,6 @@ AiPy是知道创宇站在AI技术变革前沿，基于LLM（大语言模型）�
 <https://github.com/ffffffff0x/f8x>
 
 一款红/蓝队环境自动化部署工具,支持多种场景,渗透,开发,代理环境,服务可选项等。
-
-### [AntiDebug_Breaker](detail/AntiDebug_Breaker.md)
-![Author](https://img.shields.io/badge/Author-0xsdeo-orange)
-![Language](https://img.shields.io/badge/Language-JavaScript-blue)
-![GitHub stars](https://img.shields.io/github/stars/0xsdeo/AntiDebug_Breaker.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.0.8-red)
-
-<https://github.com/0xsdeo/AntiDebug_Breaker>
-
-本插件是基于Hook_JS库所写的Google插件，将致力于辅助前端JavaScript逆向以及渗透测试信息收集。
 
 ### [Heimdallr](detail/Heimdallr.md)
 ![Author](https://img.shields.io/badge/Author-graynjo-orange)
@@ -882,7 +893,7 @@ Passive Scan Client是一款可以将经过筛选的流量转发到指定代理�
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/agentic-soc-platform.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.5.2-red)
+![Version](https://img.shields.io/badge/Version-V0.6.0-red)
 
 <https://github.com/FunnyWolf/agentic-soc-platform>
 

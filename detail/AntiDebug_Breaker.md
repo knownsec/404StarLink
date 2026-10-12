@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JavaScript-blue)
 ![Author](https://img.shields.io/badge/Author-0xsdeo-orange)
 ![GitHub stars](https://img.shields.io/github/stars/0xsdeo/AntiDebug_Breaker.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.0.8-red)
+![Version](https://img.shields.io/badge/Version-V3.1.2-red)
 ![Time](https://img.shields.io/badge/Join-20260311-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -17,6 +17,13 @@ README
 
 
 ## 最近更新
+
+#### [v3.1.2] - 2026-09-27
+
+ - 新增中英文支持 
+ - 优化界面显示 
+ - 修复 MCP 兼容与稳定性问题
+
 
 #### [v3.0.8] - 2026-06-10
 

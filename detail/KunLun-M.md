@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-LoRexxar-orange)
 ![GitHub stars](https://img.shields.io/github/stars/LoRexxar/Kunlun-M.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.15.1-red)
+![Version](https://img.shields.io/badge/Version-V3.0.0-1-red)
 ![Time](https://img.shields.io/badge/Join-20200821-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -288,6 +288,11 @@ rules/{语言类型}/CVI_xxxx.py
 - 2022-08-23 发布演示视频[404星链计划开源安全工具演示——KunLun-M](https://www.bilibili.com/video/BV15a411G7CT)
 
 ## 最近更新
+
+#### [v3.0.0-1] - 2026-09-27
+
+ **修复settings配置和旧版本的兼容问题** 
+
 
 #### [v2.15.1] - 2026-06-17
 

@@ -2,8 +2,8 @@
 
 1. [CyberStrikeAI](#cyberstrikeai)
 2. [AiPy](#aipy)
-3. [f8x](#f8x)
-4. [AntiDebug_Breaker](#antidebug_breaker)
+3. [AntiDebug_Breaker](#antidebug_breaker)
+4. [f8x](#f8x)
 5. [Heimdallr](#heimdallr)
 6. [BinAbsInspector](#binabsinspector)
 7. [passive-scan-client](#passive-scan-client)
@@ -37,6 +37,16 @@ CyberStrikeAI 是一款 AI 原生安全测试平台，基于 Go 构建，集成�
 
 AiPy是知道创宇站在AI技术变革前沿，基于LLM（大语言模型）与高级编程语言Python 完美融合，打造的一款突破性产品。AiPy以创新的技术范式和更低的成本，重构AI生产力边界，让大模型集思考能力和主动执行任务于一体。
 
+### [AntiDebug_Breaker](detail/AntiDebug_Breaker.md)
+![Author](https://img.shields.io/badge/Author-0xsdeo-orange)
+![Language](https://img.shields.io/badge/Language-JavaScript-blue)
+![GitHub stars](https://img.shields.io/github/stars/0xsdeo/AntiDebug_Breaker.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V3.1.2-red)
+
+<https://github.com/0xsdeo/AntiDebug_Breaker>
+
+本插件是基于Hook_JS库所写的Google插件，将致力于辅助前端JavaScript逆向以及渗透测试信息收集。
+
 ### [f8x](detail/f8x.md)
 ![Author](https://img.shields.io/badge/Author-ffffffff0x-orange)
 ![Language](https://img.shields.io/badge/Language-Bash-blue)
@@ -46,16 +56,6 @@ AiPy是知道创宇站在AI技术变革前沿，基于LLM（大语言模型）�
 <https://github.com/ffffffff0x/f8x>
 
 一款红/蓝队环境自动化部署工具,支持多种场景,渗透,开发,代理环境,服务可选项等。
-
-### [AntiDebug_Breaker](detail/AntiDebug_Breaker.md)
-![Author](https://img.shields.io/badge/Author-0xsdeo-orange)
-![Language](https://img.shields.io/badge/Language-JavaScript-blue)
-![GitHub stars](https://img.shields.io/github/stars/0xsdeo/AntiDebug_Breaker.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.0.8-red)
-
-<https://github.com/0xsdeo/AntiDebug_Breaker>
-
-本插件是基于Hook_JS库所写的Google插件，将致力于辅助前端JavaScript逆向以及渗透测试信息收集。
 
 ### [Heimdallr](detail/Heimdallr.md)
 ![Author](https://img.shields.io/badge/Author-graynjo-orange)
@@ -91,7 +91,7 @@ Passive Scan Client是一款可以将经过筛选的流量转发到指定代理�
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/agentic-soc-platform.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.5.2-red)
+![Version](https://img.shields.io/badge/Version-V0.6.0-red)
 
 <https://github.com/FunnyWolf/agentic-soc-platform>
 

@@ -26,7 +26,7 @@ hack-browser-data 是一个解密浏览器数据（密码/历史记录/Cookies/�
 ![Author](https://img.shields.io/badge/Author-LoRexxar-orange)
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![GitHub stars](https://img.shields.io/github/stars/LoRexxar/Kunlun-M.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.15.1-red)
+![Version](https://img.shields.io/badge/Version-V3.0.0-1-red)
 
 <https://github.com/LoRexxar/Kunlun-M>
 

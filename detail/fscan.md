@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-shadow1ng-orange)
 ![GitHub stars](https://img.shields.io/github/stars/shadow1ng/fscan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.2.0-red)
+![Version](https://img.shields.io/badge/Version-V2.2.2-red)
 ![Time](https://img.shields.io/badge/Join-20210422-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -249,6 +249,11 @@ paru -S fscan-git
 
 ## 最近更新
 
+#### [v2.2.2] - 2026-10-02
+
+ -  重点解决扫描参数未生效、目标遗漏、SMTP 扫描挂起、POC 表达式兼容性和结果备份丢失问题。 
+
+
 #### [v2.2.0] - 2026-07-15
 
  - 提升大规模扫描稳定性、POC 扫描可靠性、非标准端口服务识别、插件隔离和嵌入式 SDK 能力。
@@ -282,12 +287,5 @@ paru -S fscan-git
 
 **更新**  
 - 全面代码重构，项目结构重构，插件逻辑优化，项目文档添加，规范化输出、新增本地敏感信息搜集插件等
-
-#### [v1.8.4] - 2024-05-11
-
-**更新**  
-* 优化报错处理，避免部分扫描模块报错后导致的程序退出  
-* linux(amd64)默认使用fscan  
-* windows(x64)默认使用fscan.exe
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
