@@ -8,7 +8,7 @@
 
 星链计划将不断地收集优秀的安全开源项目，对收录的项目提供技术支持，持续跟踪和展示项目的更新和动态，并建立了星链计划社区，社区用户可以通过星链展示板块探索自己感兴趣的项目，同时还可以在社区内快速为开源作者反馈问题。以此方式帮助开源项目成长，促进安全社区发展。
 
-![Stargazers over time](https://starchart.cc/knownsec/404StarLink.svg)
+
 
 ## 展示/Exhibition
 <!--auto_index_exhibition_begin_5ffbdd274903479a5d958dd90847b2de-->
