@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-Ch1ngg-orange)
 ![GitHub stars](https://img.shields.io/github/stars/SafeGroceryStore/MDUT.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.1.1-red)
+![Version](https://img.shields.io/badge/Version-V3.2.0-red)
 ![Time](https://img.shields.io/badge/Join-20210702-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -40,6 +40,30 @@ MDUT 全称 Multiple Database Utilization Tools，是一款中文的数据库跨
 
 
 ## 最近更新
+
+#### [v3.2.0] - 2026-10-20
+## 更新日志
+
+完整变更记录请查看 CHANGELOG：
+- [中文](https://github.com/SafeGroceryStore/MDUT/blob/main/CHANGELOG.md)
+---
+
+## Changelog
+
+For the full list of changes, please see the CHANGELOG:
+- [English](https://github.com/SafeGroceryStore/MDUT/blob/main/CHANGELOG_EN.md)
+
+#### [v3.1.2] - 2026-10-17
+## 更新日志
+
+完整变更记录请查看 CHANGELOG：
+- [中文](https://github.com/SafeGroceryStore/MDUT/blob/v3/CHANGELOG.md)
+---
+
+## Changelog
+
+For the full list of changes, please see the CHANGELOG:
+- [English](https://github.com/SafeGroceryStore/MDUT/blob/v3/CHANGELOG_EN.md)
 
 #### [v3.1.1] - 2026-07-23
 
@@ -88,20 +112,5 @@ MDUT 全称 Multiple Database Utilization Tools，是一款中文的数据库跨
 
 **Redis**  
 - 添加 slave-read-only 功能
-
-#### [v2.0.8] - 2021-12-01
-
-**核心**  
-- 修复 Mssql 连接 2000 时候的语句兼容性问题  
-- 设置程序默认编码  
-- 删除敏感文件(详细说明情况请看文档里的公告一栏)
-
-#### [v2.0.6] - 2021-08-17
-
-**核心**  
-- 优化内部代码  
-- 删除软件自启更新功能  
-- 优化更新功能界面，增加在线下载更新功能(Github Api)  
-- 后续不再强制要求先下载 v2.0 版，下载即用
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

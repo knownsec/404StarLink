@@ -21,7 +21,7 @@
 ![Author](https://img.shields.io/badge/Author-Ed1s0nZ-orange)
 ![Language](https://img.shields.io/badge/Language-go-blue)
 ![GitHub stars](https://img.shields.io/github/stars/Ed1s0nZ/CyberStrikeAI.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.7.11-red)
+![Version](https://img.shields.io/badge/Version-V1.7.24-red)
 
 <https://github.com/Ed1s0nZ/CyberStrikeAI>
 

@@ -16,6 +16,7 @@
 14. [Redis-Rogue-Server](#redis-rogue-server)
 15. [Cola-Dnslog](#cola-dnslog)
 16. [MysqlT](#mysqlt)
+17. [keyrealm](#keyrealm)
 
 ----------------------------------------
 
@@ -53,7 +54,7 @@ pocsuite3是由Knownsec 404团队开发的开源远程漏洞测试和概念验�
 ![Author](https://img.shields.io/badge/Author-Ch1ngg-orange)
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![GitHub stars](https://img.shields.io/github/stars/SafeGroceryStore/MDUT.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.1.1-red)
+![Version](https://img.shields.io/badge/Version-V3.2.0-red)
 
 <https://github.com/SafeGroceryStore/MDUT>
 
@@ -178,4 +179,14 @@ Cola Dnslog 是一款更加强大的dnslog平台(无回显漏洞探测辅助平�
 <https://github.com/BeichenDream/MysqlT>
 
 伪造Myslq服务端,并利用Mysql逻辑漏洞来获取客户端的任意文件反击攻击。
+
+### [keyrealm](detail/keyrealm.md)
+![Author](https://img.shields.io/badge/Author-YZBRH-orange)
+![Language](https://img.shields.io/badge/Language-Python-blue)
+![GitHub stars](https://img.shields.io/github/stars/YZBRH/keyrealm.svg?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Version-V1.4.6-red)
+
+<https://github.com/YZBRH/keyrealm>
+
+Local-first credential manager & validator for red teams / pentest：致力于 ALL IN ONE 的本地凭据管理与验证平台。 允许将红队渗透测试中获取的散落在各处的 API Key、云厂商 AK/SK、机器人 Token、邮箱授权码、登录态等集中加密保管、便捷验证与快速利用。多插件多类别，单条·批量·定时验证，内置 MCP Server；AES-256-GCM 字段级加密，每凭据可选代理出口，加密/明文备份可跨库还原；数据只存本机、不联网同步，Windows / macOS / Linux。
 

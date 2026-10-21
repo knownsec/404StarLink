@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-LoRexxar-orange)
 ![GitHub stars](https://img.shields.io/github/stars/LoRexxar/Kunlun-M.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.0.0-1-red)
+![Version](https://img.shields.io/badge/Version-V3.0.1-red)
 ![Time](https://img.shields.io/badge/Join-20200821-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -288,6 +288,31 @@ rules/{语言类型}/CVI_xxxx.py
 - 2022-08-23 发布演示视频[404星链计划开源安全工具演示——KunLun-M](https://www.bilibili.com/video/BV15a411G7CT)
 
 ## 最近更新
+
+#### [v3.0.1] - 2026-10-12
+- 2026-10-12
+  - KunLun-M 3.0.1
+  - **引擎精度专项 — 污点分析守卫与净化识别（Fix 22 → 30）**
+    - 全部修复由真实项目（phpcms、osTicket、e107、microweber、xoops26 等）逐条 FP/TP 验证驱动，每条含合成图探针 + 真实重扫/CI 矩阵双重回归；FP 判定 22 → 13（9 条经重扫实证转 stale），全局账本 tp 1201 / fp 13 / stale 338
+
+  - **新增守卫（命中即 -1 / code=2）**
+    - Fix 22a：`isset($LITERAL_ARRAY[$var])` 键白名单守卫——分支体必终止时，数组字面量键集即变量约束（phplist3 configure.php）
+    - Fix 23 系列：固定 host `CURLOPT_URL` 污点钉扎——`curl_setopt($ch, CURLOPT_URL, 固定host . 仅query可控)` 非 SSRF；dfg 双向遍历 + 文件级候选/赋值查找 + scanner 侧 hook
+    - Fix 25：无调用者函数内的 sink 判死代码跳过（phpcms do_multi_post/do_post OAuth helper）
+    - Fix 26：pb 入口「实参 × 被调函数摘要/函数内 repair 重赋值」守卫——`intval(create_html())` 型被调方再赋值剪实参；同名函数 use 边绑定修复
+    - Fix 27：白名单守卫三缺陷修复——`call_vid` NameError（守卫从未生效）、md5 单向函数间接约束（`in_array(md5($url),$wl)` 钉死 $url）、`return;` 补入终止器判定
+    - Fix 28：urlencode 输出上下文守卫——echo 变量全部定义点叶子均被 urlencode 包裹时 HTML 属性内不可逃逸；叶子级核算（成员访问基座不在 ast 子树）+ 多分支定义 AND 聚合
+
+  - **净化器识别扩展**
+    - Fix 24：知识库目录化中性 builtin 不再误标 safe
+    - Fix 29：e107 官方过滤器 `$tp->filter()`/`getParser.filter` 入 repair 表（接收者限定形态，防误配 Laravel）
+    - CMS Made Simple `cleanValue()` 全 HTML 实体编码（cmsms 12 FP → 0）
+    - format-string 感知 sprintf/printf 建模 + 变量格式串两跳 DFG 解析
+    - goto 终止器支持 + or 多谓词白名单守卫（每谓词独立合格）
+
+  - **修复与工程**
+    - Fix 30：死代码跳过收窄至 PHP——Java servlet `doGet()`/JS express 路由回调是容器入口，无 cg 入边属正常，误杀导致 CI 6 连红（cmd_inject.java/js MISSING）；修复后 GitHub Actions 恢复 success
+    - collect 阶段过滤第三方 bundle 目录（a3rd/external_plugins/3rdparty 等，imcat a3rd/paypal 
 
 #### [v3.0.0-1] - 2026-09-27
 
